@@ -1,0 +1,1423 @@
+{
+  "dex": 614,
+  "keyword": "beartic",
+  "name": "Beartic",
+  "japaneseName": {
+    "kana": "ツンベアー",
+    "romaji": "Tunbear"
+  },
+  "type1": "Ice",
+  "type2": null,
+  "genus": "Freezing Pokémon",
+  "heightM": 2.6,
+  "weightKg": 260.0,
+  "stats": {
+    "hp": 95,
+    "attack": 130,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 80,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "snow-cloak",
+      "hidden": false,
+      "effect": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+    },
+    {
+      "name": "slush-rush",
+      "hidden": false,
+      "effect": "During Hail, this Pokémon has double Speed."
+    },
+    {
+      "name": "swift-swim",
+      "hidden": true,
+      "effect": "Doubles Speed during rain."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 613,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0614.png",
+    "shiny": "sprites/shiny/0614.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/614.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/614.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "120",
+      "flavorText": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/614.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/614.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Dark Grass",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Dark Grass",
+            "minLevel": 37,
+            "maxLevel": 37
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "bide",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "brine",
+            "level": 21
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 36
+          },
+          {
+            "move": "icicle-crash",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "blizzard",
+            "level": 45
+          },
+          {
+            "move": "hail",
+            "level": 53
+          },
+          {
+            "move": "thrash",
+            "level": 59
+          },
+          {
+            "move": "sheer-cold",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "cut",
+          "dig",
+          "dive",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "196",
+      "flavorText": "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/614.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/614.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Dark Grass",
+            "minLevel": 65,
+            "maxLevel": 66
+          },
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 58
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Dark Grass",
+            "minLevel": 65,
+            "maxLevel": 66
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 58
+          },
+          {
+            "location": "Twist Mountain B1f 3f",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 56
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "bide",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "brine",
+            "level": 21
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 36
+          },
+          {
+            "move": "icicle-crash",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "blizzard",
+            "level": 45
+          },
+          {
+            "move": "hail",
+            "level": 53
+          },
+          {
+            "move": "thrash",
+            "level": 59
+          },
+          {
+            "move": "sheer-cold",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "cut",
+          "dig",
+          "dive",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "ice-punch",
+          "icy-wind",
+          "low-kick",
+          "sleep-talk",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M82",
+      "flavorText": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/614.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/614.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Frost Cavern Unknown Area 314",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          },
+          {
+            "location": "Frost Cavern Unknown Area 315",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          },
+          {
+            "location": "Frost Cavern Unknown Area 316",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          },
+          {
+            "location": "Frost Cavern Unknown Area 317",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "thrash",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "brine",
+            "level": 21
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 36
+          },
+          {
+            "move": "icicle-crash",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "blizzard",
+            "level": 45
+          },
+          {
+            "move": "hail",
+            "level": 53
+          },
+          {
+            "move": "thrash",
+            "level": 59
+          },
+          {
+            "move": "sheer-cold",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/614.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/614.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "thrash",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "brine",
+            "level": 21
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 36
+          },
+          {
+            "move": "icicle-crash",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "blizzard",
+            "level": 45
+          },
+          {
+            "move": "hail",
+            "level": 53
+          },
+          {
+            "move": "thrash",
+            "level": 59
+          },
+          {
+            "move": "sheer-cold",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "dive",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "focus-punch",
+          "ice-punch",
+          "icy-wind",
+          "low-kick",
+          "snore",
+          "superpower",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/614.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/614.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-crash",
+            "level": 0
+          },
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icicle-crash",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "thrash",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "bide",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "play-nice",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "brine",
+            "level": 21
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "blizzard",
+            "level": 45
+          },
+          {
+            "move": "hail",
+            "level": 53
+          },
+          {
+            "move": "thrash",
+            "level": 59
+          },
+          {
+            "move": "sheer-cold",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/614.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/614.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-crash",
+            "level": 0
+          },
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icicle-crash",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "thrash",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "bide",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "play-nice",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "brine",
+            "level": 21
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "blizzard",
+            "level": 45
+          },
+          {
+            "move": "hail",
+            "level": 53
+          },
+          {
+            "move": "thrash",
+            "level": 59
+          },
+          {
+            "move": "sheer-cold",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "focus-punch",
+          "ice-punch",
+          "icy-wind",
+          "low-kick",
+          "snore",
+          "superpower",
+          "throat-chop",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "280",
+      "flavorText": "It swims energetically through frigid seas. When it gets tired, it freezes the seawater with its breath so it can rest on the ice.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-crash",
+            "level": 0
+          },
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "endure",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "icicle-crash",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 9
+          },
+          {
+            "move": "play-nice",
+            "level": 12
+          },
+          {
+            "move": "brine",
+            "level": 15
+          },
+          {
+            "move": "frost-breath",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 21
+          },
+          {
+            "move": "flail",
+            "level": 24
+          },
+          {
+            "move": "swagger",
+            "level": 27
+          },
+          {
+            "move": "hail",
+            "level": 30
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 36
+          },
+          {
+            "move": "blizzard",
+            "level": 41
+          },
+          {
+            "move": "sheer-cold",
+            "level": 46
+          },
+          {
+            "move": "superpower",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "body-press",
+          "brick-break",
+          "brine",
+          "bulk-up",
+          "bulldoze",
+          "charm",
+          "dig",
+          "dive",
+          "encore",
+          "endure",
+          "facade",
+          "fling",
+          "focus-blast",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "heavy-slam",
+          "hyper-beam",
+          "ice-beam",
+          "ice-fang",
+          "ice-punch",
+          "icicle-spear",
+          "icy-wind",
+          "liquidation",
+          "low-kick",
+          "mega-kick",
+          "mega-punch",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scary-face",
+          "shadow-claw",
+          "sleep-talk",
+          "snore",
+          "stone-edge",
+          "substitute",
+          "superpower",
+          "surf",
+          "swords-dance",
+          "taunt",
+          "throat-chop"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P356",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/614.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: Glaseado Mountain | Tera Raid Battles (4★ Beartic)",
+          "Chargestone Cavern, Polar Biome"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-crash",
+            "level": 0
+          },
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "endure",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 9
+          },
+          {
+            "move": "play-nice",
+            "level": 12
+          },
+          {
+            "move": "brine",
+            "level": 15
+          },
+          {
+            "move": "frost-breath",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 21
+          },
+          {
+            "move": "flail",
+            "level": 24
+          },
+          {
+            "move": "swagger",
+            "level": 27
+          },
+          {
+            "move": "snowscape",
+            "level": 30
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 36
+          },
+          {
+            "move": "blizzard",
+            "level": 41
+          },
+          {
+            "move": "sheer-cold",
+            "level": 46
+          },
+          {
+            "move": "superpower",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "charm",
+          "chilling-water",
+          "close-combat",
+          "crunch",
+          "curse",
+          "dig",
+          "double-edge",
+          "earthquake",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "grass-knot",
+          "hard-press",
+          "heavy-slam",
+          "hyper-beam",
+          "ice-beam",
+          "ice-fang",
+          "ice-punch",
+          "icicle-spear",
+          "icy-wind",
+          "liquidation",
+          "low-kick",
+          "metal-claw",
+          "mud-shot",
+          "mud-slap",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "scary-face",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "snowscape",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swords-dance",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "trailblaze",
+          "water-pulse",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

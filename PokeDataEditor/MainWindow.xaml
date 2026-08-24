@@ -1,0 +1,309 @@
+<Window x:Class="PokeDataEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="PokeData Editor" Height="820" Width="1280"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="0,0,0,12"/>
+            <Setter Property="Padding" Value="8"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,2,8,2"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,2,12,2"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="MinWidth" Value="90"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="0,2,12,2"/>
+            <Setter Property="MinWidth" Value="120"/>
+        </Style>
+        <Style TargetType="CheckBox">
+            <Setter Property="Margin" Value="0,4,12,4"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Species list -->
+        <DockPanel Grid.Column="0" Margin="10">
+            <TextBlock DockPanel.Dock="Top" Text="Species" FontWeight="Bold" FontSize="16" Margin="0,0,0,8"/>
+            <TextBox DockPanel.Dock="Top" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                     Margin="0,0,0,8" ToolTip="Search by name or dex number"/>
+            <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="0,8,0,0">
+                <Button Content="New species" Command="{Binding NewSpeciesCommand}" Padding="8,4" Margin="0,0,6,0"/>
+                <Button Content="Delete" Command="{Binding DeleteSpeciesCommand}" Padding="8,4" Margin="0,0,6,0"/>
+                <Button Content="Manage games..." Click="ManageGames_Click" Padding="8,4"/>
+            </StackPanel>
+            <ListBox ItemsSource="{Binding SpeciesList}" DisplayMemberPath="Display"
+                     SelectionChanged="SpeciesListBox_SelectionChanged" x:Name="SpeciesListBox"/>
+        </DockPanel>
+
+        <!-- Edit panel -->
+        <Grid Grid.Column="1" Margin="0,10,10,10" IsEnabled="{Binding HasSelection}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TabControl Grid.Row="0" DataContext="{Binding CurrentSpecies}">
+                <!-- ============================= IDENTITY ============================= -->
+                <TabItem Header="Identity">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel Margin="12">
+                            <GroupBox Header="Identity">
+                                <StackPanel>
+                                    <WrapPanel>
+                                        <Label Content="Dex #"/>
+                                        <TextBox Text="{Binding Dex}" Width="60"/>
+                                        <Label Content="Keyword"/>
+                                        <TextBox Text="{Binding Keyword}" Width="120"/>
+                                        <Label Content="Name"/>
+                                        <TextBox Text="{Binding Name}" Width="150"/>
+                                    </WrapPanel>
+                                    <WrapPanel>
+                                        <Label Content="Type 1"/>
+                                        <TextBox Text="{Binding Type1}" Width="90"/>
+                                        <Label Content="Type 2"/>
+                                        <TextBox Text="{Binding Type2}" Width="90"/>
+                                        <Label Content="Genus"/>
+                                        <TextBox Text="{Binding Genus}" Width="160"/>
+                                    </WrapPanel>
+                                    <WrapPanel>
+                                        <Label Content="Height (m)"/>
+                                        <TextBox Text="{Binding HeightM}" Width="70"/>
+                                        <Label Content="Weight (kg)"/>
+                                        <TextBox Text="{Binding WeightKg}" Width="70"/>
+                                    </WrapPanel>
+                                    <WrapPanel DataContext="{Binding JapaneseName}">
+                                        <Label Content="Japanese (kana)"/>
+                                        <TextBox Text="{Binding Kana}" Width="140"/>
+                                        <Label Content="Romaji"/>
+                                        <TextBox Text="{Binding Romaji}" Width="140"/>
+                                    </WrapPanel>
+                                    <Label Content="Gender difference (leave blank if none)"/>
+                                    <TextBox Text="{Binding GenderDifference}" TextWrapping="Wrap" AcceptsReturn="True"/>
+                                </StackPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Base stats">
+                                <WrapPanel DataContext="{Binding Stats}">
+                                    <Label Content="HP"/>
+                                    <TextBox Text="{Binding Hp}" Width="50"/>
+                                    <Label Content="Attack"/>
+                                    <TextBox Text="{Binding Attack}" Width="50"/>
+                                    <Label Content="Defense"/>
+                                    <TextBox Text="{Binding Defense}" Width="50"/>
+                                    <Label Content="Sp. Atk"/>
+                                    <TextBox Text="{Binding SpecialAttack}" Width="50"/>
+                                    <Label Content="Sp. Def"/>
+                                    <TextBox Text="{Binding SpecialDefense}" Width="50"/>
+                                    <Label Content="Speed"/>
+                                    <TextBox Text="{Binding Speed}" Width="50"/>
+                                </WrapPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Abilities">
+                                <StackPanel>
+                                    <ItemsControl ItemsSource="{Binding Abilities}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Border BorderBrush="#DDD" BorderThickness="0,0,0,1" Padding="0,4">
+                                                    <WrapPanel>
+                                                        <Label Content="Name"/>
+                                                        <TextBox Text="{Binding Name}" Width="120"/>
+                                                        <CheckBox Content="Hidden" IsChecked="{Binding Hidden}"/>
+                                                        <Label Content="Effect"/>
+                                                        <TextBox Text="{Binding Effect}" Width="380"/>
+                                                    </WrapPanel>
+                                                </Border>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                    <StackPanel Orientation="Horizontal" Margin="0,6,0,0">
+                                        <Button Content="Add ability" Click="AddAbility_Click" Padding="6,3" Margin="0,0,6,0"/>
+                                        <Button Content="Remove last" Click="RemoveAbility_Click" Padding="6,3"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Breeding">
+                                <StackPanel DataContext="{Binding Breeding}">
+                                    <WrapPanel>
+                                        <Label Content="Gender rate (÷8 female, -1 = genderless)"/>
+                                        <TextBox Text="{Binding GenderRateEighthsFemale}" Width="50"/>
+                                        <Label Content="Hatch cycles"/>
+                                        <TextBox Text="{Binding HatchCycles}" Width="50"/>
+                                        <Label Content="Capture rate"/>
+                                        <TextBox Text="{Binding CaptureRate}" Width="50"/>
+                                        <Label Content="Base friendship"/>
+                                        <TextBox Text="{Binding BaseFriendship}" Width="50"/>
+                                        <Label Content="Growth rate"/>
+                                        <TextBox Text="{Binding GrowthRate}" Width="110"/>
+                                    </WrapPanel>
+                                    <Label Content="Egg groups (comma-separated)"/>
+                                    <TextBox Text="{Binding EggGroups, Converter={StaticResource StringListConverter}}"/>
+                                </StackPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Classification">
+                                <StackPanel DataContext="{Binding Classification}">
+                                    <WrapPanel>
+                                        <Label Content="Color"/>
+                                        <TextBox Text="{Binding Color}" Width="90"/>
+                                        <Label Content="Shape"/>
+                                        <TextBox Text="{Binding Shape}" Width="90"/>
+                                        <Label Content="Habitat"/>
+                                        <TextBox Text="{Binding Habitat}" Width="90"/>
+                                        <Label Content="Generation #"/>
+                                        <TextBox Text="{Binding GenerationIntroduced}" Width="50"/>
+                                    </WrapPanel>
+                                    <WrapPanel>
+                                        <CheckBox Content="Legendary" IsChecked="{Binding IsLegendary}"/>
+                                        <CheckBox Content="Mythical" IsChecked="{Binding IsMythical}"/>
+                                        <CheckBox Content="Baby" IsChecked="{Binding IsBaby}"/>
+                                    </WrapPanel>
+                                </StackPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Evolution">
+                                <StackPanel DataContext="{Binding Evolution}">
+                                    <WrapPanel>
+                                        <Label Content="Evolves from dex # (blank if none)"/>
+                                        <TextBox Text="{Binding EvolvesFromDex}" Width="60"/>
+                                    </WrapPanel>
+                                    <Label Content="Evolves into (dex #s, comma-separated)"/>
+                                    <TextBox Text="{Binding EvolvesIntoDex, Converter={StaticResource IntListConverter}}"/>
+                                </StackPanel>
+                            </GroupBox>
+
+                            <GroupBox Header="Home sprites (used for the National Dex view)">
+                                <WrapPanel DataContext="{Binding HomeSprites}">
+                                    <Label Content="Regular"/>
+                                    <TextBox Text="{Binding Regular}" Width="220"/>
+                                    <Label Content="Shiny"/>
+                                    <TextBox Text="{Binding Shiny}" Width="220"/>
+                                </WrapPanel>
+                            </GroupBox>
+                        </StackPanel>
+                    </ScrollViewer>
+                </TabItem>
+
+                <!-- ============================= GAMES ============================= -->
+                <TabItem Header="Per-game data">
+                    <Grid Margin="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DockPanel Grid.Column="0" Margin="0,0,12,0">
+                            <TextBlock DockPanel.Dock="Top" Text="Games with data" FontWeight="Bold" Margin="0,0,0,6"/>
+                            <ComboBox DockPanel.Dock="Top" x:Name="AddGameCombo"
+                                      ItemsSource="{Binding DataContext.AvailableGamesToAdd, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                                      DisplayMemberPath="DisplayName" Margin="0,0,0,6"/>
+                            <Button DockPanel.Dock="Top" Content="Add selected game" Click="AddGame_Click" Margin="0,0,0,10"/>
+                            <ListBox x:Name="AssignedGamesListBox"
+                                     ItemsSource="{Binding DataContext.AssignedGames, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                                     DisplayMemberPath="DisplayName"
+                                     SelectionChanged="AssignedGamesListBox_SelectionChanged"/>
+                            <Button DockPanel.Dock="Bottom" Content="Remove this game from species"
+                                    Command="{Binding DataContext.RemoveSelectedGameCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                                    Margin="0,10,0,0"/>
+                        </DockPanel>
+
+                        <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto"
+                                      DataContext="{Binding DataContext.SelectedGameData, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                            <StackPanel>
+                                <TextBlock Text="Pick a game on the left (or add one) to edit its data."
+                                           Foreground="Gray" Margin="0,0,0,10"
+                                           Visibility="{Binding Converter={StaticResource NullToVisibilityConverter}}"/>
+                                <GroupBox Header="This game">
+                                    <StackPanel>
+                                        <WrapPanel>
+                                            <Label Content="Dex # in this game"/>
+                                            <TextBox Text="{Binding DexNumber}" Width="90"/>
+                                        </WrapPanel>
+                                        <Label Content="This game's own Pokedex entry"/>
+                                        <TextBox Text="{Binding FlavorText}" TextWrapping="Wrap" AcceptsReturn="True" Height="60"/>
+                                    </StackPanel>
+                                </GroupBox>
+
+                                <GroupBox Header="This game's sprite (falls back to Home sprite in the app if left blank)">
+                                    <WrapPanel DataContext="{Binding Sprites}">
+                                        <Label Content="Regular URL/path"/>
+                                        <TextBox Text="{Binding Regular}" Width="380"/>
+                                        <Label Content="Shiny URL/path"/>
+                                        <TextBox Text="{Binding Shiny}" Width="380"/>
+                                    </WrapPanel>
+                                </GroupBox>
+
+                                <GroupBox Header="Locations">
+                                    <StackPanel DataContext="{Binding Locations}">
+                                        <WrapPanel>
+                                            <Label Content="Type"/>
+                                            <ComboBox SelectedValue="{Binding Type}" Width="120">
+                                                <ComboBoxItem Content="structured"/>
+                                                <ComboBoxItem Content="freeText"/>
+                                            </ComboBox>
+                                            <Label Content="Source"/>
+                                            <TextBox Text="{Binding Source}" Width="120"/>
+                                        </WrapPanel>
+                                        <TextBlock Text="Structured entries (route/method/level - used when Type = structured)" FontStyle="Italic" Margin="0,6,0,2"/>
+                                        <ItemsControl ItemsSource="{Binding StructuredEntries}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <WrapPanel Margin="0,2">
+                                                        <TextBox Text="{Binding Location}" Width="150"/>
+                                                        <TextBox Text="{Binding Method}" Width="90" Margin="4,2,4,2"/>
+                                                        <TextBox Text="{Binding MinLevel}" Width="40"/>
+                                                        <TextBox Text="{Binding MaxLevel}" Width="40" Margin="4,2,4,2"/>
+                                                    </WrapPanel>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                        <StackPanel Orientation="Horizontal" Margin="0,4,0,10">
+                                            <Button Content="Add row" Click="AddLocationEntry_Click" Padding="6,3" Margin="0,0,6,0"/>
+                                            <Button Content="Remove last row" Click="RemoveLocationEntry_Click" Padding="6,3"/>
+                                        </StackPanel>
+                                        <TextBlock Text="Free-text entries (used when Type = freeText)" FontStyle="Italic" Margin="0,0,0,2"/>
+                                        <TextBox Text="{Binding FreeTextEntries, Converter={StaticResource StringListConverter}}" TextWrapping="Wrap" AcceptsReturn="True" Height="50"/>
+                                    </StackPanel>
+                                </GroupBox>
+
+                                <GroupBox Header="Learnset">
+                                    <StackPanel DataContext="{Binding Learnset}">
+                                        <TextBlock Text="By leveling up (move:level, comma-separated)" FontStyle="Italic"/>
+                                        <TextBox Text="{Binding LevelUp, Converter={StaticResource LevelUpListConverter}}" TextWrapping="Wrap" AcceptsReturn="True" Height="50"/>
+                                        <TextBlock Text="By TM / TR (comma-separated)" FontStyle="Italic" Margin="0,6,0,0"/>
+                                        <TextBox Text="{Binding Machine, Converter={StaticResource StringListConverter}}" TextWrapping="Wrap" AcceptsReturn="True" Height="40"/>
+                                        <TextBlock Text="By breeding (comma-separated)" FontStyle="Italic" Margin="0,6,0,0"/>
+                                        <TextBox Text="{Binding Egg, Converter={StaticResource StringListConverter}}" TextWrapping="Wrap" AcceptsReturn="True" Height="40"/>
+                                        <TextBlock Text="By move tutor (comma-separated)" FontStyle="Italic" Margin="0,6,0,0"/>
+                                        <TextBox Text="{Binding Tutor, Converter={StaticResource StringListConverter}}" TextWrapping="Wrap" AcceptsReturn="True" Height="40"/>
+                                    </StackPanel>
+                                </GroupBox>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+                <Button Content="Save" Command="{Binding SaveCommand}" Padding="16,6" FontWeight="Bold" Margin="0,0,10,0"/>
+                <TextBlock Text="{Binding StatusMessage}" VerticalAlignment="Center" Foreground="#2E7D32"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

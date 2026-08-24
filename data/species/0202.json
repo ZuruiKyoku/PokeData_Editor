@@ -1,0 +1,765 @@
+{
+  "dex": 202,
+  "keyword": "wobbuffet",
+  "name": "Wobbuffet",
+  "japaneseName": {
+    "kana": "ソーナンス",
+    "romaji": "Sonans"
+  },
+  "type1": "Psychic",
+  "type2": null,
+  "genus": "Patient Pokémon",
+  "heightM": 1.3,
+  "weightKg": 28.5,
+  "stats": {
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "specialAttack": 33,
+    "specialDefense": 58,
+    "speed": 33
+  },
+  "abilities": [
+    {
+      "name": "shadow-tag",
+      "hidden": false,
+      "effect": "Prevents opponents from fleeing or switching out."
+    },
+    {
+      "name": "telepathy",
+      "hidden": true,
+      "effect": "Protects against friendly Pokémon's damaging moves."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "indeterminate"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "blob",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female's mouth has lipstick-like markings",
+  "evolution": {
+    "evolvesFromDex": 360,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0202.png",
+    "shiny": "sprites/shiny/0202.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/202.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/202.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "107",
+      "flavorText": "In order to con­ ceal its black tail, it lives in a dark cave and only moves about at night.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "161",
+      "flavorText": "Usually docile, a WOBBUFFET strikes back ferociously if its black tail is attacked. It makes its lair in caves where it waits for nightfall.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone SE",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Safari Zone SW",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lake Acuity",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 36
+          },
+          {
+            "location": "Lake Valor",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 36
+          },
+          {
+            "location": "Lake Verity After Galactic Intervention",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Lake Verity Before Galactic Intervention",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lake Valor",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 41
+          },
+          {
+            "location": "Lake Verity After Galactic Intervention",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Lake Verity Before Galactic Intervention",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "108",
+      "flavorText": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 25
+          },
+          {
+            "location": "Safari Zone Zone Peak",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "kalos": {
+      "dexNumber": "C119",
+      "flavorText": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Reflection Cave Unknown Area 305",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Reflection Cave Unknown Area 306",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Reflection Cave Unknown Area 307",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Reflection Cave Unknown Area 308",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "safeguard"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "168",
+      "flavorText": "Wobbuffet does nothing but endure attacks—it won’t attack on its own. However, it won’t endure an attack on its tail. When that happens, the Pokémon will try to take the foe with it using Destiny Bond.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "safeguard"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "safeguard"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/202.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/202.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "safeguard"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "217",
+      "flavorText": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 0
+          },
+          {
+            "move": "destiny-bond",
+            "level": 0
+          },
+          {
+            "move": "mirror-coat",
+            "level": 0
+          },
+          {
+            "move": "safeguard",
+            "level": 0
+          },
+          {
+            "move": "amnesia",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          },
+          {
+            "move": "splash",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "charm",
+          "encore",
+          "safeguard"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "202",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/202.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Lake Verity, Lake Acuity, Lake Valor (Poké Radar) | Grand Underground - Dazzling Cave, Stargleam Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 0
+          },
+          {
+            "move": "destiny-bond",
+            "level": 0
+          },
+          {
+            "move": "mirror-coat",
+            "level": 0
+          },
+          {
+            "move": "safeguard",
+            "level": 0
+          },
+          {
+            "move": "amnesia",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "destiny-bond",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "mirror-coat",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          },
+          {
+            "move": "splash",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "safeguard"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

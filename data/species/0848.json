@@ -1,0 +1,234 @@
+{
+  "dex": 848,
+  "keyword": "toxel",
+  "name": "Toxel",
+  "japaneseName": {
+    "kana": "エレズン",
+    "romaji": "Eleson"
+  },
+  "type1": "Electric",
+  "type2": "Poison",
+  "genus": "Baby Pokémon",
+  "heightM": 0.4,
+  "weightKg": 11.0,
+  "stats": {
+    "hp": 40,
+    "attack": 38,
+    "defense": 35,
+    "specialAttack": 54,
+    "specialDefense": 35,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "rattled",
+      "hidden": false,
+      "effect": "Raises Speed one stage upon being hit by a dark, ghost, or bug move."
+    },
+    {
+      "name": "static",
+      "hidden": false,
+      "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+    },
+    {
+      "name": "klutz",
+      "hidden": true,
+      "effect": "Prevents the Pokémon from using its held item in battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "no-eggs"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 25,
+    "captureRate": 75,
+    "baseFriendship": 50,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "upright",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": true,
+    "generationIntroduced": 8
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      849
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0848.png",
+    "shiny": "sprites/shiny/0848.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/848.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "swsh": {
+      "dexNumber": "310",
+      "flavorText": "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "belch",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "nuzzle",
+            "level": 1
+          },
+          {
+            "move": "tearful-look",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "encore",
+          "endure",
+          "facade",
+          "protect",
+          "rest",
+          "round",
+          "sleep-talk",
+          "snore",
+          "substitute"
+        ],
+        "egg": [
+          "endeavor",
+          "metal-sound",
+          "power-up-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P198",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/848.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Area Four, Area Six | Tera Raid Battles (1★ Toxel)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "belch",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "nuzzle",
+            "level": 1
+          },
+          {
+            "move": "tearful-look",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "charm",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "metal-sound",
+          "protect",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "tera-blast"
+        ],
+        "egg": [
+          "endeavor",
+          "metal-sound"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H102",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "dex": 736,
+  "keyword": "grubbin",
+  "name": "Grubbin",
+  "japaneseName": {
+    "kana": "アゴジムシ",
+    "romaji": "Agojimushi"
+  },
+  "type1": "Bug",
+  "type2": null,
+  "genus": "Larva Pokémon",
+  "heightM": 0.4,
+  "weightKg": 4.4,
+  "stats": {
+    "hp": 47,
+    "attack": 62,
+    "defense": 45,
+    "specialAttack": 55,
+    "specialDefense": 45,
+    "speed": 46
+  },
+  "abilities": [
+    {
+      "name": "swarm",
+      "hidden": false,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "armor",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      737
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0736.png",
+    "shiny": "sprites/shiny/0736.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/736.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "27",
+      "flavorText": "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/736.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/736.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1 West",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6 North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6 South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "spark",
+            "level": 16
+          },
+          {
+            "move": "acrobatics",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "x-scissor",
+            "level": 25
+          },
+          {
+            "move": "dig",
+            "level": 28
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "electroweb",
+          "endure",
+          "harden",
+          "mud-shot"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "34",
+      "flavorText": "It spits a sticky thread to stop opponents in their tracks, and then it grabs them in its sharp, sturdy mandibles to take them down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/736.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/736.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Blush Mountain",
+            "method": "Sos Encounter",
+            "minLevel": 29,
+            "maxLevel": 32
+          },
+          {
+            "location": "Route 1 East",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6 North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6 South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "spark",
+            "level": 16
+          },
+          {
+            "move": "acrobatics",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "x-scissor",
+            "level": 25
+          },
+          {
+            "move": "dig",
+            "level": 28
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "electroweb",
+          "endure",
+          "harden",
+          "mud-shot"
+        ],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "magnet-rise",
+          "shock-wave",
+          "snore"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "16",
+      "flavorText": "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 10
+          },
+          {
+            "move": "bite",
+            "level": 15
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "sticky-web",
+            "level": 25
+          },
+          {
+            "move": "x-scissor",
+            "level": 30
+          },
+          {
+            "move": "crunch",
+            "level": 35
+          },
+          {
+            "move": "dig",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "attract",
+          "crunch",
+          "dig",
+          "electroweb",
+          "endure",
+          "facade",
+          "light-screen",
+          "mud-shot",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "discharge",
+          "harden"
+        ],
+        "tutor": [
+          "rising-voltage",
+          "skitter-smack"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K112",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/736.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Apple Hills, Fellhorn Gorge, Oni Mountain, Wistful Fields, Paradise Barrens, Kitakami Wilds, Timeless Woods | Tera Raid Battles (1★ Grubbin)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 10
+          },
+          {
+            "move": "bite",
+            "level": 15
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "sticky-web",
+            "level": 25
+          },
+          {
+            "move": "x-scissor",
+            "level": 30
+          },
+          {
+            "move": "crunch",
+            "level": 35
+          },
+          {
+            "move": "dig",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "baton-pass",
+          "bug-bite",
+          "charge",
+          "charge-beam",
+          "crunch",
+          "dig",
+          "electric-terrain",
+          "electroweb",
+          "endure",
+          "facade",
+          "light-screen",
+          "lunge",
+          "mud-shot",
+          "mud-slap",
+          "poison-jab",
+          "pounce",
+          "protect",
+          "rain-dance",
+          "rest",
+          "skitter-smack",
+          "sleep-talk",
+          "struggle-bug",
+          "substitute",
+          "take-down",
+          "tera-blast",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "discharge",
+          "harden"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

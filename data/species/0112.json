@@ -1,0 +1,2544 @@
+{
+  "dex": 112,
+  "keyword": "rhydon",
+  "name": "Rhydon",
+  "japaneseName": {
+    "kana": "サイドン",
+    "romaji": "Sidon"
+  },
+  "type1": "Ground",
+  "type2": "Rock",
+  "genus": "Drill Pokémon",
+  "heightM": 1.9,
+  "weightKg": 120.0,
+  "stats": {
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "specialAttack": 45,
+    "specialDefense": 45,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "lightning-rod",
+      "hidden": false,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    {
+      "name": "rock-head",
+      "hidden": false,
+      "effect": "Protects against recoil damage."
+    },
+    {
+      "name": "reckless",
+      "hidden": true,
+      "effect": "Strengthens recoil moves to 1.2× their power."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "upright",
+    "habitat": "rough-terrain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female's horn is shorter",
+  "evolution": {
+    "evolvesFromDex": 111,
+    "evolvesIntoDex": [
+      464
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0112.png",
+    "shiny": "sprites/shiny/0112.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/112.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/112.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "112",
+      "flavorText": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/112.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 60
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 62
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 15
+          },
+          {
+            "move": "scary-face",
+            "level": 24
+          },
+          {
+            "move": "rock-blast",
+            "level": 29
+          },
+          {
+            "move": "stomp",
+            "level": 30
+          },
+          {
+            "move": "tail-whip",
+            "level": 35
+          },
+          {
+            "move": "horn-drill",
+            "level": 38
+          },
+          {
+            "move": "fury-attack",
+            "level": 40
+          },
+          {
+            "move": "take-down",
+            "level": 46
+          },
+          {
+            "move": "horn-drill",
+            "level": 48
+          },
+          {
+            "move": "leer",
+            "level": 55
+          },
+          {
+            "move": "earthquake",
+            "level": 58
+          },
+          {
+            "move": "take-down",
+            "level": 64
+          },
+          {
+            "move": "megahorn",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bubble-beam",
+          "counter",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fissure",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "horn-drill",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "pay-day",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "seismic-toss",
+          "shock-wave",
+          "skull-bash",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "take-down",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-gun"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "207",
+      "flavorText": "By lightly spin­ ning its drill- like horn, it can easily shatter even a diamond in the rough.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Victory Road 1 1f",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Victory Road 1 2f",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Victory Road 1 3f",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 19
+          },
+          {
+            "move": "scary-face",
+            "level": 31
+          },
+          {
+            "move": "horn-drill",
+            "level": 37
+          },
+          {
+            "move": "take-down",
+            "level": 54
+          },
+          {
+            "move": "earthquake",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "170",
+      "flavorText": "Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 15
+          },
+          {
+            "move": "scary-face",
+            "level": 24
+          },
+          {
+            "move": "rock-blast",
+            "level": 29
+          },
+          {
+            "move": "horn-drill",
+            "level": 38
+          },
+          {
+            "move": "take-down",
+            "level": 46
+          },
+          {
+            "move": "earthquake",
+            "level": 58
+          },
+          {
+            "move": "megahorn",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "strength",
+          "sunny-day",
+          "surf",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 227",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 228",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 53
+          },
+          {
+            "location": "Stark Mountain",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "rock-blast",
+            "level": 25
+          },
+          {
+            "move": "take-down",
+            "level": 33
+          },
+          {
+            "move": "horn-drill",
+            "level": 37
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "stone-edge",
+            "level": 45
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          },
+          {
+            "move": "megahorn",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "187",
+      "flavorText": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 227",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Route 228",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 52
+          },
+          {
+            "location": "Stark Mountain",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Stark Mountain Entrance",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Stark Mountain Inside",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Victory Road 1f",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 43
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "rock-blast",
+            "level": 25
+          },
+          {
+            "move": "take-down",
+            "level": 33
+          },
+          {
+            "move": "horn-drill",
+            "level": 37
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "stone-edge",
+            "level": 45
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          },
+          {
+            "move": "megahorn",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "icy-wind",
+          "mud-slap",
+          "outrage",
+          "rollout",
+          "snore",
+          "spite",
+          "superpower",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "212",
+      "flavorText": "Its brain developed when it began walking on hind legs. Its thick hide protects it even in magma.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "rock-blast",
+            "level": 25
+          },
+          {
+            "move": "take-down",
+            "level": 33
+          },
+          {
+            "move": "horn-drill",
+            "level": 37
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "stone-edge",
+            "level": 45
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          },
+          {
+            "move": "megahorn",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "block",
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "fury-cutter",
+          "headbutt",
+          "ice-punch",
+          "icy-wind",
+          "mud-slap",
+          "outrage",
+          "rollout",
+          "snore",
+          "spite",
+          "superpower",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "rock-blast",
+            "level": 23
+          },
+          {
+            "move": "bulldoze",
+            "level": 30
+          },
+          {
+            "move": "chip-away",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "drill-run",
+            "level": 47
+          },
+          {
+            "move": "stone-edge",
+            "level": 56
+          },
+          {
+            "move": "earthquake",
+            "level": 62
+          },
+          {
+            "move": "horn-drill",
+            "level": 71
+          },
+          {
+            "move": "megahorn",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "rock-blast",
+            "level": 23
+          },
+          {
+            "move": "bulldoze",
+            "level": 30
+          },
+          {
+            "move": "chip-away",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "drill-run",
+            "level": 47
+          },
+          {
+            "move": "stone-edge",
+            "level": 56
+          },
+          {
+            "move": "earthquake",
+            "level": 62
+          },
+          {
+            "move": "horn-drill",
+            "level": 71
+          },
+          {
+            "move": "megahorn",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "block",
+          "dragon-pulse",
+          "drill-run",
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "outrage",
+          "sleep-talk",
+          "snore",
+          "spite",
+          "stealth-rock",
+          "superpower",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C51",
+      "flavorText": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-drill",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "stomp",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "rock-blast",
+            "level": 23
+          },
+          {
+            "move": "bulldoze",
+            "level": 30
+          },
+          {
+            "move": "chip-away",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "drill-run",
+            "level": 47
+          },
+          {
+            "move": "stone-edge",
+            "level": 56
+          },
+          {
+            "move": "earthquake",
+            "level": 62
+          },
+          {
+            "move": "horn-drill",
+            "level": 71
+          },
+          {
+            "move": "megahorn",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "177",
+      "flavorText": "Rhydon has a horn that serves as a drill. It is used for destroying rocks and boulders. This Pokémon occasionally rams into streams of magma, but the armor-like hide prevents it from feeling the heat.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-drill",
+            "level": 1
+          },
+          {
+            "move": "scary-face",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 5
+          },
+          {
+            "move": "scary-face",
+            "level": 9
+          },
+          {
+            "move": "smack-down",
+            "level": 13
+          },
+          {
+            "move": "stomp",
+            "level": 17
+          },
+          {
+            "move": "bulldoze",
+            "level": 21
+          },
+          {
+            "move": "chip-away",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 29
+          },
+          {
+            "move": "drill-run",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 41
+          },
+          {
+            "move": "hammer-arm",
+            "level": 42
+          },
+          {
+            "move": "earthquake",
+            "level": 48
+          },
+          {
+            "move": "megahorn",
+            "level": 55
+          },
+          {
+            "move": "horn-drill",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "block",
+          "dragon-pulse",
+          "drill-run",
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "snore",
+          "spite",
+          "stealth-rock",
+          "superpower",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "hammer-arm",
+            "level": 0
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-drill",
+            "level": 1
+          },
+          {
+            "move": "scary-face",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 5
+          },
+          {
+            "move": "scary-face",
+            "level": 9
+          },
+          {
+            "move": "smack-down",
+            "level": 13
+          },
+          {
+            "move": "stomp",
+            "level": 17
+          },
+          {
+            "move": "bulldoze",
+            "level": 21
+          },
+          {
+            "move": "chip-away",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 29
+          },
+          {
+            "move": "drill-run",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 41
+          },
+          {
+            "move": "earthquake",
+            "level": 48
+          },
+          {
+            "move": "megahorn",
+            "level": 55
+          },
+          {
+            "move": "horn-drill",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "smack-down",
+          "smart-strike",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/112.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/112.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "hammer-arm",
+            "level": 0
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-drill",
+            "level": 1
+          },
+          {
+            "move": "scary-face",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 5
+          },
+          {
+            "move": "scary-face",
+            "level": 9
+          },
+          {
+            "move": "smack-down",
+            "level": 13
+          },
+          {
+            "move": "stomp",
+            "level": 17
+          },
+          {
+            "move": "bulldoze",
+            "level": 21
+          },
+          {
+            "move": "chip-away",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 29
+          },
+          {
+            "move": "drill-run",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 41
+          },
+          {
+            "move": "earthquake",
+            "level": 48
+          },
+          {
+            "move": "megahorn",
+            "level": 55
+          },
+          {
+            "move": "horn-drill",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "smack-down",
+          "smart-strike",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "block",
+          "dragon-pulse",
+          "drill-run",
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "snore",
+          "spite",
+          "stealth-rock",
+          "stomping-tantrum",
+          "superpower",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "112",
+      "flavorText": "Its brain developed when it began walking on its hind legs. Its armor-like hide even repels molten lava.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "crunch",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 7
+          },
+          {
+            "move": "stomp",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 19
+          },
+          {
+            "move": "drill-run",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "megahorn",
+            "level": 36
+          },
+          {
+            "move": "rock-slide",
+            "level": 48
+          },
+          {
+            "move": "earthquake",
+            "level": 54
+          },
+          {
+            "move": "horn-drill",
+            "level": 67
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brick-break",
+          "dig",
+          "dragon-pulse",
+          "dragon-tail",
+          "drill-run",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "hyper-beam",
+          "ice-beam",
+          "ice-punch",
+          "iron-tail",
+          "megahorn",
+          "outrage",
+          "pay-day",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "stealth-rock",
+          "substitute",
+          "superpower",
+          "surf",
+          "thunder",
+          "thunder-punch",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "265",
+      "flavorText": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "hammer-arm",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "smack-down",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "scary-face",
+            "level": 20
+          },
+          {
+            "move": "stomp",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "drill-run",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 47
+          },
+          {
+            "move": "stone-edge",
+            "level": 54
+          },
+          {
+            "move": "megahorn",
+            "level": 61
+          },
+          {
+            "move": "horn-drill",
+            "level": 68
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "breaking-swipe",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "crunch",
+          "dig",
+          "dragon-pulse",
+          "drill-run",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "giga-impact",
+          "heat-crash",
+          "heavy-slam",
+          "helping-hand",
+          "high-horsepower",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "ice-fang",
+          "ice-punch",
+          "icy-wind",
+          "iron-defense",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "megahorn",
+          "mud-shot",
+          "outrage",
+          "pay-day",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scary-face",
+          "shadow-claw",
+          "sleep-talk",
+          "smart-strike",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "superpower",
+          "surf",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunder-fang",
+          "thunder-punch",
+          "thunderbolt",
+          "uproar",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "meteor-beam",
+          "scorching-sands"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "112",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/112.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and , Stark Mountain | Grand Underground - Spacious Cave, Rocky Cave, Sandsear Cave, Big Bluff Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "hammer-arm",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "smack-down",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "scary-face",
+            "level": 20
+          },
+          {
+            "move": "stomp",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "drill-run",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 47
+          },
+          {
+            "move": "stone-edge",
+            "level": 54
+          },
+          {
+            "move": "megahorn",
+            "level": 61
+          },
+          {
+            "move": "horn-drill",
+            "level": 68
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "thunder",
+          "thunderbolt"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "121",
+      "flavorText": "Rapidly rotates its horn to bore through bedrock. It swaggers around volcanic regions, protected from the lava's heat by its tough, armorlike hide.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Bolderoll Slope, massive mass outbreaks | Cobalt Coastlands: Space-time distortions | Coronet Highlands: Celestica Trail, Sacred Plaza, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bulldoze",
+            "level": 6
+          },
+          {
+            "move": "rock-smash",
+            "level": 11
+          },
+          {
+            "move": "stealth-rock",
+            "level": 18
+          },
+          {
+            "move": "rock-slide",
+            "level": 25
+          },
+          {
+            "move": "high-horsepower",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 43
+          },
+          {
+            "move": "giga-impact",
+            "level": 52
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B006",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/112.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome | Tera Raid Battles (4★ Rhydon)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "hammer-arm",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "smack-down",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "scary-face",
+            "level": 20
+          },
+          {
+            "move": "stomp",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "drill-run",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 47
+          },
+          {
+            "move": "stone-edge",
+            "level": 54
+          },
+          {
+            "move": "megahorn",
+            "level": 61
+          },
+          {
+            "move": "horn-drill",
+            "level": 68
+          }
+        ],
+        "machine": [
+          "avalanche",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "breaking-swipe",
+          "brick-break",
+          "bulldoze",
+          "crunch",
+          "curse",
+          "dig",
+          "double-edge",
+          "dragon-pulse",
+          "drill-run",
+          "earth-power",
+          "earthquake",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "heat-crash",
+          "heavy-slam",
+          "helping-hand",
+          "high-horsepower",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "ice-fang",
+          "ice-punch",
+          "icy-wind",
+          "iron-defense",
+          "meteor-beam",
+          "mud-shot",
+          "mud-slap",
+          "outrage",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "roar",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "scorching-sands",
+          "shadow-claw",
+          "sleep-talk",
+          "smack-down",
+          "smart-strike",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "supercell-slam",
+          "surf",
+          "swords-dance",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-fang",
+          "thunder-punch",
+          "thunderbolt",
+          "uproar"
+        ],
+        "egg": [
+          "counter",
+          "curse",
+          "dragon-rush",
+          "guard-split",
+          "metal-burst",
+          "rock-polish"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,2274 @@
+{
+  "dex": 123,
+  "keyword": "scyther",
+  "name": "Scyther",
+  "japaneseName": {
+    "kana": "ストライク",
+    "romaji": "Strike"
+  },
+  "type1": "Bug",
+  "type2": "Flying",
+  "genus": "Mantis Pokémon",
+  "heightM": 1.5,
+  "weightKg": 56.0,
+  "stats": {
+    "hp": 70,
+    "attack": 110,
+    "defense": 80,
+    "specialAttack": 55,
+    "specialDefense": 80,
+    "speed": 105
+  },
+  "abilities": [
+    {
+      "name": "swarm",
+      "hidden": false,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "technician",
+      "hidden": false,
+      "effect": "Strengthens moves of 60 base power or less to 1.5× their power."
+    },
+    {
+      "name": "steadfast",
+      "hidden": true,
+      "effect": "Raises Speed one stage upon flinching."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 25,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "bug-wings",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female's abdomen is larger",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      212,
+      900
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0123.png",
+    "shiny": "sprites/shiny/0123.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/123.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/123.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "123",
+      "flavorText": "With ninja-like agility and speed, it can create the illusion that there is more than one of itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/123.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 28
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 6
+          },
+          {
+            "move": "pursuit",
+            "level": 11
+          },
+          {
+            "move": "false-swipe",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 17
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "agility",
+            "level": 21
+          },
+          {
+            "move": "double-team",
+            "level": 24
+          },
+          {
+            "move": "wing-attack",
+            "level": 26
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "swords-dance",
+            "level": 35
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "double-team",
+            "level": 41
+          },
+          {
+            "move": "agility",
+            "level": 42
+          },
+          {
+            "move": "fury-cutter",
+            "level": 46
+          },
+          {
+            "move": "wing-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "cut",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "skull-bash",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "baton-pass",
+          "counter",
+          "endure",
+          "light-screen",
+          "razor-wind",
+          "reversal",
+          "safeguard",
+          "silver-wind"
+        ],
+        "tutor": [
+          "counter",
+          "double-edge",
+          "mimic",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "110",
+      "flavorText": "It's very proud of its speed. It moves so fast that its opponent does not even know what knocked it down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 6
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "false-swipe",
+            "level": 18
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "wing-attack",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 36
+          },
+          {
+            "move": "swords-dance",
+            "level": 42
+          },
+          {
+            "move": "double-team",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "detect",
+          "double-team",
+          "endure",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "baton-pass",
+          "counter",
+          "light-screen",
+          "razor-wind",
+          "reversal",
+          "safeguard"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 6
+          },
+          {
+            "move": "pursuit",
+            "level": 11
+          },
+          {
+            "move": "false-swipe",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 21
+          },
+          {
+            "move": "wing-attack",
+            "level": 26
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "double-team",
+            "level": 41
+          },
+          {
+            "move": "fury-cutter",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "cut",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "steel-wing",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "baton-pass",
+          "counter",
+          "endure",
+          "light-screen",
+          "razor-wind",
+          "reversal",
+          "safeguard",
+          "silver-wind"
+        ],
+        "tutor": [
+          "counter",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja’s.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 53
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "secret-power",
+          "silver-wind",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "endure",
+          "light-screen",
+          "night-slash",
+          "razor-wind",
+          "reversal",
+          "safeguard",
+          "silver-wind"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "195",
+      "flavorText": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 21
+          },
+          {
+            "location": "Route 210 West Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 53
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "secret-power",
+          "silver-wind",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "endure",
+          "light-screen",
+          "night-slash",
+          "razor-wind",
+          "reversal",
+          "safeguard",
+          "silver-wind"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "knock-off",
+          "ominous-wind",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "111",
+      "flavorText": "When it moves, it leaves only a blur. If it hides in grass, its protective coloration makes it invisible.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 53
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "secret-power",
+          "silver-wind",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "endure",
+          "light-screen",
+          "night-slash",
+          "razor-wind",
+          "reversal",
+          "safeguard",
+          "silver-wind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "fury-cutter",
+          "headbutt",
+          "knock-off",
+          "ominous-wind",
+          "snore",
+          "swift",
+          "tailwind"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 53
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "defog",
+          "endure",
+          "night-slash",
+          "razor-wind",
+          "reversal",
+          "silver-wind",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 53
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "defog",
+          "endure",
+          "night-slash",
+          "razor-wind",
+          "reversal",
+          "silver-wind",
+          "steel-wing"
+        ],
+        "tutor": [
+          "bug-bite",
+          "knock-off",
+          "roost",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M136",
+      "flavorText": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 21",
+            "method": "Purple Flowers",
+            "minLevel": 50,
+            "maxLevel": 52
+          },
+          {
+            "location": "Route 21",
+            "method": "Red Flowers",
+            "minLevel": 50,
+            "maxLevel": 52
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 50
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "steel-wing",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "defog",
+          "endure",
+          "night-slash",
+          "quick-guard",
+          "razor-wind",
+          "reversal",
+          "silver-wind",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon’s scythes are so effective, they can slice through thick logs in one wicked stroke.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 50
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "defog",
+          "endure",
+          "night-slash",
+          "quick-guard",
+          "razor-wind",
+          "reversal",
+          "silver-wind",
+          "steel-wing"
+        ],
+        "tutor": [
+          "bug-bite",
+          "knock-off",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "275",
+      "flavorText": "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poni Plains Center",
+            "method": "Bubbling Spots",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 50
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "confide",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "defog",
+          "endure",
+          "night-slash",
+          "quick-guard",
+          "razor-wind",
+          "reversal",
+          "silver-wind",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "365",
+      "flavorText": "Some call it a ninja. Its movements— imperceptibly quick—are sufficient to cleave the air in two. It’s very popular in Alola.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/123.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/123.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poni Plains Center",
+            "method": "Bubbling Spots",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "vacuum-wave",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "false-swipe",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 17
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-cutter",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 33
+          },
+          {
+            "move": "double-team",
+            "level": 37
+          },
+          {
+            "move": "x-scissor",
+            "level": 41
+          },
+          {
+            "move": "night-slash",
+            "level": 45
+          },
+          {
+            "move": "double-hit",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 50
+          },
+          {
+            "move": "swords-dance",
+            "level": 57
+          },
+          {
+            "move": "feint",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "confide",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "bug-buzz",
+          "counter",
+          "defog",
+          "endure",
+          "night-slash",
+          "quick-guard",
+          "razor-wind",
+          "reversal",
+          "silver-wind",
+          "steel-wing"
+        ],
+        "tutor": [
+          "bug-bite",
+          "defog",
+          "knock-off",
+          "laser-focus",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "123",
+      "flavorText": "Leaps out of tall grass and slices prey with its scythes. The movement looks like that of a ninja.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "double-team",
+            "level": 8
+          },
+          {
+            "move": "feint",
+            "level": 12
+          },
+          {
+            "move": "wing-attack",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 38
+          },
+          {
+            "move": "swords-dance",
+            "level": 44
+          },
+          {
+            "move": "x-scissor",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rest",
+          "roost",
+          "substitute",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A118",
+      "flavorText": "If you come across an area in a forest where a lot of the trees have been cut down, what you’ve found is a Scyther’s territory.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-cutter",
+            "level": 4
+          },
+          {
+            "move": "false-swipe",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 12
+          },
+          {
+            "move": "double-team",
+            "level": 16
+          },
+          {
+            "move": "double-hit",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "focus-energy",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "x-scissor",
+            "level": 40
+          },
+          {
+            "move": "laser-focus",
+            "level": 44
+          },
+          {
+            "move": "swords-dance",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "agility",
+          "air-slash",
+          "assurance",
+          "attract",
+          "baton-pass",
+          "brick-break",
+          "brutal-swing",
+          "bug-buzz",
+          "cross-poison",
+          "endure",
+          "facade",
+          "false-swipe",
+          "focus-energy",
+          "giga-impact",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "psycho-cut",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "thief",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "counter",
+          "defog",
+          "feint",
+          "night-slash",
+          "quick-guard"
+        ],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "123",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/123.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 229 (Sinnoh) | Grand Underground - Grassland Cave, Sunlit Cavern, Riverbank Cave, Still-Water Cavern, Big Bluff Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-cutter",
+            "level": 4
+          },
+          {
+            "move": "false-swipe",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 12
+          },
+          {
+            "move": "double-team",
+            "level": 16
+          },
+          {
+            "move": "double-hit",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "focus-energy",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "x-scissor",
+            "level": 40
+          },
+          {
+            "move": "laser-focus",
+            "level": 44
+          },
+          {
+            "move": "swords-dance",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bug-buzz",
+          "cut",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "giga-impact",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "roost",
+          "safeguard",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [
+          "baton-pass",
+          "counter",
+          "feint",
+          "night-slash",
+          "quick-guard",
+          "reversal"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "72",
+      "flavorText": "The large, wickedly sharp scythes on its forearms are truly fearsome weapons. Prey's attempts to flee are unfailingly thwarted by this Pokémon's nimble motions.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: The Heartwood, Grandtree Arena (additional nearby), massive mass outbreaks | Coronet Highlands: near Primeval Grotto | Alabaster Icelands: Space-time distortions"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "silver-wind",
+            "level": 6
+          },
+          {
+            "move": "aerial-ace",
+            "level": 11
+          },
+          {
+            "move": "double-hit",
+            "level": 14
+          },
+          {
+            "move": "air-slash",
+            "level": 18
+          },
+          {
+            "move": "swords-dance",
+            "level": 25
+          },
+          {
+            "move": "x-scissor",
+            "level": 34
+          },
+          {
+            "move": "close-combat",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P260",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/123.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Four, Area Six | North Province: Area Two, Casseroya Lake, Socarrat Trail | South Province: Area Four ( Type) | Tera Raid Battles (4★ Scyther, 5★ Scyther)",
+          "Savanna Biome, Canyon Biome, Chargestone Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-cutter",
+            "level": 4
+          },
+          {
+            "move": "false-swipe",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 12
+          },
+          {
+            "move": "double-team",
+            "level": 16
+          },
+          {
+            "move": "double-hit",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "focus-energy",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "x-scissor",
+            "level": 40
+          },
+          {
+            "move": "swords-dance",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "agility",
+          "air-cutter",
+          "air-slash",
+          "baton-pass",
+          "brick-break",
+          "bug-bite",
+          "bug-buzz",
+          "close-combat",
+          "dual-wingbeat",
+          "endure",
+          "facade",
+          "false-swipe",
+          "giga-impact",
+          "helping-hand",
+          "hyper-beam",
+          "light-screen",
+          "lunge",
+          "pounce",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "scary-face",
+          "skitter-smack",
+          "sleep-talk",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "tailwind",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "trailblaze",
+          "u-turn",
+          "vacuum-wave",
+          "x-scissor"
+        ],
+        "egg": [
+          "counter",
+          "defog",
+          "feint",
+          "night-slash",
+          "quick-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "176",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Rouge District: Wild Zone 13",
+          "Hyperspace Lumiose (4★ Bug-type & Steel-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

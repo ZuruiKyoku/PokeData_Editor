@@ -1,0 +1,1871 @@
+{
+  "dex": 138,
+  "keyword": "omanyte",
+  "name": "Omanyte",
+  "japaneseName": {
+    "kana": "オムナイト",
+    "romaji": "Omnite"
+  },
+  "type1": "Rock",
+  "type2": "Water",
+  "genus": "Spiral Pokémon",
+  "heightM": 0.4,
+  "weightKg": 7.5,
+  "stats": {
+    "hp": 35,
+    "attack": 40,
+    "defense": 100,
+    "specialAttack": 90,
+    "specialDefense": 55,
+    "speed": 35
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "hidden": false,
+      "effect": "Doubles Speed during rain."
+    },
+    {
+      "name": "shell-armor",
+      "hidden": false,
+      "effect": "Protects against critical hits."
+    },
+    {
+      "name": "weak-armor",
+      "hidden": true,
+      "effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "water3"
+    ],
+    "genderRateEighthsFemale": 1,
+    "hatchCycles": 30,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "tentacles",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      139
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0138.png",
+    "shiny": "sprites/shiny/0138.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/138.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/138.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "138",
+      "flavorText": "Although long extinct, in rare cases, it can be genetically regenerated from fossils.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/138.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cinnabar Island Cinnabar Lab",
+            "method": "Gift",
+            "minLevel": 5,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "water-gun",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "leer",
+            "level": 31
+          },
+          {
+            "move": "horn-attack",
+            "level": 34
+          },
+          {
+            "move": "protect",
+            "level": 37
+          },
+          {
+            "move": "leer",
+            "level": 39
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "spike-cannon",
+            "level": 46
+          },
+          {
+            "move": "ancient-power",
+            "level": 49
+          },
+          {
+            "move": "hydro-pump",
+            "level": 53
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "bubble-beam",
+          "dive",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "substitute",
+          "surf",
+          "take-down",
+          "thief",
+          "toxic",
+          "water-gun",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bubble-beam",
+          "haze",
+          "rock-slide",
+          "slam",
+          "spikes",
+          "supersonic"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "rock-slide",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "220",
+      "flavorText": "In prehistoric times, it swam on the sea floor, eating plankton. Its fossils are sometimes found.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "water-gun",
+            "level": 19
+          },
+          {
+            "move": "leer",
+            "level": 31
+          },
+          {
+            "move": "protect",
+            "level": 37
+          },
+          {
+            "move": "ancient-power",
+            "level": 49
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "icy-wind",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "whirlpool"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bubble-beam",
+          "haze",
+          "slam",
+          "supersonic"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "One of the ancient and long-since-extinct POKéMON that have been regenerated from fossils by humans. If attacked, it withdraws into its hard shell.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "water-gun",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "leer",
+            "level": 31
+          },
+          {
+            "move": "protect",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "ancient-power",
+            "level": 49
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "surf",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bubble-beam",
+          "haze",
+          "rock-slide",
+          "slam",
+          "spikes",
+          "supersonic"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "rock-slide",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "rock-slide",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "rock-slide",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "wring-out"
+        ],
+        "tutor": [
+          "ancient-power",
+          "dive",
+          "earth-power",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "rollout",
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "225",
+      "flavorText": "This Pokémon from ancient times is said to have navigated the sea by adeptly twisting its 10 tentacles.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "rock-slide",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "wring-out"
+        ],
+        "tutor": [
+          "ancient-power",
+          "dive",
+          "earth-power",
+          "headbutt",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "rollout",
+          "snore"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "shell-smash",
+            "level": 52
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "smack-down",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bide",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "water-pulse",
+          "whirlpool",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "shell-smash",
+            "level": 52
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "smack-down",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bide",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "water-pulse",
+          "whirlpool",
+          "wring-out"
+        ],
+        "tutor": [
+          "bind",
+          "earth-power",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "sleep-talk",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bide",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "reflect-type",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "water-pulse",
+          "whirlpool",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bide",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "reflect-type",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "water-pulse",
+          "whirlpool",
+          "wring-out"
+        ],
+        "tutor": [
+          "bind",
+          "earth-power",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "snore",
+          "stealth-rock",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bide",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "reflect-type",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "water-pulse",
+          "whirlpool",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "227",
+      "flavorText": "It was restored from an ancient fossil. Those Helix Fossils are excavated from areas that were once oceans long, long ago.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/138.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/138.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8 Fossil Restoration Center",
+            "method": "Gift",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 16
+          },
+          {
+            "move": "leer",
+            "level": 19
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "protect",
+            "level": 34
+          },
+          {
+            "move": "ancient-power",
+            "level": 37
+          },
+          {
+            "move": "tickle",
+            "level": 43
+          },
+          {
+            "move": "rock-blast",
+            "level": 46
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bide",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "reflect-type",
+          "slam",
+          "spikes",
+          "supersonic",
+          "toxic-spikes",
+          "water-pulse",
+          "whirlpool",
+          "wring-out"
+        ],
+        "tutor": [
+          "bind",
+          "earth-power",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "snore",
+          "stealth-rock",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "138",
+      "flavorText": "An ancient Pokémon that was recovered from a fossil. It swam by cleverly twisting its 10 tentacles about.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 11
+          },
+          {
+            "move": "water-gun",
+            "level": 15
+          },
+          {
+            "move": "bite",
+            "level": 22
+          },
+          {
+            "move": "rock-throw",
+            "level": 26
+          },
+          {
+            "move": "protect",
+            "level": 33
+          },
+          {
+            "move": "rock-slide",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 44
+          },
+          {
+            "move": "shell-smash",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "facade",
+          "headbutt",
+          "ice-beam",
+          "protect",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "scald",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "C123",
+      "flavorText": "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it’s just drifting along.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 15
+          },
+          {
+            "move": "leer",
+            "level": 20
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "ancient-power",
+            "level": 30
+          },
+          {
+            "move": "brine",
+            "level": 35
+          },
+          {
+            "move": "protect",
+            "level": 41
+          },
+          {
+            "move": "rock-blast",
+            "level": 45
+          },
+          {
+            "move": "surf",
+            "level": 50
+          },
+          {
+            "move": "shell-smash",
+            "level": 55
+          },
+          {
+            "move": "hydro-pump",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "body-slam",
+          "brine",
+          "dive",
+          "earth-power",
+          "endure",
+          "facade",
+          "gyro-ball",
+          "hail",
+          "hydro-pump",
+          "ice-beam",
+          "icy-wind",
+          "iron-defense",
+          "mud-shot",
+          "muddy-water",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "snore",
+          "spikes",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "thief",
+          "toxic-spikes",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bite",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "reflect-type",
+          "slam",
+          "supersonic",
+          "tickle",
+          "water-pulse"
+        ],
+        "tutor": [
+          "meteor-beam"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "138",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/138.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Revive from Helix Fossil at the Oreburgh Mining Museum in Oreburgh City"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 15
+          },
+          {
+            "move": "leer",
+            "level": 20
+          },
+          {
+            "move": "mud-shot",
+            "level": 25
+          },
+          {
+            "move": "ancient-power",
+            "level": 30
+          },
+          {
+            "move": "brine",
+            "level": 35
+          },
+          {
+            "move": "protect",
+            "level": 41
+          },
+          {
+            "move": "rock-blast",
+            "level": 45
+          },
+          {
+            "move": "surf",
+            "level": 50
+          },
+          {
+            "move": "shell-smash",
+            "level": 55
+          },
+          {
+            "move": "hydro-pump",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "facade",
+          "gyro-ball",
+          "hail",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bite",
+          "bubble-beam",
+          "haze",
+          "knock-off",
+          "muddy-water",
+          "reflect-type",
+          "slam",
+          "spikes",
+          "supersonic",
+          "tickle",
+          "toxic-spikes",
+          "whirlpool"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

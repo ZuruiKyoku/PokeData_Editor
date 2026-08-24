@@ -1,0 +1,1809 @@
+{
+  "dex": 325,
+  "keyword": "spoink",
+  "name": "Spoink",
+  "japaneseName": {
+    "kana": "バネブー",
+    "romaji": "Baneboo"
+  },
+  "type1": "Psychic",
+  "type2": null,
+  "genus": "Bounce Pokémon",
+  "heightM": 0.7,
+  "weightKg": 30.6,
+  "stats": {
+    "hp": 60,
+    "attack": 25,
+    "defense": 35,
+    "specialAttack": 70,
+    "specialDefense": 80,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "hidden": false,
+      "effect": "Halves damage from fire and ice moves."
+    },
+    {
+      "name": "own-tempo",
+      "hidden": false,
+      "effect": "Prevents confusion."
+    },
+    {
+      "name": "gluttony",
+      "hidden": true,
+      "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "arms",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      326
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0325.png",
+    "shiny": "sprites/shiny/0325.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/325.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/325.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "110",
+      "flavorText": "A POKéMON that manipulates psychic power at will. It doesn’t stop bouncing even when it is asleep. It loves eating mushrooms that grow underground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Jagged Pass",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 16
+          },
+          {
+            "move": "psych-up",
+            "level": 19
+          },
+          {
+            "move": "confuse-ray",
+            "level": 25
+          },
+          {
+            "move": "magic-coat",
+            "level": 28
+          },
+          {
+            "move": "psychic",
+            "level": 34
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "snore",
+            "level": 37
+          },
+          {
+            "move": "bounce",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "extrasensory",
+          "future-sight",
+          "substitute",
+          "trick"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 29
+          },
+          {
+            "move": "payback",
+            "level": 34
+          },
+          {
+            "move": "psychic",
+            "level": 41
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "bounce",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "extrasensory",
+          "future-sight",
+          "mirror-coat",
+          "substitute",
+          "trick",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 29
+          },
+          {
+            "move": "payback",
+            "level": 34
+          },
+          {
+            "move": "psychic",
+            "level": 41
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "bounce",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "extrasensory",
+          "future-sight",
+          "mirror-coat",
+          "substitute",
+          "trick",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "bounce",
+          "icy-wind",
+          "signal-beam",
+          "snore",
+          "swift",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It bounces around on its tail to keep its heart pumping. It carries a pearl from CLAMPERL on its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 29
+          },
+          {
+            "move": "payback",
+            "level": 34
+          },
+          {
+            "move": "psychic",
+            "level": 41
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "bounce",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "extrasensory",
+          "future-sight",
+          "mirror-coat",
+          "substitute",
+          "trick",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "bounce",
+          "headbutt",
+          "heal-bell",
+          "icy-wind",
+          "magic-coat",
+          "role-play",
+          "signal-beam",
+          "snore",
+          "swift",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 29
+          },
+          {
+            "move": "psyshock",
+            "level": 34
+          },
+          {
+            "move": "payback",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 46
+          },
+          {
+            "move": "power-gem",
+            "level": 48
+          },
+          {
+            "move": "bounce",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "endure",
+          "extrasensory",
+          "future-sight",
+          "lucky-chant",
+          "mirror-coat",
+          "skill-swap",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "206",
+      "flavorText": "Using its tail like a spring, it keeps its heart beating by bouncing constantly. If it stops, it dies.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Reversal Mountain Unknown Area 48",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 49",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 50",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 51",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 52",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 53",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 54",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 55",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 56",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 57",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 58",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 59",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 60",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 29
+          },
+          {
+            "move": "power-gem",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "endure",
+          "extrasensory",
+          "future-sight",
+          "lucky-chant",
+          "mirror-coat",
+          "skill-swap",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "bounce",
+          "covet",
+          "heal-bell",
+          "icy-wind",
+          "iron-tail",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C7",
+      "flavorText": "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 8",
+            "method": "Yellow Flowers",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 29
+          },
+          {
+            "move": "power-gem",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "endure",
+          "extrasensory",
+          "future-sight",
+          "lucky-chant",
+          "mirror-coat",
+          "simple-beam",
+          "skill-swap",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "115",
+      "flavorText": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokémon’s psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "power-gem",
+            "level": 29
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "endure",
+          "extrasensory",
+          "future-sight",
+          "lucky-chant",
+          "mirror-coat",
+          "simple-beam",
+          "skill-swap",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "bounce",
+          "covet",
+          "heal-bell",
+          "icy-wind",
+          "iron-tail",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "power-gem",
+            "level": 29
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "endure",
+          "extrasensory",
+          "future-sight",
+          "lucky-chant",
+          "mirror-coat",
+          "simple-beam",
+          "skill-swap",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/325.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/325.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 7
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "power-gem",
+            "level": 29
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "endure",
+          "extrasensory",
+          "future-sight",
+          "lucky-chant",
+          "mirror-coat",
+          "simple-beam",
+          "skill-swap",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "ally-switch",
+          "bounce",
+          "covet",
+          "heal-bell",
+          "icy-wind",
+          "iron-tail",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "telekinesis",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "325",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/325.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 214 (Sinnoh) (Swarm)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 7
+          },
+          {
+            "move": "growl",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 18
+          },
+          {
+            "move": "magic-coat",
+            "level": 21
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 26
+          },
+          {
+            "move": "power-gem",
+            "level": 29
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "grass-knot",
+          "iron-tail",
+          "light-screen",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "trick-room"
+        ],
+        "egg": [
+          "amnesia",
+          "extrasensory",
+          "future-sight",
+          "mirror-coat",
+          "simple-beam",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P111",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/325.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Three | Tera Raid Battles (2★ Spoink)",
+          "Oni Mountain, Infernal Pass, Chilling Waterhead, Wistful Fields, Paradise Barrens"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 7
+          },
+          {
+            "move": "growl",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 14
+          },
+          {
+            "move": "psych-up",
+            "level": 18
+          },
+          {
+            "move": "confuse-ray",
+            "level": 22
+          },
+          {
+            "move": "power-gem",
+            "level": 29
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "snore",
+            "level": 33
+          },
+          {
+            "move": "psyshock",
+            "level": 38
+          },
+          {
+            "move": "payback",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 44
+          },
+          {
+            "move": "bounce",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "body-slam",
+          "calm-mind",
+          "charge-beam",
+          "chilling-water",
+          "confuse-ray",
+          "dazzling-gleam",
+          "encore",
+          "endeavor",
+          "endure",
+          "expanding-force",
+          "facade",
+          "flash-cannon",
+          "future-sight",
+          "grass-knot",
+          "helping-hand",
+          "icy-wind",
+          "imprison",
+          "light-screen",
+          "lunge",
+          "night-shade",
+          "power-gem",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "psychic-terrain",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snarl",
+          "snowscape",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-wave",
+          "trailblaze",
+          "trick",
+          "trick-room",
+          "uproar",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "amnesia",
+          "extrasensory",
+          "future-sight",
+          "mirror-coat",
+          "simple-beam",
+          "trick",
+          "whirlwind",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H084",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "dex": 840,
+  "keyword": "applin",
+  "name": "Applin",
+  "japaneseName": {
+    "kana": "カジッチュ",
+    "romaji": "Kajicchu"
+  },
+  "type1": "Grass",
+  "type2": "Dragon",
+  "genus": "Apple Core Pokémon",
+  "heightM": 0.2,
+  "weightKg": 0.5,
+  "stats": {
+    "hp": 40,
+    "attack": 40,
+    "defense": 80,
+    "specialAttack": 40,
+    "specialDefense": 40,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "ripen",
+      "hidden": false,
+      "effect": "Doubles the effect of berries."
+    },
+    {
+      "name": "gluttony",
+      "hidden": false,
+      "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+    },
+    {
+      "name": "bulletproof",
+      "hidden": true,
+      "effect": "Protects against bullet, ball, and bomb-based moves."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 50,
+    "growthRate": "slow-then-very-fast"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "squiggle",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 8
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      841,
+      842,
+      1011
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0840.png",
+    "shiny": "sprites/shiny/0840.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/840.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "swsh": {
+      "dexNumber": "205",
+      "flavorText": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract"
+        ],
+        "egg": [
+          "defense-curl",
+          "recycle",
+          "rollout",
+          "sucker-punch"
+        ],
+        "tutor": [
+          "draco-meteor",
+          "grassy-glide"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P108",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/840.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Area Four | East Province: Area One, Area Two, Tagtree Thicket | West Province: Area Three | North Province: Area One, Area Two, Casseroya Lake | Tera Raid Battles (1★ Applin)",
+          "Kitakami Road, Apple Hills, Mossfell Confluence | Tera Raid Battles (2★ Applin, 3★ Applin)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "pounce",
+          "tera-blast"
+        ],
+        "egg": [
+          "defense-curl",
+          "recycle",
+          "rollout",
+          "sucker-punch"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

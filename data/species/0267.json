@@ -1,0 +1,1357 @@
+{
+  "dex": 267,
+  "keyword": "beautifly",
+  "name": "Beautifly",
+  "japaneseName": {
+    "kana": "アゲハント",
+    "romaji": "Agehunt"
+  },
+  "type1": "Bug",
+  "type2": "Flying",
+  "genus": "Butterfly Pokémon",
+  "heightM": 1.0,
+  "weightKg": 28.4,
+  "stats": {
+    "hp": 60,
+    "attack": 70,
+    "defense": 50,
+    "specialAttack": 100,
+    "specialDefense": 50,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "swarm",
+      "hidden": false,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "rivalry",
+      "hidden": true,
+      "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "bug-wings",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": "Male has longer red markings on his upper wings",
+  "evolution": {
+    "evolvesFromDex": 266,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0267.png",
+    "shiny": "sprites/shiny/0267.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/267.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/267.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "16",
+      "flavorText": "Its colorfully patterned wings are its most prominent feature. It flies through flower-covered fields collecting pollen. It attacks ferociously when angered.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "50",
+      "flavorText": "When flower fields bloom, it flits around, collecting pollen. Despite its appearance, it is savage.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "bug-buzz",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "50",
+      "flavorText": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 205 East Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "bug-buzz",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "swift",
+          "twister"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "bug-buzz",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "bug-bite",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift",
+          "tailwind",
+          "twister"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "bug-buzz",
+            "level": 41
+          },
+          {
+            "move": "quiver-dance",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "bug-buzz",
+            "level": 41
+          },
+          {
+            "move": "quiver-dance",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "roost",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey’s fluids.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 10
+          },
+          {
+            "move": "gust",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "morning-sun",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 24
+          },
+          {
+            "move": "whirlwind",
+            "level": 27
+          },
+          {
+            "move": "attract",
+            "level": 31
+          },
+          {
+            "move": "silver-wind",
+            "level": 34
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "bug-buzz",
+            "level": 41
+          },
+          {
+            "move": "quiver-dance",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "16",
+      "flavorText": "Beautifly has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This Pokémon rides the spring winds as it flits around gathering pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "absorb",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "morning-sun",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 22
+          },
+          {
+            "move": "silver-wind",
+            "level": 25
+          },
+          {
+            "move": "attract",
+            "level": 27
+          },
+          {
+            "move": "whirlwind",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 32
+          },
+          {
+            "move": "bug-buzz",
+            "level": 35
+          },
+          {
+            "move": "rage",
+            "level": 37
+          },
+          {
+            "move": "quiver-dance",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "signal-beam",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "morning-sun",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 22
+          },
+          {
+            "move": "silver-wind",
+            "level": 25
+          },
+          {
+            "move": "attract",
+            "level": 27
+          },
+          {
+            "move": "whirlwind",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 32
+          },
+          {
+            "move": "bug-buzz",
+            "level": 35
+          },
+          {
+            "move": "rage",
+            "level": 37
+          },
+          {
+            "move": "quiver-dance",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/267.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/267.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "morning-sun",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 22
+          },
+          {
+            "move": "silver-wind",
+            "level": 25
+          },
+          {
+            "move": "attract",
+            "level": 27
+          },
+          {
+            "move": "whirlwind",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 32
+          },
+          {
+            "move": "bug-buzz",
+            "level": 35
+          },
+          {
+            "move": "rage",
+            "level": 37
+          },
+          {
+            "move": "quiver-dance",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "defog",
+          "electroweb",
+          "giga-drain",
+          "laser-focus",
+          "signal-beam",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "267",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/267.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and , Eterna Forest",
+          "Route 224 (Sinnoh)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "morning-sun",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 20
+          },
+          {
+            "move": "mega-drain",
+            "level": 22
+          },
+          {
+            "move": "leech-life",
+            "level": 25
+          },
+          {
+            "move": "attract",
+            "level": 27
+          },
+          {
+            "move": "whirlwind",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 32
+          },
+          {
+            "move": "bug-buzz",
+            "level": 35
+          },
+          {
+            "move": "protect",
+            "level": 37
+          },
+          {
+            "move": "quiver-dance",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bug-buzz",
+          "defog",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "giga-drain",
+          "giga-impact",
+          "hyper-beam",
+          "protect",
+          "psychic",
+          "rest",
+          "roost",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "20",
+      "flavorText": "A colorful and incredibly beautiful but also greedy Pokémon. In an effort to keep its favorite food all to itself, it will chase away Combee as they try to gather nectar.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Floaro Gardens, Grueling Grove, The Heartwood, massive mass outbreaks | Cobalt Coastlands: Bathers' Lagoon, Veilstone Cape"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-cutter",
+            "level": 0
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 6
+          },
+          {
+            "move": "tackle",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 11
+          },
+          {
+            "move": "silver-wind",
+            "level": 18
+          },
+          {
+            "move": "venoshock",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 34
+          },
+          {
+            "move": "bug-buzz",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

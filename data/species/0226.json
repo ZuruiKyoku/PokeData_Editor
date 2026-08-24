@@ -1,0 +1,1969 @@
+{
+  "dex": 226,
+  "keyword": "mantine",
+  "name": "Mantine",
+  "japaneseName": {
+    "kana": "マンタイン",
+    "romaji": "Mantain"
+  },
+  "type1": "Water",
+  "type2": "Flying",
+  "genus": "Kite Pokémon",
+  "heightM": 2.1,
+  "weightKg": 220.0,
+  "stats": {
+    "hp": 85,
+    "attack": 40,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 140,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "hidden": false,
+      "effect": "Doubles Speed during rain."
+    },
+    {
+      "name": "water-absorb",
+      "hidden": false,
+      "effect": "Absorbs water moves, healing for 1/4 max HP."
+    },
+    {
+      "name": "water-veil",
+      "hidden": true,
+      "effect": "Prevents burns."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 25,
+    "captureRate": 25,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "wings",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 458,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0226.png",
+    "shiny": "sprites/shiny/0226.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/226.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/226.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "197",
+      "flavorText": "It swims along freely, eating things that swim into its mouth. Its whole body is very coarse.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Sea Route 41",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 10
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 40
+          },
+          {
+            "move": "confuse-ray",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "icy-wind",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "toxic",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "haze",
+          "hydro-pump",
+          "slam",
+          "twister"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "On sunny days, schools of MANTINE can be seen elegantly leaping over the waves. It is not bothered by the REMORAID that hitches rides.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 8
+          },
+          {
+            "move": "bubble-beam",
+            "level": 15
+          },
+          {
+            "move": "take-down",
+            "level": 22
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "water-pulse",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "surf",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "haze",
+          "hydro-pump",
+          "mud-sport",
+          "rock-slide",
+          "slam",
+          "twister"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "141",
+      "flavorText": "It swims elegantly, mindless of REMORAID hitching on to its broad fins. It has a docile nature.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "bubble-beam",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "confuse-ray",
+            "level": 37
+          },
+          {
+            "move": "bounce",
+            "level": 40
+          },
+          {
+            "move": "aqua-ring",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "defog",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "rock-slide",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "141",
+      "flavorText": "While elegantly swimming in the sea, it ignores REMORAID that cling to its fins seeking food scraps.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "bubble-beam",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "confuse-ray",
+            "level": 37
+          },
+          {
+            "move": "bounce",
+            "level": 40
+          },
+          {
+            "move": "aqua-ring",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "defog",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "rock-slide",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport"
+        ],
+        "tutor": [
+          "air-cutter",
+          "aqua-tail",
+          "bounce",
+          "dive",
+          "gunk-shot",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "mud-slap",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "202",
+      "flavorText": "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Sea Route 41",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "bubble-beam",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "confuse-ray",
+            "level": 37
+          },
+          {
+            "move": "bounce",
+            "level": 40
+          },
+          {
+            "move": "aqua-ring",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "rock-slide",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport"
+        ],
+        "tutor": [
+          "air-cutter",
+          "aqua-tail",
+          "bounce",
+          "dive",
+          "gunk-shot",
+          "headbutt",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "mud-slap",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift",
+          "tailwind"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Undella Bay",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Undella Town",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "bubble-beam",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "agility",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "confuse-ray",
+            "level": 37
+          },
+          {
+            "move": "bounce",
+            "level": 40
+          },
+          {
+            "move": "aqua-ring",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "234",
+      "flavorText": "If it builds up enough speed swimming, it can fly over 300 feet out of the water from the surface of the ocean.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 21",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 45
+          },
+          {
+            "location": "Undella Bay",
+            "method": "Surf Spots",
+            "minLevel": 30,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 3
+          },
+          {
+            "move": "bubble-beam",
+            "level": 7
+          },
+          {
+            "move": "confuse-ray",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 14
+          },
+          {
+            "move": "headbutt",
+            "level": 16
+          },
+          {
+            "move": "water-pulse",
+            "level": 19
+          },
+          {
+            "move": "wide-guard",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "aqua-ring",
+            "level": 39
+          },
+          {
+            "move": "bounce",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport",
+          "wide-guard"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "gunk-shot",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "seed-bomb",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C140",
+      "flavorText": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 3
+          },
+          {
+            "move": "bubble-beam",
+            "level": 7
+          },
+          {
+            "move": "confuse-ray",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 14
+          },
+          {
+            "move": "headbutt",
+            "level": 16
+          },
+          {
+            "move": "water-pulse",
+            "level": 19
+          },
+          {
+            "move": "wide-guard",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "aqua-ring",
+            "level": 39
+          },
+          {
+            "move": "bounce",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "On sunny days, schools of Mantine can be seen elegantly leaping over the sea’s waves. This Pokémon is not bothered by the Remoraid that hitches rides.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 3
+          },
+          {
+            "move": "bubble-beam",
+            "level": 7
+          },
+          {
+            "move": "confuse-ray",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 14
+          },
+          {
+            "move": "headbutt",
+            "level": 16
+          },
+          {
+            "move": "water-pulse",
+            "level": 19
+          },
+          {
+            "move": "wide-guard",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "aqua-ring",
+            "level": 39
+          },
+          {
+            "move": "bounce",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport",
+          "wide-guard"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "gunk-shot",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "tailwind",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "roost",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 3
+          },
+          {
+            "move": "bubble-beam",
+            "level": 7
+          },
+          {
+            "move": "confuse-ray",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 14
+          },
+          {
+            "move": "headbutt",
+            "level": 16
+          },
+          {
+            "move": "water-pulse",
+            "level": 19
+          },
+          {
+            "move": "wide-guard",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "aqua-ring",
+            "level": 39
+          },
+          {
+            "move": "bounce",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "roost",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "146",
+      "flavorText": "Many people have taken up surfing because they admire how magnificently Mantine swims.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/226.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/226.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "roost",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 3
+          },
+          {
+            "move": "bubble-beam",
+            "level": 7
+          },
+          {
+            "move": "confuse-ray",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 14
+          },
+          {
+            "move": "headbutt",
+            "level": 16
+          },
+          {
+            "move": "water-pulse",
+            "level": 19
+          },
+          {
+            "move": "wide-guard",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 32
+          },
+          {
+            "move": "air-slash",
+            "level": 36
+          },
+          {
+            "move": "aqua-ring",
+            "level": 39
+          },
+          {
+            "move": "bounce",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "roost",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "mud-sport",
+          "slam",
+          "splash",
+          "twister",
+          "water-sport",
+          "wide-guard"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "defog",
+          "gunk-shot",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "liquidation",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "tailwind",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "355",
+      "flavorText": "As it majestically swims, it doesn’t care if Remoraid attach to it to scavenge for its leftovers.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "roost",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "wing-attack",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 12
+          },
+          {
+            "move": "wide-guard",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "bubble-beam",
+            "level": 24
+          },
+          {
+            "move": "headbutt",
+            "level": 28
+          },
+          {
+            "move": "air-slash",
+            "level": 32
+          },
+          {
+            "move": "aqua-ring",
+            "level": 36
+          },
+          {
+            "move": "bounce",
+            "level": 40
+          },
+          {
+            "move": "take-down",
+            "level": 44
+          },
+          {
+            "move": "hydro-pump",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "agility",
+          "air-slash",
+          "amnesia",
+          "assurance",
+          "attract",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "bounce",
+          "brine",
+          "bulldoze",
+          "bullet-seed",
+          "dive",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-impact",
+          "gunk-shot",
+          "hail",
+          "helping-hand",
+          "hurricane",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "iron-head",
+          "liquidation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scald",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "surf",
+          "swift",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "confuse-ray",
+          "haze",
+          "mirror-coat",
+          "slam",
+          "splash",
+          "tailwind",
+          "twister"
+        ],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "226",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/226.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bullet-seed",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "roost",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "wing-attack",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 12
+          },
+          {
+            "move": "wide-guard",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "bubble-beam",
+            "level": 24
+          },
+          {
+            "move": "headbutt",
+            "level": 28
+          },
+          {
+            "move": "air-slash",
+            "level": 32
+          },
+          {
+            "move": "aqua-ring",
+            "level": 36
+          },
+          {
+            "move": "bounce",
+            "level": 40
+          },
+          {
+            "move": "take-down",
+            "level": 44
+          },
+          {
+            "move": "hydro-pump",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brine",
+          "bulldoze",
+          "bullet-seed",
+          "defog",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-impact",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "roost",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "confuse-ray",
+          "haze",
+          "hydro-pump",
+          "mirror-coat",
+          "slam",
+          "splash",
+          "tailwind",
+          "twister",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "165",
+      "flavorText": "This calm and gentle Pokémon swims gracefully through the sea. After building speed, it can leap out of the water. It is often misidentified as a bird Pokémon due to this behavior.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: Tranquility Cove (additional ), massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bubble",
+            "level": 5
+          },
+          {
+            "move": "aerial-ace",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 15
+          },
+          {
+            "move": "air-slash",
+            "level": 21
+          },
+          {
+            "move": "roost",
+            "level": 29
+          },
+          {
+            "move": "hydro-pump",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

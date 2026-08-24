@@ -1,0 +1,912 @@
+{
+  "dex": 13,
+  "keyword": "weedle",
+  "name": "Weedle",
+  "japaneseName": {
+    "kana": "ビードル",
+    "romaji": "Beedle"
+  },
+  "type1": "Bug",
+  "type2": "Poison",
+  "genus": "Hairy Bug Pokémon",
+  "heightM": 0.3,
+  "weightKg": 3.2,
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 20,
+    "specialDefense": 20,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "hidden": false,
+      "effect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "name": "run-away",
+      "hidden": true,
+      "effect": "Ensures success fleeing from wild battles."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "armor",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      14
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0013.png",
+    "shiny": "sprites/shiny/0013.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/13.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/13.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "13",
+      "flavorText": "Often found in forests, eating leaves. It has a sharp stinger on its head that injects poison.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/13.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pattern Bush",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-johto": {
+      "dexNumber": "27",
+      "flavorText": "The barb on top of its head secretes a strong poison. It uses this toxic barb to protect itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A WEEDLE has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "27",
+      "flavorText": "It attacks using a two-inch poison barb on its head. It can usually be found under the leaves it eats.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Unknown All Bugs",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "string-shot"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "26",
+      "flavorText": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Santalune Forest",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/13.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/13.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "13",
+      "flavorText": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "13",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/13.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Spacious Cave, Grassland Cave, Swampy Cave, Riverbank Cave Still-Water Cavern, Sunlit Cavern, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "18",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Vert Sector 1, Vert Sector 2, Vert Sector 6, Vert Sector 8, Wild Zone 1 | Bleu District: Bleu Sector 7 | Magenta District: Magenta Sector 3 (only one alpha, during Side Mission 043), Magenta Sector 4, Magenta Sector 6, Magenta Sector 7, Magenta Sector 9 | Rouge District: Rouge Street, Rouge Sector 2, Rouge Sector 3, Rouge Sector 6 | Jaune District: Jaune Sector 1, Jaune Sector 5, Jaune Sector 6, Jaune Sector 11",
+          "Hyperspace Lumiose (1★ Bug-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,2070 @@
+{
+  "dex": 194,
+  "keyword": "wooper",
+  "name": "Wooper",
+  "japaneseName": {
+    "kana": "ウパー",
+    "romaji": "Upah"
+  },
+  "type1": "Water",
+  "type2": "Ground",
+  "genus": "Water Fish Pokémon",
+  "heightM": 0.4,
+  "weightKg": 8.5,
+  "stats": {
+    "hp": 55,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 15
+  },
+  "abilities": [
+    {
+      "name": "damp",
+      "hidden": false,
+      "effect": "Prevents self destruct, explosion, and aftermath from working while the Pokémon is in battle."
+    },
+    {
+      "name": "water-absorb",
+      "hidden": false,
+      "effect": "Absorbs water moves, healing for 1/4 max HP."
+    },
+    {
+      "name": "unaware",
+      "hidden": true,
+      "effect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "legs",
+    "habitat": "waters-edge",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female has one set of gill branches",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      195,
+      980
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0194.png",
+    "shiny": "sprites/shiny/0194.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/194.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/194.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "56",
+      "flavorText": "A mucous membrane covers its body. Touching it barehanded will cause a shooting pain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 32",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 8
+          },
+          {
+            "location": "Ruins Of Alph Outside",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Ruins Of Alph Outside",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "slam",
+            "level": 11
+          },
+          {
+            "move": "amnesia",
+            "level": 21
+          },
+          {
+            "move": "earthquake",
+            "level": 31
+          },
+          {
+            "move": "rain-dance",
+            "level": 41
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "mist",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "surf",
+          "swagger",
+          "toxic",
+          "whirlpool"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "safeguard"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "WOOPER usually live in water but come out onto land seeking food occasionally. On land, they coat their bodies with a gooey, toxic film.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Expansion South",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "slam",
+            "level": 11
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "amnesia",
+            "level": 21
+          },
+          {
+            "move": "yawn",
+            "level": 31
+          },
+          {
+            "move": "earthquake",
+            "level": 36
+          },
+          {
+            "move": "rain-dance",
+            "level": 41
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "mist",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dig",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sandstorm",
+          "secret-power",
+          "sludge-bomb",
+          "surf",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "curse",
+          "mud-sport",
+          "safeguard",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "ice-punch",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "117",
+      "flavorText": "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "encore",
+          "mud-sport",
+          "safeguard",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "117",
+      "flavorText": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "encore",
+          "mud-sport",
+          "safeguard",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "dive",
+          "earth-power",
+          "ice-punch",
+          "icy-wind",
+          "mud-slap",
+          "rollout",
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "56",
+      "flavorText": "When it walks around on the ground, it coats its body with a slimy, poisonous film.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 32",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 47 Cave Gate",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 47 Inside Cave",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Ruins Of Alph Outside",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 20
+          },
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Wetland",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Safari Zone Zone Wetland",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 20
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 20
+          },
+          {
+            "location": "Violet City Pokemon Center",
+            "method": "Gift Egg",
+            "minLevel": 1,
+            "maxLevel": 1
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "encore",
+          "mud-sport",
+          "recover",
+          "safeguard",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "dive",
+          "earth-power",
+          "headbutt",
+          "ice-punch",
+          "icy-wind",
+          "mud-slap",
+          "rollout",
+          "snore"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dig",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "encore",
+          "mud-sport",
+          "recover",
+          "sleep-talk",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dig",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "encore",
+          "mud-sport",
+          "recover",
+          "sleep-talk",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "after-you",
+          "aqua-tail",
+          "earth-power",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M17",
+      "flavorText": "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "eerie-impulse",
+          "encore",
+          "guard-swap",
+          "mud-sport",
+          "recover",
+          "sleep-talk",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Wooper usually lives in water. However, it occasionally comes out onto land in search of food. On land, it coats its body with a gooey, toxic film.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "dig",
+          "dive",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "eerie-impulse",
+          "encore",
+          "guard-swap",
+          "mud-sport",
+          "recover",
+          "sleep-talk",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "after-you",
+          "aqua-tail",
+          "earth-power",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "eerie-impulse",
+          "encore",
+          "guard-swap",
+          "mud-sport",
+          "recover",
+          "sleep-talk",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/194.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/194.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "mud-shot",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 19
+          },
+          {
+            "move": "amnesia",
+            "level": 23
+          },
+          {
+            "move": "yawn",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "muddy-water",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "eerie-impulse",
+          "encore",
+          "guard-swap",
+          "mud-sport",
+          "power-up-punch",
+          "recover",
+          "sleep-talk",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "after-you",
+          "aqua-tail",
+          "earth-power",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "snore",
+          "stomping-tantrum",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "100",
+      "flavorText": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "rain-dance",
+            "level": 4
+          },
+          {
+            "move": "mud-shot",
+            "level": 8
+          },
+          {
+            "move": "haze",
+            "level": 12
+          },
+          {
+            "move": "mist",
+            "level": 12
+          },
+          {
+            "move": "slam",
+            "level": 16
+          },
+          {
+            "move": "yawn",
+            "level": 21
+          },
+          {
+            "move": "aqua-tail",
+            "level": 24
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "amnesia",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "dig",
+          "dive",
+          "earth-power",
+          "earthquake",
+          "eerie-impulse",
+          "encore",
+          "endure",
+          "facade",
+          "guard-swap",
+          "hail",
+          "hydro-pump",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "mud-shot",
+          "muddy-water",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "stomping-tantrum",
+          "substitute",
+          "surf",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "counter",
+          "curse",
+          "double-kick",
+          "power-up-punch",
+          "recover",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "194",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/194.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 212 (Sinnoh), Great Marsh | Grand Underground - Fountainspring Cave, Swampy Cave, Bogsunk Cavern (After obtaining the )"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "rain-dance",
+            "level": 4
+          },
+          {
+            "move": "mud-shot",
+            "level": 8
+          },
+          {
+            "move": "haze",
+            "level": 12
+          },
+          {
+            "move": "mist",
+            "level": 12
+          },
+          {
+            "move": "slam",
+            "level": 16
+          },
+          {
+            "move": "yawn",
+            "level": 21
+          },
+          {
+            "move": "aqua-tail",
+            "level": 24
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "amnesia",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "hail",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "safeguard",
+          "sandstorm",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "curse",
+          "double-kick",
+          "eerie-impulse",
+          "encore",
+          "guard-swap",
+          "power-up-punch",
+          "recover",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P053",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/194.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Four, Area Five, Area Six, Alfornada Cavern (Paldean Form) | East Province: Area Three, Tagtree Thicket (Paldean Form) | West Province: Area Three (Paldean Form) | North Province: Area One, Glaseado Mountain (Paldean Form) | Tera Raid Battles (1★ Wooper - Paldean Form) (Paldean Form) | Trade Paldean Wooper in Cascarrafa (Johtonian Form)",
+          "Kitakami Road, Reveler's Road, Mossfell Confluence, Fellhorn Gorge, Oni Mountain, Chilling Waterhead, Kitakami Wilds, Timeless Woods (Johtonian Form) | Tera Raid Battles (1★ Wooper) (Johtonian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "rain-dance",
+            "level": 4
+          },
+          {
+            "move": "mud-shot",
+            "level": 8
+          },
+          {
+            "move": "haze",
+            "level": 12
+          },
+          {
+            "move": "mist",
+            "level": 12
+          },
+          {
+            "move": "slam",
+            "level": 16
+          },
+          {
+            "move": "yawn",
+            "level": 21
+          },
+          {
+            "move": "aqua-tail",
+            "level": 24
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "amnesia",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "amnesia",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "chilling-water",
+          "curse",
+          "dig",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "encore",
+          "endure",
+          "facade",
+          "haze",
+          "helping-hand",
+          "hydro-pump",
+          "ice-beam",
+          "icy-wind",
+          "liquidation",
+          "mud-shot",
+          "mud-slap",
+          "muddy-water",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snowscape",
+          "spikes",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "take-down",
+          "tera-blast",
+          "toxic",
+          "trailblaze",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "acid-spray",
+          "after-you",
+          "ancient-power",
+          "counter",
+          "curse",
+          "double-kick",
+          "recover",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,883 @@
+{
+  "dex": 11,
+  "keyword": "metapod",
+  "name": "Metapod",
+  "japaneseName": {
+    "kana": "トランセル",
+    "romaji": "Transel"
+  },
+  "type1": "Bug",
+  "type2": null,
+  "genus": "Cocoon Pokémon",
+  "heightM": 0.7,
+  "weightKg": 9.9,
+  "stats": {
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "specialAttack": 25,
+    "specialDefense": 25,
+    "speed": 30
+  },
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "hidden": false,
+      "effect": "Has a 33% chance of curing any major status ailment after each turn."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "squiggle",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 10,
+    "evolvesIntoDex": [
+      12
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0011.png",
+    "shiny": "sprites/shiny/0011.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/11.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/11.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "11",
+      "flavorText": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/11.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pattern Bush",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 9
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 6
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-johto": {
+      "dexNumber": "25",
+      "flavorText": "This is its pre- evolved form. At this stage, it can only harden, so it remains motionless to avoid attack.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 7
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its shell is as hard as an iron slab. A METAPOD does not move very much because it is preparing its soft innards for evolution inside the shell.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "iron-defense"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "25",
+      "flavorText": "It prepares for evolution by hardening its shell as much as possible to protect its soft body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "iron-defense",
+          "string-shot"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Dark Grass",
+            "minLevel": 59,
+            "maxLevel": 59
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "iron-defense"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "24",
+      "flavorText": "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Santalune Forest",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "The shell covering this Pokémon’s body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "iron-defense"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "18",
+      "flavorText": "Its shell is hard, but it’s still just a bug shell. It’s been known to break, so intense battles with it should be avoided.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 1 South",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 1 West",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 0
+          },
+          {
+            "move": "harden",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "18",
+      "flavorText": "Its hard shell doesn’t crack a bit even if Pikipek pecks at it, but it will tip over, spilling out its insides.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/11.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/11.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 0
+          },
+          {
+            "move": "harden",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "iron-defense"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "11",
+      "flavorText": "Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 0
+          },
+          {
+            "move": "harden",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "14",
+      "flavorText": "Even though it is encased in a sturdy shell, the body inside is tender. It can’t withstand a harsh attack.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 0
+          },
+          {
+            "move": "harden",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "electroweb",
+          "iron-defense"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "11",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/11.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 0
+          },
+          {
+            "move": "harden",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,1916 @@
+{
+  "dex": 315,
+  "keyword": "roselia",
+  "name": "Roselia",
+  "japaneseName": {
+    "kana": "ロゼリア",
+    "romaji": "Roselia"
+  },
+  "type1": "Grass",
+  "type2": "Poison",
+  "genus": "Thorn Pokémon",
+  "heightM": 0.3,
+  "weightKg": 2.0,
+  "stats": {
+    "hp": 50,
+    "attack": 60,
+    "defense": 45,
+    "specialAttack": 100,
+    "specialDefense": 80,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "hidden": false,
+      "effect": "Cures any major status ailment upon switching out."
+    },
+    {
+      "name": "poison-point",
+      "hidden": false,
+      "effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+    },
+    {
+      "name": "leaf-guard",
+      "hidden": true,
+      "effect": "Protects against major status ailments during strong sunlight."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy",
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 150,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "humanoid",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": "Female's body leaf is longer",
+  "evolution": {
+    "evolvesFromDex": 406,
+    "evolvesIntoDex": [
+      407
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0315.png",
+    "shiny": "sprites/shiny/0315.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/315.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/315.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "94",
+      "flavorText": "A ROSELIA that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 117",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 5
+          },
+          {
+            "move": "poison-sting",
+            "level": 9
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "leech-seed",
+            "level": 21
+          },
+          {
+            "move": "magical-leaf",
+            "level": 25
+          },
+          {
+            "move": "grass-whistle",
+            "level": 29
+          },
+          {
+            "move": "giga-drain",
+            "level": 33
+          },
+          {
+            "move": "sweet-scent",
+            "level": 37
+          },
+          {
+            "move": "ingrain",
+            "level": 41
+          },
+          {
+            "move": "toxic",
+            "level": 45
+          },
+          {
+            "move": "petal-dance",
+            "level": 49
+          },
+          {
+            "move": "aromatherapy",
+            "level": 53
+          },
+          {
+            "move": "synthesis",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "cotton-spore",
+          "pin-missile",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "26",
+      "flavorText": "The beautiful flowers on its arms have toxic thorns. Don’t even think about picking those flowers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 212 North Towards Hearthome City",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 54
+          },
+          {
+            "location": "Route 225",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Trophy Garden",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 37
+          },
+          {
+            "move": "petal-dance",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "cotton-spore",
+          "leaf-storm",
+          "mind-reader",
+          "pin-missile",
+          "razor-leaf",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "26",
+      "flavorText": "The more healthy the ROSELIA, the more pleasant its flowers’ aroma. Its scent deeply relaxes people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 208",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 209",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Route 212 North Towards Hearthome City",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Trophy Garden",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 37
+          },
+          {
+            "move": "petal-dance",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "cotton-spore",
+          "leaf-storm",
+          "mind-reader",
+          "pin-missile",
+          "razor-leaf",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "mud-slap",
+          "seed-bomb",
+          "snore",
+          "swift",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "ROSELIA that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 37
+          },
+          {
+            "move": "petal-dance",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "cotton-spore",
+          "leaf-storm",
+          "mind-reader",
+          "pin-missile",
+          "razor-leaf",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "mud-slap",
+          "seed-bomb",
+          "snore",
+          "swift",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The more healthy the Roselia, the more pleasant its flowers’ aroma. Its scent deeply relaxes people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 37
+          },
+          {
+            "move": "petal-dance",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "cotton-spore",
+          "giga-drain",
+          "grass-whistle",
+          "leaf-storm",
+          "mind-reader",
+          "natural-gift",
+          "pin-missile",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "134",
+      "flavorText": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lostlorn Forest",
+            "method": "Dark Grass",
+            "minLevel": 25,
+            "maxLevel": 26
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 12",
+            "method": "Dark Grass",
+            "minLevel": 39,
+            "maxLevel": 41
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 37
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 72",
+            "method": "Dark Grass",
+            "minLevel": 53,
+            "maxLevel": 55
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 72",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "petal-dance",
+            "level": 37
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "cotton-spore",
+          "giga-drain",
+          "grass-whistle",
+          "leaf-storm",
+          "mind-reader",
+          "natural-gift",
+          "pin-missile",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": [
+          "covet",
+          "giga-drain",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "72",
+      "flavorText": "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 7",
+            "method": "Purple Flowers",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Yellow Flowers",
+            "minLevel": 14,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "petal-dance",
+            "level": 37
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "cotton-spore",
+          "giga-drain",
+          "grass-whistle",
+          "leaf-storm",
+          "mind-reader",
+          "natural-gift",
+          "pin-missile",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "98",
+      "flavorText": "On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokémon’s head contain a vicious poison.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 37
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          },
+          {
+            "move": "petal-dance",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "cotton-spore",
+          "giga-drain",
+          "grass-whistle",
+          "leaf-storm",
+          "mind-reader",
+          "natural-gift",
+          "pin-missile",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": [
+          "covet",
+          "giga-drain",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ulaula Meadow",
+            "method": "Island Scan",
+            "minLevel": 34,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 37
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          },
+          {
+            "move": "petal-dance",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "cotton-spore",
+          "giga-drain",
+          "grass-whistle",
+          "leaf-storm",
+          "mind-reader",
+          "natural-gift",
+          "pin-missile",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/315.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/315.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "poison-sting",
+            "level": 7
+          },
+          {
+            "move": "stun-spore",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 16
+          },
+          {
+            "move": "magical-leaf",
+            "level": 19
+          },
+          {
+            "move": "grass-whistle",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 25
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 28
+          },
+          {
+            "move": "sweet-scent",
+            "level": 31
+          },
+          {
+            "move": "ingrain",
+            "level": 34
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 37
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "synthesis",
+            "level": 46
+          },
+          {
+            "move": "petal-dance",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "cotton-spore",
+          "giga-drain",
+          "grass-whistle",
+          "leaf-storm",
+          "mind-reader",
+          "natural-gift",
+          "pin-missile",
+          "power-whip",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": [
+          "covet",
+          "giga-drain",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "60",
+      "flavorText": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "worry-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 10
+          },
+          {
+            "move": "magical-leaf",
+            "level": 15
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 25
+          },
+          {
+            "move": "giga-drain",
+            "level": 30
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 45
+          },
+          {
+            "move": "aromatherapy",
+            "level": 50
+          },
+          {
+            "move": "ingrain",
+            "level": 55
+          },
+          {
+            "move": "petal-dance",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "bullet-seed",
+          "dazzling-gleam",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "leaf-storm",
+          "magical-leaf",
+          "pin-missile",
+          "poison-jab",
+          "power-whip",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "seed-bomb",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "spikes",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "toxic-spikes",
+          "uproar",
+          "venoshock",
+          "weather-ball"
+        ],
+        "egg": [
+          "cotton-spore",
+          "extrasensory",
+          "life-dew",
+          "razor-leaf",
+          "sleep-powder"
+        ],
+        "tutor": [
+          "grassy-glide"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "315",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/315.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , , , and , Trophy Garden, Great Marsh | Grand Underground - Grassland Cave, Swampy Cave, Sunlit Cavern, Bogsunk Cavern",
+          "Routes , , , and , Trophy Garden, Great Marsh | Grand Underground - Grassland Cave, Swampy Cave, Sunlit Cavern, Bogsunk Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "worry-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 10
+          },
+          {
+            "move": "magical-leaf",
+            "level": 15
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 25
+          },
+          {
+            "move": "giga-drain",
+            "level": 30
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "toxic",
+            "level": 40
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 45
+          },
+          {
+            "move": "aromatherapy",
+            "level": 50
+          },
+          {
+            "move": "ingrain",
+            "level": 55
+          },
+          {
+            "move": "petal-dance",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "dazzling-gleam",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "giga-drain",
+          "grass-knot",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "cotton-spore",
+          "extrasensory",
+          "leaf-storm",
+          "life-dew",
+          "mind-reader",
+          "pin-missile",
+          "power-whip",
+          "razor-leaf",
+          "seed-bomb",
+          "sleep-powder",
+          "spikes",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "90",
+      "flavorText": "Though beautiful, it has highly poisonous thorns. There is an old tradition in my homeland wherein one would send these thorns to an opponent to challenge them to a duel.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Gapejaw Bog, Cloudpool Ridge and nearby, near Cottonsedge Prairie, massive mass outbreaks | Coronet Highlands: Fabled Spring"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 6
+          },
+          {
+            "move": "poison-powder",
+            "level": 11
+          },
+          {
+            "move": "stun-spore",
+            "level": 18
+          },
+          {
+            "move": "venoshock",
+            "level": 25
+          },
+          {
+            "move": "poison-jab",
+            "level": 34
+          },
+          {
+            "move": "energy-ball",
+            "level": 43
+          },
+          {
+            "move": "petal-dance",
+            "level": 52
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "30",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Magenta District: Wild Zone 7",
+          "Hyperspace Lumiose (3★ & 4★ Grass-type & Poison-type wild zones, 5★ Hyperspace wild zones via special scan (requires special scan))"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

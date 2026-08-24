@@ -1,0 +1,210 @@
+{
+  "dex": 997,
+  "keyword": "arctibax",
+  "name": "Arctibax",
+  "japaneseName": {
+    "kana": "セゴール",
+    "romaji": "Segohru"
+  },
+  "type1": "Dragon",
+  "type2": "Ice",
+  "genus": "Ice Fin Pokémon",
+  "heightM": 0.8,
+  "weightKg": 30.0,
+  "stats": {
+    "hp": 90,
+    "attack": 95,
+    "defense": 66,
+    "specialAttack": 45,
+    "specialDefense": 65,
+    "speed": 62
+  },
+  "abilities": [
+    {
+      "name": "thermal-exchange",
+      "hidden": false,
+      "effect": "Raises Attack when hit by a Fire-type move. Cannot be burned."
+    },
+    {
+      "name": "ice-body",
+      "hidden": true,
+      "effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "dragon",
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 40,
+    "captureRate": 25,
+    "baseFriendship": 50,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "upright",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 9
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 996,
+    "evolvesIntoDex": [
+      998
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0997.png",
+    "shiny": "sprites/shiny/0997.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/997.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "sv": {
+      "dexNumber": "P389",
+      "flavorText": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/997.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: Glaseado Mountain"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "dragon-tail",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 6
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "focus-energy",
+            "level": 18
+          },
+          {
+            "move": "bite",
+            "level": 24
+          },
+          {
+            "move": "ice-fang",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "ice-beam",
+            "level": 45
+          },
+          {
+            "move": "crunch",
+            "level": 50
+          },
+          {
+            "move": "icicle-crash",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "crunch",
+          "dig",
+          "draco-meteor",
+          "dragon-claw",
+          "dragon-pulse",
+          "dragon-tail",
+          "endure",
+          "facade",
+          "helping-hand",
+          "ice-beam",
+          "ice-fang",
+          "icicle-spear",
+          "icy-wind",
+          "iron-head",
+          "outrage",
+          "protect",
+          "rain-dance",
+          "rest",
+          "scary-face",
+          "sleep-talk",
+          "snowscape",
+          "substitute",
+          "swords-dance",
+          "take-down",
+          "tera-blast"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H033",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose (5★ Ice-type & Dragon-type wild zones; requires Special Scan)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

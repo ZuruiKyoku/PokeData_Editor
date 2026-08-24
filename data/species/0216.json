@@ -1,0 +1,1985 @@
+{
+  "dex": 216,
+  "keyword": "teddiursa",
+  "name": "Teddiursa",
+  "japaneseName": {
+    "kana": "ヒメグマ",
+    "romaji": "Himeguma"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Little Bear Pokémon",
+  "heightM": 0.6,
+  "weightKg": 8.8,
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 50,
+    "specialDefense": 50,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "quick-feet",
+      "hidden": false,
+      "effect": "Increases Speed to 1.5× with a major status ailment."
+    },
+    {
+      "name": "honey-gather",
+      "hidden": true,
+      "effect": "The Pokémon may pick up honey after battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      217
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0216.png",
+    "shiny": "sprites/shiny/0216.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/216.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/216.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "193",
+      "flavorText": "It always licks honey. Its palm tastes sweet because of all the honey it has absorbed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 8
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 36
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-punch",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [
+          "counter",
+          "crunch",
+          "focus-energy",
+          "metal-claw",
+          "seismic-toss",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It licks its palms that are sweetened by being soaked in honey. A TEDDIURSA makes its own honey by blending fruits and pollen collected by BEEDRILL.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Altering Cave E",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 16
+          },
+          {
+            "location": "Safari Zone Expansion North",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "fake-tears",
+            "level": 19
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "counter",
+          "crunch",
+          "fake-tears",
+          "metal-claw",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Acuity Lakefront",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 211 East Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 211 West Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lake Acuity",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 41
+          },
+          {
+            "location": "Route 211 West Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": [
+          "fire-punch",
+          "fury-cutter",
+          "gunk-shot",
+          "ice-punch",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "superpower",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "198",
+      "flavorText": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 43
+          },
+          {
+            "location": "Mt Silver 1f Top",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Mt Silver 3f",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Mt Silver Mountainside",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "belly-drum",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": [
+          "fire-punch",
+          "fury-cutter",
+          "gunk-shot",
+          "headbutt",
+          "ice-punch",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "superpower",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "belly-drum",
+          "chip-away",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "belly-drum",
+          "chip-away",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": [
+          "covet",
+          "fire-punch",
+          "gunk-shot",
+          "hyper-voice",
+          "ice-punch",
+          "last-resort",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M132",
+      "flavorText": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "fling",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "play-nice",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "belly-drum",
+          "chip-away",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "play-rough",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "This Pokémon likes to lick its palms that are sweetened by being soaked in honey. Teddiursa concocts its own honey by blending fruits and pollen collected by Beedrill.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "fling",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "play-nice",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "belly-drum",
+          "chip-away",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "play-rough",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": [
+          "covet",
+          "fire-punch",
+          "focus-punch",
+          "gunk-shot",
+          "hyper-voice",
+          "ice-punch",
+          "last-resort",
+          "seed-bomb",
+          "snore",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "fling",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "play-nice",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "belly-drum",
+          "chip-away",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "play-rough",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/216.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/216.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "fling",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "play-nice",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "belly-drum",
+          "chip-away",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "play-rough",
+          "seismic-toss",
+          "sleep-talk",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": [
+          "covet",
+          "fire-punch",
+          "focus-punch",
+          "gunk-shot",
+          "hyper-voice",
+          "ice-punch",
+          "last-resort",
+          "seed-bomb",
+          "snore",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "216",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/216.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Grassland Cave, Spacious Cave, Rocky Cave, Sunlit Cavern, Whiteout Cave, Glacial Cavern, Icy Cave"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "fling",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "payback",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 22
+          },
+          {
+            "move": "play-nice",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 36
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "snore",
+            "level": 43
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "fling",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "work-up"
+        ],
+        "egg": [
+          "belly-drum",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "metal-claw",
+          "night-slash",
+          "play-rough",
+          "seismic-toss",
+          "take-down",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "112",
+      "flavorText": "It licks its paws because of the sweet honey that has soaked into them. It is cunning, stealing into the nests of Combee and taking for itself the honey that the Combee have amassed.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: near Golden Lowlands (mass outbreaks), Ursa's Ring, near Droning Meadow, massive mass outbreaks | Coronet Highlands: Sonorous Path"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 6
+          },
+          {
+            "move": "bulldoze",
+            "level": 11
+          },
+          {
+            "move": "slash",
+            "level": 18
+          },
+          {
+            "move": "play-rough",
+            "level": 25
+          },
+          {
+            "move": "high-horsepower",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P215",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/216.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Area One | North Province: Area One, Area Two, Glaseado Mountain | Tera Raid Battles (2★ Teddiursa)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fling",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "payback",
+            "level": 13
+          },
+          {
+            "move": "sweet-scent",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "play-nice",
+            "level": 25
+          },
+          {
+            "move": "play-rough",
+            "level": 29
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "snore",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "charm",
+          "close-combat",
+          "crunch",
+          "dig",
+          "double-edge",
+          "earthquake",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-punch",
+          "fling",
+          "focus-punch",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "low-kick",
+          "metal-claw",
+          "metronome",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "seed-bomb",
+          "shadow-claw",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-punch",
+          "trailblaze",
+          "uproar"
+        ],
+        "egg": [
+          "belly-drum",
+          "close-combat",
+          "counter",
+          "cross-chop",
+          "crunch",
+          "double-edge",
+          "fake-tears",
+          "fury-cutter",
+          "metal-claw",
+          "night-slash",
+          "seismic-toss",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

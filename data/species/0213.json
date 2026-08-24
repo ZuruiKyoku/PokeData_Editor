@@ -1,0 +1,1812 @@
+{
+  "dex": 213,
+  "keyword": "shuckle",
+  "name": "Shuckle",
+  "japaneseName": {
+    "kana": "ツボツボ",
+    "romaji": "Tsubotsubo"
+  },
+  "type1": "Bug",
+  "type2": "Rock",
+  "genus": "Mold Pokémon",
+  "heightM": 0.6,
+  "weightKg": 20.5,
+  "stats": {
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "specialAttack": 10,
+    "specialDefense": 230,
+    "speed": 5
+  },
+  "abilities": [
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "gluttony",
+      "hidden": false,
+      "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+    },
+    {
+      "name": "contrary",
+      "hidden": true,
+      "effect": "Inverts stat changes."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "armor",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0213.png",
+    "shiny": "sprites/shiny/0213.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/213.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/213.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "166",
+      "flavorText": "The fluid secreted by its toes carves holes in rocks for nesting and can be mixed with BERRIES to make a drink.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cianwood City",
+            "method": "Rock Smash",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Cianwood City Manias House",
+            "method": "Gift",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Rock Smash",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Sea Route 40",
+            "method": "Rock Smash",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "encore",
+            "level": 14
+          },
+          {
+            "move": "safeguard",
+            "level": 23
+          },
+          {
+            "move": "bide",
+            "level": 28
+          },
+          {
+            "move": "rest",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A SHUCKLE hides under rocks, keeping its body concealed inside its shell while eating stored berries. The berries mix with its body fluids to become a juice.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Altering Cave G",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 28
+          },
+          {
+            "location": "Safari Zone Expansion North",
+            "method": "Rock Smash",
+            "minLevel": 20,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "encore",
+            "level": 14
+          },
+          {
+            "move": "safeguard",
+            "level": 23
+          },
+          {
+            "move": "bide",
+            "level": 28
+          },
+          {
+            "move": "rest",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "sludge-bomb",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "sweet-scent"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It stores berries in its shell. The berries eventually ferment to become delicious juices.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "bide",
+            "level": 9
+          },
+          {
+            "move": "encore",
+            "level": 14
+          },
+          {
+            "move": "safeguard",
+            "level": 22
+          },
+          {
+            "move": "wrap",
+            "level": 27
+          },
+          {
+            "move": "rest",
+            "level": 35
+          },
+          {
+            "move": "gastro-acid",
+            "level": 40
+          },
+          {
+            "move": "power-trick",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "acupressure",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It stores berries in its shell. The berries eventually ferment to become delicious juices.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 9
+          },
+          {
+            "move": "safeguard",
+            "level": 14
+          },
+          {
+            "move": "wrap",
+            "level": 22
+          },
+          {
+            "move": "rest",
+            "level": 27
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "bug-bite",
+            "level": 40
+          },
+          {
+            "move": "power-trick",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "acupressure",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "gastro-acid",
+          "helping-hand",
+          "mud-slap",
+          "rollout",
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "168",
+      "flavorText": "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cianwood City",
+            "method": "Rock Smash",
+            "minLevel": 23,
+            "maxLevel": 28
+          },
+          {
+            "location": "Cianwood City Kirks House",
+            "method": "Gift",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Vermilion City",
+            "method": "Rock Smash",
+            "minLevel": 32,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 9
+          },
+          {
+            "move": "safeguard",
+            "level": 14
+          },
+          {
+            "move": "wrap",
+            "level": 22
+          },
+          {
+            "move": "rest",
+            "level": 27
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "bug-bite",
+            "level": 40
+          },
+          {
+            "move": "power-trick",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "acupressure",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "ancient-power",
+          "bug-bite",
+          "earth-power",
+          "gastro-acid",
+          "headbutt",
+          "helping-hand",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "string-shot"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It stores berries in its shell. The berries eventually ferment to become delicious juices.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 14",
+            "method": "Dark Grass",
+            "minLevel": 59,
+            "maxLevel": 59
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 13
+          },
+          {
+            "move": "safeguard",
+            "level": 19
+          },
+          {
+            "move": "rest",
+            "level": 25
+          },
+          {
+            "move": "gastro-acid",
+            "level": 31
+          },
+          {
+            "move": "rollout",
+            "level": 37
+          },
+          {
+            "move": "power-trick",
+            "level": 43
+          },
+          {
+            "move": "bug-bite",
+            "level": 49
+          },
+          {
+            "move": "guard-split",
+            "level": 55
+          },
+          {
+            "move": "power-split",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "final-gambit",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "232",
+      "flavorText": "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Seaside Cave B1f",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "struggle-bug",
+            "level": 12
+          },
+          {
+            "move": "safeguard",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "rock-throw",
+            "level": 23
+          },
+          {
+            "move": "gastro-acid",
+            "level": 27
+          },
+          {
+            "move": "power-trick",
+            "level": 31
+          },
+          {
+            "move": "shell-smash",
+            "level": 34
+          },
+          {
+            "move": "rock-slide",
+            "level": 38
+          },
+          {
+            "move": "bug-bite",
+            "level": 42
+          },
+          {
+            "move": "guard-split",
+            "level": 45
+          },
+          {
+            "move": "power-split",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "final-gambit",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "bind",
+          "bug-bite",
+          "earth-power",
+          "gastro-acid",
+          "helping-hand",
+          "knock-off",
+          "sleep-talk",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M14",
+      "flavorText": "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 18",
+            "method": "Rock Smash",
+            "minLevel": 44,
+            "maxLevel": 46
+          },
+          {
+            "location": "Terminus Cave 1f",
+            "method": "Rock Smash",
+            "minLevel": 44,
+            "maxLevel": 46
+          },
+          {
+            "location": "Terminus Cave B1f Left",
+            "method": "Rock Smash",
+            "minLevel": 44,
+            "maxLevel": 46
+          },
+          {
+            "location": "Terminus Cave B1f Right",
+            "method": "Rock Smash",
+            "minLevel": 44,
+            "maxLevel": 46
+          },
+          {
+            "location": "Victory Road Unknown Area 322",
+            "method": "Rock Smash",
+            "minLevel": 57,
+            "maxLevel": 59
+          },
+          {
+            "location": "Victory Road Unknown Area 324",
+            "method": "Rock Smash",
+            "minLevel": 57,
+            "maxLevel": 59
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "sticky-web",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "struggle-bug",
+            "level": 12
+          },
+          {
+            "move": "safeguard",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "rock-throw",
+            "level": 23
+          },
+          {
+            "move": "gastro-acid",
+            "level": 27
+          },
+          {
+            "move": "power-trick",
+            "level": 31
+          },
+          {
+            "move": "shell-smash",
+            "level": 34
+          },
+          {
+            "move": "rock-slide",
+            "level": 38
+          },
+          {
+            "move": "bug-bite",
+            "level": 42
+          },
+          {
+            "move": "guard-split",
+            "level": 45
+          },
+          {
+            "move": "power-split",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "sticky-web",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "final-gambit",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Shuckle quietly hides itself under rocks, keeping its body concealed inside its hard shell while eating berries it has stored away. The berries mix with its body fluids to become a juice.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "sticky-web",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "struggle-bug",
+            "level": 12
+          },
+          {
+            "move": "safeguard",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "rock-throw",
+            "level": 23
+          },
+          {
+            "move": "gastro-acid",
+            "level": 27
+          },
+          {
+            "move": "power-trick",
+            "level": 31
+          },
+          {
+            "move": "shell-smash",
+            "level": 34
+          },
+          {
+            "move": "rock-slide",
+            "level": 38
+          },
+          {
+            "move": "bug-bite",
+            "level": 42
+          },
+          {
+            "move": "guard-split",
+            "level": 45
+          },
+          {
+            "move": "power-split",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "sticky-web",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "final-gambit",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "bind",
+          "bug-bite",
+          "earth-power",
+          "gastro-acid",
+          "helping-hand",
+          "knock-off",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "sticky-web",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "struggle-bug",
+            "level": 12
+          },
+          {
+            "move": "safeguard",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "rock-throw",
+            "level": 23
+          },
+          {
+            "move": "gastro-acid",
+            "level": 27
+          },
+          {
+            "move": "power-trick",
+            "level": 31
+          },
+          {
+            "move": "shell-smash",
+            "level": 34
+          },
+          {
+            "move": "rock-slide",
+            "level": 38
+          },
+          {
+            "move": "bug-bite",
+            "level": 42
+          },
+          {
+            "move": "guard-split",
+            "level": 45
+          },
+          {
+            "move": "power-split",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "sticky-web",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "final-gambit",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/213.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/213.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "sticky-web",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "wrap",
+            "level": 9
+          },
+          {
+            "move": "struggle-bug",
+            "level": 12
+          },
+          {
+            "move": "safeguard",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "rock-throw",
+            "level": 23
+          },
+          {
+            "move": "gastro-acid",
+            "level": 27
+          },
+          {
+            "move": "power-trick",
+            "level": 31
+          },
+          {
+            "move": "shell-smash",
+            "level": 34
+          },
+          {
+            "move": "rock-slide",
+            "level": 38
+          },
+          {
+            "move": "bug-bite",
+            "level": 42
+          },
+          {
+            "move": "guard-split",
+            "level": 45
+          },
+          {
+            "move": "power-split",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "sticky-web",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "final-gambit",
+          "helping-hand",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "bind",
+          "bug-bite",
+          "earth-power",
+          "gastro-acid",
+          "helping-hand",
+          "knock-off",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "227",
+      "flavorText": "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 5
+          },
+          {
+            "move": "struggle-bug",
+            "level": 10
+          },
+          {
+            "move": "rock-throw",
+            "level": 15
+          },
+          {
+            "move": "safeguard",
+            "level": 20
+          },
+          {
+            "move": "rest",
+            "level": 25
+          },
+          {
+            "move": "bug-bite",
+            "level": 30
+          },
+          {
+            "move": "guard-split",
+            "level": 35
+          },
+          {
+            "move": "power-split",
+            "level": 35
+          },
+          {
+            "move": "rock-slide",
+            "level": 40
+          },
+          {
+            "move": "gastro-acid",
+            "level": 45
+          },
+          {
+            "move": "sticky-web",
+            "level": 50
+          },
+          {
+            "move": "power-trick",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 60
+          },
+          {
+            "move": "shell-smash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "bulldoze",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "encore",
+          "endure",
+          "facade",
+          "gyro-ball",
+          "helping-hand",
+          "iron-defense",
+          "mud-shot",
+          "protect",
+          "rest",
+          "reversal",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sand-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "stealth-rock",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "venoshock"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "covet",
+          "defense-curl",
+          "final-gambit",
+          "infestation",
+          "knock-off",
+          "sweet-scent",
+          "toxic"
+        ],
+        "tutor": [
+          "meteor-beam",
+          "skitter-smack",
+          "steel-roller"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "213",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/213.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Grassland Cave, Rocky Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern, Big Bluff Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 5
+          },
+          {
+            "move": "struggle-bug",
+            "level": 10
+          },
+          {
+            "move": "rock-throw",
+            "level": 15
+          },
+          {
+            "move": "safeguard",
+            "level": 20
+          },
+          {
+            "move": "rest",
+            "level": 25
+          },
+          {
+            "move": "bug-bite",
+            "level": 30
+          },
+          {
+            "move": "guard-split",
+            "level": 35
+          },
+          {
+            "move": "power-split",
+            "level": 35
+          },
+          {
+            "move": "rock-slide",
+            "level": 40
+          },
+          {
+            "move": "gastro-acid",
+            "level": 45
+          },
+          {
+            "move": "sticky-web",
+            "level": 50
+          },
+          {
+            "move": "power-trick",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 60
+          },
+          {
+            "move": "shell-smash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash",
+          "gyro-ball",
+          "protect",
+          "rest",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "acid",
+          "acupressure",
+          "covet",
+          "defense-curl",
+          "final-gambit",
+          "helping-hand",
+          "infestation",
+          "knock-off",
+          "mud-slap",
+          "rock-blast",
+          "sand-tomb",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

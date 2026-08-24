@@ -1,0 +1,2761 @@
+{
+  "dex": 95,
+  "keyword": "onix",
+  "name": "Onix",
+  "japaneseName": {
+    "kana": "イワーク",
+    "romaji": "Iwark"
+  },
+  "type1": "Rock",
+  "type2": "Ground",
+  "genus": "Rock Snake Pokémon",
+  "heightM": 8.8,
+  "weightKg": 210.0,
+  "stats": {
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "specialAttack": 30,
+    "specialDefense": 45,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "rock-head",
+      "hidden": false,
+      "effect": "Protects against recoil damage."
+    },
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "weak-armor",
+      "hidden": true,
+      "effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 25,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "squiggle",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      208
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0095.png",
+    "shiny": "sprites/shiny/0095.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/95.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/95.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "95",
+      "flavorText": "As it grows, the stone portions of its body harden to become similar to black-colored diamonds.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/95.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 17
+          },
+          {
+            "location": "Rock Tunnel B2f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 22
+          },
+          {
+            "location": "Sevault Canyon",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Victory Road 2 1f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 46
+          },
+          {
+            "location": "Victory Road 2 2f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 48
+          },
+          {
+            "location": "Victory Road 2 3f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "bind",
+            "level": 15
+          },
+          {
+            "move": "harden",
+            "level": 19
+          },
+          {
+            "move": "rock-throw",
+            "level": 19
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "dragon-breath",
+            "level": 30
+          },
+          {
+            "move": "slam",
+            "level": 33
+          },
+          {
+            "move": "sandstorm",
+            "level": 34
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "harden",
+            "level": 43
+          },
+          {
+            "move": "iron-tail",
+            "level": 45
+          },
+          {
+            "move": "sand-tomb",
+            "level": 52
+          },
+          {
+            "move": "double-edge",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fissure",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "mimic",
+          "protect",
+          "rage",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "self-destruct",
+          "skull-bash",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "explosion",
+          "flail",
+          "rock-slide"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "explosion",
+          "mimic",
+          "rock-slide",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "62",
+      "flavorText": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Silver Top",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Victory Road 1 1f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 36
+          },
+          {
+            "location": "Victory Road 1 2f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 36
+          },
+          {
+            "location": "Victory Road 1 3f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 10
+          },
+          {
+            "move": "rock-throw",
+            "level": 14
+          },
+          {
+            "move": "harden",
+            "level": 23
+          },
+          {
+            "move": "rage",
+            "level": 27
+          },
+          {
+            "move": "sandstorm",
+            "level": 36
+          },
+          {
+            "move": "slam",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "flail",
+          "rock-slide"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "There is a magnet in its brain that prevents an ONIX from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 9
+          },
+          {
+            "move": "rock-throw",
+            "level": 13
+          },
+          {
+            "move": "harden",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "sandstorm",
+            "level": 33
+          },
+          {
+            "move": "slam",
+            "level": 37
+          },
+          {
+            "move": "iron-tail",
+            "level": 45
+          },
+          {
+            "move": "sand-tomb",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "explosion",
+          "flail",
+          "rock-slide"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "explosion",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rock-slide",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "34",
+      "flavorText": "It squirms through the ground using its long and rugged body. It always eats while burrowing.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Iron Island 1f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B1f Left",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B1f Right",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B2f Left",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B2f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B3f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          },
+          {
+            "location": "Oreburgh Mine 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Oreburgh Mine B1f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Snowpoint Temple 1f",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 52
+          },
+          {
+            "location": "Snowpoint Temple B1f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 53
+          },
+          {
+            "location": "Snowpoint Temple B2f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 53
+          },
+          {
+            "location": "Snowpoint Temple B3f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 53
+          },
+          {
+            "location": "Stark Mountain Entrance",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Stark Mountain Inside",
+            "method": "Walk",
+            "minLevel": 56,
+            "maxLevel": 56
+          },
+          {
+            "location": "Victory Road 1f",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Victory Road 2f",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 45
+          },
+          {
+            "location": "Victory Road Inside",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road Inside Exit",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 9
+          },
+          {
+            "move": "rage",
+            "level": 14
+          },
+          {
+            "move": "rock-tomb",
+            "level": 17
+          },
+          {
+            "move": "sandstorm",
+            "level": 22
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rock-polish",
+            "level": 30
+          },
+          {
+            "move": "dragon-breath",
+            "level": 33
+          },
+          {
+            "move": "iron-tail",
+            "level": 38
+          },
+          {
+            "move": "sand-tomb",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "explosion",
+          "flail",
+          "rock-blast",
+          "rock-slide",
+          "rollout"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "34",
+      "flavorText": "It burrows through the ground at a speed of 50 mph while feeding on large boulders.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Iron Island 1f",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B1f Left",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B1f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B2f Left",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Iron Island B2f Right",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Iron Island B3f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Oreburgh Mine 1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Oreburgh Mine B1f",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 9
+          },
+          {
+            "location": "Victory Road 1f",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 42
+          },
+          {
+            "location": "Victory Road 2f",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Victory Road B1f",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Victory Road Inside",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road Inside Exit",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          },
+          {
+            "location": "Wayward Cave 1f",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          },
+          {
+            "location": "Wayward Cave B1f",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 9
+          },
+          {
+            "move": "rage",
+            "level": 14
+          },
+          {
+            "move": "rock-tomb",
+            "level": 17
+          },
+          {
+            "move": "sandstorm",
+            "level": 22
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rock-polish",
+            "level": 30
+          },
+          {
+            "move": "dragon-breath",
+            "level": 33
+          },
+          {
+            "move": "curse",
+            "level": 38
+          },
+          {
+            "move": "iron-tail",
+            "level": 41
+          },
+          {
+            "move": "sand-tomb",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "stone-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "explosion",
+          "flail",
+          "rock-blast",
+          "rock-slide",
+          "rollout"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "iron-head",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "twister"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "62",
+      "flavorText": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Silver Mountainside",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 47 Inside Cave",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Safari Zone Zone Wasteland",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Victory Road 1 1f",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 36
+          },
+          {
+            "location": "Victory Road 1 2f",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 36
+          },
+          {
+            "location": "Victory Road 1 3f",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 9
+          },
+          {
+            "move": "rage",
+            "level": 14
+          },
+          {
+            "move": "rock-tomb",
+            "level": 17
+          },
+          {
+            "move": "sandstorm",
+            "level": 22
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rock-polish",
+            "level": 30
+          },
+          {
+            "move": "dragon-breath",
+            "level": 33
+          },
+          {
+            "move": "curse",
+            "level": 38
+          },
+          {
+            "move": "iron-tail",
+            "level": 41
+          },
+          {
+            "move": "sand-tomb",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "stone-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "explosion",
+          "flail",
+          "rock-blast",
+          "rock-slide",
+          "rollout"
+        ],
+        "tutor": [
+          "ancient-power",
+          "block",
+          "earth-power",
+          "headbutt",
+          "iron-head",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "twister"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It burrows through the ground at a speed of 50 mph while feeding on large boulders.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Relic Castle C",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 9
+          },
+          {
+            "move": "rage",
+            "level": 14
+          },
+          {
+            "move": "rock-tomb",
+            "level": 17
+          },
+          {
+            "move": "smack-down",
+            "level": 22
+          },
+          {
+            "move": "sandstorm",
+            "level": 25
+          },
+          {
+            "move": "rock-polish",
+            "level": 30
+          },
+          {
+            "move": "slam",
+            "level": 33
+          },
+          {
+            "move": "stealth-rock",
+            "level": 38
+          },
+          {
+            "move": "dragon-breath",
+            "level": 41
+          },
+          {
+            "move": "curse",
+            "level": 46
+          },
+          {
+            "move": "iron-tail",
+            "level": 49
+          },
+          {
+            "move": "sand-tomb",
+            "level": 54
+          },
+          {
+            "move": "double-edge",
+            "level": 57
+          },
+          {
+            "move": "stone-edge",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "flail",
+          "heavy-slam",
+          "rock-blast",
+          "rock-climb",
+          "rollout",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "71",
+      "flavorText": "Opening its large mouth, it ingests massive amounts of soil and creates long tunnels.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Clay Tunnel",
+            "method": "Cave Spots",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Clay Tunnel",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Glacier Room",
+            "method": "Cave Spots",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Glacier Room",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Iron Room",
+            "method": "Cave Spots",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Iron Room",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Relic Passage Castelia Sewers Entrance",
+            "method": "Cave Spots",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Relic Passage Castelia Sewers Entrance",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Relic Passage Pwt Entrance",
+            "method": "Cave Spots",
+            "minLevel": 27,
+            "maxLevel": 27
+          },
+          {
+            "location": "Relic Passage Pwt Entrance",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Relic Passage Relic Castle Entrance",
+            "method": "Cave Spots",
+            "minLevel": 27,
+            "maxLevel": 27
+          },
+          {
+            "location": "Relic Passage Relic Castle Entrance",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Rocky Mountain Room",
+            "method": "Cave Spots",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Rocky Mountain Room",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Twist Mountain B1f 3f",
+            "method": "Cave Spots",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Twist Mountain B1f 3f",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Underground Ruins",
+            "method": "Cave Spots",
+            "minLevel": 54,
+            "maxLevel": 54
+          },
+          {
+            "location": "Underground Ruins",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 74",
+            "method": "Cave Spots",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 74",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 44
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 75",
+            "method": "Cave Spots",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 75",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 77",
+            "method": "Cave Spots",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 80",
+            "method": "Cave Spots",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "curse",
+            "level": 4
+          },
+          {
+            "move": "rock-throw",
+            "level": 7
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "rock-tomb",
+            "level": 13
+          },
+          {
+            "move": "stealth-rock",
+            "level": 16
+          },
+          {
+            "move": "rock-polish",
+            "level": 19
+          },
+          {
+            "move": "smack-down",
+            "level": 22
+          },
+          {
+            "move": "dragon-breath",
+            "level": 25
+          },
+          {
+            "move": "slam",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "sand-tomb",
+            "level": 37
+          },
+          {
+            "move": "iron-tail",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "sandstorm",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "flail",
+          "heavy-slam",
+          "rock-blast",
+          "rock-climb",
+          "rollout",
+          "stealth-rock"
+        ],
+        "tutor": [
+          "bind",
+          "block",
+          "dragon-pulse",
+          "earth-power",
+          "iron-head",
+          "iron-tail",
+          "sleep-talk",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C53",
+      "flavorText": "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cyllage City",
+            "method": "Rock Smash",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Glittering Cave Unknown Area 303",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Glittering Cave Unknown Area 304",
+            "method": "Rock Smash",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "curse",
+            "level": 4
+          },
+          {
+            "move": "rock-throw",
+            "level": 7
+          },
+          {
+            "move": "rock-tomb",
+            "level": 10
+          },
+          {
+            "move": "rage",
+            "level": 13
+          },
+          {
+            "move": "stealth-rock",
+            "level": 16
+          },
+          {
+            "move": "rock-polish",
+            "level": 19
+          },
+          {
+            "move": "gyro-ball",
+            "level": 20
+          },
+          {
+            "move": "smack-down",
+            "level": 22
+          },
+          {
+            "move": "dragon-breath",
+            "level": 25
+          },
+          {
+            "move": "slam",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "sand-tomb",
+            "level": 37
+          },
+          {
+            "move": "iron-tail",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "sandstorm",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "flail",
+          "heavy-slam",
+          "rock-blast",
+          "rock-climb",
+          "rollout",
+          "rototiller",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "curse",
+            "level": 4
+          },
+          {
+            "move": "rock-throw",
+            "level": 7
+          },
+          {
+            "move": "rock-tomb",
+            "level": 10
+          },
+          {
+            "move": "rage",
+            "level": 13
+          },
+          {
+            "move": "stealth-rock",
+            "level": 16
+          },
+          {
+            "move": "rock-polish",
+            "level": 19
+          },
+          {
+            "move": "gyro-ball",
+            "level": 20
+          },
+          {
+            "move": "smack-down",
+            "level": 22
+          },
+          {
+            "move": "dragon-breath",
+            "level": 25
+          },
+          {
+            "move": "slam",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "sand-tomb",
+            "level": 37
+          },
+          {
+            "move": "iron-tail",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "sandstorm",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "flail",
+          "heavy-slam",
+          "rock-blast",
+          "rock-climb",
+          "rollout",
+          "rototiller",
+          "stealth-rock"
+        ],
+        "tutor": [
+          "bind",
+          "block",
+          "dragon-pulse",
+          "earth-power",
+          "iron-head",
+          "iron-tail",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "curse",
+            "level": 4
+          },
+          {
+            "move": "rock-throw",
+            "level": 7
+          },
+          {
+            "move": "rock-tomb",
+            "level": 10
+          },
+          {
+            "move": "rage",
+            "level": 13
+          },
+          {
+            "move": "stealth-rock",
+            "level": 16
+          },
+          {
+            "move": "rock-polish",
+            "level": 19
+          },
+          {
+            "move": "gyro-ball",
+            "level": 20
+          },
+          {
+            "move": "smack-down",
+            "level": 22
+          },
+          {
+            "move": "dragon-breath",
+            "level": 25
+          },
+          {
+            "move": "slam",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "sand-tomb",
+            "level": 37
+          },
+          {
+            "move": "iron-tail",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "sandstorm",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "flail",
+          "heavy-slam",
+          "rock-blast",
+          "rock-climb",
+          "rollout",
+          "rototiller",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/95.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/95.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ten Carat Hill Inside",
+            "method": "Island Scan",
+            "minLevel": 14,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "curse",
+            "level": 4
+          },
+          {
+            "move": "rock-throw",
+            "level": 7
+          },
+          {
+            "move": "rock-tomb",
+            "level": 10
+          },
+          {
+            "move": "rage",
+            "level": 13
+          },
+          {
+            "move": "stealth-rock",
+            "level": 16
+          },
+          {
+            "move": "rock-polish",
+            "level": 19
+          },
+          {
+            "move": "gyro-ball",
+            "level": 20
+          },
+          {
+            "move": "smack-down",
+            "level": 22
+          },
+          {
+            "move": "dragon-breath",
+            "level": 25
+          },
+          {
+            "move": "slam",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "sand-tomb",
+            "level": 37
+          },
+          {
+            "move": "iron-tail",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          },
+          {
+            "move": "sandstorm",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "flail",
+          "heavy-slam",
+          "rock-blast",
+          "rock-climb",
+          "rollout",
+          "rototiller",
+          "stealth-rock",
+          "wide-guard"
+        ],
+        "tutor": [
+          "bind",
+          "block",
+          "dragon-pulse",
+          "earth-power",
+          "iron-head",
+          "iron-tail",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "95",
+      "flavorText": "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "stealth-rock",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "screech",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 20
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 30
+          },
+          {
+            "move": "earthquake",
+            "level": 35
+          },
+          {
+            "move": "iron-tail",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "dig",
+          "dragon-pulse",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flash-cannon",
+          "headbutt",
+          "iron-tail",
+          "protect",
+          "rest",
+          "rock-slide",
+          "self-destruct",
+          "stealth-rock",
+          "substitute",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "178",
+      "flavorText": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smack-down",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "curse",
+            "level": 16
+          },
+          {
+            "move": "rock-slide",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "sand-tomb",
+            "level": 28
+          },
+          {
+            "move": "stealth-rock",
+            "level": 32
+          },
+          {
+            "move": "slam",
+            "level": 36
+          },
+          {
+            "move": "sandstorm",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 44
+          },
+          {
+            "move": "iron-tail",
+            "level": 48
+          },
+          {
+            "move": "stone-edge",
+            "level": 52
+          },
+          {
+            "move": "double-edge",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-press",
+          "body-slam",
+          "breaking-swipe",
+          "brutal-swing",
+          "bulldoze",
+          "dig",
+          "dragon-dance",
+          "dragon-pulse",
+          "drill-run",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "gyro-ball",
+          "heavy-slam",
+          "high-horsepower",
+          "iron-head",
+          "iron-tail",
+          "payback",
+          "protect",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sand-tomb",
+          "sandstorm",
+          "scary-face",
+          "screech",
+          "self-destruct",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "taunt"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "dragon-tail",
+          "flail",
+          "head-smash",
+          "rollout",
+          "wide-guard"
+        ],
+        "tutor": [
+          "meteor-beam",
+          "scorching-sands"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "95",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/95.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Iron Island, Snowpoint Temple, Oreburgh Mine, , Stark Mountain | Grand Underground - Rocky Cave, Volcanic Cave, Sandsear Cave, Big Bluff Cavern, Typhlo Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smack-down",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "curse",
+            "level": 16
+          },
+          {
+            "move": "rock-slide",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "sand-tomb",
+            "level": 28
+          },
+          {
+            "move": "stealth-rock",
+            "level": 32
+          },
+          {
+            "move": "slam",
+            "level": 36
+          },
+          {
+            "move": "sandstorm",
+            "level": 40
+          },
+          {
+            "move": "dig",
+            "level": 44
+          },
+          {
+            "move": "iron-tail",
+            "level": 48
+          },
+          {
+            "move": "stone-edge",
+            "level": 52
+          },
+          {
+            "move": "double-edge",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "gyro-ball",
+          "iron-tail",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "roar",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "torment"
+        ],
+        "egg": [
+          "block",
+          "defense-curl",
+          "dragon-tail",
+          "flail",
+          "head-smash",
+          "heavy-slam",
+          "rock-blast",
+          "rollout",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "118",
+      "flavorText": "This chain of immense stones resembles a giant serpent. Tremors shake the earth above as it burrows deep beneath the ground, feeding on boulders as it goes.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Space-time distortions | Crimson Mirelands: near Scarlet Bog, near Diamond Settlement , near Lake Valor, massive mass outbreaks | Cobalt Coastlands: massive mass outbreaks | Coronet Highlands: Celestica Trail"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 6
+          },
+          {
+            "move": "bulldoze",
+            "level": 11
+          },
+          {
+            "move": "rock-slide",
+            "level": 18
+          },
+          {
+            "move": "stealth-rock",
+            "level": 25
+          },
+          {
+            "move": "high-horsepower",
+            "level": 34
+          },
+          {
+            "move": "iron-tail",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "197",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Magenta District: Wild Zone 14",
+          "Hyperspace Lumiose (3★ Rock-type wild zones, 1★ & 3★ Ground-type wild zones, 4★ Steel-type wild zones, 5★ Hyperspace wild zones via special scan (requires special scan))"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

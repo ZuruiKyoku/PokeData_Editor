@@ -1,0 +1,593 @@
+{
+  "dex": 265,
+  "keyword": "wurmple",
+  "name": "Wurmple",
+  "japaneseName": {
+    "kana": "ケムッソ",
+    "romaji": "Kemusso"
+  },
+  "type1": "Bug",
+  "type2": null,
+  "genus": "Worm Pokémon",
+  "heightM": 0.3,
+  "weightKg": 3.6,
+  "stats": {
+    "hp": 45,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 30,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "hidden": false,
+      "effect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "name": "run-away",
+      "hidden": true,
+      "effect": "Ensures success fleeing from wild battles."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "armor",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      266,
+      268
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0265.png",
+    "shiny": "sprites/shiny/0265.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/265.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/265.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "14",
+      "flavorText": "It sticks to tree branches and eats leaves. The thread it spits from its mouth, which becomes gooey when it touches air, slows the movement of its foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Petalburg Woods",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 101",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 102",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 104",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "48",
+      "flavorText": "It spits a white silk that turns sticky when it contacts air. It is used to immobilize foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "48",
+      "flavorText": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 205 East Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "snore",
+          "string-shot"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "14",
+      "flavorText": "Wurmple is targeted by Swellow as prey. This Pokémon will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/265.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/265.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "snore"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "265",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/265.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Eterna Forest | Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees) | Grand Underground - Grassland Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "18",
+      "flavorText": "Likes sap and is abundant in the wild. Why it evolves into various different forms is unknown. One cannot tell from a Wurmple's appearance which form it will take when it evolves.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: near Aspiration Hill, Floaro Gardens, Horseshoe Plains, The Heartwood, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 6
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,1657 @@
+{
+  "dex": 261,
+  "keyword": "poochyena",
+  "name": "Poochyena",
+  "japaneseName": {
+    "kana": "ポチエナ",
+    "romaji": "Pochiena"
+  },
+  "type1": "Dark",
+  "type2": null,
+  "genus": "Bite Pokémon",
+  "heightM": 0.5,
+  "weightKg": 13.6,
+  "stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 35,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 35
+  },
+  "abilities": [
+    {
+      "name": "run-away",
+      "hidden": false,
+      "effect": "Ensures success fleeing from wild battles."
+    },
+    {
+      "name": "quick-feet",
+      "hidden": false,
+      "effect": "Increases Speed to 1.5× with a major status ailment."
+    },
+    {
+      "name": "rattled",
+      "hidden": true,
+      "effect": "Raises Speed one stage upon being hit by a dark, ghost, or bug move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      262
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0261.png",
+    "shiny": "sprites/shiny/0261.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/261.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/261.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "10",
+      "flavorText": "It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Petalburg Woods",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 101",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 102",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 103",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 104",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 110",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 116",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 117",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 120",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 121",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 123",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "scary-face",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "crunch",
+            "level": 41
+          },
+          {
+            "move": "thief",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "leer",
+          "poison-fang",
+          "yawn"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 29
+          },
+          {
+            "move": "scary-face",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "embargo",
+            "level": 41
+          },
+          {
+            "move": "take-down",
+            "level": 45
+          },
+          {
+            "move": "sucker-punch",
+            "level": 49
+          },
+          {
+            "move": "crunch",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "poison-fang",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 29
+          },
+          {
+            "move": "scary-face",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "embargo",
+            "level": 41
+          },
+          {
+            "move": "take-down",
+            "level": 45
+          },
+          {
+            "move": "sucker-punch",
+            "level": 49
+          },
+          {
+            "move": "crunch",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "poison-fang",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": [
+          "mud-slap",
+          "snore",
+          "spite",
+          "sucker-punch",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It chases its prey until the victim becomes exhausted. However, it turns tail if the prey strikes back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 29
+          },
+          {
+            "move": "scary-face",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "embargo",
+            "level": 41
+          },
+          {
+            "move": "take-down",
+            "level": 45
+          },
+          {
+            "move": "sucker-punch",
+            "level": 49
+          },
+          {
+            "move": "crunch",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "poison-fang",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": [
+          "headbutt",
+          "mud-slap",
+          "snore",
+          "spite",
+          "sucker-punch",
+          "super-fang",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 29
+          },
+          {
+            "move": "scary-face",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "embargo",
+            "level": 41
+          },
+          {
+            "move": "take-down",
+            "level": 45
+          },
+          {
+            "move": "sucker-punch",
+            "level": 49
+          },
+          {
+            "move": "crunch",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "embargo",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "poison-fang",
+          "sleep-talk",
+          "snatch",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 29
+          },
+          {
+            "move": "scary-face",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "embargo",
+            "level": 41
+          },
+          {
+            "move": "take-down",
+            "level": 45
+          },
+          {
+            "move": "sucker-punch",
+            "level": 49
+          },
+          {
+            "move": "crunch",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "embargo",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "poison-fang",
+          "sleep-talk",
+          "snatch",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": [
+          "covet",
+          "dark-pulse",
+          "foul-play",
+          "hyper-voice",
+          "iron-tail",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "spite",
+          "super-fang",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M44",
+      "flavorText": "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 29
+          },
+          {
+            "move": "scary-face",
+            "level": 33
+          },
+          {
+            "move": "taunt",
+            "level": 37
+          },
+          {
+            "move": "embargo",
+            "level": 41
+          },
+          {
+            "move": "take-down",
+            "level": 45
+          },
+          {
+            "move": "sucker-punch",
+            "level": 49
+          },
+          {
+            "move": "crunch",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "play-rough",
+          "poison-fang",
+          "sleep-talk",
+          "snatch",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "10",
+      "flavorText": "Poochyena is an omnivore—it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This Pokémon tries to intimidate its foes by making the hair on its tail bristle out.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "roar",
+            "level": 16
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "assurance",
+            "level": 22
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "embargo",
+            "level": 28
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "take-down",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "play-rough",
+          "poison-fang",
+          "sleep-talk",
+          "snatch",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": [
+          "covet",
+          "foul-play",
+          "hyper-voice",
+          "iron-tail",
+          "snatch",
+          "snore",
+          "spite",
+          "super-fang",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "roar",
+            "level": 16
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "assurance",
+            "level": 22
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "embargo",
+            "level": 28
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "crunch",
+            "level": 34
+          },
+          {
+            "move": "yawn",
+            "level": 37
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "embargo",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "play-rough",
+          "poison-fang",
+          "sleep-talk",
+          "snatch",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/261.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/261.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "roar",
+            "level": 16
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "assurance",
+            "level": 22
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "embargo",
+            "level": 28
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "crunch",
+            "level": 34
+          },
+          {
+            "move": "yawn",
+            "level": 37
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "embargo",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "me-first",
+          "play-rough",
+          "poison-fang",
+          "sleep-talk",
+          "snatch",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": [
+          "covet",
+          "foul-play",
+          "hyper-voice",
+          "iron-tail",
+          "snatch",
+          "snore",
+          "spite",
+          "super-fang",
+          "uproar"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "261",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/261.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Spacious Cave, Dazzling Cave, Stargleam Cavern, Icy Cave, Glacial Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "roar",
+            "level": 16
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "assurance",
+            "level": 22
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "headbutt",
+            "level": 28
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "crunch",
+            "level": 34
+          },
+          {
+            "move": "yawn",
+            "level": 37
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "iron-tail",
+          "nasty-plot",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-smash",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "fire-fang",
+          "ice-fang",
+          "leer",
+          "play-rough",
+          "poison-fang",
+          "sucker-punch",
+          "thunder-fang",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K007",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/261.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Apple Hills, Loyalty Plaza, Oni Mountain, Paradise Barrens, Kitakami Wilds, Timeless Woods | Tera Raid Battles (1★ Poochyena)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "roar",
+            "level": 16
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "assurance",
+            "level": 22
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 28
+          },
+          {
+            "move": "crunch",
+            "level": 31
+          },
+          {
+            "move": "yawn",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 36
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "play-rough",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "charm",
+          "crunch",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-fang",
+          "foul-play",
+          "helping-hand",
+          "hyper-voice",
+          "ice-fang",
+          "lash-out",
+          "mud-slap",
+          "nasty-plot",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "roar",
+          "scary-face",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "super-fang",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-fang",
+          "trailblaze",
+          "uproar"
+        ],
+        "egg": [
+          "astonish",
+          "covet",
+          "poison-fang"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

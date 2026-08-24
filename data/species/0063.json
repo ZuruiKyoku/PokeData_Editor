@@ -1,0 +1,1581 @@
+{
+  "dex": 63,
+  "keyword": "abra",
+  "name": "Abra",
+  "japaneseName": {
+    "kana": "ケーシィ",
+    "romaji": "Casey"
+  },
+  "type1": "Psychic",
+  "type2": null,
+  "genus": "Psi Pokémon",
+  "heightM": 0.9,
+  "weightKg": 19.5,
+  "stats": {
+    "hp": 25,
+    "attack": 20,
+    "defense": 15,
+    "specialAttack": 105,
+    "specialDefense": 55,
+    "speed": 90
+  },
+  "abilities": [
+    {
+      "name": "synchronize",
+      "hidden": false,
+      "effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+    },
+    {
+      "name": "inner-focus",
+      "hidden": false,
+      "effect": "Prevents flinching."
+    },
+    {
+      "name": "magic-guard",
+      "hidden": true,
+      "effect": "Protects against damage not directly caused by a move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "humanshape"
+    ],
+    "genderRateEighthsFemale": 2,
+    "hatchCycles": 20,
+    "captureRate": 200,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "upright",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      64
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0063.png",
+    "shiny": "sprites/shiny/0063.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/63.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/63.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "63",
+      "flavorText": "Using its ability to read minds, it will sense impending danger and TELEPORT to safety.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/63.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "calm-mind",
+          "counter",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "seismic-toss",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "skull-bash",
+          "snatch",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "teleport",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "ice-punch",
+          "knock-off",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "seismic-toss",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "89",
+      "flavorText": "It hypnotizes itself so that it can teleport away when it senses danger, even if it is asleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "light-screen"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "39",
+      "flavorText": "A POKéMON that sleeps 18 hours a day. Observation revealed that it uses TELEPORT to change its location once every hour.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Granite Cave 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Granite Cave 1fsmall Room",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Granite Cave B1f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Granite Cave B2f",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 116",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "ice-punch",
+          "knock-off",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "psych-up",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "20",
+      "flavorText": "Even while asleep, it maintains a telepathic radar. It teleports when it is threatened.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 203",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "thunder-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "20",
+      "flavorText": "Using its psychic power is such a strain on its brain that it needs to sleep for 18 hours a day.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 203",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "fire-punch",
+          "ice-punch",
+          "knock-off",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "89",
+      "flavorText": "If it decides to teleport randomly, it evokes the illusion that it has created copies of itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Safari Zone Zone Plains",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "ice-punch",
+          "knock-off",
+          "magic-coat",
+          "role-play",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Using its psychic power is such a strain on its brain that it needs to sleep for 18 hours a day.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "skill-swap",
+          "thunder-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Using its psychic power is such a strain on its brain that it needs to sleep for 18 hours a day.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "skill-swap",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "drain-punch",
+          "fire-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "102",
+      "flavorText": "It senses impending attacks and teleports away to safety before the actual attacks can strike.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 5",
+            "method": "Purple Flowers",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ally-switch",
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "psycho-shift",
+          "skill-swap",
+          "thunder-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "40",
+      "flavorText": "Abra needs to sleep for eighteen hours a day. If it doesn’t, this Pokémon loses its ability to use telekinetic powers. If it is attacked, Abra escapes using Teleport while it is still sleeping.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ally-switch",
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "psycho-shift",
+          "skill-swap",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "42",
+      "flavorText": "It can teleport itself to safety while it’s asleep, but when it wakes, it doesn’t know where it is, so it panics.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Shopping District",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 2 South",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ally-switch",
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "psycho-shift",
+          "skill-swap",
+          "thunder-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "49",
+      "flavorText": "It can read others’ minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/63.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/63.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Shopping District",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 2 South",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 9
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ally-switch",
+          "barrier",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "psychic-terrain",
+          "psycho-shift",
+          "skill-swap",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "ally-switch",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "telekinesis",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "63",
+      "flavorText": "Sleeps 18 hours a day. If it senses danger, it will teleport itself to safety even as it sleeps.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "calm-mind",
+          "dazzling-gleam",
+          "dream-eater",
+          "facade",
+          "fire-punch",
+          "foul-play",
+          "headbutt",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "seismic-toss",
+          "shadow-ball",
+          "substitute",
+          "taunt",
+          "teleport",
+          "thunder-punch",
+          "thunder-wave",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A031",
+      "flavorText": "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "body-slam",
+          "calm-mind",
+          "dazzling-gleam",
+          "drain-punch",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-punch",
+          "fling",
+          "foul-play",
+          "grass-knot",
+          "guard-swap",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "magic-room",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "power-swap",
+          "protect",
+          "psychic",
+          "psychic-terrain",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "speed-swap",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "thief",
+          "thunder-punch",
+          "thunder-wave",
+          "tri-attack",
+          "trick",
+          "trick-room",
+          "wonder-room",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "confusion",
+          "guard-split",
+          "magic-coat"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "63",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/63.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and | Trade in Oreburgh City"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "dazzling-gleam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "safeguard",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "trick-room"
+        ],
+        "egg": [
+          "ally-switch",
+          "confusion",
+          "encore",
+          "fire-punch",
+          "guard-split",
+          "guard-swap",
+          "ice-punch",
+          "knock-off",
+          "magic-coat",
+          "power-trick",
+          "psycho-shift",
+          "thunder-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "58",
+      "flavorText": "Spends 18 hours of the day sleeping. Even while asleep, Abra can control its psychic powers—should danger approach, the Pokémon will simply teleport away.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Windswept Run, Sandgem Flats, massive mass outbreaks | Alabaster Icelands: Lake Acuity, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "teleport",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "62",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Vert Sector 8 | Bleu District: Wild Zone 5 | Magenta District: Magenta Sector 6, Magenta Sector 7 | Rouge District: Rouge Sector 6, Rouge Sector 8 | Jaune District: Jaune Sector 5",
+          "Hyperspace Lumiose (1★ & 3★ Psychic-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

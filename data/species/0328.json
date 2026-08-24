@@ -1,0 +1,1658 @@
+{
+  "dex": 328,
+  "keyword": "trapinch",
+  "name": "Trapinch",
+  "japaneseName": {
+    "kana": "ナックラー",
+    "romaji": "Nuckrar"
+  },
+  "type1": "Ground",
+  "type2": null,
+  "genus": "Ant Pit Pokémon",
+  "heightM": 0.7,
+  "weightKg": 15.0,
+  "stats": {
+    "hp": 45,
+    "attack": 100,
+    "defense": 45,
+    "specialAttack": 45,
+    "specialDefense": 45,
+    "speed": 10
+  },
+  "abilities": [
+    {
+      "name": "hyper-cutter",
+      "hidden": false,
+      "effect": "Prevents Attack from being lowered by other Pokémon."
+    },
+    {
+      "name": "arena-trap",
+      "hidden": false,
+      "effect": "Prevents opponents from fleeing or switching out.  Eluded by flying-types and Pokémon in the air."
+    },
+    {
+      "name": "sheer-force",
+      "hidden": true,
+      "effect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "armor",
+    "habitat": "rough-terrain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      329
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0328.png",
+    "shiny": "sprites/shiny/0328.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/328.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/328.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "116",
+      "flavorText": "Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mirage Tower",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 111",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "feint-attack",
+            "level": 17
+          },
+          {
+            "move": "sand-tomb",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "dig",
+            "level": 41
+          },
+          {
+            "move": "sandstorm",
+            "level": 49
+          },
+          {
+            "move": "hyper-beam",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "focus-energy",
+          "gust",
+          "quick-attack"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 228",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "feint-attack",
+            "level": 17
+          },
+          {
+            "move": "sand-tomb",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "dig",
+            "level": 41
+          },
+          {
+            "move": "sandstorm",
+            "level": 49
+          },
+          {
+            "move": "hyper-beam",
+            "level": 57
+          },
+          {
+            "move": "earth-power",
+            "level": 65
+          },
+          {
+            "move": "earthquake",
+            "level": 73
+          },
+          {
+            "move": "feint",
+            "level": 81
+          },
+          {
+            "move": "fissure",
+            "level": 89
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "quick-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "feint-attack",
+            "level": 17
+          },
+          {
+            "move": "sand-tomb",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "dig",
+            "level": 41
+          },
+          {
+            "move": "sandstorm",
+            "level": 49
+          },
+          {
+            "move": "hyper-beam",
+            "level": 57
+          },
+          {
+            "move": "earth-power",
+            "level": 65
+          },
+          {
+            "move": "earthquake",
+            "level": 73
+          },
+          {
+            "move": "feint",
+            "level": 81
+          },
+          {
+            "move": "fissure",
+            "level": 89
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "quick-attack"
+        ],
+        "tutor": [
+          "earth-power",
+          "fury-cutter",
+          "mud-slap",
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "feint-attack",
+            "level": 17
+          },
+          {
+            "move": "sand-tomb",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "dig",
+            "level": 41
+          },
+          {
+            "move": "sandstorm",
+            "level": 49
+          },
+          {
+            "move": "hyper-beam",
+            "level": 57
+          },
+          {
+            "move": "earth-power",
+            "level": 65
+          },
+          {
+            "move": "earthquake",
+            "level": 73
+          },
+          {
+            "move": "feint",
+            "level": 81
+          },
+          {
+            "move": "fissure",
+            "level": 89
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack"
+        ],
+        "tutor": [
+          "bug-bite",
+          "earth-power",
+          "fury-cutter",
+          "headbutt",
+          "mud-slap",
+          "snore"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "feint-attack",
+            "level": 17
+          },
+          {
+            "move": "sand-tomb",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "dig",
+            "level": 41
+          },
+          {
+            "move": "sandstorm",
+            "level": 49
+          },
+          {
+            "move": "hyper-beam",
+            "level": 57
+          },
+          {
+            "move": "earth-power",
+            "level": 65
+          },
+          {
+            "move": "earthquake",
+            "level": 73
+          },
+          {
+            "move": "feint",
+            "level": 81
+          },
+          {
+            "move": "fissure",
+            "level": 89
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "endure",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "121",
+      "flavorText": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Desert Resort",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Reversal Mountain Unknown Area 48",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "sand-tomb",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "bide",
+            "level": 17
+          },
+          {
+            "move": "bulldoze",
+            "level": 21
+          },
+          {
+            "move": "rock-slide",
+            "level": 25
+          },
+          {
+            "move": "dig",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 39
+          },
+          {
+            "move": "sandstorm",
+            "level": 44
+          },
+          {
+            "move": "hyper-beam",
+            "level": 49
+          },
+          {
+            "move": "earthquake",
+            "level": 55
+          },
+          {
+            "move": "feint",
+            "level": 61
+          },
+          {
+            "move": "superpower",
+            "level": 67
+          },
+          {
+            "move": "fissure",
+            "level": 73
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "endure",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "earth-power",
+          "giga-drain",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M3",
+      "flavorText": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Rough Terrain",
+            "minLevel": 26,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "feint",
+            "level": 1
+          },
+          {
+            "move": "fissure",
+            "level": 1
+          },
+          {
+            "move": "superpower",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "sand-tomb",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "bide",
+            "level": 17
+          },
+          {
+            "move": "bulldoze",
+            "level": 21
+          },
+          {
+            "move": "rock-slide",
+            "level": 25
+          },
+          {
+            "move": "dig",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 39
+          },
+          {
+            "move": "sandstorm",
+            "level": 44
+          },
+          {
+            "move": "hyper-beam",
+            "level": 49
+          },
+          {
+            "move": "earthquake",
+            "level": 55
+          },
+          {
+            "move": "feint",
+            "level": 61
+          },
+          {
+            "move": "superpower",
+            "level": 67
+          },
+          {
+            "move": "fissure",
+            "level": 73
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "endure",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "121",
+      "flavorText": "Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pokémon can go a whole week without access to any water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "mud-slap",
+            "level": 5
+          },
+          {
+            "move": "bulldoze",
+            "level": 8
+          },
+          {
+            "move": "sand-tomb",
+            "level": 12
+          },
+          {
+            "move": "rock-slide",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "earth-power",
+            "level": 26
+          },
+          {
+            "move": "feint",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "sandstorm",
+            "level": 36
+          },
+          {
+            "move": "superpower",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 43
+          },
+          {
+            "move": "fissure",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "endure",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "earth-power",
+          "giga-drain",
+          "signal-beam",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "235",
+      "flavorText": "As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Haina Desert",
+            "method": "Bubbling Spots",
+            "minLevel": 28,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "mud-slap",
+            "level": 5
+          },
+          {
+            "move": "bulldoze",
+            "level": 8
+          },
+          {
+            "move": "sand-tomb",
+            "level": 12
+          },
+          {
+            "move": "rock-slide",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "earth-power",
+            "level": 26
+          },
+          {
+            "move": "feint",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "sandstorm",
+            "level": 36
+          },
+          {
+            "move": "superpower",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 43
+          },
+          {
+            "move": "fissure",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "endure",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "304",
+      "flavorText": "It builds nests that double as traps, lying in wait for its prey to get caught. When night falls, it digs itself a spot beneath the sand to sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/328.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/328.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Haina Desert",
+            "method": "Bubbling Spots",
+            "minLevel": 32,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "mud-slap",
+            "level": 5
+          },
+          {
+            "move": "bulldoze",
+            "level": 8
+          },
+          {
+            "move": "sand-tomb",
+            "level": 12
+          },
+          {
+            "move": "rock-slide",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "earth-power",
+            "level": 26
+          },
+          {
+            "move": "feint",
+            "level": 29
+          },
+          {
+            "move": "earthquake",
+            "level": 33
+          },
+          {
+            "move": "sandstorm",
+            "level": 36
+          },
+          {
+            "move": "superpower",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 43
+          },
+          {
+            "move": "fissure",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "endure",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "earth-power",
+          "giga-drain",
+          "signal-beam",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "321",
+      "flavorText": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "laser-focus",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "sand-tomb",
+            "level": 16
+          },
+          {
+            "move": "bulldoze",
+            "level": 20
+          },
+          {
+            "move": "dig",
+            "level": 24
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "sandstorm",
+            "level": 32
+          },
+          {
+            "move": "earth-power",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "superpower",
+            "level": 44
+          },
+          {
+            "move": "fissure",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "bulldoze",
+          "crunch",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "focus-energy",
+          "giga-drain",
+          "hyper-beam",
+          "mud-shot",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sand-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "superpower"
+        ],
+        "egg": [
+          "bug-bite",
+          "feint",
+          "first-impression",
+          "flail",
+          "fury-cutter",
+          "gust",
+          "quick-attack"
+        ],
+        "tutor": [
+          "scorching-sands"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "328",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/328.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 228 (Sinnoh) (Poké Radar) | Grand Underground - Rocky Cave, Big Bluff Cavern, Sandsear Cave (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "laser-focus",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "sand-tomb",
+            "level": 16
+          },
+          {
+            "move": "bulldoze",
+            "level": 20
+          },
+          {
+            "move": "dig",
+            "level": 24
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "sandstorm",
+            "level": 32
+          },
+          {
+            "move": "earth-power",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "superpower",
+            "level": 44
+          },
+          {
+            "move": "fissure",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-drain",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger"
+        ],
+        "egg": [
+          "bug-bite",
+          "earth-power",
+          "feint",
+          "flail",
+          "focus-energy",
+          "fury-cutter",
+          "gust",
+          "mud-shot",
+          "quick-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B044",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/328.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome | Tera Raid Battles (2★ Trapinch)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "sand-tomb",
+            "level": 16
+          },
+          {
+            "move": "bulldoze",
+            "level": 20
+          },
+          {
+            "move": "dig",
+            "level": 24
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "sandstorm",
+            "level": 32
+          },
+          {
+            "move": "earth-power",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "superpower",
+            "level": 44
+          },
+          {
+            "move": "fissure",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "bug-bite",
+          "bulldoze",
+          "crunch",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-drain",
+          "hyper-beam",
+          "mud-shot",
+          "mud-slap",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "scorching-sands",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast"
+        ],
+        "egg": [
+          "bug-bite",
+          "feint",
+          "first-impression",
+          "flail",
+          "fury-cutter",
+          "gust",
+          "quick-attack"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

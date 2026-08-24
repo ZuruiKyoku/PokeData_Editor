@@ -1,0 +1,1839 @@
+{
+  "dex": 336,
+  "keyword": "seviper",
+  "name": "Seviper",
+  "japaneseName": {
+    "kana": "ハブネーク",
+    "romaji": "Habunake"
+  },
+  "type1": "Poison",
+  "type2": null,
+  "genus": "Fang Snake Pokémon",
+  "heightM": 2.7,
+  "weightKg": 52.5,
+  "stats": {
+    "hp": 73,
+    "attack": 100,
+    "defense": 60,
+    "specialAttack": 100,
+    "specialDefense": 60,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "shed-skin",
+      "hidden": false,
+      "effect": "Has a 33% chance of curing any major status ailment after each turn."
+    },
+    {
+      "name": "infiltrator",
+      "hidden": true,
+      "effect": "Bypasses light screen, reflect, and safeguard."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "fast-then-very-slow"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "squiggle",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0336.png",
+    "shiny": "sprites/shiny/0336.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/336.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/336.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "124",
+      "flavorText": "SEVIPER and ZANGOOSE are eternal rivals. It counters a ZANGOOSE’s dazzling agility with its swordlike tail, which also oozes a horrible poison.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 114",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "poison-tail",
+            "level": 16
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "glare",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "poison-fang",
+            "level": 34
+          },
+          {
+            "move": "swagger",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "body-slam",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "For many generations, it has feuded with ZANGOOSE. It whets its bladed tail on rocks for battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 208",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 210 West Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "poison-tail",
+            "level": 16
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "glare",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "poison-fang",
+            "level": 34
+          },
+          {
+            "move": "swagger",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "night-slash",
+            "level": 46
+          },
+          {
+            "move": "poison-jab",
+            "level": 52
+          },
+          {
+            "move": "wring-out",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "night-slash",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "For many generations, it has feuded with ZANGOOSE. It whets its bladed tail on rocks for battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 208",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 210 West Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "poison-tail",
+            "level": 16
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "glare",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "poison-fang",
+            "level": 34
+          },
+          {
+            "move": "swagger",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "night-slash",
+            "level": 46
+          },
+          {
+            "move": "poison-jab",
+            "level": 52
+          },
+          {
+            "move": "wring-out",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "night-slash",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "fury-cutter",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "In battle, it uses its bladed tail to counter any ZANGOOSE. It secretes a deadly venom in its tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "poison-tail",
+            "level": 16
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "glare",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "poison-fang",
+            "level": 34
+          },
+          {
+            "move": "swagger",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "night-slash",
+            "level": 46
+          },
+          {
+            "move": "poison-jab",
+            "level": 52
+          },
+          {
+            "move": "wring-out",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "night-slash",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "fury-cutter",
+          "headbutt",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Dark Grass",
+            "minLevel": 58,
+            "maxLevel": 58
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Dark Grass",
+            "minLevel": 58,
+            "maxLevel": 60
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "poison-tail",
+            "level": 16
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "glare",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "poison-fang",
+            "level": 34
+          },
+          {
+            "move": "swagger",
+            "level": 37
+          },
+          {
+            "move": "haze",
+            "level": 43
+          },
+          {
+            "move": "night-slash",
+            "level": 46
+          },
+          {
+            "move": "poison-jab",
+            "level": 52
+          },
+          {
+            "move": "venoshock",
+            "level": 55
+          },
+          {
+            "move": "wring-out",
+            "level": 61
+          },
+          {
+            "move": "coil",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "iron-tail",
+          "night-slash",
+          "punishment",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "187",
+      "flavorText": "Constant polishing makes the edge of the blade on its tail extremely sharp. It’s Zangoose’s archrival.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Dark Grass",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 38
+          },
+          {
+            "location": "Route 7",
+            "method": "Dark Grass",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Dark Grass",
+            "minLevel": 41,
+            "maxLevel": 43
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 39
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 5
+          },
+          {
+            "move": "swagger",
+            "level": 9
+          },
+          {
+            "move": "poison-tail",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 16
+          },
+          {
+            "move": "venoshock",
+            "level": 20
+          },
+          {
+            "move": "glare",
+            "level": 23
+          },
+          {
+            "move": "poison-fang",
+            "level": 27
+          },
+          {
+            "move": "night-slash",
+            "level": 31
+          },
+          {
+            "move": "gastro-acid",
+            "level": 34
+          },
+          {
+            "move": "haze",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 42
+          },
+          {
+            "move": "crunch",
+            "level": 45
+          },
+          {
+            "move": "coil",
+            "level": 49
+          },
+          {
+            "move": "wring-out",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "iron-tail",
+          "night-slash",
+          "punishment",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo",
+          "wring-out"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bind",
+          "dark-pulse",
+          "gastro-acid",
+          "giga-drain",
+          "iron-tail",
+          "knock-off",
+          "sleep-talk",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C6",
+      "flavorText": "Constant polishing makes the edge of the blade on its tail extremely sharp. It’s Zangoose’s archrival.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 8",
+            "method": "Yellow Flowers",
+            "minLevel": 14,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 5
+          },
+          {
+            "move": "lick",
+            "level": 9
+          },
+          {
+            "move": "poison-tail",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 16
+          },
+          {
+            "move": "venoshock",
+            "level": 20
+          },
+          {
+            "move": "glare",
+            "level": 23
+          },
+          {
+            "move": "poison-fang",
+            "level": 27
+          },
+          {
+            "move": "venom-drench",
+            "level": 28
+          },
+          {
+            "move": "night-slash",
+            "level": 31
+          },
+          {
+            "move": "gastro-acid",
+            "level": 34
+          },
+          {
+            "move": "haze",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 42
+          },
+          {
+            "move": "crunch",
+            "level": 45
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "coil",
+            "level": 48
+          },
+          {
+            "move": "wring-out",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "iron-tail",
+          "night-slash",
+          "punishment",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "129",
+      "flavorText": "Seviper’s swordlike tail serves two purposes—it slashes foes and douses them with secreted poison. This Pokémon will not give up its long-running blood feud with Zangoose.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 4
+          },
+          {
+            "move": "lick",
+            "level": 7
+          },
+          {
+            "move": "poison-tail",
+            "level": 10
+          },
+          {
+            "move": "screech",
+            "level": 13
+          },
+          {
+            "move": "venoshock",
+            "level": 16
+          },
+          {
+            "move": "glare",
+            "level": 19
+          },
+          {
+            "move": "poison-fang",
+            "level": 22
+          },
+          {
+            "move": "venom-drench",
+            "level": 25
+          },
+          {
+            "move": "night-slash",
+            "level": 28
+          },
+          {
+            "move": "gastro-acid",
+            "level": 31
+          },
+          {
+            "move": "poison-jab",
+            "level": 34
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "crunch",
+            "level": 40
+          },
+          {
+            "move": "belch",
+            "level": 43
+          },
+          {
+            "move": "coil",
+            "level": 46
+          },
+          {
+            "move": "wring-out",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "iron-tail",
+          "night-slash",
+          "punishment",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo",
+          "wring-out"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bind",
+          "gastro-acid",
+          "giga-drain",
+          "iron-tail",
+          "knock-off",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 4
+          },
+          {
+            "move": "lick",
+            "level": 6
+          },
+          {
+            "move": "poison-tail",
+            "level": 9
+          },
+          {
+            "move": "feint",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 14
+          },
+          {
+            "move": "venoshock",
+            "level": 16
+          },
+          {
+            "move": "glare",
+            "level": 19
+          },
+          {
+            "move": "poison-fang",
+            "level": 21
+          },
+          {
+            "move": "venom-drench",
+            "level": 24
+          },
+          {
+            "move": "night-slash",
+            "level": 26
+          },
+          {
+            "move": "gastro-acid",
+            "level": 29
+          },
+          {
+            "move": "poison-jab",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 34
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "belch",
+            "level": 41
+          },
+          {
+            "move": "coil",
+            "level": 44
+          },
+          {
+            "move": "wring-out",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "iron-tail",
+          "night-slash",
+          "punishment",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo",
+          "wring-out"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/336.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/336.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 4
+          },
+          {
+            "move": "lick",
+            "level": 6
+          },
+          {
+            "move": "poison-tail",
+            "level": 9
+          },
+          {
+            "move": "feint",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 14
+          },
+          {
+            "move": "venoshock",
+            "level": 16
+          },
+          {
+            "move": "glare",
+            "level": 19
+          },
+          {
+            "move": "poison-fang",
+            "level": 21
+          },
+          {
+            "move": "venom-drench",
+            "level": 24
+          },
+          {
+            "move": "night-slash",
+            "level": 26
+          },
+          {
+            "move": "gastro-acid",
+            "level": 29
+          },
+          {
+            "move": "poison-jab",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 34
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "belch",
+            "level": 41
+          },
+          {
+            "move": "coil",
+            "level": 44
+          },
+          {
+            "move": "wring-out",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "iron-tail",
+          "night-slash",
+          "punishment",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo",
+          "wring-out"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bind",
+          "gastro-acid",
+          "giga-drain",
+          "iron-tail",
+          "knock-off",
+          "snatch",
+          "snore",
+          "throat-chop"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "336",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/336.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Grassland Cave, Sunlit Cavern, Swampy Cave, Bogsunk Cavern, Dazzling Cave, Stargleam Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 4
+          },
+          {
+            "move": "lick",
+            "level": 6
+          },
+          {
+            "move": "poison-tail",
+            "level": 9
+          },
+          {
+            "move": "feint",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 14
+          },
+          {
+            "move": "venoshock",
+            "level": 16
+          },
+          {
+            "move": "glare",
+            "level": 19
+          },
+          {
+            "move": "poison-fang",
+            "level": 21
+          },
+          {
+            "move": "venom-drench",
+            "level": 24
+          },
+          {
+            "move": "night-slash",
+            "level": 26
+          },
+          {
+            "move": "gastro-acid",
+            "level": 29
+          },
+          {
+            "move": "poison-jab",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 34
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "belch",
+            "level": 41
+          },
+          {
+            "move": "coil",
+            "level": 44
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "flamethrower",
+          "giga-drain",
+          "iron-tail",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "x-scissor"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "night-slash",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P218",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/336.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Three, Area Five | Tera Raid Battles (3★ Seviper, 4★ Seviper)",
+          "Coastal Biome, Torchlit Labyrinth"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 4
+          },
+          {
+            "move": "lick",
+            "level": 6
+          },
+          {
+            "move": "poison-tail",
+            "level": 9
+          },
+          {
+            "move": "feint",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 14
+          },
+          {
+            "move": "glare",
+            "level": 19
+          },
+          {
+            "move": "poison-fang",
+            "level": 21
+          },
+          {
+            "move": "venoshock",
+            "level": 24
+          },
+          {
+            "move": "gastro-acid",
+            "level": 29
+          },
+          {
+            "move": "poison-jab",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "belch",
+            "level": 41
+          },
+          {
+            "move": "coil",
+            "level": 44
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "body-slam",
+          "breaking-swipe",
+          "brick-break",
+          "bulldoze",
+          "crunch",
+          "curse",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "earthquake",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-fang",
+          "flamethrower",
+          "giga-drain",
+          "giga-impact",
+          "gunk-shot",
+          "haze",
+          "helping-hand",
+          "hyper-beam",
+          "ice-fang",
+          "iron-head",
+          "knock-off",
+          "lash-out",
+          "poison-jab",
+          "poison-tail",
+          "pounce",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "scary-face",
+          "seed-bomb",
+          "skitter-smack",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder-fang",
+          "toxic",
+          "trailblaze",
+          "venoshock",
+          "x-scissor",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "assurance",
+          "body-slam",
+          "final-gambit",
+          "night-slash",
+          "scary-face",
+          "spit-up",
+          "stockpile",
+          "swallow",
+          "switcheroo"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H107",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

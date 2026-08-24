@@ -1,0 +1,2038 @@
+{
+  "dex": 4,
+  "keyword": "charmander",
+  "name": "Charmander",
+  "japaneseName": {
+    "kana": "ヒトカゲ",
+    "romaji": "Hitokage"
+  },
+  "type1": "Fire",
+  "type2": null,
+  "genus": "Lizard Pokémon",
+  "heightM": 0.6,
+  "weightKg": 8.5,
+  "stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "specialAttack": 60,
+    "specialDefense": 50,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "blaze",
+      "hidden": false,
+      "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "solar-power",
+      "hidden": true,
+      "effect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 1,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      5
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0004.png",
+    "shiny": "sprites/shiny/0004.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/4.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "4",
+      "flavorText": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/4.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pallet Town",
+            "method": "Gift",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 24",
+            "method": "Gift",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "ember",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 13
+          },
+          {
+            "move": "leer",
+            "level": 15
+          },
+          {
+            "move": "smokescreen",
+            "level": 19
+          },
+          {
+            "move": "rage",
+            "level": 22
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 30
+          },
+          {
+            "move": "flamethrower",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "flamethrower",
+            "level": 38
+          },
+          {
+            "move": "dragon-rage",
+            "level": 43
+          },
+          {
+            "move": "fire-spin",
+            "level": 46
+          },
+          {
+            "move": "fire-spin",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "counter",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "dragon-claw",
+          "dragon-rage",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "overheat",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "seismic-toss",
+          "skull-bash",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "dragon-dance",
+          "outrage",
+          "rock-slide",
+          "swords-dance"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "229",
+      "flavorText": "If it's healthy, the flame on the tip of its tail will burn vigor­ ously, even if it gets a bit wet.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 13
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "flamethrower",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "dragon-rage",
+            "level": 43
+          },
+          {
+            "move": "fire-spin",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "dragon-breath",
+          "dynamic-punch",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "outrage",
+          "rock-slide"
+        ],
+        "tutor": [
+          "flamethrower"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is happy, and blazes when it is enraged.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 13
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "flamethrower",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "dragon-rage",
+            "level": 43
+          },
+          {
+            "move": "fire-spin",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "dragon-dance",
+          "outrage",
+          "rock-slide",
+          "swords-dance"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "fire-spin",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "crunch",
+          "dragon-dance",
+          "dragon-rush",
+          "flare-blitz",
+          "metal-claw",
+          "outrage",
+          "rock-slide",
+          "swords-dance"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "fire-spin",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "crunch",
+          "dragon-dance",
+          "dragon-rush",
+          "flare-blitz",
+          "metal-claw",
+          "outrage",
+          "rock-slide",
+          "swords-dance"
+        ],
+        "tutor": [
+          "fire-punch",
+          "fury-cutter",
+          "heat-wave",
+          "mud-slap",
+          "snore",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "234",
+      "flavorText": "The flame on its tail indicates CHARMANDER’s life force. If it is healthy, the flame burns brightly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pallet Town",
+            "method": "Gift",
+            "minLevel": 5,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "fire-spin",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-rush",
+          "flare-blitz",
+          "metal-claw",
+          "outrage",
+          "rock-slide",
+          "swords-dance"
+        ],
+        "tutor": [
+          "fire-punch",
+          "fury-cutter",
+          "headbutt",
+          "heat-wave",
+          "mud-slap",
+          "snore",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 43
+          },
+          {
+            "move": "inferno",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-rush",
+          "flare-blitz",
+          "focus-punch",
+          "metal-claw",
+          "outrage"
+        ],
+        "tutor": [
+          "fire-pledge"
+        ]
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 43
+          },
+          {
+            "move": "inferno",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-rush",
+          "flare-blitz",
+          "focus-punch",
+          "metal-claw",
+          "outrage"
+        ],
+        "tutor": [
+          "fire-pledge",
+          "fire-punch",
+          "heat-wave",
+          "iron-tail",
+          "outrage",
+          "sleep-talk",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "83",
+      "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lumiose City",
+            "method": "Gift",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 43
+          },
+          {
+            "move": "inferno",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "overheat",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "air-cutter",
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-rush",
+          "flare-blitz",
+          "focus-punch",
+          "metal-claw",
+          "outrage"
+        ],
+        "tutor": [
+          "fire-pledge"
+        ]
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 43
+          },
+          {
+            "move": "inferno",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "overheat",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "air-cutter",
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-rush",
+          "flare-blitz",
+          "focus-punch",
+          "metal-claw",
+          "outrage"
+        ],
+        "tutor": [
+          "dragon-pulse",
+          "fire-pledge",
+          "fire-punch",
+          "focus-punch",
+          "heat-wave",
+          "iron-tail",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 43
+          },
+          {
+            "move": "inferno",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-rush",
+          "flare-blitz",
+          "focus-punch",
+          "metal-claw",
+          "outrage"
+        ],
+        "tutor": [
+          "fire-pledge"
+        ]
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/4.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/4.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3 Main",
+            "method": "Island Scan",
+            "minLevel": 12,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 25
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 43
+          },
+          {
+            "move": "inferno",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-rush",
+          "flare-blitz",
+          "focus-punch",
+          "metal-claw",
+          "outrage"
+        ],
+        "tutor": [
+          "dragon-pulse",
+          "fire-pledge",
+          "fire-punch",
+          "focus-punch",
+          "heat-wave",
+          "iron-tail",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "4",
+      "flavorText": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 9
+          },
+          {
+            "move": "ember",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 18
+          },
+          {
+            "move": "dragon-rage",
+            "level": 22
+          },
+          {
+            "move": "fire-spin",
+            "level": 27
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "dig",
+          "dragon-pulse",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "iron-tail",
+          "outrage",
+          "protect",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "thunder-punch",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "378",
+      "flavorText": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 8
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "fire-fang",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 20
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 28
+          },
+          {
+            "move": "fire-spin",
+            "level": 32
+          },
+          {
+            "move": "inferno",
+            "level": 36
+          },
+          {
+            "move": "flare-blitz",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "attract",
+          "beat-up",
+          "body-slam",
+          "brick-break",
+          "crunch",
+          "dig",
+          "dragon-claw",
+          "dragon-dance",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "fire-fang",
+          "fire-punch",
+          "fire-spin",
+          "flamethrower",
+          "flare-blitz",
+          "fling",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "outrage",
+          "overheat",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scary-face",
+          "shadow-claw",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "thunder-punch",
+          "weather-ball",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [
+          "ancient-power",
+          "belly-drum",
+          "bite",
+          "counter",
+          "dragon-rush",
+          "dragon-tail",
+          "metal-claw",
+          "wing-attack"
+        ],
+        "tutor": [
+          "fire-pledge"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "4",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/4.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Volcanic Cave, Sandsear Cave, Typhlo Cavern (after obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 8
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "fire-fang",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 20
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 28
+          },
+          {
+            "move": "fire-spin",
+            "level": 32
+          },
+          {
+            "move": "inferno",
+            "level": 36
+          },
+          {
+            "move": "flare-blitz",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "ancient-power",
+          "beat-up",
+          "belly-drum",
+          "bite",
+          "counter",
+          "crunch",
+          "dragon-dance",
+          "dragon-rush",
+          "dragon-tail",
+          "flare-blitz",
+          "metal-claw",
+          "outrage",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B167",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/4.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome (after boosting biodiversity Terarium Club in the Savanna Biome)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 8
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "fire-fang",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 20
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 28
+          },
+          {
+            "move": "fire-spin",
+            "level": 32
+          },
+          {
+            "move": "inferno",
+            "level": 36
+          },
+          {
+            "move": "flare-blitz",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "breaking-swipe",
+          "brick-break",
+          "crunch",
+          "dig",
+          "dragon-claw",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-tail",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "fire-fang",
+          "fire-pledge",
+          "fire-punch",
+          "fire-spin",
+          "flame-charge",
+          "flamethrower",
+          "flare-blitz",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "heat-wave",
+          "helping-hand",
+          "metal-claw",
+          "outrage",
+          "overheat",
+          "protect",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "scary-face",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "temper-flare",
+          "tera-blast",
+          "thunder-punch",
+          "weather-ball",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "belly-drum",
+          "bite",
+          "counter",
+          "dragon-rush",
+          "dragon-tail",
+          "iron-tail",
+          "metal-claw"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "151",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: (Received from Mable during Side Mission 22) | Centrico Plaza: Wild Zone 20",
+          "Hyperspace Lumiose (2★, 3★ & 5★ Fire-type wild zones) (5★ wild zones require Special Scan)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

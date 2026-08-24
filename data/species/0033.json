@@ -1,0 +1,1816 @@
+{
+  "dex": 33,
+  "keyword": "nidorino",
+  "name": "Nidorino",
+  "japaneseName": {
+    "kana": "ニドリーノ",
+    "romaji": "Nidorino"
+  },
+  "type1": "Poison",
+  "type2": null,
+  "genus": "Poison Pin Pokémon",
+  "heightM": 0.9,
+  "weightKg": 19.5,
+  "stats": {
+    "hp": 61,
+    "attack": 72,
+    "defense": 57,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "poison-point",
+      "hidden": false,
+      "effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+    },
+    {
+      "name": "rivalry",
+      "hidden": false,
+      "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+    },
+    {
+      "name": "hustle",
+      "hidden": true,
+      "effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "ground"
+    ],
+    "genderRateEighthsFemale": 0,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 32,
+    "evolvesIntoDex": [
+      34
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0033.png",
+    "shiny": "sprites/shiny/0033.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/33.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/33.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "33",
+      "flavorText": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/33.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 23",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 8
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "double-kick",
+            "level": 12
+          },
+          {
+            "move": "poison-sting",
+            "level": 14
+          },
+          {
+            "move": "poison-sting",
+            "level": 18
+          },
+          {
+            "move": "poison-sting",
+            "level": 19
+          },
+          {
+            "move": "horn-attack",
+            "level": 22
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 26
+          },
+          {
+            "move": "focus-energy",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 32
+          },
+          {
+            "move": "fury-attack",
+            "level": 34
+          },
+          {
+            "move": "fury-attack",
+            "level": 36
+          },
+          {
+            "move": "horn-drill",
+            "level": 41
+          },
+          {
+            "move": "flatter",
+            "level": 43
+          },
+          {
+            "move": "horn-drill",
+            "level": 46
+          },
+          {
+            "move": "double-kick",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "bubble-beam",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "horn-drill",
+          "ice-beam",
+          "iron-tail",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shock-wave",
+          "skull-bash",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "99",
+      "flavorText": "It is easily agitated and uses its horn for offense as soon as it notices an attacker.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "double-kick",
+            "level": 12
+          },
+          {
+            "move": "poison-sting",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 36
+          },
+          {
+            "move": "horn-drill",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "detect",
+          "double-team",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 8
+          },
+          {
+            "move": "double-kick",
+            "level": 12
+          },
+          {
+            "move": "poison-sting",
+            "level": 18
+          },
+          {
+            "move": "horn-attack",
+            "level": 22
+          },
+          {
+            "move": "helping-hand",
+            "level": 26
+          },
+          {
+            "move": "fury-attack",
+            "level": 34
+          },
+          {
+            "move": "flatter",
+            "level": 43
+          },
+          {
+            "move": "horn-drill",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shock-wave",
+          "sludge-bomb",
+          "strength",
+          "sunny-day",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          },
+          {
+            "location": "Valor Lakefront",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Valor Lakefront",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "helping-hand",
+          "mud-slap",
+          "snore",
+          "sucker-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "99",
+      "flavorText": "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Safari Zone Zone Savannah",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "headbutt",
+          "helping-hand",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "super-fang"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-claw",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-claw",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "drill-run",
+          "helping-hand",
+          "iron-tail",
+          "sleep-talk",
+          "snore",
+          "super-fang"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C108",
+      "flavorText": "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "drill-run",
+          "helping-hand",
+          "iron-tail",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "smart-strike",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/33.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/33.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "poison-sting",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "horn-attack",
+            "level": 23
+          },
+          {
+            "move": "helping-hand",
+            "level": 28
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 35
+          },
+          {
+            "move": "flatter",
+            "level": 38
+          },
+          {
+            "move": "poison-jab",
+            "level": 43
+          },
+          {
+            "move": "captivate",
+            "level": 50
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "smart-strike",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "drill-run",
+          "helping-hand",
+          "iron-tail",
+          "shock-wave",
+          "snore",
+          "stomping-tantrum",
+          "super-fang",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "33",
+      "flavorText": "Its horn contains venom. If it stabs an enemy with the horn, the impact makes the poison leak out.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 3
+          },
+          {
+            "move": "poison-sting",
+            "level": 6
+          },
+          {
+            "move": "double-kick",
+            "level": 9
+          },
+          {
+            "move": "horn-attack",
+            "level": 12
+          },
+          {
+            "move": "helping-hand",
+            "level": 15
+          },
+          {
+            "move": "toxic",
+            "level": 23
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "poison-jab",
+            "level": 39
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dig",
+          "drill-run",
+          "facade",
+          "headbutt",
+          "helping-hand",
+          "ice-beam",
+          "iron-tail",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "sludge-bomb",
+          "substitute",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "C069",
+      "flavorText": "It’s nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 15
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 22
+          },
+          {
+            "move": "double-kick",
+            "level": 29
+          },
+          {
+            "move": "horn-attack",
+            "level": 36
+          },
+          {
+            "move": "helping-hand",
+            "level": 43
+          },
+          {
+            "move": "toxic",
+            "level": 50
+          },
+          {
+            "move": "flatter",
+            "level": 57
+          },
+          {
+            "move": "poison-jab",
+            "level": 64
+          },
+          {
+            "move": "earth-power",
+            "level": 71
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "beat-up",
+          "blizzard",
+          "body-slam",
+          "dig",
+          "drill-run",
+          "earth-power",
+          "endure",
+          "facade",
+          "focus-energy",
+          "helping-hand",
+          "ice-beam",
+          "iron-tail",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "smart-strike",
+          "snore",
+          "stomping-tantrum",
+          "substitute",
+          "sunny-day",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic-spikes",
+          "venom-drench",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "33",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/33.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 221 (Sinnoh), Valor Lakefront (Poké Radar) | Grand Underground - Grassland Cave, Swampy Cave, Riverbank Cave, Dazzling Cave, Still-Water Cavern, Sunlit Cavern, Stargleam Cavern, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 15
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 22
+          },
+          {
+            "move": "double-kick",
+            "level": 29
+          },
+          {
+            "move": "horn-attack",
+            "level": 36
+          },
+          {
+            "move": "helping-hand",
+            "level": 43
+          },
+          {
+            "move": "toxic",
+            "level": 50
+          },
+          {
+            "move": "flatter",
+            "level": 57
+          },
+          {
+            "move": "poison-jab",
+            "level": 64
+          },
+          {
+            "move": "earth-power",
+            "level": 71
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "ice-beam",
+          "iron-tail",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

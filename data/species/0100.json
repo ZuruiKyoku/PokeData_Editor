@@ -1,0 +1,1853 @@
+{
+  "dex": 100,
+  "keyword": "voltorb",
+  "name": "Voltorb",
+  "japaneseName": {
+    "kana": "ビリリダマ",
+    "romaji": "Biriridama"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "Ball Pokémon",
+  "heightM": 0.5,
+  "weightKg": 10.4,
+  "stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 50,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 100
+  },
+  "abilities": [
+    {
+      "name": "soundproof",
+      "hidden": false,
+      "effect": "Protects against sound-based moves."
+    },
+    {
+      "name": "static",
+      "hidden": false,
+      "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+    },
+    {
+      "name": "aftermath",
+      "hidden": true,
+      "effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": -1,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "ball",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      101
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0100.png",
+    "shiny": "sprites/shiny/0100.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/100.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/100.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "100",
+      "flavorText": "Usually found in power plants. Easily mistaken for a POKé BALL, it has zapped many people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/100.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Power Plant",
+            "method": "Only One",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Power Plant",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 37
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "sonic-boom",
+            "level": 15
+          },
+          {
+            "move": "sonic-boom",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "self-destruct",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 27
+          },
+          {
+            "move": "light-screen",
+            "level": 29
+          },
+          {
+            "move": "rollout",
+            "level": 32
+          },
+          {
+            "move": "swift",
+            "level": 36
+          },
+          {
+            "move": "light-screen",
+            "level": 37
+          },
+          {
+            "move": "swift",
+            "level": 42
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "bide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "self-destruct",
+          "shock-wave",
+          "substitute",
+          "swift",
+          "take-down",
+          "taunt",
+          "teleport",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "explosion",
+          "mimic",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "120",
+      "flavorText": "During the study of this POKéMON, it was discovered that its compo­ nents are not found in nature.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Team Rocket Hq",
+            "method": "Only One",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 9
+          },
+          {
+            "move": "sonic-boom",
+            "level": 17
+          },
+          {
+            "move": "self-destruct",
+            "level": 23
+          },
+          {
+            "move": "rollout",
+            "level": 29
+          },
+          {
+            "move": "light-screen",
+            "level": 33
+          },
+          {
+            "move": "swift",
+            "level": 37
+          },
+          {
+            "move": "explosion",
+            "level": 39
+          },
+          {
+            "move": "mirror-coat",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "curse",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "swagger",
+          "swift",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "84",
+      "flavorText": "It bears an uncanny and unexplained resemblance to a POKé BALL. Because it explodes at the slightest shock, even veteran TRAINERS treat it with caution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "New Mauville",
+            "method": "Only One",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "New Mauville",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 26
+          },
+          {
+            "location": "New Mauville Entrance",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "sonic-boom",
+            "level": 15
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "self-destruct",
+            "level": 27
+          },
+          {
+            "move": "rollout",
+            "level": 32
+          },
+          {
+            "move": "light-screen",
+            "level": 37
+          },
+          {
+            "move": "swift",
+            "level": 42
+          },
+          {
+            "move": "explosion",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "endure",
+          "explosion",
+          "mimic",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 218",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "sonic-boom",
+            "level": 8
+          },
+          {
+            "move": "spark",
+            "level": 12
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "light-screen",
+            "level": 22
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "self-destruct",
+            "level": 29
+          },
+          {
+            "move": "swift",
+            "level": 33
+          },
+          {
+            "move": "magnet-rise",
+            "level": 36
+          },
+          {
+            "move": "gyro-ball",
+            "level": 40
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 218",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 29
+          },
+          {
+            "location": "Team Rocket Hq",
+            "method": "Only One",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "sonic-boom",
+            "level": 8
+          },
+          {
+            "move": "spark",
+            "level": 12
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "light-screen",
+            "level": 22
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "self-destruct",
+            "level": 29
+          },
+          {
+            "move": "swift",
+            "level": 33
+          },
+          {
+            "move": "magnet-rise",
+            "level": 36
+          },
+          {
+            "move": "gyro-ball",
+            "level": 40
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "magnet-rise",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "sucker-punch",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "121",
+      "flavorText": "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Team Rocket Hq",
+            "method": "Only One",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "sonic-boom",
+            "level": 8
+          },
+          {
+            "move": "spark",
+            "level": 12
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "light-screen",
+            "level": 22
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "self-destruct",
+            "level": 29
+          },
+          {
+            "move": "swift",
+            "level": 33
+          },
+          {
+            "move": "magnet-rise",
+            "level": 36
+          },
+          {
+            "move": "gyro-ball",
+            "level": 40
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "headbutt",
+          "magic-coat",
+          "magnet-rise",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "sucker-punch",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "sonic-boom",
+            "level": 8
+          },
+          {
+            "move": "spark",
+            "level": 12
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "charge-beam",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "self-destruct",
+            "level": 33
+          },
+          {
+            "move": "swift",
+            "level": 36
+          },
+          {
+            "move": "magnet-rise",
+            "level": 40
+          },
+          {
+            "move": "gyro-ball",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 47
+          },
+          {
+            "move": "mirror-coat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "sonic-boom",
+            "level": 8
+          },
+          {
+            "move": "spark",
+            "level": 12
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "charge-beam",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "self-destruct",
+            "level": 33
+          },
+          {
+            "move": "swift",
+            "level": 36
+          },
+          {
+            "move": "magnet-rise",
+            "level": 40
+          },
+          {
+            "move": "gyro-ball",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 47
+          },
+          {
+            "move": "mirror-coat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "foul-play",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M72",
+      "flavorText": "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "sonic-boom",
+            "level": 8
+          },
+          {
+            "move": "eerie-impulse",
+            "level": 10
+          },
+          {
+            "move": "spark",
+            "level": 12
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "screech",
+            "level": 19
+          },
+          {
+            "move": "charge-beam",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "self-destruct",
+            "level": 33
+          },
+          {
+            "move": "swift",
+            "level": 36
+          },
+          {
+            "move": "magnet-rise",
+            "level": 40
+          },
+          {
+            "move": "gyro-ball",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 47
+          },
+          {
+            "move": "mirror-coat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "87",
+      "flavorText": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "New Mauville",
+            "method": "Only One",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sonic-boom",
+            "level": 4
+          },
+          {
+            "move": "eerie-impulse",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 13
+          },
+          {
+            "move": "charge-beam",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 26
+          },
+          {
+            "move": "light-screen",
+            "level": 29
+          },
+          {
+            "move": "magnet-rise",
+            "level": 34
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "gyro-ball",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "foul-play",
+          "magic-coat",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "New Mauville",
+            "method": "Only One",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sonic-boom",
+            "level": 4
+          },
+          {
+            "move": "eerie-impulse",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 13
+          },
+          {
+            "move": "charge-beam",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 26
+          },
+          {
+            "move": "light-screen",
+            "level": 29
+          },
+          {
+            "move": "magnet-rise",
+            "level": 34
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "gyro-ball",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/100.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/100.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sonic-boom",
+            "level": 4
+          },
+          {
+            "move": "eerie-impulse",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 13
+          },
+          {
+            "move": "charge-beam",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 26
+          },
+          {
+            "move": "light-screen",
+            "level": 29
+          },
+          {
+            "move": "magnet-rise",
+            "level": 34
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "gyro-ball",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "foul-play",
+          "magic-coat",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "100",
+      "flavorText": "It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "light-screen",
+            "level": 3
+          },
+          {
+            "move": "sonic-boom",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 9
+          },
+          {
+            "move": "swift",
+            "level": 14
+          },
+          {
+            "move": "self-destruct",
+            "level": 19
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "thunderbolt",
+            "level": 31
+          },
+          {
+            "move": "mirror-coat",
+            "level": 38
+          },
+          {
+            "move": "explosion",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "facade",
+          "foul-play",
+          "headbutt",
+          "light-screen",
+          "protect",
+          "reflect",
+          "rest",
+          "self-destruct",
+          "substitute",
+          "taunt",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "100",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/100.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 218 (Sinnoh) (Swarm) | Grand Underground - Spacious Cave, Dazzling Cave, Stargleam Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 4
+          },
+          {
+            "move": "eerie-impulse",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 13
+          },
+          {
+            "move": "charge-beam",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 26
+          },
+          {
+            "move": "light-screen",
+            "level": 29
+          },
+          {
+            "move": "magnet-rise",
+            "level": 34
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "gyro-ball",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "gyro-ball",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "volt-switch"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": null,
+      "flavorText": "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Coronet Highlands: Celestica Ruins (in boxes), Sacred Plaza (also in boxes), massive mass outbreaks (Hisuian Form) | Unobtainable (Kantonian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P207",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/100.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Area Three (Kantonian Form) | West Province: Area One, Area Three (Kantonian Form) | Tera Raid Battles (2★ Voltorb) (Kantonian Form) | , Poké Portal News (Hisuian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 4
+          },
+          {
+            "move": "eerie-impulse",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 11
+          },
+          {
+            "move": "screech",
+            "level": 13
+          },
+          {
+            "move": "charge-beam",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 26
+          },
+          {
+            "move": "light-screen",
+            "level": 29
+          },
+          {
+            "move": "magnet-rise",
+            "level": 34
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "gyro-ball",
+            "level": 46
+          },
+          {
+            "move": "mirror-coat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "agility",
+          "charge",
+          "charge-beam",
+          "double-edge",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "facade",
+          "foul-play",
+          "gyro-ball",
+          "helping-hand",
+          "light-screen",
+          "metal-sound",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "metal-sound",
+          "recycle"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

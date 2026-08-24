@@ -1,0 +1,727 @@
+{
+  "dex": 541,
+  "keyword": "swadloon",
+  "name": "Swadloon",
+  "japaneseName": {
+    "kana": "クルマユ",
+    "romaji": "Kurumayu"
+  },
+  "type1": "Bug",
+  "type2": "Grass",
+  "genus": "Leaf-Wrapped Pokémon",
+  "heightM": 0.5,
+  "weightKg": 7.3,
+  "stats": {
+    "hp": 55,
+    "attack": 63,
+    "defense": 90,
+    "specialAttack": 50,
+    "specialDefense": 80,
+    "speed": 42
+  },
+  "abilities": [
+    {
+      "name": "leaf-guard",
+      "hidden": false,
+      "effect": "Protects against major status ailments during strong sunlight."
+    },
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "overcoat",
+      "hidden": true,
+      "effect": "Protects against damage from weather."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "arms",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 540,
+    "evolvesIntoDex": [
+      542
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0541.png",
+    "shiny": "sprites/shiny/0541.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/541.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/541.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "47",
+      "flavorText": "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/541.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/541.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lostlorn Forest",
+            "method": "Dark Grass",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Dark Grass",
+            "minLevel": 22,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 27,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "grass-whistle",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "18",
+      "flavorText": "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/541.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/541.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lostlorn Forest",
+            "method": "Dark Grass",
+            "minLevel": 23,
+            "maxLevel": 26
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Dark Grass",
+            "minLevel": 62,
+            "maxLevel": 64
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 56
+          },
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "grass-whistle",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "iron-defense",
+          "magic-coat",
+          "seed-bomb",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/541.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/541.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "grass-whistle",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/541.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/541.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "grass-whistle",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "iron-defense",
+          "magic-coat",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/541.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/541.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "protect",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "grass-whistle",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/541.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/541.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "protect",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "grass-whistle",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "iron-defense",
+          "magic-coat",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K014",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/541.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mossfell Confluence, Wistful Fields | Tera Raid Battles (3★ Swadloon)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "protect",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "sticky-web",
+            "level": 31
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "baton-pass",
+          "bug-bite",
+          "bug-buzz",
+          "charm",
+          "electroweb",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "iron-defense",
+          "light-screen",
+          "lunge",
+          "magical-leaf",
+          "pounce",
+          "protect",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "skitter-smack",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "trailblaze"
+        ],
+        "egg": [
+          "screech",
+          "snore",
+          "switcheroo",
+          "synthesis",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

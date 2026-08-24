@@ -1,0 +1,1830 @@
+{
+  "dex": 169,
+  "keyword": "crobat",
+  "name": "Crobat",
+  "japaneseName": {
+    "kana": "クロバット",
+    "romaji": "Crobat"
+  },
+  "type1": "Poison",
+  "type2": "Flying",
+  "genus": "Bat Pokémon",
+  "heightM": 1.8,
+  "weightKg": 75.0,
+  "stats": {
+    "hp": 85,
+    "attack": 90,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 80,
+    "speed": 130
+  },
+  "abilities": [
+    {
+      "name": "inner-focus",
+      "hidden": false,
+      "effect": "Prevents flinching."
+    },
+    {
+      "name": "infiltrator",
+      "hidden": true,
+      "effect": "Bypasses light screen, reflect, and safeguard."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "bug-wings",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 42,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0169.png",
+    "shiny": "sprites/shiny/0169.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/169.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/169.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "39",
+      "flavorText": "As a result of its pursuit of faster, yet more silent flight, a new set of wings grew on its hind legs.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 6
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "confuse-ray",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 30
+          },
+          {
+            "move": "mean-look",
+            "level": 42
+          },
+          {
+            "move": "haze",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "detect",
+          "double-team",
+          "endure",
+          "fly",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "65",
+      "flavorText": "Over the course of evolution, its hind legs turned into wings. By alternately resting its front and rear wings, it can fly all day without having to stop.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "bite",
+            "level": 16
+          },
+          {
+            "move": "wing-attack",
+            "level": 21
+          },
+          {
+            "move": "confuse-ray",
+            "level": 28
+          },
+          {
+            "move": "air-cutter",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 42
+          },
+          {
+            "move": "poison-fang",
+            "level": 49
+          },
+          {
+            "move": "haze",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sludge-bomb",
+          "snatch",
+          "steel-wing",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "30",
+      "flavorText": "A Pokémon that gained vastly enhanced flying performance by having its legs turn into wings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "wing-attack",
+            "level": 17
+          },
+          {
+            "move": "confuse-ray",
+            "level": 21
+          },
+          {
+            "move": "air-cutter",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 33
+          },
+          {
+            "move": "poison-fang",
+            "level": 39
+          },
+          {
+            "move": "haze",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "30",
+      "flavorText": "The transformation of its legs into wings made it better at flying, but more clumsy at walking.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "wing-attack",
+            "level": 17
+          },
+          {
+            "move": "confuse-ray",
+            "level": 21
+          },
+          {
+            "move": "air-cutter",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 33
+          },
+          {
+            "move": "poison-fang",
+            "level": 39
+          },
+          {
+            "move": "haze",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "heat-wave",
+          "ominous-wind",
+          "snore",
+          "swift",
+          "twister",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "39",
+      "flavorText": "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "wing-attack",
+            "level": 17
+          },
+          {
+            "move": "confuse-ray",
+            "level": 21
+          },
+          {
+            "move": "air-cutter",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 33
+          },
+          {
+            "move": "poison-fang",
+            "level": 39
+          },
+          {
+            "move": "haze",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "heat-wave",
+          "ominous-wind",
+          "sky-attack",
+          "snore",
+          "super-fang",
+          "swift",
+          "tailwind",
+          "twister",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The transformation of its legs into wings made it better at flying, but more clumsy at walking.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 13",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "wing-attack",
+            "level": 17
+          },
+          {
+            "move": "confuse-ray",
+            "level": 21
+          },
+          {
+            "move": "air-cutter",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 33
+          },
+          {
+            "move": "acrobatics",
+            "level": 39
+          },
+          {
+            "move": "poison-fang",
+            "level": 45
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "air-slash",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "63",
+      "flavorText": "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dreamyard",
+            "method": "Grass Spots",
+            "minLevel": 59,
+            "maxLevel": 59
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "air-cutter",
+            "level": 28
+          },
+          {
+            "move": "acrobatics",
+            "level": 33
+          },
+          {
+            "move": "mean-look",
+            "level": 38
+          },
+          {
+            "move": "poison-fang",
+            "level": 42
+          },
+          {
+            "move": "haze",
+            "level": 47
+          },
+          {
+            "move": "air-slash",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "dark-pulse",
+          "giga-drain",
+          "heat-wave",
+          "roost",
+          "sky-attack",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "super-fang",
+          "tailwind",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "147",
+      "flavorText": "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "air-cutter",
+            "level": 28
+          },
+          {
+            "move": "acrobatics",
+            "level": 33
+          },
+          {
+            "move": "mean-look",
+            "level": 38
+          },
+          {
+            "move": "poison-fang",
+            "level": 42
+          },
+          {
+            "move": "haze",
+            "level": 47
+          },
+          {
+            "move": "air-slash",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "67",
+      "flavorText": "Crobat sneaks up on its intended prey using wings that barely make a sound. This Pokémon rests by hanging on a tree branch with its rear legs that serve as wings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "poison-fang",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 32
+          },
+          {
+            "move": "acrobatics",
+            "level": 35
+          },
+          {
+            "move": "haze",
+            "level": 40
+          },
+          {
+            "move": "venoshock",
+            "level": 43
+          },
+          {
+            "move": "air-slash",
+            "level": 48
+          },
+          {
+            "move": "quick-guard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "giga-drain",
+          "heat-wave",
+          "sky-attack",
+          "snatch",
+          "snore",
+          "super-fang",
+          "tailwind",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "70",
+      "flavorText": "Silent and swift in its four-winged flight, it bites down on its prey before they realize what’s happening. In a heartbeat, it drains their blood.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Resolution Cave",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "poison-fang",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 32
+          },
+          {
+            "move": "leech-life",
+            "level": 35
+          },
+          {
+            "move": "haze",
+            "level": 40
+          },
+          {
+            "move": "venoshock",
+            "level": 43
+          },
+          {
+            "move": "air-slash",
+            "level": 48
+          },
+          {
+            "move": "quick-guard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "leech-life",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "82",
+      "flavorText": "It feeds on the blood of living people and Pokémon. If it can’t drink any blood for even a short while, it becomes weak and unable to fly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/169.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/169.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle East Cave",
+            "method": "Sos Encounter",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Resolution Cave",
+            "method": "Sos Encounter",
+            "minLevel": 56,
+            "maxLevel": 59
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "air-cutter",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "poison-fang",
+            "level": 27
+          },
+          {
+            "move": "mean-look",
+            "level": 32
+          },
+          {
+            "move": "leech-life",
+            "level": 35
+          },
+          {
+            "move": "haze",
+            "level": 40
+          },
+          {
+            "move": "venoshock",
+            "level": 43
+          },
+          {
+            "move": "air-slash",
+            "level": 48
+          },
+          {
+            "move": "quick-guard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "leech-life",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "defog",
+          "giga-drain",
+          "heat-wave",
+          "sky-attack",
+          "snatch",
+          "snore",
+          "super-fang",
+          "tailwind",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "C146",
+      "flavorText": "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "mean-look",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tailwind",
+            "level": 1
+          },
+          {
+            "move": "toxic",
+            "level": 1
+          },
+          {
+            "move": "poison-fang",
+            "level": 15
+          },
+          {
+            "move": "quick-guard",
+            "level": 20
+          },
+          {
+            "move": "air-cutter",
+            "level": 27
+          },
+          {
+            "move": "bite",
+            "level": 34
+          },
+          {
+            "move": "haze",
+            "level": 41
+          },
+          {
+            "move": "venoshock",
+            "level": 48
+          },
+          {
+            "move": "confuse-ray",
+            "level": 55
+          },
+          {
+            "move": "air-slash",
+            "level": 62
+          },
+          {
+            "move": "leech-life",
+            "level": 69
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "agility",
+          "air-slash",
+          "assurance",
+          "attract",
+          "brave-bird",
+          "cross-poison",
+          "crunch",
+          "dark-pulse",
+          "endure",
+          "facade",
+          "fly",
+          "giga-drain",
+          "giga-impact",
+          "heat-wave",
+          "hex",
+          "hurricane",
+          "hyper-beam",
+          "leech-life",
+          "nasty-plot",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "screech",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "thief",
+          "u-turn",
+          "uproar",
+          "venom-drench",
+          "venoshock",
+          "x-scissor",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "169",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/169.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "mean-look",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tailwind",
+            "level": 1
+          },
+          {
+            "move": "toxic",
+            "level": 1
+          },
+          {
+            "move": "poison-fang",
+            "level": 15
+          },
+          {
+            "move": "quick-guard",
+            "level": 20
+          },
+          {
+            "move": "air-cutter",
+            "level": 27
+          },
+          {
+            "move": "bite",
+            "level": 34
+          },
+          {
+            "move": "haze",
+            "level": 41
+          },
+          {
+            "move": "venoshock",
+            "level": 48
+          },
+          {
+            "move": "confuse-ray",
+            "level": 55
+          },
+          {
+            "move": "air-slash",
+            "level": 62
+          },
+          {
+            "move": "leech-life",
+            "level": 69
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dark-pulse",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "giga-drain",
+          "giga-impact",
+          "hyper-beam",
+          "nasty-plot",
+          "payback",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roost",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "36",
+      "flavorText": "Its hind limbs have become another set of wings. Crobat expertly maneuvers its four wings to dart in exquisite fashion through even the most confined caves without losing any speed.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: massive mass outbreaks | Coronet Highlands: Wayward Cave | Alabaster Icelands: Icebound Falls<sup>Flying</sup>"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 6
+          },
+          {
+            "move": "bite",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 18
+          },
+          {
+            "move": "cross-poison",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 34
+          },
+          {
+            "move": "leech-life",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H096",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

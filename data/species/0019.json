@@ -1,0 +1,2339 @@
+{
+  "dex": 19,
+  "keyword": "rattata",
+  "name": "Rattata",
+  "japaneseName": {
+    "kana": "コラッタ",
+    "romaji": "Koratta"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Mouse Pokémon",
+  "heightM": 0.3,
+  "weightKg": 3.5,
+  "stats": {
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "specialAttack": 25,
+    "specialDefense": 35,
+    "speed": 72
+  },
+  "abilities": [
+    {
+      "name": "run-away",
+      "hidden": false,
+      "effect": "Ensures success fleeing from wild battles."
+    },
+    {
+      "name": "guts",
+      "hidden": false,
+      "effect": "Increases Attack to 1.5× with a major status ailment."
+    },
+    {
+      "name": "hustle",
+      "hidden": true,
+      "effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female has smaller whiskers",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      20
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0019.png",
+    "shiny": "sprites/shiny/0019.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/19.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/19.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "19",
+      "flavorText": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/19.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pokemon Mansion 1f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 37
+          },
+          {
+            "location": "Pokemon Mansion 2f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 40
+          },
+          {
+            "location": "Pokemon Mansion 3f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 43
+          },
+          {
+            "location": "Pokemon Mansion B1f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 17",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 18",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 18
+          },
+          {
+            "location": "Sea Route 21",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "hyper-fang",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 14
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "pursuit",
+            "level": 27
+          },
+          {
+            "move": "super-fang",
+            "level": 34
+          },
+          {
+            "move": "endeavor",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "bubble-beam",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skull-bash",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-gun"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "flame-wheel",
+          "fury-swipes",
+          "reversal",
+          "screech",
+          "swagger",
+          "uproar"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mimic",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "17",
+      "flavorText": "This POKéMON's impressive vital­ ity allows it to live anywhere. It also multiplies very quickly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Bell Tower 2f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 3f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 4f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 5f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 6f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 7f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 8f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 9f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Burned Tower 1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Burned Tower B1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 32",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 33",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 42",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Sea Route 21",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sprout Tower 2f",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 6
+          },
+          {
+            "location": "Sprout Tower 3f",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 6
+          },
+          {
+            "location": "Tohjo Falls",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 6
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "hyper-fang",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "pursuit",
+            "level": 27
+          },
+          {
+            "move": "super-fang",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "thunder",
+          "toxic"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "flame-wheel",
+          "fury-swipes",
+          "reversal",
+          "screech"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A RATTATA is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "hyper-fang",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "pursuit",
+            "level": 27
+          },
+          {
+            "move": "super-fang",
+            "level": 34
+          },
+          {
+            "move": "endeavor",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "flame-wheel",
+          "fury-swipes",
+          "reversal",
+          "screech",
+          "swagger",
+          "uproar"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 225",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          },
+          {
+            "location": "Sea Route 226",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "reversal",
+          "screech",
+          "swagger",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 225",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Sea Route 226",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "reversal",
+          "screech",
+          "swagger",
+          "uproar"
+        ],
+        "tutor": [
+          "endeavor",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "17",
+      "flavorText": "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Bell Tower 10f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 2f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 3f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 4f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 5f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 6f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 7f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 8f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Bell Tower 9f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Burned Tower 1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Burned Tower B1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 32",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 33",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Sprout Tower 2f",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 6
+          },
+          {
+            "location": "Sprout Tower 3f",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 6
+          },
+          {
+            "location": "Tohjo Falls",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 6
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Unknown All Rattata",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "reversal",
+          "screech",
+          "swagger",
+          "uproar"
+        ],
+        "tutor": [
+          "endeavor",
+          "headbutt",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "super-fang",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "59",
+      "flavorText": "It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Castelia City",
+            "method": "Dark Grass",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Castelia City",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Castelia Sewers",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Castelia Sewers Unknown Area 38",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Relic Passage Castelia Sewers Entrance",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "covet",
+          "endeavor",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "sleep-talk",
+          "snore",
+          "super-fang",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "wild-charge"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "wild-charge"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "covet",
+          "endeavor",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "15",
+      "flavorText": "With their strong capacity for survival, they can live in dirty places without concern. Left unchecked, their numbers multiply rapidly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "assurance",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "sucker-punch",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "15",
+      "flavorText": "This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/19.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/19.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1 South",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "pursuit",
+            "level": 13
+          },
+          {
+            "move": "hyper-fang",
+            "level": 16
+          },
+          {
+            "move": "assurance",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "sucker-punch",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "me-first",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "covet",
+          "endeavor",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "19",
+      "flavorText": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "focus-energy",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "super-fang",
+            "level": 15
+          },
+          {
+            "move": "crunch",
+            "level": 18
+          },
+          {
+            "move": "hyper-fang",
+            "level": 21
+          },
+          {
+            "move": "sucker-punch",
+            "level": 24
+          },
+          {
+            "move": "double-edge",
+            "level": 27
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dig",
+          "facade",
+          "headbutt",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rest",
+          "shadow-ball",
+          "substitute",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "19",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/19.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "laser-focus",
+            "level": 13
+          },
+          {
+            "move": "take-down",
+            "level": 16
+          },
+          {
+            "move": "assurance",
+            "level": 19
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "sucker-punch",
+            "level": 25
+          },
+          {
+            "move": "super-fang",
+            "level": 28
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "endeavor",
+            "level": 34
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "grass-knot",
+          "ice-beam",
+          "iron-tail",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "work-up"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "final-gambit",
+          "flame-wheel",
+          "fury-swipes",
+          "last-resort",
+          "revenge",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

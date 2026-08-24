@@ -1,0 +1,989 @@
+{
+  "dex": 582,
+  "keyword": "vanillite",
+  "name": "Vanillite",
+  "japaneseName": {
+    "kana": "バニプッチ",
+    "romaji": "Vanipeti"
+  },
+  "type1": "Ice",
+  "type2": null,
+  "genus": "Fresh Snow Pokémon",
+  "heightM": 0.4,
+  "weightKg": 5.7,
+  "stats": {
+    "hp": 36,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 65,
+    "specialDefense": 60,
+    "speed": 44
+  },
+  "abilities": [
+    {
+      "name": "ice-body",
+      "hidden": false,
+      "effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+    },
+    {
+      "name": "snow-cloak",
+      "hidden": false,
+      "effect": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+    },
+    {
+      "name": "weak-armor",
+      "hidden": true,
+      "effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "blob",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      583
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0582.png",
+    "shiny": "sprites/shiny/0582.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/582.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/582.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "88",
+      "flavorText": "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/582.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/582.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cold Storage",
+            "method": "Dark Grass",
+            "minLevel": 24,
+            "maxLevel": 27
+          },
+          {
+            "location": "Cold Storage",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 23
+          },
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 35
+          },
+          {
+            "move": "hail",
+            "level": 40
+          },
+          {
+            "move": "mirror-coat",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "ice-shard",
+          "imprison",
+          "iron-defense",
+          "magnet-rise",
+          "natural-gift",
+          "powder-snow",
+          "water-pulse"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "255",
+      "flavorText": "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/582.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/582.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 35
+          },
+          {
+            "move": "hail",
+            "level": 40
+          },
+          {
+            "move": "mirror-coat",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "ice-shard",
+          "imprison",
+          "iron-defense",
+          "magnet-rise",
+          "natural-gift",
+          "powder-snow",
+          "water-pulse"
+        ],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M85",
+      "flavorText": "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/582.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/582.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 35
+          },
+          {
+            "move": "hail",
+            "level": 40
+          },
+          {
+            "move": "mirror-coat",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "ice-shard",
+          "imprison",
+          "iron-defense",
+          "magnet-rise",
+          "natural-gift",
+          "powder-snow",
+          "water-pulse"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/582.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/582.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 35
+          },
+          {
+            "move": "hail",
+            "level": 40
+          },
+          {
+            "move": "mirror-coat",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "ice-shard",
+          "imprison",
+          "iron-defense",
+          "magnet-rise",
+          "natural-gift",
+          "powder-snow",
+          "water-pulse"
+        ],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "snore",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "255",
+      "flavorText": "It feels pleasantly cool when embraced. This Pokémon is treasured by households in warm regions.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/582.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/582.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Tapu Village",
+            "method": "Sos Encounter",
+            "minLevel": 28,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 35
+          },
+          {
+            "move": "hail",
+            "level": 40
+          },
+          {
+            "move": "mirror-coat",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "ice-shard",
+          "imprison",
+          "iron-defense",
+          "magnet-rise",
+          "natural-gift",
+          "powder-snow",
+          "water-pulse"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "332",
+      "flavorText": "When the morning sun hit an icicle, it wished not to melt, and thus Vanillite was born. At night, it buries itself in snow to sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/582.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/582.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Base",
+            "method": "Sos Encounter",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Tapu Village",
+            "method": "Sos Encounter",
+            "minLevel": 30,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 35
+          },
+          {
+            "move": "hail",
+            "level": 40
+          },
+          {
+            "move": "mirror-coat",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "ice-shard",
+          "imprison",
+          "iron-defense",
+          "magnet-rise",
+          "natural-gift",
+          "powder-snow",
+          "water-pulse"
+        ],
+        "tutor": [
+          "ally-switch",
+          "icy-wind",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "snore",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "72",
+      "flavorText": "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 4
+          },
+          {
+            "move": "mist",
+            "level": 8
+          },
+          {
+            "move": "icy-wind",
+            "level": 12
+          },
+          {
+            "move": "avalanche",
+            "level": 16
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "icicle-spear",
+            "level": 24
+          },
+          {
+            "move": "uproar",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "mirror-coat",
+            "level": 36
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "sheer-cold",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "hail",
+          "hyper-voice",
+          "ice-beam",
+          "icicle-spear",
+          "icy-wind",
+          "imprison",
+          "iron-defense",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "self-destruct",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "taunt",
+          "uproar"
+        ],
+        "egg": [
+          "aurora-veil",
+          "autotomize",
+          "explosion",
+          "ice-shard",
+          "icicle-crash",
+          "magnet-rise"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "113",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Bleu District: Wild Zone 12 | Magenta District: Wild Zone 7",
+          "Hyperspace Lumiose (3★ Ice-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

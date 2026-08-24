@@ -1,0 +1,1422 @@
+{
+  "dex": 283,
+  "keyword": "surskit",
+  "name": "Surskit",
+  "japaneseName": {
+    "kana": "アメタマ",
+    "romaji": "Ametama"
+  },
+  "type1": "Bug",
+  "type2": "Water",
+  "genus": "Pond Skater Pokémon",
+  "heightM": 0.5,
+  "weightKg": 1.7,
+  "stats": {
+    "hp": 40,
+    "attack": 30,
+    "defense": 32,
+    "specialAttack": 50,
+    "specialDefense": 52,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "hidden": false,
+      "effect": "Doubles Speed during rain."
+    },
+    {
+      "name": "rain-dish",
+      "hidden": true,
+      "effect": "Heals for 1/16 max HP after each turn during rain."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 200,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "armor",
+    "habitat": "waters-edge",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      284
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0283.png",
+    "shiny": "sprites/shiny/0283.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/283.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/283.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "32",
+      "flavorText": "They gather on puddles after evening downpours, gliding across the surface of water as if sliding. It secretes honey with a sweet aroma from its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 102",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 102",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 111",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 114",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 114",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 117",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 117",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 120",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 120",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "psybeam"
+        ],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lake Verity After Galactic Intervention",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          },
+          {
+            "location": "Lake Verity Before Galactic Intervention",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "baton-pass",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "bug-bite",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 229",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 45
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "baton-pass",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "bug-bite",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": [
+          "icy-wind",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "baton-pass",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "bug-bite",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "icy-wind",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "baton-pass",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "endure",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "baton-pass",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "endure",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "icy-wind",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "47",
+      "flavorText": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "sweet-scent",
+            "level": 13
+          },
+          {
+            "move": "water-sport",
+            "level": 19
+          },
+          {
+            "move": "bubble-beam",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "haze",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "baton-pass",
+            "level": 43
+          },
+          {
+            "move": "sticky-web",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "endure",
+          "fell-stinger",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "power-split",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "33",
+      "flavorText": "If Surskit senses danger, it secretes a thick, sugary syrup from the tip of its head. There are some Pokémon that love eating this syrup.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 9
+          },
+          {
+            "move": "water-sport",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 17
+          },
+          {
+            "move": "agility",
+            "level": 22
+          },
+          {
+            "move": "haze",
+            "level": 25
+          },
+          {
+            "move": "mist",
+            "level": 25
+          },
+          {
+            "move": "aqua-jet",
+            "level": 30
+          },
+          {
+            "move": "baton-pass",
+            "level": 35
+          },
+          {
+            "move": "sticky-web",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "endure",
+          "fell-stinger",
+          "foresight",
+          "hydro-pump",
+          "mind-reader",
+          "mud-shot",
+          "power-split",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "icy-wind",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "139",
+      "flavorText": "When this Pokémon senses danger, a sweet fluid oozes from the tip of its head. The taste of it disgusts bird Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Surf",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Surf",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 9
+          },
+          {
+            "move": "water-sport",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 17
+          },
+          {
+            "move": "agility",
+            "level": 22
+          },
+          {
+            "move": "haze",
+            "level": 25
+          },
+          {
+            "move": "mist",
+            "level": 25
+          },
+          {
+            "move": "aqua-jet",
+            "level": 30
+          },
+          {
+            "move": "baton-pass",
+            "level": 35
+          },
+          {
+            "move": "sticky-web",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "endure",
+          "fell-stinger",
+          "foresight",
+          "hydro-pump",
+          "lunge",
+          "mind-reader",
+          "mud-shot",
+          "power-split",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "172",
+      "flavorText": "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/283.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/283.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Surf",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Surf",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 9
+          },
+          {
+            "move": "water-sport",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 17
+          },
+          {
+            "move": "agility",
+            "level": 22
+          },
+          {
+            "move": "haze",
+            "level": 25
+          },
+          {
+            "move": "mist",
+            "level": 25
+          },
+          {
+            "move": "aqua-jet",
+            "level": 30
+          },
+          {
+            "move": "baton-pass",
+            "level": 35
+          },
+          {
+            "move": "sticky-web",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "endure",
+          "fell-stinger",
+          "foresight",
+          "hydro-pump",
+          "lunge",
+          "mind-reader",
+          "mud-shot",
+          "power-split",
+          "psybeam",
+          "signal-beam"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "icy-wind",
+          "liquidation",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "283",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/283.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Lake Verity (Swarm) | Grand Underground - Fountainspring Cave, Riverbank Cave, Still-Water Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 9
+          },
+          {
+            "move": "soak",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 17
+          },
+          {
+            "move": "agility",
+            "level": 22
+          },
+          {
+            "move": "haze",
+            "level": 25
+          },
+          {
+            "move": "mist",
+            "level": 25
+          },
+          {
+            "move": "aqua-jet",
+            "level": 30
+          },
+          {
+            "move": "baton-pass",
+            "level": 35
+          },
+          {
+            "move": "sticky-web",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "giga-drain",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "water-pulse"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "fell-stinger",
+          "hydro-pump",
+          "lunge",
+          "mind-reader",
+          "mud-shot",
+          "power-split",
+          "psybeam"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P049",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/283.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Five | South Province (Area Two)<sup>Version 3.0.0+</sup> | Tera Raid Battles (1★ Surskit)",
+          "Mossfell Confluence, Oni Mountain, Paradise Barrens, Kitakami Wilds, Timeless Woods"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 9
+          },
+          {
+            "move": "soak",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 17
+          },
+          {
+            "move": "agility",
+            "level": 22
+          },
+          {
+            "move": "haze",
+            "level": 25
+          },
+          {
+            "move": "mist",
+            "level": 25
+          },
+          {
+            "move": "baton-pass",
+            "level": 35
+          },
+          {
+            "move": "sticky-web",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "agility",
+          "baton-pass",
+          "blizzard",
+          "bug-bite",
+          "bug-buzz",
+          "chilling-water",
+          "endure",
+          "facade",
+          "giga-drain",
+          "haze",
+          "helping-hand",
+          "hydro-pump",
+          "ice-beam",
+          "icy-wind",
+          "leech-life",
+          "liquidation",
+          "lunge",
+          "mud-shot",
+          "mud-slap",
+          "pounce",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "shadow-ball",
+          "skitter-smack",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-jet",
+          "bug-bite",
+          "fell-stinger",
+          "hydro-pump",
+          "lunge",
+          "mud-shot",
+          "power-split",
+          "psybeam"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "dex": 704,
+  "keyword": "goomy",
+  "name": "Goomy",
+  "japaneseName": {
+    "kana": "ヌメラ",
+    "romaji": "Numera"
+  },
+  "type1": "Dragon",
+  "type2": null,
+  "genus": "Soft Tissue Pokémon",
+  "heightM": 0.3,
+  "weightKg": 2.8,
+  "stats": {
+    "hp": 45,
+    "attack": 50,
+    "defense": 35,
+    "specialAttack": 55,
+    "specialDefense": 75,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "sap-sipper",
+      "hidden": false,
+      "effect": "Absorbs grass moves, raising Attack one stage."
+    },
+    {
+      "name": "hydration",
+      "hidden": false,
+      "effect": "Cures any major status ailment after each turn during rain."
+    },
+    {
+      "name": "gooey",
+      "hidden": true,
+      "effect": "Lowers attacking Pokémon's Speed by one stage on contact."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 40,
+    "captureRate": 45,
+    "baseFriendship": 35,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "squiggle",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      705
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0704.png",
+    "shiny": "sprites/shiny/0704.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/704.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "M19",
+      "flavorText": "It’s covered in a slimy membrane that makes any punches or kicks slide off it harmlessly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/704.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/704.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 14",
+            "method": "Rough Terrain",
+            "minLevel": 31,
+            "maxLevel": 32
+          },
+          {
+            "location": "Route 14",
+            "method": "Surf",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 9
+          },
+          {
+            "move": "bide",
+            "level": 13
+          },
+          {
+            "move": "dragon-breath",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 28
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "muddy-water",
+            "level": 38
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-armor",
+          "counter",
+          "curse",
+          "endure",
+          "iron-tail",
+          "poison-tail"
+        ],
+        "tutor": [
+          "draco-meteor"
+        ]
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It’s covered in a slimy membrane that makes any punches or kicks slide off it harmlessly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/704.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/704.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 9
+          },
+          {
+            "move": "bide",
+            "level": 13
+          },
+          {
+            "move": "dragon-breath",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 28
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "muddy-water",
+            "level": 38
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-armor",
+          "counter",
+          "curse",
+          "endure",
+          "iron-tail",
+          "poison-tail"
+        ],
+        "tutor": [
+          "draco-meteor",
+          "dragon-pulse",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "178",
+      "flavorText": "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/704.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/704.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Route 17 Northeast",
+            "method": "Sos Encounter",
+            "minLevel": 31,
+            "maxLevel": 34
+          },
+          {
+            "location": "Route 17 West",
+            "method": "Sos Encounter",
+            "minLevel": 31,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 9
+          },
+          {
+            "move": "bide",
+            "level": 13
+          },
+          {
+            "move": "dragon-breath",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 28
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "muddy-water",
+            "level": 38
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-armor",
+          "counter",
+          "curse",
+          "endure",
+          "iron-tail",
+          "poison-tail"
+        ],
+        "tutor": [
+          "draco-meteor"
+        ]
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "217",
+      "flavorText": "Its body is mostly water. If it dries out, it will die, so it’s always sitting with perfect stillness in the shade.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/704.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/704.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 17 Northeast",
+            "method": "Sos Encounter",
+            "minLevel": 33,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 17 West",
+            "method": "Sos Encounter",
+            "minLevel": 33,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 9
+          },
+          {
+            "move": "bide",
+            "level": 13
+          },
+          {
+            "move": "dragon-breath",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 28
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "muddy-water",
+            "level": 38
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-armor",
+          "counter",
+          "curse",
+          "endure",
+          "iron-tail",
+          "poison-tail"
+        ],
+        "tutor": [
+          "draco-meteor",
+          "dragon-pulse",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "389",
+      "flavorText": "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they’ve survived.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 5
+          },
+          {
+            "move": "dragon-breath",
+            "level": 10
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 20
+          },
+          {
+            "move": "water-pulse",
+            "level": 25
+          },
+          {
+            "move": "rain-dance",
+            "level": 30
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 35
+          },
+          {
+            "move": "curse",
+            "level": 41
+          },
+          {
+            "move": "body-slam",
+            "level": 45
+          },
+          {
+            "move": "muddy-water",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "iron-tail",
+          "mud-shot",
+          "muddy-water",
+          "outrage",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "thunderbolt"
+        ],
+        "egg": [
+          "counter",
+          "life-dew"
+        ],
+        "tutor": [
+          "draco-meteor",
+          "skitter-smack"
+        ]
+      }
+    },
+    "pla": {
+      "dexNumber": "115",
+      "flavorText": "Goomy hides away in the shade of trees, where it's nice and humid. If the slime coating its body dries out, the Pokémon instantly becomes lethargic.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Holm of Trials, Ursa's Ring (mass outbreaks), massive mass outbreaks | Coronet Highlands: near Ancient Quarry"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 6
+          },
+          {
+            "move": "acid-armor",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 18
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 25
+          },
+          {
+            "move": "shelter",
+            "level": 34
+          },
+          {
+            "move": "hydro-pump",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P172",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/704.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Three, Area Four, Area Five | East Province: Area Three | West Province: Area Three | North Province: Glaseado Mountain | Tera Raid Battles (3★ Goomy)",
+          "Fellhorn Gorge, Oni Mountain, Chilling Waterhead, Timeless Woods"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 5
+          },
+          {
+            "move": "dragon-breath",
+            "level": 10
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 20
+          },
+          {
+            "move": "water-pulse",
+            "level": 25
+          },
+          {
+            "move": "rain-dance",
+            "level": 30
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 35
+          },
+          {
+            "move": "curse",
+            "level": 41
+          },
+          {
+            "move": "body-slam",
+            "level": 45
+          },
+          {
+            "move": "muddy-water",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "charm",
+          "chilling-water",
+          "curse",
+          "draco-meteor",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "mud-shot",
+          "muddy-water",
+          "outrage",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "skitter-smack",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "thunderbolt",
+          "water-pulse"
+        ],
+        "egg": [
+          "counter",
+          "life-dew"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "165",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Vert Sector 1, Vert Sector 4, Vert Sector 5, Vert Sector 6, Vert Sector 8, Vert Sector 9 | Bleu District: Aymlis Park, Bleu Sector 3, Bleu Sector 5, Bleu Sector 7, Bleu Sector 9, The Sewers | Magenta District: Magenta Street | Rouge District: Rouge Sector 1, Rouge Sector 8 | Jaune District: Saison Canalside, Jaune Sector 2, Jaune Sector 10",
+          "Hyperspace Lumiose (3★ & 4★ wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,1297 @@
+{
+  "dex": 225,
+  "keyword": "delibird",
+  "name": "Delibird",
+  "japaneseName": {
+    "kana": "デリバード",
+    "romaji": "Delibird"
+  },
+  "type1": "Ice",
+  "type2": "Flying",
+  "genus": "Delivery Pokémon",
+  "heightM": 0.9,
+  "weightKg": 16.0,
+  "stats": {
+    "hp": 45,
+    "attack": 55,
+    "defense": 45,
+    "specialAttack": 65,
+    "specialDefense": 45,
+    "speed": 75
+  },
+  "abilities": [
+    {
+      "name": "vital-spirit",
+      "hidden": false,
+      "effect": "Prevents sleep."
+    },
+    {
+      "name": "hustle",
+      "hidden": false,
+      "effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+    },
+    {
+      "name": "insomnia",
+      "hidden": true,
+      "effect": "Prevents sleep."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "wings",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0225.png",
+    "shiny": "sprites/shiny/0225.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/225.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/225.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "190",
+      "flavorText": "It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ice Path 1f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          },
+          {
+            "location": "Ice Path B1f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Ice Path B2f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Ice Path B3f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "detect",
+          "double-team",
+          "endure",
+          "fly",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "icy-wind",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "future-sight",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a DELIBIRD sharing its food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "double-team",
+          "facade",
+          "fly",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aurora-beam",
+          "future-sight",
+          "ice-ball",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 216",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "fly",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aurora-beam",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 217",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "fly",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aurora-beam",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": [
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "signal-beam",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "194",
+      "flavorText": "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ice Path 1f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Ice Path B1f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Ice Path B2f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Ice Path B3f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "fly",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aurora-beam",
+          "fake-out",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": [
+          "bounce",
+          "gunk-shot",
+          "headbutt",
+          "icy-wind",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "signal-beam",
+          "sky-attack",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Walk",
+            "minLevel": 58,
+            "maxLevel": 58
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "double-team",
+          "facade",
+          "fling",
+          "fly",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bestow",
+          "fake-out",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "254",
+      "flavorText": "It carries food all day long. When someone is lost in the mountains, it shares that food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Giant Chasm Forest",
+            "method": "Dark Grass",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Giant Chasm Forest",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Dark Grass",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Dark Grass",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 22",
+            "method": "Dark Grass",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 39
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "double-team",
+          "facade",
+          "fling",
+          "fly",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bestow",
+          "fake-out",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": [
+          "bounce",
+          "gunk-shot",
+          "ice-punch",
+          "icy-wind",
+          "recycle",
+          "seed-bomb",
+          "signal-beam",
+          "sky-attack",
+          "sleep-talk"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M90",
+      "flavorText": "It carries food all day long. When someone is lost in the mountains, it shares that food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 17",
+            "method": "Rough Terrain",
+            "minLevel": 38,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "fly",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bestow",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "quick-attack",
+          "rapid-spin",
+          "spikes",
+          "splash"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Delibird carries its food bundled up in its tail. There once was a famous explorer who managed to reach the peak of the world’s highest mountain, thanks to one of these Pokémon sharing its food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "fly",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bestow",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "quick-attack",
+          "rapid-spin",
+          "spikes",
+          "splash"
+        ],
+        "tutor": [
+          "bounce",
+          "focus-punch",
+          "gunk-shot",
+          "ice-punch",
+          "icy-wind",
+          "recycle",
+          "seed-bomb",
+          "signal-beam",
+          "sky-attack",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "81",
+      "flavorText": "It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3 North",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          },
+          {
+            "move": "drill-peck",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "aurora-veil",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "fly",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bestow",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "quick-attack",
+          "rapid-spin",
+          "spikes",
+          "splash"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "95",
+      "flavorText": "It wraps food in its tail to carry it around. The Delibird with the biggest tail is the boss of the flock!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/225.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/225.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Seaward Cave",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Seaward Cave",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          },
+          {
+            "move": "drill-peck",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "aurora-veil",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "fly",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "aurora-beam",
+          "bestow",
+          "counter",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "future-sight",
+          "ice-ball",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "quick-attack",
+          "rapid-spin",
+          "spikes",
+          "splash"
+        ],
+        "tutor": [
+          "bounce",
+          "defog",
+          "focus-punch",
+          "gunk-shot",
+          "ice-punch",
+          "icy-wind",
+          "recycle",
+          "seed-bomb",
+          "signal-beam",
+          "sky-attack",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "78",
+      "flavorText": "It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          },
+          {
+            "move": "drill-peck",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "agility",
+          "assurance",
+          "attract",
+          "avalanche",
+          "baton-pass",
+          "blizzard",
+          "body-slam",
+          "bounce",
+          "brave-bird",
+          "brick-break",
+          "brutal-swing",
+          "drill-run",
+          "endure",
+          "facade",
+          "fling",
+          "fly",
+          "future-sight",
+          "gunk-shot",
+          "hail",
+          "helping-hand",
+          "ice-beam",
+          "ice-punch",
+          "icicle-spear",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "spikes",
+          "steel-wing",
+          "substitute",
+          "swift",
+          "thief",
+          "weather-ball"
+        ],
+        "egg": [
+          "aurora-beam",
+          "aurora-veil",
+          "counter",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "ice-shard",
+          "memento",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": [
+          "dual-wingbeat",
+          "triple-axel"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "225",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/225.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 216 (Sinnoh) (Swarm) | Grand Underground - Whiteout Cave, Icy Cave, Glacial Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          },
+          {
+            "move": "drill-peck",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "fly",
+          "focus-punch",
+          "hail",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "swagger",
+          "thief",
+          "water-pulse"
+        ],
+        "egg": [
+          "aurora-beam",
+          "aurora-veil",
+          "counter",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "future-sight",
+          "ice-punch",
+          "ice-shard",
+          "icy-wind",
+          "memento",
+          "quick-attack",
+          "rapid-spin",
+          "spikes",
+          "splash"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P354",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/225.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: Glaseado Mountain | Tera Raid Battles (5★ Delibird)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "present",
+            "level": 1
+          },
+          {
+            "move": "drill-peck",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "agility",
+          "air-cutter",
+          "air-slash",
+          "avalanche",
+          "baton-pass",
+          "blizzard",
+          "body-slam",
+          "brave-bird",
+          "brick-break",
+          "chilling-water",
+          "drill-run",
+          "dual-wingbeat",
+          "endeavor",
+          "endure",
+          "facade",
+          "feather-dance",
+          "fling",
+          "fly",
+          "focus-punch",
+          "foul-play",
+          "giga-impact",
+          "gunk-shot",
+          "haze",
+          "helping-hand",
+          "hyper-beam",
+          "ice-beam",
+          "ice-punch",
+          "ice-spinner",
+          "icicle-spear",
+          "icy-wind",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "seed-bomb",
+          "sleep-talk",
+          "snowscape",
+          "spikes",
+          "substitute",
+          "swift",
+          "tailwind",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "trailblaze",
+          "triple-axel",
+          "water-pulse",
+          "weather-ball"
+        ],
+        "egg": [
+          "aurora-beam",
+          "aurora-veil",
+          "counter",
+          "destiny-bond",
+          "fake-out",
+          "freeze-dry",
+          "ice-shard",
+          "memento",
+          "quick-attack",
+          "rapid-spin",
+          "splash"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "168",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Bleu District: Aymlis Park, Wild Zone 12 | Centrico Plaza: Wild Zone 20",
+          "Hyperspace Lumiose (3★ Ice-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

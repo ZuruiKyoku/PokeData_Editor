@@ -1,0 +1,1001 @@
+{
+  "dex": 366,
+  "keyword": "clamperl",
+  "name": "Clamperl",
+  "japaneseName": {
+    "kana": "パールル",
+    "romaji": "Pearlulu"
+  },
+  "type1": "Water",
+  "type2": null,
+  "genus": "Bivalve Pokémon",
+  "heightM": 0.4,
+  "weightKg": 52.5,
+  "stats": {
+    "hp": 35,
+    "attack": 64,
+    "defense": 85,
+    "specialAttack": 74,
+    "specialDefense": 55,
+    "speed": 32
+  },
+  "abilities": [
+    {
+      "name": "shell-armor",
+      "hidden": false,
+      "effect": "Protects against critical hits."
+    },
+    {
+      "name": "rattled",
+      "hidden": true,
+      "effect": "Raises Speed one stage upon being hit by a dark, ghost, or bug move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "slow-then-very-fast"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "ball",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      367,
+      368
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0366.png",
+    "shiny": "sprites/shiny/0366.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/366.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/366.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "176",
+      "flavorText": "A CLAMPERL slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 124 Underwater",
+            "method": "Seaweed",
+            "minLevel": 20,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 126 Underwater",
+            "method": "Seaweed",
+            "minLevel": 20,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "surf",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "barrier",
+          "body-slam",
+          "confuse-ray",
+          "mud-sport",
+          "refresh",
+          "supersonic"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 219",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 221",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "confuse-ray",
+          "mud-sport",
+          "refresh",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "confuse-ray",
+          "mud-sport",
+          "refresh",
+          "supersonic"
+        ],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "iron-defense",
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it’s held.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Sea Route 19",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "confuse-ray",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic"
+        ],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "iron-defense",
+          "snore"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "brine",
+          "confuse-ray",
+          "endure",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic",
+          "water-pulse"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "brine",
+          "confuse-ray",
+          "endure",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic",
+          "water-pulse"
+        ],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C141",
+      "flavorText": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "brine",
+          "confuse-ray",
+          "endure",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic",
+          "water-pulse"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "185",
+      "flavorText": "Clamperl grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this Pokémon is getting close to evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "brine",
+          "confuse-ray",
+          "endure",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic",
+          "water-pulse"
+        ],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "brine",
+          "confuse-ray",
+          "endure",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic",
+          "water-pulse"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "140",
+      "flavorText": "Clamperl’s pearls are exceedingly precious. They can be more than 10 times as costly as Shellder’s pearls.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/366.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/366.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 15 Main",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 15 Main",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "barrier",
+          "body-slam",
+          "brine",
+          "confuse-ray",
+          "endure",
+          "mud-sport",
+          "muddy-water",
+          "refresh",
+          "supersonic",
+          "water-pulse"
+        ],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "366",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/366.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and (Super Rod) | Grand Underground - Fountainspring Cave, Riverbank Cave, Still-Water Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "facade",
+          "hail",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-ring",
+          "body-slam",
+          "confuse-ray",
+          "muddy-water",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,1128 @@
+{
+  "dex": 595,
+  "keyword": "joltik",
+  "name": "Joltik",
+  "japaneseName": {
+    "kana": "バチュル",
+    "romaji": "Bachuru"
+  },
+  "type1": "Bug",
+  "type2": "Electric",
+  "genus": "Attaching Pokémon",
+  "heightM": 0.1,
+  "weightKg": 0.6,
+  "stats": {
+    "hp": 50,
+    "attack": 47,
+    "defense": 50,
+    "specialAttack": 57,
+    "specialDefense": 50,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "compound-eyes",
+      "hidden": false,
+      "effect": "Increases moves' accuracy to 1.3×."
+    },
+    {
+      "name": "unnerve",
+      "hidden": false,
+      "effect": "Prevents opposing Pokémon from eating held Berries."
+    },
+    {
+      "name": "swarm",
+      "hidden": true,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "armor",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      596
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0595.png",
+    "shiny": "sprites/shiny/0595.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/595.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/595.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "101",
+      "flavorText": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/595.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/595.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Chargestone Cave 1f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 27
+          },
+          {
+            "location": "Chargestone Cave B1f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 27
+          },
+          {
+            "location": "Chargestone Cave B2f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "spider-web",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-cutter",
+            "level": 12
+          },
+          {
+            "move": "electroweb",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 18
+          },
+          {
+            "move": "gastro-acid",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "cross-poison",
+          "disable",
+          "feint-attack",
+          "pin-missile",
+          "poison-sting",
+          "pursuit",
+          "rock-climb"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "173",
+      "flavorText": "Since it can’t generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/595.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/595.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Chargestone Cave 1f",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 28
+          },
+          {
+            "location": "Chargestone Cave B1f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 31
+          },
+          {
+            "location": "Chargestone Cave B2f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "spider-web",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-cutter",
+            "level": 12
+          },
+          {
+            "move": "electroweb",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 18
+          },
+          {
+            "move": "gastro-acid",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "cross-poison",
+          "disable",
+          "feint-attack",
+          "pin-missile",
+          "poison-sting",
+          "pursuit",
+          "rock-climb"
+        ],
+        "tutor": [
+          "bounce",
+          "bug-bite",
+          "electroweb",
+          "gastro-acid",
+          "giga-drain",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/595.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/595.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "spider-web",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-cutter",
+            "level": 12
+          },
+          {
+            "move": "electroweb",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 18
+          },
+          {
+            "move": "gastro-acid",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "camouflage",
+          "cross-poison",
+          "disable",
+          "feint-attack",
+          "pin-missile",
+          "poison-sting",
+          "pursuit",
+          "rock-climb"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/595.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/595.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "spider-web",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-cutter",
+            "level": 12
+          },
+          {
+            "move": "electroweb",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 18
+          },
+          {
+            "move": "gastro-acid",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "camouflage",
+          "cross-poison",
+          "disable",
+          "feint-attack",
+          "pin-missile",
+          "poison-sting",
+          "pursuit",
+          "rock-climb"
+        ],
+        "tutor": [
+          "bounce",
+          "bug-bite",
+          "electroweb",
+          "gastro-acid",
+          "giga-drain",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/595.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/595.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "spider-web",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-cutter",
+            "level": 12
+          },
+          {
+            "move": "electroweb",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 18
+          },
+          {
+            "move": "gastro-acid",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "camouflage",
+          "cross-poison",
+          "disable",
+          "feint-attack",
+          "pin-missile",
+          "poison-sting",
+          "pursuit",
+          "rock-climb"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/595.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/595.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "spider-web",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-cutter",
+            "level": 12
+          },
+          {
+            "move": "electroweb",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 18
+          },
+          {
+            "move": "gastro-acid",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "camouflage",
+          "cross-poison",
+          "disable",
+          "feint-attack",
+          "lunge",
+          "pin-missile",
+          "poison-sting",
+          "pursuit",
+          "rock-climb"
+        ],
+        "tutor": [
+          "bounce",
+          "bug-bite",
+          "electroweb",
+          "gastro-acid",
+          "giga-drain",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "64",
+      "flavorText": "Joltik latch on to other Pokémon and suck out static electricity. They’re often found sticking to Yamper’s hindquarters.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fury-cutter",
+            "level": 1
+          },
+          {
+            "move": "electroweb",
+            "level": 4
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "string-shot",
+            "level": 12
+          },
+          {
+            "move": "thunder-wave",
+            "level": 16
+          },
+          {
+            "move": "electro-ball",
+            "level": 20
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "sucker-punch",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "bounce",
+          "bug-buzz",
+          "cross-poison",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "leech-life",
+          "light-screen",
+          "pin-missile",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "speed-swap",
+          "substitute",
+          "swift",
+          "thief",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "double-team",
+          "infestation",
+          "lunge",
+          "poison-sting",
+          "struggle-bug"
+        ],
+        "tutor": [
+          "rising-voltage",
+          "skitter-smack"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "B132",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/595.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Canyon Biome, Chargestone Cavern, Polar Biome | Tera Raid Battles (1★ Joltik)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fury-cutter",
+            "level": 1
+          },
+          {
+            "move": "electroweb",
+            "level": 4
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "string-shot",
+            "level": 12
+          },
+          {
+            "move": "thunder-wave",
+            "level": 16
+          },
+          {
+            "move": "electro-ball",
+            "level": 20
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "sucker-punch",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "agility",
+          "bug-bite",
+          "bug-buzz",
+          "charge-beam",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "helping-hand",
+          "leech-life",
+          "light-screen",
+          "lunge",
+          "poison-jab",
+          "pounce",
+          "protect",
+          "rain-dance",
+          "rest",
+          "skitter-smack",
+          "sleep-talk",
+          "struggle-bug",
+          "substitute",
+          "swift",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge",
+          "x-scissor"
+        ],
+        "egg": [
+          "double-team",
+          "infestation",
+          "lunge",
+          "poison-sting",
+          "struggle-bug"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

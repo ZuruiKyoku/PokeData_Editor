@@ -1,0 +1,1143 @@
+{
+  "dex": 590,
+  "keyword": "foongus",
+  "name": "Foongus",
+  "japaneseName": {
+    "kana": "タマゲタケ",
+    "romaji": "Tamagetake"
+  },
+  "type1": "Grass",
+  "type2": "Poison",
+  "genus": "Mushroom Pokémon",
+  "heightM": 0.2,
+  "weightKg": 1.0,
+  "stats": {
+    "hp": 69,
+    "attack": 55,
+    "defense": 45,
+    "specialAttack": 55,
+    "specialDefense": 55,
+    "speed": 15
+  },
+  "abilities": [
+    {
+      "name": "effect-spore",
+      "hidden": false,
+      "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+    },
+    {
+      "name": "regenerator",
+      "hidden": true,
+      "effect": "Heals for 1/3 max HP upon switching out."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "arms",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      591
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0590.png",
+    "shiny": "sprites/shiny/0590.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/590.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/590.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "96",
+      "flavorText": "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/590.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/590.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 10",
+            "method": "Only One",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 10 Victory Road Gate",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 6",
+            "method": "Only One",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 7",
+            "method": "Dark Grass",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bide",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "clear-smog",
+            "level": 39
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "body-slam",
+          "defense-curl",
+          "endure",
+          "gastro-acid",
+          "growth",
+          "poison-powder",
+          "rollout",
+          "stun-spore"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "161",
+      "flavorText": "It lures Pokémon with its pattern that looks just like a Poké Ball then releases poison spores.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/590.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/590.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 6",
+            "method": "Only One",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 7",
+            "method": "Dark Grass",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 7",
+            "method": "Only One",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bide",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "clear-smog",
+            "level": 39
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "body-slam",
+          "defense-curl",
+          "endure",
+          "gastro-acid",
+          "growth",
+          "poison-powder",
+          "rollout",
+          "stun-spore"
+        ],
+        "tutor": [
+          "after-you",
+          "foul-play",
+          "gastro-acid",
+          "giga-drain",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M53",
+      "flavorText": "It lures Pokémon with its pattern that looks just like a Poké Ball, then releases poison spores.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/590.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/590.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 15",
+            "method": "Red Flowers",
+            "minLevel": 34,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 16",
+            "method": "Rough Terrain",
+            "minLevel": 34,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 16",
+            "method": "Yellow Flowers",
+            "minLevel": 34,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bide",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "clear-smog",
+            "level": 39
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "body-slam",
+          "defense-curl",
+          "endure",
+          "gastro-acid",
+          "growth",
+          "poison-powder",
+          "rollout",
+          "stun-spore"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It lures Pokémon with its pattern that looks just like a Poké Ball, then releases poison spores.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/590.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/590.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bide",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "clear-smog",
+            "level": 39
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "body-slam",
+          "defense-curl",
+          "endure",
+          "gastro-acid",
+          "growth",
+          "poison-powder",
+          "rollout",
+          "stun-spore"
+        ],
+        "tutor": [
+          "after-you",
+          "foul-play",
+          "gastro-acid",
+          "giga-drain",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/590.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/590.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bide",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "clear-smog",
+            "level": 39
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "body-slam",
+          "defense-curl",
+          "endure",
+          "gastro-acid",
+          "growth",
+          "poison-powder",
+          "rollout",
+          "stun-spore"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/590.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/590.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "bide",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "synthesis",
+            "level": 35
+          },
+          {
+            "move": "clear-smog",
+            "level": 39
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "body-slam",
+          "defense-curl",
+          "endure",
+          "gastro-acid",
+          "growth",
+          "poison-powder",
+          "rollout",
+          "stun-spore"
+        ],
+        "tutor": [
+          "after-you",
+          "foul-play",
+          "gastro-acid",
+          "giga-drain",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A077",
+      "flavorText": "The spores released from this Pokémon’s hands are highly poisonous, but when thoroughly dried, the spores can be used as stomach medicine.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "synthesis",
+            "level": 16
+          },
+          {
+            "move": "clear-smog",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "ingrain",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "rage-powder",
+            "level": 40
+          },
+          {
+            "move": "solar-beam",
+            "level": 44
+          },
+          {
+            "move": "spore",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "endure",
+          "energy-ball",
+          "facade",
+          "foul-play",
+          "giga-drain",
+          "grass-knot",
+          "payback",
+          "pollen-puff",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "venoshock"
+        ],
+        "egg": [
+          "defense-curl",
+          "poison-powder",
+          "rollout",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P205",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/590.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Tagtree Thicket | West Province: Area Three | North Province: Area Two | Tera Raid Battles (2★ Foongus)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "synthesis",
+            "level": 16
+          },
+          {
+            "move": "clear-smog",
+            "level": 20
+          },
+          {
+            "move": "sweet-scent",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "ingrain",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "rage-powder",
+            "level": 40
+          },
+          {
+            "move": "solar-beam",
+            "level": 44
+          },
+          {
+            "move": "spore",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "bullet-seed",
+          "endure",
+          "energy-ball",
+          "facade",
+          "foul-play",
+          "giga-drain",
+          "grass-knot",
+          "grassy-terrain",
+          "leaf-storm",
+          "magical-leaf",
+          "pollen-puff",
+          "protect",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "tera-blast",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "defense-curl",
+          "poison-powder",
+          "rollout",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H111",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

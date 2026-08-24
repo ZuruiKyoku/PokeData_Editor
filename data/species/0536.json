@@ -1,0 +1,948 @@
+{
+  "dex": 536,
+  "keyword": "palpitoad",
+  "name": "Palpitoad",
+  "japaneseName": {
+    "kana": "ガマガル",
+    "romaji": "Gamagaru"
+  },
+  "type1": "Water",
+  "type2": "Ground",
+  "genus": "Vibration Pokémon",
+  "heightM": 0.8,
+  "weightKg": 17.0,
+  "stats": {
+    "hp": 75,
+    "attack": 65,
+    "defense": 55,
+    "specialAttack": 65,
+    "specialDefense": 55,
+    "speed": 69
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "hidden": false,
+      "effect": "Doubles Speed during rain."
+    },
+    {
+      "name": "hydration",
+      "hidden": false,
+      "effect": "Cures any major status ailment after each turn during rain."
+    },
+    {
+      "name": "water-absorb",
+      "hidden": true,
+      "effect": "Absorbs water moves, healing for 1/4 max HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "upright",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 535,
+    "evolvesIntoDex": [
+      537
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0536.png",
+    "shiny": "sprites/shiny/0536.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/536.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/536.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "42",
+      "flavorText": "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/536.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/536.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Icirrus City",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Moor Of Icirrus",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "round",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "round",
+            "level": 9
+          },
+          {
+            "move": "bubble-beam",
+            "level": 12
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 20
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "echoed-voice",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "hyper-voice",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "229",
+      "flavorText": "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/536.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/536.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Icirrus City",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Moor Of Icirrus",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Pinwheel Forest Outside",
+            "method": "Dark Grass",
+            "minLevel": 64,
+            "maxLevel": 65
+          },
+          {
+            "location": "Pinwheel Forest Outside",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 8",
+            "method": "Surf",
+            "minLevel": 45,
+            "maxLevel": 60
+          },
+          {
+            "location": "Route 8",
+            "method": "Surf Spots",
+            "minLevel": 45,
+            "maxLevel": 60
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "round",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "round",
+            "level": 9
+          },
+          {
+            "move": "bubble-beam",
+            "level": 12
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 20
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "echoed-voice",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "hyper-voice",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "gastro-acid",
+          "hyper-voice",
+          "icy-wind",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/536.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/536.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "round",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "round",
+            "level": 9
+          },
+          {
+            "move": "bubble-beam",
+            "level": 12
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 20
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "echoed-voice",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "hyper-voice",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/536.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/536.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "round",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "round",
+            "level": 9
+          },
+          {
+            "move": "bubble-beam",
+            "level": 12
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 20
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "echoed-voice",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "hyper-voice",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "focus-punch",
+          "gastro-acid",
+          "hyper-voice",
+          "icy-wind",
+          "snore",
+          "stealth-rock",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/536.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/536.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "round",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "round",
+            "level": 9
+          },
+          {
+            "move": "bubble-beam",
+            "level": 12
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 20
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "echoed-voice",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "hyper-voice",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/536.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/536.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "round",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "round",
+            "level": 9
+          },
+          {
+            "move": "bubble-beam",
+            "level": 12
+          },
+          {
+            "move": "mud-shot",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 20
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "muddy-water",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "echoed-voice",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "hyper-voice",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "focus-punch",
+          "gastro-acid",
+          "hyper-voice",
+          "icy-wind",
+          "snore",
+          "stealth-rock",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "133",
+      "flavorText": "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "echoed-voice",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "mud-shot",
+            "level": 12
+          },
+          {
+            "move": "round",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 20
+          },
+          {
+            "move": "flail",
+            "level": 24
+          },
+          {
+            "move": "uproar",
+            "level": 30
+          },
+          {
+            "move": "aqua-ring",
+            "level": 37
+          },
+          {
+            "move": "hyper-voice",
+            "level": 42
+          },
+          {
+            "move": "muddy-water",
+            "level": 48
+          },
+          {
+            "move": "rain-dance",
+            "level": 54
+          },
+          {
+            "move": "hydro-pump",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "bounce",
+          "bulldoze",
+          "earth-power",
+          "endure",
+          "facade",
+          "hail",
+          "hydro-pump",
+          "hyper-voice",
+          "icy-wind",
+          "mud-shot",
+          "muddy-water",
+          "power-whip",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scald",
+          "screech",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "stealth-rock",
+          "substitute",
+          "surf",
+          "uproar",
+          "venom-drench",
+          "weather-ball"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,2267 @@
+{
+  "dex": 58,
+  "keyword": "growlithe",
+  "name": "Growlithe",
+  "japaneseName": {
+    "kana": "ガーディ",
+    "romaji": "Gardie"
+  },
+  "type1": "Fire",
+  "type2": null,
+  "genus": "Puppy Pokémon",
+  "heightM": 0.7,
+  "weightKg": 19.0,
+  "stats": {
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "specialAttack": 70,
+    "specialDefense": 50,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "intimidate",
+      "hidden": false,
+      "effect": "Lowers opponents' Attack one stage upon entering battle."
+    },
+    {
+      "name": "flash-fire",
+      "hidden": false,
+      "effect": "Protects against fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+    },
+    {
+      "name": "justified",
+      "hidden": true,
+      "effect": "Raises Attack one stage upon taking damage from a dark move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 2,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      59
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0058.png",
+    "shiny": "sprites/shiny/0058.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/58.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/58.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "58",
+      "flavorText": "It is very protective of its territory. It will bark and bite to repel intruders from its space.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/58.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pokemon Mansion 1f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 38
+          },
+          {
+            "location": "Pokemon Mansion 2f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 32
+          },
+          {
+            "location": "Pokemon Mansion 3f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Pokemon Mansion B1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "ember",
+            "level": 18
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 19
+          },
+          {
+            "move": "leer",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "take-down",
+            "level": 30
+          },
+          {
+            "move": "flame-wheel",
+            "level": 31
+          },
+          {
+            "move": "helping-hand",
+            "level": 37
+          },
+          {
+            "move": "agility",
+            "level": 39
+          },
+          {
+            "move": "agility",
+            "level": 43
+          },
+          {
+            "move": "flamethrower",
+            "level": 49
+          },
+          {
+            "move": "flamethrower",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "dig",
+          "double-edge",
+          "double-team",
+          "dragon-rage",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "mimic",
+          "overheat",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "skull-bash",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "body-slam",
+          "crunch",
+          "fire-spin",
+          "heat-wave",
+          "howl",
+          "safeguard",
+          "thrash"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "127",
+      "flavorText": "It controls a big territory. If it detects an unknown smell, it roars loudly to force out the intruder.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 9
+          },
+          {
+            "move": "leer",
+            "level": 18
+          },
+          {
+            "move": "take-down",
+            "level": 26
+          },
+          {
+            "move": "flame-wheel",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 42
+          },
+          {
+            "move": "flamethrower",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "dig",
+          "double-team",
+          "dragon-breath",
+          "endure",
+          "fire-blast",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "toxic"
+        ],
+        "egg": [
+          "body-slam",
+          "crunch",
+          "fire-spin",
+          "safeguard",
+          "thrash"
+        ],
+        "tutor": [
+          "flamethrower"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its superb sense of smell ensures that this POKéMON won’t forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 19
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "flame-wheel",
+            "level": 31
+          },
+          {
+            "move": "helping-hand",
+            "level": 37
+          },
+          {
+            "move": "agility",
+            "level": 43
+          },
+          {
+            "move": "flamethrower",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "body-slam",
+          "crunch",
+          "fire-spin",
+          "heat-wave",
+          "howl",
+          "safeguard",
+          "thrash"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 201",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          },
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 14
+          },
+          {
+            "move": "helping-hand",
+            "level": 17
+          },
+          {
+            "move": "flame-wheel",
+            "level": 20
+          },
+          {
+            "move": "reversal",
+            "level": 25
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 39
+          },
+          {
+            "move": "crunch",
+            "level": 42
+          },
+          {
+            "move": "heat-wave",
+            "level": 45
+          },
+          {
+            "move": "flare-blitz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "crunch",
+          "double-edge",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "safeguard",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 201",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          },
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 14
+          },
+          {
+            "move": "helping-hand",
+            "level": 17
+          },
+          {
+            "move": "flame-wheel",
+            "level": 20
+          },
+          {
+            "move": "reversal",
+            "level": 25
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 39
+          },
+          {
+            "move": "crunch",
+            "level": 42
+          },
+          {
+            "move": "heat-wave",
+            "level": 45
+          },
+          {
+            "move": "flare-blitz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "crunch",
+          "double-edge",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "safeguard",
+          "thrash"
+        ],
+        "tutor": [
+          "heat-wave",
+          "helping-hand",
+          "mud-slap",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "129",
+      "flavorText": "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 48",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 14
+          },
+          {
+            "move": "helping-hand",
+            "level": 17
+          },
+          {
+            "move": "flame-wheel",
+            "level": 20
+          },
+          {
+            "move": "reversal",
+            "level": 25
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 39
+          },
+          {
+            "move": "crunch",
+            "level": 42
+          },
+          {
+            "move": "heat-wave",
+            "level": 45
+          },
+          {
+            "move": "flare-blitz",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "crunch",
+          "double-edge",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "morning-sun",
+          "safeguard",
+          "thrash"
+        ],
+        "tutor": [
+          "headbutt",
+          "heat-wave",
+          "helping-hand",
+          "mud-slap",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 14
+          },
+          {
+            "move": "helping-hand",
+            "level": 17
+          },
+          {
+            "move": "flame-wheel",
+            "level": 20
+          },
+          {
+            "move": "reversal",
+            "level": 25
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 31
+          },
+          {
+            "move": "take-down",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 39
+          },
+          {
+            "move": "agility",
+            "level": 42
+          },
+          {
+            "move": "crunch",
+            "level": 45
+          },
+          {
+            "move": "retaliate",
+            "level": 48
+          },
+          {
+            "move": "heat-wave",
+            "level": 51
+          },
+          {
+            "move": "flare-blitz",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "iron-tail",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "51",
+      "flavorText": "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Virbank Complex Inner",
+            "method": "Dark Grass",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Virbank Complex Inner",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "helping-hand",
+            "level": 12
+          },
+          {
+            "move": "flame-wheel",
+            "level": 17
+          },
+          {
+            "move": "reversal",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 23
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 30
+          },
+          {
+            "move": "retaliate",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "heat-wave",
+            "level": 41
+          },
+          {
+            "move": "outrage",
+            "level": 43
+          },
+          {
+            "move": "flare-blitz",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "iron-tail",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": [
+          "covet",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "outrage",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "helping-hand",
+            "level": 12
+          },
+          {
+            "move": "flame-wheel",
+            "level": 17
+          },
+          {
+            "move": "reversal",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 23
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 30
+          },
+          {
+            "move": "retaliate",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "heat-wave",
+            "level": 41
+          },
+          {
+            "move": "outrage",
+            "level": 43
+          },
+          {
+            "move": "flare-blitz",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "iron-tail",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won’t forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "helping-hand",
+            "level": 12
+          },
+          {
+            "move": "flame-wheel",
+            "level": 17
+          },
+          {
+            "move": "reversal",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 23
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 30
+          },
+          {
+            "move": "retaliate",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "heat-wave",
+            "level": 41
+          },
+          {
+            "move": "outrage",
+            "level": 43
+          },
+          {
+            "move": "flare-blitz",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "iron-tail",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": [
+          "covet",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "outrage",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "52",
+      "flavorText": "It looks cute, but when you approach another Trainer’s Growlithe, it will bark at you and bite.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2 North",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "helping-hand",
+            "level": 12
+          },
+          {
+            "move": "flame-wheel",
+            "level": 17
+          },
+          {
+            "move": "reversal",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 23
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 30
+          },
+          {
+            "move": "retaliate",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "heat-wave",
+            "level": 41
+          },
+          {
+            "move": "outrage",
+            "level": 43
+          },
+          {
+            "move": "flare-blitz",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "burn-up",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "iron-tail",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "64",
+      "flavorText": "It has lived alongside humans since ages ago. Its bones have been found in excavations of ruins from the Stone Age.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/58.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/58.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2 North",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 6
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 10
+          },
+          {
+            "move": "helping-hand",
+            "level": 12
+          },
+          {
+            "move": "flame-wheel",
+            "level": 17
+          },
+          {
+            "move": "reversal",
+            "level": 19
+          },
+          {
+            "move": "fire-fang",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 23
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 30
+          },
+          {
+            "move": "retaliate",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "heat-wave",
+            "level": 41
+          },
+          {
+            "move": "outrage",
+            "level": 43
+          },
+          {
+            "move": "flare-blitz",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "burn-up",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "iron-tail",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": [
+          "covet",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "outrage",
+          "snore"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "58",
+      "flavorText": "A Pokémon with a friendly nature. However, it will bark fiercely at anything invading its territory.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "roar",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 3
+          },
+          {
+            "move": "leer",
+            "level": 7
+          },
+          {
+            "move": "helping-hand",
+            "level": 10
+          },
+          {
+            "move": "take-down",
+            "level": 14
+          },
+          {
+            "move": "flamethrower",
+            "level": 17
+          },
+          {
+            "move": "agility",
+            "level": 21
+          },
+          {
+            "move": "heat-wave",
+            "level": 24
+          },
+          {
+            "move": "crunch",
+            "level": 28
+          },
+          {
+            "move": "outrage",
+            "level": 31
+          },
+          {
+            "move": "play-rough",
+            "level": 35
+          },
+          {
+            "move": "flare-blitz",
+            "level": 38
+          }
+        ],
+        "machine": [
+          "dig",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "iron-tail",
+          "outrage",
+          "play-rough",
+          "protect",
+          "reflect",
+          "rest",
+          "substitute",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "70",
+      "flavorText": "Extremely loyal, it will fearlessly bark at any opponent to protect its own Trainer from harm.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "flame-wheel",
+            "level": 12
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 24
+          },
+          {
+            "move": "retaliate",
+            "level": 28
+          },
+          {
+            "move": "crunch",
+            "level": 32
+          },
+          {
+            "move": "take-down",
+            "level": 36
+          },
+          {
+            "move": "flamethrower",
+            "level": 40
+          },
+          {
+            "move": "roar",
+            "level": 44
+          },
+          {
+            "move": "play-rough",
+            "level": 48
+          },
+          {
+            "move": "reversal",
+            "level": 52
+          },
+          {
+            "move": "flare-blitz",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "body-slam",
+          "close-combat",
+          "crunch",
+          "dig",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "fire-spin",
+          "flamethrower",
+          "flare-blitz",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "outrage",
+          "overheat",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rest",
+          "retaliate",
+          "reversal",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "thief",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "covet",
+          "double-edge",
+          "double-kick",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "58",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/58.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Spacious Cave, Volcanic Cave, Sandsear Cave, Typhlo Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "flame-wheel",
+            "level": 12
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 24
+          },
+          {
+            "move": "retaliate",
+            "level": 28
+          },
+          {
+            "move": "crunch",
+            "level": 32
+          },
+          {
+            "move": "take-down",
+            "level": 36
+          },
+          {
+            "move": "flamethrower",
+            "level": 40
+          },
+          {
+            "move": "roar",
+            "level": 44
+          },
+          {
+            "move": "play-rough",
+            "level": 48
+          },
+          {
+            "move": "reversal",
+            "level": 52
+          },
+          {
+            "move": "flare-blitz",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "body-slam",
+          "burn-up",
+          "close-combat",
+          "covet",
+          "crunch",
+          "double-edge",
+          "double-kick",
+          "fire-spin",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "morning-sun",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": null,
+      "flavorText": "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: Windbreak Stand, Veilstone Cape, massive mass outbreaks (Hisuian Form) | Unobtainable (Kantonian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P213",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/58.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Three (Kantonian Form) | East Province: Area Three (Kantonian Form) | North Province: Area Two (Kantonian Form) | East Province: Area Two ( Type) (Kantonian Form) | Tera Raid Battles (2★ Growlithe) (Kantonian Form) | (Hisuian Form)",
+          "Apple Hills, Reveler's Road, Mossfell Confluence, Oni Mountain, Oni's Maw, Infernal Pass, Crystal Pool, Paradise Barrens, Kitakami Wilds, Timeless Woods (Kantonian Form) | Gift from Perrin (Hisuian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "flame-wheel",
+            "level": 12
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 24
+          },
+          {
+            "move": "retaliate",
+            "level": 28
+          },
+          {
+            "move": "crunch",
+            "level": 32
+          },
+          {
+            "move": "take-down",
+            "level": 36
+          },
+          {
+            "move": "flamethrower",
+            "level": 40
+          },
+          {
+            "move": "roar",
+            "level": 44
+          },
+          {
+            "move": "play-rough",
+            "level": 48
+          },
+          {
+            "move": "reversal",
+            "level": 52
+          },
+          {
+            "move": "flare-blitz",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "agility",
+          "body-slam",
+          "charm",
+          "close-combat",
+          "crunch",
+          "curse",
+          "dig",
+          "double-edge",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "fire-spin",
+          "flame-charge",
+          "flamethrower",
+          "flare-blitz",
+          "heat-wave",
+          "helping-hand",
+          "outrage",
+          "overheat",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rest",
+          "reversal",
+          "roar",
+          "scary-face",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "temper-flare",
+          "tera-blast",
+          "thief",
+          "thunder-fang",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "covet",
+          "double-edge",
+          "double-kick",
+          "morning-sun",
+          "raging-fury",
+          "thrash"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

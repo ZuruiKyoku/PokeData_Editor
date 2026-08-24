@@ -1,0 +1,942 @@
+{
+  "dex": 691,
+  "keyword": "dragalge",
+  "name": "Dragalge",
+  "japaneseName": {
+    "kana": "ドラミドロ",
+    "romaji": "Dramidoro"
+  },
+  "type1": "Poison",
+  "type2": "Dragon",
+  "genus": "Mock Kelp Pokémon",
+  "heightM": 1.8,
+  "weightKg": 81.5,
+  "stats": {
+    "hp": 65,
+    "attack": 75,
+    "defense": 90,
+    "specialAttack": 97,
+    "specialDefense": 123,
+    "speed": 44
+  },
+  "abilities": [
+    {
+      "name": "poison-point",
+      "hidden": false,
+      "effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+    },
+    {
+      "name": "poison-touch",
+      "hidden": false,
+      "effect": "Has a 30% chance of poisoning target Pokémon upon contact."
+    },
+    {
+      "name": "adaptability",
+      "hidden": true,
+      "effect": "Increases the same-type attack bonus from 1.5× to 2×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 55,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "blob",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 690,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0691.png",
+    "shiny": "sprites/shiny/0691.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/691.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "C31",
+      "flavorText": "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/691.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/691.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ambrette Town",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Cyllage City",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 8",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "dragon-tail",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 5
+          },
+          {
+            "move": "tail-whip",
+            "level": 9
+          },
+          {
+            "move": "bubble",
+            "level": 12
+          },
+          {
+            "move": "acid",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "poison-tail",
+            "level": 23
+          },
+          {
+            "move": "water-pulse",
+            "level": 25
+          },
+          {
+            "move": "double-team",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 35
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 53
+          },
+          {
+            "move": "dragon-tail",
+            "level": 59
+          },
+          {
+            "move": "twister",
+            "level": 67
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "facade",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "draco-meteor"
+        ]
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/691.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/691.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "dragon-tail",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 5
+          },
+          {
+            "move": "tail-whip",
+            "level": 9
+          },
+          {
+            "move": "bubble",
+            "level": 12
+          },
+          {
+            "move": "acid",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "poison-tail",
+            "level": 23
+          },
+          {
+            "move": "water-pulse",
+            "level": 25
+          },
+          {
+            "move": "double-team",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 35
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 53
+          },
+          {
+            "move": "dragon-tail",
+            "level": 59
+          },
+          {
+            "move": "twister",
+            "level": 67
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dive",
+          "double-team",
+          "dragon-tail",
+          "facade",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "draco-meteor",
+          "dragon-pulse",
+          "gunk-shot",
+          "icy-wind",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/691.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/691.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "twister",
+            "level": 0
+          },
+          {
+            "move": "dragon-tail",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 5
+          },
+          {
+            "move": "tail-whip",
+            "level": 9
+          },
+          {
+            "move": "bubble",
+            "level": 12
+          },
+          {
+            "move": "acid",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "poison-tail",
+            "level": 23
+          },
+          {
+            "move": "water-pulse",
+            "level": 25
+          },
+          {
+            "move": "double-team",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 35
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 53
+          },
+          {
+            "move": "dragon-tail",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "facade",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "draco-meteor"
+        ]
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "348",
+      "flavorText": "It blends in with seaweed to ambush its prey and then takes them down with a poisonous liquid strong enough to melt metal.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/691.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/691.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poni Breaker Coast",
+            "method": "Bubbling Spots",
+            "minLevel": 41,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "twister",
+            "level": 0
+          },
+          {
+            "move": "dragon-tail",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "feint-attack",
+            "level": 5
+          },
+          {
+            "move": "tail-whip",
+            "level": 9
+          },
+          {
+            "move": "bubble",
+            "level": 12
+          },
+          {
+            "move": "acid",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "poison-tail",
+            "level": 23
+          },
+          {
+            "move": "water-pulse",
+            "level": 25
+          },
+          {
+            "move": "double-team",
+            "level": 28
+          },
+          {
+            "move": "toxic",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 35
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 53
+          },
+          {
+            "move": "dragon-tail",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dragon-tail",
+          "facade",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "venoshock",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "draco-meteor",
+          "dragon-pulse",
+          "gunk-shot",
+          "icy-wind",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A195",
+      "flavorText": "Dragalge generates dragon energy by sticking the plume on its head out above the ocean’s surface and bathing it in sunlight.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 15
+          },
+          {
+            "move": "double-team",
+            "level": 20
+          },
+          {
+            "move": "poison-tail",
+            "level": 25
+          },
+          {
+            "move": "water-pulse",
+            "level": 30
+          },
+          {
+            "move": "toxic",
+            "level": 35
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 40
+          },
+          {
+            "move": "aqua-tail",
+            "level": 45
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 52
+          },
+          {
+            "move": "hydro-pump",
+            "level": 59
+          },
+          {
+            "move": "outrage",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "attract",
+          "bounce",
+          "dive",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "focus-blast",
+          "giga-impact",
+          "gunk-shot",
+          "hail",
+          "hydro-pump",
+          "hyper-beam",
+          "icy-wind",
+          "iron-tail",
+          "outrage",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "substitute",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "toxic-spikes",
+          "venom-drench",
+          "venoshock",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "draco-meteor",
+          "flip-turn",
+          "scale-shot"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P338",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/691.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: North Paldean Sea | Tera Raid Battles (5★ Dragalge, 6★ Dragalge)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 15
+          },
+          {
+            "move": "double-team",
+            "level": 20
+          },
+          {
+            "move": "poison-tail",
+            "level": 25
+          },
+          {
+            "move": "water-pulse",
+            "level": 30
+          },
+          {
+            "move": "toxic",
+            "level": 35
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 40
+          },
+          {
+            "move": "aqua-tail",
+            "level": 45
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 52
+          },
+          {
+            "move": "hydro-pump",
+            "level": 59
+          },
+          {
+            "move": "outrage",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "chilling-water",
+          "draco-meteor",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "flip-turn",
+          "focus-blast",
+          "giga-impact",
+          "gunk-shot",
+          "haze",
+          "hydro-pump",
+          "hyper-beam",
+          "icy-wind",
+          "liquidation",
+          "mud-shot",
+          "mud-slap",
+          "muddy-water",
+          "outrage",
+          "play-rough",
+          "poison-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "scald",
+          "scale-shot",
+          "scary-face",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snowscape",
+          "spite",
+          "substitute",
+          "surf",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "toxic-spikes",
+          "venoshock",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "162",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Bleu District: The Sewers | Centrico Plaza: Wild Zone 20",
+          "Hyperspace Lumiose (4★ Poison-type & Dragon-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

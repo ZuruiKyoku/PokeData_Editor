@@ -1,0 +1,786 @@
+{
+  "dex": 659,
+  "keyword": "bunnelby",
+  "name": "Bunnelby",
+  "japaneseName": {
+    "kana": "ホルビー",
+    "romaji": "Horubee"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Digging Pokémon",
+  "heightM": 0.4,
+  "weightKg": 5.0,
+  "stats": {
+    "hp": 38,
+    "attack": 36,
+    "defense": 38,
+    "specialAttack": 32,
+    "specialDefense": 36,
+    "speed": 57
+  },
+  "abilities": [
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "cheek-pouch",
+      "hidden": false,
+      "effect": "Restores HP upon eating a Berry, in addition to the Berry's effect."
+    },
+    {
+      "name": "huge-power",
+      "hidden": true,
+      "effect": "Doubles Attack in battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "upright",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      660
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0659.png",
+    "shiny": "sprites/shiny/0659.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/659.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "10",
+      "flavorText": "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/659.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/659.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 5",
+            "method": "Purple Flowers",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "agility",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "mud-shot",
+            "level": 18
+          },
+          {
+            "move": "double-kick",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 33
+          },
+          {
+            "move": "bounce",
+            "level": 38
+          },
+          {
+            "move": "super-fang",
+            "level": 42
+          },
+          {
+            "move": "facade",
+            "level": 47
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "wild-charge"
+        ],
+        "egg": [
+          "defense-curl",
+          "rollout",
+          "spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/659.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/659.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "agility",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "mud-shot",
+            "level": 18
+          },
+          {
+            "move": "double-kick",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 33
+          },
+          {
+            "move": "bounce",
+            "level": 38
+          },
+          {
+            "move": "super-fang",
+            "level": 42
+          },
+          {
+            "move": "facade",
+            "level": 47
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "wild-charge"
+        ],
+        "egg": [
+          "defense-curl",
+          "rollout",
+          "spikes"
+        ],
+        "tutor": [
+          "bounce",
+          "endeavor",
+          "iron-head",
+          "iron-tail",
+          "last-resort",
+          "recycle",
+          "snore",
+          "super-fang"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/659.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/659.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "agility",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "mud-shot",
+            "level": 18
+          },
+          {
+            "move": "double-kick",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 33
+          },
+          {
+            "move": "bounce",
+            "level": 38
+          },
+          {
+            "move": "super-fang",
+            "level": 42
+          },
+          {
+            "move": "facade",
+            "level": 47
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "defense-curl",
+          "rollout",
+          "spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/659.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/659.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "agility",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "mud-shot",
+            "level": 18
+          },
+          {
+            "move": "double-kick",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 33
+          },
+          {
+            "move": "bounce",
+            "level": 38
+          },
+          {
+            "move": "super-fang",
+            "level": 42
+          },
+          {
+            "move": "facade",
+            "level": 47
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "defense-curl",
+          "rollout",
+          "spikes"
+        ],
+        "tutor": [
+          "bounce",
+          "endeavor",
+          "iron-head",
+          "iron-tail",
+          "last-resort",
+          "recycle",
+          "snore",
+          "super-fang"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "48",
+      "flavorText": "It’s very sensitive to danger. The sound of Corviknight’s flapping will have Bunnelby digging a hole to hide underground in moments.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 3
+          },
+          {
+            "move": "laser-focus",
+            "level": 6
+          },
+          {
+            "move": "quick-attack",
+            "level": 9
+          },
+          {
+            "move": "mud-shot",
+            "level": 12
+          },
+          {
+            "move": "flail",
+            "level": 15
+          },
+          {
+            "move": "double-kick",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 21
+          },
+          {
+            "move": "dig",
+            "level": 24
+          },
+          {
+            "move": "bounce",
+            "level": 27
+          },
+          {
+            "move": "take-down",
+            "level": 30
+          },
+          {
+            "move": "swords-dance",
+            "level": 33
+          },
+          {
+            "move": "earthquake",
+            "level": 36
+          },
+          {
+            "move": "super-fang",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "bounce",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "grass-knot",
+          "iron-head",
+          "iron-tail",
+          "mud-shot",
+          "payback",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "spikes",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swords-dance",
+          "thief",
+          "u-turn",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "defense-curl",
+          "rollout"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "13",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Vert Sector 4, Vert Sector 6, Vert Sector 8, Wild Zone 1 | Bleu District: Bleu Sector 3, Bleu Sector 6, Bleu Sector 8, Wild Zone 5 | Magenta District: Magenta Sector 7, Magenta Sector 8 | Rouge District: Rouge Sector 2, Rouge Sector 8 (only one alpha, during Side Mission 001) | Jaune District: Jaune Sector 6, Jaune Sector 7, Jaune Sector 11",
+          "Hyperspace Lumiose (1★, 2★ & 3★ Normal-type wild zones, 3★ Ground-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

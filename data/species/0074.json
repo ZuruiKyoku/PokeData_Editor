@@ -1,0 +1,2723 @@
+{
+  "dex": 74,
+  "keyword": "geodude",
+  "name": "Geodude",
+  "japaneseName": {
+    "kana": "イシツブテ",
+    "romaji": "Isitsubute"
+  },
+  "type1": "Rock",
+  "type2": "Ground",
+  "genus": "Rock Pokémon",
+  "heightM": 0.4,
+  "weightKg": 20.0,
+  "stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 100,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "rock-head",
+      "hidden": false,
+      "effect": "Protects against recoil damage."
+    },
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "sand-veil",
+      "hidden": true,
+      "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "arms",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      75
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0074.png",
+    "shiny": "sprites/shiny/0074.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/74.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/74.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "74",
+      "flavorText": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/74.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Rock Smash",
+            "minLevel": 30,
+            "maxLevel": 50
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Rock Smash",
+            "minLevel": 35,
+            "maxLevel": 55
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Rock Smash",
+            "minLevel": 40,
+            "maxLevel": 60
+          },
+          {
+            "location": "Kindle Road",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 30
+          },
+          {
+            "location": "Kindle Road",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Mt Ember",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 30
+          },
+          {
+            "location": "Mt Ember",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Mt Ember 1f Cave Behind Team Rocket",
+            "method": "Rock Smash",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Ember 1f Cave Behind Team Rocket",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Ember B1f",
+            "method": "Rock Smash",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Ember B1f",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Ember B2f",
+            "method": "Rock Smash",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Ember B2f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 44
+          },
+          {
+            "location": "Mt Ember Cave",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Ember Inside",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 30
+          },
+          {
+            "location": "Mt Ember Inside",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 34
+          },
+          {
+            "location": "Mt Ember Summit",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 30
+          },
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          },
+          {
+            "location": "Mt Moon B1f",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 11
+          },
+          {
+            "location": "Mt Moon B2f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 11
+          },
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 30
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 20
+          },
+          {
+            "location": "Rock Tunnel B2f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 21
+          },
+          {
+            "location": "Sevault Canyon",
+            "method": "Rock Smash",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Sevault Canyon",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Victory Road 2 1f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 41
+          },
+          {
+            "location": "Victory Road 2 2f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 41
+          },
+          {
+            "location": "Victory Road 2 3f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 46
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 6
+          },
+          {
+            "move": "defense-curl",
+            "level": 11
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 16
+          },
+          {
+            "move": "rock-throw",
+            "level": 16
+          },
+          {
+            "move": "self-destruct",
+            "level": 21
+          },
+          {
+            "move": "harden",
+            "level": 26
+          },
+          {
+            "move": "rollout",
+            "level": 26
+          },
+          {
+            "move": "earthquake",
+            "level": 31
+          },
+          {
+            "move": "rock-blast",
+            "level": 31
+          },
+          {
+            "move": "earthquake",
+            "level": 36
+          },
+          {
+            "move": "explosion",
+            "level": 36
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "fissure",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "rage",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "seismic-toss",
+          "self-destruct",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "mega-punch",
+          "rock-slide"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "explosion",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "34",
+      "flavorText": "Proud of their sturdy bodies, they bash against each other in a contest to prove whose is harder.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 33",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Team Rocket Hq",
+            "method": "Only One",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 16
+          },
+          {
+            "move": "self-destruct",
+            "level": 21
+          },
+          {
+            "move": "harden",
+            "level": 26
+          },
+          {
+            "move": "rollout",
+            "level": 31
+          },
+          {
+            "move": "earthquake",
+            "level": 36
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "mega-punch",
+          "rock-slide"
+        ],
+        "tutor": [
+          "flamethrower"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "57",
+      "flavorText": "It climbs mountain paths using only the power of its arms. Because they look just like boulders lining paths, hikers may step on them without noticing.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Granite Cave 1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 9
+          },
+          {
+            "location": "Granite Cave B2f",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 20
+          },
+          {
+            "location": "Magma Hideout",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 111",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 114",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 20
+          },
+          {
+            "location": "Safari Zone Neacro Bike",
+            "method": "Rock Smash",
+            "minLevel": 5,
+            "maxLevel": 30
+          },
+          {
+            "location": "Victory Road B1f",
+            "method": "Rock Smash",
+            "minLevel": 30,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 16
+          },
+          {
+            "move": "self-destruct",
+            "level": 21
+          },
+          {
+            "move": "rollout",
+            "level": 26
+          },
+          {
+            "move": "rock-blast",
+            "level": 31
+          },
+          {
+            "move": "earthquake",
+            "level": 36
+          },
+          {
+            "move": "explosion",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "mega-punch",
+          "rock-slide"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "explosion",
+          "fire-punch",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "31",
+      "flavorText": "It is impossible to distinguish from rocks. It slams against others in contests of hardness.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Iron Island 1f",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 31
+          },
+          {
+            "location": "Iron Island B1f Left",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Iron Island B1f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Iron Island B2f Left",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Iron Island B2f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Iron Island B3f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Maniac Tunnel 26 Plus Different Unown Caught",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Mt Coronet 1f Route 207",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Coronet 1f Route 211",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 13
+          },
+          {
+            "location": "Oreburgh Gate 1f",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 8
+          },
+          {
+            "location": "Oreburgh Gate B1f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Oreburgh Mine 1f",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 9
+          },
+          {
+            "location": "Oreburgh Mine B1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ravaged Path",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 206",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 207",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 211 West Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          },
+          {
+            "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Stark Mountain Entrance",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 27
+          },
+          {
+            "location": "Stark Mountain Inside",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Valor Lakefront",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Wayward Cave 1f",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Wayward Cave B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 18
+          },
+          {
+            "move": "rollout",
+            "level": 22
+          },
+          {
+            "move": "rock-blast",
+            "level": 25
+          },
+          {
+            "move": "earthquake",
+            "level": 29
+          },
+          {
+            "move": "explosion",
+            "level": 32
+          },
+          {
+            "move": "double-edge",
+            "level": 36
+          },
+          {
+            "move": "stone-edge",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "flail",
+          "hammer-arm",
+          "mega-punch",
+          "rock-slide"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "31",
+      "flavorText": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Iron Island 1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 32
+          },
+          {
+            "location": "Maniac Tunnel 26 Plus Different Unown Caught",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Mt Coronet 1f Route 207",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 19
+          },
+          {
+            "location": "Mt Coronet 1f Route 211",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Oreburgh Gate 1f",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 7
+          },
+          {
+            "location": "Oreburgh Gate B1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Oreburgh Mine 1f",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 8
+          },
+          {
+            "location": "Oreburgh Mine B1f",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 206",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 207",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          },
+          {
+            "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Team Rocket Hq",
+            "method": "Only One",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Wayward Cave 1f",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 20
+          },
+          {
+            "location": "Wayward Cave B1f",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 18
+          },
+          {
+            "move": "rollout",
+            "level": 22
+          },
+          {
+            "move": "rock-blast",
+            "level": 25
+          },
+          {
+            "move": "earthquake",
+            "level": 29
+          },
+          {
+            "move": "explosion",
+            "level": 32
+          },
+          {
+            "move": "double-edge",
+            "level": 36
+          },
+          {
+            "move": "stone-edge",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "flail",
+          "hammer-arm",
+          "mega-punch",
+          "rock-slide"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "fire-punch",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "34",
+      "flavorText": "It uses its arms to steadily climb steep mountain paths. It swings its fists around if angered.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Rock Smash",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Rock Smash",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Rock Smash",
+            "minLevel": 8,
+            "maxLevel": 14
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          },
+          {
+            "location": "Mt Moon 2f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Rock Smash",
+            "minLevel": 12,
+            "maxLevel": 21
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 47 Inside Cave",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 19
+          },
+          {
+            "location": "Ruins Of Alph Outside",
+            "method": "Rock Smash",
+            "minLevel": 3,
+            "maxLevel": 14
+          },
+          {
+            "location": "Safari Zone Zone Peak",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Team Rocket Hq",
+            "method": "Only One",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Victory Road 1 3f",
+            "method": "Rock Smash",
+            "minLevel": 24,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 18
+          },
+          {
+            "move": "rollout",
+            "level": 22
+          },
+          {
+            "move": "rock-blast",
+            "level": 25
+          },
+          {
+            "move": "earthquake",
+            "level": 29
+          },
+          {
+            "move": "explosion",
+            "level": 32
+          },
+          {
+            "move": "double-edge",
+            "level": 36
+          },
+          {
+            "move": "stone-edge",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "curse",
+          "flail",
+          "hammer-arm",
+          "mega-punch",
+          "rock-slide"
+        ],
+        "tutor": [
+          "ancient-power",
+          "block",
+          "earth-power",
+          "fire-punch",
+          "headbutt",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "rollout",
+            "level": 18
+          },
+          {
+            "move": "rock-blast",
+            "level": 22
+          },
+          {
+            "move": "smack-down",
+            "level": 25
+          },
+          {
+            "move": "self-destruct",
+            "level": 29
+          },
+          {
+            "move": "bulldoze",
+            "level": 32
+          },
+          {
+            "move": "stealth-rock",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 39
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "incinerate",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "endure",
+          "flail",
+          "focus-punch",
+          "hammer-arm",
+          "mega-punch",
+          "rock-climb"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "rollout",
+            "level": 18
+          },
+          {
+            "move": "rock-blast",
+            "level": 22
+          },
+          {
+            "move": "smack-down",
+            "level": 25
+          },
+          {
+            "move": "self-destruct",
+            "level": 29
+          },
+          {
+            "move": "bulldoze",
+            "level": 32
+          },
+          {
+            "move": "stealth-rock",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 39
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "incinerate",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "endure",
+          "flail",
+          "focus-punch",
+          "hammer-arm",
+          "mega-punch",
+          "rock-climb"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "iron-defense",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M9",
+      "flavorText": "It is impossible to distinguish from rocks. It slams against others in contests of hardness.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 8
+          },
+          {
+            "move": "rollout",
+            "level": 11
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "rock-throw",
+            "level": 18
+          },
+          {
+            "move": "rock-blast",
+            "level": 22
+          },
+          {
+            "move": "smack-down",
+            "level": 25
+          },
+          {
+            "move": "self-destruct",
+            "level": 29
+          },
+          {
+            "move": "bulldoze",
+            "level": 32
+          },
+          {
+            "move": "stealth-rock",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 39
+          },
+          {
+            "move": "explosion",
+            "level": 43
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "incinerate",
+          "nature-power",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "endure",
+          "flail",
+          "focus-punch",
+          "hammer-arm",
+          "mega-punch",
+          "rock-climb",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "58",
+      "flavorText": "When Geodude sleeps deeply, it buries itself halfway into the ground. It will not awaken even if hikers step on it unwittingly. In the morning, this Pokémon rolls downhill in search of food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "magnitude",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 16
+          },
+          {
+            "move": "smack-down",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "stealth-rock",
+            "level": 28
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "earthquake",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "incinerate",
+          "nature-power",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "endure",
+          "flail",
+          "focus-punch",
+          "hammer-arm",
+          "mega-punch",
+          "rock-climb",
+          "wide-guard"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "focus-punch",
+          "iron-defense",
+          "snore",
+          "stealth-rock",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "229",
+      "flavorText": "There are plenty of them to be found along any road. A scholar with too much free time once counted a hundred of them along a single route.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "magnitude",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 16
+          },
+          {
+            "move": "smack-down",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "stealth-rock",
+            "level": 28
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "earthquake",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "endure",
+          "flail",
+          "focus-punch",
+          "hammer-arm",
+          "mega-punch",
+          "rock-climb",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "298",
+      "flavorText": "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/74.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/74.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "magnitude",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 16
+          },
+          {
+            "move": "smack-down",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "stealth-rock",
+            "level": 28
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "earthquake",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "endure",
+          "flail",
+          "focus-punch",
+          "hammer-arm",
+          "mega-punch",
+          "rock-climb",
+          "wide-guard"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "focus-punch",
+          "iron-defense",
+          "snore",
+          "stealth-rock",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "74",
+      "flavorText": "Commonly found near mountain trails and the like. If you step on one by accident, it gets angry.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 3
+          },
+          {
+            "move": "bide",
+            "level": 6
+          },
+          {
+            "move": "rock-throw",
+            "level": 9
+          },
+          {
+            "move": "stealth-rock",
+            "level": 12
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 23
+          },
+          {
+            "move": "earthquake",
+            "level": 27
+          },
+          {
+            "move": "double-edge",
+            "level": 31
+          },
+          {
+            "move": "explosion",
+            "level": 35
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "dig",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "protect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "self-destruct",
+          "stealth-rock",
+          "substitute",
+          "superpower",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "74",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/74.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , , , , and , Oreburgh Gate, Ruin Maniac Cave, Oreburgh Mine, Iron Island, Mt. Coronet, Maniac Tunnel, Ravaged Path, Stark Mountain, Valor Lakefront, Wayward Cave (Kantonian Form) | Grand Underground - Rocky Cave, Spacious Cave, Volcanic Cave, Big Bluff Cavern, Typhlo Cavern (Kantonian Form) | Unobtainable (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sandstorm",
+            "level": 4
+          },
+          {
+            "move": "rock-polish",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "harden",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 16
+          },
+          {
+            "move": "smack-down",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 22
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "stealth-rock",
+            "level": 28
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "earthquake",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "gyro-ball",
+          "protect",
+          "rest",
+          "rock-climb",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger"
+        ],
+        "egg": [
+          "autotomize",
+          "block",
+          "curse",
+          "flail",
+          "hammer-arm",
+          "mega-punch",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "46",
+      "flavorText": "Makes its home in mountainous regions, using its arms to climb along harsh mountain roads. Can be troublesome—carelessly kicking one will cause it to fly into a rage and chase after you.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Worn Bridge, Deertrack Heights, near Obsidian Falls, massive mass outbreaks (Kantonian Form) | Crimson Mirelands: Gapejaw Bog, Ursa's Ring, near Sludge Mound, near Scarlet Bog, Bolderoll Slope, Droning Meadow (Kantonian Form) | Cobalt Coastlands: massive mass outbreaks (Kantonian Form) | Coronet Highlands: near Ancient Quarry, Clamberclaw Cliffs, Celestica Ruins, Sacred Plaza, Bolderoll Ravine, massive mass outbreaks (Kantonian Form) | Unobtainable (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "mud-slap",
+            "level": 9
+          },
+          {
+            "move": "iron-defense",
+            "level": 15
+          },
+          {
+            "move": "rock-slide",
+            "level": 21
+          },
+          {
+            "move": "bulldoze",
+            "level": 26
+          },
+          {
+            "move": "stealth-rock",
+            "level": 29
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "self-destruct",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K080",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/74.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Apple Hills, Reveler's Road, Oni Mountain, Oni's Maw, Infernal Pass, Chilling Waterhead, Wistful Fields, Paradise Barrens, Kitakami Wilds (Kantonian Form) | Canyon Biome, Chargestone Cavern (Alolan Form) | Tera Raid Battles (1★ Geodude (Kantonian Form), 3★ Geodude - Alolan Form (Alolan Form))"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-polish",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bulldoze",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 16
+          },
+          {
+            "move": "smack-down",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "stealth-rock",
+            "level": 28
+          },
+          {
+            "move": "rock-blast",
+            "level": 30
+          },
+          {
+            "move": "earthquake",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "curse",
+          "dig",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "gyro-ball",
+          "high-horsepower",
+          "iron-defense",
+          "metronome",
+          "mud-shot",
+          "mud-slap",
+          "protect",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "sleep-talk",
+          "smack-down",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "thunder-punch"
+        ],
+        "egg": [
+          "block",
+          "curse",
+          "dynamic-punch",
+          "flail",
+          "hammer-arm",
+          "mega-punch",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

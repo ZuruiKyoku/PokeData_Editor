@@ -1,0 +1,643 @@
+{
+  "dex": 415,
+  "keyword": "combee",
+  "name": "Combee",
+  "japaneseName": {
+    "kana": "ミツハニー",
+    "romaji": "Mitsuhoney"
+  },
+  "type1": "Bug",
+  "type2": "Flying",
+  "genus": "Tiny Bee Pokémon",
+  "heightM": 0.3,
+  "weightKg": 5.5,
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 42,
+    "specialAttack": 30,
+    "specialDefense": 42,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "honey-gather",
+      "hidden": false,
+      "effect": "The Pokémon may pick up honey after battle."
+    },
+    {
+      "name": "hustle",
+      "hidden": true,
+      "effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 1,
+    "hatchCycles": 15,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "heads",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 4
+  },
+  "genderDifference": "Male's lower face has no red mark<br />Only female Combee can evolve into Vespiquen",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      416
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0415.png",
+    "shiny": "sprites/shiny/0415.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/415.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/415.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-sinnoh": {
+      "dexNumber": "53",
+      "flavorText": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "53",
+      "flavorText": "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "endeavor",
+          "mud-slap",
+          "ominous-wind",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "At night, COMBEE sleep in a group of about a thousand, packed closely together in a lump.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "bug-bite",
+          "endeavor",
+          "mud-slap",
+          "ominous-wind",
+          "snore",
+          "string-shot",
+          "swift",
+          "tailwind"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Dark Grass",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "142",
+      "flavorText": "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lostlorn Forest",
+            "method": "Dark Grass",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 12",
+            "method": "Dark Grass",
+            "minLevel": 39,
+            "maxLevel": 39
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "bug-buzz",
+            "level": 29
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "endeavor",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "76",
+      "flavorText": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Red Flowers",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 4",
+            "method": "Yellow Flowers",
+            "minLevel": 6,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "bug-buzz",
+            "level": 29
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "bug-buzz",
+            "level": 29
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "endeavor",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "bug-buzz",
+            "level": 29
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/415.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/415.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 13
+          },
+          {
+            "move": "bug-buzz",
+            "level": 29
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "endeavor",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "116",
+      "flavorText": "It ceaselessly gathers nectar from sunrise to sundown, all for the sake of Vespiquen and the swarm.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "bug-buzz",
+          "snore"
+        ],
+        "egg": [],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "415",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/415.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , , , , , , , , , , , , , Eterna Forest, Floaroma Meadow, Fuego Ironworks, Valley Windworks (Honey Trees) | Grand Underground - Grassland Cave, Sunlit Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "bug-buzz"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "70",
+      "flavorText": "They swear fealty to a queen Pokémon and work diligently to gather nectar. Each swarm produces a different flavor of honey.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Grueling Grove, near The Heartwood, near Oreburrow Tunnel | Crimson Mirelands: Cloudpool Ridge, near Cottonsedge Prairie, near Droning Meadow, near Lake Valor | Cobalt Coastlands: Aipom Hill"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 6
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P038",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/415.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Area Four | East Province: East Paldean Sea | West Province: Area One | Tera Raid Battles (1★ Combee)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "bug-bite",
+          "bug-buzz",
+          "endeavor",
+          "lunge",
+          "skitter-smack",
+          "sleep-talk",
+          "struggle-bug",
+          "tera-blast"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

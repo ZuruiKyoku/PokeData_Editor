@@ -1,0 +1,1963 @@
+{
+  "dex": 352,
+  "keyword": "kecleon",
+  "name": "Kecleon",
+  "japaneseName": {
+    "kana": "カクレオン",
+    "romaji": "Kakureon"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Color Swap Pokémon",
+  "heightM": 1.0,
+  "weightKg": 22.0,
+  "stats": {
+    "hp": 60,
+    "attack": 90,
+    "defense": 70,
+    "specialAttack": 60,
+    "specialDefense": 120,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "color-change",
+      "hidden": false,
+      "effect": "Changes type to match when hit by a damaging move."
+    },
+    {
+      "name": "protean",
+      "hidden": true,
+      "effect": "Changes the bearer's type to match each move it uses."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 200,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "upright",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0352.png",
+    "shiny": "sprites/shiny/0352.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/352.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/352.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "145",
+      "flavorText": "A POKéMON that has the ability to alter its body colors to match its surroundings. A KECLEON reverts to its original colors if it is startled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 118",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 119",
+            "method": "Devon Scope",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 119",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 120",
+            "method": "Devon Scope",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 120",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 121",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 123",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 12
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "substitute",
+            "level": 40
+          },
+          {
+            "move": "ancient-power",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "disable",
+          "magic-coat",
+          "trick"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rock-slide",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 210 West Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "psybeam",
+            "level": 15
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "substitute",
+            "level": 39
+          },
+          {
+            "move": "sucker-punch",
+            "level": 46
+          },
+          {
+            "move": "shadow-claw",
+            "level": 55
+          },
+          {
+            "move": "ancient-power",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "water-pulse"
+        ],
+        "egg": [
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "magic-coat",
+          "nasty-plot",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "feint",
+            "level": 14
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "substitute",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "shadow-claw",
+            "level": 49
+          },
+          {
+            "move": "ancient-power",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "water-pulse"
+        ],
+        "egg": [
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "magic-coat",
+          "nasty-plot",
+          "trick"
+        ],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "swift",
+          "thunder-punch",
+          "trick"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "feint",
+            "level": 14
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "substitute",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "shadow-claw",
+            "level": 49
+          },
+          {
+            "move": "ancient-power",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "water-pulse"
+        ],
+        "egg": [
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "magic-coat",
+          "nasty-plot",
+          "recover",
+          "trick"
+        ],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "fire-punch",
+          "fury-cutter",
+          "headbutt",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "low-kick",
+          "magic-coat",
+          "mud-slap",
+          "role-play",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "swift",
+          "thunder-punch",
+          "trick"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "feint",
+            "level": 14
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "substitute",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "shadow-claw",
+            "level": 49
+          },
+          {
+            "move": "ancient-power",
+            "level": 55
+          },
+          {
+            "move": "synchronoise",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "work-up"
+        ],
+        "egg": [
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "nasty-plot",
+          "recover",
+          "skill-swap",
+          "snatch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Nature Sanctuary",
+            "method": "Dark Grass",
+            "minLevel": 65,
+            "maxLevel": 67
+          },
+          {
+            "location": "Nature Sanctuary",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 59
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "feint",
+            "level": 14
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "substitute",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "shadow-claw",
+            "level": 49
+          },
+          {
+            "move": "ancient-power",
+            "level": 55
+          },
+          {
+            "move": "synchronoise",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "work-up"
+        ],
+        "egg": [
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "nasty-plot",
+          "recover",
+          "skill-swap",
+          "snatch",
+          "trick"
+        ],
+        "tutor": [
+          "after-you",
+          "aqua-tail",
+          "bind",
+          "drain-punch",
+          "fire-punch",
+          "foul-play",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "low-kick",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "trick",
+          "wonder-room"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "116",
+      "flavorText": "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 6",
+            "method": "Rough Terrain",
+            "minLevel": 11,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ancient-power",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "synchronoise",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "feint-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "feint",
+            "level": 14
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "substitute",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 43
+          },
+          {
+            "move": "shadow-claw",
+            "level": 49
+          },
+          {
+            "move": "ancient-power",
+            "level": 55
+          },
+          {
+            "move": "synchronoise",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "incinerate",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "camouflage",
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "nasty-plot",
+          "recover",
+          "skill-swap",
+          "snatch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "150",
+      "flavorText": "Kecleon alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lavaridge Town",
+            "method": "Devon Scope",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mossdeep Space Center",
+            "method": "Devon Scope",
+            "minLevel": 45,
+            "maxLevel": 45
+          },
+          {
+            "location": "Route 119",
+            "method": "Devon Scope",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 120",
+            "method": "Devon Scope",
+            "minLevel": 30,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 7
+          },
+          {
+            "move": "feint",
+            "level": 10
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 16
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "ancient-power",
+            "level": 21
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "camouflage",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 38
+          },
+          {
+            "move": "substitute",
+            "level": 42
+          },
+          {
+            "move": "sucker-punch",
+            "level": 46
+          },
+          {
+            "move": "synchronoise",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "incinerate",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "camouflage",
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "nasty-plot",
+          "recover",
+          "skill-swap",
+          "snatch",
+          "trick"
+        ],
+        "tutor": [
+          "after-you",
+          "aqua-tail",
+          "bind",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "low-kick",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 7
+          },
+          {
+            "move": "feint",
+            "level": 10
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 16
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "ancient-power",
+            "level": 21
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "camouflage",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 38
+          },
+          {
+            "move": "substitute",
+            "level": 42
+          },
+          {
+            "move": "sucker-punch",
+            "level": 46
+          },
+          {
+            "move": "synchronoise",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "work-up"
+        ],
+        "egg": [
+          "camouflage",
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "nasty-plot",
+          "recover",
+          "skill-swap",
+          "snatch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "214",
+      "flavorText": "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/352.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/352.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dividing Peak Tunnel",
+            "method": "Bubbling Spots",
+            "minLevel": 17,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 7
+          },
+          {
+            "move": "feint",
+            "level": 10
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 16
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "ancient-power",
+            "level": 21
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "camouflage",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 38
+          },
+          {
+            "move": "substitute",
+            "level": 42
+          },
+          {
+            "move": "sucker-punch",
+            "level": 46
+          },
+          {
+            "move": "synchronoise",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "work-up"
+        ],
+        "egg": [
+          "camouflage",
+          "disable",
+          "dizzy-punch",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "nasty-plot",
+          "power-up-punch",
+          "recover",
+          "skill-swap",
+          "snatch",
+          "trick"
+        ],
+        "tutor": [
+          "after-you",
+          "aqua-tail",
+          "bind",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "low-kick",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "352",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/352.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 210 (Sinnoh) (Poké Radar), Grand Underground - Grassland Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "lick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thief",
+            "level": 1
+          },
+          {
+            "move": "bind",
+            "level": 4
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 7
+          },
+          {
+            "move": "feint",
+            "level": 10
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "disable",
+            "level": 16
+          },
+          {
+            "move": "psybeam",
+            "level": 18
+          },
+          {
+            "move": "ancient-power",
+            "level": 21
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "detect",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 38
+          },
+          {
+            "move": "substitute",
+            "level": 42
+          },
+          {
+            "move": "sucker-punch",
+            "level": 46
+          },
+          {
+            "move": "foul-play",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "ice-beam",
+          "iron-tail",
+          "nasty-plot",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "trick-room",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "disable",
+          "fake-out",
+          "foul-play",
+          "magic-coat",
+          "power-up-punch",
+          "recover",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H027",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "dex": 777,
+  "keyword": "togedemaru",
+  "name": "Togedemaru",
+  "japaneseName": {
+    "kana": "トゲデマル",
+    "romaji": "Togedemaru"
+  },
+  "type1": "Electric",
+  "type2": "Steel",
+  "genus": "Roly-Poly Pokémon",
+  "heightM": 0.3,
+  "weightKg": 3.3,
+  "stats": {
+    "hp": 65,
+    "attack": 98,
+    "defense": 63,
+    "specialAttack": 40,
+    "specialDefense": 73,
+    "speed": 96
+  },
+  "abilities": [
+    {
+      "name": "iron-barbs",
+      "hidden": false,
+      "effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+    },
+    {
+      "name": "lightning-rod",
+      "hidden": false,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    {
+      "name": "sturdy",
+      "hidden": true,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 10,
+    "captureRate": 180,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "upright",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0777.png",
+    "shiny": "sprites/shiny/0777.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/777.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "225",
+      "flavorText": "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/777.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/777.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Blush Mountain",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "rollout",
+            "level": 9
+          },
+          {
+            "move": "charge",
+            "level": 13
+          },
+          {
+            "move": "spark",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 21
+          },
+          {
+            "move": "magnet-rise",
+            "level": 25
+          },
+          {
+            "move": "discharge",
+            "level": 29
+          },
+          {
+            "move": "zing-zap",
+            "level": 33
+          },
+          {
+            "move": "electric-terrain",
+            "level": 37
+          },
+          {
+            "move": "wild-charge",
+            "level": 41
+          },
+          {
+            "move": "pin-missile",
+            "level": 45
+          },
+          {
+            "move": "spiky-shield",
+            "level": 49
+          },
+          {
+            "move": "fell-stinger",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "disarming-voice",
+          "encore",
+          "fake-out",
+          "flail",
+          "present",
+          "reversal",
+          "tickle",
+          "twineedle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "292",
+      "flavorText": "Its capacity to produce electricity is somewhat limited, so it gets charged up by letting lightning strike it!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/777.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/777.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Blush Mountain",
+            "method": "Sos Encounter",
+            "minLevel": 29,
+            "maxLevel": 32
+          },
+          {
+            "location": "Blush Mountain",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 32
+          },
+          {
+            "location": "Heahea Beach",
+            "method": "Gift",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "rollout",
+            "level": 9
+          },
+          {
+            "move": "charge",
+            "level": 13
+          },
+          {
+            "move": "spark",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 21
+          },
+          {
+            "move": "magnet-rise",
+            "level": 25
+          },
+          {
+            "move": "discharge",
+            "level": 29
+          },
+          {
+            "move": "zing-zap",
+            "level": 33
+          },
+          {
+            "move": "electric-terrain",
+            "level": 37
+          },
+          {
+            "move": "wild-charge",
+            "level": 41
+          },
+          {
+            "move": "pin-missile",
+            "level": 45
+          },
+          {
+            "move": "spiky-shield",
+            "level": 49
+          },
+          {
+            "move": "fell-stinger",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "disarming-voice",
+          "encore",
+          "fake-out",
+          "flail",
+          "present",
+          "reversal",
+          "tickle",
+          "twineedle",
+          "wish"
+        ],
+        "tutor": [
+          "after-you",
+          "bounce",
+          "covet",
+          "electroweb",
+          "endeavor",
+          "gravity",
+          "helping-hand",
+          "iron-head",
+          "iron-tail",
+          "last-resort",
+          "magnet-rise",
+          "role-play",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "348",
+      "flavorText": "When it’s in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "nuzzle",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 10
+          },
+          {
+            "move": "thunder-shock",
+            "level": 15
+          },
+          {
+            "move": "fell-stinger",
+            "level": 20
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 30
+          },
+          {
+            "move": "magnet-rise",
+            "level": 35
+          },
+          {
+            "move": "zing-zap",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 45
+          },
+          {
+            "move": "electric-terrain",
+            "level": 50
+          },
+          {
+            "move": "wild-charge",
+            "level": 55
+          },
+          {
+            "move": "spiky-shield",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "agility",
+          "assurance",
+          "attract",
+          "bounce",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "encore",
+          "endure",
+          "facade",
+          "fling",
+          "giga-impact",
+          "grass-knot",
+          "gyro-ball",
+          "helping-hand",
+          "hyper-beam",
+          "iron-head",
+          "iron-tail",
+          "payback",
+          "pin-missile",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "reversal",
+          "round",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swift",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "u-turn",
+          "volt-switch",
+          "wild-charge",
+          "work-up",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "disarming-voice",
+          "fake-out",
+          "flail",
+          "present",
+          "tickle",
+          "wish"
+        ],
+        "tutor": [
+          "rising-voltage",
+          "steel-beam",
+          "steel-roller"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

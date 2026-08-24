@@ -1,0 +1,1719 @@
+{
+  "dex": 435,
+  "keyword": "skuntank",
+  "name": "Skuntank",
+  "japaneseName": {
+    "kana": "スカタンク",
+    "romaji": "Skutank"
+  },
+  "type1": "Poison",
+  "type2": "Dark",
+  "genus": "Skunk Pokémon",
+  "heightM": 1.0,
+  "weightKg": 38.0,
+  "stats": {
+    "hp": 103,
+    "attack": 93,
+    "defense": 67,
+    "specialAttack": 71,
+    "specialDefense": 61,
+    "speed": 84
+  },
+  "abilities": [
+    {
+      "name": "stench",
+      "hidden": false,
+      "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+    },
+    {
+      "name": "aftermath",
+      "hidden": false,
+      "effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+    },
+    {
+      "name": "keen-eye",
+      "hidden": true,
+      "effect": "Prevents accuracy from being lowered."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 4
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 434,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0435.png",
+    "shiny": "sprites/shiny/0435.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/435.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/435.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-sinnoh": {
+      "dexNumber": "85",
+      "flavorText": "It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 225",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 11
+          },
+          {
+            "move": "smokescreen",
+            "level": 15
+          },
+          {
+            "move": "toxic",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "night-slash",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "memento",
+            "level": 41
+          },
+          {
+            "move": "explosion",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "defog",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "85",
+      "flavorText": "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "smokescreen",
+            "level": 14
+          },
+          {
+            "move": "feint",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "night-slash",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "memento",
+            "level": 42
+          },
+          {
+            "move": "explosion",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "defog",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "smokescreen",
+            "level": 14
+          },
+          {
+            "move": "feint",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "night-slash",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "memento",
+            "level": 42
+          },
+          {
+            "move": "explosion",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "headbutt",
+          "mud-slap",
+          "snore",
+          "sucker-punch",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "smokescreen",
+            "level": 14
+          },
+          {
+            "move": "feint",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "night-slash",
+            "level": 41
+          },
+          {
+            "move": "memento",
+            "level": 51
+          },
+          {
+            "move": "explosion",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sludge-bomb",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "smokescreen",
+            "level": 14
+          },
+          {
+            "move": "feint",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "night-slash",
+            "level": 41
+          },
+          {
+            "move": "memento",
+            "level": 51
+          },
+          {
+            "move": "explosion",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sludge-bomb",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "dark-pulse",
+          "foul-play",
+          "iron-tail",
+          "sleep-talk",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C103",
+      "flavorText": "It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "smokescreen",
+            "level": 14
+          },
+          {
+            "move": "feint",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "night-slash",
+            "level": 41
+          },
+          {
+            "move": "memento",
+            "level": 51
+          },
+          {
+            "move": "belch",
+            "level": 56
+          },
+          {
+            "move": "explosion",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 4
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 10
+          },
+          {
+            "move": "smokescreen",
+            "level": 14
+          },
+          {
+            "move": "feint",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "night-slash",
+            "level": 41
+          },
+          {
+            "move": "memento",
+            "level": 51
+          },
+          {
+            "move": "belch",
+            "level": 56
+          },
+          {
+            "move": "explosion",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "foul-play",
+          "iron-tail",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "flamethrower",
+            "level": 0
+          },
+          {
+            "move": "flamethrower",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 3
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "smokescreen",
+            "level": 13
+          },
+          {
+            "move": "feint",
+            "level": 15
+          },
+          {
+            "move": "acid-spray",
+            "level": 19
+          },
+          {
+            "move": "bite",
+            "level": 21
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "night-slash",
+            "level": 31
+          },
+          {
+            "move": "memento",
+            "level": 33
+          },
+          {
+            "move": "venom-drench",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 39
+          },
+          {
+            "move": "belch",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/435.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/435.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "flamethrower",
+            "level": 0
+          },
+          {
+            "move": "flamethrower",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 3
+          },
+          {
+            "move": "screech",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "smokescreen",
+            "level": 13
+          },
+          {
+            "move": "feint",
+            "level": 15
+          },
+          {
+            "move": "acid-spray",
+            "level": 19
+          },
+          {
+            "move": "bite",
+            "level": 21
+          },
+          {
+            "move": "slash",
+            "level": 25
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "night-slash",
+            "level": 31
+          },
+          {
+            "move": "memento",
+            "level": 33
+          },
+          {
+            "move": "venom-drench",
+            "level": 37
+          },
+          {
+            "move": "sucker-punch",
+            "level": 39
+          },
+          {
+            "move": "belch",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "defog",
+          "foul-play",
+          "iron-tail",
+          "snatch",
+          "snore",
+          "throat-chop"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "131",
+      "flavorText": "It digs holes in the ground to make its nest. The stench of the fluid it lets fly from the tip of its tail is extremely potent.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "flamethrower",
+            "level": 0
+          },
+          {
+            "move": "feint",
+            "level": 1
+          },
+          {
+            "move": "flamethrower",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 12
+          },
+          {
+            "move": "focus-energy",
+            "level": 15
+          },
+          {
+            "move": "bite",
+            "level": 18
+          },
+          {
+            "move": "venoshock",
+            "level": 21
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "sucker-punch",
+            "level": 30
+          },
+          {
+            "move": "memento",
+            "level": 33
+          },
+          {
+            "move": "night-slash",
+            "level": 38
+          },
+          {
+            "move": "belch",
+            "level": 43
+          },
+          {
+            "move": "venom-drench",
+            "level": 48
+          },
+          {
+            "move": "explosion",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "crunch",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-spin",
+          "flamethrower",
+          "focus-energy",
+          "foul-play",
+          "giga-impact",
+          "hex",
+          "hyper-beam",
+          "iron-tail",
+          "nasty-plot",
+          "payback",
+          "play-rough",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scary-face",
+          "screech",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snarl",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "tail-slap",
+          "taunt",
+          "thief",
+          "throat-chop",
+          "venom-drench",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "burning-jealousy",
+          "corrosive-gas",
+          "lash-out"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "435",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/435.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and | Grand Underground - Grassland Cave, Spacious Cave, Riverbank Cave, Sunlit Cavern, Still-Water Cavern (After obtaining )"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "flamethrower",
+            "level": 0
+          },
+          {
+            "move": "feint",
+            "level": 1
+          },
+          {
+            "move": "flamethrower",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 12
+          },
+          {
+            "move": "focus-energy",
+            "level": 15
+          },
+          {
+            "move": "bite",
+            "level": 18
+          },
+          {
+            "move": "venoshock",
+            "level": 21
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "sucker-punch",
+            "level": 30
+          },
+          {
+            "move": "memento",
+            "level": 33
+          },
+          {
+            "move": "night-slash",
+            "level": 38
+          },
+          {
+            "move": "belch",
+            "level": 43
+          },
+          {
+            "move": "venom-drench",
+            "level": 48
+          },
+          {
+            "move": "explosion",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "dark-pulse",
+          "defog",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "giga-impact",
+          "hyper-beam",
+          "iron-tail",
+          "nasty-plot",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-smash",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "111",
+      "flavorText": "Sprays a poisonous fluid to take down prey. Sometimes, unable to stomach the stench of its own fluid, it leaves the bested prey uneaten.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Scarlet Bog (additional ), massive mass outbreaks | Cobalt Coastlands: Space-time distortions | Coronet Highlands: near Ancient Quarry, near Celestica Trail, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 6
+          },
+          {
+            "move": "poison-gas",
+            "level": 11
+          },
+          {
+            "move": "venoshock",
+            "level": 18
+          },
+          {
+            "move": "night-slash",
+            "level": 25
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P227",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/435.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: Casseroya Lake | Tera Raid Battles (4★ Skuntank)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "flamethrower",
+            "level": 0
+          },
+          {
+            "move": "feint",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 12
+          },
+          {
+            "move": "focus-energy",
+            "level": 15
+          },
+          {
+            "move": "bite",
+            "level": 18
+          },
+          {
+            "move": "venoshock",
+            "level": 21
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "toxic",
+            "level": 27
+          },
+          {
+            "move": "sucker-punch",
+            "level": 30
+          },
+          {
+            "move": "memento",
+            "level": 33
+          },
+          {
+            "move": "night-slash",
+            "level": 38
+          },
+          {
+            "move": "belch",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "body-slam",
+          "burning-jealousy",
+          "crunch",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-spin",
+          "flamethrower",
+          "foul-play",
+          "giga-impact",
+          "gunk-shot",
+          "haze",
+          "helping-hand",
+          "hex",
+          "hyper-beam",
+          "knock-off",
+          "lash-out",
+          "nasty-plot",
+          "play-rough",
+          "poison-jab",
+          "poison-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "scary-face",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "super-fang",
+          "swift",
+          "take-down",
+          "taunt",
+          "temper-flare",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "toxic",
+          "toxic-spikes",
+          "trailblaze",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

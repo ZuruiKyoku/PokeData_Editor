@@ -1,0 +1,2324 @@
+{
+  "dex": 131,
+  "keyword": "lapras",
+  "name": "Lapras",
+  "japaneseName": {
+    "kana": "ラプラス",
+    "romaji": "Laplace"
+  },
+  "type1": "Water",
+  "type2": "Ice",
+  "genus": "Transport Pokémon",
+  "heightM": 2.5,
+  "weightKg": 220.0,
+  "stats": {
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "specialAttack": 85,
+    "specialDefense": 95,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "water-absorb",
+      "hidden": false,
+      "effect": "Absorbs water moves, healing for 1/4 max HP."
+    },
+    {
+      "name": "shell-armor",
+      "hidden": false,
+      "effect": "Protects against critical hits."
+    },
+    {
+      "name": "hydration",
+      "hidden": true,
+      "effect": "Cures any major status ailment after each turn during rain."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "water1"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 40,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "fish",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0131.png",
+    "shiny": "sprites/shiny/0131.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/131.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/131.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "131",
+      "flavorText": "A POKéMON that has been overhunted almost to extinction. It can ferry people on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/131.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Icefall Cave Waterfall",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 45
+          },
+          {
+            "location": "Saffron City Silph Co 7f",
+            "method": "Gift",
+            "minLevel": 15,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 7
+          },
+          {
+            "move": "body-slam",
+            "level": 13
+          },
+          {
+            "move": "sing",
+            "level": 16
+          },
+          {
+            "move": "confuse-ray",
+            "level": 19
+          },
+          {
+            "move": "mist",
+            "level": 20
+          },
+          {
+            "move": "body-slam",
+            "level": 25
+          },
+          {
+            "move": "perish-song",
+            "level": 25
+          },
+          {
+            "move": "confuse-ray",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 31
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "ice-beam",
+            "level": 38
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "bubble-beam",
+          "dive",
+          "double-edge",
+          "double-team",
+          "dragon-rage",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "horn-drill",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shock-wave",
+          "skull-bash",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "surf",
+          "take-down",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-gun",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "curse",
+          "dragon-dance",
+          "foresight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "substitute",
+          "tickle"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "dream-eater",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "219",
+      "flavorText": "This gentle POKéMON loves to give people rides and provides a ve­ ry comfortable way to get around.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Union Cave B2f",
+            "method": "Only One",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 8
+          },
+          {
+            "move": "body-slam",
+            "level": 15
+          },
+          {
+            "move": "confuse-ray",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 29
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "rain-dance",
+            "level": 43
+          },
+          {
+            "move": "safeguard",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "dragon-breath",
+          "dream-eater",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "iron-tail",
+          "nightmare",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "surf",
+          "swagger",
+          "thunder",
+          "toxic",
+          "whirlpool",
+          "zap-cannon"
+        ],
+        "egg": [
+          "aurora-beam",
+          "foresight"
+        ],
+        "tutor": [
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "People have driven LAPRAS almost to the point of extinction. In the evenings, it is said to sing plaintively as it seeks what few others of its kind still remain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 7
+          },
+          {
+            "move": "body-slam",
+            "level": 13
+          },
+          {
+            "move": "confuse-ray",
+            "level": 19
+          },
+          {
+            "move": "perish-song",
+            "level": 25
+          },
+          {
+            "move": "ice-beam",
+            "level": 31
+          },
+          {
+            "move": "rain-dance",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shock-wave",
+          "strength",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "curse",
+          "dragon-dance",
+          "foresight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "substitute",
+          "tickle"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Victory Road Inside B1f",
+            "method": "Surf",
+            "minLevel": 40,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "dragon-pulse",
+          "dream-eater",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "dragon-dance",
+          "fissure",
+          "foresight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "substitute",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Union Cave B2f",
+            "method": "Only One",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Victory Road Inside B1f",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "dragon-pulse",
+          "dream-eater",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "dragon-dance",
+          "fissure",
+          "foresight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "substitute",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "dive",
+          "icy-wind",
+          "iron-head",
+          "outrage",
+          "signal-beam",
+          "snore",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "224",
+      "flavorText": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Zone Rocky Beach",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Only One",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "dragon-pulse",
+          "dream-eater",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "dragon-dance",
+          "fissure",
+          "foresight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "substitute",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": [
+          "ancient-power",
+          "aqua-tail",
+          "block",
+          "dive",
+          "headbutt",
+          "heal-bell",
+          "icy-wind",
+          "iron-head",
+          "outrage",
+          "signal-beam",
+          "snore",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Village Bridge",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dive",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "curse",
+          "dragon-dance",
+          "dragon-pulse",
+          "fissure",
+          "foresight",
+          "future-sight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "242",
+      "flavorText": "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Village Bridge",
+            "method": "Surf Spots",
+            "minLevel": 30,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 49
+          },
+          {
+            "move": "sheer-cold",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dive",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "curse",
+          "dragon-dance",
+          "dragon-pulse",
+          "fissure",
+          "foresight",
+          "future-sight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "block",
+          "dragon-pulse",
+          "drill-run",
+          "heal-bell",
+          "hyper-voice",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "outrage",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C150",
+      "flavorText": "Its high intelligence enables it to understand human speech. It likes to ferry people on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azure Bay",
+            "method": "Surf",
+            "minLevel": 27,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 12",
+            "method": "Gift",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 12",
+            "method": "Surf",
+            "minLevel": 27,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "sheer-cold",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "curse",
+          "dragon-dance",
+          "dragon-pulse",
+          "fissure",
+          "foresight",
+          "freeze-dry",
+          "future-sight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "sheer-cold",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "dive",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "curse",
+          "dragon-dance",
+          "dragon-pulse",
+          "fissure",
+          "foresight",
+          "freeze-dry",
+          "future-sight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "block",
+          "dragon-pulse",
+          "drill-run",
+          "heal-bell",
+          "hyper-voice",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "268",
+      "flavorText": "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poni Wilds",
+            "method": "Surf",
+            "minLevel": 40,
+            "maxLevel": 43
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "sheer-cold",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "curse",
+          "dragon-dance",
+          "dragon-pulse",
+          "fissure",
+          "foresight",
+          "freeze-dry",
+          "future-sight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "353",
+      "flavorText": "They’ve been so cherished that there’s now an overabundance. The fish Pokémon population has declined in waters with too many Lapras.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/131.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/131.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ancient Poni Path",
+            "method": "Surf",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poni Breaker Coast",
+            "method": "Surf",
+            "minLevel": 41,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 7
+          },
+          {
+            "move": "ice-shard",
+            "level": 10
+          },
+          {
+            "move": "water-pulse",
+            "level": 14
+          },
+          {
+            "move": "body-slam",
+            "level": 18
+          },
+          {
+            "move": "rain-dance",
+            "level": 22
+          },
+          {
+            "move": "perish-song",
+            "level": 27
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "brine",
+            "level": 37
+          },
+          {
+            "move": "safeguard",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          },
+          {
+            "move": "sheer-cold",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "curse",
+          "dragon-dance",
+          "dragon-pulse",
+          "fissure",
+          "foresight",
+          "freeze-dry",
+          "future-sight",
+          "horn-drill",
+          "refresh",
+          "sleep-talk",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "block",
+          "dragon-pulse",
+          "drill-run",
+          "heal-bell",
+          "hyper-voice",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "outrage",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "131",
+      "flavorText": "A gentle soul that can understand human speech. It can ferry people across the sea on its back.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 6
+          },
+          {
+            "move": "mist",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 19
+          },
+          {
+            "move": "confuse-ray",
+            "level": 26
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "ice-beam",
+            "level": 39
+          },
+          {
+            "move": "surf",
+            "level": 45
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 52
+          },
+          {
+            "move": "blizzard",
+            "level": 58
+          },
+          {
+            "move": "hydro-pump",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dragon-pulse",
+          "dream-eater",
+          "drill-run",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "megahorn",
+          "outrage",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "solar-beam",
+          "substitute",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "361",
+      "flavorText": "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 5
+          },
+          {
+            "move": "mist",
+            "level": 10
+          },
+          {
+            "move": "life-dew",
+            "level": 15
+          },
+          {
+            "move": "ice-shard",
+            "level": 20
+          },
+          {
+            "move": "confuse-ray",
+            "level": 25
+          },
+          {
+            "move": "water-pulse",
+            "level": 30
+          },
+          {
+            "move": "brine",
+            "level": 35
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "ice-beam",
+            "level": 45
+          },
+          {
+            "move": "rain-dance",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          },
+          {
+            "move": "perish-song",
+            "level": 60
+          },
+          {
+            "move": "sheer-cold",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "brine",
+          "bulldoze",
+          "charm",
+          "dive",
+          "dragon-dance",
+          "dragon-pulse",
+          "drill-run",
+          "endure",
+          "facade",
+          "future-sight",
+          "giga-impact",
+          "hail",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-beam",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "liquidation",
+          "megahorn",
+          "outrage",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "smart-strike",
+          "snore",
+          "substitute",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "waterfall",
+          "weather-ball",
+          "whirlpool",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "fissure",
+          "freeze-dry",
+          "horn-drill",
+          "sparkling-aria",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "131",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/131.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "(ing)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 5
+          },
+          {
+            "move": "mist",
+            "level": 10
+          },
+          {
+            "move": "life-dew",
+            "level": 15
+          },
+          {
+            "move": "ice-shard",
+            "level": 20
+          },
+          {
+            "move": "confuse-ray",
+            "level": 25
+          },
+          {
+            "move": "water-pulse",
+            "level": 30
+          },
+          {
+            "move": "brine",
+            "level": 35
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "ice-beam",
+            "level": 45
+          },
+          {
+            "move": "rain-dance",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          },
+          {
+            "move": "perish-song",
+            "level": 60
+          },
+          {
+            "move": "sheer-cold",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "bulldoze",
+          "double-team",
+          "dragon-pulse",
+          "dream-eater",
+          "endure",
+          "facade",
+          "giga-impact",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-smash",
+          "safeguard",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "dragon-dance",
+          "fissure",
+          "freeze-dry",
+          "future-sight",
+          "horn-drill",
+          "tickle",
+          "whirlpool"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B145",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/131.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Polar Biome | Tera Raid Battles (5★ Lapras, 6★ Lapras)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 5
+          },
+          {
+            "move": "mist",
+            "level": 10
+          },
+          {
+            "move": "life-dew",
+            "level": 15
+          },
+          {
+            "move": "ice-shard",
+            "level": 20
+          },
+          {
+            "move": "confuse-ray",
+            "level": 25
+          },
+          {
+            "move": "water-pulse",
+            "level": 30
+          },
+          {
+            "move": "brine",
+            "level": 35
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "ice-beam",
+            "level": 45
+          },
+          {
+            "move": "rain-dance",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          },
+          {
+            "move": "perish-song",
+            "level": 60
+          },
+          {
+            "move": "sheer-cold",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "alluring-voice",
+          "avalanche",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "bulldoze",
+          "charm",
+          "chilling-water",
+          "confuse-ray",
+          "curse",
+          "disarming-voice",
+          "double-edge",
+          "dragon-cheer",
+          "dragon-dance",
+          "dragon-pulse",
+          "drill-run",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-impact",
+          "haze",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-beam",
+          "icicle-spear",
+          "icy-wind",
+          "iron-head",
+          "liquidation",
+          "muddy-water",
+          "outrage",
+          "protect",
+          "psychic",
+          "psychic-noise",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "sleep-talk",
+          "smart-strike",
+          "snowscape",
+          "substitute",
+          "surf",
+          "take-down",
+          "tera-blast",
+          "thunder",
+          "thunderbolt",
+          "water-pulse",
+          "waterfall",
+          "weather-ball",
+          "whirlpool",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "fissure",
+          "freeze-dry",
+          "horn-drill",
+          "sparkling-aria",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

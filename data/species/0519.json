@@ -1,0 +1,963 @@
+{
+  "dex": 519,
+  "keyword": "pidove",
+  "name": "Pidove",
+  "japaneseName": {
+    "kana": "マメパト",
+    "romaji": "Mamepato"
+  },
+  "type1": "Normal",
+  "type2": "Flying",
+  "genus": "Tiny Pigeon Pokémon",
+  "heightM": 0.3,
+  "weightKg": 2.1,
+  "stats": {
+    "hp": 50,
+    "attack": 55,
+    "defense": 50,
+    "specialAttack": 36,
+    "specialDefense": 30,
+    "speed": 43
+  },
+  "abilities": [
+    {
+      "name": "big-pecks",
+      "hidden": false,
+      "effect": "Protects against Defense drops."
+    },
+    {
+      "name": "super-luck",
+      "hidden": false,
+      "effect": "Raises moves' critical hit rates one stage."
+    },
+    {
+      "name": "rivalry",
+      "hidden": true,
+      "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "wings",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      520
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0519.png",
+    "shiny": "sprites/shiny/0519.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/519.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/519.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "25",
+      "flavorText": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/519.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/519.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Pinwheel Forest Outside",
+            "method": "Dark Grass",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Pinwheel Forest Outside",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 3",
+            "method": "Dark Grass",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "feather-dance",
+            "level": 36
+          },
+          {
+            "move": "swagger",
+            "level": 39
+          },
+          {
+            "move": "facade",
+            "level": 43
+          },
+          {
+            "move": "tailwind",
+            "level": 46
+          },
+          {
+            "move": "sky-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "bestow",
+          "hypnosis",
+          "lucky-chant",
+          "morning-sun",
+          "steel-wing",
+          "uproar",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "14",
+      "flavorText": "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/519.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/519.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Castelia City",
+            "method": "Dark Grass",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Castelia City",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Floccesy Ranch Inner",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 20",
+            "method": "Dark Grass",
+            "minLevel": 9,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 20",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Virbank Complex Outer",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "feather-dance",
+            "level": 36
+          },
+          {
+            "move": "swagger",
+            "level": 39
+          },
+          {
+            "move": "facade",
+            "level": 43
+          },
+          {
+            "move": "tailwind",
+            "level": 46
+          },
+          {
+            "move": "sky-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "bestow",
+          "hypnosis",
+          "lucky-chant",
+          "morning-sun",
+          "steel-wing",
+          "uproar",
+          "wish"
+        ],
+        "tutor": [
+          "heat-wave",
+          "roost",
+          "sky-attack",
+          "sleep-talk",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/519.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/519.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "feather-dance",
+            "level": 36
+          },
+          {
+            "move": "swagger",
+            "level": 39
+          },
+          {
+            "move": "facade",
+            "level": 43
+          },
+          {
+            "move": "tailwind",
+            "level": 46
+          },
+          {
+            "move": "sky-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bestow",
+          "hypnosis",
+          "lucky-chant",
+          "morning-sun",
+          "night-slash",
+          "steel-wing",
+          "uproar",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/519.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/519.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "feather-dance",
+            "level": 36
+          },
+          {
+            "move": "swagger",
+            "level": 39
+          },
+          {
+            "move": "facade",
+            "level": 43
+          },
+          {
+            "move": "tailwind",
+            "level": 46
+          },
+          {
+            "move": "sky-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bestow",
+          "hypnosis",
+          "lucky-chant",
+          "morning-sun",
+          "night-slash",
+          "steel-wing",
+          "uproar",
+          "wish"
+        ],
+        "tutor": [
+          "heat-wave",
+          "sky-attack",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/519.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/519.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "feather-dance",
+            "level": 36
+          },
+          {
+            "move": "swagger",
+            "level": 39
+          },
+          {
+            "move": "facade",
+            "level": 43
+          },
+          {
+            "move": "tailwind",
+            "level": 46
+          },
+          {
+            "move": "sky-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "bestow",
+          "hypnosis",
+          "lucky-chant",
+          "morning-sun",
+          "night-slash",
+          "steel-wing",
+          "uproar",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/519.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/519.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 29
+          },
+          {
+            "move": "razor-wind",
+            "level": 32
+          },
+          {
+            "move": "feather-dance",
+            "level": 36
+          },
+          {
+            "move": "swagger",
+            "level": 39
+          },
+          {
+            "move": "facade",
+            "level": 43
+          },
+          {
+            "move": "tailwind",
+            "level": 46
+          },
+          {
+            "move": "sky-attack",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "bestow",
+          "hypnosis",
+          "lucky-chant",
+          "morning-sun",
+          "night-slash",
+          "steel-wing",
+          "uproar",
+          "wish"
+        ],
+        "tutor": [
+          "defog",
+          "heat-wave",
+          "sky-attack",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "26",
+      "flavorText": "It’s forgetful and not very bright, but many Trainers love it anyway for its friendliness and sincerity.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "taunt",
+            "level": 12
+          },
+          {
+            "move": "air-cutter",
+            "level": 16
+          },
+          {
+            "move": "swagger",
+            "level": 20
+          },
+          {
+            "move": "feather-dance",
+            "level": 24
+          },
+          {
+            "move": "detect",
+            "level": 28
+          },
+          {
+            "move": "air-slash",
+            "level": 32
+          },
+          {
+            "move": "roost",
+            "level": 36
+          },
+          {
+            "move": "tailwind",
+            "level": 40
+          },
+          {
+            "move": "sky-attack",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "agility",
+          "air-slash",
+          "attract",
+          "endure",
+          "facade",
+          "fly",
+          "focus-energy",
+          "heat-wave",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "u-turn",
+          "uproar",
+          "work-up"
+        ],
+        "egg": [
+          "defog",
+          "hypnosis",
+          "morning-sun",
+          "night-slash",
+          "wish"
+        ],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

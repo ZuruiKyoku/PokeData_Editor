@@ -1,0 +1,2312 @@
+{
+  "dex": 52,
+  "keyword": "meowth",
+  "name": "Meowth",
+  "japaneseName": {
+    "kana": "ニャース",
+    "romaji": "Nyarth"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Scratch Cat Pokémon",
+  "heightM": 0.4,
+  "weightKg": 4.2,
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "specialAttack": 40,
+    "specialDefense": 40,
+    "speed": 90
+  },
+  "abilities": [
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "technician",
+      "hidden": false,
+      "effect": "Strengthens moves of 60 base power or less to 1.5× their power."
+    },
+    {
+      "name": "unnerve",
+      "hidden": true,
+      "effect": "Prevents opposing Pokémon from eating held Berries."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "quadruped",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      53,
+      863
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0052.png",
+    "shiny": "sprites/shiny/0052.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/52.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/52.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "52",
+      "flavorText": "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/52.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Bond Bridge",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Canyon Entrance",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Cape Brink",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Five Isle Meadow",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Kindle Road",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          },
+          {
+            "location": "Ruin Valley",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 43
+          },
+          {
+            "location": "Sevault Canyon",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 43
+          },
+          {
+            "location": "Treasure Beach",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 31
+          },
+          {
+            "location": "Water Path",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "pay-day",
+            "level": 17
+          },
+          {
+            "move": "pay-day",
+            "level": 18
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "fury-swipes",
+            "level": 33
+          },
+          {
+            "move": "fury-swipes",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 40
+          },
+          {
+            "move": "fake-out",
+            "level": 43
+          },
+          {
+            "move": "slash",
+            "level": 44
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "bubble-beam",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "mimic",
+          "pay-day",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skull-bash",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "hypnosis",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "dream-eater",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "136",
+      "flavorText": "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines too.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 11
+          },
+          {
+            "move": "pay-day",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 35
+          },
+          {
+            "move": "fury-swipes",
+            "level": 41
+          },
+          {
+            "move": "slash",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "detect",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [
+          "amnesia",
+          "charm",
+          "hypnosis",
+          "spite"
+        ],
+        "tutor": [
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "MEOWTH withdraw their sharp claws into their paws to silently sneak about. For some reason, this POKéMON loves shiny coins that glitter with light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 11
+          },
+          {
+            "move": "pay-day",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 35
+          },
+          {
+            "move": "fury-swipes",
+            "level": 41
+          },
+          {
+            "move": "slash",
+            "level": 46
+          },
+          {
+            "move": "fake-out",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "hypnosis",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "hypnosis",
+          "last-resort",
+          "odor-sleuth",
+          "psych-up",
+          "punishment",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "hypnosis",
+          "last-resort",
+          "odor-sleuth",
+          "psych-up",
+          "punishment",
+          "spite"
+        ],
+        "tutor": [
+          "gunk-shot",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "138",
+      "flavorText": "It loves anything that shines. It especially adores coins that it picks up and secretly hoards.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "hypnosis",
+          "last-resort",
+          "odor-sleuth",
+          "psych-up",
+          "punishment",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": [
+          "gunk-shot",
+          "headbutt",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "cut",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "iron-tail",
+          "last-resort",
+          "odor-sleuth",
+          "punishment",
+          "snatch",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "cut",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "iron-tail",
+          "last-resort",
+          "odor-sleuth",
+          "punishment",
+          "snatch",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": [
+          "covet",
+          "dark-pulse",
+          "foul-play",
+          "gunk-shot",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "spite",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "iron-tail",
+          "last-resort",
+          "odor-sleuth",
+          "punishment",
+          "snatch",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "iron-tail",
+          "last-resort",
+          "odor-sleuth",
+          "punishment",
+          "snatch",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": [
+          "covet",
+          "foul-play",
+          "gunk-shot",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "shock-wave",
+          "snatch",
+          "snore",
+          "spite",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "45",
+      "flavorText": "It loves shiny things. It often fights with Murkrow over prey they’re both trying to catch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "iron-tail",
+          "last-resort",
+          "odor-sleuth",
+          "punishment",
+          "snatch",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "52",
+      "flavorText": "It loves coins, so if you give it one, you can make friends with Meowth easily. But it’s fickle, so you can’t count on that friendship lasting.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/52.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/52.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 6
+          },
+          {
+            "move": "fake-out",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 14
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "taunt",
+            "level": 25
+          },
+          {
+            "move": "pay-day",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "nasty-plot",
+            "level": 38
+          },
+          {
+            "move": "assurance",
+            "level": 41
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "night-slash",
+            "level": 49
+          },
+          {
+            "move": "feint",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "assist",
+          "charm",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "iron-tail",
+          "last-resort",
+          "odor-sleuth",
+          "punishment",
+          "snatch",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": [
+          "covet",
+          "foul-play",
+          "gunk-shot",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "shock-wave",
+          "snatch",
+          "snore",
+          "spite",
+          "throat-chop",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "52",
+      "flavorText": "Appears to be more active at night. It loves round and shiny things. It can’t stop itself from picking them up.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 3
+          },
+          {
+            "move": "fake-out",
+            "level": 6
+          },
+          {
+            "move": "taunt",
+            "level": 9
+          },
+          {
+            "move": "pay-day",
+            "level": 12
+          },
+          {
+            "move": "feint",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 19
+          },
+          {
+            "move": "screech",
+            "level": 23
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "nasty-plot",
+            "level": 31
+          },
+          {
+            "move": "play-rough",
+            "level": 35
+          }
+        ],
+        "machine": [
+          "dark-pulse",
+          "dig",
+          "facade",
+          "foul-play",
+          "headbutt",
+          "iron-tail",
+          "pay-day",
+          "play-rough",
+          "protect",
+          "rest",
+          "shadow-ball",
+          "substitute",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "182",
+      "flavorText": "It washes its face regularly to keep the coin on its forehead spotless. It doesn’t get along with Galarian Meowth.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "feint",
+            "level": 4
+          },
+          {
+            "move": "scratch",
+            "level": 8
+          },
+          {
+            "move": "pay-day",
+            "level": 12
+          },
+          {
+            "move": "bite",
+            "level": 16
+          },
+          {
+            "move": "taunt",
+            "level": 20
+          },
+          {
+            "move": "assurance",
+            "level": 24
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 36
+          },
+          {
+            "move": "nasty-plot",
+            "level": 40
+          },
+          {
+            "move": "play-rough",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "assurance",
+          "attract",
+          "body-slam",
+          "charm",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "facade",
+          "foul-play",
+          "gunk-shot",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "nasty-plot",
+          "pay-day",
+          "payback",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "round",
+          "screech",
+          "seed-bomb",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "thief",
+          "throat-chop",
+          "thunder",
+          "thunderbolt",
+          "u-turn",
+          "uproar",
+          "work-up"
+        ],
+        "egg": [
+          "covet",
+          "flail",
+          "hypnosis",
+          "last-resort",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": [
+          "lash-out"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "52",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/52.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Trophy Garden (Kantonian Form) | Unobtainable (Alolan/Galarian Forms)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "feint",
+            "level": 4
+          },
+          {
+            "move": "scratch",
+            "level": 8
+          },
+          {
+            "move": "pay-day",
+            "level": 12
+          },
+          {
+            "move": "bite",
+            "level": 16
+          },
+          {
+            "move": "taunt",
+            "level": 20
+          },
+          {
+            "move": "assurance",
+            "level": 24
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 36
+          },
+          {
+            "move": "nasty-plot",
+            "level": 40
+          },
+          {
+            "move": "play-rough",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "iron-tail",
+          "nasty-plot",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "u-turn",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "charm",
+          "covet",
+          "flail",
+          "foul-play",
+          "hypnosis",
+          "last-resort",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P141",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/52.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Area Three (Kantonian Form) | West Province: Area Three (Kantonian Form) | South Province: Area Two ( Type) (Kantonian Form) | Tera Raid Battles (2★ Meowth) (Kantonian Form) | (Alolan Form) | Gift from Salvatore (Galarian Form)",
+          "Trade with Salvatore in the League Club Room (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "feint",
+            "level": 4
+          },
+          {
+            "move": "scratch",
+            "level": 8
+          },
+          {
+            "move": "pay-day",
+            "level": 12
+          },
+          {
+            "move": "bite",
+            "level": 16
+          },
+          {
+            "move": "taunt",
+            "level": 20
+          },
+          {
+            "move": "assurance",
+            "level": 24
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 36
+          },
+          {
+            "move": "nasty-plot",
+            "level": 40
+          },
+          {
+            "move": "play-rough",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "agility",
+          "amnesia",
+          "body-slam",
+          "charm",
+          "chilling-water",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "fake-tears",
+          "false-swipe",
+          "foul-play",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "knock-off",
+          "lash-out",
+          "metal-claw",
+          "nasty-plot",
+          "pain-split",
+          "play-rough",
+          "power-gem",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "u-turn"
+        ],
+        "egg": [
+          "covet",
+          "flail",
+          "hypnosis",
+          "last-resort",
+          "spite",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H004",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose (All Forms)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

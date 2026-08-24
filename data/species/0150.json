@@ -1,0 +1,2658 @@
+{
+  "dex": 150,
+  "keyword": "mewtwo",
+  "name": "Mewtwo",
+  "japaneseName": {
+    "kana": "ミュウツー",
+    "romaji": "Mewtwo"
+  },
+  "type1": "Psychic",
+  "type2": null,
+  "genus": "Genetic Pokémon",
+  "heightM": 2.0,
+  "weightKg": 122.0,
+  "stats": {
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "specialAttack": 154,
+    "specialDefense": 90,
+    "speed": 130
+  },
+  "abilities": [
+    {
+      "name": "pressure",
+      "hidden": false,
+      "effect": "Increases the PP cost of moves targetting the Pokémon by one."
+    },
+    {
+      "name": "unnerve",
+      "hidden": true,
+      "effect": "Prevents opposing Pokémon from eating held Berries."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "no-eggs"
+    ],
+    "genderRateEighthsFemale": -1,
+    "hatchCycles": 120,
+    "captureRate": 3,
+    "baseFriendship": 0,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "upright",
+    "habitat": "rare",
+    "isLegendary": true,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0150.png",
+    "shiny": "sprites/shiny/0150.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/150.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/150.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "150",
+      "flavorText": "It was created by a scientist after years of horrific gene-splicing and DNA- engineering experiments.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/150.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Only One",
+            "minLevel": 70,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "psychic",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 1
+          },
+          {
+            "move": "barrier",
+            "level": 11
+          },
+          {
+            "move": "mist",
+            "level": 22
+          },
+          {
+            "move": "swift",
+            "level": 33
+          },
+          {
+            "move": "recover",
+            "level": 44
+          },
+          {
+            "move": "safeguard",
+            "level": 55
+          },
+          {
+            "move": "barrier",
+            "level": 63
+          },
+          {
+            "move": "psychic",
+            "level": 66
+          },
+          {
+            "move": "recover",
+            "level": 70
+          },
+          {
+            "move": "mist",
+            "level": 75
+          },
+          {
+            "move": "psych-up",
+            "level": 77
+          },
+          {
+            "move": "amnesia",
+            "level": 81
+          },
+          {
+            "move": "future-sight",
+            "level": 88
+          },
+          {
+            "move": "amnesia",
+            "level": 99
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bubble-beam",
+          "bulk-up",
+          "calm-mind",
+          "counter",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "pay-day",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "seismic-toss",
+          "self-destruct",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "skull-bash",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "tri-attack",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "seismic-toss",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "249",
+      "flavorText": "Said to rest qui­ etly in an undiscovered cave, this POKéMON was created solely for battling.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "barrier",
+            "level": 11
+          },
+          {
+            "move": "swift",
+            "level": 22
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "future-sight",
+            "level": 44
+          },
+          {
+            "move": "mist",
+            "level": 55
+          },
+          {
+            "move": "psychic",
+            "level": 66
+          },
+          {
+            "move": "amnesia",
+            "level": 77
+          },
+          {
+            "move": "recover",
+            "level": 88
+          },
+          {
+            "move": "safeguard",
+            "level": 99
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "curse",
+          "detect",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thunder",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A POKéMON that was created by genetic manipulation. However, even though the scientific power of humans made its body, they failed to give it a warm heart.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "barrier",
+            "level": 11
+          },
+          {
+            "move": "swift",
+            "level": 22
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "future-sight",
+            "level": 44
+          },
+          {
+            "move": "mist",
+            "level": 55
+          },
+          {
+            "move": "psychic",
+            "level": 66
+          },
+          {
+            "move": "amnesia",
+            "level": 77
+          },
+          {
+            "move": "recover",
+            "level": 88
+          },
+          {
+            "move": "safeguard",
+            "level": 99
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "calm-mind",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon created by recombining MEW’s genes. It’s said to have the most savage heart among Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "barrier",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 15
+          },
+          {
+            "move": "future-sight",
+            "level": 22
+          },
+          {
+            "move": "psych-up",
+            "level": 29
+          },
+          {
+            "move": "miracle-eye",
+            "level": 36
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "psycho-cut",
+            "level": 50
+          },
+          {
+            "move": "amnesia",
+            "level": 57
+          },
+          {
+            "move": "guard-swap",
+            "level": 64
+          },
+          {
+            "move": "power-swap",
+            "level": 64
+          },
+          {
+            "move": "psychic",
+            "level": 71
+          },
+          {
+            "move": "me-first",
+            "level": 79
+          },
+          {
+            "move": "recover",
+            "level": 86
+          },
+          {
+            "move": "safeguard",
+            "level": 93
+          },
+          {
+            "move": "aura-sphere",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon created by recombining MEW’s genes. It’s said to have the most savage heart among Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "barrier",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 15
+          },
+          {
+            "move": "future-sight",
+            "level": 22
+          },
+          {
+            "move": "psych-up",
+            "level": 29
+          },
+          {
+            "move": "miracle-eye",
+            "level": 36
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "psycho-cut",
+            "level": 50
+          },
+          {
+            "move": "amnesia",
+            "level": 57
+          },
+          {
+            "move": "guard-swap",
+            "level": 64
+          },
+          {
+            "move": "power-swap",
+            "level": 64
+          },
+          {
+            "move": "psychic",
+            "level": 71
+          },
+          {
+            "move": "me-first",
+            "level": 79
+          },
+          {
+            "move": "recover",
+            "level": 86
+          },
+          {
+            "move": "safeguard",
+            "level": 93
+          },
+          {
+            "move": "aura-sphere",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "fire-punch",
+          "ice-punch",
+          "icy-wind",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "254",
+      "flavorText": "It usually remains motionless to conserve energy, so that it may unleash its full power in battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Only One",
+            "minLevel": 70,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "barrier",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 15
+          },
+          {
+            "move": "future-sight",
+            "level": 22
+          },
+          {
+            "move": "psych-up",
+            "level": 29
+          },
+          {
+            "move": "miracle-eye",
+            "level": 36
+          },
+          {
+            "move": "mist",
+            "level": 43
+          },
+          {
+            "move": "psycho-cut",
+            "level": 50
+          },
+          {
+            "move": "amnesia",
+            "level": 57
+          },
+          {
+            "move": "guard-swap",
+            "level": 64
+          },
+          {
+            "move": "power-swap",
+            "level": 64
+          },
+          {
+            "move": "psychic",
+            "level": 71
+          },
+          {
+            "move": "me-first",
+            "level": 79
+          },
+          {
+            "move": "recover",
+            "level": 86
+          },
+          {
+            "move": "safeguard",
+            "level": 93
+          },
+          {
+            "move": "aura-sphere",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "ice-punch",
+          "icy-wind",
+          "low-kick",
+          "magic-coat",
+          "mud-slap",
+          "role-play",
+          "signal-beam",
+          "snore",
+          "swift",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon created by recombining Mew’s genes. It’s said to have the most savage heart among Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrier",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 8
+          },
+          {
+            "move": "future-sight",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 22
+          },
+          {
+            "move": "miracle-eye",
+            "level": 29
+          },
+          {
+            "move": "mist",
+            "level": 36
+          },
+          {
+            "move": "psycho-cut",
+            "level": 43
+          },
+          {
+            "move": "amnesia",
+            "level": 50
+          },
+          {
+            "move": "guard-swap",
+            "level": 57
+          },
+          {
+            "move": "power-swap",
+            "level": 57
+          },
+          {
+            "move": "psychic",
+            "level": 64
+          },
+          {
+            "move": "me-first",
+            "level": 71
+          },
+          {
+            "move": "recover",
+            "level": 79
+          },
+          {
+            "move": "safeguard",
+            "level": 86
+          },
+          {
+            "move": "aura-sphere",
+            "level": 93
+          },
+          {
+            "move": "psystrike",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon created by recombining Mew’s genes. It’s said to have the most savage heart among Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrier",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 8
+          },
+          {
+            "move": "future-sight",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 22
+          },
+          {
+            "move": "miracle-eye",
+            "level": 29
+          },
+          {
+            "move": "mist",
+            "level": 36
+          },
+          {
+            "move": "psycho-cut",
+            "level": 43
+          },
+          {
+            "move": "amnesia",
+            "level": 50
+          },
+          {
+            "move": "guard-swap",
+            "level": 57
+          },
+          {
+            "move": "power-swap",
+            "level": 57
+          },
+          {
+            "move": "psychic",
+            "level": 64
+          },
+          {
+            "move": "me-first",
+            "level": 71
+          },
+          {
+            "move": "recover",
+            "level": 79
+          },
+          {
+            "move": "safeguard",
+            "level": 86
+          },
+          {
+            "move": "aura-sphere",
+            "level": 93
+          },
+          {
+            "move": "psystrike",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "drain-punch",
+          "fire-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "low-kick",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M151",
+      "flavorText": "A Pokémon created by recombining Mew’s genes. It’s said to have the most savage heart among Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Unknown Dungeon",
+            "method": "Only One",
+            "minLevel": 70,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 8
+          },
+          {
+            "move": "future-sight",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 22
+          },
+          {
+            "move": "miracle-eye",
+            "level": 29
+          },
+          {
+            "move": "psycho-cut",
+            "level": 36
+          },
+          {
+            "move": "guard-swap",
+            "level": 43
+          },
+          {
+            "move": "power-swap",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 50
+          },
+          {
+            "move": "psychic",
+            "level": 57
+          },
+          {
+            "move": "barrier",
+            "level": 64
+          },
+          {
+            "move": "aura-sphere",
+            "level": 70
+          },
+          {
+            "move": "amnesia",
+            "level": 79
+          },
+          {
+            "move": "mist",
+            "level": 86
+          },
+          {
+            "move": "me-first",
+            "level": 93
+          },
+          {
+            "move": "psystrike",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon’s body, they failed to endow Mewtwo with a compassionate heart.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 8
+          },
+          {
+            "move": "future-sight",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 22
+          },
+          {
+            "move": "miracle-eye",
+            "level": 29
+          },
+          {
+            "move": "psycho-cut",
+            "level": 36
+          },
+          {
+            "move": "guard-swap",
+            "level": 43
+          },
+          {
+            "move": "power-swap",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 50
+          },
+          {
+            "move": "psychic",
+            "level": 57
+          },
+          {
+            "move": "barrier",
+            "level": 64
+          },
+          {
+            "move": "aura-sphere",
+            "level": 70
+          },
+          {
+            "move": "amnesia",
+            "level": 79
+          },
+          {
+            "move": "mist",
+            "level": 86
+          },
+          {
+            "move": "me-first",
+            "level": 93
+          },
+          {
+            "move": "psystrike",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dive",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "low-kick",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "laser-focus",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 8
+          },
+          {
+            "move": "future-sight",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 22
+          },
+          {
+            "move": "miracle-eye",
+            "level": 29
+          },
+          {
+            "move": "psycho-cut",
+            "level": 36
+          },
+          {
+            "move": "guard-swap",
+            "level": 43
+          },
+          {
+            "move": "power-swap",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 50
+          },
+          {
+            "move": "psychic",
+            "level": 57
+          },
+          {
+            "move": "barrier",
+            "level": 64
+          },
+          {
+            "move": "aura-sphere",
+            "level": 70
+          },
+          {
+            "move": "amnesia",
+            "level": 79
+          },
+          {
+            "move": "mist",
+            "level": 86
+          },
+          {
+            "move": "me-first",
+            "level": 93
+          },
+          {
+            "move": "psystrike",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "low-sweep",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/150.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/150.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ultra Space Ultra Space Wilds Rocky",
+            "method": "Only One",
+            "minLevel": 60,
+            "maxLevel": 60
+          },
+          {
+            "location": "Ultra Space Wilds Crag",
+            "method": "Only One",
+            "minLevel": 60,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "laser-focus",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 1
+          },
+          {
+            "move": "safeguard",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 8
+          },
+          {
+            "move": "future-sight",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 22
+          },
+          {
+            "move": "miracle-eye",
+            "level": 29
+          },
+          {
+            "move": "psycho-cut",
+            "level": 36
+          },
+          {
+            "move": "guard-swap",
+            "level": 43
+          },
+          {
+            "move": "power-swap",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 50
+          },
+          {
+            "move": "psychic",
+            "level": 57
+          },
+          {
+            "move": "barrier",
+            "level": 64
+          },
+          {
+            "move": "aura-sphere",
+            "level": 70
+          },
+          {
+            "move": "amnesia",
+            "level": 79
+          },
+          {
+            "move": "mist",
+            "level": 86
+          },
+          {
+            "move": "me-first",
+            "level": 93
+          },
+          {
+            "move": "psystrike",
+            "level": 100
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "low-sweep",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "laser-focus",
+          "low-kick",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "telekinesis",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "150",
+      "flavorText": "Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confuse-ray",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 11
+          },
+          {
+            "move": "psybeam",
+            "level": 22
+          },
+          {
+            "move": "swift",
+            "level": 33
+          },
+          {
+            "move": "amnesia",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 55
+          },
+          {
+            "move": "psychic",
+            "level": 66
+          },
+          {
+            "move": "barrier",
+            "level": 77
+          },
+          {
+            "move": "agility",
+            "level": 88
+          },
+          {
+            "move": "calm-mind",
+            "level": 99
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "calm-mind",
+          "dream-eater",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "foul-play",
+          "headbutt",
+          "hyper-beam",
+          "ice-beam",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "pay-day",
+          "poison-jab",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "self-destruct",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "taunt",
+          "teleport",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "laser-focus",
+            "level": 1
+          },
+          {
+            "move": "life-dew",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 1
+          },
+          {
+            "move": "ancient-power",
+            "level": 8
+          },
+          {
+            "move": "psycho-cut",
+            "level": 16
+          },
+          {
+            "move": "safeguard",
+            "level": 24
+          },
+          {
+            "move": "amnesia",
+            "level": 32
+          },
+          {
+            "move": "aura-sphere",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 48
+          },
+          {
+            "move": "guard-swap",
+            "level": 56
+          },
+          {
+            "move": "power-swap",
+            "level": 56
+          },
+          {
+            "move": "mist",
+            "level": 64
+          },
+          {
+            "move": "psystrike",
+            "level": 72
+          },
+          {
+            "move": "recover",
+            "level": 80
+          },
+          {
+            "move": "future-sight",
+            "level": 88
+          }
+        ],
+        "machine": [
+          "agility",
+          "ally-switch",
+          "amnesia",
+          "aura-sphere",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "brutal-swing",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "dive",
+          "drain-punch",
+          "earthquake",
+          "electro-ball",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "foul-play",
+          "future-sight",
+          "giga-impact",
+          "grass-knot",
+          "guard-swap",
+          "hail",
+          "hurricane",
+          "hyper-beam",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "magic-room",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "nasty-plot",
+          "pay-day",
+          "poison-jab",
+          "power-swap",
+          "protect",
+          "psychic",
+          "psychic-terrain",
+          "psycho-cut",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "self-destruct",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "speed-swap",
+          "stone-edge",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "tri-attack",
+          "trick",
+          "trick-room",
+          "will-o-wisp",
+          "wonder-room",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": [
+          "expanding-force"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "150",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/150.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Ramanas Park (requires Genome Slate) (Only one)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "laser-focus",
+            "level": 1
+          },
+          {
+            "move": "life-dew",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 1
+          },
+          {
+            "move": "ancient-power",
+            "level": 8
+          },
+          {
+            "move": "psycho-cut",
+            "level": 16
+          },
+          {
+            "move": "safeguard",
+            "level": 24
+          },
+          {
+            "move": "amnesia",
+            "level": 32
+          },
+          {
+            "move": "aura-sphere",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 48
+          },
+          {
+            "move": "guard-swap",
+            "level": 56
+          },
+          {
+            "move": "power-swap",
+            "level": 56
+          },
+          {
+            "move": "mist",
+            "level": 64
+          },
+          {
+            "move": "psystrike",
+            "level": 72
+          },
+          {
+            "move": "recover",
+            "level": 80
+          },
+          {
+            "move": "future-sight",
+            "level": 88
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "low-sweep",
+          "nasty-plot",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "trick-room",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/150.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "life-dew",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 1
+          },
+          {
+            "move": "ancient-power",
+            "level": 8
+          },
+          {
+            "move": "psycho-cut",
+            "level": 16
+          },
+          {
+            "move": "safeguard",
+            "level": 24
+          },
+          {
+            "move": "amnesia",
+            "level": 32
+          },
+          {
+            "move": "aura-sphere",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 48
+          },
+          {
+            "move": "guard-swap",
+            "level": 56
+          },
+          {
+            "move": "power-swap",
+            "level": 56
+          },
+          {
+            "move": "mist",
+            "level": 64
+          },
+          {
+            "move": "psystrike",
+            "level": 72
+          },
+          {
+            "move": "recover",
+            "level": 80
+          },
+          {
+            "move": "future-sight",
+            "level": 88
+          }
+        ],
+        "machine": [
+          "agility",
+          "amnesia",
+          "aura-sphere",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "calm-mind",
+          "chilling-water",
+          "confuse-ray",
+          "curse",
+          "dark-pulse",
+          "double-edge",
+          "drain-punch",
+          "earth-power",
+          "earthquake",
+          "electro-ball",
+          "endure",
+          "energy-ball",
+          "expanding-force",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "foul-play",
+          "future-sight",
+          "giga-impact",
+          "grass-knot",
+          "gravity",
+          "helping-hand",
+          "hex",
+          "hurricane",
+          "hyper-beam",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "imprison",
+          "knock-off",
+          "lash-out",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "metronome",
+          "nasty-plot",
+          "night-shade",
+          "poison-jab",
+          "power-gem",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "psychic-terrain",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "reversal",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "spite",
+          "stomping-tantrum",
+          "stone-edge",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "trick",
+          "trick-room",
+          "weather-ball",
+          "will-o-wisp",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

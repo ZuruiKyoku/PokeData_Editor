@@ -1,0 +1,2539 @@
+{
+  "dex": 39,
+  "keyword": "jigglypuff",
+  "name": "Jigglypuff",
+  "japaneseName": {
+    "kana": "プリン",
+    "romaji": "Purin"
+  },
+  "type1": "Normal",
+  "type2": "Fairy",
+  "genus": "Balloon Pokémon",
+  "heightM": 0.5,
+  "weightKg": 5.5,
+  "stats": {
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "specialAttack": 45,
+    "specialDefense": 25,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "hidden": false,
+      "effect": "Has a 30% chance of infatuating attacking Pokémon on contact."
+    },
+    {
+      "name": "competitive",
+      "hidden": false,
+      "effect": "Raises Special Attack by two stages upon having any stat lowered."
+    },
+    {
+      "name": "friend-guard",
+      "hidden": true,
+      "effect": "Decreases all direct damage taken by friendly Pokémon to 0.75×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 6,
+    "hatchCycles": 10,
+    "captureRate": 170,
+    "baseFriendship": 70,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "pink",
+    "shape": "humanoid",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 174,
+    "evolvesIntoDex": [
+      40
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0039.png",
+    "shiny": "sprites/shiny/0039.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/39.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/39.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "39",
+      "flavorText": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/39.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 14
+          },
+          {
+            "move": "defense-curl",
+            "level": 19
+          },
+          {
+            "move": "rollout",
+            "level": 19
+          },
+          {
+            "move": "double-slap",
+            "level": 24
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "body-slam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 39
+          },
+          {
+            "move": "mimic",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 44
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bubble-beam",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "seismic-toss",
+          "shadow-ball",
+          "shock-wave",
+          "skull-bash",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "seismic-toss",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "44",
+      "flavorText": "It rolls its cute eyes as it sings a soothing lullaby. Its gentle song puts anyone who hears it to sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 14
+          },
+          {
+            "move": "rollout",
+            "level": 19
+          },
+          {
+            "move": "double-slap",
+            "level": 24
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "body-slam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "detect",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "mud-slap",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rollout",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "138",
+      "flavorText": "Nothing can avoid falling asleep hearing a JIGGLYPUFF’s song. The sound waves of its singing voice match the brain waves of someone in a deep sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 115",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 14
+          },
+          {
+            "move": "rollout",
+            "level": 19
+          },
+          {
+            "move": "double-slap",
+            "level": 24
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "body-slam",
+            "level": 34
+          },
+          {
+            "move": "mimic",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 44
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 13
+          },
+          {
+            "move": "rollout",
+            "level": 17
+          },
+          {
+            "move": "double-slap",
+            "level": 21
+          },
+          {
+            "move": "rest",
+            "level": 25
+          },
+          {
+            "move": "body-slam",
+            "level": 29
+          },
+          {
+            "move": "gyro-ball",
+            "level": 33
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 37
+          },
+          {
+            "move": "mimic",
+            "level": 41
+          },
+          {
+            "move": "hyper-voice",
+            "level": 45
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 13
+          },
+          {
+            "move": "rollout",
+            "level": 17
+          },
+          {
+            "move": "double-slap",
+            "level": 21
+          },
+          {
+            "move": "rest",
+            "level": 25
+          },
+          {
+            "move": "body-slam",
+            "level": 29
+          },
+          {
+            "move": "gyro-ball",
+            "level": 33
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 37
+          },
+          {
+            "move": "mimic",
+            "level": 41
+          },
+          {
+            "move": "hyper-voice",
+            "level": 45
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "endeavor",
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "44",
+      "flavorText": "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 13
+          },
+          {
+            "move": "rollout",
+            "level": 17
+          },
+          {
+            "move": "double-slap",
+            "level": 21
+          },
+          {
+            "move": "rest",
+            "level": 25
+          },
+          {
+            "move": "body-slam",
+            "level": 29
+          },
+          {
+            "move": "gyro-ball",
+            "level": 33
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 37
+          },
+          {
+            "move": "mimic",
+            "level": 41
+          },
+          {
+            "move": "hyper-voice",
+            "level": 45
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "endeavor",
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "heal-bell",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "mud-slap",
+          "pain-split",
+          "role-play",
+          "rollout",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 14",
+            "method": "Dark Grass",
+            "minLevel": 58,
+            "maxLevel": 58
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 13
+          },
+          {
+            "move": "round",
+            "level": 17
+          },
+          {
+            "move": "rollout",
+            "level": 21
+          },
+          {
+            "move": "double-slap",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "body-slam",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 41
+          },
+          {
+            "move": "mimic",
+            "level": 45
+          },
+          {
+            "move": "hyper-voice",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "282",
+      "flavorText": "Looking into its cute, round eyes makes it start singing a song so pleasant listeners can’t help but fall asleep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dreamyard",
+            "method": "Dark Grass",
+            "minLevel": 65,
+            "maxLevel": 65
+          },
+          {
+            "location": "Dreamyard",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Dreamyard B1f",
+            "method": "Dark Grass",
+            "minLevel": 65,
+            "maxLevel": 65
+          },
+          {
+            "location": "Route 1",
+            "method": "Dark Grass",
+            "minLevel": 65,
+            "maxLevel": 65
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 2",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "pound",
+            "level": 9
+          },
+          {
+            "move": "disable",
+            "level": 13
+          },
+          {
+            "move": "round",
+            "level": 17
+          },
+          {
+            "move": "rollout",
+            "level": 21
+          },
+          {
+            "move": "double-slap",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "body-slam",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 41
+          },
+          {
+            "move": "mimic",
+            "level": 45
+          },
+          {
+            "move": "hyper-voice",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "pain-split",
+          "recycle",
+          "role-play",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M120",
+      "flavorText": "If it inflates to sing a lullaby, it can perform longer and cause sure drowsiness in its audience.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pokemon Village",
+            "method": "Purple Flowers",
+            "minLevel": 48,
+            "maxLevel": 49
+          },
+          {
+            "location": "Pokemon Village",
+            "method": "Yellow Flowers",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 20",
+            "method": "Red Flowers",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 20",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "pound",
+            "level": 7
+          },
+          {
+            "move": "play-nice",
+            "level": 10
+          },
+          {
+            "move": "disable",
+            "level": 13
+          },
+          {
+            "move": "round",
+            "level": 17
+          },
+          {
+            "move": "rollout",
+            "level": 21
+          },
+          {
+            "move": "double-slap",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "body-slam",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 41
+          },
+          {
+            "move": "mimic",
+            "level": 45
+          },
+          {
+            "move": "hyper-voice",
+            "level": 48
+          },
+          {
+            "move": "disarming-voice",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "143",
+      "flavorText": "When this Pokémon sings, it never pauses to breathe. If it is in a battle against an opponent that does not easily fall asleep, Jigglypuff cannot breathe, endangering its life.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 3
+          },
+          {
+            "move": "pound",
+            "level": 5
+          },
+          {
+            "move": "play-nice",
+            "level": 8
+          },
+          {
+            "move": "disarming-voice",
+            "level": 11
+          },
+          {
+            "move": "disable",
+            "level": 15
+          },
+          {
+            "move": "double-slap",
+            "level": 18
+          },
+          {
+            "move": "rollout",
+            "level": 21
+          },
+          {
+            "move": "round",
+            "level": 24
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 28
+          },
+          {
+            "move": "rest",
+            "level": 32
+          },
+          {
+            "move": "body-slam",
+            "level": 35
+          },
+          {
+            "move": "mimic",
+            "level": 37
+          },
+          {
+            "move": "gyro-ball",
+            "level": 40
+          },
+          {
+            "move": "hyper-voice",
+            "level": 44
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "pain-split",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "135",
+      "flavorText": "Jigglypuff possess a vocal range that exceeds 12 octaves, but each individual’s singing skill depends on its own effort.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Sos Encounter",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6 North",
+            "method": "Sos Encounter",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6 South",
+            "method": "Sos Encounter",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 3
+          },
+          {
+            "move": "pound",
+            "level": 5
+          },
+          {
+            "move": "play-nice",
+            "level": 9
+          },
+          {
+            "move": "disarming-voice",
+            "level": 11
+          },
+          {
+            "move": "disable",
+            "level": 14
+          },
+          {
+            "move": "double-slap",
+            "level": 17
+          },
+          {
+            "move": "rollout",
+            "level": 20
+          },
+          {
+            "move": "round",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 25
+          },
+          {
+            "move": "stockpile",
+            "level": 25
+          },
+          {
+            "move": "swallow",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 27
+          },
+          {
+            "move": "rest",
+            "level": 30
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "gyro-ball",
+            "level": 35
+          },
+          {
+            "move": "mimic",
+            "level": 38
+          },
+          {
+            "move": "hyper-voice",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "168",
+      "flavorText": "The songs they sing are totally different depending on the region they live in. Some even sound like they’re shouting!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/39.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/39.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Sos Encounter",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 6 North",
+            "method": "Sos Encounter",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6 South",
+            "method": "Sos Encounter",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 3
+          },
+          {
+            "move": "pound",
+            "level": 5
+          },
+          {
+            "move": "play-nice",
+            "level": 9
+          },
+          {
+            "move": "disarming-voice",
+            "level": 11
+          },
+          {
+            "move": "disable",
+            "level": 14
+          },
+          {
+            "move": "double-slap",
+            "level": 17
+          },
+          {
+            "move": "rollout",
+            "level": 20
+          },
+          {
+            "move": "round",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 25
+          },
+          {
+            "move": "stockpile",
+            "level": 25
+          },
+          {
+            "move": "swallow",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 27
+          },
+          {
+            "move": "rest",
+            "level": 30
+          },
+          {
+            "move": "body-slam",
+            "level": 32
+          },
+          {
+            "move": "gyro-ball",
+            "level": 35
+          },
+          {
+            "move": "mimic",
+            "level": 38
+          },
+          {
+            "move": "hyper-voice",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "gyro-ball",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "ally-switch",
+          "bounce",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "pain-split",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "telekinesis",
+          "thunder-punch",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "39",
+      "flavorText": "Uses its cute round eyes to enrapture its foe. It then sings a pleasing melody that lulls the foe to sleep.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 4
+          },
+          {
+            "move": "defense-curl",
+            "level": 6
+          },
+          {
+            "move": "bide",
+            "level": 10
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "disable",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 18
+          },
+          {
+            "move": "body-slam",
+            "level": 22
+          },
+          {
+            "move": "mimic",
+            "level": 24
+          },
+          {
+            "move": "double-edge",
+            "level": 28
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brick-break",
+          "dazzling-gleam",
+          "dig",
+          "dream-eater",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "ice-beam",
+          "ice-punch",
+          "light-screen",
+          "play-rough",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "seismic-toss",
+          "shadow-ball",
+          "solar-beam",
+          "stealth-rock",
+          "substitute",
+          "teleport",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A012",
+      "flavorText": "By freely changing the wavelength of its voice, Jigglypuff sings a mysterious melody sure to make any listener sleepy.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "echoed-voice",
+            "level": 4
+          },
+          {
+            "move": "covet",
+            "level": 8
+          },
+          {
+            "move": "spit-up",
+            "level": 12
+          },
+          {
+            "move": "stockpile",
+            "level": 12
+          },
+          {
+            "move": "swallow",
+            "level": 12
+          },
+          {
+            "move": "round",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "body-slam",
+            "level": 24
+          },
+          {
+            "move": "mimic",
+            "level": 28
+          },
+          {
+            "move": "gyro-ball",
+            "level": 32
+          },
+          {
+            "move": "hyper-voice",
+            "level": 36
+          },
+          {
+            "move": "play-rough",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "baton-pass",
+          "blizzard",
+          "body-slam",
+          "bounce",
+          "brick-break",
+          "charm",
+          "dazzling-gleam",
+          "dig",
+          "drain-punch",
+          "draining-kiss",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "grass-knot",
+          "gyro-ball",
+          "helping-hand",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "misty-terrain",
+          "play-rough",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "round",
+          "safeguard",
+          "screech",
+          "self-destruct",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "stealth-rock",
+          "substitute",
+          "sunny-day",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "tri-attack",
+          "uproar",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "misty-explosion",
+          "steel-roller"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "39",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/39.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Trophy Garden"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "echoed-voice",
+            "level": 4
+          },
+          {
+            "move": "covet",
+            "level": 8
+          },
+          {
+            "move": "spit-up",
+            "level": 12
+          },
+          {
+            "move": "stockpile",
+            "level": 12
+          },
+          {
+            "move": "swallow",
+            "level": 12
+          },
+          {
+            "move": "round",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "body-slam",
+            "level": 24
+          },
+          {
+            "move": "mimic",
+            "level": 28
+          },
+          {
+            "move": "gyro-ball",
+            "level": 32
+          },
+          {
+            "move": "hyper-voice",
+            "level": 36
+          },
+          {
+            "move": "play-rough",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "gyro-ball",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "safeguard",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P060",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/39.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Two | West Province: Area Three | South Province: Area Three ( Type) | Tera Raid Battles (2★ Jigglypuff)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "echoed-voice",
+            "level": 4
+          },
+          {
+            "move": "covet",
+            "level": 8
+          },
+          {
+            "move": "spit-up",
+            "level": 12
+          },
+          {
+            "move": "stockpile",
+            "level": 12
+          },
+          {
+            "move": "swallow",
+            "level": 12
+          },
+          {
+            "move": "round",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "body-slam",
+            "level": 24
+          },
+          {
+            "move": "mimic",
+            "level": 28
+          },
+          {
+            "move": "gyro-ball",
+            "level": 32
+          },
+          {
+            "move": "hyper-voice",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "alluring-voice",
+          "amnesia",
+          "baton-pass",
+          "blizzard",
+          "body-press",
+          "body-slam",
+          "brick-break",
+          "calm-mind",
+          "charm",
+          "chilling-water",
+          "dark-pulse",
+          "dazzling-gleam",
+          "dig",
+          "disarming-voice",
+          "double-edge",
+          "drain-punch",
+          "draining-kiss",
+          "encore",
+          "endeavor",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "gravity",
+          "gyro-ball",
+          "helping-hand",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "ice-spinner",
+          "icy-wind",
+          "knock-off",
+          "light-screen",
+          "magical-leaf",
+          "metronome",
+          "misty-explosion",
+          "misty-terrain",
+          "nasty-plot",
+          "pain-split",
+          "play-rough",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "sandstorm",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "stealth-rock",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "uproar",
+          "water-pulse",
+          "wild-charge",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H077",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

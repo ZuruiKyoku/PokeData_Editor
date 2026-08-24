@@ -1,0 +1,2384 @@
+{
+  "dex": 24,
+  "keyword": "arbok",
+  "name": "Arbok",
+  "japaneseName": {
+    "kana": "アーボック",
+    "romaji": "Arbok"
+  },
+  "type1": "Poison",
+  "type2": null,
+  "genus": "Cobra Pokémon",
+  "heightM": 3.5,
+  "weightKg": 65.0,
+  "stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 69,
+    "specialAttack": 65,
+    "specialDefense": 79,
+    "speed": 80
+  },
+  "abilities": [
+    {
+      "name": "intimidate",
+      "hidden": false,
+      "effect": "Lowers opponents' Attack one stage upon entering battle."
+    },
+    {
+      "name": "shed-skin",
+      "hidden": false,
+      "effect": "Has a 33% chance of curing any major status ailment after each turn."
+    },
+    {
+      "name": "unnerve",
+      "hidden": true,
+      "effect": "Prevents opposing Pokémon from eating held Berries."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "squiggle",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 23,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0024.png",
+    "shiny": "sprites/shiny/0024.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/24.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/24.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "24",
+      "flavorText": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/24.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 23",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Victory Road 2 1f",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Victory Road 2 2f",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Victory Road 2 3f",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 8
+          },
+          {
+            "move": "poison-sting",
+            "level": 10
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "glare",
+            "level": 20
+          },
+          {
+            "move": "glare",
+            "level": 27
+          },
+          {
+            "move": "screech",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 36
+          },
+          {
+            "move": "acid",
+            "level": 38
+          },
+          {
+            "move": "spit-up",
+            "level": 46
+          },
+          {
+            "move": "stockpile",
+            "level": 46
+          },
+          {
+            "move": "swallow",
+            "level": 46
+          },
+          {
+            "move": "acid",
+            "level": 47
+          },
+          {
+            "move": "haze",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fissure",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "secret-power",
+          "skull-bash",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "rock-slide",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "51",
+      "flavorText": "To intimidate foes, it spreads its chest wide and makes eerie sounds by expelling air from its mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 26",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 27",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 42",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 15
+          },
+          {
+            "move": "glare",
+            "level": 25
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "acid",
+            "level": 43
+          },
+          {
+            "move": "haze",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "frustration",
+          "giga-drain",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "This POKéMON has a terrifically strong constricting power. It can even flatten steel oil drums. Once it wraps its body around its foe, escaping is impossible.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 8
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "glare",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 28
+          },
+          {
+            "move": "acid",
+            "level": 38
+          },
+          {
+            "move": "spit-up",
+            "level": 46
+          },
+          {
+            "move": "stockpile",
+            "level": 46
+          },
+          {
+            "move": "swallow",
+            "level": 46
+          },
+          {
+            "move": "haze",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "sunny-day",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "rock-slide",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 26
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 26
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 28
+          },
+          {
+            "move": "stockpile",
+            "level": 28
+          },
+          {
+            "move": "swallow",
+            "level": 28
+          },
+          {
+            "move": "mud-bomb",
+            "level": 34
+          },
+          {
+            "move": "gastro-acid",
+            "level": 42
+          },
+          {
+            "move": "haze",
+            "level": 48
+          },
+          {
+            "move": "gunk-shot",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 28
+          },
+          {
+            "move": "stockpile",
+            "level": 28
+          },
+          {
+            "move": "swallow",
+            "level": 28
+          },
+          {
+            "move": "mud-bomb",
+            "level": 34
+          },
+          {
+            "move": "gastro-acid",
+            "level": 42
+          },
+          {
+            "move": "haze",
+            "level": 48
+          },
+          {
+            "move": "gunk-shot",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "gastro-acid",
+          "gunk-shot",
+          "seed-bomb",
+          "snore",
+          "spite"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "51",
+      "flavorText": "With a very vengeful nature, it won’t give up the chase, no matter how far, once it targets its prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 26",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 27",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 28
+          },
+          {
+            "move": "stockpile",
+            "level": 28
+          },
+          {
+            "move": "swallow",
+            "level": 28
+          },
+          {
+            "move": "mud-bomb",
+            "level": 34
+          },
+          {
+            "move": "gastro-acid",
+            "level": 42
+          },
+          {
+            "move": "haze",
+            "level": 48
+          },
+          {
+            "move": "gunk-shot",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "gastro-acid",
+          "gunk-shot",
+          "headbutt",
+          "seed-bomb",
+          "snore",
+          "spite"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "mud-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "mud-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bind",
+          "dark-pulse",
+          "gastro-acid",
+          "giga-drain",
+          "gunk-shot",
+          "iron-tail",
+          "seed-bomb",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "spite"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M38",
+      "flavorText": "To intimidate foes, it spreads its chest wide and makes eerie sounds by expelling air from its mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "mud-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "belch",
+            "level": 48
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "crunch",
+            "level": 22
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "mud-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "belch",
+            "level": 48
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bind",
+          "gastro-acid",
+          "giga-drain",
+          "gunk-shot",
+          "iron-tail",
+          "seed-bomb",
+          "snatch",
+          "snore",
+          "spite"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "crunch",
+            "level": 0
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "crunch",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "mud-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "belch",
+            "level": 48
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "62",
+      "flavorText": "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/24.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/24.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8 Main",
+            "method": "Npc Trade",
+            "minLevel": 22,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "crunch",
+            "level": 0
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "crunch",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "mud-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "belch",
+            "level": 48
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bind",
+          "gastro-acid",
+          "giga-drain",
+          "gunk-shot",
+          "iron-tail",
+          "seed-bomb",
+          "snatch",
+          "snore",
+          "spite",
+          "stomping-tantrum",
+          "throat-chop"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "24",
+      "flavorText": "The frightening patterns on its belly have been studied. Six variations have been confirmed.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "crunch",
+            "level": 0
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "crunch",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "sucker-punch",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 4
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "haze",
+            "level": 16
+          },
+          {
+            "move": "glare",
+            "level": 20
+          },
+          {
+            "move": "poison-jab",
+            "level": 28
+          },
+          {
+            "move": "slam",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 44
+          },
+          {
+            "move": "toxic",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "dark-pulse",
+          "dig",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "iron-tail",
+          "mega-drain",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-slide",
+          "sludge-bomb",
+          "substitute",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "24",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/24.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "crunch",
+            "level": 0
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "crunch",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "belch",
+            "level": 48
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-drain",
+          "giga-impact",
+          "hyper-beam",
+          "iron-tail",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "torment"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K019",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/24.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mossfell Confluence, Fellhorn Gorge, Oni's Maw"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "crunch",
+            "level": 0
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "ice-fang",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "glare",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 20
+          },
+          {
+            "move": "spit-up",
+            "level": 27
+          },
+          {
+            "move": "stockpile",
+            "level": 27
+          },
+          {
+            "move": "swallow",
+            "level": 27
+          },
+          {
+            "move": "acid-spray",
+            "level": 32
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 39
+          },
+          {
+            "move": "gastro-acid",
+            "level": 44
+          },
+          {
+            "move": "belch",
+            "level": 48
+          },
+          {
+            "move": "haze",
+            "level": 51
+          },
+          {
+            "move": "coil",
+            "level": 56
+          },
+          {
+            "move": "gunk-shot",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "body-slam",
+          "breaking-swipe",
+          "bulldoze",
+          "crunch",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "dragon-tail",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-fang",
+          "giga-drain",
+          "giga-impact",
+          "gunk-shot",
+          "haze",
+          "hyper-beam",
+          "ice-fang",
+          "knock-off",
+          "lash-out",
+          "leech-life",
+          "mud-shot",
+          "mud-slap",
+          "pain-split",
+          "poison-jab",
+          "poison-tail",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "scale-shot",
+          "scary-face",
+          "seed-bomb",
+          "skitter-smack",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snarl",
+          "spite",
+          "stomping-tantrum",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder-fang",
+          "toxic",
+          "toxic-spikes",
+          "trailblaze",
+          "venoshock"
+        ],
+        "egg": [
+          "poison-fang",
+          "poison-tail",
+          "scary-face",
+          "spite",
+          "sucker-punch",
+          "switcheroo"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "61",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Bleu District: Wild Zone 10 | Magenta District: Lysandre Labs | Rouge District: Rouge Sector 8",
+          "Hyperspace Lumiose (3★ Poison-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "dex": 769,
+  "keyword": "sandygast",
+  "name": "Sandygast",
+  "japaneseName": {
+    "kana": "スナバァ",
+    "romaji": "Sunaba"
+  },
+  "type1": "Ghost",
+  "type2": "Ground",
+  "genus": "Sand Heap Pokémon",
+  "heightM": 0.5,
+  "weightKg": 70.0,
+  "stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 45,
+    "speed": 15
+  },
+  "abilities": [
+    {
+      "name": "water-compaction",
+      "hidden": false,
+      "effect": "Raises this Pokémon's Defense by two stages when it's hit by a Water move."
+    },
+    {
+      "name": "sand-veil",
+      "hidden": true,
+      "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "indeterminate"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 140,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "squiggle",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      770
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0769.png",
+    "shiny": "sprites/shiny/0769.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/769.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "186",
+      "flavorText": "It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/769.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/769.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hano Beach",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "sand-tomb",
+            "level": 14
+          },
+          {
+            "move": "mega-drain",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 23
+          },
+          {
+            "move": "hypnosis",
+            "level": 27
+          },
+          {
+            "move": "iron-defense",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 36
+          },
+          {
+            "move": "shadow-ball",
+            "level": 41
+          },
+          {
+            "move": "earth-power",
+            "level": 45
+          },
+          {
+            "move": "shore-up",
+            "level": 50
+          },
+          {
+            "move": "sandstorm",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "amnesia",
+          "ancient-power",
+          "destiny-bond",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "225",
+      "flavorText": "If you build sand mounds when you’re playing, destroy them before you go home, or they may get possessed and become Sandygast.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/769.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/769.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hano Beach",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 15 Main",
+            "method": "Only One",
+            "minLevel": 30,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 9
+          },
+          {
+            "move": "sand-tomb",
+            "level": 14
+          },
+          {
+            "move": "mega-drain",
+            "level": 18
+          },
+          {
+            "move": "bulldoze",
+            "level": 23
+          },
+          {
+            "move": "hypnosis",
+            "level": 27
+          },
+          {
+            "move": "iron-defense",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 36
+          },
+          {
+            "move": "shadow-ball",
+            "level": 41
+          },
+          {
+            "move": "earth-power",
+            "level": 45
+          },
+          {
+            "move": "shore-up",
+            "level": 50
+          },
+          {
+            "move": "sandstorm",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "amnesia",
+          "ancient-power",
+          "curse",
+          "destiny-bond",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "after-you",
+          "block",
+          "earth-power",
+          "giga-drain",
+          "gravity",
+          "iron-defense",
+          "pain-split",
+          "recycle",
+          "role-play",
+          "skill-swap",
+          "snore",
+          "spite",
+          "stealth-rock",
+          "trick"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A133",
+      "flavorText": "Sandygast mainly inhabits beaches. It takes control of anyone who puts their hand into its mouth, forcing them to make its body bigger.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "sand-tomb",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "sand-attack",
+            "level": 20
+          },
+          {
+            "move": "bulldoze",
+            "level": 25
+          },
+          {
+            "move": "hypnosis",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 35
+          },
+          {
+            "move": "iron-defense",
+            "level": 40
+          },
+          {
+            "move": "shadow-ball",
+            "level": 45
+          },
+          {
+            "move": "earth-power",
+            "level": 50
+          },
+          {
+            "move": "shore-up",
+            "level": 55
+          },
+          {
+            "move": "sandstorm",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "brine",
+          "bulldoze",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "iron-defense",
+          "mud-shot",
+          "protect",
+          "psychic",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sand-tomb",
+          "sandstorm",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "stealth-rock",
+          "stone-edge",
+          "substitute",
+          "trick"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "destiny-bond",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "poltergeist",
+          "scorching-sands"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P322",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/769.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Five | East Province: Area Two | West Province: Area Two | West Province: Asado Desert ( Type) | Tera Raid Battles (2★ Sandygast)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "sand-tomb",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "sand-attack",
+            "level": 20
+          },
+          {
+            "move": "bulldoze",
+            "level": 25
+          },
+          {
+            "move": "hypnosis",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 35
+          },
+          {
+            "move": "iron-defense",
+            "level": 40
+          },
+          {
+            "move": "shadow-ball",
+            "level": 45
+          },
+          {
+            "move": "earth-power",
+            "level": 50
+          },
+          {
+            "move": "shore-up",
+            "level": 55
+          },
+          {
+            "move": "sandstorm",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "bulldoze",
+          "chilling-water",
+          "confuse-ray",
+          "curse",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash-cannon",
+          "fling",
+          "giga-drain",
+          "gravity",
+          "hex",
+          "imprison",
+          "iron-defense",
+          "mud-shot",
+          "mud-slap",
+          "night-shade",
+          "pain-split",
+          "poltergeist",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "scary-face",
+          "scorching-sands",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "spite",
+          "stealth-rock",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "tera-blast",
+          "trick"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "destiny-bond",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H025",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

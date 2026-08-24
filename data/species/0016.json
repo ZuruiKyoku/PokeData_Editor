@@ -1,0 +1,1926 @@
+{
+  "dex": 16,
+  "keyword": "pidgey",
+  "name": "Pidgey",
+  "japaneseName": {
+    "kana": "ポッポ",
+    "romaji": "Poppo"
+  },
+  "type1": "Normal",
+  "type2": "Flying",
+  "genus": "Tiny Bird Pokémon",
+  "heightM": 0.3,
+  "weightKg": 1.8,
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 56
+  },
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "tangled-feet",
+      "hidden": false,
+      "effect": "Doubles evasion when confused."
+    },
+    {
+      "name": "big-pecks",
+      "hidden": true,
+      "effect": "Protects against Defense drops."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "wings",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      17
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0016.png",
+    "shiny": "sprites/shiny/0016.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/16.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/16.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "16",
+      "flavorText": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/16.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Bond Bridge",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 32
+          },
+          {
+            "location": "Five Isle Meadow",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 22
+          },
+          {
+            "location": "Sea Route 21",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 23
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 25
+          },
+          {
+            "move": "wing-attack",
+            "level": 28
+          },
+          {
+            "move": "feather-dance",
+            "level": 31
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "agility",
+            "level": 39
+          },
+          {
+            "move": "mirror-move",
+            "level": 44
+          },
+          {
+            "move": "mirror-move",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "double-edge",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "razor-wind",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "sky-attack",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "thief",
+          "toxic",
+          "whirlwind"
+        ],
+        "egg": [
+          "air-cutter",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing"
+        ],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "10",
+      "flavorText": "It rapidly flaps its wings in the grass, stirring up a dust cloud that drives insect prey out into the open.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 32",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 15
+          },
+          {
+            "move": "whirlwind",
+            "level": 21
+          },
+          {
+            "move": "wing-attack",
+            "level": 29
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "mirror-move",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "detect",
+          "double-team",
+          "endure",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 19
+          },
+          {
+            "move": "wing-attack",
+            "level": 25
+          },
+          {
+            "move": "feather-dance",
+            "level": 31
+          },
+          {
+            "move": "agility",
+            "level": 39
+          },
+          {
+            "move": "mirror-move",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "steel-wing",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing"
+        ],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": [
+          "air-cutter",
+          "heat-wave",
+          "mud-slap",
+          "ominous-wind",
+          "snore",
+          "swift",
+          "twister",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "10",
+      "flavorText": "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Safari Zone Zone Forest",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 7
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": [
+          "air-cutter",
+          "heat-wave",
+          "mud-slap",
+          "ominous-wind",
+          "snore",
+          "swift",
+          "tailwind",
+          "twister",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "defog",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "defog",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": [
+          "heat-wave",
+          "roost",
+          "sleep-talk",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "17",
+      "flavorText": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "defog",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "defog",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": [
+          "heat-wave",
+          "sky-attack",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "defog",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/16.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/16.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "mirror-move",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "defog",
+          "feint-attack",
+          "foresight",
+          "pursuit",
+          "steel-wing",
+          "uproar"
+        ],
+        "tutor": [
+          "defog",
+          "heat-wave",
+          "sky-attack",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "16",
+      "flavorText": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 3
+          },
+          {
+            "move": "gust",
+            "level": 5
+          },
+          {
+            "move": "mirror-move",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 17
+          },
+          {
+            "move": "whirlwind",
+            "level": 21
+          },
+          {
+            "move": "agility",
+            "level": 23
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "razor-wind",
+            "level": 29
+          }
+        ],
+        "machine": [
+          "facade",
+          "fly",
+          "headbutt",
+          "protect",
+          "reflect",
+          "rest",
+          "roost",
+          "substitute",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "16",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/16.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 229 (Sinnoh) (Swarm)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 5
+          },
+          {
+            "move": "gust",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "whirlwind",
+            "level": 17
+          },
+          {
+            "move": "twister",
+            "level": 21
+          },
+          {
+            "move": "feather-dance",
+            "level": 25
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "wing-attack",
+            "level": 33
+          },
+          {
+            "move": "roost",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "aerial-ace",
+            "level": 45
+          },
+          {
+            "move": "air-slash",
+            "level": 49
+          },
+          {
+            "move": "hurricane",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roost",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "21",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vernal Avenue, Hibernal Avenue | Vert District: Vert Sector 1, Vert Sector 3, Vert Sector 4, Vert Sector 5, Vert Sector 6, Vert Sector 7, Vert Sector 8, Vert Sector 9, Wild Zone 1 | Bleu District: South Boulevard, Aymlis Park, Bleu Sector 3, Bleu Sector 4, Bleu Sector 5, Bleu Sector 6, Bleu Sector 7, Bleu Sector 8, Wild Zone 5 | Magenta District: South Boulevard, North Boulevard, Magenta Street, Magenta Plaza, Magenta Sector 1, Magenta Sector 3 | Rouge District: Rouge Street, Rouge Plaza, Rouge Sector 1, Rouge Sector 3, Rouge Sector 5 | Jaune District: Jaune Street, Jaune Sector 1, Jaune Sector 2, Jaune Sector 3, Jaune Sector 4, Jaune Sector 6, Jaune Sector 7, Jaune Sector 9",
+          "Hyperspace Lumiose (1★, 2★, & 3★ Normal-type wild zones, 1★ & 3★ Flying-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

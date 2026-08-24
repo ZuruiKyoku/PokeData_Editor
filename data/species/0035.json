@@ -1,0 +1,2929 @@
+{
+  "dex": 35,
+  "keyword": "clefairy",
+  "name": "Clefairy",
+  "japaneseName": {
+    "kana": "ピッピ",
+    "romaji": "Pippi"
+  },
+  "type1": "Fairy",
+  "type2": null,
+  "genus": "Fairy Pokémon",
+  "heightM": 0.6,
+  "weightKg": 7.5,
+  "stats": {
+    "hp": 70,
+    "attack": 45,
+    "defense": 48,
+    "specialAttack": 60,
+    "specialDefense": 65,
+    "speed": 35
+  },
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "hidden": false,
+      "effect": "Has a 30% chance of infatuating attacking Pokémon on contact."
+    },
+    {
+      "name": "magic-guard",
+      "hidden": false,
+      "effect": "Protects against damage not directly caused by a move."
+    },
+    {
+      "name": "friend-guard",
+      "hidden": true,
+      "effect": "Decreases all direct damage taken by friendly Pokémon to 0.75×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 6,
+    "hatchCycles": 10,
+    "captureRate": 150,
+    "baseFriendship": 140,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "pink",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 173,
+    "evolvesIntoDex": [
+      36
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0035.png",
+    "shiny": "sprites/shiny/0035.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/35.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/35.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "35",
+      "flavorText": "With its magical and cute appeal, it has many admirers. It is rare and found only in certain areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/35.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 11
+          },
+          {
+            "location": "Mt Moon B1f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Mt Moon B2f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "sing",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 13
+          },
+          {
+            "move": "sing",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 17
+          },
+          {
+            "move": "double-slap",
+            "level": 18
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "minimize",
+            "level": 24
+          },
+          {
+            "move": "defense-curl",
+            "level": 25
+          },
+          {
+            "move": "metronome",
+            "level": 29
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "cosmic-power",
+            "level": 33
+          },
+          {
+            "move": "moonlight",
+            "level": 37
+          },
+          {
+            "move": "defense-curl",
+            "level": 39
+          },
+          {
+            "move": "light-screen",
+            "level": 41
+          },
+          {
+            "move": "meteor-mash",
+            "level": 45
+          },
+          {
+            "move": "light-screen",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bubble-beam",
+          "calm-mind",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "seismic-toss",
+          "shadow-ball",
+          "shock-wave",
+          "skull-bash",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "seismic-toss",
+          "soft-boiled",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "41",
+      "flavorText": "Though rarely seen, it becomes easier to spot, for some reason, on the night of a full moon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 8
+          },
+          {
+            "move": "double-slap",
+            "level": 13
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "defense-curl",
+            "level": 26
+          },
+          {
+            "move": "metronome",
+            "level": 34
+          },
+          {
+            "move": "moonlight",
+            "level": 43
+          },
+          {
+            "move": "light-screen",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "detect",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "iron-tail",
+          "mud-slap",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rollout",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "On every night of a full moon, they come out to play. When dawn arrives, the tired CLEFAIRY go to sleep nestled up against each other in deep and quiet mountains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 5
+          },
+          {
+            "move": "sing",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 17
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "defense-curl",
+            "level": 25
+          },
+          {
+            "move": "metronome",
+            "level": 29
+          },
+          {
+            "move": "cosmic-power",
+            "level": 33
+          },
+          {
+            "move": "moonlight",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 41
+          },
+          {
+            "move": "meteor-mash",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "soft-boiled",
+          "substitute",
+          "swagger",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "100",
+      "flavorText": "It flies using the wings on its back to collect moonlight. This Pokémon is difficult to find.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Coronet 1f From Exterior",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Coronet 1f Route 216",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 32
+          },
+          {
+            "location": "Mt Coronet 2f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 38
+          },
+          {
+            "location": "Mt Coronet 3f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 38
+          },
+          {
+            "location": "Mt Coronet 4f",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Coronet 4f Small Room",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Coronet 5f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Coronet 6f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Coronet B1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 32
+          },
+          {
+            "location": "Mt Coronet Exterior Blizzard",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 39
+          },
+          {
+            "location": "Mt Coronet Exterior Snowfall",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 39
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "cosmic-power",
+            "level": 25
+          },
+          {
+            "move": "lucky-chant",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "gravity",
+            "level": 34
+          },
+          {
+            "move": "moonlight",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 40
+          },
+          {
+            "move": "meteor-mash",
+            "level": 43
+          },
+          {
+            "move": "healing-wish",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "100",
+      "flavorText": "It is said that happiness will come to those who see a gathering of CLEFAIRY dancing under a full moon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Coronet 1f From Exterior",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet 1f Route 207",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Mt Coronet 1f Route 216",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Mt Coronet 2f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet 3f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet 4f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet 4f Small Room",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet 5f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet 6f",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Mt Coronet B1f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "cosmic-power",
+            "level": 25
+          },
+          {
+            "move": "lucky-chant",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "gravity",
+            "level": 34
+          },
+          {
+            "move": "moonlight",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 40
+          },
+          {
+            "move": "meteor-mash",
+            "level": 43
+          },
+          {
+            "move": "healing-wish",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "endeavor",
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "41",
+      "flavorText": "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Mt Moon 2f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "cosmic-power",
+            "level": 25
+          },
+          {
+            "move": "lucky-chant",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "gravity",
+            "level": 34
+          },
+          {
+            "move": "moonlight",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 40
+          },
+          {
+            "move": "meteor-mash",
+            "level": 43
+          },
+          {
+            "move": "healing-wish",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "endeavor",
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "heal-bell",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "mud-slap",
+          "role-play",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm Forest",
+            "method": "Dark Grass",
+            "minLevel": 62,
+            "maxLevel": 64
+          },
+          {
+            "location": "Giant Chasm Forest",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 54
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "bestow",
+            "level": 25
+          },
+          {
+            "move": "cosmic-power",
+            "level": 28
+          },
+          {
+            "move": "lucky-chant",
+            "level": 31
+          },
+          {
+            "move": "metronome",
+            "level": 34
+          },
+          {
+            "move": "gravity",
+            "level": 37
+          },
+          {
+            "move": "moonlight",
+            "level": 40
+          },
+          {
+            "move": "stored-power",
+            "level": 43
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "healing-wish",
+            "level": 49
+          },
+          {
+            "move": "after-you",
+            "level": 52
+          },
+          {
+            "move": "meteor-mash",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "telekinesis",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "89",
+      "flavorText": "On nights with a full moon, Clefairy gather from all over and dance. Bathing in moonlight makes them float.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 46
+          },
+          {
+            "location": "Giant Chasm Forest",
+            "method": "Dark Grass",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Giant Chasm Forest",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 45
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Dark Grass",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 45
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Dark Grass",
+            "minLevel": 50,
+            "maxLevel": 52
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "stored-power",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "cosmic-power",
+            "level": 34
+          },
+          {
+            "move": "lucky-chant",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "moonlight",
+            "level": 43
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "gravity",
+            "level": 49
+          },
+          {
+            "move": "meteor-mash",
+            "level": 52
+          },
+          {
+            "move": "healing-wish",
+            "level": 55
+          },
+          {
+            "move": "after-you",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "telekinesis",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bounce",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "after-you",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "healing-wish",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "stored-power",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "cosmic-power",
+            "level": 34
+          },
+          {
+            "move": "lucky-chant",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "moonlight",
+            "level": 43
+          },
+          {
+            "move": "moonblast",
+            "level": 46
+          },
+          {
+            "move": "gravity",
+            "level": 49
+          },
+          {
+            "move": "meteor-mash",
+            "level": 50
+          },
+          {
+            "move": "healing-wish",
+            "level": 55
+          },
+          {
+            "move": "after-you",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "after-you",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "healing-wish",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "stored-power",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "cosmic-power",
+            "level": 34
+          },
+          {
+            "move": "lucky-chant",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "moonlight",
+            "level": 43
+          },
+          {
+            "move": "moonblast",
+            "level": 46
+          },
+          {
+            "move": "gravity",
+            "level": 49
+          },
+          {
+            "move": "meteor-mash",
+            "level": 50
+          },
+          {
+            "move": "healing-wish",
+            "level": 55
+          },
+          {
+            "move": "after-you",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bounce",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "211",
+      "flavorText": "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Hokulani Main",
+            "method": "Sos Encounter",
+            "minLevel": 25,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "spotlight",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "stored-power",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "cosmic-power",
+            "level": 34
+          },
+          {
+            "move": "lucky-chant",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "moonlight",
+            "level": 43
+          },
+          {
+            "move": "moonblast",
+            "level": 46
+          },
+          {
+            "move": "gravity",
+            "level": 49
+          },
+          {
+            "move": "meteor-mash",
+            "level": 50
+          },
+          {
+            "move": "healing-wish",
+            "level": 55
+          },
+          {
+            "move": "after-you",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "273",
+      "flavorText": "Bathed in moonlight, its wings glow faintly. Without even flapping, Clefairy rises into the air, where it dances around.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/35.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/35.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Hokulani East",
+            "method": "Sos Encounter",
+            "minLevel": 27,
+            "maxLevel": 30
+          },
+          {
+            "location": "Mount Hokulani West",
+            "method": "Sos Encounter",
+            "minLevel": 27,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "spotlight",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "double-slap",
+            "level": 10
+          },
+          {
+            "move": "defense-curl",
+            "level": 13
+          },
+          {
+            "move": "follow-me",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 19
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "stored-power",
+            "level": 28
+          },
+          {
+            "move": "metronome",
+            "level": 31
+          },
+          {
+            "move": "cosmic-power",
+            "level": 34
+          },
+          {
+            "move": "lucky-chant",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "moonlight",
+            "level": 43
+          },
+          {
+            "move": "moonblast",
+            "level": 46
+          },
+          {
+            "move": "gravity",
+            "level": 49
+          },
+          {
+            "move": "meteor-mash",
+            "level": 50
+          },
+          {
+            "move": "healing-wish",
+            "level": 55
+          },
+          {
+            "move": "after-you",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bounce",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "magic-coat",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "telekinesis",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "35",
+      "flavorText": "Adored for their cute looks and playfulness. They are thought to be rare, as they do not appear often.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 6
+          },
+          {
+            "move": "minimize",
+            "level": 10
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "amnesia",
+            "level": 16
+          },
+          {
+            "move": "metronome",
+            "level": 18
+          },
+          {
+            "move": "encore",
+            "level": 22
+          },
+          {
+            "move": "body-slam",
+            "level": 24
+          },
+          {
+            "move": "moonblast",
+            "level": 28
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "dazzling-gleam",
+          "dig",
+          "dream-eater",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "ice-beam",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "play-rough",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "seismic-toss",
+          "shadow-ball",
+          "solar-beam",
+          "stealth-rock",
+          "substitute",
+          "teleport",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "255",
+      "flavorText": "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "stored-power",
+            "level": 4
+          },
+          {
+            "move": "minimize",
+            "level": 8
+          },
+          {
+            "move": "after-you",
+            "level": 12
+          },
+          {
+            "move": "life-dew",
+            "level": 16
+          },
+          {
+            "move": "metronome",
+            "level": 20
+          },
+          {
+            "move": "moonlight",
+            "level": 24
+          },
+          {
+            "move": "gravity",
+            "level": 28
+          },
+          {
+            "move": "meteor-mash",
+            "level": 32
+          },
+          {
+            "move": "follow-me",
+            "level": 36
+          },
+          {
+            "move": "cosmic-power",
+            "level": 40
+          },
+          {
+            "move": "moonblast",
+            "level": 44
+          },
+          {
+            "move": "healing-wish",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "amnesia",
+          "attract",
+          "baton-pass",
+          "blizzard",
+          "body-slam",
+          "bounce",
+          "brick-break",
+          "calm-mind",
+          "charm",
+          "cosmic-power",
+          "dazzling-gleam",
+          "dig",
+          "drain-punch",
+          "draining-kiss",
+          "encore",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "grass-knot",
+          "helping-hand",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "imprison",
+          "iron-tail",
+          "light-screen",
+          "magical-leaf",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "misty-terrain",
+          "mystical-fire",
+          "play-rough",
+          "protect",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "stealth-rock",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "tri-attack",
+          "trick",
+          "uproar",
+          "wonder-room",
+          "work-up",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": [
+          "dual-wingbeat",
+          "meteor-beam",
+          "misty-explosion"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "35",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/35.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mt. Coronet, Trophy Garden"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "stored-power",
+            "level": 4
+          },
+          {
+            "move": "minimize",
+            "level": 8
+          },
+          {
+            "move": "after-you",
+            "level": 12
+          },
+          {
+            "move": "life-dew",
+            "level": 16
+          },
+          {
+            "move": "metronome",
+            "level": 20
+          },
+          {
+            "move": "moonlight",
+            "level": 24
+          },
+          {
+            "move": "gravity",
+            "level": 28
+          },
+          {
+            "move": "meteor-mash",
+            "level": 32
+          },
+          {
+            "move": "follow-me",
+            "level": 36
+          },
+          {
+            "move": "cosmic-power",
+            "level": 40
+          },
+          {
+            "move": "moonblast",
+            "level": 44
+          },
+          {
+            "move": "healing-wish",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "rock-smash",
+          "safeguard",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "200",
+      "flavorText": "It can be found in quiet mountain areas on a full moon's night. Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike quality.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: massive mass outbreaks | Coronet Highlands: Fabled Spring, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 5
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 9
+          },
+          {
+            "move": "draining-kiss",
+            "level": 15
+          },
+          {
+            "move": "calm-mind",
+            "level": 21
+          },
+          {
+            "move": "psychic",
+            "level": 29
+          },
+          {
+            "move": "moonblast",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K152",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/35.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Reveler's Road, Kitakami Hall, Infernal Pass, Oni's Maw, Crystal Pool | Tera Raid Battles (3★ Clefairy)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sing",
+            "level": 1
+          },
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "stored-power",
+            "level": 4
+          },
+          {
+            "move": "encore",
+            "level": 8
+          },
+          {
+            "move": "after-you",
+            "level": 12
+          },
+          {
+            "move": "life-dew",
+            "level": 16
+          },
+          {
+            "move": "metronome",
+            "level": 20
+          },
+          {
+            "move": "moonlight",
+            "level": 24
+          },
+          {
+            "move": "gravity",
+            "level": 28
+          },
+          {
+            "move": "meteor-mash",
+            "level": 32
+          },
+          {
+            "move": "follow-me",
+            "level": 36
+          },
+          {
+            "move": "cosmic-power",
+            "level": 40
+          },
+          {
+            "move": "moonblast",
+            "level": 44
+          },
+          {
+            "move": "healing-wish",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "alluring-voice",
+          "amnesia",
+          "baton-pass",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "calm-mind",
+          "charge-beam",
+          "charm",
+          "chilling-water",
+          "dazzling-gleam",
+          "dig",
+          "disarming-voice",
+          "double-edge",
+          "drain-punch",
+          "draining-kiss",
+          "dual-wingbeat",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "gravity",
+          "helping-hand",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "imprison",
+          "knock-off",
+          "light-screen",
+          "magical-leaf",
+          "meteor-beam",
+          "metronome",
+          "misty-explosion",
+          "misty-terrain",
+          "night-shade",
+          "play-rough",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "stealth-rock",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trick",
+          "uproar",
+          "water-pulse",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "heal-pulse",
+          "present",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "56",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Jaune District: Wild Zone 19",
+          "Hyperspace Lumiose (2★ & 4★ Fairy-type wild zones, 5★ Hyperspace wild zones via special scan (requires special scan))"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

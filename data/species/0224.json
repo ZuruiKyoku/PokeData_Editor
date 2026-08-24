@@ -1,0 +1,2037 @@
+{
+  "dex": 224,
+  "keyword": "octillery",
+  "name": "Octillery",
+  "japaneseName": {
+    "kana": "オクタン",
+    "romaji": "Okutank"
+  },
+  "type1": "Water",
+  "type2": null,
+  "genus": "Jet Pokémon",
+  "heightM": 0.9,
+  "weightKg": 28.5,
+  "stats": {
+    "hp": 75,
+    "attack": 105,
+    "defense": 75,
+    "specialAttack": 105,
+    "specialDefense": 75,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "suction-cups",
+      "hidden": false,
+      "effect": "Prevents being forced out of battle by other Pokémon's moves."
+    },
+    {
+      "name": "sniper",
+      "hidden": false,
+      "effect": "Strengthens critical hits to inflict 3× damage rather than 2×."
+    },
+    {
+      "name": "moody",
+      "hidden": true,
+      "effect": "Raises a random stat two stages and lowers another one stage after each turn."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "water2"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "tentacles",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female has smaller suction cups",
+  "evolution": {
+    "evolvesFromDex": 223,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0224.png",
+    "shiny": "sprites/shiny/0224.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/224.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/224.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "173",
+      "flavorText": "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 11
+          },
+          {
+            "move": "aurora-beam",
+            "level": 22
+          },
+          {
+            "move": "bubble-beam",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 22
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "focus-energy",
+            "level": 38
+          },
+          {
+            "move": "ice-beam",
+            "level": 54
+          },
+          {
+            "move": "hyper-beam",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "double-team",
+          "endure",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It ensnares its foe with its suction- cupped tentacles before delivering the finishing blow. If the foe turns out to be too strong, it spews ink to escape.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Expansion South",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 11
+          },
+          {
+            "move": "aurora-beam",
+            "level": 22
+          },
+          {
+            "move": "bubble-beam",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 22
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "focus-energy",
+            "level": 38
+          },
+          {
+            "move": "ice-beam",
+            "level": 54
+          },
+          {
+            "move": "hyper-beam",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bullet-seed",
+          "dive",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sludge-bomb",
+          "sunny-day",
+          "surf",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "133",
+      "flavorText": "It obscures its foe’s vision by spitting a cloud of murky ink. It makes its nest among boulders.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pastoria City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Pokemon League",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 213",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 222",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 224",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sea Route 223",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 55
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 55
+          },
+          {
+            "location": "Sunyshore City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 29
+          },
+          {
+            "move": "wring-out",
+            "level": 36
+          },
+          {
+            "move": "signal-beam",
+            "level": 42
+          },
+          {
+            "move": "ice-beam",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "133",
+      "flavorText": "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pastoria City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Pokemon League",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 213",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 222",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 224",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Sea Route 223",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 35
+          },
+          {
+            "location": "Sea Route 223",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sunyshore City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 29
+          },
+          {
+            "move": "wring-out",
+            "level": 36
+          },
+          {
+            "move": "signal-beam",
+            "level": 42
+          },
+          {
+            "move": "ice-beam",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "dive",
+          "gunk-shot",
+          "icy-wind",
+          "mud-slap",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "175",
+      "flavorText": "It instinctively sneaks into rocky holes. If it gets sleepy, it steals the nest of a fellow OCTILLERY.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 29
+          },
+          {
+            "move": "wring-out",
+            "level": 36
+          },
+          {
+            "move": "signal-beam",
+            "level": 42
+          },
+          {
+            "move": "ice-beam",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "bounce",
+          "dive",
+          "gunk-shot",
+          "icy-wind",
+          "mud-slap",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Undella Bay",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Undella Town",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 29
+          },
+          {
+            "move": "wring-out",
+            "level": 36
+          },
+          {
+            "move": "signal-beam",
+            "level": 42
+          },
+          {
+            "move": "ice-beam",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 55
+          },
+          {
+            "move": "soak",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "dive",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "236",
+      "flavorText": "It has a tendency to want to be in holes. It prefers rock crags or pots and sprays ink from them before attacking.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 21",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Undella Bay",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "wring-out",
+            "level": 28
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "bullet-seed",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          },
+          {
+            "move": "hyper-beam",
+            "level": 58
+          },
+          {
+            "move": "soak",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "dive",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "seed-bomb",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C145",
+      "flavorText": "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azure Bay",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 12",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Shalour City",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "wring-out",
+            "level": 28
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "bullet-seed",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          },
+          {
+            "move": "hyper-beam",
+            "level": 58
+          },
+          {
+            "move": "soak",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Octillery grabs onto its foe using its tentacles. This Pokémon tries to immobilize it before delivering the finishing blow. If the foe turns out to be too strong, Octillery spews ink to escape.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "octazooka",
+            "level": 25
+          },
+          {
+            "move": "wring-out",
+            "level": 28
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "bullet-seed",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          },
+          {
+            "move": "hyper-beam",
+            "level": 58
+          },
+          {
+            "move": "soak",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "dive",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "octazooka",
+            "level": 0
+          },
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "octazooka",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "wring-out",
+            "level": 28
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "bullet-seed",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          },
+          {
+            "move": "hyper-beam",
+            "level": 58
+          },
+          {
+            "move": "soak",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "144",
+      "flavorText": "It usually sleeps in caves. The pitch-black ink that Octillery spits is also used for cooking.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/224.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/224.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Kalae Bay",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Kalae Bay",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "octazooka",
+            "level": 0
+          },
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "octazooka",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "constrict",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "wring-out",
+            "level": 28
+          },
+          {
+            "move": "signal-beam",
+            "level": 34
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "bullet-seed",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          },
+          {
+            "move": "hyper-beam",
+            "level": 58
+          },
+          {
+            "move": "soak",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "149",
+      "flavorText": "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "octazooka",
+            "level": 0
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "octazooka",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 12
+          },
+          {
+            "move": "aurora-beam",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 20
+          },
+          {
+            "move": "lock-on",
+            "level": 24
+          },
+          {
+            "move": "bullet-seed",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "soak",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "blizzard",
+          "bounce",
+          "brine",
+          "bullet-seed",
+          "dive",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "focus-energy",
+          "giga-impact",
+          "gunk-shot",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "liquidation",
+          "mud-shot",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "rock-blast",
+          "round",
+          "scald",
+          "screech",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swift",
+          "thief",
+          "thunder-wave",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "skitter-smack"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "224",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/224.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , , , and , Pastoria City, Sunyshore City, (Super Rod) | Grand Underground - Fountainspring Cave, Riverbank Cave, Still-Water Cavern (After obtaining )"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "octazooka",
+            "level": 0
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "gunk-shot",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "octazooka",
+            "level": 1
+          },
+          {
+            "move": "rock-blast",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 12
+          },
+          {
+            "move": "aurora-beam",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 20
+          },
+          {
+            "move": "lock-on",
+            "level": 24
+          },
+          {
+            "move": "bullet-seed",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "soak",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash-cannon",
+          "giga-impact",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "scald",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "147",
+      "flavorText": "While Octillery still shoots water from its mouth, the drastic anatomical difference between it and Remoraid meant that for a long time, no one believed the former evolved from the latter.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: Castaway Shore (also mass outbreaks), near Islespy Shore, Seaside Hollow (after catching during Request 66) | Coronet Highlands: Space-time distortions"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "octazooka",
+            "level": 0
+          },
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 6
+          },
+          {
+            "move": "charge-beam",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 18
+          },
+          {
+            "move": "ice-beam",
+            "level": 25
+          },
+          {
+            "move": "hydro-pump",
+            "level": 34
+          },
+          {
+            "move": "hyper-beam",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

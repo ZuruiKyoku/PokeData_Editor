@@ -1,0 +1,1926 @@
+{
+  "dex": 223,
+  "keyword": "remoraid",
+  "name": "Remoraid",
+  "japaneseName": {
+    "kana": "テッポウオ",
+    "romaji": "Teppouo"
+  },
+  "type1": "Water",
+  "type2": null,
+  "genus": "Jet Pokémon",
+  "heightM": 0.6,
+  "weightKg": 12.0,
+  "stats": {
+    "hp": 35,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 65,
+    "specialDefense": 35,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "hustle",
+      "hidden": false,
+      "effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+    },
+    {
+      "name": "sniper",
+      "hidden": false,
+      "effect": "Strengthens critical hits to inflict 3× damage rather than 2×."
+    },
+    {
+      "name": "moody",
+      "hidden": true,
+      "effect": "Raises a random stat two stages and lowers another one stage after each turn."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "water2"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "fish",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      224
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0223.png",
+    "shiny": "sprites/shiny/0223.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/223.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/223.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "172",
+      "flavorText": "To escape from an attacker, it may shoot water out of its mouth, then use that force to swim backward.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 44",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 44",
+            "method": "Old Rod",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 44",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 11
+          },
+          {
+            "move": "aurora-beam",
+            "level": 22
+          },
+          {
+            "move": "bubble-beam",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 22
+          },
+          {
+            "move": "focus-energy",
+            "level": 33
+          },
+          {
+            "move": "ice-beam",
+            "level": 44
+          },
+          {
+            "move": "hyper-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "double-team",
+          "endure",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic",
+          "whirlpool"
+        ],
+        "egg": [
+          "aurora-beam",
+          "haze",
+          "octazooka",
+          "screech",
+          "supersonic"
+        ],
+        "tutor": [
+          "flamethrower",
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A REMORAID uses its abdominal muscles to forcefully expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Expansion South",
+            "method": "Good Rod",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "location": "Safari Zone Expansion South",
+            "method": "Super Rod",
+            "minLevel": 25,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 11
+          },
+          {
+            "move": "aurora-beam",
+            "level": 22
+          },
+          {
+            "move": "bubble-beam",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 22
+          },
+          {
+            "move": "focus-energy",
+            "level": 33
+          },
+          {
+            "move": "ice-beam",
+            "level": 44
+          },
+          {
+            "move": "hyper-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sunny-day",
+          "surf",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "haze",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "supersonic",
+          "thunder-wave"
+        ],
+        "tutor": [
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "132",
+      "flavorText": "It clings to MANTINE to feed on the big Pokémon’s scraps. This is an adaptation to avoid foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pastoria City",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Pokemon League",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 213",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 222",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 224",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sea Route 223",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sunyshore City",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "bullet-seed",
+            "level": 27
+          },
+          {
+            "move": "water-pulse",
+            "level": 32
+          },
+          {
+            "move": "signal-beam",
+            "level": 36
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "flail",
+          "haze",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "thunder-wave"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "132",
+      "flavorText": "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pastoria City",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Pokemon League",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 213",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 222",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 224",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sea Route 223",
+            "method": "Good Rod",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sunyshore City",
+            "method": "Good Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "bullet-seed",
+            "level": 27
+          },
+          {
+            "move": "water-pulse",
+            "level": 32
+          },
+          {
+            "move": "signal-beam",
+            "level": 36
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "aurora-beam",
+          "flail",
+          "haze",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "thunder-wave"
+        ],
+        "tutor": [
+          "bounce",
+          "dive",
+          "gunk-shot",
+          "icy-wind",
+          "mud-slap",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "174",
+      "flavorText": "Using its dorsal fin as a suction pad, it clings to a MANTINE’s underside to scavenge for leftovers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 44",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 44",
+            "method": "Old Rod",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 44",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "bullet-seed",
+            "level": 27
+          },
+          {
+            "move": "water-pulse",
+            "level": 32
+          },
+          {
+            "move": "signal-beam",
+            "level": 36
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "aurora-beam",
+          "flail",
+          "haze",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "thunder-wave",
+          "water-spout"
+        ],
+        "tutor": [
+          "bounce",
+          "dive",
+          "gunk-shot",
+          "icy-wind",
+          "mud-slap",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It forcefully squirts water. The water jet never misses prey even if the Remoraid is deep in the sea.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Undella Bay",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 55
+          },
+          {
+            "location": "Undella Town",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "focus-energy",
+            "level": 23
+          },
+          {
+            "move": "bullet-seed",
+            "level": 27
+          },
+          {
+            "move": "water-pulse",
+            "level": 32
+          },
+          {
+            "move": "signal-beam",
+            "level": 36
+          },
+          {
+            "move": "ice-beam",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 45
+          },
+          {
+            "move": "soak",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "dive",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-pulse",
+          "water-spout"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "235",
+      "flavorText": "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 21",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 60
+          },
+          {
+            "location": "Route 21",
+            "method": "Super Rod Spots",
+            "minLevel": 40,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 21",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 45
+          },
+          {
+            "location": "Undella Bay",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 60
+          },
+          {
+            "location": "Undella Bay",
+            "method": "Super Rod Spots",
+            "minLevel": 40,
+            "maxLevel": 60
+          },
+          {
+            "location": "Undella Bay",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 26
+          },
+          {
+            "move": "signal-beam",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 34
+          },
+          {
+            "move": "bullet-seed",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "hyper-beam",
+            "level": 46
+          },
+          {
+            "move": "soak",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "dive",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-pulse",
+          "water-spout"
+        ],
+        "tutor": [
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "seed-bomb",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C144",
+      "flavorText": "Using its dorsal fin as a suction pad, it clings to a Mantine’s underside to scavenge for leftovers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azure Bay",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 12",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Shalour City",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 26
+          },
+          {
+            "move": "signal-beam",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 34
+          },
+          {
+            "move": "bullet-seed",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "hyper-beam",
+            "level": 46
+          },
+          {
+            "move": "soak",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "entrainment",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-pulse",
+          "water-spout"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 26
+          },
+          {
+            "move": "signal-beam",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 34
+          },
+          {
+            "move": "bullet-seed",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "hyper-beam",
+            "level": 46
+          },
+          {
+            "move": "soak",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "dive",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "entrainment",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-pulse",
+          "water-spout"
+        ],
+        "tutor": [
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 26
+          },
+          {
+            "move": "signal-beam",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 34
+          },
+          {
+            "move": "bullet-seed",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "hyper-beam",
+            "level": 46
+          },
+          {
+            "move": "soak",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "entrainment",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-pulse",
+          "water-spout"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "143",
+      "flavorText": "Also known as the “sniper of the seas,” its water gun can hit prey without fail from over 300 feet away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/223.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/223.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Sos Encounter",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Hauoli City Beachfront",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Kalae Bay",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Kalae Bay",
+            "method": "Sos Encounter",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Kalae Bay",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 22
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Sos Encounter",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Melemele Sea",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "lock-on",
+            "level": 6
+          },
+          {
+            "move": "psybeam",
+            "level": 10
+          },
+          {
+            "move": "aurora-beam",
+            "level": 14
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 22
+          },
+          {
+            "move": "water-pulse",
+            "level": 26
+          },
+          {
+            "move": "signal-beam",
+            "level": 30
+          },
+          {
+            "move": "ice-beam",
+            "level": 34
+          },
+          {
+            "move": "bullet-seed",
+            "level": 38
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          },
+          {
+            "move": "hyper-beam",
+            "level": 46
+          },
+          {
+            "move": "soak",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "entrainment",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-pulse",
+          "water-spout"
+        ],
+        "tutor": [
+          "bounce",
+          "gunk-shot",
+          "icy-wind",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "148",
+      "flavorText": "Using its dorsal fin as a suction pad, it clings to a Mantine’s underside to scavenge for leftovers.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 8
+          },
+          {
+            "move": "psybeam",
+            "level": 12
+          },
+          {
+            "move": "aurora-beam",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 20
+          },
+          {
+            "move": "lock-on",
+            "level": 24
+          },
+          {
+            "move": "bullet-seed",
+            "level": 28
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "hydro-pump",
+            "level": 36
+          },
+          {
+            "move": "soak",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "blizzard",
+          "bounce",
+          "brine",
+          "bullet-seed",
+          "dive",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-energy",
+          "gunk-shot",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "mud-shot",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "rock-blast",
+          "round",
+          "scald",
+          "screech",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swift",
+          "thief",
+          "thunder-wave",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "acid-spray",
+          "flail",
+          "haze",
+          "octazooka",
+          "supersonic",
+          "water-spout"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "223",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/223.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , , , and , Pastoria City, Sunyshore City, (Good Rod)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 4
+          },
+          {
+            "move": "focus-energy",
+            "level": 8
+          },
+          {
+            "move": "psybeam",
+            "level": 12
+          },
+          {
+            "move": "aurora-beam",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 20
+          },
+          {
+            "move": "lock-on",
+            "level": 24
+          },
+          {
+            "move": "bullet-seed",
+            "level": 28
+          },
+          {
+            "move": "ice-beam",
+            "level": 32
+          },
+          {
+            "move": "hydro-pump",
+            "level": 36
+          },
+          {
+            "move": "soak",
+            "level": 40
+          },
+          {
+            "move": "hyper-beam",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "bullet-seed",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder-wave",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "acid-spray",
+          "aurora-beam",
+          "entrainment",
+          "flail",
+          "haze",
+          "mud-shot",
+          "octazooka",
+          "rock-blast",
+          "screech",
+          "snore",
+          "supersonic",
+          "swift",
+          "water-spout"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "146",
+      "flavorText": "Spits water from its mouth with incredible accuracy. It captures Burmy by shooting them down off the branches from which they dangle.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: near Bathers' Lagoon, near Hideaway Bay, near Deadwood Haunt, near Tombolo Walk, Sand's Reach, Tranquility Cove, near Castaway Shore"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 6
+          },
+          {
+            "move": "charge-beam",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 18
+          },
+          {
+            "move": "ice-beam",
+            "level": 25
+          },
+          {
+            "move": "hydro-pump",
+            "level": 34
+          },
+          {
+            "move": "hyper-beam",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

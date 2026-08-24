@@ -1,0 +1,1843 @@
+{
+  "dex": 47,
+  "keyword": "parasect",
+  "name": "Parasect",
+  "japaneseName": {
+    "kana": "パラセクト",
+    "romaji": "Parasect"
+  },
+  "type1": "Bug",
+  "type2": "Grass",
+  "genus": "Mushroom Pokémon",
+  "heightM": 1.0,
+  "weightKg": 29.5,
+  "stats": {
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 80,
+    "speed": 30
+  },
+  "abilities": [
+    {
+      "name": "effect-spore",
+      "hidden": false,
+      "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+    },
+    {
+      "name": "dry-skin",
+      "hidden": false,
+      "effect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP."
+    },
+    {
+      "name": "damp",
+      "hidden": true,
+      "effect": "Prevents self destruct, explosion, and aftermath from working while the Pokémon is in battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug",
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "armor",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 46,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0047.png",
+    "shiny": "sprites/shiny/0047.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/47.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/47.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "47",
+      "flavorText": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/47.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 58
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 61
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 64
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 19
+          },
+          {
+            "move": "leech-life",
+            "level": 20
+          },
+          {
+            "move": "spore",
+            "level": 27
+          },
+          {
+            "move": "spore",
+            "level": 30
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "slash",
+            "level": 39
+          },
+          {
+            "move": "growth",
+            "level": 43
+          },
+          {
+            "move": "growth",
+            "level": 48
+          },
+          {
+            "move": "giga-drain",
+            "level": 51
+          },
+          {
+            "move": "aromatherapy",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "skull-bash",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mimic",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "71",
+      "flavorText": "When nothing's left to extract from the bug, the mushrooms on its back leave spores on the bug's egg.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 2f",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 19
+          },
+          {
+            "move": "spore",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "growth",
+            "level": 46
+          },
+          {
+            "move": "giga-drain",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "fury-cutter",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "PARASECT are known to infest the roots of large trees en masse and drain nutrients. When an infested tree dies, they move onto another tree all at once.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 19
+          },
+          {
+            "move": "spore",
+            "level": 27
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "growth",
+            "level": 43
+          },
+          {
+            "move": "giga-drain",
+            "level": 51
+          },
+          {
+            "move": "aromatherapy",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is controlled by a mushroom grown larger than the bug body. It is said to prefer damp places.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "spore",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "growth",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 39
+          },
+          {
+            "move": "aromatherapy",
+            "level": 47
+          },
+          {
+            "move": "x-scissor",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A mushroom grown larger than the host’s body controls PARASECT. It scatters poisonous spores.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "spore",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "growth",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 39
+          },
+          {
+            "move": "aromatherapy",
+            "level": 47
+          },
+          {
+            "move": "x-scissor",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "71",
+      "flavorText": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 38
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "spore",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "growth",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 39
+          },
+          {
+            "move": "aromatherapy",
+            "level": 47
+          },
+          {
+            "move": "x-scissor",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "fury-cutter",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "string-shot",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bug-bite",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bug-bite",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "148",
+      "flavorText": "It scatters toxic spores from its mushroom cap. Once harvested, these spores can be steeped and boiled down to prepare herbal medicines.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "leech-life",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "181",
+      "flavorText": "Its poisonous spores are also used in traditional medicine. Apparently, spores produced in Alola are not of very good quality.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/47.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/47.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "leech-life",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "bug-bite",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "throat-chop",
+          "worry-seed"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "47",
+      "flavorText": "The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "sleep-powder",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sleep-powder",
+            "level": 2
+          },
+          {
+            "move": "stun-spore",
+            "level": 4
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 9
+          },
+          {
+            "move": "growth",
+            "level": 12
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "slash",
+            "level": 19
+          },
+          {
+            "move": "leech-life",
+            "level": 23
+          },
+          {
+            "move": "spore",
+            "level": 33
+          },
+          {
+            "move": "x-scissor",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "dig",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "light-screen",
+          "mega-drain",
+          "protect",
+          "reflect",
+          "rest",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "47",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/47.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "cross-poison",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 44
+          },
+          {
+            "move": "aromatherapy",
+            "level": 51
+          },
+          {
+            "move": "rage-powder",
+            "level": 59
+          },
+          {
+            "move": "x-scissor",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rest",
+          "rock-smash",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "54",
+      "flavorText": "Mushroom-lacking specimens of this Pokémon lie unmoving in the forest, lending credence to the hypothesis that the large mushroom is in control of Parasect's actions.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: near Nature's Pantry (also mass outbreaks), massive mass outbreaks | Crimson Mirelands: Golden Lowlands, near Ursa's Ring, near Cloudpool Ridge, Diamond Heath, near Cottonsedge Prairie, Droning Meadow, massive mass outbreaks | Cobalt Coastlands: Windbreak Stand | Coronet Highlands: Heavenward Lookout, Wayward Wood"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "poison-powder",
+            "level": 9
+          },
+          {
+            "move": "venoshock",
+            "level": 15
+          },
+          {
+            "move": "slash",
+            "level": 21
+          },
+          {
+            "move": "spore",
+            "level": 29
+          },
+          {
+            "move": "x-scissor",
+            "level": 37
+          },
+          {
+            "move": "energy-ball",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

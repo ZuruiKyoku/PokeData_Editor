@@ -1,0 +1,2378 @@
+{
+  "dex": 66,
+  "keyword": "machop",
+  "name": "Machop",
+  "japaneseName": {
+    "kana": "ワンリキー",
+    "romaji": "Wanriky"
+  },
+  "type1": "Fighting",
+  "type2": null,
+  "genus": "Superpower Pokémon",
+  "heightM": 0.8,
+  "weightKg": 19.5,
+  "stats": {
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 35
+  },
+  "abilities": [
+    {
+      "name": "guts",
+      "hidden": false,
+      "effect": "Increases Attack to 1.5× with a major status ailment."
+    },
+    {
+      "name": "no-guard",
+      "hidden": false,
+      "effect": "Ensures all moves used by and against the Pokémon hit."
+    },
+    {
+      "name": "steadfast",
+      "hidden": true,
+      "effect": "Raises Speed one stage upon flinching."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "humanshape"
+    ],
+    "genderRateEighthsFemale": 2,
+    "hatchCycles": 20,
+    "captureRate": 180,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      67
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0066.png",
+    "shiny": "sprites/shiny/0066.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/66.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/66.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "66",
+      "flavorText": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/66.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Ember",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Mt Ember 1f Cave Behind Team Rocket",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 38
+          },
+          {
+            "location": "Mt Ember Cave",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 39
+          },
+          {
+            "location": "Mt Ember Inside",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 36
+          },
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 21
+          },
+          {
+            "location": "Rock Tunnel B2f",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 18
+          },
+          {
+            "location": "Victory Road 2 1f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 32
+          },
+          {
+            "location": "Victory Road 2 2f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 34
+          },
+          {
+            "location": "Victory Road 2 3f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "karate-chop",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 19
+          },
+          {
+            "move": "low-kick",
+            "level": 20
+          },
+          {
+            "move": "foresight",
+            "level": 22
+          },
+          {
+            "move": "leer",
+            "level": 25
+          },
+          {
+            "move": "revenge",
+            "level": 25
+          },
+          {
+            "move": "vital-throw",
+            "level": 31
+          },
+          {
+            "move": "focus-energy",
+            "level": 32
+          },
+          {
+            "move": "submission",
+            "level": 37
+          },
+          {
+            "move": "seismic-toss",
+            "level": 39
+          },
+          {
+            "move": "cross-chop",
+            "level": 40
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "submission",
+            "level": 46
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fissure",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "seismic-toss",
+          "skull-bash",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "counter",
+          "encore",
+          "light-screen",
+          "meditate",
+          "rock-slide",
+          "rolling-kick",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "140",
+      "flavorText": "It trains by lifting rocks in the mountains. It can even pick up a GRAVELER with ease.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 19
+          },
+          {
+            "move": "foresight",
+            "level": 25
+          },
+          {
+            "move": "vital-throw",
+            "level": 31
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "submission",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "detect",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [
+          "encore",
+          "light-screen",
+          "meditate",
+          "rolling-kick"
+        ],
+        "tutor": [
+          "flamethrower"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "73",
+      "flavorText": "It continually undertakes strenuous training to master all forms of martial arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Fiery Path",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Jagged Pass",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 112",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 19
+          },
+          {
+            "move": "foresight",
+            "level": 22
+          },
+          {
+            "move": "revenge",
+            "level": 25
+          },
+          {
+            "move": "vital-throw",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 40
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "counter",
+          "encore",
+          "light-screen",
+          "meditate",
+          "rock-slide",
+          "rolling-kick",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "40",
+      "flavorText": "Its muscles never cramp however much it trains. It lives in the mountains away from humans.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Coronet 1f Route 207",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Coronet 1f Route 211",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 207",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 208",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 210 West Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 10
+          },
+          {
+            "move": "foresight",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 19
+          },
+          {
+            "move": "revenge",
+            "level": 22
+          },
+          {
+            "move": "vital-throw",
+            "level": 25
+          },
+          {
+            "move": "submission",
+            "level": 31
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 34
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "ice-punch",
+          "light-screen",
+          "meditate",
+          "rock-slide",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "40",
+      "flavorText": "Though small in stature, it is powerful enough to easily heft and throw a number of GEODUDE at once.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Coronet 1f Route 207",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Mt Coronet 1f Route 211",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 206",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 207",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 210 West Towards Celestic Town",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 211 West Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 10
+          },
+          {
+            "move": "foresight",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 19
+          },
+          {
+            "move": "revenge",
+            "level": 22
+          },
+          {
+            "move": "vital-throw",
+            "level": 25
+          },
+          {
+            "move": "submission",
+            "level": 31
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 34
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "ice-punch",
+          "light-screen",
+          "meditate",
+          "rock-slide",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "mud-slap",
+          "snore",
+          "superpower",
+          "thunder-punch",
+          "vacuum-wave"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "142",
+      "flavorText": "It loves to work out and build its muscles. It is never satisfied, even if it trains hard all day long.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 47 Inside Cave",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 19
+          },
+          {
+            "location": "Safari Zone Zone Wasteland",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 10
+          },
+          {
+            "move": "foresight",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 19
+          },
+          {
+            "move": "revenge",
+            "level": 22
+          },
+          {
+            "move": "vital-throw",
+            "level": 25
+          },
+          {
+            "move": "submission",
+            "level": 31
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 34
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "ice-punch",
+          "light-screen",
+          "meditate",
+          "power-trick",
+          "rock-slide",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch"
+        ],
+        "tutor": [
+          "fire-punch",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "mud-slap",
+          "role-play",
+          "snore",
+          "superpower",
+          "thunder-punch",
+          "vacuum-wave"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 10
+          },
+          {
+            "move": "low-sweep",
+            "level": 13
+          },
+          {
+            "move": "foresight",
+            "level": 19
+          },
+          {
+            "move": "seismic-toss",
+            "level": 22
+          },
+          {
+            "move": "revenge",
+            "level": 25
+          },
+          {
+            "move": "vital-throw",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 34
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 43
+          },
+          {
+            "move": "scary-face",
+            "level": 46
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "meditate",
+          "power-trick",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 10
+          },
+          {
+            "move": "low-sweep",
+            "level": 13
+          },
+          {
+            "move": "foresight",
+            "level": 19
+          },
+          {
+            "move": "seismic-toss",
+            "level": 22
+          },
+          {
+            "move": "revenge",
+            "level": 25
+          },
+          {
+            "move": "vital-throw",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 34
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 43
+          },
+          {
+            "move": "scary-face",
+            "level": 46
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "meditate",
+          "power-trick",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": [
+          "dual-chop",
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "knock-off",
+          "low-kick",
+          "role-play",
+          "sleep-talk",
+          "snore",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C57",
+      "flavorText": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Glittering Cave Unknown Area 303",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 7
+          },
+          {
+            "move": "karate-chop",
+            "level": 10
+          },
+          {
+            "move": "low-sweep",
+            "level": 13
+          },
+          {
+            "move": "foresight",
+            "level": 19
+          },
+          {
+            "move": "seismic-toss",
+            "level": 22
+          },
+          {
+            "move": "revenge",
+            "level": 25
+          },
+          {
+            "move": "vital-throw",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 34
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 43
+          },
+          {
+            "move": "scary-face",
+            "level": 46
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "meditate",
+          "power-trick",
+          "quick-guard",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "75",
+      "flavorText": "Machop exercises by hefting around a Graveler as if it were a barbell. There are some Machop that travel the world in a quest to master all kinds of martial arts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 3
+          },
+          {
+            "move": "karate-chop",
+            "level": 7
+          },
+          {
+            "move": "foresight",
+            "level": 9
+          },
+          {
+            "move": "low-sweep",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 15
+          },
+          {
+            "move": "revenge",
+            "level": 19
+          },
+          {
+            "move": "knock-off",
+            "level": 21
+          },
+          {
+            "move": "vital-throw",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 27
+          },
+          {
+            "move": "dual-chop",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 33
+          },
+          {
+            "move": "bulk-up",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 39
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "meditate",
+          "power-trick",
+          "quick-guard",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": [
+          "dual-chop",
+          "fire-punch",
+          "focus-punch",
+          "helping-hand",
+          "ice-punch",
+          "knock-off",
+          "low-kick",
+          "role-play",
+          "snore",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "95",
+      "flavorText": "With its superhuman strength, it’s able to throw a hundred people all at the same time. Its strength comes from lifting Graveler every day.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2 Main",
+            "method": "Npc Trade",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Ten Carat Hill Farthest Hollow",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 3
+          },
+          {
+            "move": "karate-chop",
+            "level": 7
+          },
+          {
+            "move": "foresight",
+            "level": 9
+          },
+          {
+            "move": "low-sweep",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 15
+          },
+          {
+            "move": "revenge",
+            "level": 19
+          },
+          {
+            "move": "knock-off",
+            "level": 21
+          },
+          {
+            "move": "vital-throw",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 27
+          },
+          {
+            "move": "dual-chop",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 33
+          },
+          {
+            "move": "bulk-up",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 39
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "meditate",
+          "power-trick",
+          "quick-guard",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "117",
+      "flavorText": "It likes food that’s highly nutritious because its instincts drive it to build muscle efficiently.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/66.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/66.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ten Carat Hill Farthest Hollow",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 3
+          },
+          {
+            "move": "karate-chop",
+            "level": 7
+          },
+          {
+            "move": "foresight",
+            "level": 9
+          },
+          {
+            "move": "low-sweep",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 15
+          },
+          {
+            "move": "revenge",
+            "level": 19
+          },
+          {
+            "move": "knock-off",
+            "level": 21
+          },
+          {
+            "move": "vital-throw",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 27
+          },
+          {
+            "move": "dual-chop",
+            "level": 31
+          },
+          {
+            "move": "submission",
+            "level": 33
+          },
+          {
+            "move": "bulk-up",
+            "level": 37
+          },
+          {
+            "move": "cross-chop",
+            "level": 39
+          },
+          {
+            "move": "scary-face",
+            "level": 43
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "meditate",
+          "power-trick",
+          "quick-guard",
+          "rolling-kick",
+          "smelling-salts",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": [
+          "dual-chop",
+          "fire-punch",
+          "focus-punch",
+          "helping-hand",
+          "ice-punch",
+          "knock-off",
+          "low-kick",
+          "role-play",
+          "snore",
+          "superpower",
+          "thunder-punch"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "66",
+      "flavorText": "Very powerful in spite of its small size. Its mastery of many types of martial arts makes it very tough.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "seismic-toss",
+            "level": 12
+          },
+          {
+            "move": "karate-chop",
+            "level": 16
+          },
+          {
+            "move": "brick-break",
+            "level": 21
+          },
+          {
+            "move": "submission",
+            "level": 26
+          },
+          {
+            "move": "bulk-up",
+            "level": 31
+          },
+          {
+            "move": "superpower",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "bulk-up",
+          "dig",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "light-screen",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "superpower",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "138",
+      "flavorText": "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "revenge",
+            "level": 8
+          },
+          {
+            "move": "low-sweep",
+            "level": 12
+          },
+          {
+            "move": "knock-off",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 20
+          },
+          {
+            "move": "vital-throw",
+            "level": 24
+          },
+          {
+            "move": "strength",
+            "level": 29
+          },
+          {
+            "move": "dual-chop",
+            "level": 32
+          },
+          {
+            "move": "bulk-up",
+            "level": 36
+          },
+          {
+            "move": "seismic-toss",
+            "level": 40
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 44
+          },
+          {
+            "move": "cross-chop",
+            "level": 48
+          },
+          {
+            "move": "double-edge",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "close-combat",
+          "dig",
+          "earthquake",
+          "encore",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-energy",
+          "heavy-slam",
+          "helping-hand",
+          "ice-punch",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scary-face",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "superpower",
+          "thief",
+          "thunder-punch",
+          "work-up"
+        ],
+        "egg": [
+          "bullet-punch",
+          "counter",
+          "quick-guard",
+          "submission",
+          "tickle"
+        ],
+        "tutor": [
+          "coaching"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "66",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/66.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , and , Mount Coronet | Grand Underground - Spacious Cave, Grassland Cave, Whiteout Cave, Sunlit Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "revenge",
+            "level": 8
+          },
+          {
+            "move": "low-sweep",
+            "level": 12
+          },
+          {
+            "move": "knock-off",
+            "level": 16
+          },
+          {
+            "move": "scary-face",
+            "level": 20
+          },
+          {
+            "move": "vital-throw",
+            "level": 24
+          },
+          {
+            "move": "strength",
+            "level": 29
+          },
+          {
+            "move": "dual-chop",
+            "level": 32
+          },
+          {
+            "move": "bulk-up",
+            "level": 36
+          },
+          {
+            "move": "seismic-toss",
+            "level": 40
+          },
+          {
+            "move": "dynamic-punch",
+            "level": 44
+          },
+          {
+            "move": "cross-chop",
+            "level": 48
+          },
+          {
+            "move": "double-edge",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "light-screen",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "work-up"
+        ],
+        "egg": [
+          "bullet-punch",
+          "close-combat",
+          "counter",
+          "encore",
+          "fire-punch",
+          "heavy-slam",
+          "ice-punch",
+          "knock-off",
+          "power-trick",
+          "quick-guard",
+          "submission",
+          "thunder-punch",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "154",
+      "flavorText": "Though as small as a child, it has strength enough to easily throw a well-built adult. Striving to become ever stronger, Machop trains by carrying a Graveler on its shoulders.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Oreburrow Tunnel, near Obsidian Falls | Cobalt Coastlands: near Ginkgo Landing, Castaway Shore | Coronet Highlands: Bolderoll Ravine, near Cloudcap Pass, massive mass outbreaks | Alabaster Icelands: Icebound Falls, Arena's Approach, Snowfall Hot Spring, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-smash",
+            "level": 6
+          },
+          {
+            "move": "bullet-punch",
+            "level": 11
+          },
+          {
+            "move": "double-hit",
+            "level": 18
+          },
+          {
+            "move": "mach-punch",
+            "level": 22
+          },
+          {
+            "move": "bulk-up",
+            "level": 25
+          },
+          {
+            "move": "double-edge",
+            "level": 34
+          },
+          {
+            "move": "close-combat",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "125",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Bleu District: Wild Zone 12 | Jaune District: Wild Zone 8",
+          "Hyperspace Lumiose (1★ & 3★ Fighting-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

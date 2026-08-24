@@ -1,0 +1,1938 @@
+{
+  "dex": 50,
+  "keyword": "diglett",
+  "name": "Diglett",
+  "japaneseName": {
+    "kana": "ディグダ",
+    "romaji": "Digda"
+  },
+  "type1": "Ground",
+  "type2": null,
+  "genus": "Mole Pokémon",
+  "heightM": 0.2,
+  "weightKg": 0.8,
+  "stats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "specialAttack": 35,
+    "specialDefense": 45,
+    "speed": 95
+  },
+  "abilities": [
+    {
+      "name": "sand-veil",
+      "hidden": false,
+      "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+    },
+    {
+      "name": "arena-trap",
+      "hidden": false,
+      "effect": "Prevents opponents from fleeing or switching out.  Eluded by flying-types and Pokémon in the air."
+    },
+    {
+      "name": "sand-force",
+      "hidden": true,
+      "effect": "Strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "blob",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      51
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0050.png",
+    "shiny": "sprites/shiny/0050.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/50.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/50.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "50",
+      "flavorText": "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/50.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Digletts Cave",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "magnitude",
+            "level": 9
+          },
+          {
+            "move": "growl",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 17
+          },
+          {
+            "move": "dig",
+            "level": 19
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "sand-attack",
+            "level": 24
+          },
+          {
+            "move": "mud-slap",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 41
+          },
+          {
+            "move": "fissure",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fissure",
+          "frustration",
+          "hidden-power",
+          "mimic",
+          "protect",
+          "rage",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "feint-attack",
+          "pursuit",
+          "rock-slide",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "rock-slide",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "132",
+      "flavorText": "It digs under­ ground and chews on tree roots, sticking its head out only when the sun isn't bright.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Digletts Cave",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "magnitude",
+            "level": 9
+          },
+          {
+            "move": "dig",
+            "level": 17
+          },
+          {
+            "move": "sand-attack",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "earthquake",
+            "level": 41
+          },
+          {
+            "move": "fissure",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "frustration",
+          "hidden-power",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "feint-attack",
+          "pursuit",
+          "screech"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "DIGLETT are raised in most farms. The reason is simple--wherever they burrow, the soil is left perfectly tilled for growing delicious crops.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "magnitude",
+            "level": 9
+          },
+          {
+            "move": "dig",
+            "level": 17
+          },
+          {
+            "move": "mud-slap",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 33
+          },
+          {
+            "move": "earthquake",
+            "level": 41
+          },
+          {
+            "move": "fissure",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sludge-bomb",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "beat-up",
+          "feint-attack",
+          "pursuit",
+          "rock-slide",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 228",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "magnitude",
+            "level": 12
+          },
+          {
+            "move": "mud-slap",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "earth-power",
+            "level": 26
+          },
+          {
+            "move": "mud-bomb",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "fissure",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "feint-attack",
+          "mud-bomb",
+          "pursuit",
+          "rock-slide",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 228",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "magnitude",
+            "level": 12
+          },
+          {
+            "move": "mud-slap",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "earth-power",
+            "level": 26
+          },
+          {
+            "move": "mud-bomb",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "fissure",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "feint-attack",
+          "mud-bomb",
+          "pursuit",
+          "rock-slide",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "earth-power",
+          "mud-slap",
+          "snore",
+          "sucker-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "134",
+      "flavorText": "If a DIGLETT digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Digletts Cave",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 48",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Vermilion City",
+            "method": "Rock Smash",
+            "minLevel": 24,
+            "maxLevel": 37
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "magnitude",
+            "level": 12
+          },
+          {
+            "move": "mud-slap",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "earth-power",
+            "level": 26
+          },
+          {
+            "move": "mud-bomb",
+            "level": 29
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "fissure",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "feint-attack",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "rock-slide",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "earth-power",
+          "mud-slap",
+          "snore",
+          "sucker-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "bulldoze",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "mud-bomb",
+            "level": 26
+          },
+          {
+            "move": "earth-power",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 34
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "endure",
+          "feint-attack",
+          "final-gambit",
+          "headbutt",
+          "memento",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "bulldoze",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "mud-bomb",
+            "level": 26
+          },
+          {
+            "move": "earth-power",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 34
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "endure",
+          "feint-attack",
+          "final-gambit",
+          "headbutt",
+          "memento",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "earth-power",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M1",
+      "flavorText": "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "bulldoze",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "mud-bomb",
+            "level": 26
+          },
+          {
+            "move": "earth-power",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 34
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "endure",
+          "feint-attack",
+          "final-gambit",
+          "headbutt",
+          "memento",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "magnitude",
+            "level": 15
+          },
+          {
+            "move": "bulldoze",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 23
+          },
+          {
+            "move": "mud-bomb",
+            "level": 26
+          },
+          {
+            "move": "earth-power",
+            "level": 29
+          },
+          {
+            "move": "dig",
+            "level": 34
+          },
+          {
+            "move": "slash",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "endure",
+          "feint-attack",
+          "final-gambit",
+          "headbutt",
+          "memento",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "earth-power",
+          "snore",
+          "stealth-rock"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "71",
+      "flavorText": "Many farmers cherish and nurture Diglett because its droppings enrich the soil it lives in.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "mud-slap",
+            "level": 10
+          },
+          {
+            "move": "magnitude",
+            "level": 14
+          },
+          {
+            "move": "bulldoze",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 22
+          },
+          {
+            "move": "mud-bomb",
+            "level": 25
+          },
+          {
+            "move": "earth-power",
+            "level": 28
+          },
+          {
+            "move": "dig",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 39
+          },
+          {
+            "move": "fissure",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "endure",
+          "feint-attack",
+          "final-gambit",
+          "headbutt",
+          "memento",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "85",
+      "flavorText": "Around their crops, farmers plant the kind of tree that Diglett like to eat as a way of getting Diglett to plow the fields for them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/50.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/50.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "mud-slap",
+            "level": 10
+          },
+          {
+            "move": "magnitude",
+            "level": 14
+          },
+          {
+            "move": "bulldoze",
+            "level": 18
+          },
+          {
+            "move": "sucker-punch",
+            "level": 22
+          },
+          {
+            "move": "mud-bomb",
+            "level": 25
+          },
+          {
+            "move": "earth-power",
+            "level": 28
+          },
+          {
+            "move": "dig",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 39
+          },
+          {
+            "move": "fissure",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "endure",
+          "feint-attack",
+          "final-gambit",
+          "headbutt",
+          "memento",
+          "mud-bomb",
+          "pursuit",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": [
+          "earth-power",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "50",
+      "flavorText": "It prefers dark places. It spends most of its time underground, though it may pop up in caves.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 4
+          },
+          {
+            "move": "growl",
+            "level": 8
+          },
+          {
+            "move": "agility",
+            "level": 12
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "dig",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 21
+          },
+          {
+            "move": "sucker-punch",
+            "level": 25
+          },
+          {
+            "move": "earthquake",
+            "level": 29
+          },
+          {
+            "move": "fissure",
+            "level": 33
+          }
+        ],
+        "machine": [
+          "dig",
+          "earthquake",
+          "facade",
+          "headbutt",
+          "protect",
+          "rest",
+          "rock-slide",
+          "sludge-bomb",
+          "stealth-rock",
+          "substitute",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "164",
+      "flavorText": "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "bulldoze",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "sandstorm",
+            "level": 28
+          },
+          {
+            "move": "dig",
+            "level": 32
+          },
+          {
+            "move": "earth-power",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "agility",
+          "ally-switch",
+          "assurance",
+          "attract",
+          "beat-up",
+          "body-slam",
+          "bulldoze",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "protect",
+          "rest",
+          "reversal",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "screech",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "substitute",
+          "sunny-day",
+          "thief",
+          "uproar",
+          "work-up"
+        ],
+        "egg": [
+          "ancient-power",
+          "final-gambit",
+          "headbutt",
+          "hone-claws",
+          "memento"
+        ],
+        "tutor": [
+          "scorching-sands"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "50",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/50.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 228 (Sinnoh) (Kantonian Form) | Unobtainable (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "bulldoze",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "sandstorm",
+            "level": 28
+          },
+          {
+            "move": "dig",
+            "level": 32
+          },
+          {
+            "move": "earth-power",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "stealth-rock",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "work-up"
+        ],
+        "egg": [
+          "ancient-power",
+          "astonish",
+          "beat-up",
+          "final-gambit",
+          "headbutt",
+          "hone-claws",
+          "memento",
+          "reversal",
+          "screech",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P148",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/50.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Two, Area Six, Inlet Grotto, Alfornada Cavern (Kantonian Form) | East Province: Area Three (Kantonian Form) | West Province: Asado Desert (Kantonian Form) | South Province: Area Two ( Type) (Kantonian Form) | Tera Raid Battles (2★ Diglett) (Kantonian Form) | Trade (Alolan Form)",
+          "Coastal Biome, Torchlit Labyrinth (Alolan Form) | Tera Raid Battles (3★ Diglett - Alolan Form) (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 12
+          },
+          {
+            "move": "bulldoze",
+            "level": 16
+          },
+          {
+            "move": "sucker-punch",
+            "level": 20
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "sandstorm",
+            "level": 28
+          },
+          {
+            "move": "dig",
+            "level": 32
+          },
+          {
+            "move": "earth-power",
+            "level": 36
+          },
+          {
+            "move": "earthquake",
+            "level": 40
+          },
+          {
+            "move": "fissure",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "agility",
+          "body-slam",
+          "bulldoze",
+          "charm",
+          "curse",
+          "dig",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "endeavor",
+          "endure",
+          "facade",
+          "foul-play",
+          "helping-hand",
+          "mud-shot",
+          "mud-slap",
+          "protect",
+          "rest",
+          "reversal",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "scorching-sands",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "smack-down",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "uproar"
+        ],
+        "egg": [
+          "ancient-power",
+          "final-gambit",
+          "headbutt",
+          "hone-claws",
+          "memento"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

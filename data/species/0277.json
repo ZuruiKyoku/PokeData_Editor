@@ -1,0 +1,1348 @@
+{
+  "dex": 277,
+  "keyword": "swellow",
+  "name": "Swellow",
+  "japaneseName": {
+    "kana": "オオスバメ",
+    "romaji": "Ohsubame"
+  },
+  "type1": "Normal",
+  "type2": "Flying",
+  "genus": "Swallow Pokémon",
+  "heightM": 0.7,
+  "weightKg": 19.8,
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "specialAttack": 75,
+    "specialDefense": 50,
+    "speed": 125
+  },
+  "abilities": [
+    {
+      "name": "guts",
+      "hidden": false,
+      "effect": "Increases Attack to 1.5× with a major status ailment."
+    },
+    {
+      "name": "scrappy",
+      "hidden": true,
+      "effect": "Lets the Pokémon's normal and fighting moves hit ghost Pokémon."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "wings",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 276,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0277.png",
+    "shiny": "sprites/shiny/0277.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/277.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/277.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "26",
+      "flavorText": "A SWELLOW dives upon prey from far above. It never misses its targets. It takes to the skies in search of lands with a warm climate.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 115",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "steel-wing",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "counter",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It circles the sky in search of prey. When it spots one, it dives steeply to catch the prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 213",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It circles the sky in search of prey. When it spots one, it dives steeply to catch the prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 213",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "endeavor",
+          "heat-wave",
+          "mud-slap",
+          "ominous-wind",
+          "snore",
+          "swift",
+          "twister"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "endeavor",
+          "heat-wave",
+          "mud-slap",
+          "ominous-wind",
+          "sky-attack",
+          "snore",
+          "swift",
+          "tailwind",
+          "twister"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It circles the sky in search of prey. When it spots one, it dives steeply to catch the prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Dark Grass",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Route 13",
+            "method": "Dark Grass",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It circles the sky in search of prey. When it spots one, it dives steeply to catch the prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "heat-wave",
+          "roost",
+          "sky-attack",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C20",
+      "flavorText": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 19
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "aerial-ace",
+            "level": 38
+          },
+          {
+            "move": "agility",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "26",
+      "flavorText": "Swellow is very conscientious about the upkeep of its glossy wings. Once two Swellow are gathered, they diligently take care of cleaning each other’s wings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "brave-bird",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "quick-attack",
+            "level": 9
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 17
+          },
+          {
+            "move": "aerial-ace",
+            "level": 21
+          },
+          {
+            "move": "quick-guard",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "endeavor",
+            "level": 39
+          },
+          {
+            "move": "air-slash",
+            "level": 45
+          },
+          {
+            "move": "brave-bird",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "heat-wave",
+          "sky-attack",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "brave-bird",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "quick-attack",
+            "level": 9
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 17
+          },
+          {
+            "move": "aerial-ace",
+            "level": 21
+          },
+          {
+            "move": "quick-guard",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "air-slash",
+            "level": 39
+          },
+          {
+            "move": "endeavor",
+            "level": 45
+          },
+          {
+            "move": "brave-bird",
+            "level": 51
+          },
+          {
+            "move": "reversal",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/277.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/277.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ultra Space Wilds Cliff",
+            "method": "Only One",
+            "minLevel": 60,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "brave-bird",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "quick-attack",
+            "level": 9
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 17
+          },
+          {
+            "move": "aerial-ace",
+            "level": 21
+          },
+          {
+            "move": "quick-guard",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "air-slash",
+            "level": 39
+          },
+          {
+            "move": "endeavor",
+            "level": 45
+          },
+          {
+            "move": "brave-bird",
+            "level": 51
+          },
+          {
+            "move": "reversal",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "defog",
+          "endeavor",
+          "heat-wave",
+          "laser-focus",
+          "sky-attack",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "277",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/277.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 213 (Sinnoh) (Poké Radar)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "brave-bird",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pluck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "quick-attack",
+            "level": 9
+          },
+          {
+            "move": "wing-attack",
+            "level": 13
+          },
+          {
+            "move": "double-team",
+            "level": 17
+          },
+          {
+            "move": "aerial-ace",
+            "level": 21
+          },
+          {
+            "move": "quick-guard",
+            "level": 27
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "air-slash",
+            "level": 39
+          },
+          {
+            "move": "endeavor",
+            "level": 45
+          },
+          {
+            "move": "brave-bird",
+            "level": 51
+          },
+          {
+            "move": "reversal",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "giga-impact",
+          "hyper-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roost",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,1849 @@
+{
+  "dex": 15,
+  "keyword": "beedrill",
+  "name": "Beedrill",
+  "japaneseName": {
+    "kana": "スピアー",
+    "romaji": "Spear"
+  },
+  "type1": "Bug",
+  "type2": "Poison",
+  "genus": "Poison Bee Pokémon",
+  "heightM": 1.0,
+  "weightKg": 29.5,
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 40,
+    "specialAttack": 45,
+    "specialDefense": 80,
+    "speed": 75
+  },
+  "abilities": [
+    {
+      "name": "swarm",
+      "hidden": false,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "sniper",
+      "hidden": true,
+      "effect": "Strengthens critical hits to inflict 3× damage rather than 2×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "bug-wings",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 14,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0015.png",
+    "shiny": "sprites/shiny/0015.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/15.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/15.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "15",
+      "flavorText": "It flies at high speed and attacks using the large venomous stingers on its forelegs and tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/15.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "focus-energy",
+            "level": 15
+          },
+          {
+            "move": "focus-energy",
+            "level": 16
+          },
+          {
+            "move": "twineedle",
+            "level": 20
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 30
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "agility",
+            "level": 35
+          },
+          {
+            "move": "pin-missile",
+            "level": 35
+          },
+          {
+            "move": "agility",
+            "level": 40
+          },
+          {
+            "move": "endeavor",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "brick-break",
+          "cut",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "skull-bash",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "29",
+      "flavorText": "It uses sharp, poisonous stings to defeat prey, then takes the victim back to its nest for food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 15
+          },
+          {
+            "move": "twineedle",
+            "level": 20
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "pin-missile",
+            "level": 35
+          },
+          {
+            "move": "agility",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "double-team",
+          "endure",
+          "frustration",
+          "fury-cutter",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "swift",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A BEEDRILL is extremely territorial. For safety reasons, no one should ever approach its nest. If angered, they will attack in a swarm.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 15
+          },
+          {
+            "move": "twineedle",
+            "level": 20
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "pin-missile",
+            "level": 35
+          },
+          {
+            "move": "agility",
+            "level": 40
+          },
+          {
+            "move": "endeavor",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "secret-power",
+          "silver-wind",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "secret-power",
+          "silver-wind",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "endeavor",
+          "fury-cutter",
+          "knock-off",
+          "ominous-wind",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "29",
+      "flavorText": "It has three poison barbs. The barb on its tail secretes the most powerful poison.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "secret-power",
+          "silver-wind",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "bug-bite",
+          "endeavor",
+          "fury-cutter",
+          "knock-off",
+          "ominous-wind",
+          "snore",
+          "string-shot",
+          "swift",
+          "tailwind"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "drill-run",
+          "electroweb",
+          "endeavor",
+          "giga-drain",
+          "knock-off",
+          "roost",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "28",
+      "flavorText": "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          },
+          {
+            "move": "fell-stinger",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 10
+          },
+          {
+            "move": "focus-energy",
+            "level": 13
+          },
+          {
+            "move": "twineedle",
+            "level": 16
+          },
+          {
+            "move": "rage",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 31
+          },
+          {
+            "move": "assurance",
+            "level": 34
+          },
+          {
+            "move": "poison-jab",
+            "level": 37
+          },
+          {
+            "move": "endeavor",
+            "level": 40
+          },
+          {
+            "move": "fell-stinger",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "roost",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "drill-run",
+          "electroweb",
+          "endeavor",
+          "giga-drain",
+          "knock-off",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "twineedle",
+            "level": 0
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "twineedle",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 11
+          },
+          {
+            "move": "rage",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 17
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "venoshock",
+            "level": 23
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 29
+          },
+          {
+            "move": "pin-missile",
+            "level": 32
+          },
+          {
+            "move": "poison-jab",
+            "level": 35
+          },
+          {
+            "move": "agility",
+            "level": 38
+          },
+          {
+            "move": "endeavor",
+            "level": 41
+          },
+          {
+            "move": "fell-stinger",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "confide",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/15.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/15.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Island Scan",
+            "minLevel": 14,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "twineedle",
+            "level": 0
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "twineedle",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 11
+          },
+          {
+            "move": "rage",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 17
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "venoshock",
+            "level": 23
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 29
+          },
+          {
+            "move": "pin-missile",
+            "level": 32
+          },
+          {
+            "move": "poison-jab",
+            "level": 35
+          },
+          {
+            "move": "agility",
+            "level": 38
+          },
+          {
+            "move": "endeavor",
+            "level": 41
+          },
+          {
+            "move": "fell-stinger",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "confide",
+          "double-team",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "defog",
+          "drill-run",
+          "electroweb",
+          "endeavor",
+          "giga-drain",
+          "knock-off",
+          "laser-focus",
+          "snore",
+          "tailwind",
+          "throat-chop"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "15",
+      "flavorText": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "twineedle",
+            "level": 0
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "twineedle",
+            "level": 1
+          },
+          {
+            "move": "rage",
+            "level": 13
+          },
+          {
+            "move": "fury-attack",
+            "level": 16
+          },
+          {
+            "move": "focus-energy",
+            "level": 19
+          },
+          {
+            "move": "poison-jab",
+            "level": 22
+          },
+          {
+            "move": "agility",
+            "level": 25
+          },
+          {
+            "move": "pin-missile",
+            "level": 28
+          },
+          {
+            "move": "outrage",
+            "level": 31
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "drill-run",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "mega-drain",
+          "outrage",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "roost",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "toxic",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "15",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/15.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "fury-cutter",
+            "level": 11
+          },
+          {
+            "move": "laser-focus",
+            "level": 14
+          },
+          {
+            "move": "poison-sting",
+            "level": 17
+          },
+          {
+            "move": "focus-energy",
+            "level": 20
+          },
+          {
+            "move": "venoshock",
+            "level": 23
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 29
+          },
+          {
+            "move": "pin-missile",
+            "level": 32
+          },
+          {
+            "move": "poison-jab",
+            "level": 35
+          },
+          {
+            "move": "agility",
+            "level": 38
+          },
+          {
+            "move": "endeavor",
+            "level": 41
+          },
+          {
+            "move": "fell-stinger",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "defog",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "flash",
+          "giga-drain",
+          "giga-impact",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-smash",
+          "roost",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "u-turn",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "20",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Vert Sector 9, | Magenta District: Magenta Sector 4, Magenta Sector 6 | Rouge District: Rouge Sector 2 | Jaune District: Wild Zone 15",
+          "Hyperspace Lumiose (4★ Bug-type & Poison-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

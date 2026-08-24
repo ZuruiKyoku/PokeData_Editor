@@ -1,0 +1,945 @@
+{
+  "dex": 580,
+  "keyword": "ducklett",
+  "name": "Ducklett",
+  "japaneseName": {
+    "kana": "コアルヒー",
+    "romaji": "Koaruhie"
+  },
+  "type1": "Water",
+  "type2": "Flying",
+  "genus": "Water Bird Pokémon",
+  "heightM": 0.5,
+  "weightKg": 5.5,
+  "stats": {
+    "hp": 62,
+    "attack": 44,
+    "defense": 50,
+    "specialAttack": 44,
+    "specialDefense": 50,
+    "speed": 55
+  },
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "big-pecks",
+      "hidden": false,
+      "effect": "Protects against Defense drops."
+    },
+    {
+      "name": "hydration",
+      "hidden": true,
+      "effect": "Cures any major status ailment after each turn during rain."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "wings",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      581
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0580.png",
+    "shiny": "sprites/shiny/0580.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/580.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/580.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "86",
+      "flavorText": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/580.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/580.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Driftveil Drawbridge",
+            "method": "Bridge Spots",
+            "minLevel": 22,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 3
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dive",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "brine",
+          "gust",
+          "lucky-chant",
+          "me-first",
+          "mirror-move",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "153",
+      "flavorText": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/580.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/580.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Driftveil Drawbridge",
+            "method": "Bridge Spots",
+            "minLevel": 23,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 3
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "dive",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "pluck",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "brine",
+          "gust",
+          "lucky-chant",
+          "me-first",
+          "mirror-move",
+          "steel-wing"
+        ],
+        "tutor": [
+          "endeavor",
+          "icy-wind",
+          "roost",
+          "sleep-talk",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "127",
+      "flavorText": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/580.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/580.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 7",
+            "method": "Purple Flowers",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Yellow Flowers",
+            "minLevel": 14,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 3
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "scald",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "brine",
+          "gust",
+          "lucky-chant",
+          "me-first",
+          "mirror-move",
+          "mud-sport",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/580.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/580.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 3
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "dive",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "brine",
+          "gust",
+          "lucky-chant",
+          "me-first",
+          "mirror-move",
+          "mud-sport",
+          "steel-wing"
+        ],
+        "tutor": [
+          "endeavor",
+          "icy-wind",
+          "snore",
+          "tailwind",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/580.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/580.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 3
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "scald",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "brine",
+          "gust",
+          "lucky-chant",
+          "me-first",
+          "mirror-move",
+          "mud-sport",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/580.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/580.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 3
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "scald",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "air-cutter",
+          "aqua-jet",
+          "brine",
+          "gust",
+          "lucky-chant",
+          "me-first",
+          "mirror-move",
+          "mud-sport",
+          "steel-wing"
+        ],
+        "tutor": [
+          "defog",
+          "endeavor",
+          "icy-wind",
+          "liquidation",
+          "snore",
+          "tailwind",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K181",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/580.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mossfell Confluence, Fellhorn Gorge, Oni Mountain, Kitakami Wilds | Tera Raid Battles (1★ Ducklett)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "defog",
+            "level": 6
+          },
+          {
+            "move": "wing-attack",
+            "level": 9
+          },
+          {
+            "move": "water-pulse",
+            "level": 13
+          },
+          {
+            "move": "aerial-ace",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 19
+          },
+          {
+            "move": "feather-dance",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "air-slash",
+            "level": 27
+          },
+          {
+            "move": "roost",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 34
+          },
+          {
+            "move": "tailwind",
+            "level": 37
+          },
+          {
+            "move": "brave-bird",
+            "level": 41
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "chilling-water",
+          "disarming-voice",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "feather-dance",
+          "fly",
+          "helping-hand",
+          "hurricane",
+          "ice-beam",
+          "icy-wind",
+          "liquidation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swift",
+          "tailwind",
+          "tera-blast",
+          "trailblaze",
+          "water-pulse",
+          "whirlpool"
+        ],
+        "egg": [
+          "aqua-jet",
+          "brine",
+          "dive",
+          "endeavor",
+          "gust",
+          "steel-wing"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

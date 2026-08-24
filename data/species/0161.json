@@ -1,0 +1,1825 @@
+{
+  "dex": 161,
+  "keyword": "sentret",
+  "name": "Sentret",
+  "japaneseName": {
+    "kana": "オタチ",
+    "romaji": "Otachi"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Scout Pokémon",
+  "heightM": 0.8,
+  "weightKg": 6.0,
+  "stats": {
+    "hp": 35,
+    "attack": 46,
+    "defense": 34,
+    "specialAttack": 35,
+    "specialDefense": 45,
+    "speed": 20
+  },
+  "abilities": [
+    {
+      "name": "run-away",
+      "hidden": false,
+      "effect": "Ensures success fleeing from wild battles."
+    },
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "frisk",
+      "hidden": true,
+      "effect": "Reveals an opponent's held item upon entering battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      162
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0161.png",
+    "shiny": "sprites/shiny/0161.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/161.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/161.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "19",
+      "flavorText": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 43",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 5
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 33
+          },
+          {
+            "move": "amnesia",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "defense-curl",
+          "detect",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rollout",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swift",
+          "thief",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [
+          "double-edge",
+          "focus-energy",
+          "pursuit",
+          "reversal",
+          "slash"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "They take turns standing guard when it is time to sleep. The sentry awakens the others if it senses danger. If one becomes separated, it turns sleepless with fear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 12
+          },
+          {
+            "move": "helping-hand",
+            "level": 17
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "follow-me",
+            "level": 31
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "amnesia",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "solar-beam",
+          "sunny-day",
+          "surf",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "assist",
+          "double-edge",
+          "focus-energy",
+          "pursuit",
+          "reversal",
+          "slash",
+          "substitute",
+          "trick"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "water-pulse"
+        ],
+        "egg": [
+          "assist",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "last-resort",
+          "pursuit",
+          "reversal",
+          "slash",
+          "substitute",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "water-pulse"
+        ],
+        "egg": [
+          "assist",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "last-resort",
+          "pursuit",
+          "reversal",
+          "slash",
+          "substitute",
+          "trick"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "fire-punch",
+          "fury-cutter",
+          "helping-hand",
+          "ice-punch",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "swift",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "19",
+      "flavorText": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Wetland",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "water-pulse",
+          "whirlpool"
+        ],
+        "egg": [
+          "assist",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "last-resort",
+          "pursuit",
+          "reversal",
+          "slash",
+          "substitute",
+          "trick"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "fire-punch",
+          "fury-cutter",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "knock-off",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "super-fang",
+          "swift",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "assist",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "iron-tail",
+          "last-resort",
+          "natural-gift",
+          "pursuit",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "assist",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "iron-tail",
+          "last-resort",
+          "natural-gift",
+          "pursuit",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "covet",
+          "fire-punch",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "sleep-talk",
+          "snore",
+          "super-fang",
+          "thunder-punch",
+          "trick",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "109",
+      "flavorText": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 6",
+            "method": "Rough Terrain",
+            "minLevel": 10,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "assist",
+          "captivate",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "iron-tail",
+          "last-resort",
+          "natural-gift",
+          "pursuit",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "assist",
+          "captivate",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "iron-tail",
+          "last-resort",
+          "natural-gift",
+          "pursuit",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "covet",
+          "fire-punch",
+          "focus-punch",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "thunder-punch",
+          "trick",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "assist",
+          "captivate",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "iron-tail",
+          "last-resort",
+          "natural-gift",
+          "pursuit",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/161.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/161.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "me-first",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "assist",
+          "baby-doll-eyes",
+          "captivate",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "iron-tail",
+          "last-resort",
+          "natural-gift",
+          "pursuit",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "covet",
+          "fire-punch",
+          "focus-punch",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "thunder-punch",
+          "trick",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "161",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/161.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 202 (Sinnoh) (Poké Radar) | Grand Underground - Spacious Cave, Rocky Cave, Volcanic Cave, Whiteout Cave, Big Bluff Cavern, Typhlo Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "reversal",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunderbolt",
+          "u-turn",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "charm",
+          "covet",
+          "double-edge",
+          "focus-energy",
+          "last-resort",
+          "reversal",
+          "slash",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K026",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/161.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Apple Hills, Loyalty Plaza, Reveler's Road, Kitakami Hall, Mossfell Confluence | Tera Raid Battles (1★ Sentret)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "fury-swipes",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "follow-me",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 25
+          },
+          {
+            "move": "rest",
+            "level": 28
+          },
+          {
+            "move": "sucker-punch",
+            "level": 31
+          },
+          {
+            "move": "amnesia",
+            "level": 36
+          },
+          {
+            "move": "baton-pass",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          },
+          {
+            "move": "hyper-voice",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "baton-pass",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "charge-beam",
+          "charm",
+          "chilling-water",
+          "dig",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "helping-hand",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "knock-off",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "seed-bomb",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "super-fang",
+          "surf",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunderbolt",
+          "trailblaze",
+          "trick",
+          "u-turn",
+          "uproar",
+          "water-pulse"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "focus-energy",
+          "last-resort",
+          "reversal",
+          "slash",
+          "tidy-up"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "dex": 944,
+  "keyword": "shroodle",
+  "name": "Shroodle",
+  "japaneseName": {
+    "kana": "シルシュルー",
+    "romaji": "Shirushrew"
+  },
+  "type1": "Poison",
+  "type2": "Normal",
+  "genus": "Toxic Mouse Pokémon",
+  "heightM": 0.2,
+  "weightKg": 0.7,
+  "stats": {
+    "hp": 40,
+    "attack": 65,
+    "defense": 35,
+    "specialAttack": 40,
+    "specialDefense": 35,
+    "speed": 75
+  },
+  "abilities": [
+    {
+      "name": "unburden",
+      "hidden": false,
+      "effect": "Doubles Speed upon using or losing a held item."
+    },
+    {
+      "name": "pickpocket",
+      "hidden": false,
+      "effect": "Steals attacking Pokémon's held items on contact."
+    },
+    {
+      "name": "prankster",
+      "hidden": true,
+      "effect": "Raises non-damaging moves' priority by one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 50,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 9
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      945
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0944.png",
+    "shiny": "sprites/shiny/0944.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/944.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "sv": {
+      "dexNumber": "P202",
+      "flavorText": "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/944.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two | East Province: Area One, Area Two, Tagtree Thicket | West Province: Area Three | Tera Raid Battles (1★ Shroodle)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "acid-spray",
+            "level": 5
+          },
+          {
+            "move": "bite",
+            "level": 8
+          },
+          {
+            "move": "fury-swipes",
+            "level": 8
+          },
+          {
+            "move": "switcheroo",
+            "level": 11
+          },
+          {
+            "move": "poison-fang",
+            "level": 14
+          },
+          {
+            "move": "flatter",
+            "level": 18
+          },
+          {
+            "move": "slash",
+            "level": 21
+          },
+          {
+            "move": "u-turn",
+            "level": 25
+          },
+          {
+            "move": "poison-jab",
+            "level": 29
+          },
+          {
+            "move": "taunt",
+            "level": 33
+          },
+          {
+            "move": "substitute",
+            "level": 36
+          },
+          {
+            "move": "knock-off",
+            "level": 40
+          },
+          {
+            "move": "gunk-shot",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "acrobatics",
+          "baton-pass",
+          "dig",
+          "double-edge",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fling",
+          "foul-play",
+          "gunk-shot",
+          "helping-hand",
+          "knock-off",
+          "metronome",
+          "mud-shot",
+          "mud-slap",
+          "nasty-plot",
+          "poison-jab",
+          "pounce",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "skitter-smack",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "super-fang",
+          "swords-dance",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "toxic",
+          "trailblaze",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [
+          "copycat",
+          "cross-poison",
+          "parting-shot",
+          "super-fang",
+          "swagger",
+          "toxic"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H104",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

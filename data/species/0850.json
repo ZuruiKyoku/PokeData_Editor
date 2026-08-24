@@ -1,0 +1,191 @@
+{
+  "dex": 850,
+  "keyword": "sizzlipede",
+  "name": "Sizzlipede",
+  "japaneseName": {
+    "kana": "ヤクデ",
+    "romaji": "Yakude"
+  },
+  "type1": "Fire",
+  "type2": "Bug",
+  "genus": "Radiator Pokémon",
+  "heightM": 0.7,
+  "weightKg": 1.0,
+  "stats": {
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 50,
+    "specialDefense": 50,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "hidden": false,
+      "effect": "Protects against fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+    },
+    {
+      "name": "white-smoke",
+      "hidden": false,
+      "effect": "Prevents stats from being lowered by other Pokémon."
+    },
+    {
+      "name": "flame-body",
+      "hidden": true,
+      "effect": "Has a 30% chance of burning attacking Pokémon on contact."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 50,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "tentacles",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 8
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      851
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0850.png",
+    "shiny": "sprites/shiny/0850.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/850.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "swsh": {
+      "dexNumber": "159",
+      "flavorText": "It wraps prey up with its heated body, cooking them in its coils. Once they’re well-done, it will voraciously nibble them down to the last morsel.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 5
+          },
+          {
+            "move": "bite",
+            "level": 10
+          },
+          {
+            "move": "flame-wheel",
+            "level": 15
+          },
+          {
+            "move": "bug-bite",
+            "level": 20
+          },
+          {
+            "move": "coil",
+            "level": 25
+          },
+          {
+            "move": "slam",
+            "level": 30
+          },
+          {
+            "move": "fire-spin",
+            "level": 35
+          },
+          {
+            "move": "crunch",
+            "level": 40
+          },
+          {
+            "move": "fire-lash",
+            "level": 45
+          },
+          {
+            "move": "lunge",
+            "level": 50
+          },
+          {
+            "move": "burn-up",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bug-buzz",
+          "crunch",
+          "endure",
+          "facade",
+          "fire-spin",
+          "heat-crash",
+          "heat-wave",
+          "leech-life",
+          "power-whip",
+          "protect",
+          "rest",
+          "round",
+          "scald",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "venoshock"
+        ],
+        "egg": [
+          "defense-curl",
+          "knock-off",
+          "rollout",
+          "struggle-bug"
+        ],
+        "tutor": [
+          "scorching-sands",
+          "skitter-smack"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

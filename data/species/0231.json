@@ -1,0 +1,1607 @@
+{
+  "dex": 231,
+  "keyword": "phanpy",
+  "name": "Phanpy",
+  "japaneseName": {
+    "kana": "ゴマゾウ",
+    "romaji": "Gomazou"
+  },
+  "type1": "Ground",
+  "type2": null,
+  "genus": "Long Nose Pokémon",
+  "heightM": 0.5,
+  "weightKg": 33.5,
+  "stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 40,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "sand-veil",
+      "hidden": true,
+      "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "quadruped",
+    "habitat": "rough-terrain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      232
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0231.png",
+    "shiny": "sprites/shiny/0231.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/231.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/231.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "195",
+      "flavorText": "During the desert­ ed morning hours, it comes ashore where it deftly uses its trunk to take a shower.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 9
+          },
+          {
+            "move": "flail",
+            "level": 17
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "rollout",
+            "level": 33
+          },
+          {
+            "move": "endure",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "double-team",
+          "earthquake",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "focus-energy",
+          "water-gun"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "165",
+      "flavorText": "PHANPY’s big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Neacro Bike",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 9
+          },
+          {
+            "move": "flail",
+            "level": 17
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "rollout",
+            "level": 33
+          },
+          {
+            "move": "endure",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "fissure",
+          "focus-energy",
+          "snore"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 207",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "take-down",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "natural-gift",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "endure",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "ice-shard",
+          "snore"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 207",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 7
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "take-down",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "natural-gift",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "endure",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "ice-shard",
+          "snore"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "knock-off",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "200",
+      "flavorText": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 43
+          },
+          {
+            "location": "Mt Silver 1f Top",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Mt Silver 3f",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Mt Silver Mountainside",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "take-down",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "natural-gift",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "endure",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "ice-shard",
+          "snore"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "headbutt",
+          "knock-off",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "take-down",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "natural-gift",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "endure",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "ice-shard",
+          "mud-slap",
+          "snore"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "take-down",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "natural-gift",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "endure",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "ice-shard",
+          "mud-slap",
+          "snore"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "hyper-voice",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "take-down",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "natural-gift",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "endure",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "ice-shard",
+          "mud-slap",
+          "play-rough",
+          "snore"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "172",
+      "flavorText": "Phanpy uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These Pokémon can be seen drying their soaking-wet bodies at the edge of water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "natural-gift",
+            "level": 15
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "ice-shard",
+          "mud-slap",
+          "play-rough",
+          "snore"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "hyper-voice",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "natural-gift",
+            "level": 15
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "ice-shard",
+          "mud-slap",
+          "play-rough",
+          "snore"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/231.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/231.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "natural-gift",
+            "level": 15
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "high-horsepower",
+          "ice-shard",
+          "mud-slap",
+          "play-rough",
+          "snore"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "hyper-voice",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "231",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/231.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 207 (Sinnoh) (Swarm) | Grand Underground - Rocky Cave, Big Bluff Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bulldoze",
+            "level": 15
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "iron-tail",
+          "protect",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "high-horsepower",
+          "ice-shard",
+          "mud-slap",
+          "play-rough",
+          "snore"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P122",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/231.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Four | West Province: Area One, Area Two, Asado Desert | Tera Raid Battles (2★ Phanpy)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bulldoze",
+            "level": 15
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "charm",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "bulldoze",
+          "charm",
+          "curse",
+          "dig",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "gunk-shot",
+          "heavy-slam",
+          "helping-hand",
+          "high-horsepower",
+          "hyper-voice",
+          "iron-head",
+          "knock-off",
+          "mud-shot",
+          "mud-slap",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "seed-bomb",
+          "sleep-talk",
+          "smack-down",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "trailblaze"
+        ],
+        "egg": [
+          "ancient-power",
+          "body-slam",
+          "counter",
+          "endeavor",
+          "fissure",
+          "focus-energy",
+          "head-smash",
+          "heavy-slam",
+          "high-horsepower",
+          "ice-shard",
+          "play-rough",
+          "snore"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

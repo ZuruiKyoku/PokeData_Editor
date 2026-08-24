@@ -1,0 +1,956 @@
+{
+  "dex": 703,
+  "keyword": "carbink",
+  "name": "Carbink",
+  "japaneseName": {
+    "kana": "メレシー",
+    "romaji": "Melecie"
+  },
+  "type1": "Rock",
+  "type2": "Fairy",
+  "genus": "Jewel Pokémon",
+  "heightM": 0.3,
+  "weightKg": 5.7,
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 150,
+    "specialAttack": 50,
+    "specialDefense": 150,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "clear-body",
+      "hidden": false,
+      "effect": "Prevents stats from being lowered by other Pokémon."
+    },
+    {
+      "name": "sturdy",
+      "hidden": true,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy",
+      "mineral"
+    ],
+    "genderRateEighthsFemale": -1,
+    "hatchCycles": 25,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "ball",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0703.png",
+    "shiny": "sprites/shiny/0703.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/703.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "C124",
+      "flavorText": "It has slept underground for hundreds of millions of years since its birth. It’s occasionally found during the excavation of caves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/703.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/703.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Reflection Cave Unknown Area 305",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Reflection Cave Unknown Area 306",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Reflection Cave Unknown Area 307",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Reflection Cave Unknown Area 308",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 5
+          },
+          {
+            "move": "sharpen",
+            "level": 8
+          },
+          {
+            "move": "smack-down",
+            "level": 12
+          },
+          {
+            "move": "reflect",
+            "level": 18
+          },
+          {
+            "move": "stealth-rock",
+            "level": 21
+          },
+          {
+            "move": "guard-split",
+            "level": 27
+          },
+          {
+            "move": "ancient-power",
+            "level": 31
+          },
+          {
+            "move": "flail",
+            "level": 35
+          },
+          {
+            "move": "skill-swap",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          },
+          {
+            "move": "light-screen",
+            "level": 60
+          },
+          {
+            "move": "safeguard",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It has slept underground for hundreds of millions of years since its birth. It’s occasionally found during the excavation of caves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/703.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/703.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 5
+          },
+          {
+            "move": "sharpen",
+            "level": 8
+          },
+          {
+            "move": "smack-down",
+            "level": 12
+          },
+          {
+            "move": "reflect",
+            "level": 18
+          },
+          {
+            "move": "stealth-rock",
+            "level": 21
+          },
+          {
+            "move": "guard-split",
+            "level": 27
+          },
+          {
+            "move": "ancient-power",
+            "level": 31
+          },
+          {
+            "move": "flail",
+            "level": 35
+          },
+          {
+            "move": "skill-swap",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          },
+          {
+            "move": "light-screen",
+            "level": 60
+          },
+          {
+            "move": "safeguard",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "covet",
+          "earth-power",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "skill-swap",
+          "snore",
+          "stealth-rock",
+          "wonder-room"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "101",
+      "flavorText": "Although this Pokémon is not especially rare, its glittering, jewel-draped body draws attention from people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/703.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/703.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Ten Carat Hill Farthest Hollow",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Ten Carat Hill Inside",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Vast Poni Canyon Inside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Vast Poni Canyon Northwest",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Vast Poni Canyon Outside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 5
+          },
+          {
+            "move": "sharpen",
+            "level": 8
+          },
+          {
+            "move": "smack-down",
+            "level": 12
+          },
+          {
+            "move": "reflect",
+            "level": 18
+          },
+          {
+            "move": "stealth-rock",
+            "level": 21
+          },
+          {
+            "move": "guard-split",
+            "level": 27
+          },
+          {
+            "move": "ancient-power",
+            "level": 31
+          },
+          {
+            "move": "flail",
+            "level": 35
+          },
+          {
+            "move": "skill-swap",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          },
+          {
+            "move": "light-screen",
+            "level": 60
+          },
+          {
+            "move": "safeguard",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "explosion",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "123",
+      "flavorText": "To keep the jewels on their bodies free of tarnish, packs of Carbink use their soft manes to polish one another’s jewels.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/703.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/703.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ten Carat Hill Farthest Hollow",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Ten Carat Hill Inside",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Vast Poni Canyon Inside",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Vast Poni Canyon Northwest",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Vast Poni Canyon Outside",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 46
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 5
+          },
+          {
+            "move": "sharpen",
+            "level": 8
+          },
+          {
+            "move": "smack-down",
+            "level": 12
+          },
+          {
+            "move": "reflect",
+            "level": 18
+          },
+          {
+            "move": "stealth-rock",
+            "level": 21
+          },
+          {
+            "move": "guard-split",
+            "level": 27
+          },
+          {
+            "move": "ancient-power",
+            "level": 31
+          },
+          {
+            "move": "flail",
+            "level": 35
+          },
+          {
+            "move": "skill-swap",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "stone-edge",
+            "level": 49
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          },
+          {
+            "move": "light-screen",
+            "level": 60
+          },
+          {
+            "move": "safeguard",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "explosion",
+          "facade",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "ally-switch",
+          "covet",
+          "earth-power",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "skill-swap",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "telekinesis",
+          "wonder-room"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "C128",
+      "flavorText": "It’s said that somewhere in the world, there’s a mineral vein housing a large pack of slumbering Carbink. It’s also said that this pack has a queen.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "guard-split",
+            "level": 5
+          },
+          {
+            "move": "smack-down",
+            "level": 10
+          },
+          {
+            "move": "flail",
+            "level": 15
+          },
+          {
+            "move": "ancient-power",
+            "level": 20
+          },
+          {
+            "move": "rock-polish",
+            "level": 25
+          },
+          {
+            "move": "light-screen",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 35
+          },
+          {
+            "move": "skill-swap",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 45
+          },
+          {
+            "move": "stealth-rock",
+            "level": 50
+          },
+          {
+            "move": "moonblast",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "body-press",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "earth-power",
+          "endure",
+          "facade",
+          "guard-swap",
+          "gyro-ball",
+          "hail",
+          "iron-defense",
+          "light-screen",
+          "power-gem",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sand-tomb",
+          "sandstorm",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "trick-room",
+          "wonder-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "meteor-beam",
+          "misty-explosion",
+          "terrain-pulse"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K167",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/703.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Oni Mountain, Crystal Pool, Chilling Waterhead | Area Zero Underdepths | Tera Raid Battles (4★ Carbink)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "guard-split",
+            "level": 5
+          },
+          {
+            "move": "smack-down",
+            "level": 10
+          },
+          {
+            "move": "flail",
+            "level": 15
+          },
+          {
+            "move": "ancient-power",
+            "level": 20
+          },
+          {
+            "move": "rock-polish",
+            "level": 25
+          },
+          {
+            "move": "light-screen",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 35
+          },
+          {
+            "move": "skill-swap",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 45
+          },
+          {
+            "move": "stealth-rock",
+            "level": 50
+          },
+          {
+            "move": "moonblast",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "body-press",
+          "body-slam",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "double-edge",
+          "earth-power",
+          "endeavor",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "giga-impact",
+          "gravity",
+          "gyro-ball",
+          "heavy-slam",
+          "hyper-beam",
+          "iron-defense",
+          "iron-head",
+          "light-screen",
+          "meteor-beam",
+          "misty-explosion",
+          "misty-terrain",
+          "power-gem",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "skill-swap",
+          "sleep-talk",
+          "smack-down",
+          "spikes",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "131",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Magenta District: Magenta Sector 8 (only during Side Mission EX1, requires Mystery Gift activation), Wild Zone 9 | Centrico Plaza: Wild Zone 20",
+          "Hyperspace Lumiose (3★ Rock-type wild zones, 2★ Fairy-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

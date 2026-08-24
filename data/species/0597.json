@@ -1,0 +1,969 @@
+{
+  "dex": 597,
+  "keyword": "ferroseed",
+  "name": "Ferroseed",
+  "japaneseName": {
+    "kana": "テッシード",
+    "romaji": "Tesseed"
+  },
+  "type1": "Grass",
+  "type2": "Steel",
+  "genus": "Thorn Seed Pokémon",
+  "heightM": 0.6,
+  "weightKg": 18.8,
+  "stats": {
+    "hp": 44,
+    "attack": 50,
+    "defense": 91,
+    "specialAttack": 24,
+    "specialDefense": 86,
+    "speed": 10
+  },
+  "abilities": [
+    {
+      "name": "iron-barbs",
+      "hidden": false,
+      "effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant",
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "ball",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      598
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0597.png",
+    "shiny": "sprites/shiny/0597.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/597.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/597.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "103",
+      "flavorText": "They stick their spikes into cave walls and absorb the minerals they find in the rock.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/597.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/597.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Chargestone Cave 1f",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 25
+          },
+          {
+            "location": "Chargestone Cave B1f",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 26
+          },
+          {
+            "location": "Chargestone Cave B2f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 14
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "gyro-ball",
+            "level": 21
+          },
+          {
+            "move": "iron-defense",
+            "level": 26
+          },
+          {
+            "move": "mirror-shot",
+            "level": 30
+          },
+          {
+            "move": "ingrain",
+            "level": 35
+          },
+          {
+            "move": "self-destruct",
+            "level": 38
+          },
+          {
+            "move": "iron-head",
+            "level": 43
+          },
+          {
+            "move": "payback",
+            "level": 47
+          },
+          {
+            "move": "flash-cannon",
+            "level": 52
+          },
+          {
+            "move": "explosion",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "double-team",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-seed",
+          "gravity",
+          "leech-seed",
+          "rock-climb",
+          "seed-bomb",
+          "spikes",
+          "stealth-rock",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "175",
+      "flavorText": "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/597.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/597.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Chargestone Cave 1f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 27
+          },
+          {
+            "location": "Chargestone Cave B1f",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          },
+          {
+            "location": "Chargestone Cave B2f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 14
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "gyro-ball",
+            "level": 21
+          },
+          {
+            "move": "iron-defense",
+            "level": 26
+          },
+          {
+            "move": "mirror-shot",
+            "level": 30
+          },
+          {
+            "move": "ingrain",
+            "level": 35
+          },
+          {
+            "move": "self-destruct",
+            "level": 38
+          },
+          {
+            "move": "iron-head",
+            "level": 43
+          },
+          {
+            "move": "payback",
+            "level": 47
+          },
+          {
+            "move": "flash-cannon",
+            "level": 52
+          },
+          {
+            "move": "explosion",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "double-team",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "hone-claws",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bullet-seed",
+          "gravity",
+          "leech-seed",
+          "rock-climb",
+          "seed-bomb",
+          "spikes",
+          "stealth-rock",
+          "worry-seed"
+        ],
+        "tutor": [
+          "endeavor",
+          "giga-drain",
+          "gravity",
+          "iron-defense",
+          "iron-head",
+          "magnet-rise",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C69",
+      "flavorText": "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/597.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/597.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 14
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "gyro-ball",
+            "level": 21
+          },
+          {
+            "move": "iron-defense",
+            "level": 26
+          },
+          {
+            "move": "mirror-shot",
+            "level": 30
+          },
+          {
+            "move": "ingrain",
+            "level": 35
+          },
+          {
+            "move": "self-destruct",
+            "level": 38
+          },
+          {
+            "move": "iron-head",
+            "level": 43
+          },
+          {
+            "move": "payback",
+            "level": 47
+          },
+          {
+            "move": "flash-cannon",
+            "level": 52
+          },
+          {
+            "move": "explosion",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "confide",
+          "double-team",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "hone-claws",
+          "nature-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-spray",
+          "bullet-seed",
+          "gravity",
+          "leech-seed",
+          "rock-climb",
+          "seed-bomb",
+          "spikes",
+          "stealth-rock",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/597.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/597.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 14
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "gyro-ball",
+            "level": 21
+          },
+          {
+            "move": "iron-defense",
+            "level": 26
+          },
+          {
+            "move": "mirror-shot",
+            "level": 30
+          },
+          {
+            "move": "ingrain",
+            "level": 35
+          },
+          {
+            "move": "self-destruct",
+            "level": 38
+          },
+          {
+            "move": "iron-head",
+            "level": 43
+          },
+          {
+            "move": "payback",
+            "level": 47
+          },
+          {
+            "move": "flash-cannon",
+            "level": 52
+          },
+          {
+            "move": "explosion",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "confide",
+          "double-team",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "hone-claws",
+          "nature-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-spray",
+          "bullet-seed",
+          "gravity",
+          "leech-seed",
+          "rock-climb",
+          "seed-bomb",
+          "spikes",
+          "stealth-rock",
+          "worry-seed"
+        ],
+        "tutor": [
+          "endeavor",
+          "giga-drain",
+          "gravity",
+          "iron-defense",
+          "iron-head",
+          "knock-off",
+          "magnet-rise",
+          "seed-bomb",
+          "snore",
+          "stealth-rock",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/597.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/597.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 14
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "gyro-ball",
+            "level": 21
+          },
+          {
+            "move": "iron-defense",
+            "level": 26
+          },
+          {
+            "move": "mirror-shot",
+            "level": 30
+          },
+          {
+            "move": "ingrain",
+            "level": 35
+          },
+          {
+            "move": "self-destruct",
+            "level": 38
+          },
+          {
+            "move": "iron-head",
+            "level": 43
+          },
+          {
+            "move": "payback",
+            "level": 47
+          },
+          {
+            "move": "flash-cannon",
+            "level": 52
+          },
+          {
+            "move": "explosion",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "confide",
+          "double-team",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "round",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-spray",
+          "bullet-seed",
+          "gravity",
+          "leech-seed",
+          "rock-climb",
+          "seed-bomb",
+          "spikes",
+          "stealth-rock",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/597.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/597.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 14
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "gyro-ball",
+            "level": 21
+          },
+          {
+            "move": "iron-defense",
+            "level": 26
+          },
+          {
+            "move": "mirror-shot",
+            "level": 30
+          },
+          {
+            "move": "ingrain",
+            "level": 35
+          },
+          {
+            "move": "self-destruct",
+            "level": 38
+          },
+          {
+            "move": "iron-head",
+            "level": 43
+          },
+          {
+            "move": "payback",
+            "level": 47
+          },
+          {
+            "move": "flash-cannon",
+            "level": 52
+          },
+          {
+            "move": "explosion",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "confide",
+          "double-team",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "nature-power",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "round",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "acid-spray",
+          "bullet-seed",
+          "gravity",
+          "leech-seed",
+          "rock-climb",
+          "seed-bomb",
+          "spikes",
+          "stealth-rock",
+          "worry-seed"
+        ],
+        "tutor": [
+          "endeavor",
+          "giga-drain",
+          "gravity",
+          "iron-defense",
+          "iron-head",
+          "knock-off",
+          "magnet-rise",
+          "seed-bomb",
+          "snore",
+          "stealth-rock",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "189",
+      "flavorText": "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed’s spikes grow big and strong.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "metal-claw",
+            "level": 5
+          },
+          {
+            "move": "pin-missile",
+            "level": 10
+          },
+          {
+            "move": "ingrain",
+            "level": 15
+          },
+          {
+            "move": "flash-cannon",
+            "level": 20
+          },
+          {
+            "move": "iron-head",
+            "level": 25
+          },
+          {
+            "move": "self-destruct",
+            "level": 30
+          },
+          {
+            "move": "iron-defense",
+            "level": 35
+          },
+          {
+            "move": "curse",
+            "level": 41
+          },
+          {
+            "move": "gyro-ball",
+            "level": 45
+          },
+          {
+            "move": "explosion",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "bullet-seed",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash-cannon",
+          "giga-drain",
+          "gyro-ball",
+          "iron-defense",
+          "iron-head",
+          "payback",
+          "pin-missile",
+          "poison-jab",
+          "protect",
+          "rest",
+          "revenge",
+          "round",
+          "seed-bomb",
+          "self-destruct",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "spikes",
+          "stealth-rock",
+          "substitute",
+          "sunny-day",
+          "thunder-wave",
+          "thunderbolt"
+        ],
+        "egg": [
+          "acid-spray",
+          "gravity",
+          "knock-off",
+          "leech-seed",
+          "toxic"
+        ],
+        "tutor": [
+          "steel-beam",
+          "steel-roller"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

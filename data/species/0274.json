@@ -1,0 +1,1730 @@
+{
+  "dex": 274,
+  "keyword": "nuzleaf",
+  "name": "Nuzleaf",
+  "japaneseName": {
+    "kana": "コノハナ",
+    "romaji": "Konohana"
+  },
+  "type1": "Grass",
+  "type2": "Dark",
+  "genus": "Wily Pokémon",
+  "heightM": 1.0,
+  "weightKg": 28.0,
+  "stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 40,
+    "specialAttack": 60,
+    "specialDefense": 40,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "early-bird",
+      "hidden": false,
+      "effect": "Makes sleep pass twice as quickly."
+    },
+    {
+      "name": "pickpocket",
+      "hidden": true,
+      "effect": "Steals attacking Pokémon's held items on contact."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground",
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "humanoid",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": "Male has a bigger leaf",
+  "evolution": {
+    "evolvesFromDex": 273,
+    "evolvesIntoDex": [
+      275
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0274.png",
+    "shiny": "sprites/shiny/0274.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/274.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/274.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "23",
+      "flavorText": "A forest-dwelling POKéMON that is skilled at climbing trees. Its long and pointed nose is its weak point. It loses power if the nose is gripped.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 114",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "explosion",
+          "fury-cutter",
+          "mega-kick",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "swift",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "headbutt",
+          "low-kick",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "swift",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "embargo",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "low-sweep",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Nature Sanctuary",
+            "method": "Dark Grass",
+            "minLevel": 64,
+            "maxLevel": 65
+          },
+          {
+            "location": "Nature Sanctuary",
+            "method": "Walk",
+            "minLevel": 56,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "embargo",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "low-sweep",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "dark-pulse",
+          "foul-play",
+          "giga-drain",
+          "low-kick",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "spite",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "nature-power",
+            "level": 13
+          },
+          {
+            "move": "fake-out",
+            "level": 19
+          },
+          {
+            "move": "torment",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "razor-wind",
+            "level": 37
+          },
+          {
+            "move": "swagger",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "low-sweep",
+          "nature-power",
+          "payback",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "23",
+      "flavorText": "This Pokémon pulls out the leaf on its head and makes a flute with it. The sound of Nuzleaf’s flute strikes fear and uncertainty in the hearts of people lost in a forest.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "nature-power",
+            "level": 9
+          },
+          {
+            "move": "fake-out",
+            "level": 12
+          },
+          {
+            "move": "razor-leaf",
+            "level": 14
+          },
+          {
+            "move": "torment",
+            "level": 16
+          },
+          {
+            "move": "razor-wind",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 24
+          },
+          {
+            "move": "leaf-blade",
+            "level": 28
+          },
+          {
+            "move": "swagger",
+            "level": 32
+          },
+          {
+            "move": "extrasensory",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "embargo",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "low-sweep",
+          "nature-power",
+          "payback",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "foul-play",
+          "giga-drain",
+          "low-kick",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "razor-leaf",
+            "level": 0
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "torment",
+            "level": 9
+          },
+          {
+            "move": "fake-out",
+            "level": 12
+          },
+          {
+            "move": "nature-power",
+            "level": 16
+          },
+          {
+            "move": "razor-wind",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 24
+          },
+          {
+            "move": "leaf-blade",
+            "level": 28
+          },
+          {
+            "move": "swagger",
+            "level": 32
+          },
+          {
+            "move": "extrasensory",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "embargo",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "low-sweep",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/274.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/274.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ultra Space Wilds Crag",
+            "method": "Only One",
+            "minLevel": 60,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "razor-leaf",
+            "level": 0
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 3
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "torment",
+            "level": 9
+          },
+          {
+            "move": "fake-out",
+            "level": 12
+          },
+          {
+            "move": "nature-power",
+            "level": 16
+          },
+          {
+            "move": "razor-wind",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 24
+          },
+          {
+            "move": "leaf-blade",
+            "level": 28
+          },
+          {
+            "move": "swagger",
+            "level": 32
+          },
+          {
+            "move": "extrasensory",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "embargo",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "low-sweep",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "defog",
+          "foul-play",
+          "giga-drain",
+          "low-kick",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "40",
+      "flavorText": "They live in holes bored in large trees. The sound of Nuzleaf’s grass flute fills listeners with dread.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "razor-leaf",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "air-cutter",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "explosion",
+            "level": 1
+          },
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "torment",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 18
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "nature-power",
+            "level": 30
+          },
+          {
+            "move": "sunny-day",
+            "level": 36
+          },
+          {
+            "move": "extrasensory",
+            "level": 43
+          },
+          {
+            "move": "sucker-punch",
+            "level": 50
+          },
+          {
+            "move": "leaf-blade",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "assurance",
+          "attract",
+          "beat-up",
+          "body-slam",
+          "brick-break",
+          "bullet-seed",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "fling",
+          "foul-play",
+          "giga-drain",
+          "grass-knot",
+          "grassy-terrain",
+          "hyper-beam",
+          "leaf-blade",
+          "low-kick",
+          "low-sweep",
+          "mega-kick",
+          "nasty-plot",
+          "payback",
+          "power-swap",
+          "protect",
+          "rest",
+          "retaliate",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "seed-bomb",
+          "self-destruct",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "solar-beam",
+          "solar-blade",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "thief"
+        ],
+        "egg": [],
+        "tutor": [
+          "grassy-glide",
+          "lash-out"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "274",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/274.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Grassland Cave, Riverbank Cave, Sunlit Cavern, Still-Water Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "razor-leaf",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "air-cutter",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "explosion",
+            "level": 1
+          },
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "torment",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 18
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "nature-power",
+            "level": 30
+          },
+          {
+            "move": "sunny-day",
+            "level": 36
+          },
+          {
+            "move": "extrasensory",
+            "level": 43
+          },
+          {
+            "move": "sucker-punch",
+            "level": 50
+          },
+          {
+            "move": "leaf-blade",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "false-swipe",
+          "flash",
+          "fling",
+          "giga-drain",
+          "grass-knot",
+          "hyper-beam",
+          "low-sweep",
+          "nasty-plot",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "torment"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K055",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/274.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Reveler's Road, Mossfell Confluence, Fellhorn Gorge, Oni Mountain, Paradise Barrens, Kitakami Wilds, Timeless Woods | Tera Raid Battles (3★ Nuzleaf)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "razor-leaf",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "air-cutter",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "explosion",
+            "level": 1
+          },
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "swagger",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "torment",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 9
+          },
+          {
+            "move": "rollout",
+            "level": 12
+          },
+          {
+            "move": "mega-drain",
+            "level": 18
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "synthesis",
+            "level": 30
+          },
+          {
+            "move": "sunny-day",
+            "level": 36
+          },
+          {
+            "move": "extrasensory",
+            "level": 43
+          },
+          {
+            "move": "sucker-punch",
+            "level": 50
+          },
+          {
+            "move": "leaf-blade",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "air-cutter",
+          "amnesia",
+          "body-slam",
+          "brick-break",
+          "bullet-seed",
+          "chilling-water",
+          "curse",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "fling",
+          "foul-play",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "knock-off",
+          "lash-out",
+          "leaf-storm",
+          "low-kick",
+          "low-sweep",
+          "magical-leaf",
+          "nasty-plot",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "scary-face",
+          "seed-bomb",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "solar-blade",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "trailblaze",
+          "uproar",
+          "weather-ball"
+        ],
+        "egg": [
+          "defog",
+          "leech-seed",
+          "night-slash",
+          "quick-attack",
+          "take-down",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

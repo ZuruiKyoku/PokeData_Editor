@@ -1,0 +1,1913 @@
+{
+  "dex": 264,
+  "keyword": "linoone",
+  "name": "Linoone",
+  "japaneseName": {
+    "kana": "マッスグマ",
+    "romaji": "Massuguma"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Rushing Pokémon",
+  "heightM": 0.5,
+  "weightKg": 32.5,
+  "stats": {
+    "hp": 78,
+    "attack": 70,
+    "defense": 61,
+    "specialAttack": 50,
+    "specialDefense": 61,
+    "speed": 100
+  },
+  "abilities": [
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "gluttony",
+      "hidden": false,
+      "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+    },
+    {
+      "name": "quick-feet",
+      "hidden": true,
+      "effect": "Increases Speed to 1.5× with a major status ailment."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 263,
+    "evolvesIntoDex": [
+      862
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0264.png",
+    "shiny": "sprites/shiny/0264.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/264.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/264.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "13",
+      "flavorText": "It is exceedingly fast if it only has to run in a straight line. When it spots pond- dwelling prey underwater, it quickly leaps in and catches it with its sharp claws.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 118",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 119",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 120",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 121",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 123",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "rest",
+            "level": 47
+          },
+          {
+            "move": "belly-drum",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "strength",
+          "sunny-day",
+          "surf",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "rest",
+            "level": 47
+          },
+          {
+            "move": "belly-drum",
+            "level": 53
+          },
+          {
+            "move": "fling",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "rest",
+            "level": 47
+          },
+          {
+            "move": "belly-drum",
+            "level": 53
+          },
+          {
+            "move": "fling",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "gunk-shot",
+          "helping-hand",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "swift",
+          "trick"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "When running in a straight line, it can easily top 60 miles an hour. It has a tough time with curved roads.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 26",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Route 27",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 32",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 34",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 42",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 43",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 44",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 47",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 32
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Ruins Of Alph Outside",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Sea Route 21",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "rest",
+            "level": 47
+          },
+          {
+            "move": "belly-drum",
+            "level": 53
+          },
+          {
+            "move": "fling",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "fury-cutter",
+          "gunk-shot",
+          "headbutt",
+          "helping-hand",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "super-fang",
+          "swift",
+          "trick"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "bestow",
+            "level": 41
+          },
+          {
+            "move": "slash",
+            "level": 47
+          },
+          {
+            "move": "rest",
+            "level": 53
+          },
+          {
+            "move": "belly-drum",
+            "level": 59
+          },
+          {
+            "move": "fling",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "bestow",
+            "level": 41
+          },
+          {
+            "move": "slash",
+            "level": 47
+          },
+          {
+            "move": "rest",
+            "level": 53
+          },
+          {
+            "move": "belly-drum",
+            "level": 59
+          },
+          {
+            "move": "fling",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "super-fang",
+          "trick"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "13",
+      "flavorText": "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "play-rough",
+            "level": 1
+          },
+          {
+            "move": "rototiller",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 23
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 35
+          },
+          {
+            "move": "bestow",
+            "level": 41
+          },
+          {
+            "move": "slash",
+            "level": 47
+          },
+          {
+            "move": "rest",
+            "level": 53
+          },
+          {
+            "move": "belly-drum",
+            "level": 59
+          },
+          {
+            "move": "fling",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "13",
+      "flavorText": "When hunting, Linoone will make a beeline straight for the prey at a full run. While this Pokémon is capable of topping 60 mph, it has to come to a screeching halt before it can turn.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "play-rough",
+            "level": 1
+          },
+          {
+            "move": "rototiller",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "mud-sport",
+            "level": 17
+          },
+          {
+            "move": "fury-swipes",
+            "level": 19
+          },
+          {
+            "move": "covet",
+            "level": 24
+          },
+          {
+            "move": "bestow",
+            "level": 27
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "double-edge",
+            "level": 35
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "belly-drum",
+            "level": 43
+          },
+          {
+            "move": "fling",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "seed-bomb",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "trick",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "play-rough",
+            "level": 1
+          },
+          {
+            "move": "rototiller",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "mud-sport",
+            "level": 17
+          },
+          {
+            "move": "fury-swipes",
+            "level": 19
+          },
+          {
+            "move": "covet",
+            "level": 24
+          },
+          {
+            "move": "bestow",
+            "level": 27
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "double-edge",
+            "level": 35
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "belly-drum",
+            "level": 43
+          },
+          {
+            "move": "fling",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/264.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/264.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "play-rough",
+            "level": 1
+          },
+          {
+            "move": "rototiller",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "mud-sport",
+            "level": 17
+          },
+          {
+            "move": "fury-swipes",
+            "level": 19
+          },
+          {
+            "move": "covet",
+            "level": 24
+          },
+          {
+            "move": "bestow",
+            "level": 27
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "double-edge",
+            "level": 35
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "belly-drum",
+            "level": 43
+          },
+          {
+            "move": "fling",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "seed-bomb",
+          "shock-wave",
+          "snore",
+          "stomping-tantrum",
+          "super-fang",
+          "throat-chop",
+          "trick",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "32",
+      "flavorText": "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slash",
+            "level": 0
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pin-missile",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "slash",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 12
+          },
+          {
+            "move": "hone-claws",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 18
+          },
+          {
+            "move": "rest",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "fling",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 38
+          },
+          {
+            "move": "belly-drum",
+            "level": 43
+          },
+          {
+            "move": "double-edge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "body-slam",
+          "charm",
+          "dig",
+          "endure",
+          "facade",
+          "fling",
+          "giga-impact",
+          "grass-knot",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-beam",
+          "icy-wind",
+          "iron-tail",
+          "mud-shot",
+          "pin-missile",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "round",
+          "seed-bomb",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snore",
+          "stomping-tantrum",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swift",
+          "tail-slap",
+          "thief",
+          "throat-chop",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "trick",
+          "whirlpool",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "264",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/264.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve (Hoennian Form) | Unobtainable (Galarian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slash",
+            "level": 0
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pin-missile",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "slash",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 12
+          },
+          {
+            "move": "hone-claws",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 18
+          },
+          {
+            "move": "rest",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "fling",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 38
+          },
+          {
+            "move": "belly-drum",
+            "level": 43
+          },
+          {
+            "move": "double-edge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "giga-impact",
+          "grass-knot",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-smash",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

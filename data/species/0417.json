@@ -1,0 +1,1566 @@
+{
+  "dex": 417,
+  "keyword": "pachirisu",
+  "name": "Pachirisu",
+  "japaneseName": {
+    "kana": "パチリス",
+    "romaji": "Pachirisu"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "EleSquirrel Pokémon",
+  "heightM": 0.4,
+  "weightKg": 3.9,
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 70,
+    "specialAttack": 45,
+    "specialDefense": 90,
+    "speed": 95
+  },
+  "abilities": [
+    {
+      "name": "run-away",
+      "hidden": false,
+      "effect": "Ensures success fleeing from wild battles."
+    },
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "volt-absorb",
+      "hidden": true,
+      "effect": "Absorbs electric moves, healing for 1/4 max HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 10,
+    "captureRate": 200,
+    "baseFriendship": 100,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 4
+  },
+  "genderDifference": "Female's head stripe is shorter",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0417.png",
+    "shiny": "sprites/shiny/0417.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/417.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/417.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-sinnoh": {
+      "dexNumber": "55",
+      "flavorText": "It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Fuego Ironworks",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 205 East Towards Eterna City",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 11
+          },
+          {
+            "location": "Route 205 South Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 9
+          },
+          {
+            "location": "Valley Windworks",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 25
+          },
+          {
+            "move": "discharge",
+            "level": 29
+          },
+          {
+            "move": "super-fang",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bite",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "rollout"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "55",
+      "flavorText": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 205 South Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 11
+          },
+          {
+            "location": "Valley Windworks",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 25
+          },
+          {
+            "move": "discharge",
+            "level": 29
+          },
+          {
+            "move": "super-fang",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bite",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "rollout"
+        ],
+        "tutor": [
+          "gunk-shot",
+          "helping-hand",
+          "last-resort",
+          "magnet-rise",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "swift",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It’s one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 25
+          },
+          {
+            "move": "discharge",
+            "level": 29
+          },
+          {
+            "move": "super-fang",
+            "level": 33
+          },
+          {
+            "move": "last-resort",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "bite",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "rollout"
+        ],
+        "tutor": [
+          "gunk-shot",
+          "headbutt",
+          "helping-hand",
+          "last-resort",
+          "magnet-rise",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "super-fang",
+          "swift",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "hyper-fang",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "bestow",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "iron-tail",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "hyper-fang",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "bestow",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "iron-tail",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "iron-tail",
+          "last-resort",
+          "magnet-rise",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "super-fang",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C132",
+      "flavorText": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 12",
+            "method": "Yellow Flowers",
+            "minLevel": 25,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "hyper-fang",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "bestow",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "ion-deluge",
+          "iron-tail",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "hyper-fang",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "bestow",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "ion-deluge",
+          "iron-tail",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": [
+          "covet",
+          "electroweb",
+          "gunk-shot",
+          "helping-hand",
+          "iron-tail",
+          "last-resort",
+          "magnet-rise",
+          "seed-bomb",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "hyper-fang",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "bestow",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "ion-deluge",
+          "iron-tail",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/417.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/417.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bide",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "hyper-fang",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "bestow",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "ion-deluge",
+          "iron-tail",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": [
+          "covet",
+          "electroweb",
+          "gunk-shot",
+          "helping-hand",
+          "iron-tail",
+          "laser-focus",
+          "last-resort",
+          "magnet-rise",
+          "seed-bomb",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "417",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/417.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 205 (Sinnoh), Fuego Ironworks, Valley Windworks | Grand Underground - Spacious Cave, Whiteout Cave"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baby-doll-eyes",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "thunder",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "grass-knot",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "u-turn",
+          "volt-switch"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "109",
+      "flavorText": "A species related to the Pikachu line. Though Pachirisu is a calm Pokémon, it still presents a danger should one touch its electrified tail or cheeks.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: near Gapejaw Bog (also mass outbreaks), Cottonsedge Prairie, massive mass outbreaks | Alabaster Icelands: massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 15
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 21
+          },
+          {
+            "move": "crunch",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 37
+          },
+          {
+            "move": "thunder",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P201",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/417.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Area Three, Area Four, Area Five | East Province: Area Two | West Province: Area Three | Tera Raid Battles (3★ Pachirisu)",
+          "Reveler's Road, Kitakami Hall, Mossfell Confluence, Oni Mountain, Kitakami Wilds, Timeless Woods"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 17
+          },
+          {
+            "move": "nuzzle",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 21
+          },
+          {
+            "move": "electro-ball",
+            "level": 25
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 29
+          },
+          {
+            "move": "thunder-wave",
+            "level": 33
+          },
+          {
+            "move": "super-fang",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "last-resort",
+            "level": 45
+          },
+          {
+            "move": "thunder",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "agility",
+          "alluring-voice",
+          "charge",
+          "charge-beam",
+          "charm",
+          "dig",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fling",
+          "giga-impact",
+          "grass-knot",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-beam",
+          "light-screen",
+          "mud-shot",
+          "mud-slap",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "super-fang",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-fang",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "u-turn",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "bite",
+          "charge",
+          "covet",
+          "defense-curl",
+          "fake-tears",
+          "flail",
+          "flatter",
+          "follow-me",
+          "rollout",
+          "tail-whip"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

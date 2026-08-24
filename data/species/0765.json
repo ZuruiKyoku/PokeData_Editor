@@ -1,0 +1,687 @@
+{
+  "dex": 765,
+  "keyword": "passimian",
+  "name": "Oranguru",
+  "japaneseName": {
+    "kana": "ヤレユータン",
+    "romaji": "Yareyuutan"
+  },
+  "type1": "Normal",
+  "type2": "Psychic",
+  "genus": "Sage Pokémon",
+  "heightM": 1.5,
+  "weightKg": 76.0,
+  "stats": {
+    "hp": 90,
+    "attack": 60,
+    "defense": 80,
+    "specialAttack": 90,
+    "specialDefense": 110,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "inner-focus",
+      "hidden": false,
+      "effect": "Prevents flinching."
+    },
+    {
+      "name": "telepathy",
+      "hidden": false,
+      "effect": "Protects against friendly Pokémon's damaging moves."
+    },
+    {
+      "name": "symbiosis",
+      "hidden": true,
+      "effect": "Passes the bearer's held item to an ally when the ally uses up its item."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "humanoid",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0765.png",
+    "shiny": "sprites/shiny/0765.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/765.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "176",
+      "flavorText": "Deep in the jungle, high in the lofty canopy, this Pokémon abides. On rare occasions, it shows up at the beach to match wits with Slowking.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/765.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/765.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "after-you",
+            "level": 4
+          },
+          {
+            "move": "taunt",
+            "level": 8
+          },
+          {
+            "move": "quash",
+            "level": 11
+          },
+          {
+            "move": "stored-power",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "nasty-plot",
+            "level": 25
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 29
+          },
+          {
+            "move": "instruct",
+            "level": 32
+          },
+          {
+            "move": "foul-play",
+            "level": 36
+          },
+          {
+            "move": "calm-mind",
+            "level": 39
+          },
+          {
+            "move": "psychic",
+            "level": 43
+          },
+          {
+            "move": "future-sight",
+            "level": 46
+          },
+          {
+            "move": "trick-room",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "quash",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "work-up"
+        ],
+        "egg": [
+          "extrasensory",
+          "psychic-terrain",
+          "wonder-room"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "215",
+      "flavorText": "Oranguru don’t get along with each other, so they’re always engaging in battles of wits to decide which one is superior.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/765.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/765.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Bubbling Spots",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Bubbling Spots",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "after-you",
+            "level": 4
+          },
+          {
+            "move": "taunt",
+            "level": 8
+          },
+          {
+            "move": "quash",
+            "level": 11
+          },
+          {
+            "move": "stored-power",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "nasty-plot",
+            "level": 25
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 29
+          },
+          {
+            "move": "instruct",
+            "level": 32
+          },
+          {
+            "move": "foul-play",
+            "level": 36
+          },
+          {
+            "move": "calm-mind",
+            "level": 39
+          },
+          {
+            "move": "psychic",
+            "level": 43
+          },
+          {
+            "move": "future-sight",
+            "level": 46
+          },
+          {
+            "move": "trick-room",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "quash",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "trick-room",
+          "work-up"
+        ],
+        "egg": [
+          "extrasensory",
+          "psychic-terrain",
+          "wonder-room"
+        ],
+        "tutor": [
+          "after-you",
+          "ally-switch",
+          "block",
+          "covet",
+          "foul-play",
+          "gravity",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "pain-split",
+          "snatch",
+          "snore",
+          "spite",
+          "telekinesis",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "343",
+      "flavorText": "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "after-you",
+            "level": 5
+          },
+          {
+            "move": "calm-mind",
+            "level": 10
+          },
+          {
+            "move": "stored-power",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 20
+          },
+          {
+            "move": "quash",
+            "level": 25
+          },
+          {
+            "move": "nasty-plot",
+            "level": 30
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "trick-room",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 45
+          },
+          {
+            "move": "instruct",
+            "level": 50
+          },
+          {
+            "move": "foul-play",
+            "level": 55
+          },
+          {
+            "move": "future-sight",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "calm-mind",
+          "earthquake",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fling",
+          "focus-blast",
+          "foul-play",
+          "future-sight",
+          "giga-impact",
+          "hyper-beam",
+          "imprison",
+          "light-screen",
+          "magic-room",
+          "mega-kick",
+          "mega-punch",
+          "nasty-plot",
+          "payback",
+          "protect",
+          "psychic",
+          "psychic-terrain",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "trick",
+          "trick-room",
+          "wonder-room",
+          "work-up",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "dream-eater",
+          "extrasensory",
+          "last-resort",
+          "yawn"
+        ],
+        "tutor": [
+          "expanding-force",
+          "terrain-pulse"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P314",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/765.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Tagtree Thicket | North Province: Area Two | Tera Raid Battles (3★ Oranguru, 5★ Oranguru)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "after-you",
+            "level": 5
+          },
+          {
+            "move": "calm-mind",
+            "level": 10
+          },
+          {
+            "move": "stored-power",
+            "level": 15
+          },
+          {
+            "move": "psych-up",
+            "level": 20
+          },
+          {
+            "move": "quash",
+            "level": 25
+          },
+          {
+            "move": "nasty-plot",
+            "level": 30
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "trick-room",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 45
+          },
+          {
+            "move": "instruct",
+            "level": 50
+          },
+          {
+            "move": "foul-play",
+            "level": 55
+          },
+          {
+            "move": "future-sight",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "chilling-water",
+          "earthquake",
+          "encore",
+          "endeavor",
+          "endure",
+          "energy-ball",
+          "expanding-force",
+          "facade",
+          "fling",
+          "focus-blast",
+          "foul-play",
+          "future-sight",
+          "giga-impact",
+          "gravity",
+          "hyper-beam",
+          "hyper-voice",
+          "imprison",
+          "knock-off",
+          "light-screen",
+          "nasty-plot",
+          "pain-split",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "psychic-terrain",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "scary-face",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thunder",
+          "thunderbolt",
+          "trailblaze",
+          "trick",
+          "trick-room",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "dream-eater",
+          "extrasensory",
+          "last-resort",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

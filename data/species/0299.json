@@ -1,0 +1,1823 @@
+{
+  "dex": 299,
+  "keyword": "nosepass",
+  "name": "Nosepass",
+  "japaneseName": {
+    "kana": "ノズパス",
+    "romaji": "Nosepass"
+  },
+  "type1": "Rock",
+  "type2": null,
+  "genus": "Compass Pokémon",
+  "heightM": 1.0,
+  "weightKg": 97.0,
+  "stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 135,
+    "specialAttack": 45,
+    "specialDefense": 90,
+    "speed": 30
+  },
+  "abilities": [
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "magnet-pull",
+      "hidden": false,
+      "effect": "Prevents steel opponents from fleeing or switching out."
+    },
+    {
+      "name": "sand-force",
+      "hidden": true,
+      "effect": "Strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "humanoid",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      476
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0299.png",
+    "shiny": "sprites/shiny/0299.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/299.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/299.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "60",
+      "flavorText": "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Granite Cave B2f",
+            "method": "Rock Smash",
+            "minLevel": 10,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 13
+          },
+          {
+            "move": "block",
+            "level": 16
+          },
+          {
+            "move": "thunder-wave",
+            "level": 22
+          },
+          {
+            "move": "rock-slide",
+            "level": 28
+          },
+          {
+            "move": "sandstorm",
+            "level": 31
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "zap-cannon",
+            "level": 43
+          },
+          {
+            "move": "lock-on",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "explosion",
+          "magnitude",
+          "rollout"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "explosion",
+          "fire-punch",
+          "ice-punch",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 206",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 13
+          },
+          {
+            "move": "block",
+            "level": 19
+          },
+          {
+            "move": "thunder-wave",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "stone-edge",
+            "level": 55
+          },
+          {
+            "move": "zap-cannon",
+            "level": 61
+          },
+          {
+            "move": "lock-on",
+            "level": 67
+          },
+          {
+            "move": "earth-power",
+            "level": 73
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "explosion",
+          "magnitude",
+          "rollout"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "155",
+      "flavorText": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Coronet 1f From Exterior",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet 1f Route 207",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Mt Coronet 1f Route 211",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Mt Coronet 1f Route 216",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Mt Coronet 2f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet 3f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet 4f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet 4f Small Room",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet 5f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet 6f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Mt Coronet B1f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Mt Coronet Exterior Blizzard",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 38
+          },
+          {
+            "location": "Mt Coronet Exterior Snowfall",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 38
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 13
+          },
+          {
+            "move": "block",
+            "level": 19
+          },
+          {
+            "move": "thunder-wave",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "power-gem",
+            "level": 49
+          },
+          {
+            "move": "discharge",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 61
+          },
+          {
+            "move": "zap-cannon",
+            "level": 67
+          },
+          {
+            "move": "lock-on",
+            "level": 73
+          },
+          {
+            "move": "earth-power",
+            "level": 79
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "explosion",
+          "magnitude",
+          "rollout"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "fire-punch",
+          "ice-punch",
+          "iron-defense",
+          "magnet-rise",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "If two of these meet, they cannot get too close because their noses repel each other.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 13
+          },
+          {
+            "move": "block",
+            "level": 19
+          },
+          {
+            "move": "thunder-wave",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "power-gem",
+            "level": 49
+          },
+          {
+            "move": "discharge",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 61
+          },
+          {
+            "move": "zap-cannon",
+            "level": 67
+          },
+          {
+            "move": "lock-on",
+            "level": 73
+          },
+          {
+            "move": "earth-power",
+            "level": 79
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "explosion",
+          "head-smash",
+          "magnitude",
+          "rollout"
+        ],
+        "tutor": [
+          "ancient-power",
+          "block",
+          "earth-power",
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "ice-punch",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "mud-slap",
+          "pain-split",
+          "rollout",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 13
+          },
+          {
+            "move": "block",
+            "level": 19
+          },
+          {
+            "move": "thunder-wave",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 43
+          },
+          {
+            "move": "power-gem",
+            "level": 49
+          },
+          {
+            "move": "discharge",
+            "level": 55
+          },
+          {
+            "move": "stone-edge",
+            "level": 61
+          },
+          {
+            "move": "zap-cannon",
+            "level": 67
+          },
+          {
+            "move": "lock-on",
+            "level": 73
+          },
+          {
+            "move": "earth-power",
+            "level": 79
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "endure",
+          "magnitude",
+          "rollout",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "164",
+      "flavorText": "Its magnetic nose always faces north and draws iron objects to its body to protect itself better.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Chargestone Cave 1f",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 27
+          },
+          {
+            "location": "Chargestone Cave B1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Chargestone Cave B2f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Clay Tunnel",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          },
+          {
+            "location": "Glacier Room",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          },
+          {
+            "location": "Iron Room",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          },
+          {
+            "location": "Rocky Mountain Room",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          },
+          {
+            "location": "Underground Ruins",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "rock-blast",
+            "level": 18
+          },
+          {
+            "move": "rest",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 29
+          },
+          {
+            "move": "power-gem",
+            "level": 32
+          },
+          {
+            "move": "sandstorm",
+            "level": 36
+          },
+          {
+            "move": "discharge",
+            "level": 39
+          },
+          {
+            "move": "earth-power",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "lock-on",
+            "level": 50
+          },
+          {
+            "move": "zap-cannon",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "endure",
+          "magnitude",
+          "rollout",
+          "stealth-rock"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "gravity",
+          "ice-punch",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "pain-split",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C93",
+      "flavorText": "Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "rock-blast",
+            "level": 18
+          },
+          {
+            "move": "rest",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "rock-slide",
+            "level": 29
+          },
+          {
+            "move": "power-gem",
+            "level": 32
+          },
+          {
+            "move": "sandstorm",
+            "level": 36
+          },
+          {
+            "move": "discharge",
+            "level": 39
+          },
+          {
+            "move": "earth-power",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 46
+          },
+          {
+            "move": "lock-on",
+            "level": 50
+          },
+          {
+            "move": "zap-cannon",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "endure",
+          "magnitude",
+          "rollout",
+          "stealth-rock",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "61",
+      "flavorText": "Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pokémon actually moves by a little over 3/8 of an inch every year.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 10
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "rest",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 22
+          },
+          {
+            "move": "power-gem",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 40
+          },
+          {
+            "move": "lock-on",
+            "level": 43
+          },
+          {
+            "move": "zap-cannon",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "endure",
+          "magnitude",
+          "rollout",
+          "stealth-rock",
+          "wide-guard"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "gravity",
+          "ice-punch",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "pain-split",
+          "shock-wave",
+          "snore",
+          "stealth-rock",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "198",
+      "flavorText": "It uses powerful magnetism to drag its prey toward it. It’s also been known to pull in metal, which it collects and uses to protect itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Akala Outskirts",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 10
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "rest",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 22
+          },
+          {
+            "move": "power-gem",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 40
+          },
+          {
+            "move": "lock-on",
+            "level": 43
+          },
+          {
+            "move": "zap-cannon",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "endure",
+          "magnitude",
+          "rollout",
+          "stealth-rock",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "254",
+      "flavorText": "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/299.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/299.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Akala Outskirts",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 10
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "rest",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 22
+          },
+          {
+            "move": "power-gem",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 40
+          },
+          {
+            "move": "lock-on",
+            "level": 43
+          },
+          {
+            "move": "zap-cannon",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "endure",
+          "magnitude",
+          "rollout",
+          "stealth-rock",
+          "wide-guard"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "gravity",
+          "ice-punch",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "pain-split",
+          "shock-wave",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "thunder-punch"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "299",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/299.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 206 (Sinnoh) (Swarm)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 10
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "rest",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 22
+          },
+          {
+            "move": "power-gem",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 40
+          },
+          {
+            "move": "lock-on",
+            "level": 43
+          },
+          {
+            "move": "zap-cannon",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "dazzling-gleam",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "protect",
+          "rest",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "shock-wave",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "torment",
+          "volt-switch"
+        ],
+        "egg": [
+          "block",
+          "double-edge",
+          "rollout",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "190",
+      "flavorText": "Once the people of Hisui discovered that its red nose always points north, they grew to rely on it greatly when traveling afar. The nose seems to work in a similar way to ancient compasses.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Coronet Highlands: Celestica Ruins, Primeval Grotto and nearby, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 11
+          },
+          {
+            "move": "iron-defense",
+            "level": 18
+          },
+          {
+            "move": "rock-slide",
+            "level": 25
+          },
+          {
+            "move": "power-gem",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K107",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/299.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Oni Mountain, Oni's Maw, Wistful Fields, Paradise Barrens, Kitakami Wilds | Tera Raid Battles (3★ Nosepass)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "block",
+            "level": 7
+          },
+          {
+            "move": "rock-throw",
+            "level": 10
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "rest",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 22
+          },
+          {
+            "move": "power-gem",
+            "level": 25
+          },
+          {
+            "move": "rock-blast",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 31
+          },
+          {
+            "move": "sandstorm",
+            "level": 34
+          },
+          {
+            "move": "earth-power",
+            "level": 37
+          },
+          {
+            "move": "stone-edge",
+            "level": 40
+          },
+          {
+            "move": "lock-on",
+            "level": 43
+          },
+          {
+            "move": "zap-cannon",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "body-press",
+          "body-slam",
+          "bulldoze",
+          "curse",
+          "dazzling-gleam",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-punch",
+          "flash-cannon",
+          "gravity",
+          "heavy-slam",
+          "helping-hand",
+          "high-horsepower",
+          "ice-punch",
+          "iron-defense",
+          "meteor-beam",
+          "pain-split",
+          "power-gem",
+          "protect",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stealth-rock",
+          "steel-beam",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch"
+        ],
+        "egg": [
+          "double-edge",
+          "head-smash",
+          "rollout",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

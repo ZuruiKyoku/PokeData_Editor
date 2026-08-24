@@ -1,0 +1,1090 @@
+{
+  "dex": 545,
+  "keyword": "scolipede",
+  "name": "Scolipede",
+  "japaneseName": {
+    "kana": "ペンドラー",
+    "romaji": "Pendror"
+  },
+  "type1": "Bug",
+  "type2": "Poison",
+  "genus": "Megapede Pokémon",
+  "heightM": 2.5,
+  "weightKg": 200.5,
+  "stats": {
+    "hp": 60,
+    "attack": 100,
+    "defense": 89,
+    "specialAttack": 55,
+    "specialDefense": 69,
+    "speed": 112
+  },
+  "abilities": [
+    {
+      "name": "poison-point",
+      "hidden": false,
+      "effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+    },
+    {
+      "name": "swarm",
+      "hidden": false,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "speed-boost",
+      "hidden": true,
+      "effect": "Raises Speed one stage after each turn."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "armor",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 544,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0545.png",
+    "shiny": "sprites/shiny/0545.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/545.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/545.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "51",
+      "flavorText": "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/545.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/545.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "poison-tail",
+            "level": 19
+          },
+          {
+            "move": "bug-bite",
+            "level": 23
+          },
+          {
+            "move": "venoshock",
+            "level": 28
+          },
+          {
+            "move": "baton-pass",
+            "level": 30
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "steamroller",
+            "level": 39
+          },
+          {
+            "move": "toxic",
+            "level": 44
+          },
+          {
+            "move": "rock-climb",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "45",
+      "flavorText": "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/545.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/545.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Grass Spots",
+            "minLevel": 57,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "poison-tail",
+            "level": 19
+          },
+          {
+            "move": "bug-bite",
+            "level": 23
+          },
+          {
+            "move": "venoshock",
+            "level": 28
+          },
+          {
+            "move": "baton-pass",
+            "level": 30
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "steamroller",
+            "level": 39
+          },
+          {
+            "move": "toxic",
+            "level": 44
+          },
+          {
+            "move": "rock-climb",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bug-bite",
+          "endeavor",
+          "iron-defense",
+          "iron-tail",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "122",
+      "flavorText": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/545.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/545.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "poison-tail",
+            "level": 19
+          },
+          {
+            "move": "bug-bite",
+            "level": 23
+          },
+          {
+            "move": "venoshock",
+            "level": 28
+          },
+          {
+            "move": "baton-pass",
+            "level": 30
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "steamroller",
+            "level": 39
+          },
+          {
+            "move": "toxic",
+            "level": 44
+          },
+          {
+            "move": "venom-drench",
+            "level": 47
+          },
+          {
+            "move": "rock-climb",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "megahorn",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/545.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/545.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "poison-tail",
+            "level": 19
+          },
+          {
+            "move": "bug-bite",
+            "level": 23
+          },
+          {
+            "move": "venoshock",
+            "level": 28
+          },
+          {
+            "move": "baton-pass",
+            "level": 30
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "steamroller",
+            "level": 39
+          },
+          {
+            "move": "toxic",
+            "level": 44
+          },
+          {
+            "move": "venom-drench",
+            "level": 47
+          },
+          {
+            "move": "rock-climb",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "megahorn",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bug-bite",
+          "endeavor",
+          "iron-defense",
+          "iron-tail",
+          "signal-beam",
+          "snatch",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/545.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/545.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baton-pass",
+            "level": 0
+          },
+          {
+            "move": "baton-pass",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "poison-tail",
+            "level": 19
+          },
+          {
+            "move": "bug-bite",
+            "level": 23
+          },
+          {
+            "move": "venoshock",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "steamroller",
+            "level": 39
+          },
+          {
+            "move": "toxic",
+            "level": 44
+          },
+          {
+            "move": "venom-drench",
+            "level": 47
+          },
+          {
+            "move": "rock-climb",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "megahorn",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "smart-strike",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/545.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/545.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baton-pass",
+            "level": 0
+          },
+          {
+            "move": "baton-pass",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 5
+          },
+          {
+            "move": "screech",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "poison-tail",
+            "level": 19
+          },
+          {
+            "move": "bug-bite",
+            "level": 23
+          },
+          {
+            "move": "venoshock",
+            "level": 28
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "steamroller",
+            "level": 39
+          },
+          {
+            "move": "toxic",
+            "level": 44
+          },
+          {
+            "move": "venom-drench",
+            "level": 47
+          },
+          {
+            "move": "rock-climb",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "megahorn",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "smart-strike",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bug-bite",
+          "endeavor",
+          "iron-defense",
+          "iron-tail",
+          "signal-beam",
+          "snatch",
+          "snore",
+          "stomping-tantrum",
+          "superpower",
+          "throat-chop"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A076",
+      "flavorText": "Scolipede engage in fierce territorial battles with Centiskorch. At the end of one of these battles, the victor makes a meal of the loser.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "baton-pass",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "poison-sting",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "poison-tail",
+            "level": 12
+          },
+          {
+            "move": "screech",
+            "level": 16
+          },
+          {
+            "move": "bug-bite",
+            "level": 20
+          },
+          {
+            "move": "venoshock",
+            "level": 26
+          },
+          {
+            "move": "take-down",
+            "level": 34
+          },
+          {
+            "move": "agility",
+            "level": 42
+          },
+          {
+            "move": "toxic",
+            "level": 50
+          },
+          {
+            "move": "venom-drench",
+            "level": 58
+          },
+          {
+            "move": "double-edge",
+            "level": 66
+          },
+          {
+            "move": "megahorn",
+            "level": 74
+          }
+        ],
+        "machine": [
+          "agility",
+          "assurance",
+          "attract",
+          "baton-pass",
+          "bulldoze",
+          "cross-poison",
+          "dig",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-impact",
+          "gyro-ball",
+          "hex",
+          "hyper-beam",
+          "iron-defense",
+          "iron-tail",
+          "megahorn",
+          "payback",
+          "pin-missile",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "screech",
+          "sleep-talk",
+          "sludge-bomb",
+          "smart-strike",
+          "snore",
+          "solar-beam",
+          "spikes",
+          "stomping-tantrum",
+          "substitute",
+          "sunny-day",
+          "superpower",
+          "swords-dance",
+          "throat-chop",
+          "toxic-spikes",
+          "venom-drench",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": [
+          "skitter-smack",
+          "steel-roller"
+        ]
+      }
+    },
+    "plza": {
+      "dexNumber": "70",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Jaune District: Wild Zone 15 | Centrico Plaza:Wild Zone 20",
+          "Hyperspace Lumiose (4★ Bug-type wild zones & Poison-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

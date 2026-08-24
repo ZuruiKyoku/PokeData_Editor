@@ -1,0 +1,930 @@
+{
+  "dex": 600,
+  "keyword": "klang",
+  "name": "Klang",
+  "japaneseName": {
+    "kana": "ギギアル",
+    "romaji": "Gigiaru"
+  },
+  "type1": "Steel",
+  "type2": null,
+  "genus": "Gear Pokémon",
+  "heightM": 0.6,
+  "weightKg": 51.0,
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 95,
+    "specialAttack": 70,
+    "specialDefense": 85,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "plus",
+      "hidden": false,
+      "effect": "Increases Special Attack to 1.5× when a friendly Pokémon has plus or minus."
+    },
+    {
+      "name": "minus",
+      "hidden": false,
+      "effect": "Increases Special Attack to 1.5× when a friendly Pokémon has plus or minus."
+    },
+    {
+      "name": "clear-body",
+      "hidden": true,
+      "effect": "Prevents stats from being lowered by other Pokémon."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": -1,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "heads",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 599,
+    "evolvesIntoDex": [
+      601
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0600.png",
+    "shiny": "sprites/shiny/0600.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/600.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/600.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "106",
+      "flavorText": "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don’t return.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/600.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/600.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "gear-grind",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 11
+          },
+          {
+            "move": "gear-grind",
+            "level": 16
+          },
+          {
+            "move": "bind",
+            "level": 21
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "autotomize",
+            "level": 31
+          },
+          {
+            "move": "mirror-shot",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "metal-sound",
+            "level": 48
+          },
+          {
+            "move": "shift-gear",
+            "level": 52
+          },
+          {
+            "move": "lock-on",
+            "level": 56
+          },
+          {
+            "move": "zap-cannon",
+            "level": 60
+          },
+          {
+            "move": "hyper-beam",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "sandstorm",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "131",
+      "flavorText": "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn’t return, it will die.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/600.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/600.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "P2 Laboratory",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 59
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "gear-grind",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 11
+          },
+          {
+            "move": "gear-grind",
+            "level": 16
+          },
+          {
+            "move": "bind",
+            "level": 21
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "autotomize",
+            "level": 31
+          },
+          {
+            "move": "mirror-shot",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "metal-sound",
+            "level": 48
+          },
+          {
+            "move": "shift-gear",
+            "level": 52
+          },
+          {
+            "move": "lock-on",
+            "level": 56
+          },
+          {
+            "move": "zap-cannon",
+            "level": 60
+          },
+          {
+            "move": "hyper-beam",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "sandstorm",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "recycle",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn’t return, it will die.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/600.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/600.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "gear-grind",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 11
+          },
+          {
+            "move": "gear-grind",
+            "level": 16
+          },
+          {
+            "move": "bind",
+            "level": 21
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "autotomize",
+            "level": 31
+          },
+          {
+            "move": "mirror-shot",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "metal-sound",
+            "level": 48
+          },
+          {
+            "move": "shift-gear",
+            "level": 52
+          },
+          {
+            "move": "lock-on",
+            "level": 56
+          },
+          {
+            "move": "zap-cannon",
+            "level": 60
+          },
+          {
+            "move": "hyper-beam",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "A minigear and big gear comprise its body. If the minigear it launches at a foe doesn’t return, it will die.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/600.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/600.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "gear-grind",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 11
+          },
+          {
+            "move": "gear-grind",
+            "level": 16
+          },
+          {
+            "move": "bind",
+            "level": 21
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "autotomize",
+            "level": 31
+          },
+          {
+            "move": "mirror-shot",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "metal-sound",
+            "level": 48
+          },
+          {
+            "move": "shift-gear",
+            "level": 52
+          },
+          {
+            "move": "lock-on",
+            "level": 56
+          },
+          {
+            "move": "zap-cannon",
+            "level": 60
+          },
+          {
+            "move": "hyper-beam",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-smash",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "recycle",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/600.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/600.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "gear-grind",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 11
+          },
+          {
+            "move": "gear-grind",
+            "level": 16
+          },
+          {
+            "move": "bind",
+            "level": 21
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "autotomize",
+            "level": 31
+          },
+          {
+            "move": "mirror-shot",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "metal-sound",
+            "level": 48
+          },
+          {
+            "move": "shift-gear",
+            "level": 52
+          },
+          {
+            "move": "lock-on",
+            "level": 56
+          },
+          {
+            "move": "zap-cannon",
+            "level": 60
+          },
+          {
+            "move": "hyper-beam",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/600.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/600.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "gear-grind",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 6
+          },
+          {
+            "move": "thunder-shock",
+            "level": 11
+          },
+          {
+            "move": "gear-grind",
+            "level": 16
+          },
+          {
+            "move": "bind",
+            "level": 21
+          },
+          {
+            "move": "charge-beam",
+            "level": 26
+          },
+          {
+            "move": "autotomize",
+            "level": 31
+          },
+          {
+            "move": "mirror-shot",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "metal-sound",
+            "level": 48
+          },
+          {
+            "move": "shift-gear",
+            "level": 52
+          },
+          {
+            "move": "lock-on",
+            "level": 56
+          },
+          {
+            "move": "zap-cannon",
+            "level": 60
+          },
+          {
+            "move": "hyper-beam",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-polish",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "ally-switch",
+          "bind",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "recycle",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "telekinesis",
+          "uproar"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "114",
+      "flavorText": "Many companies in the Galar region choose Klang as their logo. This Pokémon is considered the symbol of industrial technology.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bind",
+            "level": 1
+          },
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "vice-grip",
+            "level": 1
+          },
+          {
+            "move": "charge-beam",
+            "level": 12
+          },
+          {
+            "move": "metal-sound",
+            "level": 16
+          },
+          {
+            "move": "autotomize",
+            "level": 20
+          },
+          {
+            "move": "discharge",
+            "level": 24
+          },
+          {
+            "move": "screech",
+            "level": 28
+          },
+          {
+            "move": "gear-grind",
+            "level": 32
+          },
+          {
+            "move": "lock-on",
+            "level": 36
+          },
+          {
+            "move": "shift-gear",
+            "level": 42
+          },
+          {
+            "move": "zap-cannon",
+            "level": 48
+          },
+          {
+            "move": "hyper-beam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "assurance",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "hyper-beam",
+          "iron-defense",
+          "power-gem",
+          "protect",
+          "rest",
+          "round",
+          "sandstorm",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "thunder-wave",
+          "thunderbolt",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "rising-voltage",
+          "steel-beam",
+          "steel-roller"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

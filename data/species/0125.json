@@ -1,0 +1,2051 @@
+{
+  "dex": 125,
+  "keyword": "electabuzz",
+  "name": "Electabuzz",
+  "japaneseName": {
+    "kana": "エレブー",
+    "romaji": "Eleboo"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "Electric Pokémon",
+  "heightM": 1.1,
+  "weightKg": 30.0,
+  "stats": {
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "specialAttack": 95,
+    "specialDefense": 85,
+    "speed": 105
+  },
+  "abilities": [
+    {
+      "name": "static",
+      "hidden": false,
+      "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+    },
+    {
+      "name": "vital-spirit",
+      "hidden": true,
+      "effect": "Prevents sleep."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "humanshape"
+    ],
+    "genderRateEighthsFemale": 2,
+    "hatchCycles": 25,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "upright",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 239,
+    "evolvesIntoDex": [
+      466
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0125.png",
+    "shiny": "sprites/shiny/0125.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/125.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/125.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "125",
+      "flavorText": "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/125.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Power Plant",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-punch",
+            "level": 1
+          },
+          {
+            "move": "thunder-punch",
+            "level": 9
+          },
+          {
+            "move": "light-screen",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 25
+          },
+          {
+            "move": "thunder-shock",
+            "level": 34
+          },
+          {
+            "move": "screech",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 37
+          },
+          {
+            "move": "thunder-punch",
+            "level": 42
+          },
+          {
+            "move": "thunderbolt",
+            "level": 47
+          },
+          {
+            "move": "light-screen",
+            "level": 49
+          },
+          {
+            "move": "thunder",
+            "level": 54
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "counter",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "seismic-toss",
+          "shock-wave",
+          "skull-bash",
+          "strength",
+          "submission",
+          "substitute",
+          "swift",
+          "take-down",
+          "teleport",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "seismic-toss",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "155",
+      "flavorText": "When two ELECTABUZZ touch, they control the electric currents to communicate their feelings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-punch",
+            "level": 1
+          },
+          {
+            "move": "thunder-punch",
+            "level": 9
+          },
+          {
+            "move": "light-screen",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 25
+          },
+          {
+            "move": "screech",
+            "level": 36
+          },
+          {
+            "move": "thunderbolt",
+            "level": 47
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "detect",
+          "double-team",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "ice-punch",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "swagger",
+          "swift",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "When a storm approaches, it competes with others to scale heights that are likely to be stricken by lightning. Some towns use ELECTABUZZ in place of lightning rods.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-punch",
+            "level": 1
+          },
+          {
+            "move": "thunder-punch",
+            "level": 9
+          },
+          {
+            "move": "light-screen",
+            "level": 17
+          },
+          {
+            "move": "swift",
+            "level": 25
+          },
+          {
+            "move": "screech",
+            "level": 36
+          },
+          {
+            "move": "thunderbolt",
+            "level": 47
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shock-wave",
+          "strength",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Half of all blackouts occur when this Pokémon appears at power plants and eats electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 7
+          },
+          {
+            "move": "low-kick",
+            "level": 10
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "shock-wave",
+            "level": 19
+          },
+          {
+            "move": "light-screen",
+            "level": 25
+          },
+          {
+            "move": "thunder-punch",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "thunderbolt",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 52
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-smash",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "198",
+      "flavorText": "It windmills its arms to slightly boost its punches. Foes have been known to escape in the meantime.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 222",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 41
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 7
+          },
+          {
+            "move": "low-kick",
+            "level": 10
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "shock-wave",
+            "level": 19
+          },
+          {
+            "move": "light-screen",
+            "level": 25
+          },
+          {
+            "move": "thunder-punch",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "thunderbolt",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 52
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-smash",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "magnet-rise",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "157",
+      "flavorText": "Its body constantly discharges electricity. Getting close to it will make your hair stand on end.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 7
+          },
+          {
+            "move": "low-kick",
+            "level": 10
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "shock-wave",
+            "level": 19
+          },
+          {
+            "move": "light-screen",
+            "level": 25
+          },
+          {
+            "move": "thunder-punch",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "thunderbolt",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 52
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-smash",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "fire-punch",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "magnet-rise",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It windmills its arms to slightly boost its punches. Foes have been known to escape in the meantime.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "low-kick",
+            "level": 11
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "shock-wave",
+            "level": 21
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "electro-ball",
+            "level": 32
+          },
+          {
+            "move": "thunder-punch",
+            "level": 38
+          },
+          {
+            "move": "discharge",
+            "level": 44
+          },
+          {
+            "move": "thunderbolt",
+            "level": 50
+          },
+          {
+            "move": "screech",
+            "level": 56
+          },
+          {
+            "move": "thunder",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "57",
+      "flavorText": "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 15
+          },
+          {
+            "move": "thunder-wave",
+            "level": 19
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "thunder-punch",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 42
+          },
+          {
+            "move": "thunderbolt",
+            "level": 49
+          },
+          {
+            "move": "thunder",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "dual-chop",
+          "electroweb",
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "low-kick",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 15
+          },
+          {
+            "move": "thunder-wave",
+            "level": 19
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "thunder-punch",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 42
+          },
+          {
+            "move": "thunderbolt",
+            "level": 49
+          },
+          {
+            "move": "thunder",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "power-up-punch",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 15
+          },
+          {
+            "move": "thunder-wave",
+            "level": 19
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "thunder-punch",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 42
+          },
+          {
+            "move": "thunderbolt",
+            "level": 49
+          },
+          {
+            "move": "thunder",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "power-up-punch",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "dual-chop",
+          "electroweb",
+          "fire-punch",
+          "focus-punch",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "low-kick",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "227",
+      "flavorText": "Electricity leaks from it in amounts far greater than the amount of electricity it eats.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Blush Mountain",
+            "method": "Sos Encounter",
+            "minLevel": 26,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 12",
+            "method": "Sos Encounter",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 15
+          },
+          {
+            "move": "thunder-wave",
+            "level": 19
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "thunder-punch",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 42
+          },
+          {
+            "move": "thunderbolt",
+            "level": 49
+          },
+          {
+            "move": "thunder",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "296",
+      "flavorText": "While it’s often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/125.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/125.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Blush Mountain",
+            "method": "Sos Encounter",
+            "minLevel": 29,
+            "maxLevel": 32
+          },
+          {
+            "location": "Mount Hokulani West",
+            "method": "Sos Encounter",
+            "minLevel": 27,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 15
+          },
+          {
+            "move": "thunder-wave",
+            "level": 19
+          },
+          {
+            "move": "electro-ball",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 26
+          },
+          {
+            "move": "thunder-punch",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 42
+          },
+          {
+            "move": "thunderbolt",
+            "level": 49
+          },
+          {
+            "move": "thunder",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "dual-chop",
+          "electroweb",
+          "fire-punch",
+          "focus-punch",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "low-kick",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "125",
+      "flavorText": "If a major power outage occurs, it is certain that this Pokémon has eaten electricity at a power plant.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "thunder-wave",
+            "level": 11
+          },
+          {
+            "move": "swift",
+            "level": 17
+          },
+          {
+            "move": "low-kick",
+            "level": 22
+          },
+          {
+            "move": "light-screen",
+            "level": 28
+          },
+          {
+            "move": "thunder-punch",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 39
+          },
+          {
+            "move": "thunderbolt",
+            "level": 44
+          },
+          {
+            "move": "thunder",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "facade",
+          "fire-punch",
+          "headbutt",
+          "helping-hand",
+          "hyper-beam",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "seismic-toss",
+          "substitute",
+          "taunt",
+          "teleport",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "C016",
+      "flavorText": "With the coming of a storm, many of these Pokémon will gather under tall trees and sit there waiting for lightning to strike.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 16
+          },
+          {
+            "move": "thunder-wave",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "thunder-punch",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 34
+          },
+          {
+            "move": "low-kick",
+            "level": 40
+          },
+          {
+            "move": "thunderbolt",
+            "level": 46
+          },
+          {
+            "move": "light-screen",
+            "level": 52
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          },
+          {
+            "move": "giga-impact",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "brick-break",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "facade",
+          "fire-punch",
+          "fling",
+          "focus-blast",
+          "giga-impact",
+          "helping-hand",
+          "hyper-beam",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "mega-kick",
+          "mega-punch",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "round",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swift",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "rising-voltage"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "125",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/125.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 16
+          },
+          {
+            "move": "thunder-wave",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "thunder-punch",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 34
+          },
+          {
+            "move": "low-kick",
+            "level": 40
+          },
+          {
+            "move": "thunderbolt",
+            "level": 46
+          },
+          {
+            "move": "light-screen",
+            "level": 52
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          },
+          {
+            "move": "giga-impact",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "rock-climb",
+          "rock-smash",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "183",
+      "flavorText": "Feeds on electrical energy. During sudden showers beneath looming thunderclouds, one can observe Electabuzz scaling tall trees, where the Pokémon will then wait for lightning to strike.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Coronet Highlands: Cloudcap Pass, massive mass outbreaks | Alabaster Icelands: Icebound Falls, Arena's Approach, Space-time distortions"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "spark",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 18
+          },
+          {
+            "move": "thunder-punch",
+            "level": 25
+          },
+          {
+            "move": "thunderbolt",
+            "level": 34
+          },
+          {
+            "move": "thunder",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B011",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/125.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome, Canyon Biome, Polar Biome, Chargestone Cavern | Canyon Biome ( Type) | Tera Raid Battles (4★ Electabuzz)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charge",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "swift",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 16
+          },
+          {
+            "move": "thunder-wave",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "thunder-punch",
+            "level": 28
+          },
+          {
+            "move": "discharge",
+            "level": 34
+          },
+          {
+            "move": "low-kick",
+            "level": 40
+          },
+          {
+            "move": "thunderbolt",
+            "level": 46
+          },
+          {
+            "move": "light-screen",
+            "level": 52
+          },
+          {
+            "move": "thunder",
+            "level": 58
+          },
+          {
+            "move": "giga-impact",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "charge",
+          "charge-beam",
+          "double-edge",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "facade",
+          "fire-punch",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "helping-hand",
+          "hyper-beam",
+          "ice-punch",
+          "knock-off",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "metal-sound",
+          "metronome",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "supercell-slam",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "cross-chop",
+          "dynamic-punch",
+          "feint",
+          "focus-punch",
+          "follow-me",
+          "hammer-arm"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

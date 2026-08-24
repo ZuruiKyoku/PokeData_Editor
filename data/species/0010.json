@@ -1,0 +1,1064 @@
+{
+  "dex": 10,
+  "keyword": "caterpie",
+  "name": "Caterpie",
+  "japaneseName": {
+    "kana": "キャタピー",
+    "romaji": "Caterpie"
+  },
+  "type1": "Bug",
+  "type2": null,
+  "genus": "Worm Pokémon",
+  "heightM": 0.3,
+  "weightKg": 2.9,
+  "stats": {
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "specialAttack": 20,
+    "specialDefense": 20,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "shield-dust",
+      "hidden": false,
+      "effect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "name": "run-away",
+      "hidden": true,
+      "effect": "Ensures success fleeing from wild battles."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "armor",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      11
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0010.png",
+    "shiny": "sprites/shiny/0010.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/10.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/10.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "10",
+      "flavorText": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/10.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pattern Bush",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 6
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-johto": {
+      "dexNumber": "24",
+      "flavorText": "It crawls into foliage where it camouflages itself among leaves that are the same color as its body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a terribly strong odor from its antennae.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 6
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "24",
+      "flavorText": "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 30",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 31",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Unknown All Bugs",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "snore",
+          "string-shot"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "23",
+      "flavorText": "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Santalune Forest",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 15
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "17",
+      "flavorText": "It’s easy to catch, and it grows quickly, making it one of the top recommendations for novice Pokémon Trainers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Sos Encounter",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 1 East",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 1 South",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 1 South",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 1 West",
+            "method": "Sos Encounter",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 1 West",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 5",
+            "method": "Sos Encounter",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "17",
+      "flavorText": "Its body is soft and weak. In nature, its perpetual fate is to be seen by others as food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/10.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/10.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Sos Encounter",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 1 East",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 1 West",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 5",
+            "method": "Sos Encounter",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "snore"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "10",
+      "flavorText": "If you touch the feeler on top of its head, it will release a horrible stink to protect itself.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "13",
+      "flavorText": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [
+          "electroweb"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "10",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/10.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Spacious Cave, Grassland Cave, Swampy Cave, Riverbank Cave Still-Water Cavern, Sunlit Cavern, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 9
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

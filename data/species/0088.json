@@ -1,0 +1,2189 @@
+{
+  "dex": 88,
+  "keyword": "grimer",
+  "name": "Grimer",
+  "japaneseName": {
+    "kana": "ベトベター",
+    "romaji": "Betbeter"
+  },
+  "type1": "Poison",
+  "type2": null,
+  "genus": "Sludge Pokémon",
+  "heightM": 0.9,
+  "weightKg": 30.0,
+  "stats": {
+    "hp": 80,
+    "attack": 80,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 50,
+    "speed": 25
+  },
+  "abilities": [
+    {
+      "name": "stench",
+      "hidden": false,
+      "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+    },
+    {
+      "name": "sticky-hold",
+      "hidden": false,
+      "effect": "Prevents a held item from being removed by other Pokémon."
+    },
+    {
+      "name": "poison-touch",
+      "hidden": true,
+      "effect": "Has a 30% chance of poisoning target Pokémon upon contact."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "indeterminate"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "arms",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      89
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0088.png",
+    "shiny": "sprites/shiny/0088.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/88.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/88.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "88",
+      "flavorText": "Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/88.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Celadon City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 40
+          },
+          {
+            "location": "Pokemon Mansion 1f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 32
+          },
+          {
+            "location": "Pokemon Mansion 2f",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 35
+          },
+          {
+            "location": "Pokemon Mansion 3f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 38
+          },
+          {
+            "location": "Pokemon Mansion B1f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 38
+          },
+          {
+            "location": "Power Plant",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 37
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "disable",
+            "level": 8
+          },
+          {
+            "move": "sludge",
+            "level": 13
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "screech",
+            "level": 26
+          },
+          {
+            "move": "poison-gas",
+            "level": 30
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "acid-armor",
+            "level": 34
+          },
+          {
+            "move": "sludge",
+            "level": 37
+          },
+          {
+            "move": "harden",
+            "level": 42
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 48
+          },
+          {
+            "move": "memento",
+            "level": 53
+          },
+          {
+            "move": "acid-armor",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-tomb",
+          "secret-power",
+          "self-destruct",
+          "shock-wave",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "explosion",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "shadow-punch"
+        ],
+        "tutor": [
+          "body-slam",
+          "explosion",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "116",
+      "flavorText": "When two of these POKéMON's bodies are combined together, new poisons are created.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Celadon City",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 17",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 33
+          },
+          {
+            "location": "Route 18",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 5
+          },
+          {
+            "move": "disable",
+            "level": 10
+          },
+          {
+            "move": "sludge",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "screech",
+            "level": 31
+          },
+          {
+            "move": "acid-armor",
+            "level": 40
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "dynamic-punch",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "ice-punch",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [
+          "haze",
+          "lick",
+          "mean-look"
+        ],
+        "tutor": [
+          "flamethrower",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "106",
+      "flavorText": "Born from polluted sludge in the sea, GRIMER’s favorite food is anything filthy. They feed on wastewater pumped out from factories.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Fiery Path",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "disable",
+            "level": 8
+          },
+          {
+            "move": "sludge",
+            "level": 13
+          },
+          {
+            "move": "minimize",
+            "level": 19
+          },
+          {
+            "move": "screech",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 34
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 43
+          },
+          {
+            "move": "memento",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-tomb",
+          "secret-power",
+          "shock-wave",
+          "sludge-bomb",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "explosion",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "shadow-punch"
+        ],
+        "tutor": [
+          "body-slam",
+          "dynamic-punch",
+          "endure",
+          "explosion",
+          "fire-punch",
+          "ice-punch",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "minimize",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "mud-bomb",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 36
+          },
+          {
+            "move": "acid-armor",
+            "level": 39
+          },
+          {
+            "move": "gunk-shot",
+            "level": 44
+          },
+          {
+            "move": "memento",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "explosion",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 212 East Towards Pastoria City",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "minimize",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "mud-bomb",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 36
+          },
+          {
+            "move": "acid-armor",
+            "level": 39
+          },
+          {
+            "move": "gunk-shot",
+            "level": 44
+          },
+          {
+            "move": "memento",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "explosion",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "fire-punch",
+          "gunk-shot",
+          "ice-punch",
+          "mud-slap",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "117",
+      "flavorText": "Wherever GRIMER has passed, so many germs are left behind that no plants will ever grow again.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Celadon City",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 17",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 18",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "minimize",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "mud-bomb",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 36
+          },
+          {
+            "move": "acid-armor",
+            "level": 39
+          },
+          {
+            "move": "gunk-shot",
+            "level": 44
+          },
+          {
+            "move": "memento",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "explosion",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "fire-punch",
+          "gunk-shot",
+          "ice-punch",
+          "mud-slap",
+          "pain-split",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "minimize",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "mud-bomb",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 36
+          },
+          {
+            "move": "acid-armor",
+            "level": 39
+          },
+          {
+            "move": "sludge-wave",
+            "level": 44
+          },
+          {
+            "move": "gunk-shot",
+            "level": 49
+          },
+          {
+            "move": "memento",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "64",
+      "flavorText": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Castelia Sewers",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 70
+          },
+          {
+            "location": "Castelia Sewers",
+            "method": "Super Rod Spots",
+            "minLevel": 40,
+            "maxLevel": 60
+          },
+          {
+            "location": "Castelia Sewers",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 15
+          },
+          {
+            "location": "Castelia Sewers",
+            "method": "Surf Spots",
+            "minLevel": 5,
+            "maxLevel": 20
+          },
+          {
+            "location": "Castelia Sewers",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Castelia Sewers Unknown Area 38",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 70
+          },
+          {
+            "location": "Castelia Sewers Unknown Area 38",
+            "method": "Super Rod Spots",
+            "minLevel": 60,
+            "maxLevel": 60
+          },
+          {
+            "location": "Castelia Sewers Unknown Area 38",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 15
+          },
+          {
+            "location": "Castelia Sewers Unknown Area 38",
+            "method": "Surf Spots",
+            "minLevel": 5,
+            "maxLevel": 20
+          },
+          {
+            "location": "Castelia Sewers Unknown Area 38",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "minimize",
+            "level": 18
+          },
+          {
+            "move": "mud-bomb",
+            "level": 21
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 26
+          },
+          {
+            "move": "fling",
+            "level": 29
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "sludge-wave",
+            "level": 37
+          },
+          {
+            "move": "acid-armor",
+            "level": 40
+          },
+          {
+            "move": "gunk-shot",
+            "level": 43
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "fire-punch",
+          "giga-drain",
+          "gunk-shot",
+          "ice-punch",
+          "pain-split",
+          "sleep-talk",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "minimize",
+            "level": 18
+          },
+          {
+            "move": "mud-bomb",
+            "level": 21
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 26
+          },
+          {
+            "move": "fling",
+            "level": 29
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "sludge-wave",
+            "level": 37
+          },
+          {
+            "move": "acid-armor",
+            "level": 40
+          },
+          {
+            "move": "gunk-shot",
+            "level": 43
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "111",
+      "flavorText": "Grimer emerged from the sludge that settled on a polluted seabed. This Pokémon loves anything filthy. It constantly leaks a horribly germ-infested fluid from all over its body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "fling",
+            "level": 26
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 29
+          },
+          {
+            "move": "sludge-wave",
+            "level": 32
+          },
+          {
+            "move": "screech",
+            "level": 37
+          },
+          {
+            "move": "gunk-shot",
+            "level": 40
+          },
+          {
+            "move": "acid-armor",
+            "level": 43
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dig",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "fire-punch",
+          "giga-drain",
+          "gunk-shot",
+          "ice-punch",
+          "pain-split",
+          "shock-wave",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "50",
+      "flavorText": "It was born from sludge transformed by exposure to X-rays from the moon. When its internal load of germs decreases, it dies.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "fling",
+            "level": 26
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 29
+          },
+          {
+            "move": "sludge-wave",
+            "level": 32
+          },
+          {
+            "move": "screech",
+            "level": 37
+          },
+          {
+            "move": "gunk-shot",
+            "level": 40
+          },
+          {
+            "move": "acid-armor",
+            "level": 43
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "57",
+      "flavorText": "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They’re said to be on the verge of extinction.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/88.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/88.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "fling",
+            "level": 26
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 29
+          },
+          {
+            "move": "sludge-wave",
+            "level": 32
+          },
+          {
+            "move": "screech",
+            "level": 37
+          },
+          {
+            "move": "gunk-shot",
+            "level": 40
+          },
+          {
+            "move": "acid-armor",
+            "level": 43
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "power-up-punch",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": [
+          "fire-punch",
+          "giga-drain",
+          "gunk-shot",
+          "ice-punch",
+          "pain-split",
+          "shock-wave",
+          "snore",
+          "thunder-punch"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "88",
+      "flavorText": "Made of congealed sludge. It smells too putrid to touch. Even weeds won’t grow in its path.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 6
+          },
+          {
+            "move": "minimize",
+            "level": 12
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "sludge",
+            "level": 24
+          },
+          {
+            "move": "screech",
+            "level": 30
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "acid-armor",
+            "level": 42
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "dig",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "mega-drain",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-slide",
+          "self-destruct",
+          "shadow-ball",
+          "sludge-bomb",
+          "substitute",
+          "taunt",
+          "thunder",
+          "thunder-punch",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "88",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/88.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 212 (Sinnoh) (Poké Radar) (Kantonian Form) | Grand Underground - Swampy Cave, Dazzling Cave, Stargleam Cavern, Bogsunk Cavern (After obtaining the National Pokédex) (Kantonian Form) | Unobtainable (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "smog",
+            "level": 18
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "fling",
+            "level": 26
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 29
+          },
+          {
+            "move": "sludge-wave",
+            "level": 32
+          },
+          {
+            "move": "screech",
+            "level": 37
+          },
+          {
+            "move": "gunk-shot",
+            "level": 40
+          },
+          {
+            "move": "acid-armor",
+            "level": 43
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "giga-drain",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "imprison",
+          "lick",
+          "mean-look",
+          "power-up-punch",
+          "scary-face",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P194",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/88.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Cortondo (Kantonian Form) | East Province: Area Two (Kantonian Form) | West Province: Area Two (Kantonian Form) | Tera Raid Battles (2★ Grimer) (Kantonian Form) | Trade (Alolan Form)",
+          "Coastal Biome, Torchlit Labyrinth (Alolan Form) | Tera Raid Battles (3★ Grimer - Alolan Form) (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "mud-slap",
+            "level": 7
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 15
+          },
+          {
+            "move": "mud-shot",
+            "level": 18
+          },
+          {
+            "move": "minimize",
+            "level": 21
+          },
+          {
+            "move": "toxic",
+            "level": 26
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 29
+          },
+          {
+            "move": "sludge-wave",
+            "level": 32
+          },
+          {
+            "move": "screech",
+            "level": 37
+          },
+          {
+            "move": "gunk-shot",
+            "level": 40
+          },
+          {
+            "move": "acid-armor",
+            "level": 43
+          },
+          {
+            "move": "belch",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "body-slam",
+          "confuse-ray",
+          "curse",
+          "dig",
+          "drain-punch",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "giga-drain",
+          "gunk-shot",
+          "haze",
+          "helping-hand",
+          "hex",
+          "ice-punch",
+          "imprison",
+          "metronome",
+          "mud-shot",
+          "mud-slap",
+          "pain-split",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunderbolt",
+          "toxic",
+          "venoshock",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "acid-spray",
+          "curse",
+          "haze",
+          "mean-look",
+          "shadow-punch",
+          "shadow-sneak",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,1886 @@
+{
+  "dex": 220,
+  "keyword": "swinub",
+  "name": "Swinub",
+  "japaneseName": {
+    "kana": "ウリムー",
+    "romaji": "Urimoo"
+  },
+  "type1": "Ice",
+  "type2": "Ground",
+  "genus": "Pig Pokémon",
+  "heightM": 0.4,
+  "weightKg": 6.5,
+  "stats": {
+    "hp": 50,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "oblivious",
+      "hidden": false,
+      "effect": "Prevents infatuation and protects against captivate."
+    },
+    {
+      "name": "snow-cloak",
+      "hidden": false,
+      "effect": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+    },
+    {
+      "name": "thick-fat",
+      "hidden": true,
+      "effect": "Halves damage from fire and ice moves."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 225,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      221
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0220.png",
+    "shiny": "sprites/shiny/0220.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/220.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/220.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "191",
+      "flavorText": "It uses the tip of its nose to dig for food. Its nose is so tough that even frozen ground poses no problem.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ice Path 1f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          },
+          {
+            "location": "Ice Path B1f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          },
+          {
+            "location": "Ice Path B2f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 25
+          },
+          {
+            "location": "Ice Path B3f",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "blizzard",
+            "level": 46
+          },
+          {
+            "move": "amnesia",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "detect",
+          "double-team",
+          "earthquake",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "icy-wind",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "body-slam",
+          "rock-slide",
+          "take-down"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under dried grass. It occasionally roots out hot springs.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "endure",
+            "level": 19
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 37
+          },
+          {
+            "move": "blizzard",
+            "level": 46
+          },
+          {
+            "move": "amnesia",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "body-slam",
+          "double-edge",
+          "icicle-spear",
+          "mud-shot",
+          "rock-slide",
+          "take-down"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 217",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 16
+          },
+          {
+            "move": "mud-bomb",
+            "level": 20
+          },
+          {
+            "move": "icy-wind",
+            "level": 25
+          },
+          {
+            "move": "ice-shard",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 32
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "icicle-spear",
+          "mud-shot",
+          "rock-slide",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "203",
+      "flavorText": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Acuity Lakefront",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 34
+          },
+          {
+            "location": "Route 217",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 16
+          },
+          {
+            "move": "mud-bomb",
+            "level": 20
+          },
+          {
+            "move": "icy-wind",
+            "level": 25
+          },
+          {
+            "move": "ice-shard",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 32
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "icicle-spear",
+          "mud-shot",
+          "rock-slide",
+          "take-down"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "endeavor",
+          "icy-wind",
+          "mud-slap",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "195",
+      "flavorText": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ice Path 1f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          },
+          {
+            "location": "Ice Path B1f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          },
+          {
+            "location": "Ice Path B2f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Ice Path B3f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 16
+          },
+          {
+            "move": "mud-bomb",
+            "level": 20
+          },
+          {
+            "move": "icy-wind",
+            "level": 25
+          },
+          {
+            "move": "ice-shard",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 32
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "icicle-spear",
+          "mud-shot",
+          "rock-slide",
+          "take-down"
+        ],
+        "tutor": [
+          "ancient-power",
+          "earth-power",
+          "endeavor",
+          "headbutt",
+          "icy-wind",
+          "mud-slap",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 4
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 13
+          },
+          {
+            "move": "endure",
+            "level": 16
+          },
+          {
+            "move": "mud-bomb",
+            "level": 20
+          },
+          {
+            "move": "icy-wind",
+            "level": 25
+          },
+          {
+            "move": "ice-shard",
+            "level": 28
+          },
+          {
+            "move": "take-down",
+            "level": 32
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "mist",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "stealth-rock",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "258",
+      "flavorText": "Rooting the tip of its snout into the ground, it searches for food. Sometimes it even digs up a hot spring.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 11
+          },
+          {
+            "move": "endure",
+            "level": 14
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 21
+          },
+          {
+            "move": "ice-shard",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "flail",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "stealth-rock",
+          "take-down"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "icy-wind",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M76",
+      "flavorText": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 11
+          },
+          {
+            "move": "endure",
+            "level": 14
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 21
+          },
+          {
+            "move": "ice-shard",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "flail",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "stealth-rock",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pokémon occasionally roots out hot springs.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 11
+          },
+          {
+            "move": "endure",
+            "level": 14
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 21
+          },
+          {
+            "move": "ice-shard",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "flail",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "stealth-rock",
+          "take-down"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "icy-wind",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Tapu Village",
+            "method": "Island Scan",
+            "minLevel": 31,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 11
+          },
+          {
+            "move": "endure",
+            "level": 14
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 21
+          },
+          {
+            "move": "ice-shard",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "flail",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "stealth-rock",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/220.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/220.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Tapu Village",
+            "method": "Island Scan",
+            "minLevel": 33,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "mud-sport",
+            "level": 5
+          },
+          {
+            "move": "powder-snow",
+            "level": 8
+          },
+          {
+            "move": "mud-slap",
+            "level": 11
+          },
+          {
+            "move": "endure",
+            "level": 14
+          },
+          {
+            "move": "mud-bomb",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 21
+          },
+          {
+            "move": "ice-shard",
+            "level": 24
+          },
+          {
+            "move": "take-down",
+            "level": 28
+          },
+          {
+            "move": "mist",
+            "level": 35
+          },
+          {
+            "move": "earthquake",
+            "level": 37
+          },
+          {
+            "move": "flail",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 44
+          },
+          {
+            "move": "amnesia",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "avalanche",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "stealth-rock",
+          "take-down"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "icy-wind",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "75",
+      "flavorText": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "flail",
+            "level": 10
+          },
+          {
+            "move": "ice-shard",
+            "level": 15
+          },
+          {
+            "move": "mist",
+            "level": 20
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "icy-wind",
+            "level": 30
+          },
+          {
+            "move": "amnesia",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 45
+          },
+          {
+            "move": "blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "hail",
+          "ice-beam",
+          "icicle-spear",
+          "icy-wind",
+          "light-screen",
+          "mud-shot",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sand-tomb",
+          "sandstorm",
+          "scary-face",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "substitute",
+          "superpower"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "220",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/220.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 217 (Sinnoh) (Swarm) | Grand Underground - Icy Cave, Swampy Cave, Whiteout Cave, Glacial Cavern, Bogsunk Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "flail",
+            "level": 10
+          },
+          {
+            "move": "ice-shard",
+            "level": 15
+          },
+          {
+            "move": "mist",
+            "level": 20
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "icy-wind",
+            "level": 30
+          },
+          {
+            "move": "amnesia",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 45
+          },
+          {
+            "move": "blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "hail",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "swagger"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "body-slam",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash",
+          "icicle-spear",
+          "mud-shot",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "212",
+      "flavorText": "Swinub excels at sniffing out mushrooms buried beneath grass or snow. Since ancient times, the people of Hisui have often relied upon this skill.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: massive mass outbreaks | Alabaster Icelands: Avalanche Slopes, Bonechill Wastes (additional nearby), near Arena's Approach, Avalugg's Legacy, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ice-shard",
+            "level": 6
+          },
+          {
+            "move": "bulldoze",
+            "level": 11
+          },
+          {
+            "move": "icicle-crash",
+            "level": 18
+          },
+          {
+            "move": "high-horsepower",
+            "level": 25
+          },
+          {
+            "move": "ancient-power",
+            "level": 34
+          },
+          {
+            "move": "blizzard",
+            "level": 43
+          },
+          {
+            "move": "double-edge",
+            "level": 52
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K050",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/220.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Reveler's Road, Kitakami Hall, Mossfell Confluence, Oni Mountain, Oni's Maw, Chilling Waterhead | Tera Raid Battles (2★ Swinub)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "flail",
+            "level": 10
+          },
+          {
+            "move": "ice-shard",
+            "level": 15
+          },
+          {
+            "move": "mist",
+            "level": 20
+          },
+          {
+            "move": "endure",
+            "level": 25
+          },
+          {
+            "move": "icy-wind",
+            "level": 30
+          },
+          {
+            "move": "amnesia",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 40
+          },
+          {
+            "move": "earthquake",
+            "level": 45
+          },
+          {
+            "move": "blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "charm",
+          "curse",
+          "dig",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "endeavor",
+          "endure",
+          "facade",
+          "haze",
+          "high-horsepower",
+          "ice-beam",
+          "ice-fang",
+          "icicle-spear",
+          "icy-wind",
+          "mud-shot",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "scary-face",
+          "sleep-talk",
+          "smack-down",
+          "snowscape",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "take-down",
+          "tera-blast",
+          "trailblaze"
+        ],
+        "egg": [
+          "ancient-power",
+          "bite",
+          "curse",
+          "double-edge",
+          "fissure",
+          "freeze-dry",
+          "icicle-crash"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

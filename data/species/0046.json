@@ -1,0 +1,1859 @@
+{
+  "dex": 46,
+  "keyword": "paras",
+  "name": "Paras",
+  "japaneseName": {
+    "kana": "パラス",
+    "romaji": "Paras"
+  },
+  "type1": "Bug",
+  "type2": "Grass",
+  "genus": "Mushroom Pokémon",
+  "heightM": 0.3,
+  "weightKg": 5.4,
+  "stats": {
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "specialAttack": 45,
+    "specialDefense": 55,
+    "speed": 25
+  },
+  "abilities": [
+    {
+      "name": "effect-spore",
+      "hidden": false,
+      "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+    },
+    {
+      "name": "dry-skin",
+      "hidden": false,
+      "effect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP."
+    },
+    {
+      "name": "damp",
+      "hidden": true,
+      "effect": "Prevents self destruct, explosion, and aftermath from working while the Pokémon is in battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug",
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "armor",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      47
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0046.png",
+    "shiny": "sprites/shiny/0046.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/46.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/46.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "46",
+      "flavorText": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/46.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Mt Moon B1f",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 11
+          },
+          {
+            "location": "Mt Moon B2f",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 19
+          },
+          {
+            "move": "leech-life",
+            "level": 20
+          },
+          {
+            "move": "spore",
+            "level": 25
+          },
+          {
+            "move": "spore",
+            "level": 27
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "slash",
+            "level": 34
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "growth",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 43
+          },
+          {
+            "move": "aromatherapy",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "skull-bash",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "counter",
+          "false-swipe",
+          "flail",
+          "light-screen",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mimic",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "70",
+      "flavorText": "The tochukaso growing on this POKéMON's back orders it to extract juice from tree trunks.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 19
+          },
+          {
+            "move": "spore",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "fury-cutter",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "counter",
+          "false-swipe",
+          "flail",
+          "light-screen",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A PARAS has parasitic tochukaso mushrooms growing on its back. They grow by drawing nutrients from the host. They are valued as a medicine for long life.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 19
+          },
+          {
+            "move": "spore",
+            "level": 25
+          },
+          {
+            "move": "slash",
+            "level": 31
+          },
+          {
+            "move": "growth",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 43
+          },
+          {
+            "move": "aromatherapy",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "counter",
+          "false-swipe",
+          "flail",
+          "light-screen",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "spore",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "growth",
+            "level": 27
+          },
+          {
+            "move": "giga-drain",
+            "level": 33
+          },
+          {
+            "move": "aromatherapy",
+            "level": 38
+          },
+          {
+            "move": "x-scissor",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "false-swipe",
+          "flail",
+          "light-screen",
+          "metal-claw",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "spore",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "growth",
+            "level": 27
+          },
+          {
+            "move": "giga-drain",
+            "level": 33
+          },
+          {
+            "move": "aromatherapy",
+            "level": 38
+          },
+          {
+            "move": "x-scissor",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "false-swipe",
+          "flail",
+          "light-screen",
+          "metal-claw",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "70",
+      "flavorText": "As its body grows, large mushrooms named tochukaso start sprouting out of its back.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Mt Moon 1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Mt Moon 2f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "spore",
+            "level": 17
+          },
+          {
+            "move": "slash",
+            "level": 22
+          },
+          {
+            "move": "growth",
+            "level": 27
+          },
+          {
+            "move": "giga-drain",
+            "level": 33
+          },
+          {
+            "move": "aromatherapy",
+            "level": 38
+          },
+          {
+            "move": "x-scissor",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "false-swipe",
+          "flail",
+          "light-screen",
+          "metal-claw",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "bug-bite",
+          "fury-cutter",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "string-shot",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "endure",
+          "flail",
+          "leech-seed",
+          "metal-claw",
+          "natural-gift",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "endure",
+          "flail",
+          "leech-seed",
+          "metal-claw",
+          "natural-gift",
+          "psybeam",
+          "pursuit",
+          "screech",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "bug-bite",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "endure",
+          "fell-stinger",
+          "flail",
+          "leech-seed",
+          "metal-claw",
+          "natural-gift",
+          "psybeam",
+          "pursuit",
+          "rototiller",
+          "screech",
+          "sweet-scent",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "leech-life",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "endure",
+          "fell-stinger",
+          "flail",
+          "leech-seed",
+          "metal-claw",
+          "natural-gift",
+          "psybeam",
+          "pursuit",
+          "rototiller",
+          "screech",
+          "sweet-scent",
+          "wide-guard"
+        ],
+        "tutor": [
+          "after-you",
+          "bug-bite",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "147",
+      "flavorText": "Mushrooms called tochukaso sprout from its back. They can be dried and powdered to make a medicine used to extend life.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Lush Jungle North",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "leech-life",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "endure",
+          "fell-stinger",
+          "flail",
+          "leech-seed",
+          "metal-claw",
+          "natural-gift",
+          "psybeam",
+          "pursuit",
+          "rototiller",
+          "screech",
+          "sweet-scent",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "180",
+      "flavorText": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/46.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/46.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Lush Jungle North",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "leech-life",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "endure",
+          "fell-stinger",
+          "flail",
+          "grassy-terrain",
+          "leech-seed",
+          "metal-claw",
+          "natural-gift",
+          "psybeam",
+          "pursuit",
+          "rototiller",
+          "screech",
+          "sweet-scent",
+          "wide-guard"
+        ],
+        "tutor": [
+          "after-you",
+          "bug-bite",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "46",
+      "flavorText": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "sleep-powder",
+            "level": 2
+          },
+          {
+            "move": "stun-spore",
+            "level": 4
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 9
+          },
+          {
+            "move": "growth",
+            "level": 12
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "slash",
+            "level": 19
+          },
+          {
+            "move": "leech-life",
+            "level": 23
+          },
+          {
+            "move": "spore",
+            "level": 27
+          },
+          {
+            "move": "x-scissor",
+            "level": 31
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "dig",
+          "facade",
+          "headbutt",
+          "light-screen",
+          "mega-drain",
+          "protect",
+          "reflect",
+          "rest",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "46",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/46.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Great Marsh (After obtaining the National Pokédex) | Grand Underground - Grassland Cave, Sunlit Cavern, Swampy Cave, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 6
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "absorb",
+            "level": 11
+          },
+          {
+            "move": "fury-cutter",
+            "level": 17
+          },
+          {
+            "move": "spore",
+            "level": 22
+          },
+          {
+            "move": "slash",
+            "level": 27
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 38
+          },
+          {
+            "move": "aromatherapy",
+            "level": 43
+          },
+          {
+            "move": "rage-powder",
+            "level": 49
+          },
+          {
+            "move": "x-scissor",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bullet-seed",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "false-swipe",
+          "flash",
+          "giga-drain",
+          "grass-knot",
+          "light-screen",
+          "protect",
+          "rest",
+          "rock-smash",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "x-scissor"
+        ],
+        "egg": [
+          "agility",
+          "bug-bite",
+          "counter",
+          "cross-poison",
+          "fell-stinger",
+          "flail",
+          "grassy-terrain",
+          "leech-seed",
+          "metal-claw",
+          "psybeam",
+          "screech",
+          "sweet-scent",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "53",
+      "flavorText": "Sometimes seen at the foot of trees in humid forests. The mushrooms on its back—called tochukaso—are not present on infant specimens and instead emerge as Paras matures.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Nature's Pantry, massive mass outbreaks | Crimson Mirelands: Golden Lowlands, near Ursa's Ring, near Cloudpool Ridge, Diamond Heath, near Cottonsedge Prairie, Droning Meadow, massive mass outbreaks | Cobalt Coastlands: near Windbreak Stand | Coronet Highlands: Heavenward Lookout, Wayward Wood"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "poison-powder",
+            "level": 9
+          },
+          {
+            "move": "venoshock",
+            "level": 15
+          },
+          {
+            "move": "slash",
+            "level": 21
+          },
+          {
+            "move": "spore",
+            "level": 29
+          },
+          {
+            "move": "x-scissor",
+            "level": 37
+          },
+          {
+            "move": "energy-ball",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

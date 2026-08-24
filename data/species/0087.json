@@ -1,0 +1,2151 @@
+{
+  "dex": 87,
+  "keyword": "dewgong",
+  "name": "Dewgong",
+  "japaneseName": {
+    "kana": "ジュゴン",
+    "romaji": "Jugon"
+  },
+  "type1": "Water",
+  "type2": "Ice",
+  "genus": "Sea Lion Pokémon",
+  "heightM": 1.7,
+  "weightKg": 120.0,
+  "stats": {
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "specialAttack": 70,
+    "specialDefense": 95,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "hidden": false,
+      "effect": "Halves damage from fire and ice moves."
+    },
+    {
+      "name": "hydration",
+      "hidden": false,
+      "effect": "Cures any major status ailment after each turn during rain."
+    },
+    {
+      "name": "ice-body",
+      "hidden": true,
+      "effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "fish",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 86,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0087.png",
+    "shiny": "sprites/shiny/0087.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/87.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/87.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "87",
+      "flavorText": "It stores thermal energy in the body. It swims at a steady eight knots even in intensely cold waters.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/87.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Icefall Cave Entrance",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "location": "Icefall Cave Entrance",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 53
+          },
+          {
+            "location": "Icefall Cave Waterfall",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 53
+          },
+          {
+            "location": "Seafoam Islands B1f",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 38
+          },
+          {
+            "location": "Seafoam Islands B3f",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "location": "Seafoam Islands B3f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 37
+          },
+          {
+            "location": "Seafoam Islands B4f",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 40
+          },
+          {
+            "location": "Seafoam Islands B4f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 17
+          },
+          {
+            "move": "aurora-beam",
+            "level": 21
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "growl",
+            "level": 30
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "aurora-beam",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 42
+          },
+          {
+            "move": "rest",
+            "level": 44
+          },
+          {
+            "move": "take-down",
+            "level": 50
+          },
+          {
+            "move": "ice-beam",
+            "level": 51
+          },
+          {
+            "move": "ice-beam",
+            "level": 56
+          },
+          {
+            "move": "safeguard",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "bubble-beam",
+          "dive",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "horn-drill",
+          "hyper-beam",
+          "ice-beam",
+          "mimic",
+          "pay-day",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "skull-bash",
+          "strength",
+          "substitute",
+          "surf",
+          "take-down",
+          "thief",
+          "toxic",
+          "water-gun",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "177",
+      "flavorText": "It sleeps under shallow ocean waters during the day, then looks for food at night when it's cold.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "aurora-beam",
+            "level": 16
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 32
+          },
+          {
+            "move": "ice-beam",
+            "level": 43
+          },
+          {
+            "move": "safeguard",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It loves to snooze on bitterly cold ice. The sight of this POKéMON sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 17
+          },
+          {
+            "move": "aurora-beam",
+            "level": 21
+          },
+          {
+            "move": "rest",
+            "level": 29
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 42
+          },
+          {
+            "move": "ice-beam",
+            "level": 51
+          },
+          {
+            "move": "safeguard",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "surf",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "In snow, the pure white coat covering its body obscures it from predators.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Sea Route 226",
+            "method": "Surf",
+            "minLevel": 40,
+            "maxLevel": 55
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Surf",
+            "minLevel": 40,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 37
+          },
+          {
+            "move": "dive",
+            "level": 41
+          },
+          {
+            "move": "aqua-tail",
+            "level": 43
+          },
+          {
+            "move": "ice-beam",
+            "level": 47
+          },
+          {
+            "move": "safeguard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "In snow, the pure white coat covering its body obscures it from predators.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Victory Road Inside B1f",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 55
+          },
+          {
+            "location": "Victory Road Inside B1f",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 37
+          },
+          {
+            "move": "dive",
+            "level": 41
+          },
+          {
+            "move": "aqua-tail",
+            "level": 43
+          },
+          {
+            "move": "ice-beam",
+            "level": 47
+          },
+          {
+            "move": "safeguard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "dive",
+          "icy-wind",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "179",
+      "flavorText": "It loves frigid seas with ice floes. It uses its long tail to change swimming direction quickly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Seafoam Islands B3f",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 36
+          },
+          {
+            "location": "Seafoam Islands B4f",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 38
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 37
+          },
+          {
+            "move": "dive",
+            "level": 41
+          },
+          {
+            "move": "aqua-tail",
+            "level": 43
+          },
+          {
+            "move": "ice-beam",
+            "level": 47
+          },
+          {
+            "move": "safeguard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "dive",
+          "headbutt",
+          "icy-wind",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "In snow, the pure white coat covering its body obscures it from predators.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "266",
+      "flavorText": "Its streamlined body has low resistance, and it swims around cold oceans at a speed of eight knots.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Surf Spots",
+            "minLevel": 40,
+            "maxLevel": 50
+          },
+          {
+            "location": "Seaside Cave 1f",
+            "method": "Surf Spots",
+            "minLevel": 30,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "drill-run",
+          "icy-wind",
+          "iron-tail",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Its streamlined body has little drag in water. The colder the temperature, the friskier it gets.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "sheer-cold",
+            "level": 34
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "dive",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "drill-run",
+          "icy-wind",
+          "iron-tail",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sheer-cold",
+            "level": 0
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "116",
+      "flavorText": "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/87.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/87.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sheer-cold",
+            "level": 0
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "signal-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "signal-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "drill-run",
+          "icy-wind",
+          "iron-tail",
+          "liquidation",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "87",
+      "flavorText": "Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aqua-jet",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 1
+          },
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "horn-drill",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "encore",
+            "level": 8
+          },
+          {
+            "move": "aqua-jet",
+            "level": 12
+          },
+          {
+            "move": "ice-shard",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 20
+          },
+          {
+            "move": "aurora-beam",
+            "level": 26
+          },
+          {
+            "move": "waterfall",
+            "level": 32
+          },
+          {
+            "move": "take-down",
+            "level": 42
+          },
+          {
+            "move": "ice-beam",
+            "level": 52
+          },
+          {
+            "move": "double-edge",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "drill-run",
+          "facade",
+          "headbutt",
+          "helping-hand",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "megahorn",
+          "pay-day",
+          "protect",
+          "rest",
+          "substitute",
+          "surf",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "87",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/87.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and (ing) | Grand Underground - Fountainspring Cave, Whiteout Cave, Icy Cave, Glacial Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sheer-cold",
+            "level": 0
+          },
+          {
+            "move": "bubble-beam",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "sheer-cold",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "bubble-beam",
+            "level": 7
+          },
+          {
+            "move": "icy-wind",
+            "level": 11
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "hail",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "giga-impact",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thief",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B144",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/87.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Polar Biome | Tera Raid Battles (4★ Dewgong)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sheer-cold",
+            "level": 0
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 1
+          },
+          {
+            "move": "encore",
+            "level": 13
+          },
+          {
+            "move": "ice-shard",
+            "level": 17
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "aurora-beam",
+            "level": 27
+          },
+          {
+            "move": "aqua-jet",
+            "level": 31
+          },
+          {
+            "move": "brine",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 39
+          },
+          {
+            "move": "dive",
+            "level": 45
+          },
+          {
+            "move": "aqua-tail",
+            "level": 49
+          },
+          {
+            "move": "ice-beam",
+            "level": 55
+          },
+          {
+            "move": "safeguard",
+            "level": 61
+          },
+          {
+            "move": "snowscape",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "alluring-voice",
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "charm",
+          "chilling-water",
+          "curse",
+          "double-edge",
+          "drill-run",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fling",
+          "flip-turn",
+          "giga-impact",
+          "haze",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "ice-spinner",
+          "icicle-spear",
+          "icy-wind",
+          "knock-off",
+          "liquidation",
+          "muddy-water",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "smart-strike",
+          "snowscape",
+          "substitute",
+          "surf",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "triple-axel",
+          "uproar",
+          "water-pulse",
+          "waterfall",
+          "weather-ball",
+          "whirlpool"
+        ],
+        "egg": [
+          "belch",
+          "disable",
+          "entrainment",
+          "fake-out",
+          "horn-drill",
+          "lick",
+          "perish-song",
+          "spit-up",
+          "stockpile",
+          "swallow"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

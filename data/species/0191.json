@@ -1,0 +1,1665 @@
+{
+  "dex": 191,
+  "keyword": "sunkern",
+  "name": "Sunkern",
+  "japaneseName": {
+    "kana": "ヒマナッツ",
+    "romaji": "Himanuts"
+  },
+  "type1": "Grass",
+  "type2": null,
+  "genus": "Seed Pokémon",
+  "heightM": 0.3,
+  "weightKg": 1.8,
+  "stats": {
+    "hp": 30,
+    "attack": 30,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 30
+  },
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "solar-power",
+      "hidden": false,
+      "effect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+    },
+    {
+      "name": "early-bird",
+      "hidden": true,
+      "effect": "Makes sleep pass twice as quickly."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 235,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "ball",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      192
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0191.png",
+    "shiny": "sprites/shiny/0191.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/191.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/191.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "102",
+      "flavorText": "It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "sunny-day",
+            "level": 19
+          },
+          {
+            "move": "synthesis",
+            "level": 31
+          },
+          {
+            "move": "giga-drain",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "SUNKERN try to minimize movement to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Expansion North",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 34
+          },
+          {
+            "location": "Safari Zone Expansion South",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "mega-drain",
+            "level": 13
+          },
+          {
+            "move": "ingrain",
+            "level": 18
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "sunny-day",
+            "level": 30
+          },
+          {
+            "move": "synthesis",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "encore",
+          "grass-whistle",
+          "helping-hand",
+          "leech-seed",
+          "nature-power"
+        ],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 5
+          },
+          {
+            "move": "ingrain",
+            "level": 9
+          },
+          {
+            "move": "grass-whistle",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 17
+          },
+          {
+            "move": "endeavor",
+            "level": 21
+          },
+          {
+            "move": "worry-seed",
+            "level": 25
+          },
+          {
+            "move": "razor-leaf",
+            "level": 29
+          },
+          {
+            "move": "synthesis",
+            "level": 33
+          },
+          {
+            "move": "sunny-day",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 41
+          },
+          {
+            "move": "seed-bomb",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "encore",
+          "grass-whistle",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 5
+          },
+          {
+            "move": "ingrain",
+            "level": 9
+          },
+          {
+            "move": "grass-whistle",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 17
+          },
+          {
+            "move": "endeavor",
+            "level": 21
+          },
+          {
+            "move": "worry-seed",
+            "level": 25
+          },
+          {
+            "move": "razor-leaf",
+            "level": 29
+          },
+          {
+            "move": "synthesis",
+            "level": 33
+          },
+          {
+            "move": "sunny-day",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 41
+          },
+          {
+            "move": "seed-bomb",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "encore",
+          "grass-whistle",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "endeavor",
+          "helping-hand",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "103",
+      "flavorText": "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 5
+          },
+          {
+            "move": "ingrain",
+            "level": 9
+          },
+          {
+            "move": "grass-whistle",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 17
+          },
+          {
+            "move": "endeavor",
+            "level": 21
+          },
+          {
+            "move": "worry-seed",
+            "level": 25
+          },
+          {
+            "move": "razor-leaf",
+            "level": 29
+          },
+          {
+            "move": "synthesis",
+            "level": 33
+          },
+          {
+            "move": "sunny-day",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 41
+          },
+          {
+            "move": "seed-bomb",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "encore",
+          "grass-whistle",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "helping-hand",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Dark Grass",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 5
+          },
+          {
+            "move": "ingrain",
+            "level": 9
+          },
+          {
+            "move": "grass-whistle",
+            "level": 13
+          },
+          {
+            "move": "leech-seed",
+            "level": 17
+          },
+          {
+            "move": "endeavor",
+            "level": 21
+          },
+          {
+            "move": "worry-seed",
+            "level": 25
+          },
+          {
+            "move": "razor-leaf",
+            "level": 29
+          },
+          {
+            "move": "synthesis",
+            "level": 33
+          },
+          {
+            "move": "sunny-day",
+            "level": 37
+          },
+          {
+            "move": "giga-drain",
+            "level": 41
+          },
+          {
+            "move": "seed-bomb",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "curse",
+          "encore",
+          "endure",
+          "grass-whistle",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "natural-gift",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "20",
+      "flavorText": "It suddenly falls out of the sky in the morning. Knowing it’s weak, it simply feeds until it evolves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 20",
+            "method": "Dark Grass",
+            "minLevel": 9,
+            "maxLevel": 11
+          },
+          {
+            "location": "Route 20",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 4
+          },
+          {
+            "move": "grass-whistle",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "natural-gift",
+            "level": 31
+          },
+          {
+            "move": "solar-beam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "sunny-day",
+            "level": 40
+          },
+          {
+            "move": "seed-bomb",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "curse",
+          "encore",
+          "endure",
+          "grass-whistle",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "natural-gift",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "earth-power",
+          "endeavor",
+          "giga-drain",
+          "helping-hand",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 4
+          },
+          {
+            "move": "grass-whistle",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "natural-gift",
+            "level": 31
+          },
+          {
+            "move": "solar-beam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "sunny-day",
+            "level": 40
+          },
+          {
+            "move": "seed-bomb",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "curse",
+          "encore",
+          "endure",
+          "grass-whistle",
+          "grassy-terrain",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "natural-gift",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 4
+          },
+          {
+            "move": "grass-whistle",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "natural-gift",
+            "level": 31
+          },
+          {
+            "move": "solar-beam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "sunny-day",
+            "level": 40
+          },
+          {
+            "move": "seed-bomb",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "curse",
+          "encore",
+          "endure",
+          "grass-whistle",
+          "grassy-terrain",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "natural-gift",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "earth-power",
+          "endeavor",
+          "giga-drain",
+          "helping-hand",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 4
+          },
+          {
+            "move": "grass-whistle",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "natural-gift",
+            "level": 31
+          },
+          {
+            "move": "solar-beam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "sunny-day",
+            "level": 40
+          },
+          {
+            "move": "seed-bomb",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "curse",
+          "encore",
+          "endure",
+          "grass-whistle",
+          "grassy-terrain",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "natural-gift",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/191.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/191.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 4
+          },
+          {
+            "move": "grass-whistle",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "natural-gift",
+            "level": 31
+          },
+          {
+            "move": "solar-beam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "sunny-day",
+            "level": 40
+          },
+          {
+            "move": "seed-bomb",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "curse",
+          "encore",
+          "endure",
+          "grass-whistle",
+          "grassy-terrain",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "natural-gift",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": [
+          "after-you",
+          "earth-power",
+          "endeavor",
+          "giga-drain",
+          "helping-hand",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "191",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/191.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Northern Route 204 (Sinnoh) (Poké Radar) | Grand Underground - Grassland Cave, Sunlit Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 4
+          },
+          {
+            "move": "absorb",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "solar-beam",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "sunny-day",
+            "level": 40
+          },
+          {
+            "move": "seed-bomb",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "giga-drain",
+          "grass-knot",
+          "light-screen",
+          "protect",
+          "rest",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger"
+        ],
+        "egg": [
+          "curse",
+          "encore",
+          "grassy-terrain",
+          "helping-hand",
+          "ingrain",
+          "leech-seed",
+          "morning-sun",
+          "nature-power",
+          "sweet-scent"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P031",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/191.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two | Tera Raid Battles (1★ Sunkern)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "absorb",
+            "level": 7
+          },
+          {
+            "move": "mega-drain",
+            "level": 10
+          },
+          {
+            "move": "razor-leaf",
+            "level": 16
+          },
+          {
+            "move": "worry-seed",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 22
+          },
+          {
+            "move": "endeavor",
+            "level": 25
+          },
+          {
+            "move": "synthesis",
+            "level": 28
+          },
+          {
+            "move": "solar-beam",
+            "level": 31
+          },
+          {
+            "move": "double-edge",
+            "level": 34
+          },
+          {
+            "move": "sunny-day",
+            "level": 36
+          },
+          {
+            "move": "seed-bomb",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "bullet-seed",
+          "curse",
+          "double-edge",
+          "earth-power",
+          "encore",
+          "endeavor",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-terrain",
+          "helping-hand",
+          "leaf-storm",
+          "light-screen",
+          "magical-leaf",
+          "protect",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "trailblaze",
+          "weather-ball"
+        ],
+        "egg": [
+          "curse",
+          "encore",
+          "grassy-terrain",
+          "ingrain",
+          "leech-seed",
+          "morning-sun"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,2122 @@
+{
+  "dex": 110,
+  "keyword": "weezing",
+  "name": "Weezing",
+  "japaneseName": {
+    "kana": "マタドガス",
+    "romaji": "Matadogas"
+  },
+  "type1": "Poison",
+  "type2": null,
+  "genus": "Poison Gas Pokémon",
+  "heightM": 1.2,
+  "weightKg": 9.5,
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 120,
+    "specialAttack": 85,
+    "specialDefense": 70,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "levitate",
+      "hidden": false,
+      "effect": "Evades ground moves."
+    },
+    {
+      "name": "neutralizing-gas",
+      "hidden": false,
+      "effect": "Neutralizes abilities of all Pokémon in battle."
+    },
+    {
+      "name": "stench",
+      "hidden": true,
+      "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "indeterminate"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "heads",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 109,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0110.png",
+    "shiny": "sprites/shiny/0110.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/110.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/110.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "110",
+      "flavorText": "Where two kinds of poison gases meet, two KOFFING can fuse into a WEEZING over many years.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/110.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pokemon Mansion 1f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 39
+          },
+          {
+            "location": "Pokemon Mansion 2f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 39
+          },
+          {
+            "location": "Pokemon Mansion 3f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 42
+          },
+          {
+            "location": "Pokemon Mansion B1f",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 42
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "self-destruct",
+            "level": 1
+          },
+          {
+            "move": "sludge",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 9
+          },
+          {
+            "move": "self-destruct",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 21
+          },
+          {
+            "move": "smokescreen",
+            "level": 25
+          },
+          {
+            "move": "sludge",
+            "level": 32
+          },
+          {
+            "move": "haze",
+            "level": 33
+          },
+          {
+            "move": "smokescreen",
+            "level": 39
+          },
+          {
+            "move": "self-destruct",
+            "level": 43
+          },
+          {
+            "move": "explosion",
+            "level": 44
+          },
+          {
+            "move": "haze",
+            "level": 49
+          },
+          {
+            "move": "destiny-bond",
+            "level": 51
+          },
+          {
+            "move": "explosion",
+            "level": 53
+          },
+          {
+            "move": "memento",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "self-destruct",
+          "shadow-ball",
+          "shock-wave",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "explosion",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "115",
+      "flavorText": "When it inhales poisonous gases from garbage, its body expands, and its insides smell much worse.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Burned Tower B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "self-destruct",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 9
+          },
+          {
+            "move": "self-destruct",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 21
+          },
+          {
+            "move": "smokescreen",
+            "level": 25
+          },
+          {
+            "move": "haze",
+            "level": 33
+          },
+          {
+            "move": "explosion",
+            "level": 44
+          },
+          {
+            "move": "destiny-bond",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "endure",
+          "fire-blast",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "return",
+          "rollout",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "109",
+      "flavorText": "By diluting its toxic gases with a special process, the highest grade of perfume can be extracted. To WEEZING, gases emanating from garbage are the ultimate feast.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "self-destruct",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 9
+          },
+          {
+            "move": "self-destruct",
+            "level": 17
+          },
+          {
+            "move": "sludge",
+            "level": 21
+          },
+          {
+            "move": "smokescreen",
+            "level": 25
+          },
+          {
+            "move": "haze",
+            "level": 33
+          },
+          {
+            "move": "explosion",
+            "level": 44
+          },
+          {
+            "move": "destiny-bond",
+            "level": 51
+          },
+          {
+            "move": "memento",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sludge-bomb",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "endure",
+          "explosion",
+          "mimic",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 227",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Stark Mountain",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Stark Mountain Entrance",
+            "method": "Walk",
+            "minLevel": 56,
+            "maxLevel": 56
+          },
+          {
+            "location": "Stark Mountain Inside",
+            "method": "Walk",
+            "minLevel": 58,
+            "maxLevel": 58
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 6
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 19
+          },
+          {
+            "move": "sludge",
+            "level": 24
+          },
+          {
+            "move": "haze",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 33
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 48
+          },
+          {
+            "move": "destiny-bond",
+            "level": 55
+          },
+          {
+            "move": "memento",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 227",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          },
+          {
+            "location": "Stark Mountain",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          },
+          {
+            "location": "Stark Mountain Entrance",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 53
+          },
+          {
+            "location": "Stark Mountain Inside",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 54
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 6
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 19
+          },
+          {
+            "move": "sludge",
+            "level": 24
+          },
+          {
+            "move": "haze",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 33
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 48
+          },
+          {
+            "move": "destiny-bond",
+            "level": 55
+          },
+          {
+            "move": "memento",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "rollout",
+          "snore",
+          "spite",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "116",
+      "flavorText": "Top-grade perfume is made using its internal poison gases by diluting them to the highest level.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 6
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "self-destruct",
+            "level": 19
+          },
+          {
+            "move": "sludge",
+            "level": 24
+          },
+          {
+            "move": "haze",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 33
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 48
+          },
+          {
+            "move": "destiny-bond",
+            "level": 55
+          },
+          {
+            "move": "memento",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "pain-split",
+          "rollout",
+          "snore",
+          "spite",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 6
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "clear-smog",
+            "level": 19
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "sludge",
+            "level": 28
+          },
+          {
+            "move": "haze",
+            "level": 33
+          },
+          {
+            "move": "double-hit",
+            "level": 39
+          },
+          {
+            "move": "explosion",
+            "level": 46
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 52
+          },
+          {
+            "move": "destiny-bond",
+            "level": 59
+          },
+          {
+            "move": "memento",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "47",
+      "flavorText": "Inhaling toxic fumes from trash and mixing them inside its body lets it spread an even fouler stench.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "P2 Laboratory",
+            "method": "Walk",
+            "minLevel": 57,
+            "maxLevel": 58
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 7
+          },
+          {
+            "move": "assurance",
+            "level": 12
+          },
+          {
+            "move": "clear-smog",
+            "level": 15
+          },
+          {
+            "move": "sludge",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 23
+          },
+          {
+            "move": "haze",
+            "level": 26
+          },
+          {
+            "move": "double-hit",
+            "level": 29
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "destiny-bond",
+            "level": 46
+          },
+          {
+            "move": "memento",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "dark-pulse",
+          "pain-split",
+          "sleep-talk",
+          "snore",
+          "spite",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 7
+          },
+          {
+            "move": "assurance",
+            "level": 12
+          },
+          {
+            "move": "clear-smog",
+            "level": 15
+          },
+          {
+            "move": "sludge",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 23
+          },
+          {
+            "move": "haze",
+            "level": 26
+          },
+          {
+            "move": "double-hit",
+            "level": 29
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "destiny-bond",
+            "level": 46
+          },
+          {
+            "move": "belch",
+            "level": 50
+          },
+          {
+            "move": "memento",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "incinerate",
+          "infestation",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "114",
+      "flavorText": "Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The Pokémon also becomes more putrid.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 7
+          },
+          {
+            "move": "assurance",
+            "level": 12
+          },
+          {
+            "move": "clear-smog",
+            "level": 15
+          },
+          {
+            "move": "sludge",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 23
+          },
+          {
+            "move": "haze",
+            "level": 26
+          },
+          {
+            "move": "double-hit",
+            "level": 29
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "destiny-bond",
+            "level": 46
+          },
+          {
+            "move": "belch",
+            "level": 51
+          },
+          {
+            "move": "memento",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "incinerate",
+          "infestation",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "pain-split",
+          "shock-wave",
+          "snore",
+          "spite",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "double-hit",
+            "level": 0
+          },
+          {
+            "move": "double-hit",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 7
+          },
+          {
+            "move": "assurance",
+            "level": 12
+          },
+          {
+            "move": "clear-smog",
+            "level": 15
+          },
+          {
+            "move": "sludge",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 23
+          },
+          {
+            "move": "haze",
+            "level": 26
+          },
+          {
+            "move": "gyro-ball",
+            "level": 29
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "destiny-bond",
+            "level": 46
+          },
+          {
+            "move": "belch",
+            "level": 51
+          },
+          {
+            "move": "memento",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/110.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/110.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "double-hit",
+            "level": 0
+          },
+          {
+            "move": "double-hit",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 7
+          },
+          {
+            "move": "assurance",
+            "level": 12
+          },
+          {
+            "move": "clear-smog",
+            "level": 15
+          },
+          {
+            "move": "sludge",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 23
+          },
+          {
+            "move": "haze",
+            "level": 26
+          },
+          {
+            "move": "gyro-ball",
+            "level": 29
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 34
+          },
+          {
+            "move": "explosion",
+            "level": 40
+          },
+          {
+            "move": "destiny-bond",
+            "level": 46
+          },
+          {
+            "move": "belch",
+            "level": 51
+          },
+          {
+            "move": "memento",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "pain-split",
+          "shock-wave",
+          "snore",
+          "spite",
+          "uproar"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "110",
+      "flavorText": "This Pokémon lives and grows by absorbing poison gas, dust, and germs that exist inside garbage.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "clear-smog",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 6
+          },
+          {
+            "move": "clear-smog",
+            "level": 12
+          },
+          {
+            "move": "sludge",
+            "level": 18
+          },
+          {
+            "move": "self-destruct",
+            "level": 24
+          },
+          {
+            "move": "toxic",
+            "level": 30
+          },
+          {
+            "move": "haze",
+            "level": 40
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 50
+          },
+          {
+            "move": "explosion",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "dark-pulse",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "headbutt",
+          "hyper-beam",
+          "protect",
+          "rest",
+          "self-destruct",
+          "shadow-ball",
+          "sludge-bomb",
+          "substitute",
+          "taunt",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "251",
+      "flavorText": "It can’t suck in air quite as well as a Galarian Weezing, but the toxins it creates are more potent than those of its counterpart.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "double-hit",
+            "level": 0
+          },
+          {
+            "move": "double-hit",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "clear-smog",
+            "level": 12
+          },
+          {
+            "move": "assurance",
+            "level": 16
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "haze",
+            "level": 24
+          },
+          {
+            "move": "self-destruct",
+            "level": 28
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 38
+          },
+          {
+            "move": "belch",
+            "level": 44
+          },
+          {
+            "move": "explosion",
+            "level": 50
+          },
+          {
+            "move": "memento",
+            "level": 56
+          },
+          {
+            "move": "destiny-bond",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "dark-pulse",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "giga-impact",
+          "gyro-ball",
+          "heat-wave",
+          "hyper-beam",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "screech",
+          "self-destruct",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic-spikes",
+          "uproar",
+          "venom-drench",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "corrosive-gas"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "110",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/110.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 227 (Sinnoh), Stark Mountain (Kantonian Form) | Grand Underground - Swampy Cave, Bogsunk Cavern (After obtaining the National Pokédex) (Kantonian Form) | Unobtainable (Galarian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "double-hit",
+            "level": 0
+          },
+          {
+            "move": "double-hit",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "clear-smog",
+            "level": 12
+          },
+          {
+            "move": "assurance",
+            "level": 16
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "haze",
+            "level": 24
+          },
+          {
+            "move": "self-destruct",
+            "level": 28
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 38
+          },
+          {
+            "move": "belch",
+            "level": 44
+          },
+          {
+            "move": "explosion",
+            "level": 50
+          },
+          {
+            "move": "memento",
+            "level": 56
+          },
+          {
+            "move": "destiny-bond",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "attract",
+          "dark-pulse",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "giga-impact",
+          "gyro-ball",
+          "hyper-beam",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K136",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/110.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve (Kantonian Form) | Evolve in via (Galarian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "double-hit",
+            "level": 0
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "clear-smog",
+            "level": 12
+          },
+          {
+            "move": "assurance",
+            "level": 16
+          },
+          {
+            "move": "sludge",
+            "level": 20
+          },
+          {
+            "move": "haze",
+            "level": 24
+          },
+          {
+            "move": "self-destruct",
+            "level": 28
+          },
+          {
+            "move": "sludge-bomb",
+            "level": 32
+          },
+          {
+            "move": "toxic",
+            "level": 38
+          },
+          {
+            "move": "belch",
+            "level": 44
+          },
+          {
+            "move": "explosion",
+            "level": 50
+          },
+          {
+            "move": "memento",
+            "level": 56
+          },
+          {
+            "move": "destiny-bond",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "body-slam",
+          "curse",
+          "dark-pulse",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "giga-impact",
+          "gunk-shot",
+          "gyro-ball",
+          "haze",
+          "heat-wave",
+          "hyper-beam",
+          "pain-split",
+          "protect",
+          "psybeam",
+          "rain-dance",
+          "rest",
+          "scary-face",
+          "shadow-ball",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "toxic-spikes",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

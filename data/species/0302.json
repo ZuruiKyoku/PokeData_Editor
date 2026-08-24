@@ -1,0 +1,2388 @@
+{
+  "dex": 302,
+  "keyword": "sableye",
+  "name": "Sableye",
+  "japaneseName": {
+    "kana": "ヤミラミ",
+    "romaji": "Yamirami"
+  },
+  "type1": "Dark",
+  "type2": "Ghost",
+  "genus": "Darkness Pokémon",
+  "heightM": 0.5,
+  "weightKg": 11.0,
+  "stats": {
+    "hp": 50,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 65,
+    "specialDefense": 65,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "stall",
+      "hidden": false,
+      "effect": "Makes the Pokémon move last within its move's priority bracket."
+    },
+    {
+      "name": "prankster",
+      "hidden": true,
+      "effect": "Raises non-damaging moves' priority by one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "humanshape"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 25,
+    "captureRate": 45,
+    "baseFriendship": 35,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "humanoid",
+    "habitat": "cave",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0302.png",
+    "shiny": "sprites/shiny/0302.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/302.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/302.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "68",
+      "flavorText": "It digs branching holes in caves using its sharp claws in search of food--raw gems. A SABLEYE lurks in darkness and is seen only rarely.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cave Of Origin 1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 34
+          },
+          {
+            "location": "Cave Of Origin B1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 34
+          },
+          {
+            "location": "Cave Of Origin B2f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 34
+          },
+          {
+            "location": "Cave Of Origin B3f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 34
+          },
+          {
+            "location": "Granite Cave B1f",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 11
+          },
+          {
+            "location": "Granite Cave B2f",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Sky Pillar 1f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sky Pillar 3f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 53
+          },
+          {
+            "location": "Sky Pillar 5f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 56
+          },
+          {
+            "location": "Victory Road B2f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 5
+          },
+          {
+            "move": "night-shade",
+            "level": 9
+          },
+          {
+            "move": "astonish",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 17
+          },
+          {
+            "move": "fake-out",
+            "level": 21
+          },
+          {
+            "move": "detect",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 29
+          },
+          {
+            "move": "knock-off",
+            "level": 33
+          },
+          {
+            "move": "confuse-ray",
+            "level": 37
+          },
+          {
+            "move": "shadow-ball",
+            "level": 41
+          },
+          {
+            "move": "mean-look",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "moonlight",
+          "psych-up",
+          "recover"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Iron Island B1f Left",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B1f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B2f Left",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 34
+          },
+          {
+            "location": "Iron Island B2f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Iron Island B3f",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 8
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "fake-out",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 25
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "feint-attack",
+            "level": 32
+          },
+          {
+            "move": "punishment",
+            "level": 36
+          },
+          {
+            "move": "shadow-claw",
+            "level": 39
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 46
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 50
+          },
+          {
+            "move": "shadow-ball",
+            "level": 53
+          },
+          {
+            "move": "mean-look",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "flatter",
+          "moonlight",
+          "nasty-plot",
+          "psych-up",
+          "recover"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Iron Island B1f Left",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 31
+          },
+          {
+            "location": "Iron Island B1f Right",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 31
+          },
+          {
+            "location": "Iron Island B2f Left",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 32
+          },
+          {
+            "location": "Iron Island B2f Right",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 32
+          },
+          {
+            "location": "Iron Island B3f",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 8
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "fake-out",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 25
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "feint-attack",
+            "level": 32
+          },
+          {
+            "move": "punishment",
+            "level": 36
+          },
+          {
+            "move": "shadow-claw",
+            "level": 39
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 46
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 50
+          },
+          {
+            "move": "shadow-ball",
+            "level": 53
+          },
+          {
+            "move": "mean-look",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "flatter",
+          "moonlight",
+          "nasty-plot",
+          "psych-up",
+          "recover"
+        ],
+        "tutor": [
+          "fire-punch",
+          "fury-cutter",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "mud-slap",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "spite",
+          "sucker-punch",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 8
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "fake-out",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 25
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "feint-attack",
+            "level": 32
+          },
+          {
+            "move": "punishment",
+            "level": 36
+          },
+          {
+            "move": "shadow-claw",
+            "level": 39
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 46
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 50
+          },
+          {
+            "move": "shadow-ball",
+            "level": 53
+          },
+          {
+            "move": "mean-look",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "feint",
+          "flatter",
+          "moonlight",
+          "nasty-plot",
+          "psych-up",
+          "recover"
+        ],
+        "tutor": [
+          "fire-punch",
+          "fury-cutter",
+          "gravity",
+          "headbutt",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "low-kick",
+          "magic-coat",
+          "mud-slap",
+          "ominous-wind",
+          "pain-split",
+          "role-play",
+          "signal-beam",
+          "snore",
+          "spite",
+          "sucker-punch",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Challengers Cave 1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Challengers Cave B1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Challengers Cave B2f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 8
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "fake-out",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 25
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "feint-attack",
+            "level": 32
+          },
+          {
+            "move": "punishment",
+            "level": 36
+          },
+          {
+            "move": "shadow-claw",
+            "level": 39
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 46
+          },
+          {
+            "move": "foul-play",
+            "level": 50
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 53
+          },
+          {
+            "move": "shadow-ball",
+            "level": 57
+          },
+          {
+            "move": "mean-look",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "feint",
+          "flatter",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "nasty-plot",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 8
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "fake-out",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 25
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "feint-attack",
+            "level": 32
+          },
+          {
+            "move": "punishment",
+            "level": 36
+          },
+          {
+            "move": "shadow-claw",
+            "level": 39
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 46
+          },
+          {
+            "move": "foul-play",
+            "level": 50
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 53
+          },
+          {
+            "move": "shadow-ball",
+            "level": 57
+          },
+          {
+            "move": "mean-look",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "feint",
+          "flatter",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "nasty-plot",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": [
+          "dark-pulse",
+          "fire-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "low-kick",
+          "magic-coat",
+          "role-play",
+          "signal-beam",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "spite",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C123",
+      "flavorText": "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Reflection Cave Unknown Area 305",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 23
+          },
+          {
+            "location": "Reflection Cave Unknown Area 306",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 23
+          },
+          {
+            "location": "Reflection Cave Unknown Area 307",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 23
+          },
+          {
+            "location": "Reflection Cave Unknown Area 308",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "mean-look",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 8
+          },
+          {
+            "move": "astonish",
+            "level": 11
+          },
+          {
+            "move": "fury-swipes",
+            "level": 15
+          },
+          {
+            "move": "fake-out",
+            "level": 18
+          },
+          {
+            "move": "detect",
+            "level": 22
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 25
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "feint-attack",
+            "level": 32
+          },
+          {
+            "move": "punishment",
+            "level": 36
+          },
+          {
+            "move": "shadow-claw",
+            "level": 39
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "confuse-ray",
+            "level": 46
+          },
+          {
+            "move": "foul-play",
+            "level": 50
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 53
+          },
+          {
+            "move": "shadow-ball",
+            "level": 57
+          },
+          {
+            "move": "mean-look",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "feint",
+          "flatter",
+          "imprison",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "nasty-plot",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "70",
+      "flavorText": "Sableye digs the ground with sharpened claws to find rocks that it eats. Substances in the eaten rocks crystallize and rise up to the Pokémon’s body surface.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 11
+          },
+          {
+            "move": "detect",
+            "level": 14
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 16
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "fake-out",
+            "level": 21
+          },
+          {
+            "move": "punishment",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 26
+          },
+          {
+            "move": "shadow-claw",
+            "level": 29
+          },
+          {
+            "move": "confuse-ray",
+            "level": 31
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 34
+          },
+          {
+            "move": "power-gem",
+            "level": 36
+          },
+          {
+            "move": "shadow-ball",
+            "level": 39
+          },
+          {
+            "move": "foul-play",
+            "level": 41
+          },
+          {
+            "move": "quash",
+            "level": 44
+          },
+          {
+            "move": "mean-look",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "incinerate",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "feint",
+          "flatter",
+          "imprison",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "nasty-plot",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": [
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "low-kick",
+          "magic-coat",
+          "pain-split",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "snatch",
+          "snore",
+          "spite",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "102",
+      "flavorText": "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it’s believed that Sableye will steal people’s spirits away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ten Carat Hill Inside",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Vast Poni Canyon Inside",
+            "method": "Sos Encounter",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Vast Poni Canyon Northwest",
+            "method": "Sos Encounter",
+            "minLevel": 41,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 11
+          },
+          {
+            "move": "detect",
+            "level": 14
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 16
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "fake-out",
+            "level": 21
+          },
+          {
+            "move": "punishment",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 26
+          },
+          {
+            "move": "shadow-claw",
+            "level": 29
+          },
+          {
+            "move": "confuse-ray",
+            "level": 31
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 34
+          },
+          {
+            "move": "power-gem",
+            "level": 36
+          },
+          {
+            "move": "shadow-ball",
+            "level": 39
+          },
+          {
+            "move": "foul-play",
+            "level": 41
+          },
+          {
+            "move": "quash",
+            "level": 44
+          },
+          {
+            "move": "mean-look",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "feint",
+          "flatter",
+          "imprison",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "nasty-plot",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "124",
+      "flavorText": "Materials from gems it has eaten float to the surface of its body and can form an infinite number of patterns among individuals.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/302.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/302.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ten Carat Hill Inside",
+            "method": "Sos Encounter",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Vast Poni Canyon Inside",
+            "method": "Sos Encounter",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Vast Poni Canyon Northwest",
+            "method": "Sos Encounter",
+            "minLevel": 42,
+            "maxLevel": 45
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "night-shade",
+            "level": 6
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "fury-swipes",
+            "level": 11
+          },
+          {
+            "move": "detect",
+            "level": 14
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 16
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "fake-out",
+            "level": 21
+          },
+          {
+            "move": "punishment",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 26
+          },
+          {
+            "move": "shadow-claw",
+            "level": 29
+          },
+          {
+            "move": "confuse-ray",
+            "level": 31
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 34
+          },
+          {
+            "move": "power-gem",
+            "level": 36
+          },
+          {
+            "move": "shadow-ball",
+            "level": 39
+          },
+          {
+            "move": "foul-play",
+            "level": 41
+          },
+          {
+            "move": "quash",
+            "level": 44
+          },
+          {
+            "move": "mean-look",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "feint",
+          "flatter",
+          "imprison",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "nasty-plot",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": [
+          "ally-switch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "low-kick",
+          "magic-coat",
+          "pain-split",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "snatch",
+          "snore",
+          "spite",
+          "telekinesis",
+          "thunder-punch",
+          "trick",
+          "water-pulse",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "294",
+      "flavorText": "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 3
+          },
+          {
+            "move": "confuse-ray",
+            "level": 6
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 9
+          },
+          {
+            "move": "fake-out",
+            "level": 12
+          },
+          {
+            "move": "disable",
+            "level": 15
+          },
+          {
+            "move": "detect",
+            "level": 18
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "fury-swipes",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "quash",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "mean-look",
+            "level": 36
+          },
+          {
+            "move": "power-gem",
+            "level": 39
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 42
+          },
+          {
+            "move": "shadow-ball",
+            "level": 45
+          },
+          {
+            "move": "foul-play",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "body-slam",
+          "brick-break",
+          "calm-mind",
+          "dark-pulse",
+          "dazzling-gleam",
+          "dig",
+          "drain-punch",
+          "encore",
+          "endure",
+          "facade",
+          "fire-punch",
+          "fling",
+          "foul-play",
+          "gyro-ball",
+          "helping-hand",
+          "hex",
+          "ice-punch",
+          "icy-wind",
+          "imprison",
+          "low-kick",
+          "low-sweep",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "nasty-plot",
+          "payback",
+          "poison-jab",
+          "power-gem",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "rock-tomb",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder-punch",
+          "trick",
+          "will-o-wisp",
+          "wonder-room",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "feint",
+          "flatter",
+          "metal-burst",
+          "recover",
+          "sucker-punch",
+          "torment"
+        ],
+        "tutor": [
+          "lash-out",
+          "poltergeist"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "302",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/302.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Dazzling Cave, Stargleam Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 3
+          },
+          {
+            "move": "confuse-ray",
+            "level": 6
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 9
+          },
+          {
+            "move": "fake-out",
+            "level": 12
+          },
+          {
+            "move": "disable",
+            "level": 15
+          },
+          {
+            "move": "detect",
+            "level": 18
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "fury-swipes",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "quash",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "mean-look",
+            "level": 36
+          },
+          {
+            "move": "power-gem",
+            "level": 39
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 42
+          },
+          {
+            "move": "shadow-ball",
+            "level": 45
+          },
+          {
+            "move": "foul-play",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dark-pulse",
+          "dazzling-gleam",
+          "dig",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "gyro-ball",
+          "low-sweep",
+          "nasty-plot",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "rock-tomb",
+          "shadow-ball",
+          "shadow-claw",
+          "shock-wave",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "water-pulse",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "feint",
+          "flatter",
+          "imprison",
+          "mean-look",
+          "metal-burst",
+          "moonlight",
+          "recover",
+          "sucker-punch",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P297",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/302.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Six, Alfornada Cavern | East Province: Area Three | West Province: Area One, Area Two | North Province: Area One, Dalizapa Passage | Area Zero | Tera Raid Battles (3★ Sableye, 5★ Sableye)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 3
+          },
+          {
+            "move": "shadow-sneak",
+            "level": 9
+          },
+          {
+            "move": "fake-out",
+            "level": 12
+          },
+          {
+            "move": "disable",
+            "level": 15
+          },
+          {
+            "move": "detect",
+            "level": 18
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "fury-swipes",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "quash",
+            "level": 30
+          },
+          {
+            "move": "shadow-claw",
+            "level": 33
+          },
+          {
+            "move": "mean-look",
+            "level": 36
+          },
+          {
+            "move": "power-gem",
+            "level": 39
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 42
+          },
+          {
+            "move": "shadow-ball",
+            "level": 45
+          },
+          {
+            "move": "foul-play",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "calm-mind",
+          "confuse-ray",
+          "dark-pulse",
+          "dazzling-gleam",
+          "dig",
+          "drain-punch",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-punch",
+          "fling",
+          "focus-punch",
+          "foul-play",
+          "giga-drain",
+          "giga-impact",
+          "gravity",
+          "gyro-ball",
+          "helping-hand",
+          "hex",
+          "hyper-beam",
+          "ice-punch",
+          "icy-wind",
+          "imprison",
+          "knock-off",
+          "lash-out",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "metal-claw",
+          "metronome",
+          "mud-shot",
+          "mud-slap",
+          "nasty-plot",
+          "night-shade",
+          "pain-split",
+          "phantom-force",
+          "poison-jab",
+          "poltergeist",
+          "power-gem",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-tomb",
+          "shadow-ball",
+          "shadow-claw",
+          "skill-swap",
+          "skitter-smack",
+          "sleep-talk",
+          "snarl",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder-punch",
+          "thunder-wave",
+          "trick",
+          "will-o-wisp",
+          "x-scissor",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "feint",
+          "flatter",
+          "metal-burst",
+          "recover",
+          "sucker-punch",
+          "torment"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "132",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Magenta District: Wild Zone 9 | Rouge District: Wild Zone 4 (only one, during Side Mission 003) | Centrico Plaza: Wild Zone 20",
+          "Hyperspace Lumiose (1★ Dark-type & Ghost-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

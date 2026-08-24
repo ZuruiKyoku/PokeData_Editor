@@ -1,0 +1,1402 @@
+{
+  "dex": 285,
+  "keyword": "shroomish",
+  "name": "Shroomish",
+  "japaneseName": {
+    "kana": "キノココ",
+    "romaji": "Kinococo"
+  },
+  "type1": "Grass",
+  "type2": null,
+  "genus": "Mushroom Pokémon",
+  "heightM": 0.4,
+  "weightKg": 4.5,
+  "stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 60,
+    "speed": 35
+  },
+  "abilities": [
+    {
+      "name": "effect-spore",
+      "hidden": false,
+      "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+    },
+    {
+      "name": "poison-heal",
+      "hidden": false,
+      "effect": "Heals for 1/8 max HP after each turn when poisoned in place of damage."
+    },
+    {
+      "name": "quick-feet",
+      "hidden": true,
+      "effect": "Increases Speed to 1.5× with a major status ailment."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy",
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "fast-then-very-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "legs",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      286
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0285.png",
+    "shiny": "sprites/shiny/0285.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/285.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/285.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "34",
+      "flavorText": "It loves to eat damp, composted soil in forests. If you enter a forest after a long rain, you can see many SHROOMISH feasting on composted soil.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Petalburg Woods",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 16
+          },
+          {
+            "move": "headbutt",
+            "level": 22
+          },
+          {
+            "move": "poison-powder",
+            "level": 28
+          },
+          {
+            "move": "growth",
+            "level": 36
+          },
+          {
+            "move": "giga-drain",
+            "level": 45
+          },
+          {
+            "move": "spore",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sludge-bomb",
+          "snatch",
+          "solar-beam",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "fake-tears",
+          "false-swipe",
+          "helping-hand",
+          "swagger"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stun-spore",
+            "level": 9
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "poison-powder",
+            "level": 25
+          },
+          {
+            "move": "worry-seed",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "seed-bomb",
+            "level": 41
+          },
+          {
+            "move": "spore",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "fake-tears",
+          "false-swipe",
+          "helping-hand",
+          "seed-bomb",
+          "swagger",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stun-spore",
+            "level": 9
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "poison-powder",
+            "level": 25
+          },
+          {
+            "move": "worry-seed",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "seed-bomb",
+            "level": 41
+          },
+          {
+            "move": "spore",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "fake-tears",
+          "false-swipe",
+          "helping-hand",
+          "seed-bomb",
+          "swagger",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": [
+          "helping-hand",
+          "seed-bomb",
+          "snore",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "If it senses danger, it scatters spores from the top of its head to protect itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stun-spore",
+            "level": 9
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "poison-powder",
+            "level": 25
+          },
+          {
+            "move": "worry-seed",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "seed-bomb",
+            "level": 41
+          },
+          {
+            "move": "spore",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "snatch",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "fake-tears",
+          "false-swipe",
+          "helping-hand",
+          "seed-bomb",
+          "swagger",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": [
+          "headbutt",
+          "helping-hand",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stun-spore",
+            "level": 9
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "poison-powder",
+            "level": 25
+          },
+          {
+            "move": "worry-seed",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "seed-bomb",
+            "level": 41
+          },
+          {
+            "move": "spore",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "fake-tears",
+          "focus-punch",
+          "helping-hand",
+          "natural-gift",
+          "seed-bomb",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stun-spore",
+            "level": 9
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "poison-powder",
+            "level": 25
+          },
+          {
+            "move": "worry-seed",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "seed-bomb",
+            "level": 41
+          },
+          {
+            "move": "spore",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "fake-tears",
+          "focus-punch",
+          "helping-hand",
+          "natural-gift",
+          "seed-bomb",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": [
+          "drain-punch",
+          "giga-drain",
+          "helping-hand",
+          "seed-bomb",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stun-spore",
+            "level": 9
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "mega-drain",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "poison-powder",
+            "level": 25
+          },
+          {
+            "move": "worry-seed",
+            "level": 29
+          },
+          {
+            "move": "growth",
+            "level": 33
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "seed-bomb",
+            "level": 41
+          },
+          {
+            "move": "spore",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "fake-tears",
+          "focus-punch",
+          "helping-hand",
+          "natural-gift",
+          "seed-bomb",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "35",
+      "flavorText": "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokémon’s spores are so toxic, they make trees and weeds wilt.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 19
+          },
+          {
+            "move": "worry-seed",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 26
+          },
+          {
+            "move": "growth",
+            "level": 29
+          },
+          {
+            "move": "toxic",
+            "level": 33
+          },
+          {
+            "move": "seed-bomb",
+            "level": 36
+          },
+          {
+            "move": "spore",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "fake-tears",
+          "focus-punch",
+          "helping-hand",
+          "natural-gift",
+          "seed-bomb",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": [
+          "drain-punch",
+          "focus-punch",
+          "giga-drain",
+          "helping-hand",
+          "seed-bomb",
+          "snatch",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 19
+          },
+          {
+            "move": "worry-seed",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 26
+          },
+          {
+            "move": "growth",
+            "level": 29
+          },
+          {
+            "move": "toxic",
+            "level": 33
+          },
+          {
+            "move": "seed-bomb",
+            "level": 36
+          },
+          {
+            "move": "spore",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "fake-tears",
+          "focus-punch",
+          "helping-hand",
+          "natural-gift",
+          "seed-bomb",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/285.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/285.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 19
+          },
+          {
+            "move": "worry-seed",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 26
+          },
+          {
+            "move": "growth",
+            "level": 29
+          },
+          {
+            "move": "toxic",
+            "level": 33
+          },
+          {
+            "move": "seed-bomb",
+            "level": 36
+          },
+          {
+            "move": "spore",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "fake-tears",
+          "focus-punch",
+          "helping-hand",
+          "natural-gift",
+          "seed-bomb",
+          "wake-up-slap",
+          "worry-seed"
+        ],
+        "tutor": [
+          "drain-punch",
+          "focus-punch",
+          "giga-drain",
+          "helping-hand",
+          "seed-bomb",
+          "snatch",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "285",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/285.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Great Marsh (after obtaining National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 19
+          },
+          {
+            "move": "worry-seed",
+            "level": 22
+          },
+          {
+            "move": "giga-drain",
+            "level": 26
+          },
+          {
+            "move": "growth",
+            "level": 29
+          },
+          {
+            "move": "toxic",
+            "level": 33
+          },
+          {
+            "move": "seed-bomb",
+            "level": 36
+          },
+          {
+            "move": "spore",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "false-swipe",
+          "flash",
+          "giga-drain",
+          "grass-knot",
+          "protect",
+          "rest",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "fake-tears",
+          "helping-hand",
+          "seed-bomb",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P106",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/285.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Five | West Province: Area Three | Tera Raid Battles (1★ Shroomish)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 19
+          },
+          {
+            "move": "giga-drain",
+            "level": 26
+          },
+          {
+            "move": "growth",
+            "level": 29
+          },
+          {
+            "move": "toxic",
+            "level": 33
+          },
+          {
+            "move": "seed-bomb",
+            "level": 36
+          },
+          {
+            "move": "spore",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "bullet-seed",
+          "charm",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "false-swipe",
+          "giga-drain",
+          "grass-knot",
+          "grassy-terrain",
+          "gunk-shot",
+          "helping-hand",
+          "magical-leaf",
+          "pounce",
+          "protect",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "toxic",
+          "venoshock",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "charm",
+          "fake-tears",
+          "helping-hand",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

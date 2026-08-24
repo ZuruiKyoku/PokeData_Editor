@@ -1,0 +1,2340 @@
+{
+  "dex": 120,
+  "keyword": "staryu",
+  "name": "Staryu",
+  "japaneseName": {
+    "kana": "ヒトデマン",
+    "romaji": "Hitodeman"
+  },
+  "type1": "Water",
+  "type2": null,
+  "genus": "Star Shape Pokémon",
+  "heightM": 0.8,
+  "weightKg": 34.5,
+  "stats": {
+    "hp": 30,
+    "attack": 45,
+    "defense": 55,
+    "specialAttack": 70,
+    "specialDefense": 55,
+    "speed": 85
+  },
+  "abilities": [
+    {
+      "name": "illuminate",
+      "hidden": false,
+      "effect": "Doubles the wild encounter rate."
+    },
+    {
+      "name": "natural-cure",
+      "hidden": false,
+      "effect": "Cures any major status ailment upon switching out."
+    },
+    {
+      "name": "analytic",
+      "hidden": true,
+      "effect": "Strengthens moves to 1.3× their power when moving last."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water3"
+    ],
+    "genderRateEighthsFemale": -1,
+    "hatchCycles": 20,
+    "captureRate": 225,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "blob",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      121
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0120.png",
+    "shiny": "sprites/shiny/0120.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/120.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/120.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "120",
+      "flavorText": "An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/120.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cinnabar Island",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 25
+          },
+          {
+            "location": "Five Island",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Icefall Cave Waterfall",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "One Island",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Pallet Town",
+            "method": "Super Rod",
+            "minLevel": 5,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sea Route 19",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 20
+          },
+          {
+            "location": "Sea Route 20",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 30
+          },
+          {
+            "location": "Sea Route 21",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 20
+          },
+          {
+            "location": "Seafoam Islands 1f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Seafoam Islands B1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 32
+          },
+          {
+            "location": "Seafoam Islands B2f",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Seafoam Islands B3f",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 40
+          },
+          {
+            "location": "Seafoam Islands B3f",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Seafoam Islands B3f",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 31
+          },
+          {
+            "location": "Seafoam Islands B4f",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 40
+          },
+          {
+            "location": "Seafoam Islands B4f",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Seafoam Islands B4f",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 33
+          },
+          {
+            "location": "Ss Anne",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Vermilion City",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Vermilion City Ss Anne Dock",
+            "method": "Super Rod",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 15
+          },
+          {
+            "move": "water-gun",
+            "level": 17
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "harden",
+            "level": 22
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "recover",
+            "level": 27
+          },
+          {
+            "move": "bubble-beam",
+            "level": 28
+          },
+          {
+            "move": "swift",
+            "level": 32
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "light-screen",
+            "level": 37
+          },
+          {
+            "move": "minimize",
+            "level": 37
+          },
+          {
+            "move": "cosmic-power",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 46
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "bide",
+          "blizzard",
+          "bubble-beam",
+          "dive",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skull-bash",
+          "substitute",
+          "surf",
+          "swift",
+          "take-down",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack",
+          "water-gun",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "167",
+      "flavorText": "When the stars twinkle at night, it floats up from the sea floor, and its body's center core flickers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cherrygrove City",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Cherrygrove City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Cianwood City",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Cianwood City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Olivine City",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Olivine City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 34",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 34",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Sea Route 19",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Sea Route 19",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Sea Route 40",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Sea Route 40",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 7
+          },
+          {
+            "move": "rapid-spin",
+            "level": 13
+          },
+          {
+            "move": "recover",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 25
+          },
+          {
+            "move": "bubble-beam",
+            "level": 31
+          },
+          {
+            "move": "minimize",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 43
+          },
+          {
+            "move": "hydro-pump",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "icy-wind",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "thunder",
+          "toxic",
+          "waterfall",
+          "whirlpool",
+          "zap-cannon"
+        ],
+        "egg": [
+          "aurora-beam",
+          "barrier",
+          "supersonic"
+        ],
+        "tutor": [
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "143",
+      "flavorText": "It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lilycove City",
+            "method": "Super Rod",
+            "minLevel": 25,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "bubble-beam",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "light-screen",
+            "level": 37
+          },
+          {
+            "move": "cosmic-power",
+            "level": 42
+          },
+          {
+            "move": "hydro-pump",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Canalave City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 40
+          },
+          {
+            "location": "Sunyshore City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "bubble-beam",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 42
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "cosmic-power",
+            "level": 51
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Canalave City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sunyshore City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "bubble-beam",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 42
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "cosmic-power",
+            "level": 51
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "swift",
+          "twister"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "169",
+      "flavorText": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cherrygrove City",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Cherrygrove City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Cianwood City",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Cianwood City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Olivine City",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Olivine City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 34",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 34",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 47",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Sea Route 19",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Sea Route 19",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Sea Route 40",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Sea Route 40",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Union Cave B2f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "bubble-beam",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 42
+          },
+          {
+            "move": "power-gem",
+            "level": 46
+          },
+          {
+            "move": "cosmic-power",
+            "level": 51
+          },
+          {
+            "move": "hydro-pump",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "dive",
+          "gravity",
+          "icy-wind",
+          "magic-coat",
+          "pain-split",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "swift",
+          "twister"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 13",
+            "method": "Surf Spots",
+            "minLevel": 25,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 15
+          },
+          {
+            "move": "camouflage",
+            "level": 19
+          },
+          {
+            "move": "swift",
+            "level": 24
+          },
+          {
+            "move": "bubble-beam",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 33
+          },
+          {
+            "move": "gyro-ball",
+            "level": 37
+          },
+          {
+            "move": "light-screen",
+            "level": 42
+          },
+          {
+            "move": "reflect-type",
+            "level": 46
+          },
+          {
+            "move": "power-gem",
+            "level": 51
+          },
+          {
+            "move": "cosmic-power",
+            "level": 55
+          },
+          {
+            "move": "hydro-pump",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "238",
+      "flavorText": "As long as its red core remains, it can regenerate its body instantly, even if it’s torn apart.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Humilau City",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 45
+          },
+          {
+            "location": "Route 13",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 13",
+            "method": "Surf Spots",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Undella Town",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Undella Town",
+            "method": "Surf Spots",
+            "minLevel": 25,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 12
+          },
+          {
+            "move": "camouflage",
+            "level": 15
+          },
+          {
+            "move": "swift",
+            "level": 18
+          },
+          {
+            "move": "bubble-beam",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "gyro-ball",
+            "level": 30
+          },
+          {
+            "move": "light-screen",
+            "level": 33
+          },
+          {
+            "move": "brine",
+            "level": 36
+          },
+          {
+            "move": "reflect-type",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "cosmic-power",
+            "level": 48
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "gravity",
+          "icy-wind",
+          "magic-coat",
+          "pain-split",
+          "recycle",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C34",
+      "flavorText": "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 6
+          },
+          {
+            "move": "rapid-spin",
+            "level": 10
+          },
+          {
+            "move": "recover",
+            "level": 12
+          },
+          {
+            "move": "camouflage",
+            "level": 15
+          },
+          {
+            "move": "swift",
+            "level": 18
+          },
+          {
+            "move": "bubble-beam",
+            "level": 22
+          },
+          {
+            "move": "minimize",
+            "level": 25
+          },
+          {
+            "move": "gyro-ball",
+            "level": 30
+          },
+          {
+            "move": "light-screen",
+            "level": 33
+          },
+          {
+            "move": "brine",
+            "level": 36
+          },
+          {
+            "move": "reflect-type",
+            "level": 40
+          },
+          {
+            "move": "power-gem",
+            "level": 43
+          },
+          {
+            "move": "cosmic-power",
+            "level": 48
+          },
+          {
+            "move": "hydro-pump",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "148",
+      "flavorText": "Staryu apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this Pokémon simply regenerates the missing pieces and limbs.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 4
+          },
+          {
+            "move": "rapid-spin",
+            "level": 7
+          },
+          {
+            "move": "recover",
+            "level": 10
+          },
+          {
+            "move": "psywave",
+            "level": 13
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "camouflage",
+            "level": 22
+          },
+          {
+            "move": "gyro-ball",
+            "level": 24
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 31
+          },
+          {
+            "move": "reflect-type",
+            "level": 35
+          },
+          {
+            "move": "power-gem",
+            "level": 37
+          },
+          {
+            "move": "confuse-ray",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "cosmic-power",
+            "level": 49
+          },
+          {
+            "move": "hydro-pump",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "confide",
+          "dazzling-gleam",
+          "dive",
+          "double-team",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "gravity",
+          "icy-wind",
+          "magic-coat",
+          "pain-split",
+          "recycle",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "184",
+      "flavorText": "This Pokémon gets nibbled on by Lumineon and others. Thanks to its red core, it regenerates fast, so it’s unconcerned by their snack attacks.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hano Beach",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          },
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 7",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 4
+          },
+          {
+            "move": "rapid-spin",
+            "level": 7
+          },
+          {
+            "move": "recover",
+            "level": 10
+          },
+          {
+            "move": "psywave",
+            "level": 13
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "camouflage",
+            "level": 22
+          },
+          {
+            "move": "gyro-ball",
+            "level": 24
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 31
+          },
+          {
+            "move": "reflect-type",
+            "level": 35
+          },
+          {
+            "move": "power-gem",
+            "level": 37
+          },
+          {
+            "move": "confuse-ray",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "cosmic-power",
+            "level": 49
+          },
+          {
+            "move": "hydro-pump",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "223",
+      "flavorText": "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/120.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/120.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hano Beach",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 25
+          },
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 7",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 7",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 4
+          },
+          {
+            "move": "rapid-spin",
+            "level": 7
+          },
+          {
+            "move": "recover",
+            "level": 10
+          },
+          {
+            "move": "psywave",
+            "level": 13
+          },
+          {
+            "move": "swift",
+            "level": 16
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "camouflage",
+            "level": 22
+          },
+          {
+            "move": "gyro-ball",
+            "level": 24
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "minimize",
+            "level": 31
+          },
+          {
+            "move": "reflect-type",
+            "level": 35
+          },
+          {
+            "move": "power-gem",
+            "level": 37
+          },
+          {
+            "move": "confuse-ray",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "cosmic-power",
+            "level": 49
+          },
+          {
+            "move": "hydro-pump",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "gravity",
+          "icy-wind",
+          "magic-coat",
+          "pain-split",
+          "recycle",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "120",
+      "flavorText": "As long as the center section is unharmed, this Pokémon can grow back fully even if it is chopped to bits.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "psywave",
+            "level": 4
+          },
+          {
+            "move": "water-gun",
+            "level": 9
+          },
+          {
+            "move": "swift",
+            "level": 13
+          },
+          {
+            "move": "minimize",
+            "level": 18
+          },
+          {
+            "move": "confuse-ray",
+            "level": 22
+          },
+          {
+            "move": "bubble-beam",
+            "level": 27
+          },
+          {
+            "move": "light-screen",
+            "level": 31
+          },
+          {
+            "move": "psychic",
+            "level": 36
+          },
+          {
+            "move": "recover",
+            "level": 40
+          },
+          {
+            "move": "hydro-pump",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "dazzling-gleam",
+          "facade",
+          "flash-cannon",
+          "headbutt",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "scald",
+          "substitute",
+          "surf",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A098",
+      "flavorText": "Fish Pokémon nibble at it, but Staryu isn’t bothered. Its body regenerates quickly, even if part of it is completely torn off.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 8
+          },
+          {
+            "move": "rapid-spin",
+            "level": 12
+          },
+          {
+            "move": "minimize",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "light-screen",
+            "level": 32
+          },
+          {
+            "move": "power-gem",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 40
+          },
+          {
+            "move": "surf",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 48
+          },
+          {
+            "move": "cosmic-power",
+            "level": 52
+          },
+          {
+            "move": "hydro-pump",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brine",
+          "cosmic-power",
+          "dazzling-gleam",
+          "dive",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "gyro-ball",
+          "hail",
+          "hydro-pump",
+          "ice-beam",
+          "icy-wind",
+          "light-screen",
+          "power-gem",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "round",
+          "scald",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "surf",
+          "swift",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "tri-attack",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "flip-turn"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "120",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/120.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Canalave City, Sunyshore City (Super Rod) | Grand Underground - Fountainspring Cave, Icy Cave, Riverbank Cave, Still-Water Cavern, Glacial Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 4
+          },
+          {
+            "move": "confuse-ray",
+            "level": 8
+          },
+          {
+            "move": "rapid-spin",
+            "level": 12
+          },
+          {
+            "move": "minimize",
+            "level": 16
+          },
+          {
+            "move": "swift",
+            "level": 20
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "brine",
+            "level": 28
+          },
+          {
+            "move": "light-screen",
+            "level": 32
+          },
+          {
+            "move": "power-gem",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 40
+          },
+          {
+            "move": "surf",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 48
+          },
+          {
+            "move": "cosmic-power",
+            "level": 52
+          },
+          {
+            "move": "hydro-pump",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brine",
+          "dazzling-gleam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "gyro-ball",
+          "hail",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "36",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Wild Zone 2 | Bleu District: Bleu Sector 9, Wild Zone 10",
+          "Hyperspace Lumiose (2★ & 4★ Water-type wild zones, 4★ Psychic-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

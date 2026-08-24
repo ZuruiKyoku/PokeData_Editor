@@ -1,0 +1,803 @@
+{
+  "dex": 540,
+  "keyword": "sewaddle",
+  "name": "Sewaddle",
+  "japaneseName": {
+    "kana": "クルミル",
+    "romaji": "Kurumiru"
+  },
+  "type1": "Bug",
+  "type2": "Grass",
+  "genus": "Sewing Pokémon",
+  "heightM": 0.3,
+  "weightKg": 2.5,
+  "stats": {
+    "hp": 45,
+    "attack": 53,
+    "defense": 70,
+    "specialAttack": 40,
+    "specialDefense": 60,
+    "speed": 42
+  },
+  "abilities": [
+    {
+      "name": "swarm",
+      "hidden": false,
+      "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "overcoat",
+      "hidden": true,
+      "effect": "Protects against damage from weather."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "armor",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      541
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0540.png",
+    "shiny": "sprites/shiny/0540.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/540.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/540.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "46",
+      "flavorText": "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/540.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/540.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "air-slash",
+          "baton-pass",
+          "camouflage",
+          "me-first",
+          "mind-reader",
+          "razor-wind",
+          "screech",
+          "silver-wind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "17",
+      "flavorText": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/540.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/540.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Dark Grass",
+            "minLevel": 40,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 38
+          },
+          {
+            "location": "Route 20",
+            "method": "Dark Grass",
+            "minLevel": 10,
+            "maxLevel": 11
+          },
+          {
+            "location": "Route 20",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "air-slash",
+          "baton-pass",
+          "camouflage",
+          "me-first",
+          "mind-reader",
+          "razor-wind",
+          "screech",
+          "silver-wind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "iron-defense",
+          "magic-coat",
+          "seed-bomb",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/540.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/540.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "sticky-web",
+            "level": 31
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "air-slash",
+          "baton-pass",
+          "camouflage",
+          "me-first",
+          "mind-reader",
+          "razor-wind",
+          "screech",
+          "silver-wind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/540.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/540.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "sticky-web",
+            "level": 31
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "air-slash",
+          "baton-pass",
+          "camouflage",
+          "me-first",
+          "mind-reader",
+          "razor-wind",
+          "screech",
+          "silver-wind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "iron-defense",
+          "magic-coat",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/540.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/540.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "sticky-web",
+            "level": 31
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "air-slash",
+          "baton-pass",
+          "camouflage",
+          "me-first",
+          "mind-reader",
+          "razor-wind",
+          "screech",
+          "silver-wind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/540.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/540.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "sticky-web",
+            "level": 31
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "payback",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "air-slash",
+          "baton-pass",
+          "camouflage",
+          "grassy-terrain",
+          "me-first",
+          "mind-reader",
+          "razor-wind",
+          "screech",
+          "silver-wind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "iron-defense",
+          "magic-coat",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K013",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/540.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Apple Hills, Loyalty Plaza, Mossfell Confluence, Wistful Fields | Tera Raid Battles (1★ Sewaddle)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "bug-bite",
+            "level": 8
+          },
+          {
+            "move": "razor-leaf",
+            "level": 15
+          },
+          {
+            "move": "struggle-bug",
+            "level": 22
+          },
+          {
+            "move": "endure",
+            "level": 29
+          },
+          {
+            "move": "sticky-web",
+            "level": 31
+          },
+          {
+            "move": "bug-buzz",
+            "level": 36
+          },
+          {
+            "move": "flail",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "baton-pass",
+          "bug-bite",
+          "bug-buzz",
+          "charm",
+          "electroweb",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "iron-defense",
+          "lunge",
+          "magical-leaf",
+          "pounce",
+          "protect",
+          "rain-dance",
+          "rest",
+          "seed-bomb",
+          "skitter-smack",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "trailblaze"
+        ],
+        "egg": [
+          "screech",
+          "snore",
+          "switcheroo",
+          "synthesis",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

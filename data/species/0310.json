@@ -1,0 +1,1631 @@
+{
+  "dex": 310,
+  "keyword": "manectric",
+  "name": "Manectric",
+  "japaneseName": {
+    "kana": "ライボルト",
+    "romaji": "Livolt"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "Discharge Pokémon",
+  "heightM": 1.5,
+  "weightKg": 40.2,
+  "stats": {
+    "hp": 70,
+    "attack": 75,
+    "defense": 60,
+    "specialAttack": 105,
+    "specialDefense": 60,
+    "speed": 105
+  },
+  "abilities": [
+    {
+      "name": "static",
+      "hidden": false,
+      "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+    },
+    {
+      "name": "lightning-rod",
+      "hidden": false,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    {
+      "name": "minus",
+      "hidden": true,
+      "effect": "Increases Special Attack to 1.5× when a friendly Pokémon has plus or minus."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 309,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0310.png",
+    "shiny": "sprites/shiny/0310.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/310.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/310.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "79",
+      "flavorText": "Because lightning falls in their vicinities, MANECTRIC were thought to have been born from lightning. In battle, they create thunderclouds.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 118",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "roar",
+            "level": 31
+          },
+          {
+            "move": "bite",
+            "level": 39
+          },
+          {
+            "move": "thunder",
+            "level": 45
+          },
+          {
+            "move": "charge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "strength",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "bite",
+            "level": 30
+          },
+          {
+            "move": "thunder-fang",
+            "level": 37
+          },
+          {
+            "move": "roar",
+            "level": 42
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "charge",
+            "level": 54
+          },
+          {
+            "move": "thunder",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "bite",
+            "level": 30
+          },
+          {
+            "move": "thunder-fang",
+            "level": 37
+          },
+          {
+            "move": "roar",
+            "level": 42
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "charge",
+            "level": 54
+          },
+          {
+            "move": "thunder",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "magnet-rise",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "Its nest can be found where a thunderbolt hits. It is discharging electricity from its mane.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "bite",
+            "level": 30
+          },
+          {
+            "move": "thunder-fang",
+            "level": 37
+          },
+          {
+            "move": "roar",
+            "level": 42
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "charge",
+            "level": 54
+          },
+          {
+            "move": "thunder",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "headbutt",
+          "magnet-rise",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "bite",
+            "level": 30
+          },
+          {
+            "move": "thunder-fang",
+            "level": 37
+          },
+          {
+            "move": "roar",
+            "level": 42
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "charge",
+            "level": 54
+          },
+          {
+            "move": "wild-charge",
+            "level": 61
+          },
+          {
+            "move": "thunder",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "bite",
+            "level": 30
+          },
+          {
+            "move": "thunder-fang",
+            "level": 37
+          },
+          {
+            "move": "roar",
+            "level": 42
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "charge",
+            "level": 54
+          },
+          {
+            "move": "wild-charge",
+            "level": 61
+          },
+          {
+            "move": "thunder",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "iron-tail",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C74",
+      "flavorText": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "electric-terrain",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 4
+          },
+          {
+            "move": "leer",
+            "level": 9
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "quick-attack",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 25
+          },
+          {
+            "move": "bite",
+            "level": 30
+          },
+          {
+            "move": "thunder-fang",
+            "level": 37
+          },
+          {
+            "move": "roar",
+            "level": 42
+          },
+          {
+            "move": "discharge",
+            "level": 49
+          },
+          {
+            "move": "charge",
+            "level": 54
+          },
+          {
+            "move": "wild-charge",
+            "level": 61
+          },
+          {
+            "move": "thunder",
+            "level": 66
+          },
+          {
+            "move": "electric-terrain",
+            "level": 70
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "81",
+      "flavorText": "Manectric discharges strong electricity from its mane. The mane is used for collecting electricity in the atmosphere. This Pokémon creates thunderclouds above its head.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "electric-terrain",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 4
+          },
+          {
+            "move": "howl",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 16
+          },
+          {
+            "move": "thunder-fang",
+            "level": 19
+          },
+          {
+            "move": "bite",
+            "level": 24
+          },
+          {
+            "move": "discharge",
+            "level": 30
+          },
+          {
+            "move": "roar",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 42
+          },
+          {
+            "move": "charge",
+            "level": 48
+          },
+          {
+            "move": "thunder",
+            "level": 54
+          },
+          {
+            "move": "electric-terrain",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "iron-tail",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "electric-terrain",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 4
+          },
+          {
+            "move": "howl",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 16
+          },
+          {
+            "move": "thunder-fang",
+            "level": 19
+          },
+          {
+            "move": "bite",
+            "level": 24
+          },
+          {
+            "move": "discharge",
+            "level": 30
+          },
+          {
+            "move": "roar",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 42
+          },
+          {
+            "move": "charge",
+            "level": 48
+          },
+          {
+            "move": "thunder",
+            "level": 54
+          },
+          {
+            "move": "electric-terrain",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "294",
+      "flavorText": "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/310.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/310.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 32
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "electric-terrain",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 4
+          },
+          {
+            "move": "howl",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 16
+          },
+          {
+            "move": "thunder-fang",
+            "level": 19
+          },
+          {
+            "move": "bite",
+            "level": 24
+          },
+          {
+            "move": "discharge",
+            "level": 30
+          },
+          {
+            "move": "roar",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 42
+          },
+          {
+            "move": "charge",
+            "level": 48
+          },
+          {
+            "move": "thunder",
+            "level": 54
+          },
+          {
+            "move": "electric-terrain",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "iron-tail",
+          "laser-focus",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "67",
+      "flavorText": "It rarely appears before people. It is said to nest where lightning has fallen.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 16
+          },
+          {
+            "move": "bite",
+            "level": 20
+          },
+          {
+            "move": "thunder-fang",
+            "level": 24
+          },
+          {
+            "move": "roar",
+            "level": 30
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "charge",
+            "level": 42
+          },
+          {
+            "move": "wild-charge",
+            "level": 48
+          },
+          {
+            "move": "thunder",
+            "level": 54
+          },
+          {
+            "move": "electric-terrain",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "body-slam",
+          "crunch",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "endure",
+          "facade",
+          "fire-fang",
+          "flamethrower",
+          "giga-impact",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-fang",
+          "iron-tail",
+          "light-screen",
+          "overheat",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "round",
+          "scary-face",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "substitute",
+          "swift",
+          "thief",
+          "thunder",
+          "thunder-fang",
+          "thunder-wave",
+          "thunderbolt",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "rising-voltage"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "310",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/310.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "howl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-wave",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 12
+          },
+          {
+            "move": "shock-wave",
+            "level": 16
+          },
+          {
+            "move": "bite",
+            "level": 20
+          },
+          {
+            "move": "thunder-fang",
+            "level": 24
+          },
+          {
+            "move": "roar",
+            "level": 30
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "charge",
+            "level": 42
+          },
+          {
+            "move": "wild-charge",
+            "level": 48
+          },
+          {
+            "move": "thunder",
+            "level": 54
+          },
+          {
+            "move": "electric-terrain",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flamethrower",
+          "flash",
+          "giga-impact",
+          "hyper-beam",
+          "iron-tail",
+          "light-screen",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "shock-wave",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "86",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Magenta District: Wild Zone 9 , Lysandre Labs",
+          "Hyperspace Lumiose (3★ Electric-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

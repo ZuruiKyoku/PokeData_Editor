@@ -1,0 +1,2277 @@
+{
+  "dex": 183,
+  "keyword": "marill",
+  "name": "Marill",
+  "japaneseName": {
+    "kana": "マリル",
+    "romaji": "Maril"
+  },
+  "type1": "Water",
+  "type2": "Fairy",
+  "genus": "Aqua Mouse Pokémon",
+  "heightM": 0.4,
+  "weightKg": 8.5,
+  "stats": {
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "specialAttack": 20,
+    "specialDefense": 50,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "thick-fat",
+      "hidden": false,
+      "effect": "Halves damage from fire and ice moves."
+    },
+    {
+      "name": "huge-power",
+      "hidden": false,
+      "effect": "Doubles Attack in battle."
+    },
+    {
+      "name": "sap-sipper",
+      "hidden": true,
+      "effect": "Absorbs grass moves, raising Attack one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 10,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "upright",
+    "habitat": "waters-edge",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 298,
+    "evolvesIntoDex": [
+      184
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0183.png",
+    "shiny": "sprites/shiny/0183.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/183.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/183.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "130",
+      "flavorText": "The fur on its body naturally repels water. It can stay dry, even when it plays in the water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Mt Mortar Lower Cave",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 29
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 42",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 3
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 21
+          },
+          {
+            "move": "double-edge",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "double-team",
+          "dynamic-punch",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "toxic",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "amnesia",
+          "belly-drum",
+          "foresight",
+          "future-sight",
+          "light-screen",
+          "perish-song",
+          "present",
+          "supersonic"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "55",
+      "flavorText": "Its body is covered with water-repellent fur. Because of the fur, it can swim through water at high speed without being slowed by the water’s resistance.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Petalburg City",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 102",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 104",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 111",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 112",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 114",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 117",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 117",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 120",
+            "method": "Surf",
+            "minLevel": 5,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 120",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 27
+          },
+          {
+            "location": "Safari Zone Expansion South",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 3
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 21
+          },
+          {
+            "move": "double-edge",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 36
+          },
+          {
+            "move": "hydro-pump",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "dig",
+          "dive",
+          "double-team",
+          "facade",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "strength",
+          "surf",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "belly-drum",
+          "future-sight",
+          "light-screen",
+          "perish-song",
+          "present",
+          "substitute",
+          "supersonic"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "ice-punch",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "125",
+      "flavorText": "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 26
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 26
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 24
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 24
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 22
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 2
+          },
+          {
+            "move": "tail-whip",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "double-edge",
+            "level": 27
+          },
+          {
+            "move": "rain-dance",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "future-sight",
+          "light-screen",
+          "perish-song",
+          "present",
+          "refresh",
+          "substitute",
+          "superpower",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "125",
+      "flavorText": "The oil-filled end of its tail floats on water. It keeps MARILL from drowning even in a strong current.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 212 North Towards Hearthome City",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 2
+          },
+          {
+            "move": "tail-whip",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "double-edge",
+            "level": 27
+          },
+          {
+            "move": "rain-dance",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "future-sight",
+          "light-screen",
+          "perish-song",
+          "present",
+          "refresh",
+          "substitute",
+          "superpower",
+          "supersonic"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "dive",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "superpower",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "132",
+      "flavorText": "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Surf",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Safari Zone Zone Meadow",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 2
+          },
+          {
+            "move": "tail-whip",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "double-edge",
+            "level": 27
+          },
+          {
+            "move": "rain-dance",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "future-sight",
+          "light-screen",
+          "perish-song",
+          "present",
+          "refresh",
+          "substitute",
+          "superpower",
+          "supersonic"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "dive",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "superpower",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The oil-filled end of its tail floats on water. It keeps Marill from drowning even in a strong current.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 2
+          },
+          {
+            "move": "tail-whip",
+            "level": 7
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "bubble-beam",
+            "level": 18
+          },
+          {
+            "move": "aqua-ring",
+            "level": 23
+          },
+          {
+            "move": "double-edge",
+            "level": 27
+          },
+          {
+            "move": "rain-dance",
+            "level": 32
+          },
+          {
+            "move": "aqua-tail",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "dig",
+          "dive",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "refresh",
+          "superpower",
+          "supersonic",
+          "water-sport"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "31",
+      "flavorText": "The oil-filled tail functions as a buoy, so it’s fine even in rivers with strong currents.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Dark Grass",
+            "minLevel": 38,
+            "maxLevel": 38
+          },
+          {
+            "location": "Abundant Shrine",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Abundant Shrine",
+            "method": "Surf Spots",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Abundant Shrine",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 34
+          },
+          {
+            "location": "Floccesy Ranch Inner",
+            "method": "Surf Spots",
+            "minLevel": 5,
+            "maxLevel": 15
+          },
+          {
+            "location": "Floccesy Ranch Outer",
+            "method": "Surf Spots",
+            "minLevel": 5,
+            "maxLevel": 15
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Surf",
+            "minLevel": 45,
+            "maxLevel": 60
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Surf Spots",
+            "minLevel": 45,
+            "maxLevel": 60
+          },
+          {
+            "location": "Relic Passage Relic Castle Entrance",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "location": "Relic Passage Relic Castle Entrance",
+            "method": "Surf Spots",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 11",
+            "method": "Dark Grass",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 20",
+            "method": "Surf Spots",
+            "minLevel": 5,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 22",
+            "method": "Dark Grass",
+            "minLevel": 45,
+            "maxLevel": 47
+          },
+          {
+            "location": "Route 22",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 22",
+            "method": "Surf Spots",
+            "minLevel": 15,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 6",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 6",
+            "method": "Surf Spots",
+            "minLevel": 10,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 71",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 71",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 75",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 75",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 60
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 78",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 50
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 78",
+            "method": "Surf Spots",
+            "minLevel": 35,
+            "maxLevel": 50
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Dark Grass",
+            "minLevel": 40,
+            "maxLevel": 42
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Surf Spots",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Village Bridge",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 38
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bubble",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 2
+          },
+          {
+            "move": "water-sport",
+            "level": 5
+          },
+          {
+            "move": "water-gun",
+            "level": 7
+          },
+          {
+            "move": "defense-curl",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bubble-beam",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "aqua-tail",
+            "level": 20
+          },
+          {
+            "move": "double-edge",
+            "level": 23
+          },
+          {
+            "move": "aqua-ring",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 31
+          },
+          {
+            "move": "superpower",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "dig",
+          "dive",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "refresh",
+          "superpower",
+          "supersonic",
+          "water-sport"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "covet",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "sleep-talk",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "42",
+      "flavorText": "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 2
+          },
+          {
+            "move": "water-sport",
+            "level": 5
+          },
+          {
+            "move": "bubble",
+            "level": 7
+          },
+          {
+            "move": "defense-curl",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bubble-beam",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "aqua-tail",
+            "level": 20
+          },
+          {
+            "move": "double-edge",
+            "level": 23
+          },
+          {
+            "move": "aqua-ring",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 31
+          },
+          {
+            "move": "superpower",
+            "level": 37
+          },
+          {
+            "move": "hydro-pump",
+            "level": 40
+          },
+          {
+            "move": "play-rough",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "confide",
+          "dig",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "camouflage",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "refresh",
+          "superpower",
+          "supersonic",
+          "water-sport"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "56",
+      "flavorText": "When fishing for food at the edge of a fast-running stream, Marill wraps its tail around the trunk of a tree. This Pokémon’s tail is flexible and configured to stretch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 2
+          },
+          {
+            "move": "water-sport",
+            "level": 5
+          },
+          {
+            "move": "bubble",
+            "level": 7
+          },
+          {
+            "move": "defense-curl",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bubble-beam",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "aqua-tail",
+            "level": 20
+          },
+          {
+            "move": "play-rough",
+            "level": 23
+          },
+          {
+            "move": "aqua-ring",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 31
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "superpower",
+            "level": 40
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "confide",
+          "dig",
+          "dive",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "camouflage",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "refresh",
+          "superpower",
+          "supersonic",
+          "water-sport"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "covet",
+          "focus-punch",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "snore",
+          "superpower",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill Main",
+            "method": "Island Scan",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 2
+          },
+          {
+            "move": "water-sport",
+            "level": 5
+          },
+          {
+            "move": "bubble",
+            "level": 7
+          },
+          {
+            "move": "defense-curl",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bubble-beam",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "aqua-tail",
+            "level": 20
+          },
+          {
+            "move": "play-rough",
+            "level": 23
+          },
+          {
+            "move": "aqua-ring",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 31
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "superpower",
+            "level": 40
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "camouflage",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "refresh",
+          "superpower",
+          "supersonic",
+          "water-sport"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/183.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/183.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 2
+          },
+          {
+            "move": "water-sport",
+            "level": 5
+          },
+          {
+            "move": "bubble",
+            "level": 7
+          },
+          {
+            "move": "defense-curl",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "bubble-beam",
+            "level": 13
+          },
+          {
+            "move": "helping-hand",
+            "level": 16
+          },
+          {
+            "move": "aqua-tail",
+            "level": 20
+          },
+          {
+            "move": "play-rough",
+            "level": 23
+          },
+          {
+            "move": "aqua-ring",
+            "level": 28
+          },
+          {
+            "move": "rain-dance",
+            "level": 31
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "superpower",
+            "level": 40
+          },
+          {
+            "move": "hydro-pump",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "confide",
+          "double-team",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "camouflage",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "refresh",
+          "superpower",
+          "supersonic",
+          "water-sport"
+        ],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "covet",
+          "focus-punch",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "snore",
+          "superpower",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A140",
+      "flavorText": "Even after Marill swims in a cold sea, its water- repellent fur dries almost as soon as Marill leaves the water. That’s why this Pokémon is never cold.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 6
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 12
+          },
+          {
+            "move": "bounce",
+            "level": 15
+          },
+          {
+            "move": "aqua-tail",
+            "level": 19
+          },
+          {
+            "move": "play-rough",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "rain-dance",
+            "level": 27
+          },
+          {
+            "move": "hydro-pump",
+            "level": 30
+          },
+          {
+            "move": "double-edge",
+            "level": 33
+          },
+          {
+            "move": "superpower",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "blizzard",
+          "body-slam",
+          "bounce",
+          "brick-break",
+          "brutal-swing",
+          "charm",
+          "dig",
+          "dive",
+          "draining-kiss",
+          "encore",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fling",
+          "future-sight",
+          "grass-knot",
+          "hail",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "misty-terrain",
+          "mud-shot",
+          "muddy-water",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scald",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "superpower",
+          "surf",
+          "swift",
+          "uproar",
+          "waterfall",
+          "whirlpool",
+          "work-up"
+        ],
+        "egg": [
+          "aqua-jet",
+          "belly-drum",
+          "copycat",
+          "perish-song",
+          "present",
+          "sing",
+          "soak",
+          "supersonic",
+          "tickle"
+        ],
+        "tutor": [
+          "misty-explosion",
+          "steel-roller"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "183",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/183.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Great Marsh, Trophy Garden"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 6
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 12
+          },
+          {
+            "move": "bounce",
+            "level": 15
+          },
+          {
+            "move": "aqua-tail",
+            "level": 19
+          },
+          {
+            "move": "play-rough",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "rain-dance",
+            "level": 27
+          },
+          {
+            "move": "hydro-pump",
+            "level": 30
+          },
+          {
+            "move": "double-edge",
+            "level": 33
+          },
+          {
+            "move": "superpower",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "hail",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "scald",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "water-pulse",
+          "waterfall",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "aqua-jet",
+          "belly-drum",
+          "body-slam",
+          "copycat",
+          "future-sight",
+          "muddy-water",
+          "perish-song",
+          "present",
+          "sing",
+          "soak",
+          "superpower",
+          "supersonic",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P047",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/183.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Area Four, Area Five | East Province: Area Two | West Province: Area One | Tera Raid Battles (3★ Marill)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "bubble-beam",
+            "level": 6
+          },
+          {
+            "move": "charm",
+            "level": 9
+          },
+          {
+            "move": "slam",
+            "level": 12
+          },
+          {
+            "move": "bounce",
+            "level": 15
+          },
+          {
+            "move": "aqua-tail",
+            "level": 19
+          },
+          {
+            "move": "play-rough",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 24
+          },
+          {
+            "move": "rain-dance",
+            "level": 27
+          },
+          {
+            "move": "hydro-pump",
+            "level": 30
+          },
+          {
+            "move": "double-edge",
+            "level": 33
+          },
+          {
+            "move": "superpower",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "alluring-voice",
+          "amnesia",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "charm",
+          "chilling-water",
+          "dig",
+          "disarming-voice",
+          "double-edge",
+          "draining-kiss",
+          "encore",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "ice-spinner",
+          "icy-wind",
+          "knock-off",
+          "light-screen",
+          "liquidation",
+          "metronome",
+          "misty-explosion",
+          "misty-terrain",
+          "mud-shot",
+          "mud-slap",
+          "muddy-water",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "snowscape",
+          "substitute",
+          "surf",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "trailblaze",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

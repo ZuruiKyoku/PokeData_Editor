@@ -1,0 +1,2178 @@
+{
+  "dex": 64,
+  "keyword": "kadabra",
+  "name": "Kadabra",
+  "japaneseName": {
+    "kana": "ユンゲラー",
+    "romaji": "Yungerer"
+  },
+  "type1": "Psychic",
+  "type2": null,
+  "genus": "Psi Pokémon",
+  "heightM": 1.3,
+  "weightKg": 56.5,
+  "stats": {
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 120,
+    "specialDefense": 70,
+    "speed": 105
+  },
+  "abilities": [
+    {
+      "name": "synchronize",
+      "hidden": false,
+      "effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+    },
+    {
+      "name": "inner-focus",
+      "hidden": false,
+      "effect": "Prevents flinching."
+    },
+    {
+      "name": "magic-guard",
+      "hidden": true,
+      "effect": "Protects against damage not directly caused by a move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "humanshape"
+    ],
+    "genderRateEighthsFemale": 2,
+    "hatchCycles": 20,
+    "captureRate": 100,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "upright",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female has a smaller mustache",
+  "evolution": {
+    "evolvesFromDex": 63,
+    "evolvesIntoDex": [
+      65
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0064.png",
+    "shiny": "sprites/shiny/0064.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/64.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/64.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "64",
+      "flavorText": "It emits special alpha waves from its body that induce headaches just by being close.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/64.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 64
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 58,
+            "maxLevel": 67
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "disable",
+            "level": 20
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "reflect",
+            "level": 23
+          },
+          {
+            "move": "recover",
+            "level": 25
+          },
+          {
+            "move": "psybeam",
+            "level": 27
+          },
+          {
+            "move": "future-sight",
+            "level": 30
+          },
+          {
+            "move": "recover",
+            "level": 31
+          },
+          {
+            "move": "role-play",
+            "level": 33
+          },
+          {
+            "move": "psychic",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 38
+          },
+          {
+            "move": "reflect",
+            "level": 42
+          },
+          {
+            "move": "trick",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "calm-mind",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "seismic-toss",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "skull-bash",
+          "snatch",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "teleport",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "seismic-toss",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "90",
+      "flavorText": "When it closes its eyes, twice as many alpha parti­ cles come out of the surface of its body.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "recover",
+            "level": 26
+          },
+          {
+            "move": "future-sight",
+            "level": 31
+          },
+          {
+            "move": "psychic",
+            "level": 38
+          },
+          {
+            "move": "reflect",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "40",
+      "flavorText": "It is rumored that a boy with psychic abilities suddenly transformed into KADABRA while he was assisting research into extrasensory powers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "reflect",
+            "level": 23
+          },
+          {
+            "move": "recover",
+            "level": 25
+          },
+          {
+            "move": "future-sight",
+            "level": 30
+          },
+          {
+            "move": "role-play",
+            "level": 33
+          },
+          {
+            "move": "psychic",
+            "level": 36
+          },
+          {
+            "move": "trick",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "psych-up",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "21",
+      "flavorText": "When it uses its psychic power, it emits strong ha waves that can ruin precision devices.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 22
+          },
+          {
+            "location": "Victory Road 2f",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "miracle-eye",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "reflect",
+            "level": 28
+          },
+          {
+            "move": "recover",
+            "level": 30
+          },
+          {
+            "move": "psycho-cut",
+            "level": 34
+          },
+          {
+            "move": "role-play",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 40
+          },
+          {
+            "move": "future-sight",
+            "level": 42
+          },
+          {
+            "move": "trick",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "21",
+      "flavorText": "It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 215",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "miracle-eye",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "reflect",
+            "level": 28
+          },
+          {
+            "move": "recover",
+            "level": 30
+          },
+          {
+            "move": "psycho-cut",
+            "level": 34
+          },
+          {
+            "move": "role-play",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 40
+          },
+          {
+            "move": "future-sight",
+            "level": 42
+          },
+          {
+            "move": "trick",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "fire-punch",
+          "ice-punch",
+          "knock-off",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "90",
+      "flavorText": "If it uses its abilities, it emits special alpha waves that cause machines to malfunction.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "miracle-eye",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "reflect",
+            "level": 28
+          },
+          {
+            "move": "recover",
+            "level": 30
+          },
+          {
+            "move": "psycho-cut",
+            "level": 34
+          },
+          {
+            "move": "role-play",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 40
+          },
+          {
+            "move": "future-sight",
+            "level": 42
+          },
+          {
+            "move": "trick",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "ice-punch",
+          "knock-off",
+          "magic-coat",
+          "role-play",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "miracle-eye",
+            "level": 22
+          },
+          {
+            "move": "ally-switch",
+            "level": 24
+          },
+          {
+            "move": "psybeam",
+            "level": 28
+          },
+          {
+            "move": "reflect",
+            "level": 30
+          },
+          {
+            "move": "telekinesis",
+            "level": 34
+          },
+          {
+            "move": "recover",
+            "level": 36
+          },
+          {
+            "move": "psycho-cut",
+            "level": 40
+          },
+          {
+            "move": "role-play",
+            "level": 42
+          },
+          {
+            "move": "psychic",
+            "level": 46
+          },
+          {
+            "move": "future-sight",
+            "level": 48
+          },
+          {
+            "move": "trick",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "miracle-eye",
+            "level": 22
+          },
+          {
+            "move": "ally-switch",
+            "level": 24
+          },
+          {
+            "move": "psybeam",
+            "level": 28
+          },
+          {
+            "move": "reflect",
+            "level": 30
+          },
+          {
+            "move": "telekinesis",
+            "level": 34
+          },
+          {
+            "move": "recover",
+            "level": 36
+          },
+          {
+            "move": "psycho-cut",
+            "level": 40
+          },
+          {
+            "move": "role-play",
+            "level": 42
+          },
+          {
+            "move": "psychic",
+            "level": 46
+          },
+          {
+            "move": "future-sight",
+            "level": 48
+          },
+          {
+            "move": "trick",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "drain-punch",
+          "fire-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "103",
+      "flavorText": "If it uses its abilities, it emits special alpha waves that cause machines to malfunction.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "miracle-eye",
+            "level": 22
+          },
+          {
+            "move": "ally-switch",
+            "level": 24
+          },
+          {
+            "move": "psybeam",
+            "level": 28
+          },
+          {
+            "move": "reflect",
+            "level": 30
+          },
+          {
+            "move": "telekinesis",
+            "level": 34
+          },
+          {
+            "move": "recover",
+            "level": 36
+          },
+          {
+            "move": "psycho-cut",
+            "level": 40
+          },
+          {
+            "move": "role-play",
+            "level": 42
+          },
+          {
+            "move": "psychic",
+            "level": 46
+          },
+          {
+            "move": "future-sight",
+            "level": 48
+          },
+          {
+            "move": "trick",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "41",
+      "flavorText": "Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves in its brain. Without the spoon, the Pokémon is said to be limited to half the usual amount of its telekinetic powers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "miracle-eye",
+            "level": 23
+          },
+          {
+            "move": "reflect",
+            "level": 26
+          },
+          {
+            "move": "psycho-cut",
+            "level": 28
+          },
+          {
+            "move": "recover",
+            "level": 31
+          },
+          {
+            "move": "telekinesis",
+            "level": 33
+          },
+          {
+            "move": "ally-switch",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 38
+          },
+          {
+            "move": "role-play",
+            "level": 41
+          },
+          {
+            "move": "future-sight",
+            "level": 43
+          },
+          {
+            "move": "trick",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "43",
+      "flavorText": "Kadabra’s presence infests televisions and monitors with creepy shadows that bring bad luck.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "kinesis",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "miracle-eye",
+            "level": 23
+          },
+          {
+            "move": "reflect",
+            "level": 26
+          },
+          {
+            "move": "psycho-cut",
+            "level": 28
+          },
+          {
+            "move": "recover",
+            "level": 31
+          },
+          {
+            "move": "telekinesis",
+            "level": 33
+          },
+          {
+            "move": "ally-switch",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 38
+          },
+          {
+            "move": "role-play",
+            "level": 41
+          },
+          {
+            "move": "future-sight",
+            "level": 43
+          },
+          {
+            "move": "trick",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "50",
+      "flavorText": "It possesses strong mental capabilities, but its psychic powers are halved when it’s not holding a silver spoon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/64.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/64.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "kinesis",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 16
+          },
+          {
+            "move": "disable",
+            "level": 18
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "miracle-eye",
+            "level": 23
+          },
+          {
+            "move": "reflect",
+            "level": 26
+          },
+          {
+            "move": "psycho-cut",
+            "level": 28
+          },
+          {
+            "move": "recover",
+            "level": 31
+          },
+          {
+            "move": "telekinesis",
+            "level": 33
+          },
+          {
+            "move": "ally-switch",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 38
+          },
+          {
+            "move": "role-play",
+            "level": 41
+          },
+          {
+            "move": "future-sight",
+            "level": 43
+          },
+          {
+            "move": "trick",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "ally-switch",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "gravity",
+          "ice-punch",
+          "iron-tail",
+          "knock-off",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "shock-wave",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "telekinesis",
+          "thunder-punch",
+          "trick",
+          "wonder-room",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "64",
+      "flavorText": "Many odd things happen if this Pokémon is close by. For example, it makes clocks run backward.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "kinesis",
+            "level": 0
+          },
+          {
+            "move": "psybeam",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "flash",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 6
+          },
+          {
+            "move": "flash",
+            "level": 13
+          },
+          {
+            "move": "night-shade",
+            "level": 19
+          },
+          {
+            "move": "substitute",
+            "level": 26
+          },
+          {
+            "move": "reflect",
+            "level": 32
+          },
+          {
+            "move": "recover",
+            "level": 39
+          },
+          {
+            "move": "psychic",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "calm-mind",
+          "dazzling-gleam",
+          "dig",
+          "dream-eater",
+          "facade",
+          "fire-punch",
+          "foul-play",
+          "headbutt",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "seismic-toss",
+          "shadow-ball",
+          "substitute",
+          "taunt",
+          "teleport",
+          "thunder-punch",
+          "thunder-wave",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A032",
+      "flavorText": "This Pokémon’s telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 5
+          },
+          {
+            "move": "reflect",
+            "level": 10
+          },
+          {
+            "move": "ally-switch",
+            "level": 15
+          },
+          {
+            "move": "psycho-cut",
+            "level": 20
+          },
+          {
+            "move": "recover",
+            "level": 25
+          },
+          {
+            "move": "psyshock",
+            "level": 30
+          },
+          {
+            "move": "psychic",
+            "level": 35
+          },
+          {
+            "move": "role-play",
+            "level": 40
+          },
+          {
+            "move": "future-sight",
+            "level": 45
+          },
+          {
+            "move": "calm-mind",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "body-slam",
+          "calm-mind",
+          "dazzling-gleam",
+          "drain-punch",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-punch",
+          "fling",
+          "foul-play",
+          "future-sight",
+          "grass-knot",
+          "guard-swap",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "magic-room",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "power-swap",
+          "protect",
+          "psychic",
+          "psychic-terrain",
+          "psycho-cut",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "speed-swap",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "thief",
+          "thunder-punch",
+          "thunder-wave",
+          "tri-attack",
+          "trick",
+          "trick-room",
+          "wonder-room",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": [
+          "expanding-force"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "64",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/64.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 215 (Sinnoh), | Grand Underground - Dazzling Cave, Stargleam Cavern (after obtaining )"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "kinesis",
+            "level": 1
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 5
+          },
+          {
+            "move": "reflect",
+            "level": 10
+          },
+          {
+            "move": "ally-switch",
+            "level": 15
+          },
+          {
+            "move": "psycho-cut",
+            "level": 20
+          },
+          {
+            "move": "recover",
+            "level": 25
+          },
+          {
+            "move": "psyshock",
+            "level": 30
+          },
+          {
+            "move": "psychic",
+            "level": 35
+          },
+          {
+            "move": "role-play",
+            "level": 40
+          },
+          {
+            "move": "future-sight",
+            "level": 45
+          },
+          {
+            "move": "calm-mind",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "calm-mind",
+          "charge-beam",
+          "dazzling-gleam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "focus-punch",
+          "grass-knot",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "safeguard",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "59",
+      "flavorText": "There are rumors that a child with mystical powers became a Kadabra; however, this remains unverified. I suspect that the spoon Kadabra holds enhances its brain waves.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Sandgem Flats, massive mass outbreaks | Cobalt Coastlands: Space-time distortions | Alabaster Icelands: Lake Acuity, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 0
+          },
+          {
+            "move": "teleport",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 6
+          },
+          {
+            "move": "calm-mind",
+            "level": 11
+          },
+          {
+            "move": "psycho-cut",
+            "level": 18
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 25
+          },
+          {
+            "move": "recover",
+            "level": 34
+          },
+          {
+            "move": "psychic",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "63",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Magenta District: Wild Zone 9",
+          "Hyperspace Lumiose (3★ & 4★ Psychic-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

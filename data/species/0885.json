@@ -1,0 +1,214 @@
+{
+  "dex": 885,
+  "keyword": "dreepy",
+  "name": "Dreepy",
+  "japaneseName": {
+    "kana": "ドラメシヤ",
+    "romaji": "Dorameshiya"
+  },
+  "type1": "Dragon",
+  "type2": "Ghost",
+  "genus": "Lingering Pokémon",
+  "heightM": 0.5,
+  "weightKg": 2.0,
+  "stats": {
+    "hp": 28,
+    "attack": 60,
+    "defense": 30,
+    "specialAttack": 40,
+    "specialDefense": 30,
+    "speed": 82
+  },
+  "abilities": [
+    {
+      "name": "clear-body",
+      "hidden": false,
+      "effect": "Prevents stats from being lowered by other Pokémon."
+    },
+    {
+      "name": "infiltrator",
+      "hidden": false,
+      "effect": "Bypasses light screen, reflect, and safeguard."
+    },
+    {
+      "name": "cursed-body",
+      "hidden": true,
+      "effect": "Has a 30% chance of Disabling any move that hits the Pokémon."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "indeterminate",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 40,
+    "captureRate": 45,
+    "baseFriendship": 50,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "squiggle",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 8
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      886
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0885.png",
+    "shiny": "sprites/shiny/0885.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/885.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "swsh": {
+      "dexNumber": "395",
+      "flavorText": "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "infestation",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "baton-pass",
+          "endure",
+          "facade",
+          "helping-hand",
+          "protect",
+          "rest",
+          "round",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swift",
+          "thunder-wave"
+        ],
+        "egg": [
+          "confuse-ray",
+          "curse",
+          "disable",
+          "double-team",
+          "dragon-tail",
+          "grudge",
+          "sucker-punch"
+        ],
+        "tutor": [
+          "draco-meteor"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P305",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/885.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Four, Area Five, Area Six | East Province: Area Two, Area Three | West Province: Area Two, Area Three | North Province: Glaseado Mountain | Area Zero | Tera Raid Battles (3★ Dreepy)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "infestation",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "baton-pass",
+          "confuse-ray",
+          "curse",
+          "draco-meteor",
+          "dragon-tail",
+          "endure",
+          "facade",
+          "helping-hand",
+          "protect",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "swift",
+          "tera-blast",
+          "thunder-wave"
+        ],
+        "egg": [
+          "confuse-ray",
+          "curse",
+          "disable",
+          "double-team",
+          "dragon-tail",
+          "sucker-punch"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

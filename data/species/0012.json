@@ -1,0 +1,2174 @@
+{
+  "dex": 12,
+  "keyword": "butterfree",
+  "name": "Butterfree",
+  "japaneseName": {
+    "kana": "バタフリー",
+    "romaji": "Butterfree"
+  },
+  "type1": "Bug",
+  "type2": "Flying",
+  "genus": "Butterfly Pokémon",
+  "heightM": 1.1,
+  "weightKg": 32.0,
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 50,
+    "specialAttack": 90,
+    "specialDefense": 80,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "compound-eyes",
+      "hidden": false,
+      "effect": "Increases moves' accuracy to 1.3×."
+    },
+    {
+      "name": "tinted-lens",
+      "hidden": true,
+      "effect": "Doubles damage inflicted with not-very-effective moves."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "bug-wings",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female has black (purple in Generation V) spots on her lower wings",
+  "evolution": {
+    "evolvesFromDex": 11,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0012.png",
+    "shiny": "sprites/shiny/0012.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/12.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/12.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "12",
+      "flavorText": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/12.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "confusion",
+            "level": 12
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 14
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "supersonic",
+            "level": 21
+          },
+          {
+            "move": "whirlwind",
+            "level": 23
+          },
+          {
+            "move": "whirlwind",
+            "level": 26
+          },
+          {
+            "move": "gust",
+            "level": 28
+          },
+          {
+            "move": "psybeam",
+            "level": 32
+          },
+          {
+            "move": "psybeam",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 40
+          },
+          {
+            "move": "silver-wind",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "razor-wind",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "skill-swap",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "teleport",
+          "thief",
+          "toxic",
+          "whirlwind"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "dream-eater",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "26",
+      "flavorText": "It flits from flower to flower, collecting honey. It can even identify distant flowers in bloom.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 14
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 23
+          },
+          {
+            "move": "gust",
+            "level": 28
+          },
+          {
+            "move": "psybeam",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "nightmare",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "swift",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It has a superior ability to search for delicious honey from flowers. It can seek, extract, and carry honey from flowers blooming over six miles away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 14
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 23
+          },
+          {
+            "move": "gust",
+            "level": 28
+          },
+          {
+            "move": "psybeam",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 40
+          },
+          {
+            "move": "silver-wind",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "skill-swap",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "safeguard",
+            "level": 34
+          },
+          {
+            "move": "captivate",
+            "level": 36
+          },
+          {
+            "move": "bug-buzz",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "safeguard",
+            "level": 34
+          },
+          {
+            "move": "captivate",
+            "level": 36
+          },
+          {
+            "move": "bug-buzz",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "swift",
+          "twister"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "26",
+      "flavorText": "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 8
+          },
+          {
+            "location": "Viridian Forest",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 7
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "safeguard",
+            "level": 34
+          },
+          {
+            "move": "captivate",
+            "level": 36
+          },
+          {
+            "move": "bug-buzz",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "bug-bite",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift",
+          "tailwind",
+          "twister"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "rage-powder",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 36
+          },
+          {
+            "move": "captivate",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 42
+          },
+          {
+            "move": "quiver-dance",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "rage-powder",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 36
+          },
+          {
+            "move": "captivate",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 42
+          },
+          {
+            "move": "quiver-dance",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "roost",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "25",
+      "flavorText": "The wings are protected by rain-repellent dust. As a result, this Pokémon can fly about even in rain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "rage-powder",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 36
+          },
+          {
+            "move": "captivate",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 42
+          },
+          {
+            "move": "quiver-dance",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 10
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "gust",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 18
+          },
+          {
+            "move": "whirlwind",
+            "level": 22
+          },
+          {
+            "move": "psybeam",
+            "level": 24
+          },
+          {
+            "move": "silver-wind",
+            "level": 28
+          },
+          {
+            "move": "tailwind",
+            "level": 30
+          },
+          {
+            "move": "rage-powder",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 36
+          },
+          {
+            "move": "captivate",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 42
+          },
+          {
+            "move": "quiver-dance",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "electroweb",
+          "giga-drain",
+          "signal-beam",
+          "skill-swap",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "19",
+      "flavorText": "When attacked by other Pokémon, it defends itself by scattering its poisonous scales and fluttering its wings.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Sos Encounter",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 5",
+            "method": "Sos Encounter",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "silver-wind",
+            "level": 19
+          },
+          {
+            "move": "supersonic",
+            "level": 23
+          },
+          {
+            "move": "safeguard",
+            "level": 25
+          },
+          {
+            "move": "whirlwind",
+            "level": 29
+          },
+          {
+            "move": "bug-buzz",
+            "level": 31
+          },
+          {
+            "move": "rage-powder",
+            "level": 35
+          },
+          {
+            "move": "captivate",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "air-slash",
+            "level": 43
+          },
+          {
+            "move": "quiver-dance",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "19",
+      "flavorText": "Nectar from pretty flowers is its favorite food. In fields of flowers, it has heated battles with Cutiefly for territory.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/12.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/12.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Sos Encounter",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 5",
+            "method": "Sos Encounter",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "silver-wind",
+            "level": 19
+          },
+          {
+            "move": "supersonic",
+            "level": 23
+          },
+          {
+            "move": "safeguard",
+            "level": 25
+          },
+          {
+            "move": "whirlwind",
+            "level": 29
+          },
+          {
+            "move": "bug-buzz",
+            "level": 31
+          },
+          {
+            "move": "rage-powder",
+            "level": 35
+          },
+          {
+            "move": "captivate",
+            "level": 37
+          },
+          {
+            "move": "tailwind",
+            "level": 41
+          },
+          {
+            "move": "air-slash",
+            "level": 43
+          },
+          {
+            "move": "quiver-dance",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "infestation",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bug-bite",
+          "defog",
+          "electroweb",
+          "giga-drain",
+          "signal-beam",
+          "skill-swap",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "12",
+      "flavorText": "Its wings, covered with poisonous powder, repel water. This allows it to fly in the rain.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 16
+          },
+          {
+            "move": "supersonic",
+            "level": 19
+          },
+          {
+            "move": "quiver-dance",
+            "level": 22
+          },
+          {
+            "move": "whirlwind",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 28
+          },
+          {
+            "move": "bug-buzz",
+            "level": 31
+          }
+        ],
+        "machine": [
+          "dream-eater",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "mega-drain",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "roost",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "teleport",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "15",
+      "flavorText": "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "confusion",
+            "level": 8
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "psybeam",
+            "level": 16
+          },
+          {
+            "move": "whirlwind",
+            "level": 20
+          },
+          {
+            "move": "air-slash",
+            "level": 24
+          },
+          {
+            "move": "safeguard",
+            "level": 28
+          },
+          {
+            "move": "bug-buzz",
+            "level": 32
+          },
+          {
+            "move": "tailwind",
+            "level": 36
+          },
+          {
+            "move": "rage-powder",
+            "level": 40
+          },
+          {
+            "move": "quiver-dance",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "air-slash",
+          "attract",
+          "baton-pass",
+          "bug-buzz",
+          "draining-kiss",
+          "electroweb",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "giga-impact",
+          "hurricane",
+          "hyper-beam",
+          "iron-defense",
+          "pollen-puff",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "thief",
+          "u-turn",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "12",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/12.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 0
+          },
+          {
+            "move": "bug-bite",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "string-shot",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "confusion",
+            "level": 8
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 12
+          },
+          {
+            "move": "psybeam",
+            "level": 16
+          },
+          {
+            "move": "whirlwind",
+            "level": 20
+          },
+          {
+            "move": "air-slash",
+            "level": 24
+          },
+          {
+            "move": "safeguard",
+            "level": 28
+          },
+          {
+            "move": "bug-buzz",
+            "level": 32
+          },
+          {
+            "move": "tailwind",
+            "level": 36
+          },
+          {
+            "move": "rage-powder",
+            "level": 40
+          },
+          {
+            "move": "quiver-dance",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bug-buzz",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "giga-drain",
+          "giga-impact",
+          "hyper-beam",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "roost",
+          "safeguard",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "dex": 757,
+  "keyword": "salandit",
+  "name": "Salandit",
+  "japaneseName": {
+    "kana": "ヤトウモリ",
+    "romaji": "Yatoumori"
+  },
+  "type1": "Poison",
+  "type2": "Fire",
+  "genus": "Toxic Lizard Pokémon",
+  "heightM": 0.6,
+  "weightKg": 4.8,
+  "stats": {
+    "hp": 48,
+    "attack": 44,
+    "defense": 40,
+    "specialAttack": 71,
+    "specialDefense": 40,
+    "speed": 77
+  },
+  "abilities": [
+    {
+      "name": "corrosion",
+      "hidden": false,
+      "effect": "This Pokémon can inflict poison on Poison and Steel Pokémon."
+    },
+    {
+      "name": "oblivious",
+      "hidden": true,
+      "effect": "Prevents infatuation and protects against captivate."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 1,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      758
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0757.png",
+    "shiny": "sprites/shiny/0757.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/757.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "161",
+      "flavorText": "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/757.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/757.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8 Main",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 20
+          },
+          {
+            "location": "Wela Volcano Park",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "sweet-scent",
+            "level": 8
+          },
+          {
+            "move": "dragon-rage",
+            "level": 13
+          },
+          {
+            "move": "smog",
+            "level": 16
+          },
+          {
+            "move": "double-slap",
+            "level": 21
+          },
+          {
+            "move": "flame-burst",
+            "level": 24
+          },
+          {
+            "move": "toxic",
+            "level": 29
+          },
+          {
+            "move": "nasty-plot",
+            "level": 32
+          },
+          {
+            "move": "venoshock",
+            "level": 37
+          },
+          {
+            "move": "flamethrower",
+            "level": 40
+          },
+          {
+            "move": "venom-drench",
+            "level": 45
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "leech-life",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "belch",
+          "fake-out",
+          "knock-off",
+          "sand-attack",
+          "snatch"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "195",
+      "flavorText": "It weakens opponents and sends them reeling with its poisonous gas. Salandit doesn’t deal well with Spinda, since it’s always reeling.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/757.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/757.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle East Cave",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 20
+          },
+          {
+            "location": "Wela Volcano Park",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "sweet-scent",
+            "level": 8
+          },
+          {
+            "move": "dragon-rage",
+            "level": 13
+          },
+          {
+            "move": "smog",
+            "level": 16
+          },
+          {
+            "move": "double-slap",
+            "level": 21
+          },
+          {
+            "move": "flame-burst",
+            "level": 24
+          },
+          {
+            "move": "toxic",
+            "level": 29
+          },
+          {
+            "move": "nasty-plot",
+            "level": 32
+          },
+          {
+            "move": "venoshock",
+            "level": 37
+          },
+          {
+            "move": "flamethrower",
+            "level": 40
+          },
+          {
+            "move": "venom-drench",
+            "level": 45
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "leech-life",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "belch",
+          "fake-out",
+          "knock-off",
+          "sand-attack",
+          "snatch"
+        ],
+        "tutor": [
+          "covet",
+          "dragon-pulse",
+          "foul-play",
+          "gunk-shot",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "knock-off",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "244",
+      "flavorText": "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 5
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "poison-fang",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 20
+          },
+          {
+            "move": "nasty-plot",
+            "level": 25
+          },
+          {
+            "move": "incinerate",
+            "level": 30
+          },
+          {
+            "move": "venoshock",
+            "level": 35
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 40
+          },
+          {
+            "move": "venom-drench",
+            "level": 45
+          },
+          {
+            "move": "flamethrower",
+            "level": 50
+          },
+          {
+            "move": "toxic",
+            "level": 55
+          },
+          {
+            "move": "endeavor",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "beat-up",
+          "dragon-claw",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "foul-play",
+          "gunk-shot",
+          "heat-wave",
+          "helping-hand",
+          "iron-tail",
+          "leech-life",
+          "nasty-plot",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rest",
+          "round",
+          "shadow-claw",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "snore",
+          "substitute",
+          "swift",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "venom-drench",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "belch",
+          "fake-out",
+          "mud-slap",
+          "sand-attack"
+        ],
+        "tutor": [
+          "scale-shot",
+          "skitter-smack"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P120",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/757.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Alfornada Cavern | East Province: Area Two, Area Three | West Province: Area One, Area Two | North Province: Dalizapa Passage, Glaseado Mountain | East Province: Area One ( Type) | Tera Raid Battles (2★ Salandit)",
+          "Apple Hills, Reveler's Road, Oni Mountain, Oni's Maw, Crystal Pool"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "poison-gas",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smog",
+            "level": 5
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "poison-fang",
+            "level": 15
+          },
+          {
+            "move": "sweet-scent",
+            "level": 20
+          },
+          {
+            "move": "nasty-plot",
+            "level": 25
+          },
+          {
+            "move": "incinerate",
+            "level": 30
+          },
+          {
+            "move": "venoshock",
+            "level": 35
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 40
+          },
+          {
+            "move": "flamethrower",
+            "level": 45
+          },
+          {
+            "move": "toxic",
+            "level": 50
+          },
+          {
+            "move": "endeavor",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "agility",
+          "burning-jealousy",
+          "dragon-claw",
+          "dragon-pulse",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "flamethrower",
+          "flare-blitz",
+          "fling",
+          "foul-play",
+          "gunk-shot",
+          "heat-wave",
+          "helping-hand",
+          "knock-off",
+          "leech-life",
+          "mud-slap",
+          "nasty-plot",
+          "overheat",
+          "poison-jab",
+          "poison-tail",
+          "protect",
+          "rest",
+          "scale-shot",
+          "scary-face",
+          "shadow-claw",
+          "skitter-smack",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "temper-flare",
+          "tera-blast",
+          "thief",
+          "thunder-wave",
+          "toxic",
+          "toxic-spikes",
+          "trailblaze",
+          "venoshock",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "belch",
+          "fake-out",
+          "mud-slap",
+          "sand-attack"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

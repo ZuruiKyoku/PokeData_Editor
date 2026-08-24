@@ -1,0 +1,2178 @@
+{
+  "dex": 185,
+  "keyword": "sudowoodo",
+  "name": "Sudowoodo",
+  "japaneseName": {
+    "kana": "ウソッキー",
+    "romaji": "Usokkie"
+  },
+  "type1": "Rock",
+  "type2": null,
+  "genus": "Imitation Pokémon",
+  "heightM": 1.2,
+  "weightKg": 38.0,
+  "stats": {
+    "hp": 70,
+    "attack": 100,
+    "defense": 115,
+    "specialAttack": 30,
+    "specialDefense": 65,
+    "speed": 30
+  },
+  "abilities": [
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "rock-head",
+      "hidden": false,
+      "effect": "Protects against recoil damage."
+    },
+    {
+      "name": "rattled",
+      "hidden": true,
+      "effect": "Raises Speed one stage upon being hit by a dark, ghost, or bug move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 65,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "humanoid",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female's head \"branch\" is smaller",
+  "evolution": {
+    "evolvesFromDex": 438,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0185.png",
+    "shiny": "sprites/shiny/0185.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/185.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/185.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "106",
+      "flavorText": "If a tree branch shakes when there is no wind, it's a SUDOWOODO, not a tree. It hides from the rain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 36",
+            "method": "Squirt Bottle",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mimic",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 10
+          },
+          {
+            "move": "low-kick",
+            "level": 19
+          },
+          {
+            "move": "rock-slide",
+            "level": 28
+          },
+          {
+            "move": "feint-attack",
+            "level": 37
+          },
+          {
+            "move": "slam",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-punch",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "mud-slap",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [
+          "self-destruct"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It mimics a tree to avoid being attacked by enemies. But since its forelegs remain green throughout the year, it is easily identified as a fake in the winter.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Battle Frontier",
+            "method": "Wailmer Pail",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "mimic",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 9
+          },
+          {
+            "move": "low-kick",
+            "level": 17
+          },
+          {
+            "move": "rock-slide",
+            "level": 25
+          },
+          {
+            "move": "block",
+            "level": 33
+          },
+          {
+            "move": "feint-attack",
+            "level": 41
+          },
+          {
+            "move": "slam",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "self-destruct"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "explosion",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rock-slide",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "93",
+      "flavorText": "It stands along paths pretending to be a tree. If it starts raining, it seems to disappear.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "rock-throw",
+            "level": 14
+          },
+          {
+            "move": "mimic",
+            "level": 17
+          },
+          {
+            "move": "block",
+            "level": 22
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "rock-tomb",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 33
+          },
+          {
+            "move": "slam",
+            "level": 38
+          },
+          {
+            "move": "sucker-punch",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "hammer-arm",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "defense-curl",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "93",
+      "flavorText": "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 221",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "rock-throw",
+            "level": 14
+          },
+          {
+            "move": "mimic",
+            "level": 17
+          },
+          {
+            "move": "block",
+            "level": 22
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "rock-tomb",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 33
+          },
+          {
+            "move": "slam",
+            "level": 38
+          },
+          {
+            "move": "sucker-punch",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "hammer-arm",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "defense-curl",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct"
+        ],
+        "tutor": [
+          "earth-power",
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "thunder-punch"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "107",
+      "flavorText": "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 36",
+            "method": "Squirt Bottle",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "rock-throw",
+            "level": 14
+          },
+          {
+            "move": "mimic",
+            "level": 17
+          },
+          {
+            "move": "block",
+            "level": 22
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "rock-tomb",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 33
+          },
+          {
+            "move": "slam",
+            "level": 38
+          },
+          {
+            "move": "sucker-punch",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "hammer-arm",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "defense-curl",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct"
+        ],
+        "tutor": [
+          "block",
+          "earth-power",
+          "fire-punch",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "mud-slap",
+          "role-play",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 6
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "rock-throw",
+            "level": 14
+          },
+          {
+            "move": "mimic",
+            "level": 17
+          },
+          {
+            "move": "block",
+            "level": 22
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "rock-tomb",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 33
+          },
+          {
+            "move": "slam",
+            "level": 38
+          },
+          {
+            "move": "sucker-punch",
+            "level": 41
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "hammer-arm",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "endure",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 15
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "rock-tomb",
+            "level": 22
+          },
+          {
+            "move": "block",
+            "level": 26
+          },
+          {
+            "move": "rock-slide",
+            "level": 29
+          },
+          {
+            "move": "counter",
+            "level": 33
+          },
+          {
+            "move": "sucker-punch",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 43
+          },
+          {
+            "move": "hammer-arm",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "endure",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct",
+          "stealth-rock"
+        ],
+        "tutor": [
+          "after-you",
+          "block",
+          "covet",
+          "earth-power",
+          "fire-punch",
+          "foul-play",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "role-play",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M130",
+      "flavorText": "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 15
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "rock-tomb",
+            "level": 22
+          },
+          {
+            "move": "block",
+            "level": 26
+          },
+          {
+            "move": "rock-slide",
+            "level": 29
+          },
+          {
+            "move": "counter",
+            "level": 33
+          },
+          {
+            "move": "sucker-punch",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 43
+          },
+          {
+            "move": "hammer-arm",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "nature-power",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "endure",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its hands remain green throughout the year, the Pokémon is easily identified as a fake during the winter.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 15
+          },
+          {
+            "move": "slam",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "rock-tomb",
+            "level": 22
+          },
+          {
+            "move": "block",
+            "level": 26
+          },
+          {
+            "move": "rock-slide",
+            "level": 29
+          },
+          {
+            "move": "counter",
+            "level": 33
+          },
+          {
+            "move": "sucker-punch",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "stone-edge",
+            "level": 43
+          },
+          {
+            "move": "hammer-arm",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "nature-power",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "endure",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct",
+          "stealth-rock"
+        ],
+        "tutor": [
+          "after-you",
+          "block",
+          "covet",
+          "earth-power",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "role-play",
+          "snore",
+          "stealth-rock",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "31",
+      "flavorText": "Apparently, the larger the green parts of this Pokémon, the more collectors value it. It’s a particular favorite among elderly people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Route 1 South",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slam",
+            "level": 0
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "slam",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "tearful-look",
+            "level": 22
+          },
+          {
+            "move": "rock-tomb",
+            "level": 26
+          },
+          {
+            "move": "block",
+            "level": 29
+          },
+          {
+            "move": "rock-slide",
+            "level": 33
+          },
+          {
+            "move": "counter",
+            "level": 36
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 47
+          },
+          {
+            "move": "hammer-arm",
+            "level": 50
+          },
+          {
+            "move": "head-smash",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "endure",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct",
+          "stealth-rock"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "38",
+      "flavorText": "The result of its holding the same pose all the time is arms that have become supple yet strong.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/185.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/185.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slam",
+            "level": 0
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "slam",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "tearful-look",
+            "level": 22
+          },
+          {
+            "move": "rock-tomb",
+            "level": 26
+          },
+          {
+            "move": "block",
+            "level": 29
+          },
+          {
+            "move": "rock-slide",
+            "level": 33
+          },
+          {
+            "move": "counter",
+            "level": 36
+          },
+          {
+            "move": "sucker-punch",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 43
+          },
+          {
+            "move": "stone-edge",
+            "level": 47
+          },
+          {
+            "move": "hammer-arm",
+            "level": 50
+          },
+          {
+            "move": "head-smash",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "earthquake",
+          "explosion",
+          "facade",
+          "fling",
+          "frustration",
+          "hidden-power",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "endure",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct",
+          "stealth-rock"
+        ],
+        "tutor": [
+          "after-you",
+          "block",
+          "covet",
+          "earth-power",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "role-play",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "thunder-punch"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "253",
+      "flavorText": "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slam",
+            "level": 0
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "slam",
+            "level": 1
+          },
+          {
+            "move": "stone-edge",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "block",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 16
+          },
+          {
+            "move": "rock-tomb",
+            "level": 20
+          },
+          {
+            "move": "tearful-look",
+            "level": 24
+          },
+          {
+            "move": "sucker-punch",
+            "level": 28
+          },
+          {
+            "move": "rock-slide",
+            "level": 32
+          },
+          {
+            "move": "low-kick",
+            "level": 36
+          },
+          {
+            "move": "counter",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 44
+          },
+          {
+            "move": "head-smash",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-press",
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-punch",
+          "fling",
+          "foul-play",
+          "helping-hand",
+          "ice-punch",
+          "iron-defense",
+          "low-kick",
+          "mega-kick",
+          "mega-punch",
+          "protect",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sand-tomb",
+          "sandstorm",
+          "self-destruct",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder-punch",
+          "uproar"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "harden",
+          "headbutt",
+          "rock-polish",
+          "rollout"
+        ],
+        "tutor": [
+          "meteor-beam"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "185",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/185.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve",
+          "Routes and"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slam",
+            "level": 0
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "slam",
+            "level": 1
+          },
+          {
+            "move": "stone-edge",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "block",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 16
+          },
+          {
+            "move": "rock-tomb",
+            "level": 20
+          },
+          {
+            "move": "tearful-look",
+            "level": 24
+          },
+          {
+            "move": "sucker-punch",
+            "level": 28
+          },
+          {
+            "move": "rock-slide",
+            "level": 32
+          },
+          {
+            "move": "low-kick",
+            "level": 36
+          },
+          {
+            "move": "counter",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 44
+          },
+          {
+            "move": "head-smash",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "explosion",
+          "facade",
+          "fling",
+          "focus-punch",
+          "protect",
+          "psych-up",
+          "rest",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "torment"
+        ],
+        "egg": [
+          "curse",
+          "defense-curl",
+          "harden",
+          "headbutt",
+          "rollout",
+          "sand-tomb",
+          "self-destruct"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "124",
+      "flavorText": "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Cloudpool Ridge and nearby, massive mass outbreaks | Coronet Highlands: Celestica Ruins and nearby"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "rollout",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 5
+          },
+          {
+            "move": "stealth-rock",
+            "level": 9
+          },
+          {
+            "move": "rock-slide",
+            "level": 15
+          },
+          {
+            "move": "iron-defense",
+            "level": 21
+          },
+          {
+            "move": "mimic",
+            "level": 29
+          },
+          {
+            "move": "double-edge",
+            "level": 37
+          },
+          {
+            "move": "head-smash",
+            "level": 47
+          },
+          {
+            "move": "wood-hammer",
+            "level": 57
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P088",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/185.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "West Province: Area Three | North Province: Socarrat Trail | Tera Raid Battles (3★ Sudowoodo)",
+          "Oni Mountain, Wistful Fields, Paradise Barrens, Kitakami Wilds, Timeless Woods"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "slam",
+            "level": 0
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "fake-tears",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "hammer-arm",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 1
+          },
+          {
+            "move": "stone-edge",
+            "level": 1
+          },
+          {
+            "move": "wood-hammer",
+            "level": 1
+          },
+          {
+            "move": "block",
+            "level": 12
+          },
+          {
+            "move": "mimic",
+            "level": 16
+          },
+          {
+            "move": "rock-tomb",
+            "level": 20
+          },
+          {
+            "move": "tearful-look",
+            "level": 24
+          },
+          {
+            "move": "sucker-punch",
+            "level": 28
+          },
+          {
+            "move": "rock-slide",
+            "level": 32
+          },
+          {
+            "move": "low-kick",
+            "level": 36
+          },
+          {
+            "move": "counter",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 44
+          },
+          {
+            "move": "head-smash",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "body-press",
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "curse",
+          "dig",
+          "double-edge",
+          "drain-punch",
+          "earth-power",
+          "earthquake",
+          "endeavor",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-punch",
+          "fling",
+          "focus-punch",
+          "foul-play",
+          "giga-impact",
+          "grass-knot",
+          "helping-hand",
+          "high-horsepower",
+          "hyper-beam",
+          "ice-punch",
+          "iron-defense",
+          "low-kick",
+          "low-sweep",
+          "meteor-beam",
+          "mud-shot",
+          "mud-slap",
+          "power-gem",
+          "protect",
+          "psych-up",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "spikes",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-punch",
+          "trailblaze"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "dex": 742,
+  "keyword": "cutiefly",
+  "name": "Cutiefly",
+  "japaneseName": {
+    "kana": "アブリー",
+    "romaji": "Abuly"
+  },
+  "type1": "Bug",
+  "type2": "Fairy",
+  "genus": "Bee Fly Pokémon",
+  "heightM": 0.1,
+  "weightKg": 0.2,
+  "stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 55,
+    "specialDefense": 40,
+    "speed": 84
+  },
+  "abilities": [
+    {
+      "name": "honey-gather",
+      "hidden": false,
+      "effect": "The Pokémon may pick up honey after battle."
+    },
+    {
+      "name": "shield-dust",
+      "hidden": false,
+      "effect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "name": "sweet-veil",
+      "hidden": true,
+      "effect": "Prevents friendly Pokémon from sleeping."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "armor",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      743
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0742.png",
+    "shiny": "sprites/shiny/0742.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/742.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "83",
+      "flavorText": "Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/742.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/742.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 2 North",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 3 North",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 3 South",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "struggle-bug",
+            "level": 10
+          },
+          {
+            "move": "silver-wind",
+            "level": 13
+          },
+          {
+            "move": "draining-kiss",
+            "level": 16
+          },
+          {
+            "move": "sweet-scent",
+            "level": 21
+          },
+          {
+            "move": "bug-buzz",
+            "level": 26
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 31
+          },
+          {
+            "move": "aromatherapy",
+            "level": 36
+          },
+          {
+            "move": "quiver-dance",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "baton-pass",
+          "bestow",
+          "moonblast",
+          "skill-swap",
+          "speed-swap"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "98",
+      "flavorText": "Cutiefly can pick up the auras of living things. It skillfully reads those auras to predict its foes’ movements and make fools of them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/742.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/742.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Melemele Meadow",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 2 North",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 3 North",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 3 South",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "struggle-bug",
+            "level": 10
+          },
+          {
+            "move": "silver-wind",
+            "level": 13
+          },
+          {
+            "move": "draining-kiss",
+            "level": 16
+          },
+          {
+            "move": "sweet-scent",
+            "level": 21
+          },
+          {
+            "move": "bug-buzz",
+            "level": 26
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 31
+          },
+          {
+            "move": "aromatherapy",
+            "level": 36
+          },
+          {
+            "move": "quiver-dance",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "baton-pass",
+          "bestow",
+          "moonblast",
+          "powder",
+          "skill-swap",
+          "speed-swap",
+          "sticky-web"
+        ],
+        "tutor": [
+          "after-you",
+          "ally-switch",
+          "bug-bite",
+          "covet",
+          "defog",
+          "helping-hand",
+          "last-resort",
+          "magic-room",
+          "signal-beam",
+          "skill-swap",
+          "snore",
+          "tailwind",
+          "telekinesis",
+          "trick",
+          "wonder-room"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "187",
+      "flavorText": "An opponent’s aura can tell Cutiefly what that opponent’s next move will be. Then Cutiefly can glide around the attack and strike back.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 12
+          },
+          {
+            "move": "draining-kiss",
+            "level": 18
+          },
+          {
+            "move": "struggle-bug",
+            "level": 24
+          },
+          {
+            "move": "aromatherapy",
+            "level": 30
+          },
+          {
+            "move": "switcheroo",
+            "level": 36
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 42
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          },
+          {
+            "move": "quiver-dance",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "ally-switch",
+          "attract",
+          "baton-pass",
+          "bug-buzz",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "draining-kiss",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "helping-hand",
+          "imprison",
+          "leech-life",
+          "light-screen",
+          "magic-room",
+          "play-rough",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "round",
+          "safeguard",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "speed-swap",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "thief",
+          "trick",
+          "u-turn",
+          "wonder-room"
+        ],
+        "egg": [
+          "aromatic-mist",
+          "moonblast",
+          "sticky-web"
+        ],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K016",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/742.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Mossfell Confluence, Wistful Fields, Paradise Barrens | Tera Raid Battles (1★ Cutiefly)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 6
+          },
+          {
+            "move": "sweet-scent",
+            "level": 12
+          },
+          {
+            "move": "draining-kiss",
+            "level": 18
+          },
+          {
+            "move": "struggle-bug",
+            "level": 24
+          },
+          {
+            "move": "covet",
+            "level": 30
+          },
+          {
+            "move": "switcheroo",
+            "level": 36
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 42
+          },
+          {
+            "move": "bug-buzz",
+            "level": 48
+          },
+          {
+            "move": "quiver-dance",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "baton-pass",
+          "bug-bite",
+          "bug-buzz",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "draining-kiss",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "grass-knot",
+          "helping-hand",
+          "imprison",
+          "leech-life",
+          "light-screen",
+          "magical-leaf",
+          "play-rough",
+          "pollen-puff",
+          "pounce",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "skill-swap",
+          "skitter-smack",
+          "sleep-talk",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "tailwind",
+          "tera-blast",
+          "thief",
+          "trailblaze",
+          "trick",
+          "u-turn"
+        ],
+        "egg": [
+          "aromatic-mist",
+          "moonblast",
+          "sticky-web"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

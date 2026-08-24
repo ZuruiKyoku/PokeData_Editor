@@ -1,0 +1,2341 @@
+{
+  "dex": 37,
+  "keyword": "vulpix",
+  "name": "Vulpix",
+  "japaneseName": {
+    "kana": "ロコン",
+    "romaji": "Rokon"
+  },
+  "type1": "Fire",
+  "type2": null,
+  "genus": "Fox Pokémon",
+  "heightM": 0.6,
+  "weightKg": 9.9,
+  "stats": {
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 65,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "flash-fire",
+      "hidden": false,
+      "effect": "Protects against fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+    },
+    {
+      "name": "drought",
+      "hidden": true,
+      "effect": "Summons strong sunlight that lasts indefinitely upon entering battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 6,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      38
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0037.png",
+    "shiny": "sprites/shiny/0037.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/37.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/37.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "37",
+      "flavorText": "When it is born, it has just one snow- white tail. The tail splits from its tip as it grows older.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/37.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pokemon Mansion 1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 34
+          },
+          {
+            "location": "Pokemon Mansion 2f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 32
+          },
+          {
+            "location": "Pokemon Mansion 3f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Pokemon Mansion B1f",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "roar",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "quick-attack",
+            "level": 16
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 17
+          },
+          {
+            "move": "confuse-ray",
+            "level": 21
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "imprison",
+            "level": 25
+          },
+          {
+            "move": "confuse-ray",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 29
+          },
+          {
+            "move": "safeguard",
+            "level": 33
+          },
+          {
+            "move": "flamethrower",
+            "level": 35
+          },
+          {
+            "move": "grudge",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 41
+          },
+          {
+            "move": "fire-spin",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "dig",
+          "double-edge",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "mimic",
+          "overheat",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "safeguard",
+          "secret-power",
+          "skull-bash",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "toxic"
+        ],
+        "egg": [
+          "disable",
+          "feint-attack",
+          "flail",
+          "heat-wave",
+          "howl",
+          "hypnosis",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "125",
+      "flavorText": "As its body grows larger, its six warm tails become more beautiful, with a more luxur­ ious coat of fur.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "roar",
+            "level": 13
+          },
+          {
+            "move": "confuse-ray",
+            "level": 19
+          },
+          {
+            "move": "safeguard",
+            "level": 25
+          },
+          {
+            "move": "flamethrower",
+            "level": 31
+          },
+          {
+            "move": "fire-spin",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "dig",
+          "double-team",
+          "endure",
+          "fire-blast",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "toxic"
+        ],
+        "egg": [
+          "disable",
+          "feint-attack",
+          "flail",
+          "hypnosis",
+          "spite"
+        ],
+        "tutor": [
+          "flamethrower"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "153",
+      "flavorText": "It can freely control fire, making fiery orbs fly like will-o’-the-wisps. Just before evolution, its six tails grow hot as if on fire.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Pyre Outside",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "roar",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 13
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 17
+          },
+          {
+            "move": "confuse-ray",
+            "level": 21
+          },
+          {
+            "move": "imprison",
+            "level": 25
+          },
+          {
+            "move": "flamethrower",
+            "level": 29
+          },
+          {
+            "move": "safeguard",
+            "level": 33
+          },
+          {
+            "move": "grudge",
+            "level": 37
+          },
+          {
+            "move": "fire-spin",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "safeguard",
+          "secret-power",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [
+          "disable",
+          "feint-attack",
+          "flail",
+          "heat-wave",
+          "howl",
+          "hypnosis",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 209",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 14
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "imprison",
+            "level": 21
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "safeguard",
+            "level": 27
+          },
+          {
+            "move": "payback",
+            "level": 31
+          },
+          {
+            "move": "fire-spin",
+            "level": 34
+          },
+          {
+            "move": "captivate",
+            "level": 37
+          },
+          {
+            "move": "grudge",
+            "level": 41
+          },
+          {
+            "move": "extrasensory",
+            "level": 44
+          },
+          {
+            "move": "fire-blast",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "disable",
+          "energy-ball",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "hypnosis",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 209",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 214",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 14
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "imprison",
+            "level": 21
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "safeguard",
+            "level": 27
+          },
+          {
+            "move": "payback",
+            "level": 31
+          },
+          {
+            "move": "fire-spin",
+            "level": 34
+          },
+          {
+            "move": "captivate",
+            "level": 37
+          },
+          {
+            "move": "grudge",
+            "level": 41
+          },
+          {
+            "move": "extrasensory",
+            "level": 44
+          },
+          {
+            "move": "fire-blast",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "disable",
+          "energy-ball",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "hypnosis",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": [
+          "heat-wave",
+          "ominous-wind",
+          "snore",
+          "spite",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "127",
+      "flavorText": "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 48",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 14
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "imprison",
+            "level": 21
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "safeguard",
+            "level": 27
+          },
+          {
+            "move": "payback",
+            "level": 31
+          },
+          {
+            "move": "fire-spin",
+            "level": 34
+          },
+          {
+            "move": "captivate",
+            "level": 37
+          },
+          {
+            "move": "grudge",
+            "level": 41
+          },
+          {
+            "move": "extrasensory",
+            "level": 44
+          },
+          {
+            "move": "fire-blast",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "disable",
+          "energy-ball",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "psych-up",
+          "spite"
+        ],
+        "tutor": [
+          "headbutt",
+          "heat-wave",
+          "ominous-wind",
+          "pain-split",
+          "role-play",
+          "snore",
+          "spite",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Dark Grass",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Abundant Shrine",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 11
+          },
+          {
+            "move": "fire-spin",
+            "level": 14
+          },
+          {
+            "move": "confuse-ray",
+            "level": 17
+          },
+          {
+            "move": "imprison",
+            "level": 21
+          },
+          {
+            "move": "flame-burst",
+            "level": 24
+          },
+          {
+            "move": "safeguard",
+            "level": 27
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 31
+          },
+          {
+            "move": "payback",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "captivate",
+            "level": 41
+          },
+          {
+            "move": "inferno",
+            "level": 44
+          },
+          {
+            "move": "grudge",
+            "level": 47
+          },
+          {
+            "move": "extrasensory",
+            "level": 51
+          },
+          {
+            "move": "fire-blast",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "disable",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "secret-power",
+          "spite",
+          "tail-slap"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "248",
+      "flavorText": "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Dark Grass",
+            "minLevel": 37,
+            "maxLevel": 37
+          },
+          {
+            "location": "Abundant Shrine",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "fire-spin",
+            "level": 12
+          },
+          {
+            "move": "confuse-ray",
+            "level": 15
+          },
+          {
+            "move": "imprison",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "flame-burst",
+            "level": 23
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 26
+          },
+          {
+            "move": "hex",
+            "level": 28
+          },
+          {
+            "move": "payback",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 36
+          },
+          {
+            "move": "extrasensory",
+            "level": 39
+          },
+          {
+            "move": "fire-blast",
+            "level": 42
+          },
+          {
+            "move": "grudge",
+            "level": 44
+          },
+          {
+            "move": "captivate",
+            "level": 47
+          },
+          {
+            "move": "inferno",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "disable",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "secret-power",
+          "spite",
+          "tail-slap"
+        ],
+        "tutor": [
+          "covet",
+          "dark-pulse",
+          "foul-play",
+          "heat-wave",
+          "iron-tail",
+          "pain-split",
+          "role-play",
+          "sleep-talk",
+          "snore",
+          "spite",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "fire-spin",
+            "level": 12
+          },
+          {
+            "move": "confuse-ray",
+            "level": 15
+          },
+          {
+            "move": "imprison",
+            "level": 18
+          },
+          {
+            "move": "feint-attack",
+            "level": 20
+          },
+          {
+            "move": "flame-burst",
+            "level": 23
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 26
+          },
+          {
+            "move": "hex",
+            "level": 28
+          },
+          {
+            "move": "payback",
+            "level": 31
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "safeguard",
+            "level": 36
+          },
+          {
+            "move": "extrasensory",
+            "level": 39
+          },
+          {
+            "move": "fire-blast",
+            "level": 42
+          },
+          {
+            "move": "grudge",
+            "level": 44
+          },
+          {
+            "move": "captivate",
+            "level": 47
+          },
+          {
+            "move": "inferno",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "disable",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "secret-power",
+          "spite",
+          "tail-slap"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "160",
+      "flavorText": "Inside Vulpix’s body burns a flame that never goes out. During the daytime, when the temperatures rise, this Pokémon releases flames from its mouth to prevent its body from growing too hot.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "confuse-ray",
+            "level": 12
+          },
+          {
+            "move": "fire-spin",
+            "level": 15
+          },
+          {
+            "move": "payback",
+            "level": 18
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 23
+          },
+          {
+            "move": "hex",
+            "level": 26
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "extrasensory",
+            "level": 31
+          },
+          {
+            "move": "safeguard",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "imprison",
+            "level": 39
+          },
+          {
+            "move": "fire-blast",
+            "level": 42
+          },
+          {
+            "move": "grudge",
+            "level": 44
+          },
+          {
+            "move": "captivate",
+            "level": 47
+          },
+          {
+            "move": "inferno",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "disable",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "secret-power",
+          "spite",
+          "tail-slap"
+        ],
+        "tutor": [
+          "covet",
+          "foul-play",
+          "heat-wave",
+          "iron-tail",
+          "pain-split",
+          "role-play",
+          "snore",
+          "spite",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "253",
+      "flavorText": "From its mouth spew flames that seem to resemble the spirits of the deceased. Some people mistakenly think this fire is a ghost.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "confuse-ray",
+            "level": 12
+          },
+          {
+            "move": "fire-spin",
+            "level": 15
+          },
+          {
+            "move": "payback",
+            "level": 18
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 23
+          },
+          {
+            "move": "hex",
+            "level": 26
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "extrasensory",
+            "level": 31
+          },
+          {
+            "move": "safeguard",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "imprison",
+            "level": 39
+          },
+          {
+            "move": "fire-blast",
+            "level": 42
+          },
+          {
+            "move": "grudge",
+            "level": 44
+          },
+          {
+            "move": "captivate",
+            "level": 47
+          },
+          {
+            "move": "inferno",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "disable",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "secret-power",
+          "spite",
+          "tail-slap"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "330",
+      "flavorText": "It manipulates balls of fire to catch its prey. If you raise one from when it’s young, it will grow close to you like a puppy Pokémon.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/37.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/37.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "roar",
+            "level": 7
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 9
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "confuse-ray",
+            "level": 12
+          },
+          {
+            "move": "fire-spin",
+            "level": 15
+          },
+          {
+            "move": "payback",
+            "level": 18
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 20
+          },
+          {
+            "move": "feint-attack",
+            "level": 23
+          },
+          {
+            "move": "hex",
+            "level": 26
+          },
+          {
+            "move": "flame-burst",
+            "level": 28
+          },
+          {
+            "move": "extrasensory",
+            "level": 31
+          },
+          {
+            "move": "safeguard",
+            "level": 34
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "imprison",
+            "level": 39
+          },
+          {
+            "move": "fire-blast",
+            "level": 42
+          },
+          {
+            "move": "grudge",
+            "level": 44
+          },
+          {
+            "move": "captivate",
+            "level": 47
+          },
+          {
+            "move": "inferno",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "captivate",
+          "disable",
+          "extrasensory",
+          "feint-attack",
+          "flail",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "power-swap",
+          "secret-power",
+          "spite",
+          "tail-slap"
+        ],
+        "tutor": [
+          "covet",
+          "foul-play",
+          "heat-wave",
+          "iron-tail",
+          "pain-split",
+          "role-play",
+          "snore",
+          "spite",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "37",
+      "flavorText": "Both its fur and its tails are beautiful. As it grows, the tails split and form more tails.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "confuse-ray",
+            "level": 14
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 17
+          },
+          {
+            "move": "fire-spin",
+            "level": 21
+          },
+          {
+            "move": "flamethrower",
+            "level": 24
+          },
+          {
+            "move": "roar",
+            "level": 28
+          },
+          {
+            "move": "fire-blast",
+            "level": 31
+          }
+        ],
+        "machine": [
+          "dark-pulse",
+          "dig",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "foul-play",
+          "headbutt",
+          "iron-tail",
+          "protect",
+          "reflect",
+          "rest",
+          "substitute",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "68",
+      "flavorText": "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "spite",
+            "level": 12
+          },
+          {
+            "move": "incinerate",
+            "level": 16
+          },
+          {
+            "move": "confuse-ray",
+            "level": 20
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 24
+          },
+          {
+            "move": "extrasensory",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 32
+          },
+          {
+            "move": "imprison",
+            "level": 36
+          },
+          {
+            "move": "fire-spin",
+            "level": 40
+          },
+          {
+            "move": "safeguard",
+            "level": 44
+          },
+          {
+            "move": "inferno",
+            "level": 48
+          },
+          {
+            "move": "grudge",
+            "level": 52
+          },
+          {
+            "move": "fire-blast",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "body-slam",
+          "dark-pulse",
+          "dig",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "fire-spin",
+          "flamethrower",
+          "flare-blitz",
+          "foul-play",
+          "heat-wave",
+          "hex",
+          "imprison",
+          "iron-tail",
+          "mystical-fire",
+          "overheat",
+          "payback",
+          "power-swap",
+          "protect",
+          "rest",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "tail-slap",
+          "weather-ball",
+          "will-o-wisp",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "flail",
+          "flame-charge",
+          "howl",
+          "hypnosis",
+          "memento",
+          "roar"
+        ],
+        "tutor": [
+          "burning-jealousy"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "37",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/37.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Grand Underground - Spacious Cave, Volcanic Cave, Sandsear Cave, Typhlo Cavern (After obtaining the National Pokédex) (Kantonian Form) | Unobtainable (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "spite",
+            "level": 12
+          },
+          {
+            "move": "incinerate",
+            "level": 16
+          },
+          {
+            "move": "confuse-ray",
+            "level": 20
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 24
+          },
+          {
+            "move": "extrasensory",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 32
+          },
+          {
+            "move": "imprison",
+            "level": 36
+          },
+          {
+            "move": "fire-spin",
+            "level": 40
+          },
+          {
+            "move": "safeguard",
+            "level": 44
+          },
+          {
+            "move": "inferno",
+            "level": 48
+          },
+          {
+            "move": "grudge",
+            "level": 52
+          },
+          {
+            "move": "fire-blast",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "iron-tail",
+          "overheat",
+          "payback",
+          "protect",
+          "psych-up",
+          "rest",
+          "roar",
+          "safeguard",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "disable",
+          "extrasensory",
+          "flail",
+          "flame-charge",
+          "flare-blitz",
+          "heat-wave",
+          "hex",
+          "howl",
+          "hypnosis",
+          "memento",
+          "power-swap",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "168",
+      "flavorText": "In its belly burns a fire, which Vulpix spits out in the form of fireballs. When young, this Pokémon has but one white tail. As the Pokémon matures, this single tail splits into six.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: Veilstone Cape, massive mass outbreaks (Kantonian Form) | Alabaster Icelands: massive mass outbreaks (Kantonian Form) | Alabaster Icelands: Whiteout Valley (only one during Request 83) (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "nasty-plot",
+            "level": 9
+          },
+          {
+            "move": "flame-wheel",
+            "level": 15
+          },
+          {
+            "move": "hex",
+            "level": 21
+          },
+          {
+            "move": "extrasensory",
+            "level": 29
+          },
+          {
+            "move": "flamethrower",
+            "level": 37
+          },
+          {
+            "move": "fire-blast",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "baby-doll-eyes",
+          "dark-pulse",
+          "energy-ball",
+          "flamethrower",
+          "iron-tail",
+          "mystical-fire",
+          "ominous-wind",
+          "rest",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K037",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/37.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "spite",
+            "level": 12
+          },
+          {
+            "move": "incinerate",
+            "level": 16
+          },
+          {
+            "move": "confuse-ray",
+            "level": 20
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 24
+          },
+          {
+            "move": "extrasensory",
+            "level": 28
+          },
+          {
+            "move": "flamethrower",
+            "level": 32
+          },
+          {
+            "move": "imprison",
+            "level": 36
+          },
+          {
+            "move": "fire-spin",
+            "level": 40
+          },
+          {
+            "move": "safeguard",
+            "level": 44
+          },
+          {
+            "move": "inferno",
+            "level": 48
+          },
+          {
+            "move": "fire-blast",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "agility",
+          "baton-pass",
+          "body-slam",
+          "burning-jealousy",
+          "charm",
+          "confuse-ray",
+          "dark-pulse",
+          "dig",
+          "double-edge",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "fire-spin",
+          "flame-charge",
+          "flamethrower",
+          "flare-blitz",
+          "foul-play",
+          "heat-wave",
+          "helping-hand",
+          "hex",
+          "imprison",
+          "nasty-plot",
+          "overheat",
+          "pain-split",
+          "protect",
+          "psych-up",
+          "rest",
+          "roar",
+          "sleep-talk",
+          "snarl",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "weather-ball",
+          "will-o-wisp",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "flail",
+          "flame-charge",
+          "healing-wish",
+          "howl",
+          "hypnosis",
+          "memento",
+          "roar"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

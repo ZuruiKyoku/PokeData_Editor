@@ -1,0 +1,1113 @@
+{
+  "dex": 349,
+  "keyword": "feebas",
+  "name": "Feebas",
+  "japaneseName": {
+    "kana": "ヒンバス",
+    "romaji": "Hinbass"
+  },
+  "type1": "Water",
+  "type2": null,
+  "genus": "Fish Pokémon",
+  "heightM": 0.6,
+  "weightKg": 7.4,
+  "stats": {
+    "hp": 20,
+    "attack": 15,
+    "defense": 20,
+    "specialAttack": 10,
+    "specialDefense": 55,
+    "speed": 80
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "hidden": false,
+      "effect": "Doubles Speed during rain."
+    },
+    {
+      "name": "oblivious",
+      "hidden": false,
+      "effect": "Prevents infatuation and protects against captivate."
+    },
+    {
+      "name": "adaptability",
+      "hidden": true,
+      "effect": "Increases the same-type attack bonus from 1.5× to 2×."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water1",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "slow-then-very-fast"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "fish",
+    "habitat": "waters-edge",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      350
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0349.png",
+    "shiny": "sprites/shiny/0349.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/349.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/349.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "140",
+      "flavorText": "FEEBAS live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few TRAINERS raise it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 119",
+            "method": "Feebas Tile Fishing",
+            "minLevel": 20,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "surf",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "hypnosis",
+          "light-screen",
+          "mirror-coat",
+          "mud-sport"
+        ],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "138",
+      "flavorText": "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "haze",
+          "hypnosis",
+          "light-screen",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "138",
+      "flavorText": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "haze",
+          "hypnosis",
+          "light-screen",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "haze",
+          "hypnosis",
+          "light-screen",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 1",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 60
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "brine",
+          "captivate",
+          "confuse-ray",
+          "dragon-breath",
+          "dragon-pulse",
+          "haze",
+          "hypnosis",
+          "iron-tail",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1",
+            "method": "Super Rod",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 1",
+            "method": "Super Rod Spots",
+            "minLevel": 40,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "brine",
+          "captivate",
+          "confuse-ray",
+          "dragon-breath",
+          "dragon-pulse",
+          "haze",
+          "hypnosis",
+          "iron-tail",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": [
+          "dragon-pulse",
+          "icy-wind",
+          "iron-tail",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "brine",
+          "captivate",
+          "confuse-ray",
+          "dragon-breath",
+          "dragon-pulse",
+          "haze",
+          "hypnosis",
+          "iron-tail",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "145",
+      "flavorText": "While Feebas’s body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this Pokémon is also slow and dimwitted, making it an easy catch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "brine",
+          "captivate",
+          "confuse-ray",
+          "dragon-breath",
+          "dragon-pulse",
+          "haze",
+          "hypnosis",
+          "iron-tail",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": [
+          "dragon-pulse",
+          "icy-wind",
+          "iron-tail",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "155",
+      "flavorText": "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Brooklet Hill North",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "brine",
+          "captivate",
+          "confuse-ray",
+          "dragon-breath",
+          "dragon-pulse",
+          "haze",
+          "hypnosis",
+          "iron-tail",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "189",
+      "flavorText": "Because of its wretched appearance, most people pay it no attention, but there are some who collect Feebas—and Feebas alone!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/349.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/349.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 21
+          },
+          {
+            "location": "Brooklet Hill North",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Bubbling Spots",
+            "minLevel": 10,
+            "maxLevel": 21
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Super Rod",
+            "minLevel": 10,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "brine",
+          "captivate",
+          "confuse-ray",
+          "dragon-breath",
+          "dragon-pulse",
+          "haze",
+          "hypnosis",
+          "iron-tail",
+          "mirror-coat",
+          "mist",
+          "mud-sport",
+          "tickle"
+        ],
+        "tutor": [
+          "dragon-pulse",
+          "icy-wind",
+          "iron-tail",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "152",
+      "flavorText": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "dive",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "hail",
+          "ice-beam",
+          "icy-wind",
+          "iron-tail",
+          "light-screen",
+          "mud-shot",
+          "muddy-water",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scald",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "surf",
+          "swift",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "haze",
+          "hypnosis",
+          "mirror-coat",
+          "mist",
+          "tickle"
+        ],
+        "tutor": [
+          "scale-shot"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "349",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/349.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mount Coronet (four fishing spots)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brine",
+          "double-team",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "hail",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "haze",
+          "hypnosis",
+          "mirror-coat",
+          "mist",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K158",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/349.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Oni Mountain, Crystal Pool | Tera Raid Battles (2★ Feebas, 3★ Feebas)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "splash",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 25
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "chilling-water",
+          "confuse-ray",
+          "double-edge",
+          "dragon-pulse",
+          "endure",
+          "facade",
+          "haze",
+          "ice-beam",
+          "icy-wind",
+          "light-screen",
+          "mud-shot",
+          "muddy-water",
+          "protect",
+          "rain-dance",
+          "rest",
+          "scale-shot",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swift",
+          "tera-blast",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [
+          "confuse-ray",
+          "dragon-breath",
+          "haze",
+          "hypnosis",
+          "mirror-coat",
+          "mist",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H048",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose | Vert Sector 4 (after concluding Side Mission 160: \"Feebas's New Friends\")"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

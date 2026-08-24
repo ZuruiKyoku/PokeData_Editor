@@ -1,0 +1,1797 @@
+{
+  "dex": 232,
+  "keyword": "donphan",
+  "name": "Donphan",
+  "japaneseName": {
+    "kana": "ドンファン",
+    "romaji": "Donfan"
+  },
+  "type1": "Ground",
+  "type2": null,
+  "genus": "Armor Pokémon",
+  "heightM": 1.1,
+  "weightKg": 120.0,
+  "stats": {
+    "hp": 90,
+    "attack": 120,
+    "defense": 120,
+    "specialAttack": 60,
+    "specialDefense": 60,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "sand-veil",
+      "hidden": true,
+      "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "quadruped",
+    "habitat": "rough-terrain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female has shorter tusks",
+  "evolution": {
+    "evolvesFromDex": 231,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0232.png",
+    "shiny": "sprites/shiny/0232.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/232.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/232.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "196",
+      "flavorText": "Because this POKéMON's skin is so tough, a normal attack won't even leave a scratch on it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Mt Silver 2f",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Silver Top",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 45",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 30
+          },
+          {
+            "location": "Victory Road 1 1f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Victory Road 1 2f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Victory Road 1 3f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 9
+          },
+          {
+            "move": "flail",
+            "level": 17
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "rollout",
+            "level": 33
+          },
+          {
+            "move": "rapid-spin",
+            "level": 41
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "double-team",
+          "earthquake",
+          "endure",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "166",
+      "flavorText": "A DONPHAN is so strong it can easily haul a dump truck. Its hide has toughened to a rock-hard state. An ordinary sort of attack won’t even leave a scratch.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 9
+          },
+          {
+            "move": "flail",
+            "level": 17
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "rollout",
+            "level": 33
+          },
+          {
+            "move": "rapid-spin",
+            "level": 41
+          },
+          {
+            "move": "earthquake",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "earthquake",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "knock-off",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "magnitude",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 31
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "earthquake",
+            "level": 46
+          },
+          {
+            "move": "giga-impact",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "knock-off",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "magnitude",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 31
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "earthquake",
+            "level": 46
+          },
+          {
+            "move": "giga-impact",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "ancient-power",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "iron-defense",
+          "knock-off",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "201",
+      "flavorText": "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          },
+          {
+            "location": "Mt Silver 1f Top",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 50
+          },
+          {
+            "location": "Mt Silver 2f",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 48
+          },
+          {
+            "location": "Mt Silver 3f",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 48
+          },
+          {
+            "location": "Mt Silver 4f",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Mt Silver Mountainside",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          },
+          {
+            "location": "Mt Silver Top",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Victory Road 1 1f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Victory Road 1 2f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          },
+          {
+            "location": "Victory Road 1 3f",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "knock-off",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "magnitude",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 31
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "earthquake",
+            "level": 46
+          },
+          {
+            "move": "giga-impact",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "ancient-power",
+          "block",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "headbutt",
+          "iron-defense",
+          "knock-off",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "superpower"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It attacks by curling up, then rolling into its foe. It can blow apart a house in one hit.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "knock-off",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "magnitude",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 31
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "earthquake",
+            "level": 46
+          },
+          {
+            "move": "giga-impact",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It attacks by curling up then rolling into its foe. It can blow apart a house in one hit.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "knock-off",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "magnitude",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 31
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "earthquake",
+            "level": 46
+          },
+          {
+            "move": "giga-impact",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "block",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "hyper-voice",
+          "iron-defense",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "knock-off",
+            "level": 10
+          },
+          {
+            "move": "rollout",
+            "level": 15
+          },
+          {
+            "move": "magnitude",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "assurance",
+            "level": 31
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "earthquake",
+            "level": 46
+          },
+          {
+            "move": "giga-impact",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "173",
+      "flavorText": "If Donphan were to tackle with its hard body, even a house could be destroyed. Using its massive strength, the Pokémon helps clear rock and mud slides that block mountain trails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "knock-off",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 25
+          },
+          {
+            "move": "magnitude",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 43
+          },
+          {
+            "move": "giga-impact",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "block",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "hyper-voice",
+          "iron-defense",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "snore",
+          "stealth-rock",
+          "superpower"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "knock-off",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "magnitude",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 43
+          },
+          {
+            "move": "giga-impact",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/232.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/232.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "knock-off",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "magnitude",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 43
+          },
+          {
+            "move": "giga-impact",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "gyro-ball",
+          "hidden-power",
+          "hyper-beam",
+          "poison-jab",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "block",
+          "bounce",
+          "earth-power",
+          "endeavor",
+          "gunk-shot",
+          "hyper-voice",
+          "iron-defense",
+          "iron-tail",
+          "knock-off",
+          "last-resort",
+          "seed-bomb",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "superpower"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "232",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/232.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "double-edge",
+            "level": 1
+          },
+          {
+            "move": "endure",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "flail",
+            "level": 1
+          },
+          {
+            "move": "fury-attack",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "last-resort",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "take-down",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "knock-off",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "rock-tomb",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 43
+          },
+          {
+            "move": "giga-impact",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "giga-impact",
+          "gyro-ball",
+          "hyper-beam",
+          "iron-tail",
+          "poison-jab",
+          "protect",
+          "rest",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P123",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/232.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Four | West Province: Area Two, Asado Desert | Tera Raid Battles (4★ Donphan)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fury-attack",
+            "level": 0
+          },
+          {
+            "move": "bulldoze",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "fire-fang",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-fang",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 6
+          },
+          {
+            "move": "rollout",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "knock-off",
+            "level": 19
+          },
+          {
+            "move": "slam",
+            "level": 24
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "earthquake",
+            "level": 43
+          },
+          {
+            "move": "giga-impact",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "body-press",
+          "body-slam",
+          "bulldoze",
+          "charm",
+          "curse",
+          "dig",
+          "double-edge",
+          "earth-power",
+          "earthquake",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-fang",
+          "giga-impact",
+          "gunk-shot",
+          "gyro-ball",
+          "heavy-slam",
+          "helping-hand",
+          "high-horsepower",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-fang",
+          "ice-spinner",
+          "iron-defense",
+          "iron-head",
+          "knock-off",
+          "mud-shot",
+          "mud-slap",
+          "play-rough",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "sand-tomb",
+          "sandstorm",
+          "scary-face",
+          "seed-bomb",
+          "sleep-talk",
+          "smack-down",
+          "smart-strike",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder-fang",
+          "trailblaze"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

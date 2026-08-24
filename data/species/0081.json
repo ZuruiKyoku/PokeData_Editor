@@ -1,0 +1,2116 @@
+{
+  "dex": 81,
+  "keyword": "magnemite",
+  "name": "Magnemite",
+  "japaneseName": {
+    "kana": "コイル",
+    "romaji": "Coil"
+  },
+  "type1": "Electric",
+  "type2": "Steel",
+  "genus": "Magnet Pokémon",
+  "heightM": 0.3,
+  "weightKg": 6.0,
+  "stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "specialAttack": 95,
+    "specialDefense": 55,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "magnet-pull",
+      "hidden": false,
+      "effect": "Prevents steel opponents from fleeing or switching out."
+    },
+    {
+      "name": "sturdy",
+      "hidden": false,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    {
+      "name": "analytic",
+      "hidden": true,
+      "effect": "Strengthens moves to 1.3× their power when moving last."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": -1,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "arms",
+    "habitat": "rough-terrain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      82
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0081.png",
+    "shiny": "sprites/shiny/0081.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/81.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/81.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "81",
+      "flavorText": "Uses antigravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/81.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Power Plant",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "metal-sound",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 16
+          },
+          {
+            "move": "sonic-boom",
+            "level": 21
+          },
+          {
+            "move": "thunder-wave",
+            "level": 21
+          },
+          {
+            "move": "thunder-shock",
+            "level": 25
+          },
+          {
+            "move": "spark",
+            "level": 26
+          },
+          {
+            "move": "supersonic",
+            "level": 29
+          },
+          {
+            "move": "lock-on",
+            "level": 32
+          },
+          {
+            "move": "thunder-wave",
+            "level": 35
+          },
+          {
+            "move": "swift",
+            "level": 38
+          },
+          {
+            "move": "swift",
+            "level": 41
+          },
+          {
+            "move": "screech",
+            "level": 44
+          },
+          {
+            "move": "screech",
+            "level": 47
+          },
+          {
+            "move": "zap-cannon",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "bide",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "118",
+      "flavorText": "The electricity emitted by the units on each side of its body cause it to become a strong magnet.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 16
+          },
+          {
+            "move": "thunder-wave",
+            "level": 21
+          },
+          {
+            "move": "lock-on",
+            "level": 27
+          },
+          {
+            "move": "swift",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 39
+          },
+          {
+            "move": "zap-cannon",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "curse",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "swagger",
+          "swift",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "82",
+      "flavorText": "The units at its sides are extremely powerful magnets. They generate enough magnetism to draw in iron objects from over 300 feet away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "New Mauville",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 26
+          },
+          {
+            "location": "New Mauville Entrance",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "metal-sound",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 16
+          },
+          {
+            "move": "thunder-wave",
+            "level": 21
+          },
+          {
+            "move": "spark",
+            "level": 26
+          },
+          {
+            "move": "lock-on",
+            "level": 32
+          },
+          {
+            "move": "swift",
+            "level": 38
+          },
+          {
+            "move": "screech",
+            "level": 44
+          },
+          {
+            "move": "zap-cannon",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sunny-day",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Fuego Ironworks",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "metal-sound",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "thunder-wave",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 22
+          },
+          {
+            "move": "lock-on",
+            "level": 27
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 30
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "discharge",
+            "level": 38
+          },
+          {
+            "move": "mirror-shot",
+            "level": 43
+          },
+          {
+            "move": "magnet-rise",
+            "level": 46
+          },
+          {
+            "move": "gyro-ball",
+            "level": 49
+          },
+          {
+            "move": "zap-cannon",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "178",
+      "flavorText": "The faster the units at its sides rotate, the greater the magnetic force they generate.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Fuego Ironworks",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 222",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 39
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "metal-sound",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "thunder-wave",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 22
+          },
+          {
+            "move": "lock-on",
+            "level": 27
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 30
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "discharge",
+            "level": 38
+          },
+          {
+            "move": "mirror-shot",
+            "level": 43
+          },
+          {
+            "move": "magnet-rise",
+            "level": 46
+          },
+          {
+            "move": "gyro-ball",
+            "level": 49
+          },
+          {
+            "move": "zap-cannon",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "iron-defense",
+          "magnet-rise",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "119",
+      "flavorText": "The units at the sides of its body generate antigravity energy to keep it aloft in the air.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Safari Zone Zone Peak",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          },
+          {
+            "location": "Safari Zone Zone Wasteland",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "metal-sound",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "thunder-wave",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 22
+          },
+          {
+            "move": "lock-on",
+            "level": 27
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 30
+          },
+          {
+            "move": "screech",
+            "level": 33
+          },
+          {
+            "move": "discharge",
+            "level": 38
+          },
+          {
+            "move": "mirror-shot",
+            "level": 43
+          },
+          {
+            "move": "magnet-rise",
+            "level": 46
+          },
+          {
+            "move": "gyro-ball",
+            "level": 49
+          },
+          {
+            "move": "zap-cannon",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The faster the units at its sides rotate, the greater the magnetic force they generate.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "metal-sound",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 6
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "thunder-wave",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 22
+          },
+          {
+            "move": "electro-ball",
+            "level": 27
+          },
+          {
+            "move": "lock-on",
+            "level": 30
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 38
+          },
+          {
+            "move": "discharge",
+            "level": 43
+          },
+          {
+            "move": "mirror-shot",
+            "level": 46
+          },
+          {
+            "move": "magnet-rise",
+            "level": 49
+          },
+          {
+            "move": "gyro-ball",
+            "level": 54
+          },
+          {
+            "move": "zap-cannon",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "48",
+      "flavorText": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Virbank Complex Inner",
+            "method": "Dark Grass",
+            "minLevel": 11,
+            "maxLevel": 13
+          },
+          {
+            "location": "Virbank Complex Inner",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Virbank Complex Outer",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "thunder-shock",
+            "level": 7
+          },
+          {
+            "move": "sonic-boom",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 18
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "mirror-shot",
+            "level": 25
+          },
+          {
+            "move": "metal-sound",
+            "level": 29
+          },
+          {
+            "move": "electro-ball",
+            "level": 32
+          },
+          {
+            "move": "flash-cannon",
+            "level": 35
+          },
+          {
+            "move": "screech",
+            "level": 39
+          },
+          {
+            "move": "discharge",
+            "level": 43
+          },
+          {
+            "move": "lock-on",
+            "level": 46
+          },
+          {
+            "move": "magnet-rise",
+            "level": 49
+          },
+          {
+            "move": "gyro-ball",
+            "level": 53
+          },
+          {
+            "move": "zap-cannon",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "electroweb",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "recycle",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M69",
+      "flavorText": "It moves while constantly hovering. It discharges Thunder Wave and so on from the units at its sides.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "thunder-shock",
+            "level": 7
+          },
+          {
+            "move": "sonic-boom",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 18
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "mirror-shot",
+            "level": 25
+          },
+          {
+            "move": "metal-sound",
+            "level": 29
+          },
+          {
+            "move": "electro-ball",
+            "level": 32
+          },
+          {
+            "move": "flash-cannon",
+            "level": 35
+          },
+          {
+            "move": "screech",
+            "level": 39
+          },
+          {
+            "move": "discharge",
+            "level": 43
+          },
+          {
+            "move": "lock-on",
+            "level": 46
+          },
+          {
+            "move": "magnet-rise",
+            "level": 49
+          },
+          {
+            "move": "gyro-ball",
+            "level": 53
+          },
+          {
+            "move": "zap-cannon",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "84",
+      "flavorText": "Magnemite floats in the air by emitting electromagnetic waves from the units at its sides. These waves block gravity. This Pokémon becomes incapable of flight if its internal electrical supply is depleted.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "thunder-shock",
+            "level": 7
+          },
+          {
+            "move": "sonic-boom",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "mirror-shot",
+            "level": 23
+          },
+          {
+            "move": "metal-sound",
+            "level": 25
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "flash-cannon",
+            "level": 31
+          },
+          {
+            "move": "screech",
+            "level": 35
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "lock-on",
+            "level": 41
+          },
+          {
+            "move": "magnet-rise",
+            "level": 43
+          },
+          {
+            "move": "gyro-ball",
+            "level": 47
+          },
+          {
+            "move": "zap-cannon",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "electroweb",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "recycle",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "47",
+      "flavorText": "It sends out electromagnetic waves, which let it float through the air. Touching it while it’s eating electricity will give you a full-body shock.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Shopping District",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 8
+          },
+          {
+            "location": "Malie City Outer Cape",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 27
+          },
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 1 Hauoli Outskirts",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 7
+          },
+          {
+            "move": "thunder-wave",
+            "level": 11
+          },
+          {
+            "move": "light-screen",
+            "level": 13
+          },
+          {
+            "move": "sonic-boom",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "mirror-shot",
+            "level": 23
+          },
+          {
+            "move": "metal-sound",
+            "level": 25
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "flash-cannon",
+            "level": 31
+          },
+          {
+            "move": "screech",
+            "level": 35
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "lock-on",
+            "level": 41
+          },
+          {
+            "move": "magnet-rise",
+            "level": 43
+          },
+          {
+            "move": "gyro-ball",
+            "level": 47
+          },
+          {
+            "move": "zap-cannon",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "54",
+      "flavorText": "Perhaps because electrical lines are often buried these days, the number of Magnemite attacks on power plants has increased.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/81.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/81.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Shopping District",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 9
+          },
+          {
+            "location": "Malie City Outer Cape",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 1 Trainers School",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 7
+          },
+          {
+            "move": "magnet-bomb",
+            "level": 11
+          },
+          {
+            "move": "light-screen",
+            "level": 13
+          },
+          {
+            "move": "sonic-boom",
+            "level": 17
+          },
+          {
+            "move": "spark",
+            "level": 19
+          },
+          {
+            "move": "mirror-shot",
+            "level": 23
+          },
+          {
+            "move": "metal-sound",
+            "level": 25
+          },
+          {
+            "move": "electro-ball",
+            "level": 29
+          },
+          {
+            "move": "flash-cannon",
+            "level": 31
+          },
+          {
+            "move": "screech",
+            "level": 35
+          },
+          {
+            "move": "discharge",
+            "level": 37
+          },
+          {
+            "move": "lock-on",
+            "level": 41
+          },
+          {
+            "move": "magnet-rise",
+            "level": 43
+          },
+          {
+            "move": "gyro-ball",
+            "level": 47
+          },
+          {
+            "move": "zap-cannon",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frustration",
+          "gyro-ball",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "electroweb",
+          "gravity",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "recycle",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "81",
+      "flavorText": "It is hatched with the ability to defy gravity. It floats while emitting powerful electromagnetic waves.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 10
+          },
+          {
+            "move": "sonic-boom",
+            "level": 15
+          },
+          {
+            "move": "light-screen",
+            "level": 20
+          },
+          {
+            "move": "thunderbolt",
+            "level": 26
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "flash-cannon",
+            "level": 38
+          },
+          {
+            "move": "thunder",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "facade",
+          "flash-cannon",
+          "headbutt",
+          "light-screen",
+          "protect",
+          "reflect",
+          "rest",
+          "substitute",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A105",
+      "flavorText": "It subsists on electricity. As Magnemite flies, it emits electromagnetic waves from the units on each side of its body.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "thunder-wave",
+            "level": 8
+          },
+          {
+            "move": "electro-ball",
+            "level": 12
+          },
+          {
+            "move": "gyro-ball",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "magnet-rise",
+            "level": 28
+          },
+          {
+            "move": "flash-cannon",
+            "level": 32
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "metal-sound",
+            "level": 40
+          },
+          {
+            "move": "light-screen",
+            "level": 44
+          },
+          {
+            "move": "lock-on",
+            "level": 48
+          },
+          {
+            "move": "zap-cannon",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "gyro-ball",
+          "iron-defense",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "round",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "rising-voltage",
+          "steel-beam"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "81",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/81.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Fuego Ironworks (Swarm) | Grand Underground - Spacious Cave, Whiteout Cave, Icy Cave, Glacial Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "thunder-wave",
+            "level": 8
+          },
+          {
+            "move": "electro-ball",
+            "level": 12
+          },
+          {
+            "move": "gyro-ball",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "magnet-rise",
+            "level": 28
+          },
+          {
+            "move": "flash-cannon",
+            "level": 32
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "metal-sound",
+            "level": 40
+          },
+          {
+            "move": "light-screen",
+            "level": 44
+          },
+          {
+            "move": "lock-on",
+            "level": 48
+          },
+          {
+            "move": "zap-cannon",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "charge-beam",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "gyro-ball",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "177",
+      "flavorText": "A bizarre Pokémon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Cobalt Coastlands: Space-time distortions"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 6
+          },
+          {
+            "move": "thunder-wave",
+            "level": 11
+          },
+          {
+            "move": "spark",
+            "level": 18
+          },
+          {
+            "move": "flash-cannon",
+            "level": 25
+          },
+          {
+            "move": "thunderbolt",
+            "level": 34
+          },
+          {
+            "move": "thunder",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P209",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/81.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Area Two, Area Three | Tera Raid Battles (2★ Magnemite)",
+          "Canyon Biome, Chargestone Cavern, Polar Biome"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "thunder-wave",
+            "level": 8
+          },
+          {
+            "move": "electro-ball",
+            "level": 12
+          },
+          {
+            "move": "gyro-ball",
+            "level": 16
+          },
+          {
+            "move": "spark",
+            "level": 20
+          },
+          {
+            "move": "screech",
+            "level": 24
+          },
+          {
+            "move": "magnet-rise",
+            "level": 28
+          },
+          {
+            "move": "flash-cannon",
+            "level": 32
+          },
+          {
+            "move": "discharge",
+            "level": 36
+          },
+          {
+            "move": "metal-sound",
+            "level": 40
+          },
+          {
+            "move": "light-screen",
+            "level": 44
+          },
+          {
+            "move": "lock-on",
+            "level": 48
+          },
+          {
+            "move": "zap-cannon",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "charge",
+          "charge-beam",
+          "confuse-ray",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "gravity",
+          "gyro-ball",
+          "heavy-slam",
+          "helping-hand",
+          "iron-defense",
+          "iron-head",
+          "light-screen",
+          "metal-sound",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "sandstorm",
+          "sleep-talk",
+          "steel-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "electroweb",
+          "explosion"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

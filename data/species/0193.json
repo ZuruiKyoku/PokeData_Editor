@@ -1,0 +1,1781 @@
+{
+  "dex": 193,
+  "keyword": "yanma",
+  "name": "Yanma",
+  "japaneseName": {
+    "kana": "ヤンヤンマ",
+    "romaji": "Yanyanma"
+  },
+  "type1": "Bug",
+  "type2": "Flying",
+  "genus": "Clear Wing Pokémon",
+  "heightM": 1.2,
+  "weightKg": 38.0,
+  "stats": {
+    "hp": 65,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 75,
+    "specialDefense": 45,
+    "speed": 95
+  },
+  "abilities": [
+    {
+      "name": "speed-boost",
+      "hidden": false,
+      "effect": "Raises Speed one stage after each turn."
+    },
+    {
+      "name": "compound-eyes",
+      "hidden": false,
+      "effect": "Increases moves' accuracy to 1.3×."
+    },
+    {
+      "name": "frisk",
+      "hidden": true,
+      "effect": "Reveals an opponent's held item upon entering battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "bug-wings",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      469
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0193.png",
+    "shiny": "sprites/shiny/0193.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/193.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/193.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "101",
+      "flavorText": "It can see in all directions without moving its big eyes, helping it spot attackers and food right away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "double-team",
+            "level": 13
+          },
+          {
+            "move": "sonic-boom",
+            "level": 19
+          },
+          {
+            "move": "detect",
+            "level": 25
+          },
+          {
+            "move": "supersonic",
+            "level": 31
+          },
+          {
+            "move": "swift",
+            "level": 37
+          },
+          {
+            "move": "wing-attack",
+            "level": 37
+          },
+          {
+            "move": "screech",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "detect",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "headbutt",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "leech-life",
+          "reversal",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It can see 360 degrees without moving its eyes. It is a great flier capable of making sudden stops and turning midair to quickly chase down targeted prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 7
+          },
+          {
+            "move": "double-team",
+            "level": 13
+          },
+          {
+            "move": "sonic-boom",
+            "level": 19
+          },
+          {
+            "move": "detect",
+            "level": 25
+          },
+          {
+            "move": "supersonic",
+            "level": 31
+          },
+          {
+            "move": "uproar",
+            "level": 37
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "solar-beam",
+          "steel-wing",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "leech-life",
+          "reversal",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": [
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its eyes can see 360 degrees without moving its head. It won’t miss prey--even those behind it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "183",
+      "flavorText": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Great Marsh Area 1",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 31
+          },
+          {
+            "location": "Great Marsh Area 2",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 31
+          },
+          {
+            "location": "Great Marsh Area 3",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 4",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 30
+          },
+          {
+            "location": "Great Marsh Area 5",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 29
+          },
+          {
+            "location": "Great Marsh Area 6",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": [
+          "air-cutter",
+          "ancient-power",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "101",
+      "flavorText": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 35",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "silver-wind",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": [
+          "air-cutter",
+          "ancient-power",
+          "bug-bite",
+          "headbutt",
+          "ominous-wind",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "secret-power",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "286",
+      "flavorText": "By flapping its wings at high speed, it can fly freely through the air. Even sudden stops are no problem.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Pinwheel Forest Outside",
+            "method": "Dark Grass",
+            "minLevel": 63,
+            "maxLevel": 63
+          },
+          {
+            "location": "Pinwheel Forest Outside",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 3",
+            "method": "Dark Grass",
+            "minLevel": 64,
+            "maxLevel": 64
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 56,
+            "maxLevel": 56
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "secret-power",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "roost",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C87",
+      "flavorText": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "secret-power",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "secret-power",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "signal-beam",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "secret-power",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/193.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/193.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "sonic-boom",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "pursuit",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "feint-attack",
+          "leech-life",
+          "pursuit",
+          "reversal",
+          "secret-power",
+          "signal-beam",
+          "silver-wind",
+          "whirlwind"
+        ],
+        "tutor": [
+          "bug-bite",
+          "defog",
+          "giga-drain",
+          "signal-beam",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "193",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/193.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Great Marsh (after obtaining National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "aerial-ace",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "string-shot",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bug-buzz",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "giga-drain",
+          "protect",
+          "psychic",
+          "rest",
+          "roost",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "u-turn"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "leech-life",
+          "reversal",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "105",
+      "flavorText": "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Gapejaw Bog, Ursa's Ring, Droning Meadow, massive mass outbreaks | Coronet Highlands: Heavenward Lookout, Heavenward Lookout (mass outbreaks), massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 6
+          },
+          {
+            "move": "silver-wind",
+            "level": 11
+          },
+          {
+            "move": "hypnosis",
+            "level": 18
+          },
+          {
+            "move": "air-slash",
+            "level": 25
+          },
+          {
+            "move": "ancient-power",
+            "level": 34
+          },
+          {
+            "move": "bug-buzz",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K003",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/193.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Kitakami Road, Mossfell Confluence, Oni Mountain, Infernal Pass, Crystal Pool, Wistful Fields, Paradise Barrens, Timeless Woods, Kitakami Wilds | Tera Raid Battles (2★ Yanma)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 6
+          },
+          {
+            "move": "double-team",
+            "level": 11
+          },
+          {
+            "move": "air-cutter",
+            "level": 14
+          },
+          {
+            "move": "detect",
+            "level": 17
+          },
+          {
+            "move": "supersonic",
+            "level": 22
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "bug-bite",
+            "level": 30
+          },
+          {
+            "move": "ancient-power",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 38
+          },
+          {
+            "move": "wing-attack",
+            "level": 43
+          },
+          {
+            "move": "screech",
+            "level": 46
+          },
+          {
+            "move": "u-turn",
+            "level": 49
+          },
+          {
+            "move": "air-slash",
+            "level": 54
+          },
+          {
+            "move": "bug-buzz",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "air-cutter",
+          "air-slash",
+          "bug-bite",
+          "bug-buzz",
+          "double-edge",
+          "endure",
+          "facade",
+          "giga-drain",
+          "leech-life",
+          "lunge",
+          "pounce",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "rest",
+          "reversal",
+          "shadow-ball",
+          "skitter-smack",
+          "sleep-talk",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "tailwind",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "u-turn",
+          "uproar"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

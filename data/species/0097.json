@@ -1,0 +1,2326 @@
+{
+  "dex": 97,
+  "keyword": "hypno",
+  "name": "Hypno",
+  "japaneseName": {
+    "kana": "スリーパー",
+    "romaji": "Sleeper"
+  },
+  "type1": "Psychic",
+  "type2": null,
+  "genus": "Hypnosis Pokémon",
+  "heightM": 1.6,
+  "weightKg": 75.6,
+  "stats": {
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "specialAttack": 73,
+    "specialDefense": 115,
+    "speed": 67
+  },
+  "abilities": [
+    {
+      "name": "insomnia",
+      "hidden": false,
+      "effect": "Prevents sleep."
+    },
+    {
+      "name": "forewarn",
+      "hidden": false,
+      "effect": "Reveals the opponents' strongest move upon entering battle."
+    },
+    {
+      "name": "inner-focus",
+      "hidden": true,
+      "effect": "Prevents flinching."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "humanshape"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "humanoid",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female has longer collar fur",
+  "evolution": {
+    "evolvesFromDex": 96,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0097.png",
+    "shiny": "sprites/shiny/0097.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/97.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/97.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "97",
+      "flavorText": "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/97.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Only One",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Berry Forest",
+            "method": "Walk",
+            "minLevel": 37,
+            "maxLevel": 40
+          },
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 46,
+            "maxLevel": 46
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 7
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "disable",
+            "level": 12
+          },
+          {
+            "move": "confusion",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 17
+          },
+          {
+            "move": "poison-gas",
+            "level": 21
+          },
+          {
+            "move": "headbutt",
+            "level": 24
+          },
+          {
+            "move": "meditate",
+            "level": 29
+          },
+          {
+            "move": "poison-gas",
+            "level": 33
+          },
+          {
+            "move": "psychic",
+            "level": 35
+          },
+          {
+            "move": "psychic",
+            "level": 37
+          },
+          {
+            "move": "meditate",
+            "level": 43
+          },
+          {
+            "move": "psych-up",
+            "level": 43
+          },
+          {
+            "move": "swagger",
+            "level": 49
+          },
+          {
+            "move": "future-sight",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "calm-mind",
+          "counter",
+          "double-edge",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "seismic-toss",
+          "shadow-ball",
+          "skill-swap",
+          "skull-bash",
+          "snatch",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "taunt",
+          "teleport",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "seismic-toss",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "88",
+      "flavorText": "The longer it swings its pendulum, the longer the effects of its hypnosis last.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 10
+          },
+          {
+            "move": "confusion",
+            "level": 18
+          },
+          {
+            "move": "headbutt",
+            "level": 25
+          },
+          {
+            "move": "poison-gas",
+            "level": 33
+          },
+          {
+            "move": "meditate",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "psych-up",
+            "level": 55
+          },
+          {
+            "move": "future-sight",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "ice-punch",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "sunny-day",
+          "swagger",
+          "thunder-punch",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "The arcing movement and glitter of the pendulum in a HYPNO’s hand lull the foe into deep hypnosis. While searching for prey, it polishes the pendulum.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 10
+          },
+          {
+            "move": "confusion",
+            "level": 18
+          },
+          {
+            "move": "headbutt",
+            "level": 25
+          },
+          {
+            "move": "poison-gas",
+            "level": 33
+          },
+          {
+            "move": "meditate",
+            "level": 40
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "psych-up",
+            "level": 55
+          },
+          {
+            "move": "future-sight",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "double-team",
+          "facade",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "skill-swap",
+          "snatch",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "psych-up",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "thunder-punch",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 7
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-gas",
+            "level": 18
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 28
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "headbutt",
+            "level": 38
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 50
+          },
+          {
+            "move": "nasty-plot",
+            "level": 55
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 64
+          },
+          {
+            "move": "future-sight",
+            "level": 69
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 7
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-gas",
+            "level": 18
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 28
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "headbutt",
+            "level": 38
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 50
+          },
+          {
+            "move": "nasty-plot",
+            "level": 55
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 64
+          },
+          {
+            "move": "future-sight",
+            "level": 69
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "fire-punch",
+          "ice-punch",
+          "signal-beam",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "88",
+      "flavorText": "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 7
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "poison-gas",
+            "level": 18
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 28
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "headbutt",
+            "level": 38
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 50
+          },
+          {
+            "move": "nasty-plot",
+            "level": 55
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 64
+          },
+          {
+            "move": "future-sight",
+            "level": 69
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "fire-punch",
+          "headbutt",
+          "ice-punch",
+          "low-kick",
+          "magic-coat",
+          "role-play",
+          "signal-beam",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "headbutt",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "synchronoise",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "headbutt",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "synchronoise",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "telekinesis",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "drain-punch",
+          "fire-punch",
+          "foul-play",
+          "ice-punch",
+          "low-kick",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Seeing its swinging pendulum can induce sleep in three seconds, even in someone who just woke up.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "future-sight",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nasty-plot",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "headbutt",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "synchronoise",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "future-sight",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nasty-plot",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "headbutt",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "synchronoise",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "ice-punch",
+          "low-kick",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "55",
+      "flavorText": "As a matter of course, it makes anyone it meets fall asleep and has a taste of their dreams. Anyone having a good dream, it carries off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poni Plains North",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "future-sight",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nasty-plot",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "headbutt",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "synchronoise",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "67",
+      "flavorText": "There are some Hypno that assist doctors with patients who can’t sleep at night in hospitals.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/97.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/97.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Main",
+            "method": "Only One",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Hauoli City Shopping District",
+            "method": "Only One",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Poni Plains North",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "future-sight",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nasty-plot",
+            "level": 1
+          },
+          {
+            "move": "nightmare",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "meditate",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "synchronoise",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "ally-switch",
+          "drain-punch",
+          "fire-punch",
+          "focus-punch",
+          "foul-play",
+          "ice-punch",
+          "low-kick",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "role-play",
+          "signal-beam",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "telekinesis",
+          "thunder-punch",
+          "trick",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "97",
+      "flavorText": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrier",
+            "level": 1
+          },
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 4
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "poison-gas",
+            "level": 13
+          },
+          {
+            "move": "meditate",
+            "level": 18
+          },
+          {
+            "move": "psybeam",
+            "level": 22
+          },
+          {
+            "move": "headbutt",
+            "level": 27
+          },
+          {
+            "move": "psychic",
+            "level": 36
+          },
+          {
+            "move": "nasty-plot",
+            "level": 46
+          },
+          {
+            "move": "dream-eater",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "calm-mind",
+          "dazzling-gleam",
+          "dream-eater",
+          "facade",
+          "fire-punch",
+          "foul-play",
+          "headbutt",
+          "hyper-beam",
+          "ice-punch",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "seismic-toss",
+          "shadow-ball",
+          "substitute",
+          "taunt",
+          "teleport",
+          "thunder-punch",
+          "thunder-wave",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "97",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/97.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "future-sight",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "nasty-plot",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "hypnosis",
+            "level": 21
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "mind-reader",
+            "level": 29
+          },
+          {
+            "move": "psych-up",
+            "level": 33
+          },
+          {
+            "move": "hypnosis",
+            "level": 37
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "psychic",
+            "level": 49
+          },
+          {
+            "move": "nasty-plot",
+            "level": 53
+          },
+          {
+            "move": "psyshock",
+            "level": 57
+          },
+          {
+            "move": "future-sight",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "calm-mind",
+          "dazzling-gleam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "grass-knot",
+          "hyper-beam",
+          "light-screen",
+          "low-sweep",
+          "nasty-plot",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "reflect",
+          "rest",
+          "safeguard",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "trick-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P067",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/97.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Six | West Province: Area One, Area Three | North Province: Area Three, Dalizapa Passage, Glaseado Mountain | Area Zero: Depths<!--Before removing this, there is video proof here: https://youtu.be/g_yP8ahKLLs--> | Tera Raid Battles (4★ Hypno)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confusion",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "switcheroo",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "poison-gas",
+            "level": 17
+          },
+          {
+            "move": "psybeam",
+            "level": 21
+          },
+          {
+            "move": "psych-up",
+            "level": 25
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 32
+          },
+          {
+            "move": "swagger",
+            "level": 37
+          },
+          {
+            "move": "psychic",
+            "level": 42
+          },
+          {
+            "move": "nasty-plot",
+            "level": 47
+          },
+          {
+            "move": "psyshock",
+            "level": 51
+          },
+          {
+            "move": "future-sight",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "baton-pass",
+          "body-press",
+          "body-slam",
+          "brick-break",
+          "calm-mind",
+          "confuse-ray",
+          "curse",
+          "dazzling-gleam",
+          "double-edge",
+          "drain-punch",
+          "draining-kiss",
+          "encore",
+          "endeavor",
+          "endure",
+          "expanding-force",
+          "facade",
+          "fire-punch",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "foul-play",
+          "future-sight",
+          "giga-impact",
+          "grass-knot",
+          "haze",
+          "helping-hand",
+          "hex",
+          "hyper-beam",
+          "ice-punch",
+          "imprison",
+          "knock-off",
+          "light-screen",
+          "low-kick",
+          "low-sweep",
+          "metronome",
+          "nasty-plot",
+          "night-shade",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "psychic-terrain",
+          "psyshock",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "scary-face",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-punch",
+          "thunder-wave",
+          "toxic",
+          "trailblaze",
+          "trick",
+          "trick-room",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

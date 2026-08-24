@@ -1,0 +1,2772 @@
+{
+  "dex": 113,
+  "keyword": "chansey",
+  "name": "Chansey",
+  "japaneseName": {
+    "kana": "ラッキー",
+    "romaji": "Lucky"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Egg Pokémon",
+  "heightM": 1.1,
+  "weightKg": 34.6,
+  "stats": {
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "specialAttack": 35,
+    "specialDefense": 105,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "hidden": false,
+      "effect": "Cures any major status ailment upon switching out."
+    },
+    {
+      "name": "serene-grace",
+      "hidden": false,
+      "effect": "Doubles the chance of moves' extra effects occurring."
+    },
+    {
+      "name": "healer",
+      "hidden": true,
+      "effect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 8,
+    "hatchCycles": 40,
+    "captureRate": 30,
+    "baseFriendship": 140,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "pink",
+    "shape": "upright",
+    "habitat": "urban",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 440,
+    "evolvesIntoDex": [
+      242
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0113.png",
+    "shiny": "sprites/shiny/0113.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/113.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/113.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "113",
+      "flavorText": "A rare and elusive POKéMON that is said to bring happiness to those who manage to catch one.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/113.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 56,
+            "maxLevel": 56
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 56,
+            "maxLevel": 64
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "double-slap",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 17
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "sing",
+            "level": 24
+          },
+          {
+            "move": "sing",
+            "level": 29
+          },
+          {
+            "move": "growl",
+            "level": 30
+          },
+          {
+            "move": "egg-bomb",
+            "level": 35
+          },
+          {
+            "move": "minimize",
+            "level": 38
+          },
+          {
+            "move": "defense-curl",
+            "level": 41
+          },
+          {
+            "move": "defense-curl",
+            "level": 44
+          },
+          {
+            "move": "light-screen",
+            "level": 48
+          },
+          {
+            "move": "light-screen",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 54
+          },
+          {
+            "move": "double-edge",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bubble-beam",
+          "calm-mind",
+          "counter",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "egg-bomb",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "seismic-toss",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "skull-bash",
+          "snatch",
+          "soft-boiled",
+          "solar-beam",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "teleport",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [
+          "aromatherapy",
+          "heal-bell",
+          "metronome",
+          "present",
+          "substitute"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dream-eater",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "seismic-toss",
+          "soft-boiled",
+          "substitute",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "217",
+      "flavorText": "People try to catch it for its extremely nutritious eggs, but it rarely can be found.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 5
+          },
+          {
+            "move": "tail-whip",
+            "level": 9
+          },
+          {
+            "move": "soft-boiled",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 17
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "sing",
+            "level": 29
+          },
+          {
+            "move": "egg-bomb",
+            "level": 35
+          },
+          {
+            "move": "defense-curl",
+            "level": 41
+          },
+          {
+            "move": "light-screen",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "defense-curl",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fire-blast",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rollout",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [
+          "heal-bell",
+          "metronome",
+          "present"
+        ],
+        "tutor": [
+          "flamethrower",
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "CHANSEY lay nutritionally excellent eggs every day. The eggs are so delicious, they are eagerly devoured by even those people who have lost their appetite.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "soft-boiled",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 17
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "sing",
+            "level": 29
+          },
+          {
+            "move": "egg-bomb",
+            "level": 35
+          },
+          {
+            "move": "defense-curl",
+            "level": 41
+          },
+          {
+            "move": "light-screen",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 57
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aromatherapy",
+          "heal-bell",
+          "metronome",
+          "present",
+          "substitute"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "soft-boiled",
+          "substitute",
+          "swagger",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "97",
+      "flavorText": "It lays several eggs a day and won’t share them with those who have evil in their hearts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 209",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "soft-boiled",
+            "level": 12
+          },
+          {
+            "move": "double-slap",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 20
+          },
+          {
+            "move": "sing",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 27
+          },
+          {
+            "move": "defense-curl",
+            "level": 31
+          },
+          {
+            "move": "light-screen",
+            "level": 34
+          },
+          {
+            "move": "egg-bomb",
+            "level": 38
+          },
+          {
+            "move": "healing-wish",
+            "level": 42
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "present",
+          "substitute"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "97",
+      "flavorText": "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 209",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "soft-boiled",
+            "level": 12
+          },
+          {
+            "move": "double-slap",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 20
+          },
+          {
+            "move": "sing",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 27
+          },
+          {
+            "move": "defense-curl",
+            "level": 31
+          },
+          {
+            "move": "light-screen",
+            "level": 34
+          },
+          {
+            "move": "egg-bomb",
+            "level": 38
+          },
+          {
+            "move": "healing-wish",
+            "level": 42
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "present",
+          "substitute"
+        ],
+        "tutor": [
+          "endeavor",
+          "fire-punch",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "thunder-punch",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "222",
+      "flavorText": "Being few in number and difficult to capture, it is said to bring happiness to the Trainer who catches it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "soft-boiled",
+            "level": 12
+          },
+          {
+            "move": "double-slap",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 20
+          },
+          {
+            "move": "sing",
+            "level": 23
+          },
+          {
+            "move": "fling",
+            "level": 27
+          },
+          {
+            "move": "defense-curl",
+            "level": 31
+          },
+          {
+            "move": "light-screen",
+            "level": 34
+          },
+          {
+            "move": "egg-bomb",
+            "level": 38
+          },
+          {
+            "move": "healing-wish",
+            "level": 42
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "present",
+          "substitute"
+        ],
+        "tutor": [
+          "endeavor",
+          "fire-punch",
+          "gravity",
+          "headbutt",
+          "heal-bell",
+          "helping-hand",
+          "ice-punch",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "thunder-punch",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 20
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "sing",
+            "level": 31
+          },
+          {
+            "move": "fling",
+            "level": 34
+          },
+          {
+            "move": "heal-pulse",
+            "level": 38
+          },
+          {
+            "move": "egg-bomb",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "healing-wish",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "endure",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "natural-gift",
+          "present"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 20
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "sing",
+            "level": 31
+          },
+          {
+            "move": "fling",
+            "level": 34
+          },
+          {
+            "move": "heal-pulse",
+            "level": 38
+          },
+          {
+            "move": "egg-bomb",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "healing-wish",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "endure",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "natural-gift",
+          "present"
+        ],
+        "tutor": [
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "recycle",
+          "skill-swap",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "double-edge",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 20
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "sing",
+            "level": 31
+          },
+          {
+            "move": "fling",
+            "level": 34
+          },
+          {
+            "move": "heal-pulse",
+            "level": 38
+          },
+          {
+            "move": "egg-bomb",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "healing-wish",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "endure",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "natural-gift",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "double-edge",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 20
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "sing",
+            "level": 31
+          },
+          {
+            "move": "fling",
+            "level": 34
+          },
+          {
+            "move": "heal-pulse",
+            "level": 38
+          },
+          {
+            "move": "egg-bomb",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "healing-wish",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "light-screen",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "endure",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "natural-gift",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": [
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "recycle",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "33",
+      "flavorText": "Not only are these Pokémon fast runners, they’re also few in number, so anyone who finds one must be lucky indeed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Blush Mountain",
+            "method": "Sos Encounter",
+            "minLevel": 26,
+            "maxLevel": 29
+          },
+          {
+            "location": "Mount Hokulani Main",
+            "method": "Sos Encounter",
+            "minLevel": 25,
+            "maxLevel": 28
+          },
+          {
+            "location": "Poni Grove",
+            "method": "Sos Encounter",
+            "minLevel": 52,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 12",
+            "method": "Sos Encounter",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "double-edge",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 20
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "sing",
+            "level": 31
+          },
+          {
+            "move": "fling",
+            "level": 34
+          },
+          {
+            "move": "heal-pulse",
+            "level": 38
+          },
+          {
+            "move": "egg-bomb",
+            "level": 42
+          },
+          {
+            "move": "light-screen",
+            "level": 46
+          },
+          {
+            "move": "healing-wish",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "endure",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "natural-gift",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "40",
+      "flavorText": "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/113.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/113.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poni Plains Center",
+            "method": "Bubbling Spots",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "double-edge",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "refresh",
+            "level": 9
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "bestow",
+            "level": 20
+          },
+          {
+            "move": "minimize",
+            "level": 23
+          },
+          {
+            "move": "take-down",
+            "level": 27
+          },
+          {
+            "move": "sing",
+            "level": 31
+          },
+          {
+            "move": "fling",
+            "level": 35
+          },
+          {
+            "move": "heal-pulse",
+            "level": 39
+          },
+          {
+            "move": "egg-bomb",
+            "level": 44
+          },
+          {
+            "move": "light-screen",
+            "level": 50
+          },
+          {
+            "move": "healing-wish",
+            "level": 57
+          },
+          {
+            "move": "double-edge",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "endure",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "mud-bomb",
+          "natural-gift",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": [
+          "ally-switch",
+          "covet",
+          "drain-punch",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "laser-focus",
+          "last-resort",
+          "recycle",
+          "shock-wave",
+          "skill-swap",
+          "snatch",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "telekinesis",
+          "thunder-punch",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "113",
+      "flavorText": "A gentle and kindhearted Pokémon that shares its nutritious eggs if it sees an injured Pokémon.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "tail-whip",
+            "level": 8
+          },
+          {
+            "move": "double-slap",
+            "level": 12
+          },
+          {
+            "move": "soft-boiled",
+            "level": 16
+          },
+          {
+            "move": "minimize",
+            "level": 20
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "sing",
+            "level": 30
+          },
+          {
+            "move": "egg-bomb",
+            "level": 35
+          },
+          {
+            "move": "light-screen",
+            "level": 40
+          },
+          {
+            "move": "double-edge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "dazzling-gleam",
+          "dream-eater",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "hyper-beam",
+          "ice-beam",
+          "ice-punch",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "shadow-ball",
+          "solar-beam",
+          "stealth-rock",
+          "substitute",
+          "teleport",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A007",
+      "flavorText": "This species was once very slow. To protect their eggs from other creatures, these Pokémon became able to flee quickly.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "minimize",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "echoed-voice",
+            "level": 8
+          },
+          {
+            "move": "life-dew",
+            "level": 12
+          },
+          {
+            "move": "sing",
+            "level": 16
+          },
+          {
+            "move": "fling",
+            "level": 20
+          },
+          {
+            "move": "take-down",
+            "level": 24
+          },
+          {
+            "move": "heal-pulse",
+            "level": 28
+          },
+          {
+            "move": "helping-hand",
+            "level": 32
+          },
+          {
+            "move": "light-screen",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "soft-boiled",
+            "level": 44
+          },
+          {
+            "move": "last-resort",
+            "level": 48
+          },
+          {
+            "move": "healing-wish",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "drain-punch",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "helping-hand",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "tri-attack",
+          "uproar",
+          "wild-charge",
+          "work-up",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "aromatherapy",
+          "gravity",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "113",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/113.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and , Trophy Garden"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "minimize",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "echoed-voice",
+            "level": 8
+          },
+          {
+            "move": "life-dew",
+            "level": 12
+          },
+          {
+            "move": "sing",
+            "level": 16
+          },
+          {
+            "move": "fling",
+            "level": 20
+          },
+          {
+            "move": "take-down",
+            "level": 24
+          },
+          {
+            "move": "heal-pulse",
+            "level": 28
+          },
+          {
+            "move": "helping-hand",
+            "level": 32
+          },
+          {
+            "move": "light-screen",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "soft-boiled",
+            "level": 44
+          },
+          {
+            "move": "last-resort",
+            "level": 48
+          },
+          {
+            "move": "healing-wish",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charge-beam",
+          "dazzling-gleam",
+          "double-team",
+          "drain-punch",
+          "dream-eater",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "fling",
+          "focus-punch",
+          "giga-impact",
+          "grass-knot",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "recycle",
+          "rest",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "safeguard",
+          "sandstorm",
+          "shadow-ball",
+          "shock-wave",
+          "skill-swap",
+          "sleep-talk",
+          "solar-beam",
+          "stealth-rock",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "aromatherapy",
+          "counter",
+          "gravity",
+          "heal-bell",
+          "helping-hand",
+          "metronome",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "87",
+      "flavorText": "This purehearted Pokémon shares its eggs with the injured.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: near Horseshoe Plains (mass outbreaks), near Obsidian Falls | Crimson Mirelands: Cottonsedge Prairie (mass outbreaks) | Cobalt Coastlands: Hideaway Bay, Tombolo Walk and nearby (additional ), massive mass outbreaks | Coronet Highlands: Lonely Spring (mass outbreaks) | Alabaster Icelands: Avalanche Slopes"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 6
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 11
+          },
+          {
+            "move": "draining-kiss",
+            "level": 18
+          },
+          {
+            "move": "calm-mind",
+            "level": 25
+          },
+          {
+            "move": "soft-boiled",
+            "level": 34
+          },
+          {
+            "move": "double-edge",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P044",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/113.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Four, Area Six | East Province: Area Two | West Province: Area Two, Area Three | North Province: Area One, Area Two, Area Three, Casseroya Lake | Area Zero | Tera Raid Battles (3★ Chansey)",
+          "Savanna Biome"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "copycat",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "disarming-voice",
+            "level": 1
+          },
+          {
+            "move": "pound",
+            "level": 1
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "echoed-voice",
+            "level": 8
+          },
+          {
+            "move": "life-dew",
+            "level": 12
+          },
+          {
+            "move": "sing",
+            "level": 16
+          },
+          {
+            "move": "fling",
+            "level": 20
+          },
+          {
+            "move": "take-down",
+            "level": 24
+          },
+          {
+            "move": "heal-pulse",
+            "level": 28
+          },
+          {
+            "move": "helping-hand",
+            "level": 32
+          },
+          {
+            "move": "light-screen",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "soft-boiled",
+            "level": 44
+          },
+          {
+            "move": "last-resort",
+            "level": 48
+          },
+          {
+            "move": "healing-wish",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bulldoze",
+          "calm-mind",
+          "charm",
+          "chilling-water",
+          "dazzling-gleam",
+          "disarming-voice",
+          "double-edge",
+          "drain-punch",
+          "earthquake",
+          "electric-terrain",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "giga-impact",
+          "grass-knot",
+          "gravity",
+          "helping-hand",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "light-screen",
+          "metronome",
+          "protect",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "shadow-ball",
+          "skill-swap",
+          "sleep-talk",
+          "snowscape",
+          "solar-beam",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "water-pulse",
+          "wild-charge",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "gravity",
+          "heal-bell",
+          "present",
+          "seismic-toss"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

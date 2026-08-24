@@ -1,0 +1,1631 @@
+{
+  "dex": 91,
+  "keyword": "cloyster",
+  "name": "Cloyster",
+  "japaneseName": {
+    "kana": "パルシェン",
+    "romaji": "Parshen"
+  },
+  "type1": "Water",
+  "type2": "Ice",
+  "genus": "Bivalve Pokémon",
+  "heightM": 1.5,
+  "weightKg": 132.5,
+  "stats": {
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "specialAttack": 85,
+    "specialDefense": 45,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "shell-armor",
+      "hidden": false,
+      "effect": "Protects against critical hits."
+    },
+    {
+      "name": "skill-link",
+      "hidden": false,
+      "effect": "Extends two-to-five-hit moves and triple kick to their full length every time."
+    },
+    {
+      "name": "overcoat",
+      "hidden": true,
+      "effect": "Protects against damage from weather."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water3"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "ball",
+    "habitat": "sea",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 90,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0091.png",
+    "shiny": "sprites/shiny/0091.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/91.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/91.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "91",
+      "flavorText": "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/91.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "clamp",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 36
+          },
+          {
+            "move": "spike-cannon",
+            "level": 43
+          },
+          {
+            "move": "spike-cannon",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "bubble-beam",
+          "dive",
+          "double-edge",
+          "double-team",
+          "explosion",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "self-destruct",
+          "substitute",
+          "surf",
+          "swift",
+          "take-down",
+          "teleport",
+          "torment",
+          "toxic",
+          "tri-attack",
+          "water-gun",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "explosion",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "170",
+      "flavorText": "Even a missile can't break the spikes it uses to stab opponents. They're even hard­ er than its shell.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 33
+          },
+          {
+            "move": "spike-cannon",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "endure",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "toxic",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It swims in the sea by swallowing water, then jetting it out toward the rear. The CLOYSTER shoots spikes from its shell using the same system.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 33
+          },
+          {
+            "move": "spike-cannon",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "surf",
+          "torment",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "explosion",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It fights by keeping its shell tightly shut for protection and by shooting spikes to repel foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "spike-cannon",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It fights by keeping its shell tightly shut for protection and by shooting spikes to repel foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "spike-cannon",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "iron-defense",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "172",
+      "flavorText": "CLOYSTER that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "spike-cannon",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "captivate",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic",
+          "water-pulse",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "dive",
+          "icy-wind",
+          "iron-defense",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It fights by keeping its shell tightly shut for protection and by shooting spikes to repel foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 13",
+            "method": "Super Rod Spots",
+            "minLevel": 45,
+            "maxLevel": 70
+          },
+          {
+            "location": "Undella Bay",
+            "method": "Super Rod Spots",
+            "minLevel": 45,
+            "maxLevel": 70
+          },
+          {
+            "location": "Undella Town",
+            "method": "Super Rod Spots",
+            "minLevel": 45,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 13
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "icicle-crash",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "explosion",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It fights by keeping its shell tightly shut for protection and by shooting spikes to repel foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Humilau City",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 13",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Seaside Cave 1f",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Undella Town",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 13
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "icicle-crash",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "explosion",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C37",
+      "flavorText": "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 8",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 13
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "icicle-crash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 13
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "icicle-crash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "dive",
+          "double-team",
+          "explosion",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "116",
+      "flavorText": "Excavation of the tombs of ancient hunting tribes has turned up many spears tipped with spikes that had fallen off this Pokémon’s shell.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 13
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "icicle-crash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "139",
+      "flavorText": "Slowpoke tails are its favorite food. It has even been known to come up on land to look for Slowpoke from time to time.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/91.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/91.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 13
+          },
+          {
+            "move": "spikes",
+            "level": 28
+          },
+          {
+            "move": "icicle-crash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "frost-breath",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "liquidation",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "91",
+      "flavorText": "For protection, it uses its harder-than-diamond shell. It also shoots spikes from the shell.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "spike-cannon",
+            "level": 0
+          },
+          {
+            "move": "barrier",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "spike-cannon",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "twineedle",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "self-destruct",
+          "substitute",
+          "surf",
+          "teleport",
+          "toxic",
+          "tri-attack"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "151",
+      "flavorText": "Once it slams its shell shut, it is impossible to open, even by those with superior strength.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 0
+          },
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "ice-beam",
+            "level": 1
+          },
+          {
+            "move": "ice-shard",
+            "level": 1
+          },
+          {
+            "move": "icicle-crash",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "razor-shell",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "dive",
+          "endure",
+          "facade",
+          "giga-impact",
+          "hail",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "icicle-spear",
+          "icy-wind",
+          "iron-defense",
+          "light-screen",
+          "liquidation",
+          "mud-shot",
+          "payback",
+          "pin-missile",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "razor-shell",
+          "rest",
+          "rock-blast",
+          "round",
+          "screech",
+          "self-destruct",
+          "sleep-talk",
+          "smart-strike",
+          "snore",
+          "spikes",
+          "substitute",
+          "surf",
+          "swift",
+          "toxic-spikes",
+          "tri-attack",
+          "weather-ball",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "steel-roller"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "91",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/91.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 0
+          },
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "ice-beam",
+            "level": 1
+          },
+          {
+            "move": "ice-shard",
+            "level": 1
+          },
+          {
+            "move": "icicle-crash",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "razor-shell",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brine",
+          "double-team",
+          "endure",
+          "explosion",
+          "facade",
+          "giga-impact",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "torment",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P330",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/91.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: South Paldean Sea | East Province: East Paldean Sea | West Province: West Paldean Sea | North Province: North Paldean Sea | Tera Raid Battles (4★ Cloyster, 5★ Cloyster)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "icicle-spear",
+            "level": 0
+          },
+          {
+            "move": "aurora-beam",
+            "level": 1
+          },
+          {
+            "move": "hydro-pump",
+            "level": 1
+          },
+          {
+            "move": "ice-beam",
+            "level": 1
+          },
+          {
+            "move": "ice-shard",
+            "level": 1
+          },
+          {
+            "move": "icicle-crash",
+            "level": 1
+          },
+          {
+            "move": "iron-defense",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "shell-smash",
+            "level": 1
+          },
+          {
+            "move": "spikes",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "toxic-spikes",
+            "level": 1
+          },
+          {
+            "move": "water-gun",
+            "level": 1
+          },
+          {
+            "move": "whirlpool",
+            "level": 1
+          },
+          {
+            "move": "withdraw",
+            "level": 1
+          },
+          {
+            "move": "razor-shell",
+            "level": 5
+          }
+        ],
+        "machine": [
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "chilling-water",
+          "drill-run",
+          "endure",
+          "facade",
+          "giga-impact",
+          "helping-hand",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "ice-spinner",
+          "icicle-spear",
+          "icy-wind",
+          "iron-defense",
+          "light-screen",
+          "liquidation",
+          "mud-shot",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-blast",
+          "scary-face",
+          "sleep-talk",
+          "smart-strike",
+          "snowscape",
+          "spikes",
+          "substitute",
+          "surf",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "toxic-spikes",
+          "water-pulse",
+          "waterfall",
+          "weather-ball",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

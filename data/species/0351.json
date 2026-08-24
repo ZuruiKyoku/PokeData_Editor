@@ -1,0 +1,1469 @@
+{
+  "dex": 351,
+  "keyword": "castform",
+  "name": "Castform",
+  "japaneseName": {
+    "kana": "ポワルン",
+    "romaji": "Powalen"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Weather Pokémon",
+  "heightM": 0.3,
+  "weightKg": 0.8,
+  "stats": {
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "specialAttack": 70,
+    "specialDefense": 70,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "forecast",
+      "hidden": false,
+      "effect": "Changes castform's type and form to match the weather."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "fairy",
+      "indeterminate"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 25,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "ball",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0351.png",
+    "shiny": "sprites/shiny/0351.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/351.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/351.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "142",
+      "flavorText": "It alters its form depending on the weather. Changes in the climate such as the temperature and humidity appear to affect its cellular structure.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 119 Weather Institute",
+            "method": "Gift",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "future-sight",
+          "psych-up"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "disable",
+          "future-sight",
+          "lucky-chant",
+          "ominous-wind",
+          "psych-up"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "disable",
+          "future-sight",
+          "lucky-chant",
+          "ominous-wind",
+          "psych-up"
+        ],
+        "tutor": [
+          "icy-wind",
+          "last-resort",
+          "ominous-wind",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "This Pokémon can change its cells, taking different forms based on the temperature and humidity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 30
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "sandstorm",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "amnesia",
+          "disable",
+          "future-sight",
+          "lucky-chant",
+          "ominous-wind",
+          "psych-up"
+        ],
+        "tutor": [
+          "icy-wind",
+          "last-resort",
+          "ominous-wind",
+          "snore",
+          "swift",
+          "tailwind"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 20
+          },
+          {
+            "move": "hail",
+            "level": 30
+          },
+          {
+            "move": "rain-dance",
+            "level": 30
+          },
+          {
+            "move": "sunny-day",
+            "level": 30
+          },
+          {
+            "move": "weather-ball",
+            "level": 40
+          },
+          {
+            "move": "blizzard",
+            "level": 50
+          },
+          {
+            "move": "fire-blast",
+            "level": 50
+          },
+          {
+            "move": "hydro-pump",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "sandstorm",
+          "scald",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "disable",
+          "future-sight",
+          "hex",
+          "lucky-chant",
+          "ominous-wind"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "163",
+      "flavorText": "Temperature and weather affect its cellular structure, so this Pokémon changes form according to the weather.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 6",
+            "method": "Grass Spots",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 30
+          },
+          {
+            "move": "blizzard",
+            "level": 40
+          },
+          {
+            "move": "fire-blast",
+            "level": 40
+          },
+          {
+            "move": "hydro-pump",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "sandstorm",
+          "scald",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "disable",
+          "future-sight",
+          "hex",
+          "lucky-chant",
+          "ominous-wind"
+        ],
+        "tutor": [
+          "icy-wind",
+          "last-resort",
+          "sleep-talk",
+          "snore",
+          "tailwind"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 30
+          },
+          {
+            "move": "blizzard",
+            "level": 40
+          },
+          {
+            "move": "fire-blast",
+            "level": 40
+          },
+          {
+            "move": "hydro-pump",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "sandstorm",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "cosmic-power",
+          "disable",
+          "future-sight",
+          "guard-swap",
+          "hex",
+          "lucky-chant",
+          "ominous-wind",
+          "reflect-type"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "147",
+      "flavorText": "Castform borrows the power of nature to transform itself into the guises of the sun, rain, and snow-clouds. This Pokémon’s feelings change with the weather.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 119 Weather Institute",
+            "method": "Gift",
+            "minLevel": 30,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 25
+          },
+          {
+            "move": "blizzard",
+            "level": 35
+          },
+          {
+            "move": "fire-blast",
+            "level": 35
+          },
+          {
+            "move": "hydro-pump",
+            "level": 35
+          },
+          {
+            "move": "hurricane",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "sandstorm",
+          "scald",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "cosmic-power",
+          "disable",
+          "future-sight",
+          "guard-swap",
+          "hex",
+          "lucky-chant",
+          "ominous-wind",
+          "reflect-type"
+        ],
+        "tutor": [
+          "icy-wind",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "tailwind",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "181",
+      "flavorText": "Its form changes on its own, due to its cells’ sensitive reactions to temperature and humidity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Exeggutor Island",
+            "method": "Sos Encounter",
+            "minLevel": 40,
+            "maxLevel": 43
+          },
+          {
+            "location": "Haina Desert",
+            "method": "Sos Encounter",
+            "minLevel": 28,
+            "maxLevel": 31
+          },
+          {
+            "location": "Haina Desert",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 28,
+            "maxLevel": 31
+          },
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 18,
+            "maxLevel": 21
+          },
+          {
+            "location": "Malie Garden",
+            "method": "Sos Encounter",
+            "minLevel": 24,
+            "maxLevel": 27
+          },
+          {
+            "location": "Mount Lanakila Outside",
+            "method": "Sos Encounter",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Route 17 Northeast",
+            "method": "Sos Encounter",
+            "minLevel": 31,
+            "maxLevel": 34
+          },
+          {
+            "location": "Route 17 West",
+            "method": "Sos Encounter",
+            "minLevel": 31,
+            "maxLevel": 34
+          },
+          {
+            "location": "Tapu Village",
+            "method": "Sos Encounter",
+            "minLevel": 28,
+            "maxLevel": 31
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 25
+          },
+          {
+            "move": "blizzard",
+            "level": 35
+          },
+          {
+            "move": "fire-blast",
+            "level": 35
+          },
+          {
+            "move": "hydro-pump",
+            "level": 35
+          },
+          {
+            "move": "hurricane",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sandstorm",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "cosmic-power",
+          "disable",
+          "future-sight",
+          "guard-swap",
+          "hex",
+          "lucky-chant",
+          "ominous-wind",
+          "reflect-type"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "220",
+      "flavorText": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/351.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/351.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Exeggutor Island",
+            "method": "Sos Encounter",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Haina Desert",
+            "method": "Sos Encounter",
+            "minLevel": 32,
+            "maxLevel": 35
+          },
+          {
+            "location": "Haina Desert",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 32,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lush Jungle North",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle South",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Lush Jungle West",
+            "method": "Sos Encounter",
+            "minLevel": 19,
+            "maxLevel": 22
+          },
+          {
+            "location": "Malie Garden",
+            "method": "Sos Encounter",
+            "minLevel": 25,
+            "maxLevel": 28
+          },
+          {
+            "location": "Mount Lanakila Base",
+            "method": "Sos Encounter",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Mount Lanakila Outside",
+            "method": "Sos Encounter",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Route 17 Northeast",
+            "method": "Sos Encounter",
+            "minLevel": 33,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 17 West",
+            "method": "Sos Encounter",
+            "minLevel": 33,
+            "maxLevel": 36
+          },
+          {
+            "location": "Tapu Village",
+            "method": "Sos Encounter",
+            "minLevel": 30,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 25
+          },
+          {
+            "move": "blizzard",
+            "level": 35
+          },
+          {
+            "move": "fire-blast",
+            "level": 35
+          },
+          {
+            "move": "hydro-pump",
+            "level": 35
+          },
+          {
+            "move": "hurricane",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sandstorm",
+          "scald",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "cosmic-power",
+          "disable",
+          "future-sight",
+          "guard-swap",
+          "hex",
+          "lucky-chant",
+          "ominous-wind",
+          "reflect-type"
+        ],
+        "tutor": [
+          "defog",
+          "icy-wind",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "tailwind",
+          "water-pulse"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "351",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/351.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Trophy Garden"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 10
+          },
+          {
+            "move": "powder-snow",
+            "level": 10
+          },
+          {
+            "move": "water-gun",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 15
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "rain-dance",
+            "level": 20
+          },
+          {
+            "move": "sunny-day",
+            "level": 20
+          },
+          {
+            "move": "weather-ball",
+            "level": 25
+          },
+          {
+            "move": "blizzard",
+            "level": 35
+          },
+          {
+            "move": "fire-blast",
+            "level": 35
+          },
+          {
+            "move": "hydro-pump",
+            "level": 35
+          },
+          {
+            "move": "hurricane",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "flash",
+          "hail",
+          "ice-beam",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "sandstorm",
+          "scald",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "amnesia",
+          "clear-smog",
+          "cosmic-power",
+          "disable",
+          "future-sight",
+          "guard-swap",
+          "hex",
+          "reflect-type"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

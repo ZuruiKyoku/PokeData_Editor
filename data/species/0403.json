@@ -1,0 +1,1719 @@
+{
+  "dex": 403,
+  "keyword": "shinx",
+  "name": "Shinx",
+  "japaneseName": {
+    "kana": "コリンク",
+    "romaji": "Kolink"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "Flash Pokémon",
+  "heightM": 0.5,
+  "weightKg": 9.5,
+  "stats": {
+    "hp": 45,
+    "attack": 65,
+    "defense": 34,
+    "specialAttack": 40,
+    "specialDefense": 34,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "rivalry",
+      "hidden": false,
+      "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+    },
+    {
+      "name": "intimidate",
+      "hidden": false,
+      "effect": "Lowers opponents' Attack one stage upon entering battle."
+    },
+    {
+      "name": "guts",
+      "hidden": true,
+      "effect": "Increases Attack to 1.5× with a major status ailment."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 235,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 4
+  },
+  "genderDifference": "Female has blue hind feet and a shorter mane",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      404
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0403.png",
+    "shiny": "sprites/shiny/0403.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/403.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/403.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-sinnoh": {
+      "dexNumber": "17",
+      "flavorText": "Its forelegs have a muscle-based system of generating electricity. Its body shines if endangered.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Fuego Ironworks",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 203",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 13
+          },
+          {
+            "move": "spark",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "crunch",
+            "level": 29
+          },
+          {
+            "move": "thunder-fang",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "fire-fang",
+          "howl",
+          "ice-fang",
+          "quick-attack",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "17",
+      "flavorText": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 203",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Valley Windworks",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "fire-fang",
+          "howl",
+          "ice-fang",
+          "quick-attack",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "magnet-rise",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "The extension and contraction of its muscles generates electricity. Its fur glows when it’s in trouble.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 1",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 17",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 18",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 2 North Towards Pewter City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 2 South Towards Viridian City",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 29",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 33",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 7
+          },
+          {
+            "location": "Route 36",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 37",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 46",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 48",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 18
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "fire-fang",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "headbutt",
+          "magnet-rise",
+          "mud-slap",
+          "signal-beam",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "wild-charge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "signal-beam",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "wild-charge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "signal-beam",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": [
+          "iron-tail",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 11
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "wild-charge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "eerie-impulse",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "signal-beam",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 11
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "wild-charge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "eerie-impulse",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "signal-beam",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": [
+          "helping-hand",
+          "iron-tail",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 11
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "wild-charge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "eerie-impulse",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "signal-beam",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/403.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/403.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 5
+          },
+          {
+            "move": "charge",
+            "level": 9
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 11
+          },
+          {
+            "move": "spark",
+            "level": 13
+          },
+          {
+            "move": "bite",
+            "level": 17
+          },
+          {
+            "move": "roar",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 25
+          },
+          {
+            "move": "thunder-fang",
+            "level": 29
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "discharge",
+            "level": 41
+          },
+          {
+            "move": "wild-charge",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "eerie-impulse",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "signal-beam",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": [
+          "helping-hand",
+          "iron-tail",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A025",
+      "flavorText": "Electricity makes this Pokémon’s fur glow. Shinx sends signals to others of its kind by shaking the tip of its tail while the tail tip is shining brightly.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "spark",
+            "level": 16
+          },
+          {
+            "move": "roar",
+            "level": 20
+          },
+          {
+            "move": "volt-switch",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 28
+          },
+          {
+            "move": "thunder-wave",
+            "level": 32
+          },
+          {
+            "move": "crunch",
+            "level": 36
+          },
+          {
+            "move": "discharge",
+            "level": 40
+          },
+          {
+            "move": "swagger",
+            "level": 44
+          },
+          {
+            "move": "wild-charge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "crunch",
+          "eerie-impulse",
+          "electro-ball",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "ice-fang",
+          "iron-tail",
+          "light-screen",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "round",
+          "scary-face",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "substitute",
+          "swift",
+          "thief",
+          "thunder",
+          "thunder-fang",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "double-kick",
+          "howl",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "take-down"
+        ],
+        "tutor": [
+          "rising-voltage"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "403",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/403.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , and , Fuego Ironworks | Grand Underground - Spacious Cave, Grassland Cave, Sunlit Cavern, Whiteout Cave"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "spark",
+            "level": 16
+          },
+          {
+            "move": "roar",
+            "level": 20
+          },
+          {
+            "move": "volt-switch",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 28
+          },
+          {
+            "move": "thunder-wave",
+            "level": 32
+          },
+          {
+            "move": "crunch",
+            "level": 36
+          },
+          {
+            "move": "discharge",
+            "level": 40
+          },
+          {
+            "move": "swagger",
+            "level": 44
+          },
+          {
+            "move": "wild-charge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "roar",
+          "shock-wave",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "double-kick",
+          "eerie-impulse",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "howl",
+          "ice-fang",
+          "night-slash",
+          "quick-attack",
+          "swift",
+          "take-down",
+          "thunder-fang"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "15",
+      "flavorText": "Shakes its body to generate electricity. Its stature belies its aggression—one must be patient to tame this Pokémon.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: near Aspiration Hill, near Floaro Gardens, Deertrack Heights, near Oreburrow Tunnel, massive mass outbreaks | Coronet Highlands: Sonorous Path, Sacred Plaza, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 5
+          },
+          {
+            "move": "bite",
+            "level": 9
+          },
+          {
+            "move": "thunder-fang",
+            "level": 15
+          },
+          {
+            "move": "thunder-wave",
+            "level": 21
+          },
+          {
+            "move": "crunch",
+            "level": 29
+          },
+          {
+            "move": "wild-charge",
+            "level": 37
+          },
+          {
+            "move": "thunder",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P094",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/403.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Three | South Province: Area Five ( Type) | Tera Raid Battles (2★ Shinx)",
+          "Fellhorn Gorge, Oni Mountain, Wistful Fields, Paradise Barrens, Kitakami Wilds, Timeless Woods"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "bite",
+            "level": 12
+          },
+          {
+            "move": "spark",
+            "level": 16
+          },
+          {
+            "move": "roar",
+            "level": 20
+          },
+          {
+            "move": "volt-switch",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 28
+          },
+          {
+            "move": "thunder-wave",
+            "level": 32
+          },
+          {
+            "move": "crunch",
+            "level": 36
+          },
+          {
+            "move": "discharge",
+            "level": 40
+          },
+          {
+            "move": "swagger",
+            "level": 44
+          },
+          {
+            "move": "wild-charge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "charge",
+          "charge-beam",
+          "confuse-ray",
+          "crunch",
+          "double-edge",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "endure",
+          "facade",
+          "fake-tears",
+          "fire-fang",
+          "helping-hand",
+          "ice-fang",
+          "light-screen",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "roar",
+          "scary-face",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "thunder",
+          "thunder-fang",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "baby-doll-eyes",
+          "double-kick",
+          "howl",
+          "night-slash",
+          "quick-attack",
+          "shock-wave",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

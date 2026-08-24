@@ -1,0 +1,2472 @@
+{
+  "dex": 6,
+  "keyword": "charizard",
+  "name": "Charizard",
+  "japaneseName": {
+    "kana": "リザードン",
+    "romaji": "Lizardon"
+  },
+  "type1": "Fire",
+  "type2": "Flying",
+  "genus": "Flame Pokémon",
+  "heightM": 1.7,
+  "weightKg": 90.5,
+  "stats": {
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "specialAttack": 109,
+    "specialDefense": 85,
+    "speed": 100
+  },
+  "abilities": [
+    {
+      "name": "blaze",
+      "hidden": false,
+      "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+    },
+    {
+      "name": "solar-power",
+      "hidden": true,
+      "effect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 1,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 5,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0006.png",
+    "shiny": "sprites/shiny/0006.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/6.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "6",
+      "flavorText": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/6.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "metal-claw",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "ember",
+            "level": 9
+          },
+          {
+            "move": "metal-claw",
+            "level": 13
+          },
+          {
+            "move": "leer",
+            "level": 15
+          },
+          {
+            "move": "smokescreen",
+            "level": 20
+          },
+          {
+            "move": "rage",
+            "level": 24
+          },
+          {
+            "move": "scary-face",
+            "level": 27
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "slash",
+            "level": 36
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 44
+          },
+          {
+            "move": "flamethrower",
+            "level": 46
+          },
+          {
+            "move": "dragon-rage",
+            "level": 54
+          },
+          {
+            "move": "fire-spin",
+            "level": 55
+          },
+          {
+            "move": "fire-spin",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "counter",
+          "cut",
+          "dig",
+          "double-edge",
+          "double-team",
+          "dragon-claw",
+          "dragon-rage",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fissure",
+          "flamethrower",
+          "fly",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "overheat",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "seismic-toss",
+          "skull-bash",
+          "steel-wing",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "231",
+      "flavorText": "It uses its wings to fly high. The temperature of its fire increases as it gains exper­ ience in battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 13
+          },
+          {
+            "move": "rage",
+            "level": 20
+          },
+          {
+            "move": "scary-face",
+            "level": 27
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 44
+          },
+          {
+            "move": "dragon-rage",
+            "level": 54
+          },
+          {
+            "move": "fire-spin",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "defense-curl",
+          "dig",
+          "double-team",
+          "dragon-breath",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "fly",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A CHARIZARD flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 13
+          },
+          {
+            "move": "rage",
+            "level": 20
+          },
+          {
+            "move": "scary-face",
+            "level": 27
+          },
+          {
+            "move": "flamethrower",
+            "level": 34
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 44
+          },
+          {
+            "move": "dragon-rage",
+            "level": 54
+          },
+          {
+            "move": "fire-spin",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fly",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-smash",
+          "secret-power",
+          "steel-wing",
+          "strength",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "fury-cutter",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is said that CHARIZARD’s fire burns hotter if it has experienced harsh battles.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "flamethrower",
+            "level": 42
+          },
+          {
+            "move": "fire-spin",
+            "level": 49
+          },
+          {
+            "move": "heat-wave",
+            "level": 59
+          },
+          {
+            "move": "flare-blitz",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "defog",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "roost",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn"
+        ]
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It is said that CHARIZARD’s fire burns hotter if it has experienced harsh battles.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "flamethrower",
+            "level": 42
+          },
+          {
+            "move": "fire-spin",
+            "level": 49
+          },
+          {
+            "move": "heat-wave",
+            "level": 59
+          },
+          {
+            "move": "flare-blitz",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "defog",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "roost",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "blast-burn",
+          "fire-punch",
+          "fury-cutter",
+          "heat-wave",
+          "mud-slap",
+          "ominous-wind",
+          "outrage",
+          "snore",
+          "swift",
+          "thunder-punch",
+          "twister"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "236",
+      "flavorText": "Breathing intense, hot flames, it can melt almost anything. Its breath inflicts terrible pain on enemies.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "flamethrower",
+            "level": 42
+          },
+          {
+            "move": "fire-spin",
+            "level": 49
+          },
+          {
+            "move": "heat-wave",
+            "level": 59
+          },
+          {
+            "move": "flare-blitz",
+            "level": 66
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "captivate",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "roost",
+          "secret-power",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "air-cutter",
+          "blast-burn",
+          "fire-punch",
+          "fury-cutter",
+          "headbutt",
+          "heat-wave",
+          "mud-slap",
+          "ominous-wind",
+          "outrage",
+          "snore",
+          "swift",
+          "tailwind",
+          "thunder-punch",
+          "twister"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It is said that Charizard’s fire burns hotter if it has experienced harsh battles.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "flamethrower",
+            "level": 47
+          },
+          {
+            "move": "fire-spin",
+            "level": 56
+          },
+          {
+            "move": "inferno",
+            "level": 62
+          },
+          {
+            "move": "heat-wave",
+            "level": 71
+          },
+          {
+            "move": "flare-blitz",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sky-drop",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "fire-pledge"
+        ]
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It is said that Charizard’s fire burns hotter if it has experienced harsh battles.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "flamethrower",
+            "level": 47
+          },
+          {
+            "move": "fire-spin",
+            "level": 56
+          },
+          {
+            "move": "inferno",
+            "level": 62
+          },
+          {
+            "move": "heat-wave",
+            "level": 71
+          },
+          {
+            "move": "flare-blitz",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "shadow-claw",
+          "sky-drop",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "dragon-pulse",
+          "fire-pledge",
+          "fire-punch",
+          "heat-wave",
+          "iron-tail",
+          "outrage",
+          "roost",
+          "sleep-talk",
+          "snore",
+          "tailwind",
+          "thunder-punch"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "85",
+      "flavorText": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "flare-blitz",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "flamethrower",
+            "level": 47
+          },
+          {
+            "move": "fire-spin",
+            "level": 56
+          },
+          {
+            "move": "inferno",
+            "level": 62
+          },
+          {
+            "move": "heat-wave",
+            "level": 71
+          },
+          {
+            "move": "flare-blitz",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "overheat",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "roost",
+          "round",
+          "shadow-claw",
+          "sky-drop",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "fire-pledge"
+        ]
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "flare-blitz",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 32
+          },
+          {
+            "move": "wing-attack",
+            "level": 36
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "flamethrower",
+            "level": 47
+          },
+          {
+            "move": "fire-spin",
+            "level": 56
+          },
+          {
+            "move": "inferno",
+            "level": 62
+          },
+          {
+            "move": "heat-wave",
+            "level": 71
+          },
+          {
+            "move": "flare-blitz",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hone-claws",
+          "hyper-beam",
+          "incinerate",
+          "overheat",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "roost",
+          "round",
+          "secret-power",
+          "shadow-claw",
+          "sky-drop",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "dragon-pulse",
+          "fire-pledge",
+          "fire-punch",
+          "focus-punch",
+          "heat-wave",
+          "iron-tail",
+          "outrage",
+          "snore",
+          "tailwind",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wing-attack",
+            "level": 0
+          },
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "flare-blitz",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "wing-attack",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "flamethrower",
+            "level": 47
+          },
+          {
+            "move": "fire-spin",
+            "level": 56
+          },
+          {
+            "move": "inferno",
+            "level": 62
+          },
+          {
+            "move": "heat-wave",
+            "level": 71
+          },
+          {
+            "move": "flare-blitz",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "roost",
+          "round",
+          "shadow-claw",
+          "sky-drop",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "fire-pledge"
+        ]
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/6.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/6.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wing-attack",
+            "level": 0
+          },
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "flare-blitz",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "shadow-claw",
+            "level": 1
+          },
+          {
+            "move": "wing-attack",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 7
+          },
+          {
+            "move": "smokescreen",
+            "level": 10
+          },
+          {
+            "move": "dragon-rage",
+            "level": 17
+          },
+          {
+            "move": "scary-face",
+            "level": 21
+          },
+          {
+            "move": "fire-fang",
+            "level": 28
+          },
+          {
+            "move": "flame-burst",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 41
+          },
+          {
+            "move": "flamethrower",
+            "level": 47
+          },
+          {
+            "move": "fire-spin",
+            "level": 56
+          },
+          {
+            "move": "inferno",
+            "level": 62
+          },
+          {
+            "move": "heat-wave",
+            "level": 71
+          },
+          {
+            "move": "flare-blitz",
+            "level": 77
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "overheat",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "roost",
+          "round",
+          "shadow-claw",
+          "sky-drop",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "defog",
+          "dragon-pulse",
+          "fire-pledge",
+          "fire-punch",
+          "focus-punch",
+          "heat-wave",
+          "iron-tail",
+          "outrage",
+          "snore",
+          "tailwind",
+          "thunder-punch"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "6",
+      "flavorText": "When this Pokémon expels a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "wing-attack",
+            "level": 0
+          },
+          {
+            "move": "counter",
+            "level": 1
+          },
+          {
+            "move": "crunch",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "wing-attack",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 4
+          },
+          {
+            "move": "smokescreen",
+            "level": 9
+          },
+          {
+            "move": "ember",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 20
+          },
+          {
+            "move": "dragon-rage",
+            "level": 26
+          },
+          {
+            "move": "fire-spin",
+            "level": 33
+          },
+          {
+            "move": "slash",
+            "level": 43
+          },
+          {
+            "move": "flamethrower",
+            "level": 54
+          },
+          {
+            "move": "air-slash",
+            "level": 62
+          },
+          {
+            "move": "flare-blitz",
+            "level": 75
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "dig",
+          "dragon-pulse",
+          "dragon-tail",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fly",
+          "headbutt",
+          "hyper-beam",
+          "iron-tail",
+          "outrage",
+          "protect",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "roost",
+          "seismic-toss",
+          "solar-beam",
+          "substitute",
+          "thunder-punch",
+          "toxic",
+          "will-o-wisp"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "380",
+      "flavorText": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 0
+          },
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "fire-fang",
+            "level": 19
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "flamethrower",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "fire-spin",
+            "level": 46
+          },
+          {
+            "move": "inferno",
+            "level": 54
+          },
+          {
+            "move": "flare-blitz",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "air-slash",
+          "attract",
+          "beat-up",
+          "blaze-kick",
+          "body-slam",
+          "breaking-swipe",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "crunch",
+          "dig",
+          "dragon-claw",
+          "dragon-dance",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "fire-fang",
+          "fire-punch",
+          "fire-spin",
+          "flamethrower",
+          "flare-blitz",
+          "fling",
+          "fly",
+          "focus-blast",
+          "giga-impact",
+          "heat-crash",
+          "heat-wave",
+          "helping-hand",
+          "hurricane",
+          "hyper-beam",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "mystical-fire",
+          "outrage",
+          "overheat",
+          "protect",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "scary-face",
+          "shadow-claw",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "thunder-punch",
+          "weather-ball",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn",
+          "dual-wingbeat",
+          "fire-pledge",
+          "scale-shot",
+          "scorching-sands"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "6",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/6.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 0
+          },
+          {
+            "move": "air-slash",
+            "level": 1
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "fire-fang",
+            "level": 19
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "flamethrower",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "fire-spin",
+            "level": 46
+          },
+          {
+            "move": "inferno",
+            "level": 54
+          },
+          {
+            "move": "flare-blitz",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulldoze",
+          "cut",
+          "dig",
+          "double-team",
+          "dragon-claw",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "hyper-beam",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "roost",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "steel-wing",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "blast-burn"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "B169",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/6.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "air-slash",
+            "level": 0
+          },
+          {
+            "move": "dragon-claw",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "heat-wave",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "smokescreen",
+            "level": 1
+          },
+          {
+            "move": "dragon-breath",
+            "level": 12
+          },
+          {
+            "move": "fire-fang",
+            "level": 19
+          },
+          {
+            "move": "slash",
+            "level": 24
+          },
+          {
+            "move": "flamethrower",
+            "level": 30
+          },
+          {
+            "move": "scary-face",
+            "level": 39
+          },
+          {
+            "move": "fire-spin",
+            "level": 46
+          },
+          {
+            "move": "inferno",
+            "level": 54
+          },
+          {
+            "move": "flare-blitz",
+            "level": 62
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "air-cutter",
+          "air-slash",
+          "blast-burn",
+          "body-slam",
+          "breaking-swipe",
+          "brick-break",
+          "bulldoze",
+          "crunch",
+          "dig",
+          "double-edge",
+          "dragon-cheer",
+          "dragon-claw",
+          "dragon-dance",
+          "dragon-pulse",
+          "dragon-tail",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "fire-pledge",
+          "fire-punch",
+          "fire-spin",
+          "flame-charge",
+          "flamethrower",
+          "flare-blitz",
+          "fling",
+          "fly",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "heat-crash",
+          "heat-wave",
+          "helping-hand",
+          "hurricane",
+          "hyper-beam",
+          "outrage",
+          "overheat",
+          "protect",
+          "rest",
+          "roar",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "scorching-sands",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "temper-flare",
+          "tera-blast",
+          "thunder-punch",
+          "weather-ball",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ancient-power",
+          "belly-drum",
+          "bite",
+          "counter",
+          "dragon-rush",
+          "dragon-tail",
+          "iron-tail",
+          "metal-claw"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "153",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve",
+          "Hyperspace Lumiose (4★ & 5★ Fire-type wild zones) (5★ wild zones require Special Scan)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

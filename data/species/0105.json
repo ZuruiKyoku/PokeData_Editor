@@ -1,0 +1,2271 @@
+{
+  "dex": 105,
+  "keyword": "marowak",
+  "name": "Marowak",
+  "japaneseName": {
+    "kana": "ガラガラ",
+    "romaji": "Garagara"
+  },
+  "type1": "Ground",
+  "type2": null,
+  "genus": "Bone Keeper Pokémon",
+  "heightM": 1.0,
+  "weightKg": 45.0,
+  "stats": {
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "specialAttack": 50,
+    "specialDefense": 80,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "rock-head",
+      "hidden": false,
+      "effect": "Protects against recoil damage."
+    },
+    {
+      "name": "lightning-rod",
+      "hidden": false,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    {
+      "name": "battle-armor",
+      "hidden": true,
+      "effect": "Protects against critical hits."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 104,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0105.png",
+    "shiny": "sprites/shiny/0105.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/105.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/105.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "105",
+      "flavorText": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/105.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Sevault Canyon",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 52
+          },
+          {
+            "location": "Victory Road 2 1f",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 46
+          },
+          {
+            "location": "Victory Road 2 2f",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 48
+          },
+          {
+            "location": "Victory Road 2 3f",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 46
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "bone-club",
+            "level": 9
+          },
+          {
+            "move": "bone-club",
+            "level": 10
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "tail-whip",
+            "level": 13
+          },
+          {
+            "move": "leer",
+            "level": 17
+          },
+          {
+            "move": "headbutt",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 21
+          },
+          {
+            "move": "bonemerang",
+            "level": 25
+          },
+          {
+            "move": "leer",
+            "level": 25
+          },
+          {
+            "move": "rage",
+            "level": 32
+          },
+          {
+            "move": "focus-energy",
+            "level": 33
+          },
+          {
+            "move": "false-swipe",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "thrash",
+            "level": 46
+          },
+          {
+            "move": "bonemerang",
+            "level": 48
+          },
+          {
+            "move": "bone-rush",
+            "level": 53
+          },
+          {
+            "move": "rage",
+            "level": 55
+          },
+          {
+            "move": "double-edge",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "bubble-beam",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fissure",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "protect",
+          "rage",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "seismic-toss",
+          "skull-bash",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "toxic",
+          "water-gun"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "204",
+      "flavorText": "Somewhere in the world is a ceme­ tery just for MAROWAK. It gets its bones from those graves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "bone-club",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "leer",
+            "level": 17
+          },
+          {
+            "move": "focus-energy",
+            "level": 21
+          },
+          {
+            "move": "bonemerang",
+            "level": 25
+          },
+          {
+            "move": "rage",
+            "level": 32
+          },
+          {
+            "move": "false-swipe",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 46
+          },
+          {
+            "move": "bone-rush",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "detect",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "earthquake",
+          "endure",
+          "fire-blast",
+          "fire-punch",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sandstorm",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A MAROWAK is the evolved form of a CUBONE that has grown tough by overcoming the grief of losing its mother. Its tempered and hardened spirit is not easily broken.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "bone-club",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 13
+          },
+          {
+            "move": "leer",
+            "level": 17
+          },
+          {
+            "move": "focus-energy",
+            "level": 21
+          },
+          {
+            "move": "bonemerang",
+            "level": 25
+          },
+          {
+            "move": "rage",
+            "level": 32
+          },
+          {
+            "move": "false-swipe",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 46
+          },
+          {
+            "move": "bone-rush",
+            "level": 53
+          },
+          {
+            "move": "double-edge",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "icy-wind",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "rock-slide",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "fury-cutter",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "mud-slap",
+          "outrage",
+          "snore",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "209",
+      "flavorText": "It collects bones from an unknown place. Some whisper that a MAROWAK graveyard exists somewhere in the world.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Safari Zone Zone Desert",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "fury-cutter",
+          "headbutt",
+          "icy-wind",
+          "iron-defense",
+          "knock-off",
+          "low-kick",
+          "mud-slap",
+          "outrage",
+          "snore",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 15",
+            "method": "Dark Grass",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          },
+          {
+            "move": "retaliate",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          },
+          {
+            "move": "retaliate",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "icy-wind",
+          "iron-defense",
+          "iron-head",
+          "iron-tail",
+          "knock-off",
+          "low-kick",
+          "outrage",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C61",
+      "flavorText": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          },
+          {
+            "move": "retaliate",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon’s tempered and hardened spirit is not easily broken.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "bone-rush",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          },
+          {
+            "move": "retaliate",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "power-up-punch",
+          "protect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "icy-wind",
+          "iron-defense",
+          "iron-head",
+          "iron-tail",
+          "knock-off",
+          "low-kick",
+          "outrage",
+          "snore",
+          "stealth-rock",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "164",
+      "flavorText": "This Pokémon is out for vengeance on its natural enemy, Mandibuzz. It throws bones like boomerangs to try to take it down.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          },
+          {
+            "move": "retaliate",
+            "level": 59
+          },
+          {
+            "move": "bone-rush",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "198",
+      "flavorText": "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/105.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/105.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Heahea Beach",
+            "method": "Gift",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "bone-club",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "leer",
+            "level": 13
+          },
+          {
+            "move": "focus-energy",
+            "level": 17
+          },
+          {
+            "move": "bonemerang",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 23
+          },
+          {
+            "move": "false-swipe",
+            "level": 27
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "fling",
+            "level": 37
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 49
+          },
+          {
+            "move": "double-edge",
+            "level": 53
+          },
+          {
+            "move": "retaliate",
+            "level": 59
+          },
+          {
+            "move": "bone-rush",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "echoed-voice",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smack-down",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "earth-power",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "icy-wind",
+          "iron-defense",
+          "iron-head",
+          "iron-tail",
+          "knock-off",
+          "laser-focus",
+          "low-kick",
+          "outrage",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "throat-chop",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "105",
+      "flavorText": "Small and weak, this Pokémon is adept with its bone club. It has grown more vicious over the ages.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "swords-dance",
+            "level": 0
+          },
+          {
+            "move": "bone-club",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "screech",
+            "level": 1
+          },
+          {
+            "move": "swords-dance",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 2
+          },
+          {
+            "move": "leer",
+            "level": 6
+          },
+          {
+            "move": "bone-club",
+            "level": 12
+          },
+          {
+            "move": "headbutt",
+            "level": 14
+          },
+          {
+            "move": "rage",
+            "level": 18
+          },
+          {
+            "move": "focus-energy",
+            "level": 24
+          },
+          {
+            "move": "bonemerang",
+            "level": 26
+          },
+          {
+            "move": "thrash",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "brick-break",
+          "dig",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "headbutt",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "outrage",
+          "protect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "stealth-rock",
+          "substitute",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A171",
+      "flavorText": "When this Pokémon evolved, the skull of its mother fused to it. Marowak’s temperament also turned vicious at the same time.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "false-swipe",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 12
+          },
+          {
+            "move": "retaliate",
+            "level": 16
+          },
+          {
+            "move": "fling",
+            "level": 20
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 24
+          },
+          {
+            "move": "bone-rush",
+            "level": 31
+          },
+          {
+            "move": "focus-energy",
+            "level": 36
+          },
+          {
+            "move": "endeavor",
+            "level": 42
+          },
+          {
+            "move": "bonemerang",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 54
+          },
+          {
+            "move": "double-edge",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "body-slam",
+          "brick-break",
+          "brutal-swing",
+          "bulldoze",
+          "dig",
+          "earth-power",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "fire-punch",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-energy",
+          "giga-impact",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "iron-defense",
+          "iron-head",
+          "iron-tail",
+          "low-kick",
+          "mega-kick",
+          "mega-punch",
+          "outrage",
+          "protect",
+          "rest",
+          "retaliate",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "thief",
+          "throat-chop",
+          "thunder-punch",
+          "uproar"
+        ],
+        "egg": [],
+        "tutor": [
+          "scorching-sands"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "105",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/105.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve (Kantonian Form) | Unobtainable (Alolan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "false-swipe",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "mud-slap",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "headbutt",
+            "level": 12
+          },
+          {
+            "move": "retaliate",
+            "level": 16
+          },
+          {
+            "move": "fling",
+            "level": 20
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 24
+          },
+          {
+            "move": "bone-rush",
+            "level": 31
+          },
+          {
+            "move": "focus-energy",
+            "level": 36
+          },
+          {
+            "move": "endeavor",
+            "level": 42
+          },
+          {
+            "move": "bonemerang",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 54
+          },
+          {
+            "move": "double-edge",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "giga-impact",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rest",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "sleep-talk",
+          "stealth-rock",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H010",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose (All Forms)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

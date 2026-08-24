@@ -1,0 +1,1013 @@
+{
+  "dex": 583,
+  "keyword": "vanillish",
+  "name": "Vanillish",
+  "japaneseName": {
+    "kana": "バニリッチ",
+    "romaji": "Vanirich"
+  },
+  "type1": "Ice",
+  "type2": null,
+  "genus": "Icy Snow Pokémon",
+  "heightM": 1.1,
+  "weightKg": 41.0,
+  "stats": {
+    "hp": 51,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 75,
+    "speed": 59
+  },
+  "abilities": [
+    {
+      "name": "ice-body",
+      "hidden": false,
+      "effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+    },
+    {
+      "name": "snow-cloak",
+      "hidden": false,
+      "effect": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+    },
+    {
+      "name": "weak-armor",
+      "hidden": true,
+      "effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "blob",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 582,
+    "evolvesIntoDex": [
+      584
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0583.png",
+    "shiny": "sprites/shiny/0583.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/583.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/583.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "89",
+      "flavorText": "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/583.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/583.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Dark Grass",
+            "minLevel": 35,
+            "maxLevel": 37
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Dark Grass",
+            "minLevel": 35,
+            "maxLevel": 37
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hail",
+            "level": 42
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          },
+          {
+            "move": "blizzard",
+            "level": 53
+          },
+          {
+            "move": "sheer-cold",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "256",
+      "flavorText": "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/583.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/583.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Dark Grass",
+            "minLevel": 63,
+            "maxLevel": 65
+          },
+          {
+            "location": "Dragonspiral Tower Entrance",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Dark Grass",
+            "minLevel": 63,
+            "maxLevel": 65
+          },
+          {
+            "location": "Dragonspiral Tower Outside",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 57
+          },
+          {
+            "location": "Giant Chasm",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 47
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Dark Grass",
+            "minLevel": 50,
+            "maxLevel": 52
+          },
+          {
+            "location": "Giant Chasm Outside",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hail",
+            "level": 42
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          },
+          {
+            "move": "blizzard",
+            "level": 53
+          },
+          {
+            "move": "sheer-cold",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M86",
+      "flavorText": "Snowy mountains are this Pokémon’s habitat. During an ancient ice age, they moved to southern areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/583.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/583.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hail",
+            "level": 42
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          },
+          {
+            "move": "blizzard",
+            "level": 53
+          },
+          {
+            "move": "sheer-cold",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Snowy mountains are this Pokémon’s habitat. During an ancient ice age, they moved to southern areas.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/583.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/583.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hail",
+            "level": 42
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          },
+          {
+            "move": "blizzard",
+            "level": 53
+          },
+          {
+            "move": "sheer-cold",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "icy-wind",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "snore",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "256",
+      "flavorText": "This Pokémon has existed since the Ice Age. It controls particles of ice, freezes its opponents, and then shatters them with a headbutt.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/583.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/583.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Outside",
+            "method": "Sos Encounter",
+            "minLevel": 42,
+            "maxLevel": 45
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hail",
+            "level": 42
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          },
+          {
+            "move": "blizzard",
+            "level": 53
+          },
+          {
+            "move": "sheer-cold",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "333",
+      "flavorText": "This hearty Pokémon survived the Ice Age. It’s incredibly popular in very hot regions.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/583.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/583.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Outside",
+            "method": "Sos Encounter",
+            "minLevel": 47,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "icicle-spear",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 4
+          },
+          {
+            "move": "astonish",
+            "level": 7
+          },
+          {
+            "move": "uproar",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 13
+          },
+          {
+            "move": "mist",
+            "level": 16
+          },
+          {
+            "move": "avalanche",
+            "level": 19
+          },
+          {
+            "move": "taunt",
+            "level": 22
+          },
+          {
+            "move": "mirror-shot",
+            "level": 26
+          },
+          {
+            "move": "acid-armor",
+            "level": 31
+          },
+          {
+            "move": "ice-beam",
+            "level": 36
+          },
+          {
+            "move": "hail",
+            "level": 42
+          },
+          {
+            "move": "mirror-coat",
+            "level": 47
+          },
+          {
+            "move": "blizzard",
+            "level": 53
+          },
+          {
+            "move": "sheer-cold",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "explosion",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "ally-switch",
+          "icy-wind",
+          "iron-defense",
+          "magic-coat",
+          "magnet-rise",
+          "signal-beam",
+          "snore",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "73",
+      "flavorText": "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it’s a kind Pokémon.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "mist",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "icy-wind",
+            "level": 12
+          },
+          {
+            "move": "avalanche",
+            "level": 16
+          },
+          {
+            "move": "hail",
+            "level": 20
+          },
+          {
+            "move": "icicle-spear",
+            "level": 24
+          },
+          {
+            "move": "uproar",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "mirror-coat",
+            "level": 38
+          },
+          {
+            "move": "ice-beam",
+            "level": 44
+          },
+          {
+            "move": "blizzard",
+            "level": 50
+          },
+          {
+            "move": "sheer-cold",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "hail",
+          "hyper-voice",
+          "ice-beam",
+          "icicle-spear",
+          "icy-wind",
+          "imprison",
+          "iron-defense",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "self-destruct",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "taunt",
+          "uproar"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "114",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Evolve",
+          "Hyperspace Lumiose (3★ & 4★ Ice-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

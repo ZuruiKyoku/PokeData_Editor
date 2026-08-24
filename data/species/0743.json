@@ -1,0 +1,621 @@
+{
+  "dex": 743,
+  "keyword": "ribombee",
+  "name": "Ribombee",
+  "japaneseName": {
+    "kana": "アブリボン",
+    "romaji": "Aburibbon"
+  },
+  "type1": "Bug",
+  "type2": "Fairy",
+  "genus": "Bee Fly Pokémon",
+  "heightM": 0.2,
+  "weightKg": 0.5,
+  "stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 60,
+    "specialAttack": 95,
+    "specialDefense": 70,
+    "speed": 124
+  },
+  "abilities": [
+    {
+      "name": "honey-gather",
+      "hidden": false,
+      "effect": "The Pokémon may pick up honey after battle."
+    },
+    {
+      "name": "shield-dust",
+      "hidden": false,
+      "effect": "Protects against incoming moves' extra effects."
+    },
+    {
+      "name": "sweet-veil",
+      "hidden": true,
+      "effect": "Prevents friendly Pokémon from sleeping."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "bug-wings",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 742,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0743.png",
+    "shiny": "sprites/shiny/0743.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/743.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "84",
+      "flavorText": "Some of Ribombee’s pollen puffs are highly nutritious. They are sometimes sold as supplements.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/743.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/743.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poni Meadow",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Ulaula Meadow",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 34
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pollen-puff",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "pollen-puff",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "struggle-bug",
+            "level": 10
+          },
+          {
+            "move": "silver-wind",
+            "level": 13
+          },
+          {
+            "move": "draining-kiss",
+            "level": 16
+          },
+          {
+            "move": "sweet-scent",
+            "level": 21
+          },
+          {
+            "move": "bug-buzz",
+            "level": 28
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 35
+          },
+          {
+            "move": "aromatherapy",
+            "level": 42
+          },
+          {
+            "move": "quiver-dance",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "99",
+      "flavorText": "It can predict the weather from moisture levels and wind direction. Ribombee only reveals itself when there are a few clear days in a row.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/743.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/743.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Heahea Beach",
+            "method": "Gift",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Poni Meadow",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Ulaula Meadow",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 36
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pollen-puff",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "pollen-puff",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 4
+          },
+          {
+            "move": "stun-spore",
+            "level": 7
+          },
+          {
+            "move": "struggle-bug",
+            "level": 10
+          },
+          {
+            "move": "silver-wind",
+            "level": 13
+          },
+          {
+            "move": "draining-kiss",
+            "level": 16
+          },
+          {
+            "move": "sweet-scent",
+            "level": 21
+          },
+          {
+            "move": "bug-buzz",
+            "level": 28
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 35
+          },
+          {
+            "move": "aromatherapy",
+            "level": 42
+          },
+          {
+            "move": "quiver-dance",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "ally-switch",
+          "bug-bite",
+          "covet",
+          "defog",
+          "helping-hand",
+          "last-resort",
+          "magic-room",
+          "signal-beam",
+          "skill-swap",
+          "snore",
+          "tailwind",
+          "telekinesis",
+          "trick",
+          "wonder-room"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "188",
+      "flavorText": "Ribombee absolutely hate getting wet or rained on. In the cloudy Galar region, they are very seldom seen.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pollen-puff",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "pollen-puff",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "draining-kiss",
+            "level": 18
+          },
+          {
+            "move": "struggle-bug",
+            "level": 24
+          },
+          {
+            "move": "aromatherapy",
+            "level": 32
+          },
+          {
+            "move": "switcheroo",
+            "level": 40
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 48
+          },
+          {
+            "move": "bug-buzz",
+            "level": 56
+          },
+          {
+            "move": "quiver-dance",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "ally-switch",
+          "attract",
+          "baton-pass",
+          "bug-buzz",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "draining-kiss",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "giga-impact",
+          "helping-hand",
+          "hyper-beam",
+          "imprison",
+          "leech-life",
+          "light-screen",
+          "magic-room",
+          "magical-leaf",
+          "play-rough",
+          "pollen-puff",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "round",
+          "safeguard",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "speed-swap",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "thief",
+          "trick",
+          "u-turn",
+          "wonder-room"
+        ],
+        "egg": [],
+        "tutor": [
+          "dual-wingbeat"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K017",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/743.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mossfell Confluence, Wistful Fields | Tera Raid Battles (4★ Ribombee)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "pollen-puff",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "draining-kiss",
+            "level": 18
+          },
+          {
+            "move": "struggle-bug",
+            "level": 24
+          },
+          {
+            "move": "covet",
+            "level": 32
+          },
+          {
+            "move": "switcheroo",
+            "level": 40
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 48
+          },
+          {
+            "move": "bug-buzz",
+            "level": 56
+          },
+          {
+            "move": "quiver-dance",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "agility",
+          "alluring-voice",
+          "baton-pass",
+          "bug-bite",
+          "bug-buzz",
+          "calm-mind",
+          "charm",
+          "dazzling-gleam",
+          "draining-kiss",
+          "dual-wingbeat",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "giga-impact",
+          "grass-knot",
+          "helping-hand",
+          "hyper-beam",
+          "imprison",
+          "leech-life",
+          "light-screen",
+          "lunge",
+          "magical-leaf",
+          "play-rough",
+          "pollen-puff",
+          "pounce",
+          "protect",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "reflect",
+          "rest",
+          "skill-swap",
+          "skitter-smack",
+          "sleep-talk",
+          "solar-beam",
+          "stored-power",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "tailwind",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "trailblaze",
+          "trick",
+          "u-turn"
+        ],
+        "egg": [
+          "aromatic-mist",
+          "moonblast",
+          "sticky-web"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

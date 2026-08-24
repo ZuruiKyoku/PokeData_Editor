@@ -1,0 +1,2356 @@
+{
+  "dex": 215,
+  "keyword": "sneasel",
+  "name": "Sneasel",
+  "japaneseName": {
+    "kana": "ニューラ",
+    "romaji": "Nyula"
+  },
+  "type1": "Dark",
+  "type2": "Ice",
+  "genus": "Sharp Claw Pokémon",
+  "heightM": 0.9,
+  "weightKg": 28.0,
+  "stats": {
+    "hp": 55,
+    "attack": 95,
+    "defense": 55,
+    "specialAttack": 35,
+    "specialDefense": 75,
+    "speed": 115
+  },
+  "abilities": [
+    {
+      "name": "inner-focus",
+      "hidden": false,
+      "effect": "Prevents flinching."
+    },
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "pickpocket",
+      "hidden": true,
+      "effect": "Steals attacking Pokémon's held items on contact."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 35,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "upright",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female's left ear is shorter",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      461,
+      903
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0215.png",
+    "shiny": "sprites/shiny/0215.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/215.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/215.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "213",
+      "flavorText": "This cunning POKéMON hides under the cover of darkness, waiting to attack its prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ice Path B1f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Ice Path B2f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Ice Path B3f",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 26
+          },
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 38,
+            "maxLevel": 42
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 9
+          },
+          {
+            "move": "screech",
+            "level": 17
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "fury-swipes",
+            "level": 33
+          },
+          {
+            "move": "agility",
+            "level": 41
+          },
+          {
+            "move": "slash",
+            "level": 49
+          },
+          {
+            "move": "beat-up",
+            "level": 57
+          },
+          {
+            "move": "metal-claw",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "cut",
+          "defense-curl",
+          "detect",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "frustration",
+          "fury-cutter",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "mud-slap",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "surf",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "foresight",
+          "reflect",
+          "spite"
+        ],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "A SNEASEL scales trees by punching its hooked claws into the bark. It seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "screech",
+            "level": 15
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "fury-swipes",
+            "level": 29
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "icy-wind",
+            "level": 43
+          },
+          {
+            "move": "slash",
+            "level": 50
+          },
+          {
+            "move": "beat-up",
+            "level": 57
+          },
+          {
+            "move": "metal-claw",
+            "level": 64
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "snatch",
+          "strength",
+          "sunny-day",
+          "surf",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "crush-claw",
+          "fake-out",
+          "foresight",
+          "reflect",
+          "spite"
+        ],
+        "tutor": [
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dream-eater",
+          "dynamic-punch",
+          "endure",
+          "fury-cutter",
+          "ice-punch",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "144",
+      "flavorText": "It is extremely vicious and will not stop attacking until its foe is incapable of moving.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Acuity Lakefront",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lake Acuity",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 216",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 33
+          },
+          {
+            "location": "Route 217",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 35
+          },
+          {
+            "location": "Snowpoint Temple 1f",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 52
+          },
+          {
+            "location": "Snowpoint Temple B1f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 54
+          },
+          {
+            "location": "Snowpoint Temple B2f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 54
+          },
+          {
+            "location": "Snowpoint Temple B3f",
+            "method": "Walk",
+            "minLevel": 52,
+            "maxLevel": 54
+          },
+          {
+            "location": "Snowpoint Temple B4f",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 56
+          },
+          {
+            "location": "Snowpoint Temple B5f",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 56
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "screech",
+            "level": 10
+          },
+          {
+            "move": "feint-attack",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "icy-wind",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "beat-up",
+            "level": 38
+          },
+          {
+            "move": "metal-claw",
+            "level": 42
+          },
+          {
+            "move": "ice-shard",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "punishment",
+          "pursuit",
+          "reflect",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "144",
+      "flavorText": "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Acuity Lakefront",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lake Acuity",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Route 216",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 217",
+            "method": "Walk",
+            "minLevel": 33,
+            "maxLevel": 35
+          },
+          {
+            "location": "Snowpoint Temple 1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Snowpoint Temple B1f",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          },
+          {
+            "location": "Snowpoint Temple B2f",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Snowpoint Temple B3f",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Snowpoint Temple B4f",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          },
+          {
+            "location": "Snowpoint Temple B5f",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "screech",
+            "level": 10
+          },
+          {
+            "move": "feint-attack",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "icy-wind",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "beat-up",
+            "level": 38
+          },
+          {
+            "move": "metal-claw",
+            "level": 42
+          },
+          {
+            "move": "ice-shard",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "punishment",
+          "pursuit",
+          "reflect",
+          "spite"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "spite",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "218",
+      "flavorText": "Vicious in nature, it drives PIDGEY from their nests and scavenges any leftovers it can find.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver 1f Top",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Mt Silver 4f",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 43
+          },
+          {
+            "location": "Mt Silver Top",
+            "method": "Walk",
+            "minLevel": 45,
+            "maxLevel": 45
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 42
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "screech",
+            "level": 10
+          },
+          {
+            "move": "feint-attack",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "icy-wind",
+            "level": 28
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "beat-up",
+            "level": 38
+          },
+          {
+            "move": "metal-claw",
+            "level": 42
+          },
+          {
+            "move": "ice-shard",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "captivate",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fling",
+          "focus-punch",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snatch",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "whirlpool",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "punishment",
+          "pursuit",
+          "reflect",
+          "spite"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "headbutt",
+          "ice-punch",
+          "icy-wind",
+          "knock-off",
+          "low-kick",
+          "mud-slap",
+          "snore",
+          "spite",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          },
+          {
+            "location": "Giant Chasm Forest Cave",
+            "method": "Walk",
+            "minLevel": 58,
+            "maxLevel": 58
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "screech",
+            "level": 10
+          },
+          {
+            "move": "feint-attack",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "agility",
+            "level": 24
+          },
+          {
+            "move": "icy-wind",
+            "level": 28
+          },
+          {
+            "move": "hone-claws",
+            "level": 35
+          },
+          {
+            "move": "slash",
+            "level": 38
+          },
+          {
+            "move": "beat-up",
+            "level": 42
+          },
+          {
+            "move": "metal-claw",
+            "level": 49
+          },
+          {
+            "move": "ice-shard",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "avalanche",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "punishment",
+          "pursuit",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "252",
+      "flavorText": "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Giant Chasm",
+            "method": "Walk",
+            "minLevel": 44,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "metal-claw",
+            "level": 22
+          },
+          {
+            "move": "hone-claws",
+            "level": 25
+          },
+          {
+            "move": "beat-up",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "snatch",
+            "level": 40
+          },
+          {
+            "move": "punishment",
+            "level": 44
+          },
+          {
+            "move": "ice-shard",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "avalanche",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "punishment",
+          "pursuit",
+          "spite"
+        ],
+        "tutor": [
+          "dark-pulse",
+          "foul-play",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "low-kick",
+          "sleep-talk",
+          "snatch",
+          "snore",
+          "spite"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M91",
+      "flavorText": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 17",
+            "method": "Rough Terrain",
+            "minLevel": 38,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "metal-claw",
+            "level": 22
+          },
+          {
+            "move": "hone-claws",
+            "level": 25
+          },
+          {
+            "move": "beat-up",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "snatch",
+            "level": 40
+          },
+          {
+            "move": "punishment",
+            "level": 44
+          },
+          {
+            "move": "ice-shard",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "avalanche",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "icicle-crash",
+          "punishment",
+          "pursuit",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Sneasel scales trees by punching its hooked claws into the bark. This Pokémon seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "metal-claw",
+            "level": 22
+          },
+          {
+            "move": "hone-claws",
+            "level": 25
+          },
+          {
+            "move": "beat-up",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "snatch",
+            "level": 40
+          },
+          {
+            "move": "punishment",
+            "level": 44
+          },
+          {
+            "move": "ice-shard",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "avalanche",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "icicle-crash",
+          "punishment",
+          "pursuit",
+          "spite"
+        ],
+        "tutor": [
+          "focus-punch",
+          "foul-play",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "low-kick",
+          "snatch",
+          "snore",
+          "spite"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "249",
+      "flavorText": "It uses its claws to poke holes in eggs so it can slurp out the insides. Breeders consider it a scourge and will drive it away or eradicate it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Cave",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 45
+          },
+          {
+            "location": "Mount Lanakila Outside",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 45
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "metal-claw",
+            "level": 22
+          },
+          {
+            "move": "hone-claws",
+            "level": 25
+          },
+          {
+            "move": "beat-up",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "snatch",
+            "level": 40
+          },
+          {
+            "move": "punishment",
+            "level": 44
+          },
+          {
+            "move": "ice-shard",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "avalanche",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "icicle-crash",
+          "punishment",
+          "pursuit",
+          "spite",
+          "throat-chop"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "326",
+      "flavorText": "It blends into the dark of night to ambush its prey. Sneasel will attack Sandshrew, but its hard skin can cause Sneasel’s claws to snap off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/215.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/215.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Cave",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 51
+          },
+          {
+            "location": "Mount Lanakila Outside",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 8
+          },
+          {
+            "move": "feint-attack",
+            "level": 10
+          },
+          {
+            "move": "icy-wind",
+            "level": 14
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "metal-claw",
+            "level": 22
+          },
+          {
+            "move": "hone-claws",
+            "level": 25
+          },
+          {
+            "move": "beat-up",
+            "level": 28
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "slash",
+            "level": 35
+          },
+          {
+            "move": "snatch",
+            "level": 40
+          },
+          {
+            "move": "punishment",
+            "level": 44
+          },
+          {
+            "move": "ice-shard",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "false-swipe",
+          "fling",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic",
+          "x-scissor"
+        ],
+        "egg": [
+          "assist",
+          "avalanche",
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "foresight",
+          "ice-punch",
+          "ice-shard",
+          "icicle-crash",
+          "punishment",
+          "pursuit",
+          "spite",
+          "throat-chop"
+        ],
+        "tutor": [
+          "focus-punch",
+          "foul-play",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "knock-off",
+          "laser-focus",
+          "low-kick",
+          "snatch",
+          "snore",
+          "spite",
+          "throat-chop"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "292",
+      "flavorText": "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 6
+          },
+          {
+            "move": "quick-attack",
+            "level": 12
+          },
+          {
+            "move": "metal-claw",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 24
+          },
+          {
+            "move": "fury-swipes",
+            "level": 30
+          },
+          {
+            "move": "hone-claws",
+            "level": 36
+          },
+          {
+            "move": "beat-up",
+            "level": 42
+          },
+          {
+            "move": "agility",
+            "level": 48
+          },
+          {
+            "move": "screech",
+            "level": 54
+          },
+          {
+            "move": "slash",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "avalanche",
+          "beat-up",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "facade",
+          "fake-tears",
+          "false-swipe",
+          "fling",
+          "foul-play",
+          "hail",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "low-kick",
+          "low-sweep",
+          "mega-kick",
+          "mega-punch",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psycho-cut",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "retaliate",
+          "round",
+          "screech",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swift",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "throat-chop",
+          "whirlpool",
+          "x-scissor"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "ice-shard",
+          "icicle-crash",
+          "spite"
+        ],
+        "tutor": [
+          "lash-out",
+          "triple-axel"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "215",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/215.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and , Acuity Lakefront, Lake Acuity, Snowpoint Temple | Grand Underground - Whiteout Cave, Icy Cave, Glacial Cavern (After defeating Candice)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 6
+          },
+          {
+            "move": "quick-attack",
+            "level": 12
+          },
+          {
+            "move": "metal-claw",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 24
+          },
+          {
+            "move": "fury-swipes",
+            "level": 30
+          },
+          {
+            "move": "hone-claws",
+            "level": 36
+          },
+          {
+            "move": "beat-up",
+            "level": 42
+          },
+          {
+            "move": "agility",
+            "level": 48
+          },
+          {
+            "move": "screech",
+            "level": 54
+          },
+          {
+            "move": "slash",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "false-swipe",
+          "fling",
+          "focus-punch",
+          "hail",
+          "ice-beam",
+          "iron-tail",
+          "low-sweep",
+          "payback",
+          "poison-jab",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-smash",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "thief",
+          "torment",
+          "x-scissor"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "crush-claw",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "ice-punch",
+          "ice-shard",
+          "icicle-crash",
+          "spite",
+          "throat-chop"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": null,
+      "flavorText": "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: Space-time distortions (Johtonian Form) | Coronet Highlands: near Celestica Trail, near Primeval Grotto, massive mass outbreaks (Hisuian Form) | Alabaster Icelands: near Avalugg's Legacy (additional ), Glacier Terrace, near Pearl Settlement (Hisuian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "ice-shard",
+            "level": 6
+          },
+          {
+            "move": "swift",
+            "level": 11
+          },
+          {
+            "move": "slash",
+            "level": 18
+          },
+          {
+            "move": "poison-jab",
+            "level": 25
+          },
+          {
+            "move": "swords-dance",
+            "level": 34
+          },
+          {
+            "move": "blizzard",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": [
+          "aerial-ace",
+          "calm-mind",
+          "dark-pulse",
+          "false-swipe",
+          "ice-beam",
+          "ice-punch",
+          "icy-wind",
+          "iron-tail",
+          "poison-jab",
+          "psycho-cut",
+          "rest",
+          "rock-smash",
+          "shadow-ball",
+          "shadow-claw",
+          "snarl",
+          "swift",
+          "x-scissor"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P230",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/215.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: Dalizapa Passage, Glaseado Mountain (Johtonian Form) | North Province: Dalizapa Passage ( Type) (Johtonian Form) | Area Zero (Johtonian Form) | Tera Raid Battles (3★ Sneasel) (Johtonian Form) | (Hisuian Form)",
+          "Oni Mountain, Chilling Waterhead, Timeless Woods (Johtonian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "taunt",
+            "level": 6
+          },
+          {
+            "move": "quick-attack",
+            "level": 12
+          },
+          {
+            "move": "metal-claw",
+            "level": 18
+          },
+          {
+            "move": "icy-wind",
+            "level": 24
+          },
+          {
+            "move": "fury-swipes",
+            "level": 30
+          },
+          {
+            "move": "hone-claws",
+            "level": 36
+          },
+          {
+            "move": "beat-up",
+            "level": 42
+          },
+          {
+            "move": "agility",
+            "level": 48
+          },
+          {
+            "move": "screech",
+            "level": 54
+          },
+          {
+            "move": "slash",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "agility",
+          "avalanche",
+          "blizzard",
+          "brick-break",
+          "calm-mind",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "facade",
+          "fake-tears",
+          "false-swipe",
+          "fling",
+          "focus-punch",
+          "foul-play",
+          "giga-impact",
+          "helping-hand",
+          "ice-beam",
+          "ice-punch",
+          "icicle-spear",
+          "icy-wind",
+          "knock-off",
+          "lash-out",
+          "low-kick",
+          "low-sweep",
+          "metal-claw",
+          "nasty-plot",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "scary-face",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "snowscape",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "trailblaze",
+          "triple-axel",
+          "upper-hand",
+          "water-pulse",
+          "x-scissor"
+        ],
+        "egg": [
+          "bite",
+          "counter",
+          "double-hit",
+          "fake-out",
+          "feint",
+          "ice-shard",
+          "icicle-crash",
+          "spite"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

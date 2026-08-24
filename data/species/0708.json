@@ -1,0 +1,903 @@
+{
+  "dex": 708,
+  "keyword": "phantump",
+  "name": "Phantump",
+  "japaneseName": {
+    "kana": "ボクレー",
+    "romaji": "Bokurei"
+  },
+  "type1": "Ghost",
+  "type2": "Grass",
+  "genus": "Stump Pokémon",
+  "heightM": 0.4,
+  "weightKg": 7.0,
+  "stats": {
+    "hp": 43,
+    "attack": 70,
+    "defense": 48,
+    "specialAttack": 50,
+    "specialDefense": 60,
+    "speed": 38
+  },
+  "abilities": [
+    {
+      "name": "natural-cure",
+      "hidden": false,
+      "effect": "Cures any major status ailment upon switching out."
+    },
+    {
+      "name": "frisk",
+      "hidden": false,
+      "effect": "Reveals an opponent's held item upon entering battle."
+    },
+    {
+      "name": "harvest",
+      "hidden": true,
+      "effect": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant",
+      "indeterminate"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "arms",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      709
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0708.png",
+    "shiny": "sprites/shiny/0708.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/708.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "M61",
+      "flavorText": "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/708.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/708.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 16",
+            "method": "Rough Terrain",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 16",
+            "method": "Yellow Flowers",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confuse-ray",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "growth",
+            "level": 8
+          },
+          {
+            "move": "ingrain",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "leech-seed",
+            "level": 23
+          },
+          {
+            "move": "curse",
+            "level": 28
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 31
+          },
+          {
+            "move": "forests-curse",
+            "level": 35
+          },
+          {
+            "move": "destiny-bond",
+            "level": 39
+          },
+          {
+            "move": "phantom-force",
+            "level": 45
+          },
+          {
+            "move": "wood-hammer",
+            "level": 49
+          },
+          {
+            "move": "horn-leech",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "bestow",
+          "grudge",
+          "imprison",
+          "venom-drench"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/708.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/708.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confuse-ray",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "growth",
+            "level": 8
+          },
+          {
+            "move": "ingrain",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "leech-seed",
+            "level": 23
+          },
+          {
+            "move": "curse",
+            "level": 28
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 31
+          },
+          {
+            "move": "forests-curse",
+            "level": 35
+          },
+          {
+            "move": "destiny-bond",
+            "level": 39
+          },
+          {
+            "move": "phantom-force",
+            "level": 45
+          },
+          {
+            "move": "wood-hammer",
+            "level": 49
+          },
+          {
+            "move": "horn-leech",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "cut",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "bestow",
+          "grudge",
+          "imprison",
+          "venom-drench"
+        ],
+        "tutor": [
+          "foul-play",
+          "giga-drain",
+          "magic-coat",
+          "pain-split",
+          "role-play",
+          "seed-bomb",
+          "skill-swap",
+          "snore",
+          "spite",
+          "trick",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "196",
+      "flavorText": "According to legend, medicine to cure any illness can be made by plucking the green leaves on its head, brewing them, and boiling down the liquid.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/708.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/708.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Memorial Hill",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 23
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confuse-ray",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "growth",
+            "level": 8
+          },
+          {
+            "move": "ingrain",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "leech-seed",
+            "level": 23
+          },
+          {
+            "move": "curse",
+            "level": 28
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 31
+          },
+          {
+            "move": "forests-curse",
+            "level": 35
+          },
+          {
+            "move": "destiny-bond",
+            "level": 39
+          },
+          {
+            "move": "phantom-force",
+            "level": 45
+          },
+          {
+            "move": "wood-hammer",
+            "level": 49
+          },
+          {
+            "move": "horn-leech",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "bestow",
+          "grudge",
+          "imprison",
+          "venom-drench"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "250",
+      "flavorText": "An unknown spirit came to lodge in a tree stump, creating this Pokémon. A cure-all can be made from an infusion of its green leaves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/708.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/708.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Memorial Hill",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 24
+          },
+          {
+            "location": "Tapu Village",
+            "method": "Npc Trade",
+            "minLevel": 33,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "confuse-ray",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 5
+          },
+          {
+            "move": "growth",
+            "level": 8
+          },
+          {
+            "move": "ingrain",
+            "level": 13
+          },
+          {
+            "move": "feint-attack",
+            "level": 19
+          },
+          {
+            "move": "leech-seed",
+            "level": 23
+          },
+          {
+            "move": "curse",
+            "level": 28
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 31
+          },
+          {
+            "move": "forests-curse",
+            "level": 35
+          },
+          {
+            "move": "destiny-bond",
+            "level": 39
+          },
+          {
+            "move": "phantom-force",
+            "level": 45
+          },
+          {
+            "move": "wood-hammer",
+            "level": 49
+          },
+          {
+            "move": "horn-leech",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "bestow",
+          "grudge",
+          "imprison",
+          "power-up-punch",
+          "venom-drench"
+        ],
+        "tutor": [
+          "ally-switch",
+          "foul-play",
+          "giga-drain",
+          "magic-coat",
+          "pain-split",
+          "role-play",
+          "seed-bomb",
+          "skill-swap",
+          "snore",
+          "spite",
+          "telekinesis",
+          "trick",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "338",
+      "flavorText": "With a voice like a human child’s, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "branch-poke",
+            "level": 4
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "confuse-ray",
+            "level": 12
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 16
+          },
+          {
+            "move": "hex",
+            "level": 20
+          },
+          {
+            "move": "growth",
+            "level": 24
+          },
+          {
+            "move": "horn-leech",
+            "level": 28
+          },
+          {
+            "move": "curse",
+            "level": 32
+          },
+          {
+            "move": "phantom-force",
+            "level": 36
+          },
+          {
+            "move": "ingrain",
+            "level": 40
+          },
+          {
+            "move": "wood-hammer",
+            "level": 44
+          },
+          {
+            "move": "destiny-bond",
+            "level": 48
+          },
+          {
+            "move": "forests-curse",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "ally-switch",
+          "attract",
+          "bulldoze",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "energy-ball",
+          "facade",
+          "foul-play",
+          "giga-drain",
+          "grass-knot",
+          "hex",
+          "imprison",
+          "magical-leaf",
+          "phantom-force",
+          "poison-jab",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "seed-bomb",
+          "shadow-ball",
+          "shadow-claw",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "thief",
+          "trick",
+          "trick-room",
+          "venom-drench",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "disable",
+          "grudge",
+          "sucker-punch"
+        ],
+        "tutor": [
+          "grassy-glide",
+          "poltergeist",
+          "skitter-smack"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "K068",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/708.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Reveler's Road, Kitakami Wilds, Timeless Woods | Tera Raid Battles (3★ Phantump)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "branch-poke",
+            "level": 4
+          },
+          {
+            "move": "leech-seed",
+            "level": 8
+          },
+          {
+            "move": "confuse-ray",
+            "level": 12
+          },
+          {
+            "move": "will-o-wisp",
+            "level": 16
+          },
+          {
+            "move": "hex",
+            "level": 20
+          },
+          {
+            "move": "growth",
+            "level": 24
+          },
+          {
+            "move": "horn-leech",
+            "level": 28
+          },
+          {
+            "move": "curse",
+            "level": 32
+          },
+          {
+            "move": "phantom-force",
+            "level": 36
+          },
+          {
+            "move": "ingrain",
+            "level": 40
+          },
+          {
+            "move": "wood-hammer",
+            "level": 44
+          },
+          {
+            "move": "destiny-bond",
+            "level": 48
+          },
+          {
+            "move": "forests-curse",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "bulldoze",
+          "confuse-ray",
+          "curse",
+          "dark-pulse",
+          "dig",
+          "endure",
+          "energy-ball",
+          "facade",
+          "foul-play",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "hex",
+          "imprison",
+          "lash-out",
+          "magical-leaf",
+          "night-shade",
+          "pain-split",
+          "phantom-force",
+          "poison-jab",
+          "poltergeist",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "rock-slide",
+          "seed-bomb",
+          "shadow-ball",
+          "shadow-claw",
+          "skill-swap",
+          "skitter-smack",
+          "sleep-talk",
+          "solar-beam",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "tera-blast",
+          "thief",
+          "trailblaze",
+          "trick",
+          "trick-room",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "ally-switch",
+          "disable",
+          "sucker-punch"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "182",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Rouge District: Wild Zone 13",
+          "Hyperspace Lumiose (1★ & 4★ Ghost-type wild zones, 4★ Grass-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

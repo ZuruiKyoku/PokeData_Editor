@@ -1,0 +1,1826 @@
+{
+  "dex": 84,
+  "keyword": "doduo",
+  "name": "Doduo",
+  "japaneseName": {
+    "kana": "ドードー",
+    "romaji": "Dodo"
+  },
+  "type1": "Normal",
+  "type2": "Flying",
+  "genus": "Twin Bird Pokémon",
+  "heightM": 1.4,
+  "weightKg": 39.2,
+  "stats": {
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 75
+  },
+  "abilities": [
+    {
+      "name": "run-away",
+      "hidden": false,
+      "effect": "Ensures success fleeing from wild battles."
+    },
+    {
+      "name": "early-bird",
+      "hidden": false,
+      "effect": "Makes sleep pass twice as quickly."
+    },
+    {
+      "name": "tangled-feet",
+      "hidden": true,
+      "effect": "Doubles evasion when confused."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "legs",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Male has black necks while female has beige necks",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      85
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0084.png",
+    "shiny": "sprites/shiny/0084.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/84.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/84.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "84",
+      "flavorText": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/84.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 17",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 18",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 28
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "growl",
+            "level": 20
+          },
+          {
+            "move": "tri-attack",
+            "level": 21
+          },
+          {
+            "move": "fury-attack",
+            "level": 24
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "drill-peck",
+            "level": 30
+          },
+          {
+            "move": "uproar",
+            "level": 33
+          },
+          {
+            "move": "rage",
+            "level": 36
+          },
+          {
+            "move": "drill-peck",
+            "level": 37
+          },
+          {
+            "move": "tri-attack",
+            "level": 40
+          },
+          {
+            "move": "agility",
+            "level": 44
+          },
+          {
+            "move": "agility",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "double-edge",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "mimic",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skull-bash",
+          "sky-attack",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "toxic",
+          "tri-attack",
+          "whirlwind"
+        ],
+        "egg": [
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "199",
+      "flavorText": "It lives on a grassy plain where it can see a long way. If it sees an enemy, it runs away at 60 mph.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 26",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 27",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "tri-attack",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "drill-peck",
+            "level": 33
+          },
+          {
+            "move": "agility",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "endure",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "mud-slap",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "feint-attack",
+          "flail",
+          "haze",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "92",
+      "flavorText": "Even while eating or sleeping, one of the heads remains always vigilant for any sign of danger. When threatened, it flees at over 60 miles per hour.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Nwmach Bike",
+            "method": "Walk",
+            "minLevel": 27,
+            "maxLevel": 29
+          },
+          {
+            "location": "Safari Zone SE",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Safari Zone SW",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "tri-attack",
+            "level": 21
+          },
+          {
+            "move": "rage",
+            "level": 25
+          },
+          {
+            "move": "uproar",
+            "level": 33
+          },
+          {
+            "move": "drill-peck",
+            "level": 37
+          },
+          {
+            "move": "agility",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "steel-wing",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "mimic",
+          "mud-slap",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 201",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "acupressure",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "drill-peck",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 201",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 2
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "acupressure",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "drill-peck",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "air-cutter",
+          "endeavor",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "204",
+      "flavorText": "It races through grassy plains with powerful strides, leaving footprints up to four inches deep.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mt Silver Outside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 26",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 27",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 28",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 41
+          },
+          {
+            "location": "Safari Zone Zone Rocky Beach",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "acupressure",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "drill-peck",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "pluck",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "air-cutter",
+          "endeavor",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "acupressure",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "drill-peck",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 46
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "pluck",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "natural-gift",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "acupressure",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "drill-peck",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 46
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "pluck",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "natural-gift",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "endeavor",
+          "knock-off",
+          "roost",
+          "sleep-talk",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "94",
+      "flavorText": "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 5",
+            "method": "Purple Flowers",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 14
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "uproar",
+            "level": 23
+          },
+          {
+            "move": "acupressure",
+            "level": 28
+          },
+          {
+            "move": "double-hit",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 37
+          },
+          {
+            "move": "drill-peck",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 46
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "natural-gift",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "95",
+      "flavorText": "Doduo’s two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokémon possessing different sets of brains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 9
+          },
+          {
+            "move": "fury-attack",
+            "level": 13
+          },
+          {
+            "move": "pursuit",
+            "level": 17
+          },
+          {
+            "move": "pluck",
+            "level": 21
+          },
+          {
+            "move": "double-hit",
+            "level": 25
+          },
+          {
+            "move": "acupressure",
+            "level": 29
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "drill-peck",
+            "level": 37
+          },
+          {
+            "move": "uproar",
+            "level": 41
+          },
+          {
+            "move": "endeavor",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "natural-gift",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "endeavor",
+          "knock-off",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 8
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "pluck",
+            "level": 19
+          },
+          {
+            "move": "double-hit",
+            "level": 22
+          },
+          {
+            "move": "agility",
+            "level": 26
+          },
+          {
+            "move": "uproar",
+            "level": 29
+          },
+          {
+            "move": "acupressure",
+            "level": 33
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "jump-kick",
+            "level": 40
+          },
+          {
+            "move": "drill-peck",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 47
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "natural-gift",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/84.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/84.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 8
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "pluck",
+            "level": 19
+          },
+          {
+            "move": "double-hit",
+            "level": 22
+          },
+          {
+            "move": "agility",
+            "level": 26
+          },
+          {
+            "move": "uproar",
+            "level": 29
+          },
+          {
+            "move": "acupressure",
+            "level": 33
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "jump-kick",
+            "level": 40
+          },
+          {
+            "move": "drill-peck",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 47
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "feint-attack",
+          "flail",
+          "haze",
+          "mirror-move",
+          "natural-gift",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": [
+          "endeavor",
+          "knock-off",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "84",
+      "flavorText": "Its short wings make flying difficult. Instead, this Pokémon runs at high speed on developed legs.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "rage",
+            "level": 10
+          },
+          {
+            "move": "fury-attack",
+            "level": 16
+          },
+          {
+            "move": "agility",
+            "level": 22
+          },
+          {
+            "move": "drill-peck",
+            "level": 27
+          },
+          {
+            "move": "swords-dance",
+            "level": 32
+          },
+          {
+            "move": "jump-kick",
+            "level": 38
+          },
+          {
+            "move": "thrash",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "facade",
+          "fly",
+          "headbutt",
+          "protect",
+          "reflect",
+          "rest",
+          "roost",
+          "substitute",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "84",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/84.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 201 (Sinnoh) (Swarm) | Grand Underground - Spacious Cave, Grassland Cave, Sunlit Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "leer",
+            "level": 8
+          },
+          {
+            "move": "fury-attack",
+            "level": 12
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "pluck",
+            "level": 19
+          },
+          {
+            "move": "double-hit",
+            "level": 22
+          },
+          {
+            "move": "agility",
+            "level": 26
+          },
+          {
+            "move": "uproar",
+            "level": 29
+          },
+          {
+            "move": "acupressure",
+            "level": 33
+          },
+          {
+            "move": "swords-dance",
+            "level": 36
+          },
+          {
+            "move": "lunge",
+            "level": 40
+          },
+          {
+            "move": "drill-peck",
+            "level": 43
+          },
+          {
+            "move": "endeavor",
+            "level": 47
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "double-team",
+          "endure",
+          "facade",
+          "fly",
+          "pluck",
+          "protect",
+          "rest",
+          "roost",
+          "sleep-talk",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "work-up"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "endeavor",
+          "flail",
+          "haze",
+          "quick-attack",
+          "supersonic"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B001",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/84.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome | Tera Raid Battles (2★ Doduo)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "fury-attack",
+            "level": 9
+          },
+          {
+            "move": "pluck",
+            "level": 14
+          },
+          {
+            "move": "double-hit",
+            "level": 19
+          },
+          {
+            "move": "agility",
+            "level": 23
+          },
+          {
+            "move": "uproar",
+            "level": 27
+          },
+          {
+            "move": "acupressure",
+            "level": 30
+          },
+          {
+            "move": "swords-dance",
+            "level": 33
+          },
+          {
+            "move": "drill-peck",
+            "level": 36
+          },
+          {
+            "move": "endeavor",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "agility",
+          "baton-pass",
+          "body-slam",
+          "brave-bird",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "feather-dance",
+          "helping-hand",
+          "knock-off",
+          "low-kick",
+          "lunge",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "tailwind",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "uproar"
+        ],
+        "egg": [
+          "assurance",
+          "flail",
+          "sky-attack",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

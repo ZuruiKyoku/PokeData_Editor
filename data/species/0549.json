@@ -1,0 +1,938 @@
+{
+  "dex": 549,
+  "keyword": "lilligant",
+  "name": "Lilligant",
+  "japaneseName": {
+    "kana": "ドレディア",
+    "romaji": "Dredear"
+  },
+  "type1": "Grass",
+  "type2": null,
+  "genus": "Flowering Pokémon",
+  "heightM": 1.1,
+  "weightKg": 16.3,
+  "stats": {
+    "hp": 70,
+    "attack": 60,
+    "defense": 75,
+    "specialAttack": 110,
+    "specialDefense": 75,
+    "speed": 90
+  },
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "own-tempo",
+      "hidden": false,
+      "effect": "Prevents confusion."
+    },
+    {
+      "name": "leaf-guard",
+      "hidden": true,
+      "effect": "Protects against major status ailments during strong sunlight."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 8,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "blob",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 548,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0549.png",
+    "shiny": "sprites/shiny/0549.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/549.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/549.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "55",
+      "flavorText": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/549.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/549.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Grass Spots",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Grass Spots",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 10
+          },
+          {
+            "move": "quiver-dance",
+            "level": 28
+          },
+          {
+            "move": "petal-dance",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "85",
+      "flavorText": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/549.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/549.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Grass Spots",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Castelia City",
+            "method": "Grass Spots",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Grass Spots",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Grass Spots",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 72",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 10
+          },
+          {
+            "move": "quiver-dance",
+            "level": 28
+          },
+          {
+            "move": "petal-dance",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "covet",
+          "giga-drain",
+          "heal-bell",
+          "helping-hand",
+          "role-play",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/549.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/549.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 10
+          },
+          {
+            "move": "quiver-dance",
+            "level": 28
+          },
+          {
+            "move": "petal-dance",
+            "level": 46
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/549.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/549.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 10
+          },
+          {
+            "move": "quiver-dance",
+            "level": 28
+          },
+          {
+            "move": "petal-dance",
+            "level": 46
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "covet",
+          "giga-drain",
+          "heal-bell",
+          "helping-hand",
+          "role-play",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "86",
+      "flavorText": "As soon as it finds a male to be its partner, the beautiful flower on its head darkens, droops, and withers away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/549.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/549.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 10
+          },
+          {
+            "move": "quiver-dance",
+            "level": 28
+          },
+          {
+            "move": "petal-dance",
+            "level": 46
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "104",
+      "flavorText": "It’s well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/549.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/549.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 10
+          },
+          {
+            "move": "quiver-dance",
+            "level": 28
+          },
+          {
+            "move": "petal-dance",
+            "level": 46
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "covet",
+          "giga-drain",
+          "heal-bell",
+          "helping-hand",
+          "laser-focus",
+          "role-play",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A202",
+      "flavorText": "Essential oils made from Lilligant flowers have a sublime scent, but they’re also staggeringly expensive.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "petal-dance",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "after-you",
+            "level": 1
+          },
+          {
+            "move": "aromatherapy",
+            "level": 1
+          },
+          {
+            "move": "energy-ball",
+            "level": 1
+          },
+          {
+            "move": "entrainment",
+            "level": 1
+          },
+          {
+            "move": "giga-drain",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "leaf-storm",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "magical-leaf",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 1
+          },
+          {
+            "move": "petal-dance",
+            "level": 1
+          },
+          {
+            "move": "quiver-dance",
+            "level": 1
+          },
+          {
+            "move": "sleep-powder",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sunny-day",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "charm",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "grassy-terrain",
+          "helping-hand",
+          "hyper-beam",
+          "leaf-blade",
+          "leaf-storm",
+          "light-screen",
+          "magical-leaf",
+          "pollen-puff",
+          "protect",
+          "rest",
+          "round",
+          "safeguard",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "solar-blade",
+          "substitute",
+          "sunny-day",
+          "swords-dance"
+        ],
+        "egg": [],
+        "tutor": [
+          "grassy-glide"
+        ]
+      }
+    },
+    "pla": {
+      "dexNumber": null,
+      "flavorText": "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: massive mass outbreaks (Hisuian Form) | Unobtainable (Unovan Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P105",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/549.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Four, Area Six (Unovan Form) | West Province: Area Three (Unovan Form) | North Province: Area Three (Unovan Form) | Tera Raid Battles (4★ Lilligant) (Unovan Form) | Transfer from or Evolve in (Hisuian Form)",
+          "Evolve (Unovan Form) | Evolve in via (Hisuian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "petal-dance",
+            "level": 0
+          },
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "after-you",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "energy-ball",
+            "level": 1
+          },
+          {
+            "move": "entrainment",
+            "level": 1
+          },
+          {
+            "move": "giga-drain",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "leaf-storm",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 1
+          },
+          {
+            "move": "quiver-dance",
+            "level": 1
+          },
+          {
+            "move": "sleep-powder",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sunny-day",
+            "level": 1
+          },
+          {
+            "move": "synthesis",
+            "level": 1
+          },
+          {
+            "move": "teeter-dance",
+            "level": 1
+          },
+          {
+            "move": "magical-leaf",
+            "level": 5
+          }
+        ],
+        "machine": [
+          "alluring-voice",
+          "bullet-seed",
+          "charm",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "helping-hand",
+          "hyper-beam",
+          "leaf-storm",
+          "light-screen",
+          "magical-leaf",
+          "petal-blizzard",
+          "pollen-puff",
+          "protect",
+          "psych-up",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "solar-beam",
+          "solar-blade",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "tera-blast",
+          "trailblaze",
+          "weather-ball"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

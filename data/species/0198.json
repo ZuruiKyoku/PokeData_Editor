@@ -1,0 +1,1888 @@
+{
+  "dex": 198,
+  "keyword": "murkrow",
+  "name": "Murkrow",
+  "japaneseName": {
+    "kana": "ヤミカラス",
+    "romaji": "Yamikarasu"
+  },
+  "type1": "Dark",
+  "type2": "Flying",
+  "genus": "Darkness Pokémon",
+  "heightM": 0.5,
+  "weightKg": 2.1,
+  "stats": {
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "specialAttack": 85,
+    "specialDefense": 42,
+    "speed": 91
+  },
+  "abilities": [
+    {
+      "name": "insomnia",
+      "hidden": false,
+      "effect": "Prevents sleep."
+    },
+    {
+      "name": "super-luck",
+      "hidden": false,
+      "effect": "Raises moves' critical hit rates one stage."
+    },
+    {
+      "name": "prankster",
+      "hidden": true,
+      "effect": "Raises non-damaging moves' priority by one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 30,
+    "baseFriendship": 35,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "wings",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 2
+  },
+  "genderDifference": "Female's hat-like plumage is smaller",
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      430
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0198.png",
+    "shiny": "sprites/shiny/0198.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/198.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/198.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "208",
+      "flavorText": "It hides any shiny object it finds in a secret location. MURKROW and MEOWTH loot one another's stashes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 18",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 19
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 11
+          },
+          {
+            "move": "haze",
+            "level": 16
+          },
+          {
+            "move": "night-shade",
+            "level": 26
+          },
+          {
+            "move": "feint-attack",
+            "level": 31
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "detect",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "icy-wind",
+          "mud-slap",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "steel-wing",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "drill-peck",
+          "mirror-move",
+          "quick-attack",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "MURKROW were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 9
+          },
+          {
+            "move": "pursuit",
+            "level": 14
+          },
+          {
+            "move": "haze",
+            "level": 22
+          },
+          {
+            "move": "night-shade",
+            "level": 27
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "taunt",
+            "level": 40
+          },
+          {
+            "move": "mean-look",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "double-team",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shadow-ball",
+          "snatch",
+          "steel-wing",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "mirror-move",
+          "perish-song",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": [
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "74",
+      "flavorText": "It appears near travelers to lure them into deep forests. It is said to carry misfortune.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Eterna Forest",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 11
+          },
+          {
+            "location": "Lost Tower 1f",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 17
+          },
+          {
+            "location": "Lost Tower 2f",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Lost Tower 3f",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 19
+          },
+          {
+            "location": "Lost Tower 4f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Lost Tower 5f",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "sucker-punch",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "captivate",
+          "dark-pulse",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "pluck",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snatch",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "74",
+      "flavorText": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "sucker-punch",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "captivate",
+          "dark-pulse",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "pluck",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snatch",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": [
+          "air-cutter",
+          "heat-wave",
+          "icy-wind",
+          "mud-slap",
+          "ominous-wind",
+          "spite",
+          "sucker-punch",
+          "swift",
+          "twister",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "213",
+      "flavorText": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 16",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 19
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "sucker-punch",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "captivate",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "endure",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "natural-gift",
+          "payback",
+          "pluck",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snatch",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": [
+          "air-cutter",
+          "heat-wave",
+          "icy-wind",
+          "mud-slap",
+          "ominous-wind",
+          "spite",
+          "sucker-punch",
+          "swift",
+          "tailwind",
+          "twister",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Dark Grass",
+            "minLevel": 58,
+            "maxLevel": 58
+          },
+          {
+            "location": "Abundant Shrine",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 51
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "pluck",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "roost",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "If spotted, it will lure an unwary person into chasing it then lose the pursuer on mountain trails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 51
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "pluck",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "shadow-ball",
+          "snarl",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "roost",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": [
+          "dark-pulse",
+          "foul-play",
+          "heat-wave",
+          "icy-wind",
+          "roost",
+          "sky-attack",
+          "sleep-talk",
+          "snatch",
+          "spite",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M51",
+      "flavorText": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 50
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "flatter",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "roost",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pokémon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 50
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roost",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "flatter",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "roost",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": [
+          "foul-play",
+          "heat-wave",
+          "icy-wind",
+          "sky-attack",
+          "snatch",
+          "snore",
+          "spite",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "277",
+      "flavorText": "Seen as a symbol of bad luck, it’s generally disliked. Yet it gives presents—objects that sparkle or shine—to Trainers it’s close to.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Vast Poni Canyon Outside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 50
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "flatter",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "roost",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "78",
+      "flavorText": "It searches for shiny things for its boss. Murkrow’s presence is said to be unlucky, so many people detest it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/198.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/198.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli Cemetery",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 9
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "pursuit",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "feint-attack",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 50
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "dream-eater",
+          "embargo",
+          "facade",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "payback",
+          "protect",
+          "psych-up",
+          "psychic",
+          "quash",
+          "rain-dance",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment",
+          "toxic"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "feint-attack",
+          "flatter",
+          "mirror-move",
+          "perish-song",
+          "psycho-shift",
+          "punishment",
+          "roost",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": [
+          "defog",
+          "foul-play",
+          "heat-wave",
+          "icy-wind",
+          "sky-attack",
+          "snatch",
+          "snore",
+          "spite",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "198",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/198.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Eterna Forest and Lost Tower | Grand Underground - Spacious Cave, Grassland Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "air-cutter",
+            "level": 35
+          },
+          {
+            "move": "mean-look",
+            "level": 41
+          },
+          {
+            "move": "foul-play",
+            "level": 45
+          },
+          {
+            "move": "tailwind",
+            "level": 50
+          },
+          {
+            "move": "sucker-punch",
+            "level": 55
+          },
+          {
+            "move": "torment",
+            "level": 61
+          },
+          {
+            "move": "quash",
+            "level": 65
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "calm-mind",
+          "dark-pulse",
+          "defog",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "fly",
+          "payback",
+          "pluck",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rain-dance",
+          "rest",
+          "roost",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder-wave",
+          "torment"
+        ],
+        "egg": [
+          "assurance",
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "flatter",
+          "perish-song",
+          "psycho-shift",
+          "screech",
+          "sky-attack",
+          "whirlwind",
+          "wing-attack"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "140",
+      "flavorText": "Widely shunned as a bearer of ill fortune. Upon crossing paths with this creature, I've been told one must chant ”Workrum, Workrum—bad luck, don't come” as a protective incantation.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Crimson Mirelands: Cloudpool Ridge (also mass outbreaks nearby), massive mass outbreaks | Cobalt Coastlands: Crossing Slope, Ginkgo Landing, Aipom Hill, Bathers' Lagoon, Hideaway Bay, Castaway Shore, Windbreak Stand, Spring Path, Islespy Shore, Veilstone Cape"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "snarl",
+            "level": 6
+          },
+          {
+            "move": "roost",
+            "level": 11
+          },
+          {
+            "move": "aerial-ace",
+            "level": 18
+          },
+          {
+            "move": "night-slash",
+            "level": 25
+          },
+          {
+            "move": "air-slash",
+            "level": 30
+          },
+          {
+            "move": "nasty-plot",
+            "level": 34
+          },
+          {
+            "move": "dark-pulse",
+            "level": 43
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P232",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/198.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Area Three, Area Four, Area Five | East Province: Area One, Area Two, Area Three, Tagtree Thicket | West Province: Area Two, Area Three | Tera Raid Battles (2★ Murkrow)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 5
+          },
+          {
+            "move": "haze",
+            "level": 11
+          },
+          {
+            "move": "wing-attack",
+            "level": 15
+          },
+          {
+            "move": "night-shade",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "taunt",
+            "level": 31
+          },
+          {
+            "move": "mean-look",
+            "level": 35
+          },
+          {
+            "move": "foul-play",
+            "level": 40
+          },
+          {
+            "move": "sucker-punch",
+            "level": 50
+          },
+          {
+            "move": "torment",
+            "level": 55
+          },
+          {
+            "move": "quash",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "calm-mind",
+          "confuse-ray",
+          "dark-pulse",
+          "double-edge",
+          "dual-wingbeat",
+          "endure",
+          "facade",
+          "feather-dance",
+          "fly",
+          "foul-play",
+          "giga-impact",
+          "haze",
+          "heat-wave",
+          "hex",
+          "hurricane",
+          "hyper-beam",
+          "icy-wind",
+          "lash-out",
+          "mud-slap",
+          "nasty-plot",
+          "night-shade",
+          "protect",
+          "psychic",
+          "psychic-noise",
+          "rain-dance",
+          "rest",
+          "scary-face",
+          "shadow-ball",
+          "sleep-talk",
+          "snarl",
+          "spite",
+          "substitute",
+          "sunny-day",
+          "tailwind",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-wave",
+          "u-turn",
+          "uproar"
+        ],
+        "egg": [
+          "brave-bird",
+          "confuse-ray",
+          "drill-peck",
+          "feather-dance",
+          "flatter",
+          "perish-song",
+          "screech",
+          "sky-attack",
+          "whirlwind"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,983 @@
+{
+  "dex": 616,
+  "keyword": "shelmet",
+  "name": "Shelmet",
+  "japaneseName": {
+    "kana": "チョボマキ",
+    "romaji": "Chobomaki"
+  },
+  "type1": "Bug",
+  "type2": null,
+  "genus": "Snail Pokémon",
+  "heightM": 0.4,
+  "weightKg": 7.7,
+  "stats": {
+    "hp": 50,
+    "attack": 40,
+    "defense": 85,
+    "specialAttack": 40,
+    "specialDefense": 65,
+    "speed": 25
+  },
+  "abilities": [
+    {
+      "name": "hydration",
+      "hidden": false,
+      "effect": "Cures any major status ailment after each turn during rain."
+    },
+    {
+      "name": "shell-armor",
+      "hidden": false,
+      "effect": "Protects against critical hits."
+    },
+    {
+      "name": "overcoat",
+      "hidden": true,
+      "effect": "Protects against damage from weather."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 200,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "ball",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      617
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0616.png",
+    "shiny": "sprites/shiny/0616.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/616.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/616.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "122",
+      "flavorText": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/616.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/616.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Icirrus City",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Moor Of Icirrus",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "curse",
+            "level": 13
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "mega-drain",
+            "level": 20
+          },
+          {
+            "move": "yawn",
+            "level": 25
+          },
+          {
+            "move": "protect",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 49
+          },
+          {
+            "move": "guard-swap",
+            "level": 52
+          },
+          {
+            "move": "final-gambit",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "baton-pass",
+          "double-edge",
+          "encore",
+          "endure",
+          "feint",
+          "guard-split",
+          "mind-reader",
+          "mud-slap",
+          "pursuit",
+          "spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "157",
+      "flavorText": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/616.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/616.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Icirrus City",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Moor Of Icirrus",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Route 11",
+            "method": "Dark Grass",
+            "minLevel": 40,
+            "maxLevel": 43
+          },
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 39
+          },
+          {
+            "location": "Route 6",
+            "method": "Dark Grass",
+            "minLevel": 26,
+            "maxLevel": 29
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "curse",
+            "level": 13
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "mega-drain",
+            "level": 20
+          },
+          {
+            "move": "yawn",
+            "level": 25
+          },
+          {
+            "move": "protect",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 49
+          },
+          {
+            "move": "guard-swap",
+            "level": 52
+          },
+          {
+            "move": "final-gambit",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "baton-pass",
+          "double-edge",
+          "encore",
+          "endure",
+          "feint",
+          "guard-split",
+          "mind-reader",
+          "mud-slap",
+          "pursuit",
+          "spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "gastro-acid",
+          "giga-drain",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M24",
+      "flavorText": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/616.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/616.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 14",
+            "method": "Rough Terrain",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 19",
+            "method": "Purple Flowers",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Route 19",
+            "method": "Rough Terrain",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Route 19",
+            "method": "Yellow Flowers",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "curse",
+            "level": 13
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "mega-drain",
+            "level": 20
+          },
+          {
+            "move": "yawn",
+            "level": 25
+          },
+          {
+            "move": "protect",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 49
+          },
+          {
+            "move": "guard-swap",
+            "level": 50
+          },
+          {
+            "move": "final-gambit",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "baton-pass",
+          "double-edge",
+          "encore",
+          "endure",
+          "feint",
+          "guard-split",
+          "mind-reader",
+          "mud-slap",
+          "pursuit",
+          "spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/616.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/616.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leech-life",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "curse",
+            "level": 13
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "mega-drain",
+            "level": 20
+          },
+          {
+            "move": "yawn",
+            "level": 25
+          },
+          {
+            "move": "protect",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 49
+          },
+          {
+            "move": "guard-swap",
+            "level": 50
+          },
+          {
+            "move": "final-gambit",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "struggle-bug",
+          "substitute",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "baton-pass",
+          "double-edge",
+          "encore",
+          "endure",
+          "feint",
+          "guard-split",
+          "mind-reader",
+          "mud-slap",
+          "pursuit",
+          "spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "gastro-acid",
+          "giga-drain",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/616.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/616.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "curse",
+            "level": 13
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "mega-drain",
+            "level": 20
+          },
+          {
+            "move": "yawn",
+            "level": 25
+          },
+          {
+            "move": "protect",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 49
+          },
+          {
+            "move": "guard-swap",
+            "level": 50
+          },
+          {
+            "move": "final-gambit",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "baton-pass",
+          "double-edge",
+          "encore",
+          "endure",
+          "feint",
+          "guard-split",
+          "mind-reader",
+          "mud-slap",
+          "pursuit",
+          "spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/616.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/616.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "bide",
+            "level": 8
+          },
+          {
+            "move": "curse",
+            "level": 13
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "mega-drain",
+            "level": 20
+          },
+          {
+            "move": "yawn",
+            "level": 25
+          },
+          {
+            "move": "protect",
+            "level": 28
+          },
+          {
+            "move": "acid-armor",
+            "level": 32
+          },
+          {
+            "move": "giga-drain",
+            "level": 37
+          },
+          {
+            "move": "body-slam",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "recover",
+            "level": 49
+          },
+          {
+            "move": "guard-swap",
+            "level": 50
+          },
+          {
+            "move": "final-gambit",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "substitute",
+          "swagger",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "baton-pass",
+          "double-edge",
+          "encore",
+          "endure",
+          "feint",
+          "guard-split",
+          "mind-reader",
+          "mud-slap",
+          "pursuit",
+          "spikes",
+          "toxic-spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "gastro-acid",
+          "giga-drain",
+          "signal-beam",
+          "snore"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "275",
+      "flavorText": "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "protect",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 4
+          },
+          {
+            "move": "curse",
+            "level": 8
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "struggle-bug",
+            "level": 16
+          },
+          {
+            "move": "yawn",
+            "level": 20
+          },
+          {
+            "move": "acid-armor",
+            "level": 24
+          },
+          {
+            "move": "giga-drain",
+            "level": 28
+          },
+          {
+            "move": "guard-swap",
+            "level": 32
+          },
+          {
+            "move": "body-slam",
+            "level": 36
+          },
+          {
+            "move": "recover",
+            "level": 40
+          },
+          {
+            "move": "bug-buzz",
+            "level": 44
+          },
+          {
+            "move": "final-gambit",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "baton-pass",
+          "body-slam",
+          "bug-buzz",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "guard-swap",
+          "leech-life",
+          "mud-shot",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "spikes",
+          "substitute",
+          "toxic-spikes",
+          "venoshock"
+        ],
+        "egg": [
+          "double-edge",
+          "feint",
+          "guard-split",
+          "mind-reader"
+        ],
+        "tutor": [
+          "skitter-smack"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

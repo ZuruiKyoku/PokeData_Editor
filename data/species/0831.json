@@ -1,0 +1,181 @@
+{
+  "dex": 831,
+  "keyword": "wooloo",
+  "name": "Wooloo",
+  "japaneseName": {
+    "kana": "ウールー",
+    "romaji": "Wooluu"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Sheep Pokémon",
+  "heightM": 0.6,
+  "weightKg": 6.0,
+  "stats": {
+    "hp": 42,
+    "attack": 40,
+    "defense": 55,
+    "specialAttack": 40,
+    "specialDefense": 45,
+    "speed": 48
+  },
+  "abilities": [
+    {
+      "name": "fluffy",
+      "hidden": false,
+      "effect": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
+    },
+    {
+      "name": "run-away",
+      "hidden": false,
+      "effect": "Ensures success fleeing from wild battles."
+    },
+    {
+      "name": "bulletproof",
+      "hidden": true,
+      "effect": "Protects against bullet, ball, and bomb-based moves."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 50,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 8
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      832
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0831.png",
+    "shiny": "sprites/shiny/0831.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/831.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "swsh": {
+      "dexNumber": "34",
+      "flavorText": "If its fleece grows too long, Wooloo won’t be able to move. Cloth made with the wool of this Pokémon is surprisingly strong.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "defense-curl",
+            "level": 4
+          },
+          {
+            "move": "copycat",
+            "level": 8
+          },
+          {
+            "move": "guard-split",
+            "level": 12
+          },
+          {
+            "move": "double-kick",
+            "level": 16
+          },
+          {
+            "move": "headbutt",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 25
+          },
+          {
+            "move": "guard-swap",
+            "level": 28
+          },
+          {
+            "move": "reversal",
+            "level": 32
+          },
+          {
+            "move": "cotton-guard",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "electro-ball",
+          "endure",
+          "facade",
+          "guard-swap",
+          "payback",
+          "protect",
+          "rest",
+          "reversal",
+          "round",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "thunder-wave",
+          "wild-charge"
+        ],
+        "egg": [
+          "counter",
+          "stomp",
+          "swagger"
+        ],
+        "tutor": [
+          "grassy-glide"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

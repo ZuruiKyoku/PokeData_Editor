@@ -1,0 +1,765 @@
+{
+  "dex": 667,
+  "keyword": "litleo",
+  "name": "Litleo",
+  "japaneseName": {
+    "kana": "シシコ",
+    "romaji": "Shishiko"
+  },
+  "type1": "Fire",
+  "type2": "Normal",
+  "genus": "Lion Cub Pokémon",
+  "heightM": 0.6,
+  "weightKg": 13.5,
+  "stats": {
+    "hp": 62,
+    "attack": 50,
+    "defense": 58,
+    "specialAttack": 73,
+    "specialDefense": 54,
+    "speed": 72
+  },
+  "abilities": [
+    {
+      "name": "rivalry",
+      "hidden": false,
+      "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+    },
+    {
+      "name": "unnerve",
+      "hidden": false,
+      "effect": "Prevents opposing Pokémon from eating held Berries."
+    },
+    {
+      "name": "moxie",
+      "hidden": true,
+      "effect": "Raises Attack one stage upon KOing a Pokémon."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 7,
+    "hatchCycles": 20,
+    "captureRate": 220,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      668
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0667.png",
+    "shiny": "sprites/shiny/0667.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/667.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "57",
+      "flavorText": "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/667.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/667.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 22",
+            "method": "Yellow Flowers",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "work-up",
+            "level": 8
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "noble-roar",
+            "level": 15
+          },
+          {
+            "move": "take-down",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 23
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "echoed-voice",
+            "level": 33
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 43
+          },
+          {
+            "move": "incinerate",
+            "level": 46
+          },
+          {
+            "move": "overheat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "entrainment",
+          "fire-spin",
+          "snatch",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/667.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/667.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "work-up",
+            "level": 8
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "noble-roar",
+            "level": 15
+          },
+          {
+            "move": "take-down",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 23
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "echoed-voice",
+            "level": 33
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 43
+          },
+          {
+            "move": "incinerate",
+            "level": 46
+          },
+          {
+            "move": "overheat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "incinerate",
+          "overheat",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "roar",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "entrainment",
+          "fire-spin",
+          "snatch",
+          "yawn"
+        ],
+        "tutor": [
+          "endeavor",
+          "heat-wave",
+          "helping-hand",
+          "hyper-voice",
+          "iron-tail",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/667.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/667.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "work-up",
+            "level": 8
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "noble-roar",
+            "level": 15
+          },
+          {
+            "move": "take-down",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 23
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "echoed-voice",
+            "level": 33
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 43
+          },
+          {
+            "move": "incinerate",
+            "level": 46
+          },
+          {
+            "move": "overheat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [
+          "entrainment",
+          "fire-spin",
+          "flare-blitz",
+          "snatch",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "370",
+      "flavorText": "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/667.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/667.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "work-up",
+            "level": 8
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "noble-roar",
+            "level": 15
+          },
+          {
+            "move": "take-down",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 23
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "echoed-voice",
+            "level": 33
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 43
+          },
+          {
+            "move": "incinerate",
+            "level": 46
+          },
+          {
+            "move": "overheat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bulldoze",
+          "confide",
+          "dark-pulse",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fire-blast",
+          "flame-charge",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "overheat",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "wild-charge",
+          "will-o-wisp",
+          "work-up"
+        ],
+        "egg": [
+          "entrainment",
+          "fire-spin",
+          "flare-blitz",
+          "snatch",
+          "yawn"
+        ],
+        "tutor": [
+          "endeavor",
+          "heat-wave",
+          "helping-hand",
+          "hyper-voice",
+          "iron-tail",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "P224",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/667.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Three, Area Five | East Province: Area One, Area Two | Tera Raid Battles (1★ Litleo)",
+          "Savanna Biome"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "ember",
+            "level": 5
+          },
+          {
+            "move": "work-up",
+            "level": 8
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "noble-roar",
+            "level": 15
+          },
+          {
+            "move": "take-down",
+            "level": 20
+          },
+          {
+            "move": "fire-fang",
+            "level": 23
+          },
+          {
+            "move": "endeavor",
+            "level": 28
+          },
+          {
+            "move": "echoed-voice",
+            "level": 33
+          },
+          {
+            "move": "flamethrower",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 39
+          },
+          {
+            "move": "hyper-voice",
+            "level": 43
+          },
+          {
+            "move": "incinerate",
+            "level": 46
+          },
+          {
+            "move": "overheat",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "body-slam",
+          "bulldoze",
+          "crunch",
+          "dig",
+          "double-edge",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-blast",
+          "fire-fang",
+          "fire-spin",
+          "flame-charge",
+          "flamethrower",
+          "flare-blitz",
+          "heat-wave",
+          "helping-hand",
+          "hyper-voice",
+          "mud-slap",
+          "overheat",
+          "protect",
+          "psychic-fangs",
+          "rain-dance",
+          "rest",
+          "roar",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "thunder-fang",
+          "trailblaze",
+          "wild-charge",
+          "will-o-wisp"
+        ],
+        "egg": [
+          "entrainment",
+          "fire-spin",
+          "flare-blitz",
+          "yawn"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "45",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Rouge District: Wild Zone 3",
+          "Hyperspace Lumiose (2★ & 4★ Fire-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

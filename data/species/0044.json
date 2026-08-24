@@ -1,0 +1,1981 @@
+{
+  "dex": 44,
+  "keyword": "gloom",
+  "name": "Gloom",
+  "japaneseName": {
+    "kana": "クサイハナ",
+    "romaji": "Kusaihana"
+  },
+  "type1": "Grass",
+  "type2": "Poison",
+  "genus": "Weed Pokémon",
+  "heightM": 0.8,
+  "weightKg": 8.6,
+  "stats": {
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "specialAttack": 85,
+    "specialDefense": 75,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "stench",
+      "hidden": true,
+      "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "humanoid",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female has one large spot per petal",
+  "evolution": {
+    "evolvesFromDex": 43,
+    "evolvesIntoDex": [
+      45,
+      182
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0044.png",
+    "shiny": "sprites/shiny/0044.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/44.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/44.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "44",
+      "flavorText": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/44.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Bond Bridge",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Cape Brink",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 38
+          },
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 58,
+            "maxLevel": 58
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Water Path",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "sleep-powder",
+            "level": 19
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "acid",
+            "level": 28
+          },
+          {
+            "move": "moonlight",
+            "level": 35
+          },
+          {
+            "move": "petal-dance",
+            "level": 38
+          },
+          {
+            "move": "petal-dance",
+            "level": 44
+          },
+          {
+            "move": "solar-beam",
+            "level": 52
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "bullet-seed",
+          "cut",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "take-down",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "84",
+      "flavorText": "The smell from its drool-like syrup and the pollen on its petals is so bad, it may make opponents faint.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "moonlight",
+            "level": 35
+          },
+          {
+            "move": "petal-dance",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": "89",
+      "flavorText": "A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 121",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 123",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Safari Zone Neacro Bike",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 31
+          },
+          {
+            "location": "Safari Zone Nwmach Bike",
+            "method": "Walk",
+            "minLevel": 29,
+            "maxLevel": 31
+          },
+          {
+            "location": "Safari Zone SE",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Safari Zone SW",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 7
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "moonlight",
+            "level": 35
+          },
+          {
+            "move": "petal-dance",
+            "level": 44
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 53,
+            "maxLevel": 53
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 52
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "mega-drain",
+            "level": 23
+          },
+          {
+            "move": "lucky-chant",
+            "level": 29
+          },
+          {
+            "move": "natural-gift",
+            "level": 35
+          },
+          {
+            "move": "moonlight",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 47
+          },
+          {
+            "move": "petal-dance",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "mega-drain",
+            "level": 23
+          },
+          {
+            "move": "lucky-chant",
+            "level": 29
+          },
+          {
+            "move": "natural-gift",
+            "level": 35
+          },
+          {
+            "move": "moonlight",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 47
+          },
+          {
+            "move": "petal-dance",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "gastro-acid",
+          "seed-bomb",
+          "snore",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "84",
+      "flavorText": "It secretes a sticky, drool-like honey. Although sweet, it smells too repulsive to get very close.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 47",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 32
+          },
+          {
+            "location": "Route 48",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Safari Zone Zone Marshland",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "mega-drain",
+            "level": 23
+          },
+          {
+            "move": "lucky-chant",
+            "level": 29
+          },
+          {
+            "move": "natural-gift",
+            "level": 35
+          },
+          {
+            "move": "moonlight",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 47
+          },
+          {
+            "move": "petal-dance",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "gastro-acid",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "mega-drain",
+            "level": 23
+          },
+          {
+            "move": "lucky-chant",
+            "level": 29
+          },
+          {
+            "move": "natural-gift",
+            "level": 35
+          },
+          {
+            "move": "moonlight",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 47
+          },
+          {
+            "move": "petal-dance",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "mega-drain",
+            "level": 23
+          },
+          {
+            "move": "lucky-chant",
+            "level": 29
+          },
+          {
+            "move": "natural-gift",
+            "level": 35
+          },
+          {
+            "move": "moonlight",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 47
+          },
+          {
+            "move": "petal-dance",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "drain-punch",
+          "gastro-acid",
+          "giga-drain",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "106",
+      "flavorText": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 17
+          },
+          {
+            "move": "mega-drain",
+            "level": 23
+          },
+          {
+            "move": "lucky-chant",
+            "level": 29
+          },
+          {
+            "move": "natural-gift",
+            "level": 35
+          },
+          {
+            "move": "moonlight",
+            "level": 41
+          },
+          {
+            "move": "giga-drain",
+            "level": 47
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 50
+          },
+          {
+            "move": "petal-dance",
+            "level": 53
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "92",
+      "flavorText": "From its mouth Gloom drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 14
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "mega-drain",
+            "level": 19
+          },
+          {
+            "move": "lucky-chant",
+            "level": 24
+          },
+          {
+            "move": "moonlight",
+            "level": 29
+          },
+          {
+            "move": "giga-drain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 39
+          },
+          {
+            "move": "natural-gift",
+            "level": 44
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 49
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 54
+          },
+          {
+            "move": "petal-dance",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "drain-punch",
+          "gastro-acid",
+          "giga-drain",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 14
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "mega-drain",
+            "level": 19
+          },
+          {
+            "move": "lucky-chant",
+            "level": 24
+          },
+          {
+            "move": "moonlight",
+            "level": 29
+          },
+          {
+            "move": "giga-drain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 39
+          },
+          {
+            "move": "natural-gift",
+            "level": 44
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 49
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 54
+          },
+          {
+            "move": "petal-dance",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/44.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/44.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 5
+          },
+          {
+            "move": "acid",
+            "level": 9
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "stun-spore",
+            "level": 14
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "mega-drain",
+            "level": 19
+          },
+          {
+            "move": "lucky-chant",
+            "level": 24
+          },
+          {
+            "move": "moonlight",
+            "level": 29
+          },
+          {
+            "move": "giga-drain",
+            "level": 34
+          },
+          {
+            "move": "toxic",
+            "level": 39
+          },
+          {
+            "move": "natural-gift",
+            "level": 44
+          },
+          {
+            "move": "petal-blizzard",
+            "level": 49
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 54
+          },
+          {
+            "move": "petal-dance",
+            "level": 59
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "drain-punch",
+          "gastro-acid",
+          "giga-drain",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "44",
+      "flavorText": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "acid",
+            "level": 8
+          },
+          {
+            "move": "poison-powder",
+            "level": 12
+          },
+          {
+            "move": "stun-spore",
+            "level": 13
+          },
+          {
+            "move": "sleep-powder",
+            "level": 14
+          },
+          {
+            "move": "razor-leaf",
+            "level": 18
+          },
+          {
+            "move": "mega-drain",
+            "level": 27
+          },
+          {
+            "move": "toxic",
+            "level": 36
+          },
+          {
+            "move": "moonblast",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "dazzling-gleam",
+          "facade",
+          "headbutt",
+          "mega-drain",
+          "protect",
+          "reflect",
+          "rest",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "56",
+      "flavorText": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "giga-drain",
+            "level": 20
+          },
+          {
+            "move": "toxic",
+            "level": 26
+          },
+          {
+            "move": "moonblast",
+            "level": 32
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 38
+          },
+          {
+            "move": "moonlight",
+            "level": 44
+          },
+          {
+            "move": "petal-dance",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "charm",
+          "dazzling-gleam",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fling",
+          "giga-drain",
+          "grass-knot",
+          "grassy-terrain",
+          "protect",
+          "rest",
+          "round",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "grassy-glide"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "44",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/44.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , and , Grand Underground - Grassland Cave, Swampy Cave, Spacious Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "giga-drain",
+            "level": 20
+          },
+          {
+            "move": "toxic",
+            "level": 26
+          },
+          {
+            "move": "moonblast",
+            "level": 32
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 38
+          },
+          {
+            "move": "moonlight",
+            "level": 44
+          },
+          {
+            "move": "petal-dance",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "dazzling-gleam",
+          "double-team",
+          "drain-punch",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "giga-drain",
+          "grass-knot",
+          "protect",
+          "rest",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B063",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/44.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Coastal Biome | Tera Raid Battles (3★ Gloom)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "sweet-scent",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "giga-drain",
+            "level": 20
+          },
+          {
+            "move": "toxic",
+            "level": 26
+          },
+          {
+            "move": "moonblast",
+            "level": 32
+          },
+          {
+            "move": "grassy-terrain",
+            "level": 38
+          },
+          {
+            "move": "moonlight",
+            "level": 44
+          },
+          {
+            "move": "petal-dance",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "bullet-seed",
+          "charm",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "helping-hand",
+          "leaf-storm",
+          "magical-leaf",
+          "petal-blizzard",
+          "pollen-puff",
+          "protect",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "tera-blast",
+          "toxic",
+          "trailblaze",
+          "venoshock"
+        ],
+        "egg": [
+          "after-you",
+          "flail",
+          "ingrain",
+          "leech-seed",
+          "razor-leaf",
+          "strength-sap",
+          "synthesis",
+          "teeter-dance",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

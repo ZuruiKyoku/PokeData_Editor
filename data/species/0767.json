@@ -1,0 +1,321 @@
+{
+  "dex": 767,
+  "keyword": "wimpod",
+  "name": "Wimpod",
+  "japaneseName": {
+    "kana": "コソクムシ",
+    "romaji": "Kosokumushi"
+  },
+  "type1": "Bug",
+  "type2": "Water",
+  "genus": "Turn Tail Pokémon",
+  "heightM": 0.5,
+  "weightKg": 12.0,
+  "stats": {
+    "hp": 25,
+    "attack": 35,
+    "defense": 40,
+    "specialAttack": 20,
+    "specialDefense": 30,
+    "speed": 80
+  },
+  "abilities": [
+    {
+      "name": "wimp-out",
+      "hidden": false,
+      "effect": "This Pokémon automatically switches out when its HP drops below half."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug",
+      "water3"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "gray",
+    "shape": "tentacles",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      768
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0767.png",
+    "shiny": "sprites/shiny/0767.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/767.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "182",
+      "flavorText": "Its habitat varies from beaches to seabeds. A natural scavenger, it will gleefully chow down on anything edible, no matter how rotten.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/767.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/767.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poni Breaker Coast",
+            "method": "Only One",
+            "minLevel": 40,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poni Wilds",
+            "method": "Only One",
+            "minLevel": 40,
+            "maxLevel": 43
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Only One",
+            "minLevel": 17,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "leech-life",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "taunt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-jet",
+          "harden",
+          "metal-claw",
+          "spikes",
+          "wide-guard"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "221",
+      "flavorText": "An astonishingly cowardly Pokémon, Wimpod will whir its legs at high speeds to run away if anything comes near it.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/767.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/767.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Dividing Peak Tunnel",
+            "method": "Only One",
+            "minLevel": 17,
+            "maxLevel": 20
+          },
+          {
+            "location": "Poni Breaker Coast",
+            "method": "Only One",
+            "minLevel": 41,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Only One",
+            "minLevel": 17,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "leech-life",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "taunt",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-jet",
+          "harden",
+          "metal-claw",
+          "spikes",
+          "wide-guard"
+        ],
+        "tutor": [
+          "snore"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "232",
+      "flavorText": "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy’s presence.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "defense-curl",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "bug-buzz",
+          "endure",
+          "facade",
+          "hail",
+          "leech-life",
+          "mud-shot",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scald",
+          "screech",
+          "sleep-talk",
+          "snore",
+          "spikes",
+          "substitute",
+          "surf",
+          "swift",
+          "taunt",
+          "waterfall"
+        ],
+        "egg": [
+          "aqua-jet",
+          "harden",
+          "metal-claw",
+          "rollout",
+          "wide-guard"
+        ],
+        "tutor": [
+          "skitter-smack"
+        ]
+      }
+    },
+    "plza": {
+      "dexNumber": "H062",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

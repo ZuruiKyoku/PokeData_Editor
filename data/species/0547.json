@@ -1,0 +1,979 @@
+{
+  "dex": 547,
+  "keyword": "whimsicott",
+  "name": "Whimsicott",
+  "japaneseName": {
+    "kana": "エルフーン",
+    "romaji": "Elfuun"
+  },
+  "type1": "Grass",
+  "type2": "Fairy",
+  "genus": "Windveiled Pokémon",
+  "heightM": 0.7,
+  "weightKg": 6.6,
+  "stats": {
+    "hp": 60,
+    "attack": 67,
+    "defense": 85,
+    "specialAttack": 77,
+    "specialDefense": 75,
+    "speed": 116
+  },
+  "abilities": [
+    {
+      "name": "prankster",
+      "hidden": false,
+      "effect": "Raises non-damaging moves' priority by one stage."
+    },
+    {
+      "name": "infiltrator",
+      "hidden": false,
+      "effect": "Bypasses light screen, reflect, and safeguard."
+    },
+    {
+      "name": "chlorophyll",
+      "hidden": true,
+      "effect": "Doubles Speed during strong sunlight."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "humanoid",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 546,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0547.png",
+    "shiny": "sprites/shiny/0547.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/547.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/547.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "53",
+      "flavorText": "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/547.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/547.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Grass Spots",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Grass Spots",
+            "minLevel": 17,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "tailwind",
+            "level": 28
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "83",
+      "flavorText": "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/547.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/547.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Grass Spots",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Castelia City",
+            "method": "Grass Spots",
+            "minLevel": 18,
+            "maxLevel": 18
+          },
+          {
+            "location": "Lostlorn Forest",
+            "method": "Grass Spots",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Grass Spots",
+            "minLevel": 57,
+            "maxLevel": 57
+          },
+          {
+            "location": "Victory Road 2 Unknown Area 72",
+            "method": "Grass Spots",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "tailwind",
+            "level": 28
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "endeavor",
+          "giga-drain",
+          "helping-hand",
+          "knock-off",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "tailwind",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/547.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/547.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "tailwind",
+            "level": 28
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/547.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/547.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "tailwind",
+            "level": 28
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "endeavor",
+          "giga-drain",
+          "helping-hand",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "tailwind",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "88",
+      "flavorText": "This Pokémon appears, riding upon the wind. But if the wind gusts up, it’ll blow the cotton on this Pokémon’s head clean off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/547.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/547.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "tailwind",
+            "level": 28
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "106",
+      "flavorText": "Whimsicott doesn’t live in a fixed location. It floats around on whirling winds, appearing all over the place to perform its mischief.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/547.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/547.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 10
+          },
+          {
+            "move": "tailwind",
+            "level": 28
+          },
+          {
+            "move": "hurricane",
+            "level": 46
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "facade",
+          "fling",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "toxic",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "defog",
+          "endeavor",
+          "giga-drain",
+          "helping-hand",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "tailwind",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "263",
+      "flavorText": "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "cotton-guard",
+            "level": 1
+          },
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "endeavor",
+            "level": 1
+          },
+          {
+            "move": "energy-ball",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "giga-drain",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "hurricane",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "memento",
+            "level": 1
+          },
+          {
+            "move": "moonblast",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "solar-beam",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sunny-day",
+            "level": 1
+          },
+          {
+            "move": "tailwind",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "attract",
+          "beat-up",
+          "charm",
+          "dazzling-gleam",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "fling",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "grassy-terrain",
+          "helping-hand",
+          "hurricane",
+          "hyper-beam",
+          "light-screen",
+          "misty-terrain",
+          "play-rough",
+          "protect",
+          "psychic",
+          "rest",
+          "round",
+          "safeguard",
+          "seed-bomb",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "taunt",
+          "thief",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": [
+          "grassy-glide"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "B057",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/547.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Coastal Biome | Tera Raid Battles (4★ Whimsicott, 6★ Whimsicott)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "cotton-guard",
+            "level": 1
+          },
+          {
+            "move": "cotton-spore",
+            "level": 1
+          },
+          {
+            "move": "endeavor",
+            "level": 1
+          },
+          {
+            "move": "energy-ball",
+            "level": 1
+          },
+          {
+            "move": "fairy-wind",
+            "level": 1
+          },
+          {
+            "move": "giga-drain",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "gust",
+            "level": 1
+          },
+          {
+            "move": "helping-hand",
+            "level": 1
+          },
+          {
+            "move": "hurricane",
+            "level": 1
+          },
+          {
+            "move": "leech-seed",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 1
+          },
+          {
+            "move": "memento",
+            "level": 1
+          },
+          {
+            "move": "moonblast",
+            "level": 1
+          },
+          {
+            "move": "poison-powder",
+            "level": 1
+          },
+          {
+            "move": "razor-leaf",
+            "level": 1
+          },
+          {
+            "move": "solar-beam",
+            "level": 1
+          },
+          {
+            "move": "stun-spore",
+            "level": 1
+          },
+          {
+            "move": "sunny-day",
+            "level": 1
+          },
+          {
+            "move": "tailwind",
+            "level": 1
+          }
+        ],
+        "machine": [
+          "charm",
+          "dazzling-gleam",
+          "encore",
+          "endeavor",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fake-tears",
+          "fling",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "helping-hand",
+          "hurricane",
+          "hyper-beam",
+          "light-screen",
+          "misty-terrain",
+          "play-rough",
+          "protect",
+          "psychic",
+          "rest",
+          "seed-bomb",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "tailwind",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "trick-room",
+          "u-turn"
+        ],
+        "egg": [
+          "beat-up",
+          "memento",
+          "switcheroo",
+          "tickle",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

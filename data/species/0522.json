@@ -1,0 +1,884 @@
+{
+  "dex": 522,
+  "keyword": "blitzle",
+  "name": "Blitzle",
+  "japaneseName": {
+    "kana": "シママ",
+    "romaji": "Shimama"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "Electrified Pokémon",
+  "heightM": 0.8,
+  "weightKg": 29.8,
+  "stats": {
+    "hp": 45,
+    "attack": 60,
+    "defense": 32,
+    "specialAttack": 50,
+    "specialDefense": 32,
+    "speed": 76
+  },
+  "abilities": [
+    {
+      "name": "lightning-rod",
+      "hidden": false,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    {
+      "name": "motor-drive",
+      "hidden": false,
+      "effect": "Absorbs electric moves, raising Speed one stage."
+    },
+    {
+      "name": "sap-sipper",
+      "hidden": true,
+      "effect": "Absorbs grass moves, raising Attack one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 5
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      523
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0522.png",
+    "shiny": "sprites/shiny/0522.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/522.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/522.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-unova": {
+      "dexNumber": "28",
+      "flavorText": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/522.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/522.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3",
+            "method": "Dark Grass",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 11
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "stomp",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flame-charge",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-edge",
+          "double-kick",
+          "endure",
+          "me-first",
+          "rage",
+          "sand-attack",
+          "screech",
+          "shock-wave",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "147",
+      "flavorText": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/522.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/522.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "stomp",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "facade",
+          "flame-charge",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-edge",
+          "double-kick",
+          "endure",
+          "me-first",
+          "rage",
+          "sand-attack",
+          "screech",
+          "shock-wave",
+          "take-down"
+        ],
+        "tutor": [
+          "bounce",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/522.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/522.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "stomp",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flame-charge",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-edge",
+          "double-kick",
+          "endure",
+          "me-first",
+          "rage",
+          "sand-attack",
+          "screech",
+          "shock-wave",
+          "snatch",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/522.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/522.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "stomp",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flame-charge",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-edge",
+          "double-kick",
+          "endure",
+          "me-first",
+          "rage",
+          "sand-attack",
+          "screech",
+          "shock-wave",
+          "snatch",
+          "take-down"
+        ],
+        "tutor": [
+          "bounce",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/522.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/522.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "stomp",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flame-charge",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-edge",
+          "double-kick",
+          "endure",
+          "me-first",
+          "rage",
+          "sand-attack",
+          "screech",
+          "shock-wave",
+          "snatch",
+          "take-down"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/522.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/522.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "pursuit",
+            "level": 22
+          },
+          {
+            "move": "spark",
+            "level": 25
+          },
+          {
+            "move": "stomp",
+            "level": 29
+          },
+          {
+            "move": "discharge",
+            "level": 32
+          },
+          {
+            "move": "agility",
+            "level": 36
+          },
+          {
+            "move": "wild-charge",
+            "level": 39
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "facade",
+          "flame-charge",
+          "frustration",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-edge",
+          "double-kick",
+          "endure",
+          "feint",
+          "me-first",
+          "rage",
+          "sand-attack",
+          "screech",
+          "shock-wave",
+          "snatch",
+          "take-down"
+        ],
+        "tutor": [
+          "bounce",
+          "low-kick",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snatch",
+          "snore"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "B023",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/522.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome | Tera Raid Battles (1★ Blitzle)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "charge",
+            "level": 8
+          },
+          {
+            "move": "shock-wave",
+            "level": 11
+          },
+          {
+            "move": "thunder-wave",
+            "level": 15
+          },
+          {
+            "move": "flame-charge",
+            "level": 18
+          },
+          {
+            "move": "spark",
+            "level": 22
+          },
+          {
+            "move": "stomp",
+            "level": 25
+          },
+          {
+            "move": "discharge",
+            "level": 29
+          },
+          {
+            "move": "agility",
+            "level": 33
+          },
+          {
+            "move": "wild-charge",
+            "level": 35
+          },
+          {
+            "move": "thrash",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "agility",
+          "baton-pass",
+          "body-slam",
+          "charge",
+          "charge-beam",
+          "double-edge",
+          "eerie-impulse",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "endeavor",
+          "endure",
+          "facade",
+          "flame-charge",
+          "helping-hand",
+          "light-screen",
+          "low-kick",
+          "protect",
+          "rain-dance",
+          "rest",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "sunny-day",
+          "supercell-slam",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "double-kick",
+          "feint",
+          "sand-attack",
+          "screech"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "dex": 731,
+  "keyword": "pikipek",
+  "name": "Pikipek",
+  "japaneseName": {
+    "kana": "ツツケラ",
+    "romaji": "Tsutsukera"
+  },
+  "type1": "Normal",
+  "type2": "Flying",
+  "genus": "Woodpecker Pokémon",
+  "heightM": 0.3,
+  "weightKg": 1.2,
+  "stats": {
+    "hp": 35,
+    "attack": 75,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30,
+    "speed": 65
+  },
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "skill-link",
+      "hidden": false,
+      "effect": "Extends two-to-five-hit moves and triple kick to their full length every time."
+    },
+    {
+      "name": "pickup",
+      "hidden": true,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "flying"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "black",
+    "shape": "wings",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      732
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0731.png",
+    "shiny": "sprites/shiny/0731.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/731.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "10",
+      "flavorText": "This Pokémon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/731.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/731.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 1 East",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 1 South",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 1 West",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6 North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6 South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 8 Main",
+            "method": "Sos Encounter",
+            "minLevel": 17,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "echoed-voice",
+            "level": 7
+          },
+          {
+            "move": "rock-smash",
+            "level": 9
+          },
+          {
+            "move": "supersonic",
+            "level": 13
+          },
+          {
+            "move": "pluck",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 19
+          },
+          {
+            "move": "fury-attack",
+            "level": 21
+          },
+          {
+            "move": "screech",
+            "level": 25
+          },
+          {
+            "move": "drill-peck",
+            "level": 27
+          },
+          {
+            "move": "bullet-seed",
+            "level": 31
+          },
+          {
+            "move": "feather-dance",
+            "level": 33
+          },
+          {
+            "move": "hyper-voice",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "flame-charge",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "boomburst",
+          "brave-bird",
+          "mirror-move",
+          "tailwind",
+          "uproar"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "10",
+      "flavorText": "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/731.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/731.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Poke Pelago Elite Four Defeated",
+            "method": "Gift",
+            "minLevel": 49,
+            "maxLevel": 55
+          },
+          {
+            "location": "Poke Pelago Poni Island Reached",
+            "method": "Gift",
+            "minLevel": 37,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poke Pelago Ulaula Island Reached",
+            "method": "Gift",
+            "minLevel": 21,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 1 East",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 1 South",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 11,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6 North",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 6 South",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "echoed-voice",
+            "level": 7
+          },
+          {
+            "move": "rock-smash",
+            "level": 9
+          },
+          {
+            "move": "supersonic",
+            "level": 13
+          },
+          {
+            "move": "pluck",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 19
+          },
+          {
+            "move": "fury-attack",
+            "level": 21
+          },
+          {
+            "move": "screech",
+            "level": 25
+          },
+          {
+            "move": "drill-peck",
+            "level": 27
+          },
+          {
+            "move": "bullet-seed",
+            "level": 31
+          },
+          {
+            "move": "feather-dance",
+            "level": 33
+          },
+          {
+            "move": "hyper-voice",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "flame-charge",
+          "fly",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roost",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "boomburst",
+          "brave-bird",
+          "mirror-move",
+          "tailwind",
+          "uproar"
+        ],
+        "tutor": [
+          "defog",
+          "gunk-shot",
+          "heat-wave",
+          "hyper-voice",
+          "knock-off",
+          "sky-attack",
+          "snore",
+          "tailwind",
+          "uproar"
+        ]
+      }
+    },
+    "sv": {
+      "dexNumber": "B047",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/731.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Coastal Biome, Torchlit Labyrinth | Tera Raid Battles (1★ Pikipek)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 3
+          },
+          {
+            "move": "echoed-voice",
+            "level": 7
+          },
+          {
+            "move": "rock-smash",
+            "level": 9
+          },
+          {
+            "move": "supersonic",
+            "level": 13
+          },
+          {
+            "move": "pluck",
+            "level": 15
+          },
+          {
+            "move": "roost",
+            "level": 19
+          },
+          {
+            "move": "fury-attack",
+            "level": 21
+          },
+          {
+            "move": "screech",
+            "level": 25
+          },
+          {
+            "move": "drill-peck",
+            "level": 27
+          },
+          {
+            "move": "bullet-seed",
+            "level": 31
+          },
+          {
+            "move": "feather-dance",
+            "level": 33
+          },
+          {
+            "move": "hyper-voice",
+            "level": 37
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "air-cutter",
+          "air-slash",
+          "brave-bird",
+          "brick-break",
+          "bullet-seed",
+          "dual-wingbeat",
+          "endeavor",
+          "endure",
+          "facade",
+          "feather-dance",
+          "flame-charge",
+          "fly",
+          "gunk-shot",
+          "heat-wave",
+          "helping-hand",
+          "hyper-voice",
+          "knock-off",
+          "protect",
+          "rest",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "tailwind",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "u-turn",
+          "uproar"
+        ],
+        "egg": [
+          "boomburst",
+          "gunk-shot",
+          "sky-attack"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

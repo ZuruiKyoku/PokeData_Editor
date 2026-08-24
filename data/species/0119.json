@@ -1,0 +1,2610 @@
+{
+  "dex": 119,
+  "keyword": "seaking",
+  "name": "Seaking",
+  "japaneseName": {
+    "kana": "アズマオウ",
+    "romaji": "Azumao"
+  },
+  "type1": "Water",
+  "type2": null,
+  "genus": "Goldfish Pokémon",
+  "heightM": 1.3,
+  "weightKg": 39.0,
+  "stats": {
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 80,
+    "speed": 68
+  },
+  "abilities": [
+    {
+      "name": "swift-swim",
+      "hidden": false,
+      "effect": "Doubles Speed during rain."
+    },
+    {
+      "name": "water-veil",
+      "hidden": false,
+      "effect": "Prevents burns."
+    },
+    {
+      "name": "lightning-rod",
+      "hidden": true,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "water2"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 60,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "red",
+    "shape": "fish",
+    "habitat": "waters-edge",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": "Female's horn is smaller",
+  "evolution": {
+    "evolvesFromDex": 118,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0119.png",
+    "shiny": "sprites/shiny/0119.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/119.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/119.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "119",
+      "flavorText": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/119.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Super Rod",
+            "minLevel": 23,
+            "maxLevel": 55
+          },
+          {
+            "location": "Cerulean Cave B1f",
+            "method": "Super Rod",
+            "minLevel": 23,
+            "maxLevel": 60
+          },
+          {
+            "location": "Cerulean City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 40
+          },
+          {
+            "location": "Fuchsia City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 23",
+            "method": "Super Rod",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 24",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 30
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 10
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "supersonic",
+            "level": 19
+          },
+          {
+            "move": "flail",
+            "level": 24
+          },
+          {
+            "move": "horn-attack",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 29
+          },
+          {
+            "move": "fury-attack",
+            "level": 30
+          },
+          {
+            "move": "waterfall",
+            "level": 39
+          },
+          {
+            "move": "waterfall",
+            "level": 41
+          },
+          {
+            "move": "horn-drill",
+            "level": 48
+          },
+          {
+            "move": "horn-drill",
+            "level": 49
+          },
+          {
+            "move": "agility",
+            "level": 54
+          },
+          {
+            "move": "agility",
+            "level": 61
+          },
+          {
+            "move": "megahorn",
+            "level": 69
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "bubble-beam",
+          "dive",
+          "double-edge",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "horn-drill",
+          "hyper-beam",
+          "ice-beam",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "skull-bash",
+          "substitute",
+          "surf",
+          "swift",
+          "take-down",
+          "toxic",
+          "water-gun",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "79",
+      "flavorText": "When autumn comes, the males patrol the area around their nests in order to protect their offspring.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Cerulean City",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Surf",
+            "minLevel": 25,
+            "maxLevel": 29
+          },
+          {
+            "location": "Mt Silver 2f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Silver 2f",
+            "method": "Surf",
+            "minLevel": 35,
+            "maxLevel": 44
+          },
+          {
+            "location": "Route 10",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 10",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Route 24",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 24",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 25",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 25",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 4",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 42",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 42",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 9",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 9",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 19
+          },
+          {
+            "location": "Slowpoke Well 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Slowpoke Well B1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Tohjo Falls",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Tohjo Falls",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 10
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 29
+          },
+          {
+            "move": "waterfall",
+            "level": 41
+          },
+          {
+            "move": "horn-drill",
+            "level": 49
+          },
+          {
+            "move": "agility",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "endure",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "sleep-talk",
+          "snore",
+          "surf",
+          "swagger",
+          "swift",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "ice-beam"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "51",
+      "flavorText": "It punches holes in boulders on stream­ beds. This is a clever innovation that prevents its eggs from being attacked or washed away by the current.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Nwmach Bike",
+            "method": "Super Rod",
+            "minLevel": 25,
+            "maxLevel": 40
+          },
+          {
+            "location": "Safari Zone SW",
+            "method": "Super Rod",
+            "minLevel": 25,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 10
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "flail",
+            "level": 24
+          },
+          {
+            "move": "fury-attack",
+            "level": 29
+          },
+          {
+            "move": "waterfall",
+            "level": 41
+          },
+          {
+            "move": "horn-drill",
+            "level": 49
+          },
+          {
+            "move": "agility",
+            "level": 61
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "surf",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "79",
+      "flavorText": "To protect its family, it will fight with its drill-sharp horn. It lives in hollowed rocks in streams.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Lake Acuity",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Lake Valor",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Lake Verity After Galactic Intervention",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Lake Verity Before Galactic Intervention",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Resort Area",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 203",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 209",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 212 North Towards Hearthome City",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Route 214",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Sendoff Spring",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          },
+          {
+            "location": "Twinleaf Town",
+            "method": "Super Rod",
+            "minLevel": 20,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 7
+          },
+          {
+            "move": "horn-attack",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 17
+          },
+          {
+            "move": "flail",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "waterfall",
+            "level": 40
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          },
+          {
+            "move": "agility",
+            "level": 56
+          },
+          {
+            "move": "megahorn",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "79",
+      "flavorText": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Celestic Town",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 55
+          },
+          {
+            "location": "Lake Acuity",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lake Acuity",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Lake Valor",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lake Valor",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Lake Verity After Galactic Intervention",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lake Verity After Galactic Intervention",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Lake Verity Before Galactic Intervention",
+            "method": "Good Rod",
+            "minLevel": 25,
+            "maxLevel": 35
+          },
+          {
+            "location": "Lake Verity Before Galactic Intervention",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 203",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 204 North Towards Floaroma Town",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 204 South Towards Jubilife City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 208",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 209",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 212 North Towards Hearthome City",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 214",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Route 229",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Sendoff Spring",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          },
+          {
+            "location": "Twinleaf Town",
+            "method": "Super Rod",
+            "minLevel": 30,
+            "maxLevel": 55
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 7
+          },
+          {
+            "move": "horn-attack",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 17
+          },
+          {
+            "move": "flail",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "waterfall",
+            "level": 40
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          },
+          {
+            "move": "agility",
+            "level": 56
+          },
+          {
+            "move": "megahorn",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "dive",
+          "fury-cutter",
+          "icy-wind",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "79",
+      "flavorText": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Cerulean City",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Cerulean City",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Dark Cave Blackthorn City Entrance",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Dark Cave Violet City Entrance",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar 1f",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar B1f",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Mortar Upper Cave",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 30
+          },
+          {
+            "location": "Mt Silver 1f",
+            "method": "Good Rod",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Mt Silver 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Silver 1f",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 50
+          },
+          {
+            "location": "Mt Silver 1f Top",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Silver 1f Top",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 45
+          },
+          {
+            "location": "Mt Silver 2f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Silver 2f",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 45
+          },
+          {
+            "location": "Mt Silver 4f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Silver 4f",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 45
+          },
+          {
+            "location": "Mt Silver Top",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Mt Silver Top",
+            "method": "Surf",
+            "minLevel": 30,
+            "maxLevel": 45
+          },
+          {
+            "location": "Route 10",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 10",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 24",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 24",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 25",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 25",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 4",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 4",
+            "method": "Surf",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 42",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 42",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 9",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Route 9",
+            "method": "Surf",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Safari Zone Zone Rocky Beach",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 38
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Good Rod",
+            "minLevel": 24,
+            "maxLevel": 25
+          },
+          {
+            "location": "Safari Zone Zone Swamp",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 37
+          },
+          {
+            "location": "Slowpoke Well 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Slowpoke Well B1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Tohjo Falls",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Tohjo Falls",
+            "method": "Surf",
+            "minLevel": 20,
+            "maxLevel": 20
+          },
+          {
+            "location": "Union Cave 1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          },
+          {
+            "location": "Union Cave B1f",
+            "method": "Super Rod",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 7
+          },
+          {
+            "move": "horn-attack",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 17
+          },
+          {
+            "move": "flail",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "waterfall",
+            "level": 40
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          },
+          {
+            "move": "agility",
+            "level": 56
+          },
+          {
+            "move": "megahorn",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "natural-gift",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "water-pulse",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "dive",
+          "fury-cutter",
+          "icy-wind",
+          "knock-off",
+          "mud-slap",
+          "snore",
+          "swift"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 11",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 14",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 3",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Striaton City",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 7
+          },
+          {
+            "move": "horn-attack",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 17
+          },
+          {
+            "move": "flail",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "waterfall",
+            "level": 40
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          },
+          {
+            "move": "agility",
+            "level": 56
+          },
+          {
+            "move": "soak",
+            "level": 63
+          },
+          {
+            "move": "megahorn",
+            "level": 72
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Abundant Shrine",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Aspertia City",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Pinwheel Forest Inside",
+            "method": "Super Rod Spots",
+            "minLevel": 35,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 11",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 14",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 22",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Route 3",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          },
+          {
+            "location": "Striaton City",
+            "method": "Super Rod Spots",
+            "minLevel": 50,
+            "maxLevel": 70
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 7
+          },
+          {
+            "move": "horn-attack",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 17
+          },
+          {
+            "move": "flail",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "waterfall",
+            "level": 40
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          },
+          {
+            "move": "agility",
+            "level": 56
+          },
+          {
+            "move": "soak",
+            "level": 63
+          },
+          {
+            "move": "megahorn",
+            "level": 72
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "drill-run",
+          "icy-wind",
+          "knock-off",
+          "signal-beam",
+          "sleep-talk",
+          "snore"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "54",
+      "flavorText": "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Parfum Palace",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 22",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Route 3",
+            "method": "Super Rod",
+            "minLevel": 35,
+            "maxLevel": 35
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 7
+          },
+          {
+            "move": "horn-attack",
+            "level": 11
+          },
+          {
+            "move": "water-pulse",
+            "level": 17
+          },
+          {
+            "move": "flail",
+            "level": 21
+          },
+          {
+            "move": "aqua-ring",
+            "level": 27
+          },
+          {
+            "move": "fury-attack",
+            "level": 31
+          },
+          {
+            "move": "waterfall",
+            "level": 40
+          },
+          {
+            "move": "horn-drill",
+            "level": 47
+          },
+          {
+            "move": "agility",
+            "level": 56
+          },
+          {
+            "move": "soak",
+            "level": 63
+          },
+          {
+            "move": "megahorn",
+            "level": 72
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "52",
+      "flavorText": "Seaking is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these Pokémon goes on for over a month.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "flail",
+            "level": 13
+          },
+          {
+            "move": "water-pulse",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 21
+          },
+          {
+            "move": "fury-attack",
+            "level": 24
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "waterfall",
+            "level": 32
+          },
+          {
+            "move": "horn-drill",
+            "level": 40
+          },
+          {
+            "move": "soak",
+            "level": 46
+          },
+          {
+            "move": "megahorn",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "dive",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "drill-run",
+          "icy-wind",
+          "knock-off",
+          "signal-beam",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "154",
+      "flavorText": "Trainers who are crazy for Seaking are divided into horn enthusiasts and fin enthusiasts. The two groups do not get along well.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Brooklet Hill North",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 15
+          },
+          {
+            "location": "Malie Garden",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "flail",
+            "level": 13
+          },
+          {
+            "move": "water-pulse",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 21
+          },
+          {
+            "move": "fury-attack",
+            "level": 24
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "waterfall",
+            "level": 32
+          },
+          {
+            "move": "horn-drill",
+            "level": 40
+          },
+          {
+            "move": "soak",
+            "level": 46
+          },
+          {
+            "move": "megahorn",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "187",
+      "flavorText": "To attract females, males dance on the river’s floor. The females gather around the male that dances most gracefully.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/119.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/119.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Brooklet Hill North",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Brooklet Hill North",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 21
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Brooklet Hill South",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 21
+          },
+          {
+            "location": "Malie Garden",
+            "method": "Sos Encounter",
+            "minLevel": 10,
+            "maxLevel": 28
+          },
+          {
+            "location": "Malie Garden",
+            "method": "Sos From Bubbling Spot",
+            "minLevel": 10,
+            "maxLevel": 33
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "megahorn",
+            "level": 1
+          },
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "poison-jab",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-sport",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "flail",
+            "level": 13
+          },
+          {
+            "move": "water-pulse",
+            "level": 16
+          },
+          {
+            "move": "aqua-ring",
+            "level": 21
+          },
+          {
+            "move": "fury-attack",
+            "level": 24
+          },
+          {
+            "move": "agility",
+            "level": 29
+          },
+          {
+            "move": "waterfall",
+            "level": 32
+          },
+          {
+            "move": "horn-drill",
+            "level": 40
+          },
+          {
+            "move": "soak",
+            "level": 46
+          },
+          {
+            "move": "megahorn",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "giga-impact",
+          "hail",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "scald",
+          "sleep-talk",
+          "smart-strike",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": [
+          "aqua-tail",
+          "bounce",
+          "drill-run",
+          "icy-wind",
+          "knock-off",
+          "signal-beam",
+          "snore",
+          "throat-chop",
+          "water-pulse"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "119",
+      "flavorText": "It is the male’s job to make a nest by carving out boulders in a stream using the horn on its head.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "psybeam",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "skull-bash",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 4
+          },
+          {
+            "move": "quick-attack",
+            "level": 10
+          },
+          {
+            "move": "horn-attack",
+            "level": 14
+          },
+          {
+            "move": "fury-attack",
+            "level": 20
+          },
+          {
+            "move": "waterfall",
+            "level": 24
+          },
+          {
+            "move": "agility",
+            "level": 30
+          },
+          {
+            "move": "horn-drill",
+            "level": 39
+          },
+          {
+            "move": "megahorn",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "drill-run",
+          "facade",
+          "headbutt",
+          "hyper-beam",
+          "ice-beam",
+          "megahorn",
+          "poison-jab",
+          "protect",
+          "rest",
+          "scald",
+          "substitute",
+          "surf",
+          "toxic",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "147",
+      "flavorText": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "aqua-ring",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 30
+          },
+          {
+            "move": "waterfall",
+            "level": 37
+          },
+          {
+            "move": "soak",
+            "level": 44
+          },
+          {
+            "move": "megahorn",
+            "level": 51
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "agility",
+          "attract",
+          "blizzard",
+          "body-slam",
+          "bounce",
+          "dive",
+          "drill-run",
+          "endure",
+          "facade",
+          "giga-impact",
+          "hail",
+          "hydro-pump",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "megahorn",
+          "mud-shot",
+          "muddy-water",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "scald",
+          "sleep-talk",
+          "smart-strike",
+          "snore",
+          "substitute",
+          "surf",
+          "swift",
+          "swords-dance",
+          "throat-chop",
+          "waterfall",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "flip-turn",
+          "scale-shot"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "119",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/119.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , , , and , Lake Acuity, Lake Verity, Twinleaf Town, Lake Valor, Resort Area, Sendoff Spring (Super Rod)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "peck",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "water-pulse",
+            "level": 1
+          },
+          {
+            "move": "horn-attack",
+            "level": 15
+          },
+          {
+            "move": "agility",
+            "level": 20
+          },
+          {
+            "move": "aqua-ring",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 30
+          },
+          {
+            "move": "waterfall",
+            "level": 37
+          },
+          {
+            "move": "soak",
+            "level": 44
+          },
+          {
+            "move": "megahorn",
+            "level": 51
+          },
+          {
+            "move": "horn-drill",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "endure",
+          "facade",
+          "giga-impact",
+          "hail",
+          "hyper-beam",
+          "ice-beam",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "scald",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "swords-dance",
+          "water-pulse",
+          "waterfall"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

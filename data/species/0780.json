@@ -1,0 +1,558 @@
+{
+  "dex": 780,
+  "keyword": "drampa",
+  "name": "Drampa",
+  "japaneseName": {
+    "kana": "ジジーロン",
+    "romaji": "Jijilong"
+  },
+  "type1": "Normal",
+  "type2": "Dragon",
+  "genus": "Placid Pokémon",
+  "heightM": 3.0,
+  "weightKg": 185.0,
+  "stats": {
+    "hp": 78,
+    "attack": 60,
+    "defense": 85,
+    "specialAttack": 135,
+    "specialDefense": 91,
+    "speed": 36
+  },
+  "abilities": [
+    {
+      "name": "berserk",
+      "hidden": false,
+      "effect": "Raises this Pokémon's Special Attack by one stage every time its HP drops below half."
+    },
+    {
+      "name": "sap-sipper",
+      "hidden": false,
+      "effect": "Absorbs grass moves, raising Attack one stage."
+    },
+    {
+      "name": "cloud-nine",
+      "hidden": true,
+      "effect": "Negates all effects of weather, but does not prevent the weather itself."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "dragon"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 70,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "white",
+    "shape": "squiggle",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0780.png",
+    "shiny": "sprites/shiny/0780.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/780.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "244",
+      "flavorText": "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/780.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/780.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Cave",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 45
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "echoed-voice",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 13
+          },
+          {
+            "move": "light-screen",
+            "level": 17
+          },
+          {
+            "move": "dragon-rage",
+            "level": 21
+          },
+          {
+            "move": "natural-gift",
+            "level": 25
+          },
+          {
+            "move": "dragon-breath",
+            "level": 29
+          },
+          {
+            "move": "safeguard",
+            "level": 33
+          },
+          {
+            "move": "extrasensory",
+            "level": 37
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 41
+          },
+          {
+            "move": "fly",
+            "level": 45
+          },
+          {
+            "move": "hyper-voice",
+            "level": 49
+          },
+          {
+            "move": "outrage",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "dragon-rush",
+          "hurricane",
+          "mist",
+          "play-rough",
+          "razor-wind"
+        ],
+        "tutor": [
+          "draco-meteor"
+        ]
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "321",
+      "flavorText": "It appears in towns and plays with the children. Drampa will protect kids when they’re in danger, so their moms don’t have to worry.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/780.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/780.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Mount Lanakila Cave",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 51
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "echoed-voice",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 9
+          },
+          {
+            "move": "glare",
+            "level": 13
+          },
+          {
+            "move": "light-screen",
+            "level": 17
+          },
+          {
+            "move": "dragon-rage",
+            "level": 21
+          },
+          {
+            "move": "natural-gift",
+            "level": 25
+          },
+          {
+            "move": "dragon-breath",
+            "level": 29
+          },
+          {
+            "move": "safeguard",
+            "level": 33
+          },
+          {
+            "move": "extrasensory",
+            "level": 37
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 41
+          },
+          {
+            "move": "fly",
+            "level": 45
+          },
+          {
+            "move": "hyper-voice",
+            "level": 49
+          },
+          {
+            "move": "outrage",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "calm-mind",
+          "confide",
+          "double-team",
+          "dragon-claw",
+          "dragon-tail",
+          "earthquake",
+          "echoed-voice",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "roar",
+          "rock-slide",
+          "roost",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "solar-beam",
+          "steel-wing",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "dragon-rush",
+          "hurricane",
+          "mist",
+          "play-rough",
+          "razor-wind"
+        ],
+        "tutor": [
+          "block",
+          "defog",
+          "draco-meteor",
+          "dragon-pulse",
+          "endeavor",
+          "heat-wave",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "outrage",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "stomping-tantrum",
+          "superpower",
+          "tailwind",
+          "uproar",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "346",
+      "flavorText": "Drampa is a kind and friendly Pokémon—up until it’s angered. When that happens, it stirs up a gale and flattens everything around.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "echoed-voice",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 1
+          },
+          {
+            "move": "twister",
+            "level": 5
+          },
+          {
+            "move": "protect",
+            "level": 10
+          },
+          {
+            "move": "glare",
+            "level": 15
+          },
+          {
+            "move": "safeguard",
+            "level": 20
+          },
+          {
+            "move": "dragon-breath",
+            "level": 25
+          },
+          {
+            "move": "extrasensory",
+            "level": 30
+          },
+          {
+            "move": "dragon-pulse",
+            "level": 35
+          },
+          {
+            "move": "light-screen",
+            "level": 40
+          },
+          {
+            "move": "fly",
+            "level": 45
+          },
+          {
+            "move": "hyper-voice",
+            "level": 50
+          },
+          {
+            "move": "outrage",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "blizzard",
+          "breaking-swipe",
+          "bulldoze",
+          "calm-mind",
+          "dragon-claw",
+          "dragon-dance",
+          "dragon-pulse",
+          "earthquake",
+          "endure",
+          "energy-ball",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "fling",
+          "fly",
+          "focus-blast",
+          "giga-impact",
+          "grass-knot",
+          "heat-wave",
+          "helping-hand",
+          "hurricane",
+          "hydro-pump",
+          "hyper-beam",
+          "hyper-voice",
+          "ice-beam",
+          "icy-wind",
+          "light-screen",
+          "outrage",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "shadow-claw",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "solar-beam",
+          "steel-wing",
+          "stomping-tantrum",
+          "substitute",
+          "sunny-day",
+          "superpower",
+          "surf",
+          "swift",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "uproar",
+          "work-up"
+        ],
+        "egg": [
+          "dragon-rush",
+          "mist",
+          "tickle"
+        ],
+        "tutor": [
+          "draco-meteor",
+          "lash-out",
+          "scale-shot"
+        ]
+      }
+    },
+    "plza": {
+      "dexNumber": "224",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Jaune District: Wild Zone 19 | Centrico Plaza: Wild Zone 20",
+          "Hyperspace Lumiose (4★ Normal-type & Dragon-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

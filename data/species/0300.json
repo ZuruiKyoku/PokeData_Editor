@@ -1,0 +1,1734 @@
+{
+  "dex": 300,
+  "keyword": "skitty",
+  "name": "Skitty",
+  "japaneseName": {
+    "kana": "エネコ",
+    "romaji": "Eneco"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Kitten Pokémon",
+  "heightM": 0.6,
+  "weightKg": 11.0,
+  "stats": {
+    "hp": 50,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 50
+  },
+  "abilities": [
+    {
+      "name": "cute-charm",
+      "hidden": false,
+      "effect": "Has a 30% chance of infatuating attacking Pokémon on contact."
+    },
+    {
+      "name": "normalize",
+      "hidden": false,
+      "effect": "Makes the Pokémon's moves all act normal-type."
+    },
+    {
+      "name": "wonder-skin",
+      "hidden": true,
+      "effect": "Lowers incoming non-damaging moves' base accuracy to exactly 50%."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground",
+      "fairy"
+    ],
+    "genderRateEighthsFemale": 6,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "fast"
+  },
+  "classification": {
+    "color": "pink",
+    "shape": "quadruped",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      301
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0300.png",
+    "shiny": "sprites/shiny/0300.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/300.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/300.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "61",
+      "flavorText": "A SKITTY’s adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 116",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "attract",
+            "level": 7
+          },
+          {
+            "move": "sing",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "assist",
+            "level": 19
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 27
+          },
+          {
+            "move": "covet",
+            "level": 31
+          },
+          {
+            "move": "heal-bell",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 39
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "dig",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "solar-beam",
+          "sunny-day",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "baton-pass",
+          "fake-tears",
+          "helping-hand",
+          "psych-up",
+          "substitute",
+          "tickle",
+          "uproar",
+          "wish"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 222",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "attract",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 8
+          },
+          {
+            "move": "copycat",
+            "level": 11
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "assist",
+            "level": 18
+          },
+          {
+            "move": "charm",
+            "level": 22
+          },
+          {
+            "move": "feint-attack",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 29
+          },
+          {
+            "move": "covet",
+            "level": 32
+          },
+          {
+            "move": "heal-bell",
+            "level": 36
+          },
+          {
+            "move": "double-edge",
+            "level": 39
+          },
+          {
+            "move": "captivate",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "baton-pass",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "psych-up",
+          "substitute",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 222",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "attract",
+            "level": 8
+          },
+          {
+            "move": "sing",
+            "level": 11
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "copycat",
+            "level": 18
+          },
+          {
+            "move": "assist",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 29
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 32
+          },
+          {
+            "move": "covet",
+            "level": 36
+          },
+          {
+            "move": "heal-bell",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "baton-pass",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "psych-up",
+          "substitute",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "helping-hand",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It’s adorable when it chases its own tail. It’s difficult to earn its trust.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "attract",
+            "level": 8
+          },
+          {
+            "move": "sing",
+            "level": 11
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "copycat",
+            "level": 18
+          },
+          {
+            "move": "assist",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 29
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 32
+          },
+          {
+            "move": "covet",
+            "level": 36
+          },
+          {
+            "move": "heal-bell",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "captivate",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "baton-pass",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "psych-up",
+          "substitute",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "headbutt",
+          "heal-bell",
+          "helping-hand",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "snore",
+          "sucker-punch",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "attract",
+            "level": 8
+          },
+          {
+            "move": "sing",
+            "level": 11
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "copycat",
+            "level": 18
+          },
+          {
+            "move": "assist",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 29
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 32
+          },
+          {
+            "move": "covet",
+            "level": 36
+          },
+          {
+            "move": "heal-bell",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "baton-pass",
+          "captivate",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": "78",
+      "flavorText": "It shows its cute side by chasing its own tail until it gets dizzy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Castelia City",
+            "method": "Dark Grass",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Castelia City",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "attract",
+            "level": 8
+          },
+          {
+            "move": "sing",
+            "level": 11
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "copycat",
+            "level": 18
+          },
+          {
+            "move": "assist",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 29
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 32
+          },
+          {
+            "move": "covet",
+            "level": 36
+          },
+          {
+            "move": "heal-bell",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "baton-pass",
+          "captivate",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "covet",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "sleep-talk",
+          "snore",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "78",
+      "flavorText": "It shows its cute side by chasing its own tail until it gets dizzy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 4",
+            "method": "Red Flowers",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 4",
+            "method": "Yellow Flowers",
+            "minLevel": 8,
+            "maxLevel": 8
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "attract",
+            "level": 8
+          },
+          {
+            "move": "sing",
+            "level": 11
+          },
+          {
+            "move": "double-slap",
+            "level": 15
+          },
+          {
+            "move": "copycat",
+            "level": 18
+          },
+          {
+            "move": "assist",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "feint-attack",
+            "level": 29
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 32
+          },
+          {
+            "move": "covet",
+            "level": 36
+          },
+          {
+            "move": "heal-bell",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          },
+          {
+            "move": "captivate",
+            "level": 46
+          },
+          {
+            "move": "play-rough",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [
+          "baton-pass",
+          "captivate",
+          "cosmic-power",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "63",
+      "flavorText": "Skitty is known to chase around playfully after its own tail. In the wild, this Pokémon lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "attract",
+            "level": 10
+          },
+          {
+            "move": "disarming-voice",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 16
+          },
+          {
+            "move": "copycat",
+            "level": 19
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 28
+          },
+          {
+            "move": "assist",
+            "level": 31
+          },
+          {
+            "move": "covet",
+            "level": 34
+          },
+          {
+            "move": "heal-bell",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "captivate",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "round",
+          "safeguard",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [
+          "baton-pass",
+          "captivate",
+          "cosmic-power",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "covet",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "uproar",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "attract",
+            "level": 10
+          },
+          {
+            "move": "disarming-voice",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 16
+          },
+          {
+            "move": "copycat",
+            "level": 19
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 28
+          },
+          {
+            "move": "assist",
+            "level": 31
+          },
+          {
+            "move": "covet",
+            "level": 34
+          },
+          {
+            "move": "heal-bell",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "captivate",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "baton-pass",
+          "captivate",
+          "cosmic-power",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/300.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/300.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "attract",
+            "level": 10
+          },
+          {
+            "move": "disarming-voice",
+            "level": 13
+          },
+          {
+            "move": "double-slap",
+            "level": 16
+          },
+          {
+            "move": "copycat",
+            "level": 19
+          },
+          {
+            "move": "feint-attack",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "wake-up-slap",
+            "level": 28
+          },
+          {
+            "move": "assist",
+            "level": 31
+          },
+          {
+            "move": "covet",
+            "level": 34
+          },
+          {
+            "move": "heal-bell",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "captivate",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "shadow-ball",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [
+          "baton-pass",
+          "captivate",
+          "cosmic-power",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "mud-bomb",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": [
+          "covet",
+          "heal-bell",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "shock-wave",
+          "snore",
+          "uproar",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "300",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/300.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 222 (Sinnoh) (Swarm) | Grand Underground - Spacious Cave (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "fake-out",
+            "level": 1
+          },
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 4
+          },
+          {
+            "move": "sing",
+            "level": 7
+          },
+          {
+            "move": "attract",
+            "level": 10
+          },
+          {
+            "move": "disarming-voice",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "copycat",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 22
+          },
+          {
+            "move": "charm",
+            "level": 25
+          },
+          {
+            "move": "facade",
+            "level": 31
+          },
+          {
+            "move": "covet",
+            "level": 34
+          },
+          {
+            "move": "heal-bell",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 40
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 43
+          },
+          {
+            "move": "play-rough",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "calm-mind",
+          "charge-beam",
+          "dig",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "facade",
+          "flash",
+          "grass-knot",
+          "ice-beam",
+          "iron-tail",
+          "nasty-plot",
+          "payback",
+          "protect",
+          "psych-up",
+          "rain-dance",
+          "rest",
+          "safeguard",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "baton-pass",
+          "cosmic-power",
+          "fake-out",
+          "fake-tears",
+          "helping-hand",
+          "last-resort",
+          "simple-beam",
+          "sucker-punch",
+          "tickle",
+          "uproar",
+          "wish",
+          "zen-headbutt"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

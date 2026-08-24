@@ -1,0 +1,2183 @@
+{
+  "dex": 128,
+  "keyword": "tauros",
+  "name": "Tauros",
+  "japaneseName": {
+    "kana": "ケンタロス",
+    "romaji": "Kentauros"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Wild Bull Pokémon",
+  "heightM": 1.4,
+  "weightKg": 88.4,
+  "stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "specialAttack": 40,
+    "specialDefense": 70,
+    "speed": 110
+  },
+  "abilities": [
+    {
+      "name": "intimidate",
+      "hidden": false,
+      "effect": "Lowers opponents' Attack one stage upon entering battle."
+    },
+    {
+      "name": "anger-point",
+      "hidden": false,
+      "effect": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+    },
+    {
+      "name": "sheer-force",
+      "hidden": true,
+      "effect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 0,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0128.png",
+    "shiny": "sprites/shiny/0128.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/128.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/128.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "128",
+      "flavorText": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/128.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 21
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 28
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "rage",
+            "level": 4
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 13
+          },
+          {
+            "move": "pursuit",
+            "level": 19
+          },
+          {
+            "move": "stomp",
+            "level": 21
+          },
+          {
+            "move": "swagger",
+            "level": 26
+          },
+          {
+            "move": "tail-whip",
+            "level": 28
+          },
+          {
+            "move": "rest",
+            "level": 34
+          },
+          {
+            "move": "leer",
+            "level": 35
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          },
+          {
+            "move": "rage",
+            "level": 44
+          },
+          {
+            "move": "take-down",
+            "level": 51
+          },
+          {
+            "move": "take-down",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "blizzard",
+          "body-slam",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "fissure",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "horn-drill",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "mimic",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "skull-bash",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "take-down",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "148",
+      "flavorText": "These violent POKéMON fight with other mem­ bers of their herd in order to prove their strength.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "rage",
+            "level": 8
+          },
+          {
+            "move": "horn-attack",
+            "level": 13
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 34
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          },
+          {
+            "move": "take-down",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "curse",
+          "double-team",
+          "earthquake",
+          "endure",
+          "fire-blast",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "hyper-beam",
+          "icy-wind",
+          "iron-tail",
+          "protect",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [],
+        "tutor": [
+          "flamethrower",
+          "ice-beam",
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It is not satisfied unless it is rampaging at all times. If there is no opponent for TAUROS to battle, it will charge at thick trees and knock them down to calm itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 4
+          },
+          {
+            "move": "rage",
+            "level": 8
+          },
+          {
+            "move": "horn-attack",
+            "level": 13
+          },
+          {
+            "move": "scary-face",
+            "level": 19
+          },
+          {
+            "move": "pursuit",
+            "level": 26
+          },
+          {
+            "move": "rest",
+            "level": 34
+          },
+          {
+            "move": "thrash",
+            "level": 43
+          },
+          {
+            "move": "take-down",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "body-slam",
+          "double-edge",
+          "endure",
+          "icy-wind",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 209",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 35
+          },
+          {
+            "move": "swagger",
+            "level": 41
+          },
+          {
+            "move": "thrash",
+            "level": 48
+          },
+          {
+            "move": "giga-impact",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 210 South Towards Solaceon Town",
+            "method": "Walk",
+            "minLevel": 19,
+            "maxLevel": 21
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 35
+          },
+          {
+            "move": "swagger",
+            "level": 41
+          },
+          {
+            "move": "thrash",
+            "level": 48
+          },
+          {
+            "move": "giga-impact",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "outrage",
+          "snore",
+          "spite",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "150",
+      "flavorText": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 38",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          },
+          {
+            "location": "Route 39",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 48",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 24
+          },
+          {
+            "location": "Safari Zone Zone Savannah",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 35
+          },
+          {
+            "move": "swagger",
+            "level": 41
+          },
+          {
+            "move": "thrash",
+            "level": 48
+          },
+          {
+            "move": "giga-impact",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "whirlpool"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "headbutt",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "outrage",
+          "role-play",
+          "snore",
+          "spite",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "work-up",
+            "level": 29
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 55
+          },
+          {
+            "move": "giga-impact",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "work-up",
+            "level": 29
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 55
+          },
+          {
+            "move": "giga-impact",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "outrage",
+          "role-play",
+          "sleep-talk",
+          "snore",
+          "spite",
+          "uproar",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C125",
+      "flavorText": "When it is about to tackle, it whips its body repeatedly with its three long tails.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 12",
+            "method": "Yellow Flowers",
+            "minLevel": 25,
+            "maxLevel": 27
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "work-up",
+            "level": 29
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "giga-impact",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "work-up",
+            "level": 29
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "giga-impact",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "incinerate",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "secret-power",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "wild-charge"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "outrage",
+          "role-play",
+          "shock-wave",
+          "snore",
+          "spite",
+          "uproar",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "137",
+      "flavorText": "Although it’s known to be a fierce Pokémon, Tauros in the Alola region are said to possess a measure of calmness.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Paniola Ranch",
+            "method": "Sos Encounter",
+            "minLevel": 12,
+            "maxLevel": 15
+          },
+          {
+            "location": "Paniola Ranch",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 15
+          },
+          {
+            "location": "Poni Plains Center",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains Center",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains East",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains East",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains North",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains North",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains West",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains West",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "work-up",
+            "level": 29
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 35
+          },
+          {
+            "move": "take-down",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "giga-impact",
+            "level": 63
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smart-strike",
+          "solar-beam",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "170",
+      "flavorText": "The climate seems to be related to the reason Tauros in Alola are a little calmer than those in other regions.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/128.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/128.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Paniola Ranch",
+            "method": "Sos Encounter",
+            "minLevel": 12,
+            "maxLevel": 15
+          },
+          {
+            "location": "Paniola Ranch",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 15
+          },
+          {
+            "location": "Poni Gauntlet",
+            "method": "Npc Trade",
+            "minLevel": 59,
+            "maxLevel": 59
+          },
+          {
+            "location": "Poni Plains Center",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains Center",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains East",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains East",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains North",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains North",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains West",
+            "method": "Sos Encounter",
+            "minLevel": 54,
+            "maxLevel": 57
+          },
+          {
+            "location": "Poni Plains West",
+            "method": "Walk",
+            "minLevel": 54,
+            "maxLevel": 57
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 3
+          },
+          {
+            "move": "rage",
+            "level": 5
+          },
+          {
+            "move": "horn-attack",
+            "level": 8
+          },
+          {
+            "move": "scary-face",
+            "level": 11
+          },
+          {
+            "move": "pursuit",
+            "level": 15
+          },
+          {
+            "move": "rest",
+            "level": 19
+          },
+          {
+            "move": "payback",
+            "level": 24
+          },
+          {
+            "move": "work-up",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 41
+          },
+          {
+            "move": "swagger",
+            "level": 48
+          },
+          {
+            "move": "thrash",
+            "level": 55
+          },
+          {
+            "move": "double-edge",
+            "level": 63
+          },
+          {
+            "move": "giga-impact",
+            "level": 71
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "frustration",
+          "giga-impact",
+          "hidden-power",
+          "hyper-beam",
+          "ice-beam",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "sleep-talk",
+          "smart-strike",
+          "solar-beam",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "wild-charge",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": [
+          "endeavor",
+          "helping-hand",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "outrage",
+          "role-play",
+          "shock-wave",
+          "snore",
+          "spite",
+          "stomping-tantrum",
+          "uproar",
+          "water-pulse",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "128",
+      "flavorText": "A rowdy Pokémon with a lot of stamina. Once running, it won’t stop until it hits something.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "rage",
+            "level": 12
+          },
+          {
+            "move": "horn-attack",
+            "level": 18
+          },
+          {
+            "move": "leer",
+            "level": 24
+          },
+          {
+            "move": "rest",
+            "level": 30
+          },
+          {
+            "move": "take-down",
+            "level": 34
+          },
+          {
+            "move": "focus-energy",
+            "level": 38
+          },
+          {
+            "move": "thrash",
+            "level": 42
+          },
+          {
+            "move": "double-edge",
+            "level": 46
+          },
+          {
+            "move": "outrage",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "earthquake",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "headbutt",
+          "helping-hand",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "outrage",
+          "protect",
+          "rest",
+          "rock-slide",
+          "solar-beam",
+          "substitute",
+          "surf",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A116",
+      "flavorText": "The Tauros of the Galar region are volatile in nature, and they won’t allow people to ride on their backs.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "work-up",
+            "level": 5
+          },
+          {
+            "move": "payback",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "horn-attack",
+            "level": 20
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 30
+          },
+          {
+            "move": "take-down",
+            "level": 35
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "giga-impact",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "assurance",
+          "attract",
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "close-combat",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "giga-impact",
+          "helping-hand",
+          "high-horsepower",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "iron-head",
+          "iron-tail",
+          "megahorn",
+          "outrage",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scary-face",
+          "sleep-talk",
+          "smart-strike",
+          "snore",
+          "solar-beam",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "throat-chop",
+          "thunder",
+          "thunderbolt",
+          "uproar",
+          "whirlpool",
+          "wild-charge",
+          "work-up",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": [
+          "lash-out"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "128",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/128.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and (Poké Radar) | Grand Underground - Spacious Cave, Grassland Cave, Fountainspring Cave, Rocky Cave, Whiteout Cave, Icy Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern, Big Bluff Cavern, Glacial Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "work-up",
+            "level": 5
+          },
+          {
+            "move": "payback",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "horn-attack",
+            "level": 20
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 30
+          },
+          {
+            "move": "take-down",
+            "level": 35
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "giga-impact",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "bulldoze",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "giga-impact",
+          "hyper-beam",
+          "ice-beam",
+          "iron-tail",
+          "payback",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sandstorm",
+          "shock-wave",
+          "sleep-talk",
+          "solar-beam",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P223",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/128.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Area One (Paldean Form (Combat Breed)) | East Province: Area Two (Paldean Form (Combat and Blaze Breeds)) | West Province: Area Two (Paldean Form (Combat and Blaze Breeds)) | East Province: Area Two ( Type) (Paldean Form (Combat Breed)) | Union Circle (Paldean Form (Aqua Breed)) | Tera Raid Battles (4★ Tauros - Paldean Form (Combat Breed), 6★ Tauros - Paldean Form (Combat Breed)) (Paldean Form (Combat Breed)) | Tera Raid Battles (5★ Tauros - Paldean Form (Blaze Breed), 6★ Tauros - Paldean Form (Blaze Breed)) (Paldean Form (Blaze Breed)) | Tera Raid Battle Search (5★ Tauros - Paldean Form (Aqua Breed), 6★ Tauros - Paldean Form (Aqua Breed)) (Paldean Form (Aqua Breed)) | Trade (Kantonian Form)",
+          "East Province: Area One (Paldean Form (Combat Breed)) | East Province: Area Two (Paldean Form (Combat and Aqua Breeds)) | West Province: Area Two (Paldean Form (Combat and Aqua Breeds)) | East Province: Area Two ( Type) (Paldean Form (Combat Breed)) | Union Circle (Paldean Form (Blaze Breed)) | Tera Raid Battles (4★ Tauros - Paldean Form (Combat Breed), 6★ Tauros - Paldean Form (Combat Breed)) (Paldean Form (Combat Breed)) | Tera Raid Battles (5★ Tauros - Paldean Form (Aqua Breed), 6★ Tauros - Paldean Form (Aqua Breed)) (Paldean Form (Aqua Breed)) | Tera Raid Battle Search (5★ Tauros - Paldean Form (Blaze Breed), 6★ Tauros - Paldean Form (Blaze Breed)) (Paldean Form (Blaze Breed)) | Trade (Kantonian Form)",
+          "Savanna Biome (Kantonian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "work-up",
+            "level": 5
+          },
+          {
+            "move": "payback",
+            "level": 10
+          },
+          {
+            "move": "assurance",
+            "level": 15
+          },
+          {
+            "move": "horn-attack",
+            "level": 20
+          },
+          {
+            "move": "scary-face",
+            "level": 25
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 30
+          },
+          {
+            "move": "raging-bull",
+            "level": 35
+          },
+          {
+            "move": "rest",
+            "level": 40
+          },
+          {
+            "move": "swagger",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 50
+          },
+          {
+            "move": "double-edge",
+            "level": 55
+          },
+          {
+            "move": "giga-impact",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "close-combat",
+          "curse",
+          "dig",
+          "double-edge",
+          "earthquake",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-blast",
+          "flamethrower",
+          "giga-impact",
+          "helping-hand",
+          "high-horsepower",
+          "hyper-beam",
+          "ice-beam",
+          "icy-wind",
+          "iron-head",
+          "lash-out",
+          "outrage",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "shadow-ball",
+          "sleep-talk",
+          "smart-strike",
+          "solar-beam",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder",
+          "thunderbolt",
+          "trailblaze",
+          "wild-charge",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "curse",
+          "endeavor"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

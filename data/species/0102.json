@@ -1,0 +1,2389 @@
+{
+  "dex": 102,
+  "keyword": "exeggcute",
+  "name": "Exeggcute",
+  "japaneseName": {
+    "kana": "タマタマ",
+    "romaji": "Tamatama"
+  },
+  "type1": "Grass",
+  "type2": "Psychic",
+  "genus": "Egg Pokémon",
+  "heightM": 0.4,
+  "weightKg": 2.5,
+  "stats": {
+    "hp": 60,
+    "attack": 40,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 45,
+    "speed": 40
+  },
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "harvest",
+      "hidden": true,
+      "effect": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "slow"
+  },
+  "classification": {
+    "color": "pink",
+    "shape": "heads",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      103
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0102.png",
+    "shiny": "sprites/shiny/0102.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/102.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/102.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "102",
+      "flavorText": "It is often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/102.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Safari Zone Area 1 East",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 26
+          },
+          {
+            "location": "Safari Zone Area 2 North",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 27
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 27
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 25
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "confusion",
+            "level": 19
+          },
+          {
+            "move": "reflect",
+            "level": 25
+          },
+          {
+            "move": "stun-spore",
+            "level": 25
+          },
+          {
+            "move": "leech-seed",
+            "level": 28
+          },
+          {
+            "move": "poison-powder",
+            "level": 31
+          },
+          {
+            "move": "stun-spore",
+            "level": 32
+          },
+          {
+            "move": "poison-powder",
+            "level": 37
+          },
+          {
+            "move": "sleep-powder",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 42
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "sleep-powder",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "bullet-seed",
+          "double-edge",
+          "double-team",
+          "egg-bomb",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "light-screen",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "self-destruct",
+          "skill-swap",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "teleport",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "ingrain",
+          "moonlight",
+          "psych-up",
+          "reflect",
+          "synthesis"
+        ],
+        "tutor": [
+          "double-edge",
+          "dream-eater",
+          "explosion",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "104",
+      "flavorText": "If even one is separated from the group, the energy bond between the six will make them rejoin instantly.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Azalea Town",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Ilex Forest",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 26",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 27",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 29",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 29",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 29",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 30",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 31",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 31",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 31",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 32",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 32",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 32",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 34",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 35",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 36",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 37",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 38",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 39",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 43",
+            "method": "Headbutt High",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 43",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 43",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "confusion",
+            "level": 19
+          },
+          {
+            "move": "stun-spore",
+            "level": 25
+          },
+          {
+            "move": "poison-powder",
+            "level": 31
+          },
+          {
+            "move": "sleep-powder",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "nightmare",
+          "protect",
+          "psych-up",
+          "psychic",
+          "rest",
+          "return",
+          "rollout",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "mega-drain",
+          "moonlight",
+          "reflect",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "It consists of six eggs that care for each other. The eggs attract each other and spin around. When cracks increasingly appear, it is close to evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 13
+          },
+          {
+            "move": "confusion",
+            "level": 19
+          },
+          {
+            "move": "stun-spore",
+            "level": 25
+          },
+          {
+            "move": "poison-powder",
+            "level": 31
+          },
+          {
+            "move": "sleep-powder",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "ingrain",
+          "moonlight",
+          "psych-up",
+          "reflect",
+          "synthesis"
+        ],
+        "tutor": [
+          "double-edge",
+          "dream-eater",
+          "endure",
+          "explosion",
+          "mimic",
+          "psych-up",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "nature-power",
+          "psych-up",
+          "reflect",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "nature-power",
+          "psych-up",
+          "reflect",
+          "synthesis"
+        ],
+        "tutor": [
+          "ancient-power",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "105",
+      "flavorText": "Using telepathy only they can employ, they always form a cluster of six EXEGGCUTE.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "curse",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "nature-power",
+          "power-swap",
+          "psych-up",
+          "reflect",
+          "synthesis"
+        ],
+        "tutor": [
+          "ancient-power",
+          "gravity",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          },
+          {
+            "move": "bestow",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "telekinesis",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "giga-drain",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "natural-gift",
+          "nature-power",
+          "power-swap",
+          "skill-swap",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 47
+          },
+          {
+            "move": "bestow",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "telekinesis",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "giga-drain",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "natural-gift",
+          "nature-power",
+          "power-swap",
+          "skill-swap",
+          "synthesis"
+        ],
+        "tutor": [
+          "block",
+          "giga-drain",
+          "gravity",
+          "seed-bomb",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "C136",
+      "flavorText": "Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Azure Bay",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 24
+          },
+          {
+            "location": "Route 12",
+            "method": "Yellow Flowers",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 47
+          },
+          {
+            "move": "bestow",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "giga-drain",
+          "grassy-terrain",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "natural-gift",
+          "nature-power",
+          "power-swap",
+          "skill-swap",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 47
+          },
+          {
+            "move": "bestow",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "giga-drain",
+          "grassy-terrain",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "natural-gift",
+          "nature-power",
+          "power-swap",
+          "skill-swap",
+          "synthesis"
+        ],
+        "tutor": [
+          "block",
+          "giga-drain",
+          "gravity",
+          "seed-bomb",
+          "skill-swap",
+          "snore",
+          "synthesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "269",
+      "flavorText": "Six of them together form a full-fledged Pokémon. It’s often hunted by Crabrawler, but uses psychokinesis to drive it off.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ancient Poni Path",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 43
+          },
+          {
+            "location": "Exeggutor Island",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 43
+          },
+          {
+            "location": "Poni Wilds",
+            "method": "Walk",
+            "minLevel": 40,
+            "maxLevel": 43
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 47
+          },
+          {
+            "move": "bestow",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "giga-drain",
+          "grassy-terrain",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "natural-gift",
+          "nature-power",
+          "power-swap",
+          "skill-swap",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "355",
+      "flavorText": "Although they are the same size as other Exeggcute, the ones produced in Alola are quite heavy. Their shells are packed full.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/102.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/102.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Exeggutor Island",
+            "method": "Walk",
+            "minLevel": 42,
+            "maxLevel": 45
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "uproar",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 7
+          },
+          {
+            "move": "leech-seed",
+            "level": 11
+          },
+          {
+            "move": "bullet-seed",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 21
+          },
+          {
+            "move": "sleep-powder",
+            "level": 23
+          },
+          {
+            "move": "confusion",
+            "level": 27
+          },
+          {
+            "move": "worry-seed",
+            "level": 33
+          },
+          {
+            "move": "natural-gift",
+            "level": 37
+          },
+          {
+            "move": "solar-beam",
+            "level": 43
+          },
+          {
+            "move": "extrasensory",
+            "level": 47
+          },
+          {
+            "move": "bestow",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "giga-drain",
+          "grassy-terrain",
+          "ingrain",
+          "leaf-storm",
+          "lucky-chant",
+          "moonlight",
+          "natural-gift",
+          "nature-power",
+          "power-swap",
+          "skill-swap",
+          "synthesis"
+        ],
+        "tutor": [
+          "block",
+          "giga-drain",
+          "gravity",
+          "seed-bomb",
+          "skill-swap",
+          "snore",
+          "synthesis",
+          "telekinesis",
+          "uproar",
+          "worry-seed"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "102",
+      "flavorText": "The heads attract each other and spin around. There must be six heads for it to maintain balance.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "barrage",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 7
+          },
+          {
+            "move": "confusion",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "poison-powder",
+            "level": 18
+          },
+          {
+            "move": "sleep-powder",
+            "level": 20
+          },
+          {
+            "move": "psybeam",
+            "level": 27
+          },
+          {
+            "move": "leech-seed",
+            "level": 34
+          },
+          {
+            "move": "reflect",
+            "level": 41
+          },
+          {
+            "move": "solar-beam",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "dream-eater",
+          "facade",
+          "headbutt",
+          "light-screen",
+          "mega-drain",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "self-destruct",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "teleport",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "swsh": {
+      "dexNumber": "A205",
+      "flavorText": "These Pokémon get nervous when they’re not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "confusion",
+            "level": 20
+          },
+          {
+            "move": "synthesis",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 35
+          },
+          {
+            "move": "extrasensory",
+            "level": 40
+          },
+          {
+            "move": "uproar",
+            "level": 45
+          },
+          {
+            "move": "worry-seed",
+            "level": 50
+          },
+          {
+            "move": "solar-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-terrain",
+          "leaf-storm",
+          "light-screen",
+          "power-swap",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "round",
+          "seed-bomb",
+          "self-destruct",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "thief",
+          "trick-room",
+          "uproar"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "ingrain",
+          "moonlight",
+          "poison-powder",
+          "sleep-powder",
+          "stun-spore"
+        ],
+        "tutor": [
+          "grassy-glide"
+        ]
+      }
+    },
+    "bdsp": {
+      "dexNumber": "102",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/102.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Great Marsh (after obtaining National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "confusion",
+            "level": 20
+          },
+          {
+            "move": "synthesis",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 35
+          },
+          {
+            "move": "extrasensory",
+            "level": 40
+          },
+          {
+            "move": "uproar",
+            "level": 45
+          },
+          {
+            "move": "worry-seed",
+            "level": 50
+          },
+          {
+            "move": "solar-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "double-team",
+          "dream-eater",
+          "endure",
+          "energy-ball",
+          "explosion",
+          "facade",
+          "flash",
+          "giga-drain",
+          "grass-knot",
+          "light-screen",
+          "protect",
+          "psych-up",
+          "psychic",
+          "reflect",
+          "rest",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "trick-room"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "grassy-terrain",
+          "ingrain",
+          "leaf-storm",
+          "moonlight",
+          "nature-power",
+          "poison-powder",
+          "power-swap",
+          "sleep-powder",
+          "stun-spore",
+          "synthesis"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "B003",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/102.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Savanna Biome, Coastal Biome, Torchlit Labyrinth | Tera Raid Battles (1★ Exeggcute)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "hypnosis",
+            "level": 1
+          },
+          {
+            "move": "reflect",
+            "level": 5
+          },
+          {
+            "move": "leech-seed",
+            "level": 10
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "confusion",
+            "level": 20
+          },
+          {
+            "move": "synthesis",
+            "level": 25
+          },
+          {
+            "move": "bullet-seed",
+            "level": 30
+          },
+          {
+            "move": "giga-drain",
+            "level": 35
+          },
+          {
+            "move": "extrasensory",
+            "level": 40
+          },
+          {
+            "move": "uproar",
+            "level": 45
+          },
+          {
+            "move": "worry-seed",
+            "level": 50
+          },
+          {
+            "move": "solar-beam",
+            "level": 55
+          }
+        ],
+        "machine": [
+          "bullet-seed",
+          "curse",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "helping-hand",
+          "imprison",
+          "leaf-storm",
+          "light-screen",
+          "protect",
+          "psybeam",
+          "psych-up",
+          "psychic",
+          "psychic-noise",
+          "psyshock",
+          "reflect",
+          "rest",
+          "seed-bomb",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "stored-power",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "tera-blast",
+          "thief",
+          "trick",
+          "uproar",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "ancient-power",
+          "block",
+          "curse",
+          "ingrain",
+          "moonlight",
+          "poison-powder",
+          "sleep-powder",
+          "stun-spore"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

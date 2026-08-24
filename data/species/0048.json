@@ -1,0 +1,1934 @@
+{
+  "dex": 48,
+  "keyword": "venonat",
+  "name": "Venonat",
+  "japaneseName": {
+    "kana": "コンパン",
+    "romaji": "Kongpang"
+  },
+  "type1": "Bug",
+  "type2": "Poison",
+  "genus": "Insect Pokémon",
+  "heightM": 1.0,
+  "weightKg": 30.0,
+  "stats": {
+    "hp": 60,
+    "attack": 55,
+    "defense": 50,
+    "specialAttack": 40,
+    "specialDefense": 55,
+    "speed": 45
+  },
+  "abilities": [
+    {
+      "name": "compound-eyes",
+      "hidden": false,
+      "effect": "Increases moves' accuracy to 1.3×."
+    },
+    {
+      "name": "tinted-lens",
+      "hidden": false,
+      "effect": "Doubles damage inflicted with not-very-effective moves."
+    },
+    {
+      "name": "run-away",
+      "hidden": true,
+      "effect": "Ensures success fleeing from wild battles."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "bug"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "humanoid",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      49
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0048.png",
+    "shiny": "sprites/shiny/0048.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/48.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/48.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "48",
+      "flavorText": "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/48.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 34
+          },
+          {
+            "location": "Bond Bridge",
+            "method": "Walk",
+            "minLevel": 34,
+            "maxLevel": 34
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 28
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 16
+          },
+          {
+            "location": "Safari Zone Area 3 West",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Safari Zone Middle",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 9
+          },
+          {
+            "move": "supersonic",
+            "level": 11
+          },
+          {
+            "move": "confusion",
+            "level": 17
+          },
+          {
+            "move": "confusion",
+            "level": 19
+          },
+          {
+            "move": "poison-powder",
+            "level": 20
+          },
+          {
+            "move": "poison-powder",
+            "level": 22
+          },
+          {
+            "move": "poison-powder",
+            "level": 24
+          },
+          {
+            "move": "leech-life",
+            "level": 25
+          },
+          {
+            "move": "leech-life",
+            "level": 27
+          },
+          {
+            "move": "stun-spore",
+            "level": 28
+          },
+          {
+            "move": "stun-spore",
+            "level": 30
+          },
+          {
+            "move": "psybeam",
+            "level": 33
+          },
+          {
+            "move": "psybeam",
+            "level": 35
+          },
+          {
+            "move": "sleep-powder",
+            "level": 36
+          },
+          {
+            "move": "sleep-powder",
+            "level": 38
+          },
+          {
+            "move": "psychic",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 43
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "psychic",
+          "psywave",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "baton-pass",
+          "giga-drain",
+          "screech",
+          "signal-beam"
+        ],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "108",
+      "flavorText": "The small bugs it eats appear only at night, so it sleeps in a hole in a tree until night falls.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Ilex Forest",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 5
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Lake Of Rage",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "National Park",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 10",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 23,
+            "maxLevel": 23
+          },
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 43",
+            "method": "Headbutt Low",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 43",
+            "method": "Headbutt Normal",
+            "minLevel": 10,
+            "maxLevel": 10
+          },
+          {
+            "location": "Route 43",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 9
+          },
+          {
+            "move": "confusion",
+            "level": 17
+          },
+          {
+            "move": "poison-powder",
+            "level": 20
+          },
+          {
+            "move": "leech-life",
+            "level": 25
+          },
+          {
+            "move": "stun-spore",
+            "level": 28
+          },
+          {
+            "move": "psybeam",
+            "level": 33
+          },
+          {
+            "move": "sleep-powder",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "double-team",
+          "endure",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "swift",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "baton-pass",
+          "giga-drain",
+          "screech"
+        ],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection. Its large eyes never fail to spot even miniscule prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 9
+          },
+          {
+            "move": "confusion",
+            "level": 17
+          },
+          {
+            "move": "poison-powder",
+            "level": 20
+          },
+          {
+            "move": "leech-life",
+            "level": 25
+          },
+          {
+            "move": "stun-spore",
+            "level": 28
+          },
+          {
+            "move": "psybeam",
+            "level": 33
+          },
+          {
+            "move": "sleep-powder",
+            "level": 36
+          },
+          {
+            "move": "psychic",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "baton-pass",
+          "giga-drain",
+          "screech",
+          "signal-beam"
+        ],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "screech",
+          "signal-beam",
+          "toxic-spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "screech",
+          "signal-beam",
+          "toxic-spikes"
+        ],
+        "tutor": [
+          "signal-beam",
+          "snore",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "109",
+      "flavorText": "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 8,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 43",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 17
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "secret-power",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "screech",
+          "signal-beam",
+          "toxic-spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "signal-beam",
+          "snore",
+          "string-shot",
+          "swift",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "secret-power",
+          "signal-beam",
+          "skill-swap",
+          "toxic-spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "secret-power",
+          "signal-beam",
+          "skill-swap",
+          "toxic-spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "signal-beam",
+          "skill-swap",
+          "sleep-talk",
+          "snore",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "secret-power",
+          "signal-beam",
+          "skill-swap",
+          "toxic-spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "leech-life",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "psybeam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "signal-beam",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "secret-power",
+          "signal-beam",
+          "skill-swap",
+          "toxic-spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "signal-beam",
+          "skill-swap",
+          "snore",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "signal-beam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "leech-life",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "secret-power",
+          "signal-beam",
+          "skill-swap",
+          "toxic-spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/48.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/48.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "foresight",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "signal-beam",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "leech-life",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "infestation",
+          "leech-life",
+          "protect",
+          "psychic",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "giga-drain",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "secret-power",
+          "signal-beam",
+          "skill-swap",
+          "toxic-spikes"
+        ],
+        "tutor": [
+          "bug-bite",
+          "giga-drain",
+          "signal-beam",
+          "skill-swap",
+          "snore",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "48",
+      "flavorText": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "disable",
+            "level": 4
+          },
+          {
+            "move": "supersonic",
+            "level": 8
+          },
+          {
+            "move": "confusion",
+            "level": 12
+          },
+          {
+            "move": "poison-powder",
+            "level": 14
+          },
+          {
+            "move": "stun-spore",
+            "level": 16
+          },
+          {
+            "move": "psybeam",
+            "level": 20
+          },
+          {
+            "move": "sleep-powder",
+            "level": 24
+          },
+          {
+            "move": "leech-life",
+            "level": 28
+          },
+          {
+            "move": "psychic",
+            "level": 32
+          }
+        ],
+        "machine": [
+          "facade",
+          "headbutt",
+          "mega-drain",
+          "protect",
+          "psychic",
+          "reflect",
+          "rest",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "48",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/48.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 229 (Sinnoh) (Poké Radar) | Grand Underground - Spacious Cave, Grassland Cave, Swampy Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "struggle-bug",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "mega-drain",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "leech-life",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "giga-drain",
+          "protect",
+          "psychic",
+          "rest",
+          "skill-swap",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thief"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "toxic-spikes"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P256",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/48.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "East Province: Area One, Tagtree Thicket | Tera Raid Battles (1★ Venonat)",
+          "Savanna Biome"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "disable",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "supersonic",
+            "level": 5
+          },
+          {
+            "move": "confusion",
+            "level": 11
+          },
+          {
+            "move": "poison-powder",
+            "level": 13
+          },
+          {
+            "move": "psybeam",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "bug-buzz",
+            "level": 25
+          },
+          {
+            "move": "sleep-powder",
+            "level": 29
+          },
+          {
+            "move": "leech-life",
+            "level": 35
+          },
+          {
+            "move": "zen-headbutt",
+            "level": 37
+          },
+          {
+            "move": "poison-fang",
+            "level": 41
+          },
+          {
+            "move": "psychic",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "bug-buzz",
+          "confuse-ray",
+          "endeavor",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "leech-life",
+          "lunge",
+          "night-shade",
+          "pounce",
+          "protect",
+          "psybeam",
+          "psychic",
+          "psychic-noise",
+          "rest",
+          "skill-swap",
+          "skitter-smack",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "struggle-bug",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thief",
+          "toxic",
+          "toxic-spikes",
+          "venoshock",
+          "zen-headbutt"
+        ],
+        "egg": [
+          "agility",
+          "baton-pass",
+          "bug-bite",
+          "morning-sun",
+          "rage-powder",
+          "screech",
+          "toxic-spikes",
+          "venoshock"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

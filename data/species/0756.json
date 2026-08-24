@@ -1,0 +1,441 @@
+{
+  "dex": 756,
+  "keyword": "shiinotic",
+  "name": "Shiinotic",
+  "japaneseName": {
+    "kana": "マシェード",
+    "romaji": "Mashade"
+  },
+  "type1": "Grass",
+  "type2": "Fairy",
+  "genus": "Illuminating Pokémon",
+  "heightM": 1.0,
+  "weightKg": 11.5,
+  "stats": {
+    "hp": 60,
+    "attack": 45,
+    "defense": 80,
+    "specialAttack": 90,
+    "specialDefense": 100,
+    "speed": 30
+  },
+  "abilities": [
+    {
+      "name": "illuminate",
+      "hidden": false,
+      "effect": "Doubles the wild encounter rate."
+    },
+    {
+      "name": "effect-spore",
+      "hidden": false,
+      "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+    },
+    {
+      "name": "rain-dish",
+      "hidden": true,
+      "effect": "Heals for 1/16 max HP after each turn during rain."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 75,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "purple",
+    "shape": "humanoid",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 755,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0756.png",
+    "shiny": "sprites/shiny/0756.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/756.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "146",
+      "flavorText": "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/756.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/756.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "flash",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 4
+          },
+          {
+            "move": "flash",
+            "level": 8
+          },
+          {
+            "move": "moonlight",
+            "level": 11
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "ingrain",
+            "level": 22
+          },
+          {
+            "move": "confuse-ray",
+            "level": 26
+          },
+          {
+            "move": "giga-drain",
+            "level": 31
+          },
+          {
+            "move": "strength-sap",
+            "level": 35
+          },
+          {
+            "move": "spore",
+            "level": 40
+          },
+          {
+            "move": "moonblast",
+            "level": 44
+          },
+          {
+            "move": "dream-eater",
+            "level": 49
+          },
+          {
+            "move": "spotlight",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "swagger",
+          "thunder-wave",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "179",
+      "flavorText": "When it starts fighting for territory with Parasect, the entire area gets completely coated in spores!",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/756.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/756.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 11",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 29
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "flash",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 4
+          },
+          {
+            "move": "flash",
+            "level": 8
+          },
+          {
+            "move": "moonlight",
+            "level": 11
+          },
+          {
+            "move": "mega-drain",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "ingrain",
+            "level": 22
+          },
+          {
+            "move": "confuse-ray",
+            "level": 26
+          },
+          {
+            "move": "giga-drain",
+            "level": 31
+          },
+          {
+            "move": "strength-sap",
+            "level": 35
+          },
+          {
+            "move": "spore",
+            "level": 40
+          },
+          {
+            "move": "moonblast",
+            "level": 44
+          },
+          {
+            "move": "dream-eater",
+            "level": 49
+          },
+          {
+            "move": "spotlight",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "dazzling-gleam",
+          "double-team",
+          "dream-eater",
+          "energy-ball",
+          "frustration",
+          "giga-impact",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "nature-power",
+          "protect",
+          "rest",
+          "return",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "thunder-wave",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "after-you",
+          "giga-drain",
+          "magic-coat",
+          "magic-room",
+          "recycle",
+          "seed-bomb",
+          "signal-beam",
+          "snore",
+          "synthesis",
+          "wonder-room",
+          "worry-seed"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "341",
+      "flavorText": "If you see a light deep in a forest at night, don’t go near. Shiinotic will make you fall fast asleep.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "absorb",
+            "level": 1
+          },
+          {
+            "move": "astonish",
+            "level": 1
+          },
+          {
+            "move": "confuse-ray",
+            "level": 1
+          },
+          {
+            "move": "ingrain",
+            "level": 1
+          },
+          {
+            "move": "mega-drain",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 16
+          },
+          {
+            "move": "moonlight",
+            "level": 20
+          },
+          {
+            "move": "strength-sap",
+            "level": 27
+          },
+          {
+            "move": "giga-drain",
+            "level": 32
+          },
+          {
+            "move": "dazzling-gleam",
+            "level": 38
+          },
+          {
+            "move": "spore",
+            "level": 44
+          },
+          {
+            "move": "moonblast",
+            "level": 50
+          },
+          {
+            "move": "dream-eater",
+            "level": 56
+          }
+        ],
+        "machine": [
+          "amnesia",
+          "attract",
+          "dazzling-gleam",
+          "drain-punch",
+          "draining-kiss",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "giga-impact",
+          "grass-knot",
+          "hyper-beam",
+          "light-screen",
+          "magic-room",
+          "pollen-puff",
+          "protect",
+          "rain-dance",
+          "rest",
+          "round",
+          "safeguard",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "thunder-wave",
+          "weather-ball",
+          "wonder-room"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

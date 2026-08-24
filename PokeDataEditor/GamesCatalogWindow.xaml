@@ -1,0 +1,27 @@
+<Window x:Class="PokeDataEditor.GamesCatalogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage games" Height="600" Width="900" WindowStartupLocation="CenterOwner">
+    <DockPanel Margin="12">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="Add game" Click="AddGame_Click" Padding="8,4" Margin="0,0,6,0"/>
+            <Button Content="Remove selected" Click="RemoveGame_Click" Padding="8,4"/>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="Cancel" Click="Cancel_Click" Padding="16,6" Margin="0,0,8,0"/>
+            <Button Content="Save" Click="Save_Click" Padding="16,6" FontWeight="Bold"/>
+        </StackPanel>
+        <DataGrid x:Name="GamesGrid" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="140"/>
+                <DataGridTextColumn Header="Display name" Binding="{Binding DisplayName}" Width="240"/>
+                <DataGridTextColumn Header="Release order" Binding="{Binding ReleaseOrder}" Width="90"/>
+                <DataGridTextColumn Header="Generation" Binding="{Binding Generation}" Width="80"/>
+                <DataGridTextColumn Header="Release date" Binding="{Binding ReleaseDate}" Width="100"/>
+                <DataGridTextColumn Header="Region" Binding="{Binding Region}" Width="140"/>
+                <DataGridTextColumn Header="Encounter source" Binding="{Binding EncounterDataSource}" Width="120"/>
+                <DataGridTextColumn Header="Notes" Binding="{Binding Notes}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>

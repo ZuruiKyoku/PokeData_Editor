@@ -1,0 +1,660 @@
+{
+  "dex": 745,
+  "keyword": "lycanroc",
+  "name": "Lycanroc",
+  "japaneseName": {
+    "kana": "ルガルガン",
+    "romaji": "Lugarugan"
+  },
+  "type1": "Rock",
+  "type2": null,
+  "genus": "Wolf Pokémon",
+  "heightM": 0.8,
+  "weightKg": 25.0,
+  "stats": {
+    "hp": 75,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 55,
+    "specialDefense": 65,
+    "speed": 112
+  },
+  "abilities": [
+    {
+      "name": "keen-eye",
+      "hidden": false,
+      "effect": "Prevents accuracy from being lowered."
+    },
+    {
+      "name": "sand-rush",
+      "hidden": false,
+      "effect": "Doubles Speed during a sandstorm.  Protects against sandstorm damage."
+    },
+    {
+      "name": "steadfast",
+      "hidden": true,
+      "effect": "Raises Speed one stage upon flinching."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 90,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 7
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 744,
+    "evolvesIntoDex": []
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0745.png",
+    "shiny": "sprites/shiny/0745.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/745.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-alola": {
+      "dexNumber": "104",
+      "flavorText": "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/745.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/745.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Vast Poni Canyon Outside",
+            "method": "Walk",
+            "minLevel": 41,
+            "maxLevel": 44
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "accelerock",
+            "level": 0
+          },
+          {
+            "move": "accelerock",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "quick-guard",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 15
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 18
+          },
+          {
+            "move": "rock-tomb",
+            "level": 23
+          },
+          {
+            "move": "roar",
+            "level": 26
+          },
+          {
+            "move": "stealth-rock",
+            "level": 29
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "crunch",
+            "level": 40
+          },
+          {
+            "move": "rock-climb",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "stone-edge",
+          "substitute",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "127",
+      "flavorText": "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/745.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/745.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Vast Poni Canyon Outside",
+            "method": "Walk",
+            "minLevel": 43,
+            "maxLevel": 46
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "accelerock",
+            "level": 0
+          },
+          {
+            "move": "accelerock",
+            "level": 1
+          },
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "quick-guard",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 4
+          },
+          {
+            "move": "bite",
+            "level": 7
+          },
+          {
+            "move": "howl",
+            "level": 12
+          },
+          {
+            "move": "rock-throw",
+            "level": 15
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 18
+          },
+          {
+            "move": "rock-tomb",
+            "level": 23
+          },
+          {
+            "move": "roar",
+            "level": 26
+          },
+          {
+            "move": "stealth-rock",
+            "level": 29
+          },
+          {
+            "move": "rock-slide",
+            "level": 34
+          },
+          {
+            "move": "scary-face",
+            "level": 37
+          },
+          {
+            "move": "crunch",
+            "level": 40
+          },
+          {
+            "move": "rock-climb",
+            "level": 45
+          },
+          {
+            "move": "stone-edge",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "roar",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "snarl",
+          "stone-edge",
+          "substitute",
+          "swagger",
+          "swords-dance",
+          "taunt",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "covet",
+          "drill-run",
+          "earth-power",
+          "endeavor",
+          "hyper-voice",
+          "iron-defense",
+          "iron-head",
+          "iron-tail",
+          "last-resort",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "zen-headbutt"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "A158",
+      "flavorText": "With swift movements, this Pokémon gradually backs its prey into a corner. Lycanroc’s fangs are always aimed toward opponents’ weak spots.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sucker-punch",
+            "level": 0
+          },
+          {
+            "move": "accelerock",
+            "level": 1
+          },
+          {
+            "move": "double-team",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "quick-guard",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "sucker-punch",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "howl",
+            "level": 16
+          },
+          {
+            "move": "bite",
+            "level": 20
+          },
+          {
+            "move": "rock-tomb",
+            "level": 24
+          },
+          {
+            "move": "roar",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 42
+          },
+          {
+            "move": "scary-face",
+            "level": 48
+          },
+          {
+            "move": "stealth-rock",
+            "level": 54
+          },
+          {
+            "move": "stone-edge",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "agility",
+          "assurance",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "close-combat",
+          "crunch",
+          "drill-run",
+          "earth-power",
+          "endure",
+          "facade",
+          "fire-fang",
+          "giga-impact",
+          "hyper-voice",
+          "iron-defense",
+          "iron-head",
+          "iron-tail",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rest",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sandstorm",
+          "scary-face",
+          "sleep-talk",
+          "snarl",
+          "snore",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "swift",
+          "swords-dance",
+          "tail-slap",
+          "taunt",
+          "thunder-fang",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P090",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/745.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area Six (Midday/Midnight Forms) | North Province: Dalizapa Passage, Glaseado Mountain (Midday/Midnight Forms) | North Province: Area One (Midday/Midnight/Dusk Forms) | Area Zero (Midday/Midnight Forms) | Tera Raid Battles (4★ Lycanroc - Midday Form) (Midday Form) | Tera Raid Battles (4★ Lycanroc - Midnight Form) (Midnight Form) | Tera Raid Battles (6★ Lycanroc - Dusk Form) (Dusk Form)",
+          "Fellhorn Gorge, Oni Mountain, Kitakami Wilds (Midday/Midnight Forms)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "sucker-punch",
+            "level": 0
+          },
+          {
+            "move": "accelerock",
+            "level": 1
+          },
+          {
+            "move": "double-team",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 1
+          },
+          {
+            "move": "quick-guard",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "rock-throw",
+            "level": 12
+          },
+          {
+            "move": "howl",
+            "level": 16
+          },
+          {
+            "move": "bite",
+            "level": 20
+          },
+          {
+            "move": "rock-tomb",
+            "level": 24
+          },
+          {
+            "move": "roar",
+            "level": 30
+          },
+          {
+            "move": "rock-slide",
+            "level": 36
+          },
+          {
+            "move": "crunch",
+            "level": 42
+          },
+          {
+            "move": "scary-face",
+            "level": 48
+          },
+          {
+            "move": "stealth-rock",
+            "level": 54
+          },
+          {
+            "move": "stone-edge",
+            "level": 60
+          }
+        ],
+        "machine": [
+          "agility",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "charm",
+          "close-combat",
+          "crunch",
+          "dig",
+          "double-edge",
+          "drill-run",
+          "earth-power",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-fang",
+          "giga-impact",
+          "helping-hand",
+          "hyper-voice",
+          "iron-defense",
+          "iron-head",
+          "mud-slap",
+          "play-rough",
+          "protect",
+          "psychic-fangs",
+          "rest",
+          "roar",
+          "rock-blast",
+          "rock-slide",
+          "rock-tomb",
+          "sandstorm",
+          "scary-face",
+          "sleep-talk",
+          "snarl",
+          "stealth-rock",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thunder-fang",
+          "trailblaze",
+          "zen-headbutt"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

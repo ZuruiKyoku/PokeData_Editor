@@ -1,0 +1,2358 @@
+{
+  "dex": 56,
+  "keyword": "mankey",
+  "name": "Mankey",
+  "japaneseName": {
+    "kana": "マンキー",
+    "romaji": "Mankey"
+  },
+  "type1": "Fighting",
+  "type2": null,
+  "genus": "Pig Monkey Pokémon",
+  "heightM": 0.5,
+  "weightKg": 28.0,
+  "stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 35,
+    "specialAttack": 35,
+    "specialDefense": 45,
+    "speed": 70
+  },
+  "abilities": [
+    {
+      "name": "vital-spirit",
+      "hidden": false,
+      "effect": "Prevents sleep."
+    },
+    {
+      "name": "anger-point",
+      "hidden": false,
+      "effect": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+    },
+    {
+      "name": "defiant",
+      "hidden": true,
+      "effect": "Raises Attack two stages upon having any stat lowered."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "upright",
+    "habitat": "mountain",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      57
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0056.png",
+    "shiny": "sprites/shiny/0056.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/56.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/56.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "56",
+      "flavorText": "Extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/56.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Rock Tunnel 1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Rock Tunnel B1f",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 17
+          },
+          {
+            "location": "Route 22",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 23",
+            "method": "Walk",
+            "minLevel": 32,
+            "maxLevel": 41
+          },
+          {
+            "location": "Route 3",
+            "method": "Walk",
+            "minLevel": 7,
+            "maxLevel": 9
+          },
+          {
+            "location": "Route 4",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 5",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 6",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 16
+          },
+          {
+            "location": "Route 7",
+            "method": "Walk",
+            "minLevel": 17,
+            "maxLevel": 20
+          },
+          {
+            "location": "Route 8",
+            "method": "Walk",
+            "minLevel": 18,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 6
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 11
+          },
+          {
+            "move": "karate-chop",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "focus-energy",
+            "level": 21
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "seismic-toss",
+            "level": 26
+          },
+          {
+            "move": "focus-energy",
+            "level": 27
+          },
+          {
+            "move": "cross-chop",
+            "level": 31
+          },
+          {
+            "move": "seismic-toss",
+            "level": 33
+          },
+          {
+            "move": "swagger",
+            "level": 36
+          },
+          {
+            "move": "thrash",
+            "level": 39
+          },
+          {
+            "move": "screech",
+            "level": 41
+          },
+          {
+            "move": "screech",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 46
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "bide",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "counter",
+          "dig",
+          "double-edge",
+          "double-team",
+          "earthquake",
+          "facade",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "overheat",
+          "pay-day",
+          "protect",
+          "rage",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "seismic-toss",
+          "skull-bash",
+          "strength",
+          "submission",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "beat-up",
+          "counter",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "double-edge",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "rock-slide",
+          "seismic-toss",
+          "substitute"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "134",
+      "flavorText": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 42",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "focus-energy",
+            "level": 27
+          },
+          {
+            "move": "seismic-toss",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 39
+          },
+          {
+            "move": "screech",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "detect",
+          "dig",
+          "double-team",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "ice-punch",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "psych-up",
+          "rest",
+          "return",
+          "rock-smash",
+          "sleep-talk",
+          "snore",
+          "strength",
+          "sunny-day",
+          "swagger",
+          "swift",
+          "thief",
+          "thunder",
+          "thunder-punch",
+          "toxic"
+        ],
+        "egg": [
+          "beat-up",
+          "counter",
+          "foresight",
+          "meditate",
+          "reversal",
+          "rock-slide"
+        ],
+        "tutor": [
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "When it starts shaking and its nasal breathing turns rough, it’s a sure sign of anger. However, since this happens instantly, there is no time to flee.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 15
+          },
+          {
+            "move": "fury-swipes",
+            "level": 21
+          },
+          {
+            "move": "focus-energy",
+            "level": 27
+          },
+          {
+            "move": "seismic-toss",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 39
+          },
+          {
+            "move": "screech",
+            "level": 45
+          },
+          {
+            "move": "thrash",
+            "level": 51
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "overheat",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "strength",
+          "sunny-day",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "beat-up",
+          "counter",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "dynamic-punch",
+          "endure",
+          "fire-punch",
+          "ice-punch",
+          "mega-kick",
+          "mega-punch",
+          "metronome",
+          "mimic",
+          "mud-slap",
+          "psych-up",
+          "rock-slide",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-punch"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 225",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          },
+          {
+            "location": "Sea Route 226",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "smelling-salts"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 225",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          },
+          {
+            "location": "Sea Route 226",
+            "method": "Walk",
+            "minLevel": 47,
+            "maxLevel": 47
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "endeavor",
+          "fire-punch",
+          "gunk-shot",
+          "helping-hand",
+          "ice-punch",
+          "mud-slap",
+          "outrage",
+          "seed-bomb",
+          "spite",
+          "swift",
+          "thunder-punch",
+          "uproar",
+          "vacuum-wave"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "136",
+      "flavorText": "It’s unsafe to approach if it gets violently enraged for no reason and can’t distinguish friends from foes.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 42",
+            "method": "Walk",
+            "minLevel": 15,
+            "maxLevel": 15
+          },
+          {
+            "location": "Route 9",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 13
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "captivate",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "natural-gift",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "secret-power",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "rock-slide",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "endeavor",
+          "fire-punch",
+          "gunk-shot",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "low-kick",
+          "mud-slap",
+          "outrage",
+          "role-play",
+          "seed-bomb",
+          "spite",
+          "swift",
+          "thunder-punch",
+          "uproar",
+          "vacuum-wave"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          },
+          {
+            "move": "final-gambit",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "focus-punch",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "sleep-talk",
+          "smelling-salts"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          },
+          {
+            "move": "final-gambit",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "focus-punch",
+          "foresight",
+          "meditate",
+          "revenge",
+          "reversal",
+          "sleep-talk",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "covet",
+          "dual-chop",
+          "endeavor",
+          "fire-punch",
+          "gunk-shot",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "low-kick",
+          "outrage",
+          "role-play",
+          "seed-bomb",
+          "sleep-talk",
+          "spite",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": null,
+      "flavorText": "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          },
+          {
+            "move": "final-gambit",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "focus-punch",
+          "foresight",
+          "meditate",
+          "night-slash",
+          "revenge",
+          "reversal",
+          "sleep-talk",
+          "smelling-salts"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "When Mankey starts shaking and its nasal breathing turns rough, it’s a sure sign that it is becoming angry. However, because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 9
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "seismic-toss",
+            "level": 17
+          },
+          {
+            "move": "screech",
+            "level": 21
+          },
+          {
+            "move": "assurance",
+            "level": 25
+          },
+          {
+            "move": "swagger",
+            "level": 33
+          },
+          {
+            "move": "cross-chop",
+            "level": 37
+          },
+          {
+            "move": "thrash",
+            "level": 41
+          },
+          {
+            "move": "punishment",
+            "level": 45
+          },
+          {
+            "move": "close-combat",
+            "level": 49
+          },
+          {
+            "move": "final-gambit",
+            "level": 53
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "dig",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "hone-claws",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "power-up-punch",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "smack-down",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "focus-punch",
+          "foresight",
+          "meditate",
+          "night-slash",
+          "revenge",
+          "reversal",
+          "sleep-talk",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "covet",
+          "dual-chop",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gunk-shot",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "low-kick",
+          "outrage",
+          "role-play",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "79",
+      "flavorText": "Its raging tires it out and causes it to fall asleep, but the anger resonating in its dreams causes it to wake up—which infuriates it all over again.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3 North",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 3 South",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 5
+          },
+          {
+            "move": "karate-chop",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "seismic-toss",
+            "level": 15
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "cross-chop",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "punishment",
+            "level": 29
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "close-combat",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 43
+          },
+          {
+            "move": "outrage",
+            "level": 47
+          },
+          {
+            "move": "final-gambit",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "focus-punch",
+          "foresight",
+          "meditate",
+          "night-slash",
+          "power-trip",
+          "revenge",
+          "reversal",
+          "sleep-talk",
+          "smelling-salts"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "93",
+      "flavorText": "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/56.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/56.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 3 North",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 3 South",
+            "method": "Walk",
+            "minLevel": 9,
+            "maxLevel": 12
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 5
+          },
+          {
+            "move": "karate-chop",
+            "level": 8
+          },
+          {
+            "move": "pursuit",
+            "level": 12
+          },
+          {
+            "move": "seismic-toss",
+            "level": 15
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "cross-chop",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "punishment",
+            "level": 29
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "close-combat",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 43
+          },
+          {
+            "move": "outrage",
+            "level": 47
+          },
+          {
+            "move": "final-gambit",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "confide",
+          "double-team",
+          "earthquake",
+          "facade",
+          "fling",
+          "focus-blast",
+          "frustration",
+          "hidden-power",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "sleep-talk",
+          "smack-down",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "focus-punch",
+          "foresight",
+          "meditate",
+          "night-slash",
+          "power-trip",
+          "revenge",
+          "reversal",
+          "sleep-talk",
+          "smelling-salts"
+        ],
+        "tutor": [
+          "covet",
+          "dual-chop",
+          "endeavor",
+          "fire-punch",
+          "focus-punch",
+          "gunk-shot",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "low-kick",
+          "outrage",
+          "role-play",
+          "seed-bomb",
+          "snore",
+          "spite",
+          "stomping-tantrum",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "56",
+      "flavorText": "An agile Pokémon that lives in trees. It angers easily and will not hesitate to attack anything.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 5
+          },
+          {
+            "move": "taunt",
+            "level": 8
+          },
+          {
+            "move": "karate-chop",
+            "level": 13
+          },
+          {
+            "move": "fury-swipes",
+            "level": 16
+          },
+          {
+            "move": "low-kick",
+            "level": 21
+          },
+          {
+            "move": "seismic-toss",
+            "level": 24
+          },
+          {
+            "move": "u-turn",
+            "level": 29
+          },
+          {
+            "move": "screech",
+            "level": 32
+          },
+          {
+            "move": "thrash",
+            "level": 37
+          },
+          {
+            "move": "outrage",
+            "level": 40
+          }
+        ],
+        "machine": [
+          "brick-break",
+          "bulk-up",
+          "dig",
+          "earthquake",
+          "facade",
+          "fire-punch",
+          "headbutt",
+          "helping-hand",
+          "ice-punch",
+          "iron-tail",
+          "outrage",
+          "pay-day",
+          "poison-jab",
+          "protect",
+          "rest",
+          "rock-slide",
+          "seismic-toss",
+          "substitute",
+          "taunt",
+          "thunder",
+          "thunder-punch",
+          "thunderbolt",
+          "toxic",
+          "u-turn"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "56",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/56.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes and (Poké Radar) | Grand Underground - Spacious Cave, Grassland Cave, Sunlit Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "low-kick",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 5
+          },
+          {
+            "move": "mud-slap",
+            "level": 8
+          },
+          {
+            "move": "seismic-toss",
+            "level": 12
+          },
+          {
+            "move": "retaliate",
+            "level": 15
+          },
+          {
+            "move": "swagger",
+            "level": 19
+          },
+          {
+            "move": "cross-chop",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "skull-bash",
+            "level": 29
+          },
+          {
+            "move": "thrash",
+            "level": 33
+          },
+          {
+            "move": "close-combat",
+            "level": 36
+          },
+          {
+            "move": "screech",
+            "level": 40
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 43
+          },
+          {
+            "move": "outrage",
+            "level": 47
+          },
+          {
+            "move": "final-gambit",
+            "level": 50
+          }
+        ],
+        "machine": [
+          "aerial-ace",
+          "attract",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "dig",
+          "double-team",
+          "earthquake",
+          "endure",
+          "facade",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "iron-tail",
+          "low-sweep",
+          "overheat",
+          "payback",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-climb",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "sleep-talk",
+          "strength",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "taunt",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "u-turn",
+          "work-up"
+        ],
+        "egg": [
+          "beat-up",
+          "close-combat",
+          "counter",
+          "encore",
+          "night-slash",
+          "revenge",
+          "reversal"
+        ],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P158",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/56.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Five | West Province: Area One | Tera Raid Battles (2★ Mankey)",
+          "Kitakami Road, Apple Hills, Oni Mountain, Wistful Fields, Paradise Barrens, Kitakami Wilds, Timeless Woods"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "covet",
+            "level": 1
+          },
+          {
+            "move": "focus-energy",
+            "level": 1
+          },
+          {
+            "move": "leer",
+            "level": 1
+          },
+          {
+            "move": "scratch",
+            "level": 1
+          },
+          {
+            "move": "fury-swipes",
+            "level": 5
+          },
+          {
+            "move": "low-kick",
+            "level": 8
+          },
+          {
+            "move": "seismic-toss",
+            "level": 12
+          },
+          {
+            "move": "swagger",
+            "level": 17
+          },
+          {
+            "move": "cross-chop",
+            "level": 22
+          },
+          {
+            "move": "assurance",
+            "level": 26
+          },
+          {
+            "move": "thrash",
+            "level": 29
+          },
+          {
+            "move": "close-combat",
+            "level": 33
+          },
+          {
+            "move": "screech",
+            "level": 36
+          },
+          {
+            "move": "stomping-tantrum",
+            "level": 40
+          },
+          {
+            "move": "outrage",
+            "level": 44
+          },
+          {
+            "move": "final-gambit",
+            "level": 48
+          }
+        ],
+        "machine": [
+          "acrobatics",
+          "body-slam",
+          "brick-break",
+          "bulk-up",
+          "bulldoze",
+          "close-combat",
+          "curse",
+          "dig",
+          "double-edge",
+          "drain-punch",
+          "earthquake",
+          "encore",
+          "endeavor",
+          "endure",
+          "facade",
+          "fire-punch",
+          "fling",
+          "focus-blast",
+          "focus-punch",
+          "gunk-shot",
+          "helping-hand",
+          "ice-punch",
+          "lash-out",
+          "low-kick",
+          "low-sweep",
+          "metronome",
+          "outrage",
+          "overheat",
+          "poison-jab",
+          "protect",
+          "rain-dance",
+          "rest",
+          "reversal",
+          "rock-slide",
+          "rock-tomb",
+          "scary-face",
+          "seed-bomb",
+          "shadow-claw",
+          "sleep-talk",
+          "spite",
+          "stomping-tantrum",
+          "stone-edge",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "take-down",
+          "taunt",
+          "tera-blast",
+          "thief",
+          "throat-chop",
+          "thunder-punch",
+          "thunderbolt",
+          "u-turn",
+          "uproar"
+        ],
+        "egg": [
+          "beat-up",
+          "counter",
+          "curse",
+          "encore",
+          "night-slash",
+          "spite"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "H001",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Hyperspace Lumiose"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

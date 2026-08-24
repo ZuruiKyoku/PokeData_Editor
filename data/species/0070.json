@@ -1,0 +1,1921 @@
+{
+  "dex": 70,
+  "keyword": "weepinbell",
+  "name": "Weepinbell",
+  "japaneseName": {
+    "kana": "ウツドン",
+    "romaji": "Utsudon"
+  },
+  "type1": "Grass",
+  "type2": "Poison",
+  "genus": "Flycatcher Pokémon",
+  "heightM": 1.0,
+  "weightKg": 6.4,
+  "stats": {
+    "hp": 65,
+    "attack": 90,
+    "defense": 50,
+    "specialAttack": 85,
+    "specialDefense": 45,
+    "speed": 55
+  },
+  "abilities": [
+    {
+      "name": "chlorophyll",
+      "hidden": false,
+      "effect": "Doubles Speed during strong sunlight."
+    },
+    {
+      "name": "gluttony",
+      "hidden": true,
+      "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "plant"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 120,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "green",
+    "shape": "blob",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": 69,
+    "evolvesIntoDex": [
+      71
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0070.png",
+    "shiny": "sprites/shiny/0070.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/70.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/70.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kanto": {
+      "dexNumber": "70",
+      "flavorText": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/70.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Berry Forest",
+            "method": "Walk",
+            "minLevel": 35,
+            "maxLevel": 35
+          },
+          {
+            "location": "Bond Bridge",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 36
+          },
+          {
+            "location": "Cape Brink",
+            "method": "Walk",
+            "minLevel": 36,
+            "maxLevel": 38
+          },
+          {
+            "location": "Cerulean Cave 1f",
+            "method": "Walk",
+            "minLevel": 55,
+            "maxLevel": 55
+          },
+          {
+            "location": "Cerulean Cave 2f",
+            "method": "Walk",
+            "minLevel": 58,
+            "maxLevel": 58
+          },
+          {
+            "location": "Route 12",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 13",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 30,
+            "maxLevel": 30
+          },
+          {
+            "location": "Route 15",
+            "method": "Walk",
+            "minLevel": 28,
+            "maxLevel": 30
+          },
+          {
+            "location": "Water Path",
+            "method": "Walk",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "wrap",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 17
+          },
+          {
+            "move": "sleep-powder",
+            "level": 18
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "stun-spore",
+            "level": 23
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "acid",
+            "level": 29
+          },
+          {
+            "move": "sweet-scent",
+            "level": 33
+          },
+          {
+            "move": "razor-leaf",
+            "level": 38
+          },
+          {
+            "move": "razor-leaf",
+            "level": 42
+          },
+          {
+            "move": "slam",
+            "level": 49
+          },
+          {
+            "move": "slam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bide",
+          "bullet-seed",
+          "cut",
+          "double-edge",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "mega-drain",
+          "mimic",
+          "protect",
+          "rage",
+          "reflect",
+          "rest",
+          "return",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swords-dance",
+          "take-down",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "mimic",
+          "substitute",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-johto": {
+      "dexNumber": "65",
+      "flavorText": "When it's hungry, it swings its razor-sharp leaves, slicing up any unlucky object nearby for food.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 44",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "sweet-scent",
+            "level": 33
+          },
+          {
+            "move": "razor-leaf",
+            "level": 42
+          },
+          {
+            "move": "slam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "cut",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "sleep-talk",
+          "sludge-bomb",
+          "snore",
+          "solar-beam",
+          "sunny-day",
+          "swagger",
+          "sweet-scent",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "hoenn": {
+      "dexNumber": null,
+      "flavorText": "At night, a WEEPINBELL hangs on to a tree branch with its hooked rear and sleeps. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 6
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 15
+          },
+          {
+            "move": "poison-powder",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 19
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "sweet-scent",
+            "level": 33
+          },
+          {
+            "move": "razor-leaf",
+            "level": 42
+          },
+          {
+            "move": "slam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "hidden-power",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sludge-bomb",
+          "solar-beam",
+          "sunny-day",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "double-edge",
+          "endure",
+          "mimic",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swords-dance"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 53,
+            "maxLevel": 53
+          },
+          {
+            "location": "Route 229",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 52
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Walk",
+            "minLevel": 50,
+            "maxLevel": 50
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 224",
+            "method": "Walk",
+            "minLevel": 51,
+            "maxLevel": 51
+          },
+          {
+            "location": "Sea Route 230",
+            "method": "Walk",
+            "minLevel": 49,
+            "maxLevel": 49
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "gastro-acid",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "sucker-punch",
+          "synthesis"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "65",
+      "flavorText": "If its prey is bigger than its mouth, it slices up the victim with sharp leaves, then eats every morsel.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 24",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 25",
+            "method": "Walk",
+            "minLevel": 10,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 44",
+            "method": "Walk",
+            "minLevel": 22,
+            "maxLevel": 24
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "captivate",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "giga-drain",
+          "grass-knot",
+          "hidden-power",
+          "natural-gift",
+          "protect",
+          "rest",
+          "return",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": [
+          "gastro-acid",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "sucker-punch",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "bug-bite",
+          "gastro-acid",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "M27",
+      "flavorText": "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 14",
+            "method": "Walk",
+            "minLevel": 31,
+            "maxLevel": 32
+          },
+          {
+            "location": "Route 16",
+            "method": "Yellow Flowers",
+            "minLevel": 35,
+            "maxLevel": 36
+          },
+          {
+            "location": "Route 19",
+            "method": "Purple Flowers",
+            "minLevel": 46,
+            "maxLevel": 47
+          },
+          {
+            "location": "Route 19",
+            "method": "Yellow Flowers",
+            "minLevel": 48,
+            "maxLevel": 48
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 23
+          },
+          {
+            "move": "knock-off",
+            "level": 27
+          },
+          {
+            "move": "sweet-scent",
+            "level": 29
+          },
+          {
+            "move": "gastro-acid",
+            "level": 35
+          },
+          {
+            "move": "razor-leaf",
+            "level": 39
+          },
+          {
+            "move": "slam",
+            "level": 41
+          },
+          {
+            "move": "wring-out",
+            "level": 47
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "cut",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "flash",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "gastro-acid",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "sweet-scent",
+            "level": 32
+          },
+          {
+            "move": "gastro-acid",
+            "level": 39
+          },
+          {
+            "move": "razor-leaf",
+            "level": 44
+          },
+          {
+            "move": "poison-jab",
+            "level": 47
+          },
+          {
+            "move": "slam",
+            "level": 54
+          },
+          {
+            "move": "wring-out",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/70.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/70.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "sweet-scent",
+            "level": 32
+          },
+          {
+            "move": "gastro-acid",
+            "level": 39
+          },
+          {
+            "move": "razor-leaf",
+            "level": 44
+          },
+          {
+            "move": "poison-jab",
+            "level": 47
+          },
+          {
+            "move": "slam",
+            "level": 54
+          },
+          {
+            "move": "wring-out",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "attract",
+          "confide",
+          "double-team",
+          "energy-ball",
+          "facade",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "infestation",
+          "nature-power",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief",
+          "toxic",
+          "venoshock"
+        ],
+        "egg": [],
+        "tutor": [
+          "bind",
+          "gastro-acid",
+          "giga-drain",
+          "knock-off",
+          "seed-bomb",
+          "snore",
+          "synthesis",
+          "worry-seed"
+        ]
+      }
+    },
+    "letsgo-kanto": {
+      "dexNumber": "70",
+      "flavorText": "When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "acid",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 4
+          },
+          {
+            "move": "wrap",
+            "level": 8
+          },
+          {
+            "move": "acid",
+            "level": 12
+          },
+          {
+            "move": "sleep-powder",
+            "level": 16
+          },
+          {
+            "move": "poison-powder",
+            "level": 17
+          },
+          {
+            "move": "stun-spore",
+            "level": 18
+          },
+          {
+            "move": "razor-leaf",
+            "level": 27
+          },
+          {
+            "move": "poison-jab",
+            "level": 36
+          },
+          {
+            "move": "slam",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "facade",
+          "headbutt",
+          "mega-drain",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "toxic"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "70",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/70.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Routes , , and | Grand Underground - Grassland Cave, Swampy Cave, Riverbank Cave, Still-Water Cavern, Sunlit Cavern, Bogsunk Cavern (After obtaining the National Pokédex)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "growth",
+            "level": 7
+          },
+          {
+            "move": "wrap",
+            "level": 11
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "sweet-scent",
+            "level": 32
+          },
+          {
+            "move": "gastro-acid",
+            "level": 39
+          },
+          {
+            "move": "razor-leaf",
+            "level": 44
+          },
+          {
+            "move": "poison-jab",
+            "level": 47
+          },
+          {
+            "move": "slam",
+            "level": 54
+          }
+        ],
+        "machine": [
+          "attract",
+          "bullet-seed",
+          "cut",
+          "double-team",
+          "endure",
+          "energy-ball",
+          "facade",
+          "flash",
+          "giga-drain",
+          "grass-knot",
+          "poison-jab",
+          "protect",
+          "reflect",
+          "rest",
+          "sleep-talk",
+          "sludge-bomb",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swagger",
+          "swords-dance",
+          "thief"
+        ],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "K024",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/70.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Mossfell Confluence | Tera Raid Battles (3★ Weepinbell)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growth",
+            "level": 1
+          },
+          {
+            "move": "vine-whip",
+            "level": 1
+          },
+          {
+            "move": "wrap",
+            "level": 1
+          },
+          {
+            "move": "sleep-powder",
+            "level": 13
+          },
+          {
+            "move": "poison-powder",
+            "level": 15
+          },
+          {
+            "move": "stun-spore",
+            "level": 17
+          },
+          {
+            "move": "acid",
+            "level": 24
+          },
+          {
+            "move": "knock-off",
+            "level": 29
+          },
+          {
+            "move": "sweet-scent",
+            "level": 32
+          },
+          {
+            "move": "gastro-acid",
+            "level": 39
+          },
+          {
+            "move": "razor-leaf",
+            "level": 44
+          },
+          {
+            "move": "poison-jab",
+            "level": 47
+          },
+          {
+            "move": "slam",
+            "level": 54
+          },
+          {
+            "move": "power-whip",
+            "level": 58
+          }
+        ],
+        "machine": [
+          "acid-spray",
+          "body-slam",
+          "bug-bite",
+          "bullet-seed",
+          "encore",
+          "endure",
+          "energy-ball",
+          "facade",
+          "giga-drain",
+          "grass-knot",
+          "grassy-glide",
+          "grassy-terrain",
+          "knock-off",
+          "leaf-storm",
+          "leech-life",
+          "lunge",
+          "magical-leaf",
+          "poison-jab",
+          "pounce",
+          "protect",
+          "reflect",
+          "rest",
+          "seed-bomb",
+          "sleep-talk",
+          "sludge-bomb",
+          "sludge-wave",
+          "solar-beam",
+          "substitute",
+          "sunny-day",
+          "swift",
+          "swords-dance",
+          "tera-blast",
+          "thief",
+          "toxic",
+          "trailblaze",
+          "venoshock",
+          "weather-ball"
+        ],
+        "egg": [
+          "clear-smog",
+          "ingrain",
+          "strength-sap",
+          "sucker-punch",
+          "synthesis",
+          "tickle",
+          "worry-seed"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "75",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Rouge District: Wild Zone 13",
+          "Hyperspace Lumiose (3★ & 4★ Grass-type & Poison-type wild zones, 5★ Hyperspace wild zones via special scan (requires special scan))"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

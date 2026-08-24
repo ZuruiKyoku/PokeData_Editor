@@ -1,0 +1,1794 @@
+{
+  "dex": 263,
+  "keyword": "zigzagoon",
+  "name": "Zigzagoon",
+  "japaneseName": {
+    "kana": "ジグザグマ",
+    "romaji": "Jiguzaguma"
+  },
+  "type1": "Normal",
+  "type2": null,
+  "genus": "Tiny Raccoon Pokémon",
+  "heightM": 0.4,
+  "weightKg": 17.5,
+  "stats": {
+    "hp": 38,
+    "attack": 30,
+    "defense": 41,
+    "specialAttack": 30,
+    "specialDefense": 41,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "pickup",
+      "hidden": false,
+      "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+    },
+    {
+      "name": "gluttony",
+      "hidden": false,
+      "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+    },
+    {
+      "name": "quick-feet",
+      "hidden": true,
+      "effect": "Increases Speed to 1.5× with a major status ailment."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "ground"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 15,
+    "captureRate": 255,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "brown",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 3
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      264
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0263.png",
+    "shiny": "sprites/shiny/0263.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/263.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/263.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "hoenn": {
+      "dexNumber": "12",
+      "flavorText": "Rubbing its nose against the ground, it always wanders about back and forth in search of something. It is distinguished by the zigzag footprints it leaves.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Petalburg Woods",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 6
+          },
+          {
+            "location": "Route 101",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          },
+          {
+            "location": "Route 102",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 103",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 4
+          },
+          {
+            "location": "Route 104",
+            "method": "Walk",
+            "minLevel": 4,
+            "maxLevel": 5
+          },
+          {
+            "location": "Route 110",
+            "method": "Walk",
+            "minLevel": 12,
+            "maxLevel": 12
+          },
+          {
+            "location": "Route 116",
+            "method": "Walk",
+            "minLevel": 6,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 117",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Route 118",
+            "method": "Walk",
+            "minLevel": 24,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 119",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 27
+          },
+          {
+            "location": "Route 120",
+            "method": "Walk",
+            "minLevel": 25,
+            "maxLevel": 25
+          },
+          {
+            "location": "Route 121",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          },
+          {
+            "location": "Route 123",
+            "method": "Walk",
+            "minLevel": 26,
+            "maxLevel": 26
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "flail",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "belly-drum",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "cut",
+          "dig",
+          "double-team",
+          "facade",
+          "frustration",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sunny-day",
+          "surf",
+          "thief",
+          "thunder",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "charm",
+          "pursuit",
+          "substitute",
+          "tickle",
+          "trick"
+        ],
+        "tutor": [
+          "body-slam",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "fury-cutter",
+          "icy-wind",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "flail",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "belly-drum",
+            "level": 41
+          },
+          {
+            "move": "fling",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "substitute",
+          "tickle",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": null,
+      "flavorText": "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 202",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "flail",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "belly-drum",
+            "level": 41
+          },
+          {
+            "move": "fling",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "substitute",
+          "tickle",
+          "trick"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "gunk-shot",
+          "helping-hand",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "swift",
+          "trick"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": null,
+      "flavorText": "It gets interested in everything, which is why it zigs and zags. It is good at finding items.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Bell Tower 10f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 2f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 3f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 4f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 5f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 6f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 7f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 8f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Bell Tower 9f",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 21
+          },
+          {
+            "location": "Burned Tower 1f",
+            "method": "Walk",
+            "minLevel": 13,
+            "maxLevel": 14
+          },
+          {
+            "location": "Burned Tower B1f",
+            "method": "Walk",
+            "minLevel": 14,
+            "maxLevel": 14
+          },
+          {
+            "location": "Sprout Tower 2f",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Sprout Tower 3f",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          },
+          {
+            "location": "Unknown All Rattata",
+            "method": "Walk",
+            "minLevel": 20,
+            "maxLevel": 20
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "flail",
+            "level": 33
+          },
+          {
+            "move": "rest",
+            "level": 37
+          },
+          {
+            "move": "belly-drum",
+            "level": 41
+          },
+          {
+            "move": "fling",
+            "level": 45
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "captivate",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "iron-tail",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-smash",
+          "secret-power",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "water-pulse",
+          "whirlpool"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "substitute",
+          "tickle",
+          "trick"
+        ],
+        "tutor": [
+          "fury-cutter",
+          "gunk-shot",
+          "headbutt",
+          "helping-hand",
+          "icy-wind",
+          "last-resort",
+          "mud-slap",
+          "rollout",
+          "seed-bomb",
+          "snore",
+          "super-fang",
+          "swift",
+          "trick"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "bestow",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "belly-drum",
+            "level": 45
+          },
+          {
+            "move": "fling",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "rock-climb",
+          "simple-beam",
+          "sleep-talk",
+          "tickle",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "bestow",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "belly-drum",
+            "level": 45
+          },
+          {
+            "move": "fling",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "rock-climb",
+          "simple-beam",
+          "sleep-talk",
+          "tickle",
+          "trick"
+        ],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "seed-bomb",
+          "sleep-talk",
+          "snore",
+          "super-fang",
+          "trick"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "12",
+      "flavorText": "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 2",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 4
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "headbutt",
+            "level": 9
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 11
+          },
+          {
+            "move": "sand-attack",
+            "level": 13
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 17
+          },
+          {
+            "move": "mud-sport",
+            "level": 21
+          },
+          {
+            "move": "pin-missile",
+            "level": 25
+          },
+          {
+            "move": "covet",
+            "level": 29
+          },
+          {
+            "move": "bestow",
+            "level": 33
+          },
+          {
+            "move": "flail",
+            "level": 37
+          },
+          {
+            "move": "rest",
+            "level": 41
+          },
+          {
+            "move": "belly-drum",
+            "level": 45
+          },
+          {
+            "move": "fling",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "rock-climb",
+          "simple-beam",
+          "sleep-talk",
+          "tickle",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "12",
+      "flavorText": "The hair on Zigzagoon’s back is bristly. It rubs the hard back hair against trees to leave its territorial markings. This Pokémon may play dead to fool foes in battle.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 12
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "mud-sport",
+            "level": 17
+          },
+          {
+            "move": "pin-missile",
+            "level": 19
+          },
+          {
+            "move": "covet",
+            "level": 23
+          },
+          {
+            "move": "bestow",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "rest",
+            "level": 35
+          },
+          {
+            "move": "belly-drum",
+            "level": 37
+          },
+          {
+            "move": "fling",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "cut",
+          "dig",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "hone-claws",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "return",
+          "rock-smash",
+          "round",
+          "secret-power",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "rock-climb",
+          "simple-beam",
+          "sleep-talk",
+          "tickle",
+          "trick"
+        ],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "seed-bomb",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "trick",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 12
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "mud-sport",
+            "level": 17
+          },
+          {
+            "move": "pin-missile",
+            "level": 19
+          },
+          {
+            "move": "covet",
+            "level": 23
+          },
+          {
+            "move": "bestow",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "rest",
+            "level": 35
+          },
+          {
+            "move": "belly-drum",
+            "level": 37
+          },
+          {
+            "move": "fling",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "charm",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "rock-climb",
+          "simple-beam",
+          "sleep-talk",
+          "tickle",
+          "trick"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/263.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/263.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sand-attack",
+            "level": 7
+          },
+          {
+            "move": "headbutt",
+            "level": 11
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 12
+          },
+          {
+            "move": "odor-sleuth",
+            "level": 13
+          },
+          {
+            "move": "mud-sport",
+            "level": 17
+          },
+          {
+            "move": "pin-missile",
+            "level": 19
+          },
+          {
+            "move": "covet",
+            "level": 23
+          },
+          {
+            "move": "bestow",
+            "level": 25
+          },
+          {
+            "move": "flail",
+            "level": 29
+          },
+          {
+            "move": "take-down",
+            "level": 31
+          },
+          {
+            "move": "rest",
+            "level": 35
+          },
+          {
+            "move": "belly-drum",
+            "level": 37
+          },
+          {
+            "move": "fling",
+            "level": 41
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "shadow-ball",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "work-up"
+        ],
+        "egg": [
+          "charm",
+          "extreme-speed",
+          "helping-hand",
+          "mud-slap",
+          "pursuit",
+          "rock-climb",
+          "simple-beam",
+          "sleep-talk",
+          "tickle",
+          "trick"
+        ],
+        "tutor": [
+          "covet",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "icy-wind",
+          "iron-tail",
+          "last-resort",
+          "seed-bomb",
+          "shock-wave",
+          "snore",
+          "super-fang",
+          "trick",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "31",
+      "flavorText": "Zigzagoon that adapted to regions outside Galar acquired this appearance. If you’ve lost something, this Pokémon can likely find it.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 3
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "covet",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 12
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 15
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 24
+          },
+          {
+            "move": "fling",
+            "level": 27
+          },
+          {
+            "move": "flail",
+            "level": 30
+          },
+          {
+            "move": "belly-drum",
+            "level": 33
+          },
+          {
+            "move": "double-edge",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "body-slam",
+          "charm",
+          "dig",
+          "endure",
+          "facade",
+          "fling",
+          "grass-knot",
+          "gunk-shot",
+          "helping-hand",
+          "hyper-voice",
+          "ice-beam",
+          "icy-wind",
+          "iron-tail",
+          "mud-shot",
+          "pin-missile",
+          "protect",
+          "rain-dance",
+          "rest",
+          "retaliate",
+          "round",
+          "seed-bomb",
+          "shadow-ball",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swift",
+          "tail-slap",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "trick",
+          "whirlpool",
+          "work-up"
+        ],
+        "egg": [
+          "extreme-speed",
+          "simple-beam",
+          "tickle"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "263",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/263.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Route 202 (Sinnoh) (Swarm) (Hoennian Form) | Grand Underground - Spacious Cave, Rocky Cave, Big Bluff Cavern (After obtaining the National Pokédex) (Hoennian Form) | Unobtainable (Galarian Form)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "growl",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "sand-attack",
+            "level": 3
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "covet",
+            "level": 9
+          },
+          {
+            "move": "headbutt",
+            "level": 12
+          },
+          {
+            "move": "baby-doll-eyes",
+            "level": 15
+          },
+          {
+            "move": "pin-missile",
+            "level": 18
+          },
+          {
+            "move": "rest",
+            "level": 21
+          },
+          {
+            "move": "take-down",
+            "level": 24
+          },
+          {
+            "move": "fling",
+            "level": 27
+          },
+          {
+            "move": "flail",
+            "level": 30
+          },
+          {
+            "move": "belly-drum",
+            "level": 33
+          },
+          {
+            "move": "double-edge",
+            "level": 36
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "charge-beam",
+          "cut",
+          "dig",
+          "double-team",
+          "endure",
+          "facade",
+          "fling",
+          "grass-knot",
+          "ice-beam",
+          "iron-tail",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-smash",
+          "shadow-ball",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "sunny-day",
+          "surf",
+          "swagger",
+          "thief",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "water-pulse",
+          "work-up"
+        ],
+        "egg": [
+          "charm",
+          "extreme-speed",
+          "helping-hand",
+          "mud-slap",
+          "simple-beam",
+          "tickle",
+          "trick"
+        ],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

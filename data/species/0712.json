@@ -1,0 +1,905 @@
+{
+  "dex": 712,
+  "keyword": "bergmite",
+  "name": "Bergmite",
+  "japaneseName": {
+    "kana": "カチコール",
+    "romaji": "Kachikohru"
+  },
+  "type1": "Ice",
+  "type2": null,
+  "genus": "Ice Chunk Pokémon",
+  "heightM": 1.0,
+  "weightKg": 99.5,
+  "stats": {
+    "hp": 55,
+    "attack": 69,
+    "defense": 85,
+    "specialAttack": 32,
+    "specialDefense": 35,
+    "speed": 28
+  },
+  "abilities": [
+    {
+      "name": "own-tempo",
+      "hidden": false,
+      "effect": "Prevents confusion."
+    },
+    {
+      "name": "ice-body",
+      "hidden": false,
+      "effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+    },
+    {
+      "name": "sturdy",
+      "hidden": true,
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "monster",
+      "mineral"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 20,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "blue",
+    "shape": "quadruped",
+    "habitat": null,
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 6
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      713
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0712.png",
+    "shiny": "sprites/shiny/0712.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/712.ogg",
+    "legacy": null
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "kalos": {
+      "dexNumber": "M79",
+      "flavorText": "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/712.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/712.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Frost Cavern Unknown Area 314",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          },
+          {
+            "location": "Frost Cavern Unknown Area 315",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          },
+          {
+            "location": "Frost Cavern Unknown Area 316",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          },
+          {
+            "location": "Frost Cavern Unknown Area 317",
+            "method": "Walk",
+            "minLevel": 39,
+            "maxLevel": 40
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "icy-wind",
+            "level": 10
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "sharpen",
+            "level": 20
+          },
+          {
+            "move": "curse",
+            "level": 22
+          },
+          {
+            "move": "ice-fang",
+            "level": 26
+          },
+          {
+            "move": "ice-ball",
+            "level": 30
+          },
+          {
+            "move": "rapid-spin",
+            "level": 35
+          },
+          {
+            "move": "avalanche",
+            "level": 39
+          },
+          {
+            "move": "blizzard",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 47
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "barrier",
+          "mirror-coat",
+          "mist",
+          "recover"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": null,
+      "flavorText": "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/712.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/712.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "icy-wind",
+            "level": 10
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "sharpen",
+            "level": 20
+          },
+          {
+            "move": "curse",
+            "level": 22
+          },
+          {
+            "move": "ice-fang",
+            "level": 26
+          },
+          {
+            "move": "ice-ball",
+            "level": 30
+          },
+          {
+            "move": "rapid-spin",
+            "level": 35
+          },
+          {
+            "move": "avalanche",
+            "level": 39
+          },
+          {
+            "move": "blizzard",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 47
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "flash",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-smash",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "secret-power",
+          "sleep-talk",
+          "stone-edge",
+          "strength",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "barrier",
+          "mirror-coat",
+          "mist",
+          "recover"
+        ],
+        "tutor": [
+          "after-you",
+          "icy-wind",
+          "iron-defense",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/712.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/712.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "icy-wind",
+            "level": 10
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "sharpen",
+            "level": 20
+          },
+          {
+            "move": "curse",
+            "level": 22
+          },
+          {
+            "move": "ice-fang",
+            "level": 26
+          },
+          {
+            "move": "ice-ball",
+            "level": 30
+          },
+          {
+            "move": "rapid-spin",
+            "level": 35
+          },
+          {
+            "move": "avalanche",
+            "level": 39
+          },
+          {
+            "move": "blizzard",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 47
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "barrier",
+          "mirror-coat",
+          "mist",
+          "recover"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": null,
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/712.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/712.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "bite",
+            "level": 1
+          },
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "icy-wind",
+            "level": 10
+          },
+          {
+            "move": "take-down",
+            "level": 15
+          },
+          {
+            "move": "sharpen",
+            "level": 20
+          },
+          {
+            "move": "curse",
+            "level": 22
+          },
+          {
+            "move": "ice-fang",
+            "level": 26
+          },
+          {
+            "move": "ice-ball",
+            "level": 30
+          },
+          {
+            "move": "rapid-spin",
+            "level": 35
+          },
+          {
+            "move": "avalanche",
+            "level": 39
+          },
+          {
+            "move": "blizzard",
+            "level": 43
+          },
+          {
+            "move": "recover",
+            "level": 47
+          },
+          {
+            "move": "double-edge",
+            "level": 49
+          }
+        ],
+        "machine": [
+          "attract",
+          "blizzard",
+          "confide",
+          "double-team",
+          "facade",
+          "flash-cannon",
+          "frost-breath",
+          "frustration",
+          "gyro-ball",
+          "hail",
+          "hidden-power",
+          "ice-beam",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rock-polish",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "stone-edge",
+          "substitute",
+          "surf",
+          "swagger",
+          "toxic"
+        ],
+        "egg": [
+          "barrier",
+          "mirror-coat",
+          "mist",
+          "recover"
+        ],
+        "tutor": [
+          "after-you",
+          "icy-wind",
+          "iron-defense",
+          "snore",
+          "water-pulse"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "358",
+      "flavorText": "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 3
+          },
+          {
+            "move": "powder-snow",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "avalanche",
+            "level": 18
+          },
+          {
+            "move": "bite",
+            "level": 21
+          },
+          {
+            "move": "ice-fang",
+            "level": 24
+          },
+          {
+            "move": "iron-defense",
+            "level": 27
+          },
+          {
+            "move": "recover",
+            "level": 30
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 36
+          },
+          {
+            "move": "blizzard",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "attract",
+          "avalanche",
+          "blizzard",
+          "crunch",
+          "endure",
+          "facade",
+          "flash-cannon",
+          "gyro-ball",
+          "hail",
+          "ice-beam",
+          "ice-fang",
+          "icicle-spear",
+          "icy-wind",
+          "iron-defense",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "round",
+          "safeguard",
+          "sleep-talk",
+          "snore",
+          "stone-edge",
+          "substitute",
+          "surf"
+        ],
+        "egg": [
+          "aurora-veil",
+          "mirror-coat",
+          "mist"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "215",
+      "flavorText": "Lives on mountains blanketed in perennial snow. It freezes water vapor in the air to make the ice helmet that it dons for defense.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Alabaster Icelands: near Avalanche Slopes, near Whiteout Valley, Bonechill Wastes, Arena's Approach, Avalugg's Legacy, near Glacier Terrace, Crevasse Passage, Icepeak Cavern, Ice Column Chamber, massive mass outbreaks"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tackle",
+            "level": 1
+          },
+          {
+            "move": "powder-snow",
+            "level": 5
+          },
+          {
+            "move": "ice-shard",
+            "level": 9
+          },
+          {
+            "move": "bite",
+            "level": 15
+          },
+          {
+            "move": "iron-defense",
+            "level": 21
+          },
+          {
+            "move": "crunch",
+            "level": 29
+          },
+          {
+            "move": "blizzard",
+            "level": 37
+          },
+          {
+            "move": "double-edge",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P363",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/712.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "North Province: North Paldean Sea, Casseroya Lake, Glaseado Mountain | Tera Raid Battles (3★ Bergmite)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "harden",
+            "level": 1
+          },
+          {
+            "move": "rapid-spin",
+            "level": 1
+          },
+          {
+            "move": "tackle",
+            "level": 3
+          },
+          {
+            "move": "powder-snow",
+            "level": 6
+          },
+          {
+            "move": "curse",
+            "level": 9
+          },
+          {
+            "move": "icy-wind",
+            "level": 12
+          },
+          {
+            "move": "protect",
+            "level": 15
+          },
+          {
+            "move": "avalanche",
+            "level": 18
+          },
+          {
+            "move": "bite",
+            "level": 21
+          },
+          {
+            "move": "ice-fang",
+            "level": 24
+          },
+          {
+            "move": "iron-defense",
+            "level": 27
+          },
+          {
+            "move": "recover",
+            "level": 30
+          },
+          {
+            "move": "crunch",
+            "level": 33
+          },
+          {
+            "move": "take-down",
+            "level": 36
+          },
+          {
+            "move": "blizzard",
+            "level": 39
+          },
+          {
+            "move": "double-edge",
+            "level": 42
+          }
+        ],
+        "machine": [
+          "avalanche",
+          "blizzard",
+          "body-slam",
+          "bulldoze",
+          "chilling-water",
+          "crunch",
+          "curse",
+          "double-edge",
+          "endure",
+          "facade",
+          "gyro-ball",
+          "ice-beam",
+          "ice-fang",
+          "ice-spinner",
+          "icicle-spear",
+          "icy-wind",
+          "iron-defense",
+          "protect",
+          "rain-dance",
+          "rest",
+          "rock-slide",
+          "rock-tomb",
+          "sleep-talk",
+          "snowscape",
+          "stone-edge",
+          "substitute",
+          "take-down",
+          "tera-blast"
+        ],
+        "egg": [
+          "aurora-veil",
+          "mirror-coat",
+          "mist"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "174",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Bleu District: Wild Zone 12",
+          "Hyperspace Lumiose (3★ & 4★ Ice-type wild zones, 4★ Rock-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}

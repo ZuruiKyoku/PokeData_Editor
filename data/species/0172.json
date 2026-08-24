@@ -1,0 +1,1465 @@
+{
+  "dex": 172,
+  "keyword": "pichu",
+  "name": "Pichu",
+  "japaneseName": {
+    "kana": "ピチュー",
+    "romaji": "Pichu"
+  },
+  "type1": "Electric",
+  "type2": null,
+  "genus": "Tiny Mouse Pokémon",
+  "heightM": 0.3,
+  "weightKg": 2.0,
+  "stats": {
+    "hp": 20,
+    "attack": 40,
+    "defense": 15,
+    "specialAttack": 35,
+    "specialDefense": 35,
+    "speed": 60
+  },
+  "abilities": [
+    {
+      "name": "static",
+      "hidden": false,
+      "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+    },
+    {
+      "name": "lightning-rod",
+      "hidden": true,
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    }
+  ],
+  "breeding": {
+    "eggGroups": [
+      "no-eggs"
+    ],
+    "genderRateEighthsFemale": 4,
+    "hatchCycles": 10,
+    "captureRate": 190,
+    "baseFriendship": 70,
+    "growthRate": "medium"
+  },
+  "classification": {
+    "color": "yellow",
+    "shape": "quadruped",
+    "habitat": "forest",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": true,
+    "generationIntroduced": 2
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [
+      25
+    ]
+  },
+  "homeSprites": {
+    "regular": "sprites/regular/0172.png",
+    "shiny": "sprites/shiny/0172.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/172.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/172.ogg"
+  },
+  "forms": [
+    {
+      "formCode": null,
+      "formName": null,
+      "isFemale": false
+    }
+  ],
+  "games": {
+    "original-johto": {
+      "dexNumber": "21",
+      "flavorText": "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ii/crystal/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 34",
+            "method": "Gift Egg",
+            "minLevel": 5,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "thunder-wave",
+            "level": 8
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 11
+          }
+        ],
+        "machine": [
+          "attract",
+          "curse",
+          "defense-curl",
+          "detect",
+          "double-team",
+          "endure",
+          "flash",
+          "frustration",
+          "headbutt",
+          "hidden-power",
+          "iron-tail",
+          "mud-slap",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "rollout",
+          "sleep-talk",
+          "snore",
+          "swagger",
+          "swift",
+          "thunder",
+          "toxic",
+          "zap-cannon"
+        ],
+        "egg": [
+          "bide",
+          "double-slap",
+          "encore",
+          "present",
+          "reversal"
+        ],
+        "tutor": [
+          "thunderbolt"
+        ]
+      }
+    },
+    "hoenn": {
+      "dexNumber": "155",
+      "flavorText": "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 6
+          },
+          {
+            "move": "thunder-wave",
+            "level": 8
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 11
+          }
+        ],
+        "machine": [
+          "attract",
+          "double-team",
+          "facade",
+          "flash",
+          "frustration",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "thunder",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "charge",
+          "double-slap",
+          "encore",
+          "present",
+          "reversal",
+          "wish"
+        ],
+        "tutor": [
+          "body-slam",
+          "counter",
+          "defense-curl",
+          "double-edge",
+          "endure",
+          "mega-kick",
+          "mega-punch",
+          "mimic",
+          "mud-slap",
+          "rollout",
+          "seismic-toss",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "swagger",
+          "swift",
+          "thunder-wave"
+        ]
+      }
+    },
+    "original-sinnoh": {
+      "dexNumber": "103",
+      "flavorText": "It plays with others by touching tails and setting off sparks. This appears to be a test of courage.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Trophy Garden",
+            "method": "Walk",
+            "minLevel": 16,
+            "maxLevel": 16
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 10
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 13
+          },
+          {
+            "move": "nasty-plot",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "charge",
+          "double-slap",
+          "encore",
+          "fake-out",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "extended-sinnoh": {
+      "dexNumber": "103",
+      "flavorText": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Trophy Garden",
+            "method": "Walk",
+            "minLevel": 21,
+            "maxLevel": 22
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 10
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 13
+          },
+          {
+            "move": "nasty-plot",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "charge",
+          "double-slap",
+          "encore",
+          "fake-out",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": [
+          "helping-hand",
+          "magnet-rise",
+          "mud-slap",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "updated-johto": {
+      "dexNumber": "21",
+      "flavorText": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/heartgold-soulsilver/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 10
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 13
+          },
+          {
+            "move": "nasty-plot",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "captivate",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "iron-tail",
+          "light-screen",
+          "natural-gift",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "secret-power",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic"
+        ],
+        "egg": [
+          "bide",
+          "charge",
+          "double-slap",
+          "encore",
+          "fake-out",
+          "flail",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": [
+          "headbutt",
+          "helping-hand",
+          "magnet-rise",
+          "mud-slap",
+          "rollout",
+          "signal-beam",
+          "snore",
+          "swift",
+          "uproar"
+        ]
+      }
+    },
+    "original-unova": {
+      "dexNumber": null,
+      "flavorText": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 10
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 13
+          },
+          {
+            "move": "nasty-plot",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "bestow",
+          "bide",
+          "charge",
+          "double-slap",
+          "encore",
+          "endure",
+          "fake-out",
+          "flail",
+          "lucky-chant",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-unova": {
+      "dexNumber": null,
+      "flavorText": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 10
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 13
+          },
+          {
+            "move": "nasty-plot",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "bestow",
+          "bide",
+          "charge",
+          "double-slap",
+          "encore",
+          "endure",
+          "fake-out",
+          "flail",
+          "lucky-chant",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": [
+          "covet",
+          "helping-hand",
+          "iron-tail",
+          "magnet-rise",
+          "signal-beam",
+          "sleep-talk",
+          "snore",
+          "uproar"
+        ]
+      }
+    },
+    "kalos": {
+      "dexNumber": "35",
+      "flavorText": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 10
+          },
+          {
+            "move": "thunder-wave",
+            "level": 13
+          },
+          {
+            "move": "nasty-plot",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "bestow",
+          "bide",
+          "charge",
+          "disarming-voice",
+          "double-slap",
+          "encore",
+          "endure",
+          "fake-out",
+          "flail",
+          "lucky-chant",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-hoenn": {
+      "dexNumber": "162",
+      "flavorText": "When Pichu plays with others, it may short out electricity with another Pichu, creating a shower of sparks. In that event, this Pokémon will begin crying, startled by the flash of sparks.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 10
+          },
+          {
+            "move": "nasty-plot",
+            "level": 13
+          },
+          {
+            "move": "thunder-wave",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "flash",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "secret-power",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "bestow",
+          "bide",
+          "charge",
+          "disarming-voice",
+          "double-slap",
+          "encore",
+          "endure",
+          "fake-out",
+          "flail",
+          "lucky-chant",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": [
+          "covet",
+          "electroweb",
+          "helping-hand",
+          "iron-tail",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "original-alola": {
+      "dexNumber": "24",
+      "flavorText": "Despite this Pokémon’s cute appearance, those who want to live with one should prepare to be on the receiving end of its electric jolts.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Hauoli City Shopping District",
+            "method": "Walk",
+            "minLevel": 5,
+            "maxLevel": 8
+          },
+          {
+            "location": "Route 1 West",
+            "method": "Walk",
+            "minLevel": 3,
+            "maxLevel": 5
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 10
+          },
+          {
+            "move": "nasty-plot",
+            "level": 13
+          },
+          {
+            "move": "thunder-wave",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "bestow",
+          "bide",
+          "charge",
+          "disarming-voice",
+          "double-slap",
+          "electric-terrain",
+          "encore",
+          "endure",
+          "fake-out",
+          "flail",
+          "lucky-chant",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "updated-alola": {
+      "dexNumber": "31",
+      "flavorText": "It has electric sacs in its cheeks. When they’re fully charged, Pichu plays very energetically.",
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/172.png",
+        "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/172.png"
+      },
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "structuredEntries": [
+          {
+            "location": "Route 1 East",
+            "method": "Walk",
+            "minLevel": 2,
+            "maxLevel": 3
+          }
+        ],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "charm",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "tail-whip",
+            "level": 5
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 10
+          },
+          {
+            "move": "nasty-plot",
+            "level": 13
+          },
+          {
+            "move": "thunder-wave",
+            "level": 18
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "confide",
+          "double-team",
+          "echoed-voice",
+          "facade",
+          "fling",
+          "frustration",
+          "grass-knot",
+          "hidden-power",
+          "light-screen",
+          "protect",
+          "rain-dance",
+          "rest",
+          "return",
+          "round",
+          "sleep-talk",
+          "substitute",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "toxic",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "bestow",
+          "bide",
+          "charge",
+          "disarming-voice",
+          "double-slap",
+          "electric-terrain",
+          "encore",
+          "endure",
+          "fake-out",
+          "flail",
+          "lucky-chant",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": [
+          "covet",
+          "electroweb",
+          "helping-hand",
+          "iron-tail",
+          "magnet-rise",
+          "shock-wave",
+          "signal-beam",
+          "snore",
+          "thunder-punch",
+          "uproar"
+        ]
+      }
+    },
+    "swsh": {
+      "dexNumber": "193",
+      "flavorText": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "structured",
+        "source": null,
+        "structuredEntries": [],
+        "freeTextEntries": []
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 4
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 8
+          },
+          {
+            "move": "nuzzle",
+            "level": 12
+          },
+          {
+            "move": "nasty-plot",
+            "level": 16
+          },
+          {
+            "move": "charm",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "attract",
+          "body-slam",
+          "charm",
+          "electric-terrain",
+          "electroweb",
+          "encore",
+          "endure",
+          "facade",
+          "fling",
+          "grass-knot",
+          "helping-hand",
+          "iron-tail",
+          "light-screen",
+          "mega-kick",
+          "mega-punch",
+          "nasty-plot",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "reversal",
+          "round",
+          "sleep-talk",
+          "snore",
+          "substitute",
+          "surf",
+          "swift",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "uproar",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "charge",
+          "disarming-voice",
+          "fake-out",
+          "flail",
+          "present",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "bdsp": {
+      "dexNumber": "172",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/172.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Trophy Garden"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 4
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 8
+          },
+          {
+            "move": "nuzzle",
+            "level": 12
+          },
+          {
+            "move": "nasty-plot",
+            "level": 16
+          },
+          {
+            "move": "charm",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "attract",
+          "charge-beam",
+          "double-team",
+          "endure",
+          "facade",
+          "flash",
+          "fling",
+          "grass-knot",
+          "iron-tail",
+          "light-screen",
+          "nasty-plot",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "shock-wave",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swagger",
+          "thunder",
+          "thunder-wave",
+          "thunderbolt",
+          "volt-switch"
+        ],
+        "egg": [
+          "charge",
+          "disarming-voice",
+          "electric-terrain",
+          "encore",
+          "fake-out",
+          "flail",
+          "present",
+          "reversal",
+          "thunder-punch",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "pla": {
+      "dexNumber": "55",
+      "flavorText": "Pichu stores electricity in the sacs on its cheeks but discharges it inadvertently when agitated or excited. Being yet immature, the Pokémon's handling of electricity is rather inept.",
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Obsidian Fieldlands: near Aspiration Hill, Floaro Gardens, Nature's Pantry, massive mass outbreaks | Crimson Mirelands: near Golden Lowlands"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "quick-attack",
+            "level": 5
+          },
+          {
+            "move": "thunder-wave",
+            "level": 9
+          },
+          {
+            "move": "swift",
+            "level": 15
+          },
+          {
+            "move": "spark",
+            "level": 21
+          },
+          {
+            "move": "thunderbolt",
+            "level": 29
+          },
+          {
+            "move": "iron-tail",
+            "level": 37
+          },
+          {
+            "move": "thunder",
+            "level": 47
+          }
+        ],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    },
+    "sv": {
+      "dexNumber": "P073",
+      "flavorText": null,
+      "sprites": {
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/172.png",
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "South Province: Area One, Area Two, Los Platos | Tera Raid Battles (1★ Pichu)",
+          "Kitakami Road, Apple Hills, Loyalty Plaza, Reveler's Road, Oni Mountain, Oni's Maw, Infernal Pass, Crystal Pool, Wistful Fields"
+        ]
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "move": "tail-whip",
+            "level": 1
+          },
+          {
+            "move": "thunder-shock",
+            "level": 1
+          },
+          {
+            "move": "play-nice",
+            "level": 4
+          },
+          {
+            "move": "sweet-kiss",
+            "level": 8
+          },
+          {
+            "move": "nuzzle",
+            "level": 12
+          },
+          {
+            "move": "nasty-plot",
+            "level": 16
+          },
+          {
+            "move": "charm",
+            "level": 20
+          }
+        ],
+        "machine": [
+          "body-slam",
+          "charge",
+          "charm",
+          "disarming-voice",
+          "electric-terrain",
+          "electro-ball",
+          "electroweb",
+          "encore",
+          "endure",
+          "facade",
+          "fling",
+          "grass-knot",
+          "helping-hand",
+          "light-screen",
+          "nasty-plot",
+          "play-rough",
+          "protect",
+          "rain-dance",
+          "reflect",
+          "rest",
+          "reversal",
+          "sleep-talk",
+          "substitute",
+          "surf",
+          "swift",
+          "take-down",
+          "tera-blast",
+          "thunder",
+          "thunder-punch",
+          "thunder-wave",
+          "thunderbolt",
+          "trailblaze",
+          "volt-switch",
+          "wild-charge"
+        ],
+        "egg": [
+          "charge",
+          "disarming-voice",
+          "fake-out",
+          "flail",
+          "present",
+          "tickle",
+          "wish"
+        ],
+        "tutor": []
+      }
+    },
+    "plza": {
+      "dexNumber": "52",
+      "flavorText": null,
+      "sprites": {
+        "regular": null,
+        "shiny": null
+      },
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "structuredEntries": [],
+        "freeTextEntries": [
+          "Vert District: Wild Zone 1",
+          "Hyperspace Lumiose (2★ Electric-type wild zones)"
+        ]
+      },
+      "learnset": {
+        "levelUp": [],
+        "machine": [],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": [
+      "pokeapi",
+      "spreadsheet",
+      "bulbapedia"
+    ],
+    "lastUpdated": "2026-08-24"
+  }
+}
