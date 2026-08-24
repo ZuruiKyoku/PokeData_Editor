@@ -1,0 +1,90 @@
+{
+  "dex": 1,
+  "keyword": "bulbasaur",
+  "name": "Bulbasaur",
+  "japaneseName": { "kana": "フシギダネ", "romaji": "Fushigidane" },
+  "type1": "Grass",
+  "type2": "Poison",
+  "genus": "Seed Pokémon",
+  "heightM": 0.7,
+  "weightKg": 6.9,
+  "flavorText": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+  "flavorTextSourceGame": "shield",
+  "stats": {
+    "hp": 45, "attack": 49, "defense": 49,
+    "specialAttack": 65, "specialDefense": 65, "speed": 45
+  },
+  "abilities": [
+    { "name": "overgrow", "hidden": false, "effect": "Strengthens grass moves to inflict 1.5x damage at 1/3 max HP or less." },
+    { "name": "chlorophyll", "hidden": true, "effect": "Doubles Speed during strong sunlight." }
+  ],
+  "breeding": {
+    "eggGroups": ["Monster", "Grass"],
+    "genderRateEighthsFemale": 1,
+    "hatchCycles": 20,
+    "captureRate": 45,
+    "baseFriendship": 70,
+    "growthRate": "medium-slow"
+  },
+  "classification": {
+    "color": "Green",
+    "shape": "quadruped",
+    "habitat": "grassland",
+    "isLegendary": false,
+    "isMythical": false,
+    "isBaby": false,
+    "generationIntroduced": 1
+  },
+  "genderDifference": null,
+  "evolution": {
+    "evolvesFromDex": null,
+    "evolvesIntoDex": [2]
+  },
+  "sprites": {
+    "regular": "sprites/regular/0001.png",
+    "shiny": "sprites/shiny/0001.png"
+  },
+  "cries": {
+    "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/1.ogg",
+    "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/1.ogg"
+  },
+  "forms": [
+    { "formCode": null, "formName": null, "isFemale": false }
+  ],
+  "games": {
+    "sword-shield": {
+      "dexNumber": "A068",
+      "locations": {
+        "type": "structured",
+        "source": "pokeapi",
+        "entries": [
+          { "location": "Route 1", "method": "Walk", "minLevel": 3, "maxLevel": 5 }
+        ]
+      },
+      "learnset": {
+        "levelUp": [{ "move": "tackle", "level": 1 }, { "move": "vine-whip", "level": 15 }],
+        "machine": ["toxic", "protect"],
+        "egg": ["leech-seed"],
+        "tutor": []
+      }
+    },
+    "scarlet-violet": {
+      "dexNumber": "P080",
+      "locations": {
+        "type": "freeText",
+        "source": "bulbapedia",
+        "entries": ["Coastal Biome, Torchlit Labyrinth"]
+      },
+      "learnset": {
+        "levelUp": [{ "move": "tackle", "level": 1 }],
+        "machine": ["toxic"],
+        "egg": [],
+        "tutor": []
+      }
+    }
+  },
+  "meta": {
+    "sources": ["pokeapi", "spreadsheet", "bulbapedia"],
+    "lastUpdated": "2026-08-23"
+  }
+}
