@@ -144,7 +144,15 @@ public class LocationEntry
 
 public class LearnsetInfo
 {
+    /// <summary>The flattened level-up list - when a game bucket actually merges multiple
+    /// versions with different in-game timings (see <see cref="LevelUpVariants"/>), this is
+    /// every version's rows together, duplicates and all, kept for anything not variant-aware.</summary>
     public ObservableCollection<LevelUpMove> LevelUp { get; set; } = new();
+    /// <summary>Populated only when the versions folded into this game bucket actually
+    /// disagree on level-up timing (e.g. Red/Blue/Yellow vs FireRed/LeafGreen) - each entry is
+    /// one group of versions that agree with each other. Empty/absent when they don't diverge,
+    /// which is the common case; <see cref="LevelUp"/> stays the same either way.</summary>
+    public ObservableCollection<LevelUpVariant> LevelUpVariants { get; set; } = new();
     public ObservableCollection<string> Machine { get; set; } = new();
     public ObservableCollection<string> Egg { get; set; } = new();
     public ObservableCollection<string> Tutor { get; set; } = new();
@@ -154,6 +162,15 @@ public class LevelUpMove
 {
     public string Move { get; set; } = "";
     public int? Level { get; set; }
+}
+
+/// <summary>One group of versions (within a single game bucket) that agree with each other on
+/// level-up timing - e.g. "Red / Blue / Yellow" as one group and "FireRed / LeafGreen" as another
+/// within the "kanto" bucket.</summary>
+public class LevelUpVariant
+{
+    public string Label { get; set; } = "";
+    public ObservableCollection<LevelUpMove> LevelUp { get; set; } = new();
 }
 
 public class RecordMeta

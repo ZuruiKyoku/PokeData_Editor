@@ -9,8 +9,8 @@
   "type1": "Grass",
   "type2": "Poison",
   "genus": "Seed Pokémon",
-  "heightM": 1.0,
-  "weightKg": 13.0,
+  "heightM": 1,
+  "weightKg": 13,
   "stats": {
     "hp": 60,
     "attack": 62,
@@ -51,7 +51,6 @@
     "isBaby": false,
     "generationIntroduced": 1
   },
-  "genderDifference": null,
   "evolution": {
     "evolvesFromDex": 1,
     "evolvesIntoDex": [
@@ -68,8 +67,6 @@
   },
   "forms": [
     {
-      "formCode": null,
-      "formName": null,
       "isFemale": false
     }
   ],
@@ -78,12 +75,10 @@
       "dexNumber": "2",
       "flavorText": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
       "sprites": {
-        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/2.png",
-        "shiny": null
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/2.png"
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -200,6 +195,98 @@
           "mimic",
           "substitute",
           "swords-dance"
+        ],
+        "levelUpVariants": [
+          {
+            "label": "Red / Blue / Yellow",
+            "levelUp": [
+              {
+                "move": "growl",
+                "level": 1
+              },
+              {
+                "move": "tackle",
+                "level": 1
+              },
+              {
+                "move": "leech-seed",
+                "level": 7
+              },
+              {
+                "move": "vine-whip",
+                "level": 13
+              },
+              {
+                "move": "poison-powder",
+                "level": 22
+              },
+              {
+                "move": "razor-leaf",
+                "level": 30
+              },
+              {
+                "move": "growth",
+                "level": 38
+              },
+              {
+                "move": "sleep-powder",
+                "level": 46
+              },
+              {
+                "move": "solar-beam",
+                "level": 54
+              }
+            ]
+          },
+          {
+            "label": "FireRed / LeafGreen",
+            "levelUp": [
+              {
+                "move": "tackle",
+                "level": 1
+              },
+              {
+                "move": "growl",
+                "level": 4
+              },
+              {
+                "move": "leech-seed",
+                "level": 7
+              },
+              {
+                "move": "vine-whip",
+                "level": 10
+              },
+              {
+                "move": "poison-powder",
+                "level": 15
+              },
+              {
+                "move": "sleep-powder",
+                "level": 15
+              },
+              {
+                "move": "razor-leaf",
+                "level": 22
+              },
+              {
+                "move": "sweet-scent",
+                "level": 29
+              },
+              {
+                "move": "growth",
+                "level": 38
+              },
+              {
+                "move": "synthesis",
+                "level": 47
+              },
+              {
+                "move": "solar-beam",
+                "level": 56
+              }
+            ]
+          }
         ]
       }
     },
@@ -212,7 +299,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -301,7 +387,6 @@
       }
     },
     "hoenn": {
-      "dexNumber": null,
       "flavorText": "To support its bulb, IVYSAUR’s legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/2.png",
@@ -309,7 +394,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -407,7 +491,6 @@
       }
     },
     "original-sinnoh": {
-      "dexNumber": null,
       "flavorText": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower’s coming bloom.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/2.png",
@@ -415,7 +498,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -521,7 +603,6 @@
       }
     },
     "extended-sinnoh": {
-      "dexNumber": null,
       "flavorText": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower’s coming bloom.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/2.png",
@@ -529,7 +610,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -650,7 +730,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -766,7 +845,6 @@
       }
     },
     "original-unova": {
-      "dexNumber": null,
       "flavorText": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower’s coming bloom.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/2.png",
@@ -774,7 +852,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -880,7 +957,6 @@
       }
     },
     "updated-unova": {
-      "dexNumber": null,
       "flavorText": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower’s coming bloom.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/2.png",
@@ -888,7 +964,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1010,7 +1085,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1119,7 +1193,6 @@
       }
     },
     "updated-hoenn": {
-      "dexNumber": null,
       "flavorText": "There is a bud on this Pokémon’s back. To support its weight, Ivysaur’s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it’s a sign that the bud will bloom into a large flower soon.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/2.png",
@@ -1127,7 +1200,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1244,15 +1316,12 @@
       }
     },
     "original-alola": {
-      "dexNumber": null,
-      "flavorText": null,
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/2.png",
         "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/2.png"
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1358,15 +1427,12 @@
       }
     },
     "updated-alola": {
-      "dexNumber": null,
-      "flavorText": null,
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/2.png",
         "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/2.png"
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1481,13 +1547,9 @@
     "letsgo-kanto": {
       "dexNumber": "2",
       "flavorText": "The bud on its back grows by drawing energy. It gives off an aroma when it is ready to bloom.",
-      "sprites": {
-        "regular": null,
-        "shiny": null
-      },
+      "sprites": {},
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1567,13 +1629,9 @@
     "swsh": {
       "dexNumber": "A069",
       "flavorText": "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
-      "sprites": {
-        "regular": null,
-        "shiny": null
-      },
+      "sprites": {},
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1683,10 +1741,8 @@
     },
     "bdsp": {
       "dexNumber": "2",
-      "flavorText": null,
       "sprites": {
-        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/2.png",
-        "shiny": null
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/2.png"
       },
       "locations": {
         "type": "freeText",
@@ -1793,10 +1849,8 @@
     },
     "sv": {
       "dexNumber": "B165",
-      "flavorText": null,
       "sprites": {
-        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/2.png",
-        "shiny": null
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/2.png"
       },
       "locations": {
         "type": "freeText",
@@ -1917,11 +1971,7 @@
     },
     "plza": {
       "dexNumber": "149",
-      "flavorText": null,
-      "sprites": {
-        "regular": null,
-        "shiny": null
-      },
+      "sprites": {},
       "locations": {
         "type": "freeText",
         "source": "bulbapedia",

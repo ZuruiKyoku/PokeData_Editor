@@ -51,9 +51,7 @@
     "isBaby": false,
     "generationIntroduced": 1
   },
-  "genderDifference": null,
   "evolution": {
-    "evolvesFromDex": null,
     "evolvesIntoDex": [
       2
     ]
@@ -68,8 +66,6 @@
   },
   "forms": [
     {
-      "formCode": null,
-      "formName": null,
       "isFemale": false
     }
   ],
@@ -78,8 +74,7 @@
       "dexNumber": "1",
       "flavorText": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
       "sprites": {
-        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/1.png",
-        "shiny": null
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-i/red-blue/1.png"
       },
       "locations": {
         "type": "structured",
@@ -222,6 +217,98 @@
           "mimic",
           "substitute",
           "swords-dance"
+        ],
+        "levelUpVariants": [
+          {
+            "label": "Red / Blue / Yellow",
+            "levelUp": [
+              {
+                "move": "growl",
+                "level": 1
+              },
+              {
+                "move": "tackle",
+                "level": 1
+              },
+              {
+                "move": "leech-seed",
+                "level": 7
+              },
+              {
+                "move": "vine-whip",
+                "level": 13
+              },
+              {
+                "move": "poison-powder",
+                "level": 20
+              },
+              {
+                "move": "razor-leaf",
+                "level": 27
+              },
+              {
+                "move": "growth",
+                "level": 34
+              },
+              {
+                "move": "sleep-powder",
+                "level": 41
+              },
+              {
+                "move": "solar-beam",
+                "level": 48
+              }
+            ]
+          },
+          {
+            "label": "FireRed / LeafGreen",
+            "levelUp": [
+              {
+                "move": "tackle",
+                "level": 1
+              },
+              {
+                "move": "growl",
+                "level": 4
+              },
+              {
+                "move": "leech-seed",
+                "level": 7
+              },
+              {
+                "move": "vine-whip",
+                "level": 10
+              },
+              {
+                "move": "poison-powder",
+                "level": 15
+              },
+              {
+                "move": "sleep-powder",
+                "level": 15
+              },
+              {
+                "move": "razor-leaf",
+                "level": 20
+              },
+              {
+                "move": "sweet-scent",
+                "level": 25
+              },
+              {
+                "move": "growth",
+                "level": 32
+              },
+              {
+                "move": "synthesis",
+                "level": 39
+              },
+              {
+                "move": "solar-beam",
+                "level": 46
+              }
+            ]
+          }
         ]
       }
     },
@@ -234,7 +321,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -322,7 +408,6 @@
       }
     },
     "hoenn": {
-      "dexNumber": null,
       "flavorText": "BULBASAUR can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/ruby-sapphire/1.png",
@@ -330,7 +415,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -429,7 +513,6 @@
       }
     },
     "original-sinnoh": {
-      "dexNumber": null,
       "flavorText": "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/diamond-pearl/1.png",
@@ -437,7 +520,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -548,7 +630,6 @@
       }
     },
     "extended-sinnoh": {
-      "dexNumber": null,
       "flavorText": "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iv/platinum/1.png",
@@ -556,7 +637,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -812,7 +892,6 @@
       }
     },
     "original-unova": {
-      "dexNumber": null,
       "flavorText": "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/1.png",
@@ -820,7 +899,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -933,7 +1011,6 @@
       }
     },
     "updated-unova": {
-      "dexNumber": null,
       "flavorText": "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/1.png",
@@ -941,7 +1018,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1194,7 +1270,6 @@
       }
     },
     "updated-hoenn": {
-      "dexNumber": null,
       "flavorText": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/1.png",
@@ -1202,7 +1277,6 @@
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1327,15 +1401,12 @@
       }
     },
     "original-alola": {
-      "dexNumber": null,
-      "flavorText": null,
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/1.png",
         "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/1.png"
       },
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1449,8 +1520,6 @@
       }
     },
     "updated-alola": {
-      "dexNumber": null,
-      "flavorText": null,
       "sprites": {
         "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/1.png",
         "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/1.png"
@@ -1587,13 +1656,9 @@
     "letsgo-kanto": {
       "dexNumber": "1",
       "flavorText": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy.",
-      "sprites": {
-        "regular": null,
-        "shiny": null
-      },
+      "sprites": {},
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1661,13 +1726,9 @@
     "swsh": {
       "dexNumber": "A068",
       "flavorText": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
-      "sprites": {
-        "regular": null,
-        "shiny": null
-      },
+      "sprites": {},
       "locations": {
         "type": "structured",
-        "source": null,
         "structuredEntries": [],
         "freeTextEntries": []
       },
@@ -1784,10 +1845,8 @@
     },
     "bdsp": {
       "dexNumber": "1",
-      "flavorText": null,
       "sprites": {
-        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/1.png",
-        "shiny": null
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/1.png"
       },
       "locations": {
         "type": "freeText",
@@ -1907,10 +1966,8 @@
     },
     "sv": {
       "dexNumber": "B164",
-      "flavorText": null,
       "sprites": {
-        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/1.png",
-        "shiny": null
+        "regular": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/1.png"
       },
       "locations": {
         "type": "freeText",
@@ -2030,11 +2087,7 @@
     },
     "plza": {
       "dexNumber": "148",
-      "flavorText": null,
-      "sprites": {
-        "regular": null,
-        "shiny": null
-      },
+      "sprites": {},
       "locations": {
         "type": "freeText",
         "source": "bulbapedia",
