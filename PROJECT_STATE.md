@@ -24,7 +24,7 @@ A Windows editor for the per-species and per-game reference data shared with Pok
 - Local working branch at audit: `claude/artifact-session-ehr5xx`; code snapshot `41451692bf917eaf4f91fecb13fd3f85f53d8eee`.
 - Pre-existing working-tree changes: **0** entries. These were not staged, committed or discarded by continuity setup.
 - Live GitHub default: `claude/artifact-session-ehr5xx` at `41451692bf917eaf4f91fecb13fd3f85f53d8eee`.
-- Documentation is prepared on `docs/project-continuity-2026-10-12` from that default. Feature-branch implementation described below is not thereby merged.
+- Continuity documentation was prepared from the reviewed `claude/artifact-session-ehr5xx` baseline. This documentation-only delivery includes no feature-branch implementation.
 - Repository: https://github.com/ZuruiKyoku/PokeData_Editor (public).
 
 ## Completed work
@@ -70,8 +70,8 @@ These are source/history findings; historical test reports are labeled and are n
 
 ## Session handoff
 
-- Last task: establish PROJECT_STATE.md and additive agent instructions from available project evidence.
+- Last task (2026-10-12): deliver the continuity documentation to the existing remote default branch `claude/artifact-session-ehr5xx`, as explicitly authorized by the user. Application changes and feature acceptance remain separate.
 - Documentation scope: preserve all pre-existing code, assets, branches, indexes and acceptance gates. A documentation branch does not back up uncommitted application work.
-- Publication state: consult the actual Git log/remote branch; do not assume a prepared branch was pushed or merged. The continuity report records the verified publication result.
+- Publication evidence: original documentation commit `a0bd870f62ca5527a40d116d814e7cdd87d9bd0d`; delivery targets `claude/artifact-session-ehr5xx` by normal fast-forward push. Confirm inclusion with Git ancestry; the external continuity report records the post-push remote SHA. Original local checkouts are not pulled or switched during delivery.
 - Next owner: follow Next steps above, fill historical gaps, and replace stale status with dated evidence after meaningful work.
 - Archive readiness: incomplete history and any local-only implementation still need reconciliation; do not infer that archiving all project chats is lossless.
